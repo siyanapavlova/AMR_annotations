@@ -1,0 +1,42 @@
+% The predicate has a subject and an object
+rule pred_nsubj_obj(lex from "lexicons/subcat/verb_nsubj_obj.lp"){
+	pattern {
+		V[cat=VERB,lemma=lex.lemma];
+		nsubj_rel: V -[nsubj]-> NSUBJ;
+		obj_rel: V -[obj]-> OBJ;
+	}
+	commands {
+		del_edge nsubj_rel;
+		del_edge obj_rel;
+		add_edge V -[lex.doer]-> NSUBJ;
+		add_edge V -[lex.patient]-> OBJ;
+		V.concept = lex.concept;
+		NSUBJ.concept = NSUBJ.form;
+		OBJ.concept = OBJ.form;
+	}
+}
+
+% Noun which has an amod
+rule noun_amod{
+	pattern{
+		N[cat=NOUN];
+		amod_rel: N -[amod]-> A;
+	}
+	commands{
+		del_edge amod_rel;
+		add_edge N -[mod]-> A;
+		N.concept = N.form
+		A.concept = A.form
+	}
+}
+
+% Remove DET tags with a lemma "a", "an" or "the"
+rule remove_det{
+	pattern{
+		D[cat=DET, lemma="the"|"a"|"an"];
+		det_rel: X -[det]-> D;
+	}
+	commands{
+		del_node D;
+	}
+}
