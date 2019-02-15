@@ -1,0 +1,33 @@
+include "grs_amr.dom"
+
+% =============================================================================================
+%  Modules introducing core roles
+% =============================================================================================
+include "core_roles.grs"
+
+
+
+strat simplest {
+  Seq (
+    Iter (pred_nsubj_obj),  % identify a predicate and its arguments. 
+
+    )
+  }
+
+
+strat simpler {
+  Seq (
+    Iter (pred_nsubj_obj), % identify a predicate and its arguments. 
+    Iter (noun_amod),  % identify nouns with an amod. Add the :mod role. 
+    
+    )
+  }
+
+strat simple {
+  Seq (
+    Iter (pred_nsubj_obj),  % identify a predicate and its arguments. 
+    Iter (noun_amod),  % identify nouns with an amod. Add the :mod role. 
+    Iter (remove_det),  % delete determiners
+
+    )
+  }

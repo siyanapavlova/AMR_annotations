@@ -1,0 +1,55 @@
+features {
+  cat: ADJ,ADP,ADV,AUX,CONJ,DET,INTJ,NOUN,NUM,PART,PRON,PROPN,PUNCT,SCONJ,SYM,VERB,X,
+  % UD-V2
+  CCONJ;
+  lemma: *;
+  phon: *;
+  pos: *;
+  sentid: *;
+  Case: Abl,Acc,Dat,Nom,Voc;
+  Definite: Def,Ind;
+  Degree: Abs,Cmp,Equ,Pos,Sup;
+  Diat: Demsuj;
+  Gender: Fem,Masc,Neut;
+  Impers:Yes;
+  Intrinsimp: Yes;
+  Mood: Cnd,Imp,Ind,Sub;
+  Number:Plur,Sing;
+  NumType:Card,Ord;
+  Person:1,2,3;
+  Polarity:Neg;
+  Poss:Yes;
+  PronType:Art,Dem,Ind,Int,Neg,Prs,Rel;
+  Reflex:Yes;
+  Tense: Fut,Imp,Past,Pres;
+  VerbForm: Fin,Inf,Part;
+  Voice: Act,Pass;
+  % Intermediate features
+  ETense:Fut,Imp,Past,Pres;
+  EVerbForm: Fin,Inf,Part;
+
+  _UD_mw_span: #;
+  _UD_mw_fusion: *;
+ }
+
+
+% ===============================================================================================
+labels {
+
+  % UD relations
+acl,acl:relcl,advcl,advmod,amod,appos,aux,auxpass,case,cc,ccomp,compound,conj,cop,csubj,csubjpass,dep,det,discourse,dislocated,dobj,expl,foreign,goeswith,iobj,list,mark,mwe,name,neg,nmod,nmod:poss,nsubj,nsubjpass,nummod,parataxis,punct,remnant,reparandum,root,vocative,xcomp,
+  % add for V2:
+  orphan, aux:caus, aux:pass, csubj:pass, fixed, flat:name, flat:foreign,FLAT:NAME,iobj:caus, nsubj:pass, obj, obj:caus, obl,obl:agent,obl:caus,
+
+
+  % AMR relations
+  ARG0@green,ARG1@green,ARG2@green,ARG3@green,ARG4@green,ARG5@green,
+  ARG0-of@green,ARG1-of@green,ARG2-of@green,ARG3-of@green,ARG4-of@green,ARG5-of@green,
+  amr-mod@green,amr-mod-of@green,cause@green,compared-to@green,condition@green,consist-of@green,day@green,degree@green,destination@green,domain@green,domain-of@green,duration@green,frequency@green,location@green,manner@green,name@green,op1@green,op2@green,op3@green,op4@green,ord@green,part@green,part-of@green,poss@green, poss-of@green,purpose@green,quant@green,time@green,topic@green,unit@green,year@green,
+
+  % new AMR relations
+  ARGC@green,consist@green,prep-de@green,vocatif@green,
+
+ % failure labels
+ FAIL_arg, FAIL_argc,FAIL_arg.comp,FAIL_arg.cons,FAIL_ato,FAIL_ats,FAIL_a_obj,FAIL_coord,FAIL_dep,FAIL_dep_cpd,FAIL_dep.coord,FAIL_dep.de,FAIL_det,FAIL_de_obj,FAIL_dis,FAIL_mod,FAIL_mod.app,FAIL_mod.cleft,FAIL_mod.comp,FAIL_mod.inc,FAIL_mod.rel,FAIL_mod.super,FAIL_mod.voc,FAIL_obj,FAIL_obj.cpl,FAIL_obj.p,FAIL_p_obj.agt,FAIL_p_obj.o,FAIL_suj,
+}

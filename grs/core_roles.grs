@@ -8,8 +8,10 @@ rule pred_nsubj_obj(lex from "lexicons/subcat/verb_nsubj_obj.lp"){
 	commands {
 		del_edge nsubj_rel;
 		del_edge obj_rel;
-		add_edge V -[lex.doer]-> NSUBJ;
-		add_edge V -[lex.patient]-> OBJ;
+		V.role = lex.doer;
+		OBJ.role = lex.patient;
+		add_edge V -[V.role]-> NSUBJ;
+		add_edge V -[OBJ.role]-> OBJ;
 		V.concept = lex.concept;
 		NSUBJ.concept = NSUBJ.form;
 		OBJ.concept = OBJ.form;
@@ -24,8 +26,8 @@ rule noun_amod{
 	}
 	commands{
 		del_edge amod_rel;
-		add_edge N -[mod]-> A;
-		N.concept = N.form
+		add_edge N -[ARG0-of]-> A;
+		N.concept = N.form;
 		A.concept = A.form
 	}
 }
