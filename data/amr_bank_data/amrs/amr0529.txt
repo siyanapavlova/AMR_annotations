@@ -1,0 +1,7 @@
+
+(a / answer-01
+  :ARG0 (k / king)
+  :ARG2 (o / over
+          :op1 (t / that
+                 :quant (a2 / all))))
+

@@ -1,0 +1,6 @@
+
+(t / tire-01
+  :ARG0 (w / walk-01
+          :ARG0 (i / i))
+  :ARG1 i)
+

@@ -1,0 +1,12 @@
+
+(d / demand-01
+      :ARG0 (h / he)
+      :ARG1 (a / admire-01 :mode interrogative
+            :ARG0 p
+            :ARG1 h
+            :degree (m / much
+                  :degree (v / very))
+            :mod (r / real))
+      :ARG2 (p / prince
+            :mod (l / little)))
+

@@ -1,0 +1,18 @@
+
+(c / cause-01
+      :ARG0 (n / need-01
+            :ARG0 (y / you)
+            :ARG1 (s / swallow-01
+                  :ARG1 (r / rate-entity-91
+                        :ARG1 (p / pill :quant 1)
+                        :ARG3 (t / temporal-quantity :quant 1
+                              :unit (w / week))))
+            :mod (o / only))
+      :ARG1 (f / feel-01 :polarity -
+            :ARG0 y
+            :ARG1 (n2 / need-01
+                  :ARG0 y
+                  :ARG1 (d / drink-01
+                        :ARG0 y
+                        :ARG1 (a2 / anything)))))
+

@@ -1,0 +1,14 @@
+
+(a / and
+      :op1 (s / split-01
+            :ARG0 b
+            :ARG1 p2
+            :ARG2 (p / piece)
+            :condition (a2 / and
+                  :op1 (s2 / small
+                        :degree (t2 / too)
+                        :domain (p2 / planet))
+                  :op2 (b / baobab
+                        :quant (m / many
+                              :degree (t3 / too))))))
+

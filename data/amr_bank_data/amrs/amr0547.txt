@@ -1,0 +1,16 @@
+
+(r / remind-01
+      :ARG0 (p / prince
+            :mod (l / little))
+      :ARG1 (s / sunset
+            :poss p)
+      :ARG2 (h / he)
+      :ARG1-of (c / cause-01
+            :ARG0 (f / forget-01 :polarity -
+                  :ARG0 p
+                  :ARG1 (q / question)
+                  :condition (a / ask-01
+                        :ARG0 p
+                        :ARG1 q)
+                  :time (e / ever))))
+

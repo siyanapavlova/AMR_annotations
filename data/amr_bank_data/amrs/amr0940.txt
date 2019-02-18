@@ -1,0 +1,8 @@
+
+(f / fancy-01
+      :ARG0 (t / they)
+      :ARG1 (i / important
+            :domain t
+            :degree (e / equal)
+            :compared-to (b / baobab)))
+

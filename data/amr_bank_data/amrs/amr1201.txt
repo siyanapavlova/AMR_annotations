@@ -1,0 +1,10 @@
+
+(o / or
+      :op1 (s / sleep-01
+            :ARG0 (t / they)
+            :location (t2 / there))
+      :op2 (y / yawn-01
+            :ARG0 t
+            :condition (s2 / sleep-01 :polarity -
+                  :ARG0 t)))
+

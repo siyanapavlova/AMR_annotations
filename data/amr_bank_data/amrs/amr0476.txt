@@ -1,0 +1,7 @@
+
+(d / decide-01
+      :ARG0 (y / you)
+      :ARG1 (g / go-02
+            :ARG0 y
+            :direction (a / away)))
+

@@ -1,0 +1,8 @@
+
+(e / exclaim-01
+  :ARG0 (t / they)
+  :ARG1 (p2 / pretty
+          :domain (h2 / house
+                    :mod (t4 / that)))
+  :time (t3 / then))
+

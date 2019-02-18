@@ -1,0 +1,10 @@
+
+(c / cause-01
+  :ARG0 (p / possible
+          :domain (a / and
+                    :op1 (f / faithful)
+                    :op2 (l / lazy)
+                    :domain (m / man)
+                    :time (s / same-41
+                            :ARG1 (t / time)))))
+

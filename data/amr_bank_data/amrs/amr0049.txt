@@ -1,0 +1,8 @@
+
+(l / look-01
+      :ARG0 (i / i)
+      :direction (a / around
+            :op1 i
+            :mod (a2 / all))
+      :manner (c / careful))
+

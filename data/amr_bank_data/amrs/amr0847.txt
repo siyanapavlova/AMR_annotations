@@ -1,0 +1,6 @@
+
+(h2 / have-03 :mode interrogative
+      :ARG0 (i / it)
+      :ARG1 (m / mountain
+            :mod (a / any)))
+

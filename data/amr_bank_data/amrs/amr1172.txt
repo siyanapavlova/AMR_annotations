@@ -1,0 +1,5 @@
+
+(s / say-01
+      :ARG0 (f / fox)
+      :ARG1 (g / goodbye))
+

@@ -1,0 +1,10 @@
+
+(s / see-01 :polarity - :mode interrogative
+      :ARG0 (y / you)
+      :ARG1 (b / busy
+            :domain (i / i)
+            :degree (v / very)
+            :topic (m / matter
+                  :ARG0-of (h / have-03
+                        :ARG1 (c3 / consequence)))))
+

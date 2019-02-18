@@ -1,0 +1,8 @@
+
+(s / say-01
+      :ARG0 (h / he)
+      :ARG1 (b / beautiful
+            :degree (v / very)
+            :domain (p / planet
+                  :poss (y / you))))
+

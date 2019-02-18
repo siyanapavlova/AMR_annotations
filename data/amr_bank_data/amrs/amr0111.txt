@@ -1,0 +1,5 @@
+
+(a2 / airplane
+  :poss (i2 / i)
+  :domain (i / it))
+

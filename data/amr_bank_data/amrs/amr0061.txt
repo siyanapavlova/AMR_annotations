@@ -1,0 +1,10 @@
+
+(d / dare-01
+  :ARG0 (o / one)
+  :ARG2 (d2 / disobey-01
+          :ARG0 o)
+  :polarity -
+  :time (o2 / overpower-01
+          :ARG0 (m / mystery)
+          :degree (t2 / too)))
+

@@ -1,0 +1,11 @@
+
+(s / sit-01
+      :ARG1 (i / i
+            :degree (t / too))
+      :ARG1-of (c / cause-01
+            :ARG0 (p / possible :polarity -
+                  :domain (s2 / stand-07
+                        :ARG1 i
+                        :time (l / long
+                              :mod (a / any))))))
+

@@ -1,0 +1,7 @@
+
+(w / want-01
+  :ARG0 (i / i)
+  :ARG1 (i2 / it)
+  :polarity -
+  :time (a / anymore))
+

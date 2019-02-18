@@ -1,0 +1,8 @@
+
+(a / and
+      :op2 (s / see-01
+            :ARG0 (y / you)
+            :ARG1 (h / have-manner-91
+                  :ARG2 (c / change-01
+                        :ARG1 (e / everything)))))
+

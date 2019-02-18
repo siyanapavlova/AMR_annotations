@@ -1,0 +1,12 @@
+
+(c3 / contrast-01
+      :ARG2 (w / wait-01
+            :ARG1 (i / i)
+            :ARG2 (c / condition
+                  :mod (f2 / favorable))
+            :ARG1-of (c2 / cause-01
+                  :ARG0 (s2 / science
+                        :domain (g / government-organization
+                              :ARG0-of (g2 / govern-01))
+                        :poss i))))
+

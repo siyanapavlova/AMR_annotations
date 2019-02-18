@@ -1,0 +1,11 @@
+
+(p / pour-01
+      :ARG0 (s / star
+            :quant (a / all))
+      :ARG1 (w / water
+            :mod (f / fresh))
+      :purpose (d / drink-01
+            :ARG0 (i / i)
+            :ARG1 w)
+      :direction (o / out))
+

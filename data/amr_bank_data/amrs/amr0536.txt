@@ -1,0 +1,23 @@
+
+(p / possible
+      :domain (w / watch-01
+            :ARG0 (h / he)
+            :ARG1 (s / sunset
+                  :ARG1-of (h3 / have-frequency-91 :polarity -
+                        :ARG2 44
+                        :range (t5 / temporal-quantity :quant 1
+                              :unit (y / year)))
+                  :ARG1-of (h4 / have-frequency-91
+                        :ARG2 (o / or :op1 72 :op2 100 :op3 200)
+                        :range t5))
+            :manner (m2 / move-01 :polarity -
+                  :ARG0 h
+                  :ARG1 (c2 / chair
+                        :poss h)
+                  :time (e3 / ever)))
+      :condition (m / master
+            :domain (h2 / he)
+            :poss-of (a / authority
+                  :degree (c / complete)
+                  :mod (s2 / such))))
+

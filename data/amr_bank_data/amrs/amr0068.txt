@@ -1,0 +1,6 @@
+
+(b / boa
+      :mod (c2 / constrictor)
+      :direction (f / from
+            :op1 (o / outside)))
+

@@ -1,0 +1,6 @@
+
+(i / interest-01
+  :ARG0 (t / this)
+  :ARG1 (t2 / they)
+  :degree (o / only))
+

@@ -1,0 +1,7 @@
+
+(p / possible
+  :domain (g / guess-01
+            :ARG0 (h / he)
+            :ARG1 (d / danger))
+  :polarity -)
+

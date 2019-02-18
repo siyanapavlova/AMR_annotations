@@ -1,0 +1,6 @@
+
+(s / say-01
+      :ARG0 (g / geographer)
+      :ARG1 (w / well :mode interrogative)
+      :manner (e / expect-01))
+

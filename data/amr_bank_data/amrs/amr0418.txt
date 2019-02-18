@@ -1,0 +1,10 @@
+
+(s / serious-41
+      :ARG1 (h / he)
+      :ARG2 (w / word-01
+            :mod (i / important :polarity -))
+      :ARG0-of (m / make-02
+            :ARG1 (h3 / happy :polarity -
+                  :degree (v / very)
+                  :domain h)))
+

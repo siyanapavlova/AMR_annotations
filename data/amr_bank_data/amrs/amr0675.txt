@@ -1,0 +1,16 @@
+
+(a / and
+      :op1 (m / make-01
+            :ARG0 (h / he)
+            :ARG1 (n / noise
+                  :ARG1-of (r / resound-01
+                        :ARG2 (a4 / all-over
+                              :op1 (p / place)))
+                  :ARG0-of (f2 / frighten-01
+                        :degree (m2 / most))))
+      :op2 (m3 / make-01
+            :ARG0 (i / i)
+            :ARG1 (m4 / mistake :quant 4
+                  :mod (a3 / add-02
+                        :ARG0 i))))
+

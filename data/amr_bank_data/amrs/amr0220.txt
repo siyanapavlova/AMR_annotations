@@ -1,0 +1,9 @@
+
+(m / make-02
+      :ARG0 (i / idea
+            :topic (h / herd
+                  :consist-of (e / elephant)))
+      :ARG1 (l / laugh-01
+            :ARG0 (p / prince
+                  :mod (l2 / little))))
+

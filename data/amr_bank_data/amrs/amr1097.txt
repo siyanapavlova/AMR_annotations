@@ -1,0 +1,9 @@
+
+(a / and
+  :op1 (h / hunt-01
+         :ARG0 (i / i)
+         :ARG1 (c / chicken))
+  :op2 (h2 / hunt-01
+         :ARG0 (m / man)
+         :ARG1 i))
+

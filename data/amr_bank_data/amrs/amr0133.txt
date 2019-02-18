@@ -1,0 +1,21 @@
+
+(a / answer-01
+      :ARG0 (h / he)
+      :ARG1 (t / thing
+            :mod (g / good
+                  :degree (s2 / so))
+            :topic (b / box
+                  :ARG1-of (g2 / give-01
+                        :ARG0 (y / you)
+                        :ARG2 h))
+            :domain (p / possible
+                  :domain (u / use-01
+                        :ARG0 (h2 / he)
+                        :ARG1 b
+                        :ARG2 (h3 / house
+                              :poss h2)
+                        :time (n / night))))
+      :time (a2 / after
+            :op1 (s / silence
+                  :mod (r / reflect-02))))
+

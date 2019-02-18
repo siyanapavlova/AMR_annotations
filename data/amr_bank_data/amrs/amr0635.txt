@@ -1,0 +1,7 @@
+
+(i / inhabit-01
+      :ARG0 (p / person
+            :ARG0-of (t / tipple-01))
+      :ARG1 (p2 / planet
+            :mod (n / next)))
+

@@ -1,0 +1,8 @@
+
+(b2 / believe-01
+      :ARG0 (t / they)
+      :ARG1 (w / weapon
+            :domain (t2 / thorn
+                  :poss t)
+            :ARG1-of (t3 / terrible-41)))
+

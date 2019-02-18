@@ -1,0 +1,14 @@
+
+(r / respond-01
+  :ARG0 (p / prince
+          :mod (l / little))
+  :ARG2 (m / morning
+          :mod (g / good))
+  :manner (p2 / polite-41)
+  :concession (s / see-01
+                :ARG0 p
+                :ARG1 (n / nothing)
+                :time (t / turn-01
+                        :ARG1 p
+                        :direction (a / around))))
+

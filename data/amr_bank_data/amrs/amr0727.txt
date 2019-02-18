@@ -1,0 +1,7 @@
+
+(a / and
+  :op2 (d / do-02
+         :ARG0 (y / you)
+         :ARG1 (a2 / amr-unknown)
+         :ARG2 (t / they)))
+

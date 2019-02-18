@@ -1,0 +1,9 @@
+
+(r / resemble-01
+      :ARG1 (i / it)
+      :ARG2 (s / spring
+            :source-of (w / water
+                  :mod (f / fresh))
+            :location (d / desert))
+      :beneficiary (i2 / i))
+

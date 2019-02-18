@@ -1,0 +1,11 @@
+
+(s / show-01
+      :ARG0 (s2 / she)
+      :ARG1 s2
+      :manner (s3 / sudden)
+      :time (m / morning
+            :mod (o / one))
+      :time (s4 / sunrise
+            :mod (e / exact))
+      :time (t / then))
+

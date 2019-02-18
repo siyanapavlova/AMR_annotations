@@ -1,0 +1,4 @@
+
+(c / chicken
+  :mode interrogative)
+

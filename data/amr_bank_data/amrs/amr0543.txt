@@ -1,0 +1,14 @@
+
+(g / go-25
+  :ARG0 (k / king)
+  :ARG1 (o / obligate-01
+          :ARG1 (o2 / one)
+          :ARG2 (r / require-01
+                  :ARG0 o2
+                  :ARG1 (d / duty
+                          :ARG1-of (p / perform-01
+                                     :ARG0 o3
+                                     :domain-of (p2 / possible)))
+                  :ARG2 (o3 / one
+                          :mod (e / each)))))
+

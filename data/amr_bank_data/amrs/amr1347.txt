@@ -1,0 +1,13 @@
+
+(a4 / and
+  :op2 (a / add-01
+         :ARG0 (i / i)
+         :ARG1 (p2 / possible
+                 :domain (c / cause-01
+                           :ARG0 (a3 / anniversary)
+                           :ARG1 (i2 / it))
+                 :mode interrogative)
+         :manner (h / hesitate-01
+                   :ARG0 i
+                   :degree (s / some))))
+

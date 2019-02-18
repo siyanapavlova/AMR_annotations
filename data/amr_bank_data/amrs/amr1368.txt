@@ -1,0 +1,10 @@
+
+(o / or
+      :op1 (s / see-01 :polarity -
+            :ARG0 (i / i)
+            :ARG1 (a / anyone))
+      :op2 (h / hear-01 :polarity -
+            :ARG0 i
+            :ARG1 a)
+      :time (e / ever))
+

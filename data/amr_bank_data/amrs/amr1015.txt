@@ -1,0 +1,6 @@
+
+(a / answer-01
+  :ARG0 (e / echo-01)
+  :ARG2 (y / you
+          :domain (a2 / amr-unknown)))
+

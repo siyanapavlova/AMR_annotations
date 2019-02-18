@@ -1,0 +1,8 @@
+
+(k / know-01
+  :ARG0 (i / i)
+  :ARG1 (p / planet
+          :ARG1-of (i2 / inhabit-01
+                     :ARG0 (m / man
+                             :mod (l / lazy)))))
+

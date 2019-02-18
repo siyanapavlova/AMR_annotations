@@ -1,0 +1,8 @@
+
+(l / look-01
+      :ARG0 (i / i)
+      :ARG1 (p / person
+            :ARG0-of (h / have-rel-role-91
+                  :ARG1 i
+                  :ARG2 (f / friend))))
+

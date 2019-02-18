@@ -1,0 +1,10 @@
+
+(k / know-01
+      :ARG0 (i / i)
+      :ARG1 (p / possible :polarity -
+            :domain (c / cross-examine-01
+                  :ARG0 i
+                  :ARG1 (h / he)))
+      :degree (w / well
+            :degree (v / very)))
+

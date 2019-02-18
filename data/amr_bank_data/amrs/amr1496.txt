@@ -1,0 +1,8 @@
+
+(c / contrast-01
+      :ARG2 (r / resemble-01
+            :ARG1 (i / it)
+            :ARG2 (s / shell
+                  :ARG1-of (a / abandon-01)
+                  :mod (o / old))))
+

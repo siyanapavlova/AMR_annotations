@@ -1,0 +1,8 @@
+
+(c2 / contrast-01
+      :ARG2 (m3 / mean-01
+            :ARG0 (t / that)
+            :ARG1 (c / catastrophe)
+            :time (a / always)
+            :condition (b / baobab)))
+

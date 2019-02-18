@@ -1,0 +1,14 @@
+
+(t / try-01
+      :ARG0 (i / i
+            :mod (b2 / busy
+                  :degree (v / very)))
+      :ARG1 (u / unscrew-01
+            :ARG0 i
+            :ARG1 (b / bolt
+                  :ARG1-of (s / stick-01
+                        :ARG2 (e / engine
+                              :poss i))))
+      :time (m / moment
+            :mod (t2 / that)))
+

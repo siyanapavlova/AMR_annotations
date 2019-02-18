@@ -1,0 +1,13 @@
+
+(f / force-01
+      :ARG0 (s / she)
+      :ARG1 (c / cough-01
+            :ARG0 s)
+      :time (t / then)
+      :degree (m / more
+            :degree (l / little))
+      :purpose (s2 / suffer-01
+            :ARG0 (h / he)
+            :ARG1 (r / remorse)
+            :ARG1-of (h2 / have-concession-91)))
+

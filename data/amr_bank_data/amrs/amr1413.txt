@@ -1,0 +1,13 @@
+
+(a / and
+      :op2 (k / know-01
+            :ARG0 (i / i)
+            :ARG1 (p / possible :polarity -
+                  :domain (b / bear-01
+                        :ARG1 (t / think-01
+                              :ARG1 (h / hear-01 :polarity -
+                                    :ARG1 (l / laugh-01)
+                                    :time (e / ever)
+                                    :mod (m / more
+                                          :mod (a2 / any))))))))
+

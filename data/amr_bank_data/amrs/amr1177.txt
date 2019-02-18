@@ -1,0 +1,8 @@
+
+(s / say-01
+      :ARG0 (f / fox)
+      :ARG1 (f2 / forget-01
+            :ARG0 (m / man)
+            :ARG1 (t / truth
+                  :mod (t2 / this))))
+

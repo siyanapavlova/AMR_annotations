@@ -1,0 +1,5 @@
+
+(w / wonder-01
+  :ARG0 (p / prince
+          :mod (l / little)))
+

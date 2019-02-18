@@ -1,0 +1,13 @@
+
+(w / wander-01
+      :ARG0 o
+      :ARG1 (f / from
+            :op1 (t / truth))
+      :time (w2 / wish-01
+            :ARG0 (o / one)
+            :ARG1 (p / play-02
+                  :ARG0 o
+                  :ARG1 (w3 / wit)))
+      :degree (l / little)
+      :frequency (s / sometimes))
+

@@ -1,0 +1,19 @@
+
+(p2 / possible
+      :domain (s / say-01
+            :ARG0 (h / he)
+            :ARG1 (c / contrast-01
+                  :ARG1 (b / be-located-at-91
+                        :ARG1 (f2 / flower
+                              :poss h)
+                        :ARG2 (t2 / there))
+                  :ARG2 (d / darken-01
+                        :ARG1 (s4 / star
+                              :mod (a / all)
+                              :poss h)
+                        :condition (e2 / eat-01
+                              :ARG0 (s3 / sheep)
+                              :ARG1 f2)
+                        :duration (m / moment :quant 1)))
+            :ARG2 h))
+

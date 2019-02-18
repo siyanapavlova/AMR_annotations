@@ -1,0 +1,14 @@
+
+(c2 / cause-01
+      :ARG0 (t2 / that)
+      :ARG1 (g / give-07
+            :ARG0 (i / i)
+            :ARG1 (c / career
+                  :mod (m / magnificent)
+                  :topic (p / person
+                        :ARG0-of (p2 / paint-02)))
+            :time (a / age-01
+                  :ARG1 i
+                  :ARG2 (t / temporal-quantity :quant 6
+                        :unit (y / year)))))
+

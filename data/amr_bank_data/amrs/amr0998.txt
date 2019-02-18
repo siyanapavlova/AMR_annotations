@@ -1,0 +1,5 @@
+
+(e / echo-01
+      :ARG0 (s / she)
+      :ARG1 (m / man :mode interrogative))
+

@@ -1,0 +1,10 @@
+
+(s / say-01
+      :ARG0 (p / prince
+            :mod (l / little))
+      :ARG1 (m / matter-01
+            :ARG1 (t2 / that)
+            :polarity -)
+      :manner (e / earnest)
+      :time (t / then))
+

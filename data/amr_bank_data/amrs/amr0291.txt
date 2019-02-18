@@ -1,0 +1,22 @@
+
+(d / demand-01
+      :ARG0 (h / he)
+      :ARG1 (e / eat-01
+            :ARG0 (s / sheep)
+            :ARG1 (f / flower
+                  :mod (t / too))
+            :condition (e2 / eat-01
+                  :ARG0 s
+                  :ARG1 (b / bush
+                        :mod (l / little))))
+      :manner (a / abrupt)
+      :conj-as-if (b2 / bear-02
+            :ARG0 (m / meditate-01
+                  :ARG1 (p / problem
+                        :poss h)
+                  :duration (l3 / long)
+                  :manner (s2 / silent))
+            :ARG1 (q / question))
+      :ARG2-of (l2 / lead-05 :polarity -
+            :ARG1 (a2 / anything)))
+

@@ -1,0 +1,9 @@
+
+(t / think-01 :mode imperative
+      :ARG0 y
+      :ARG1 (w / wonderful
+            :domain (t2 / tame-01
+                  :ARG0 (y / you)
+                  :ARG1 (i / i))
+            :degree (a / amr-unknown)))
+

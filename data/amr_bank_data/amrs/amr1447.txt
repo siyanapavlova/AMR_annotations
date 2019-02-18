@@ -1,0 +1,6 @@
+
+(o / opine-01
+      :ARG0 (s / scholar)
+      :ARG1 (p / problem
+            :domain (t / they)))
+

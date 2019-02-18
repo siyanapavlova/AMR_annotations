@@ -1,0 +1,9 @@
+
+(c / cause-01
+      :ARG0 (i2 / it)
+      :ARG1 (g / good
+            :beneficiary (i / i)
+            :domain (m2 / make-02
+                  :ARG1 (r / rich
+                        :domain i))))
+

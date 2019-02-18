@@ -1,0 +1,8 @@
+
+(s / say-01
+  :ARG0 (h / he)
+  :ARG1 (a2 / animal
+          :mod (f / funny)
+          :domain (y / you))
+  :time (a / at-last))
+

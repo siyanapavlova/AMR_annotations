@@ -1,0 +1,16 @@
+
+(c / continue-02
+      :ARG0 (h / he)
+      :ARG1 (o / own-01
+            :ARG0 h
+            :ARG1 (f2 / flower
+                  :ARG1-of (w / water-01
+                        :ARG0 h
+                        :frequency (r / rate-entity-91
+                              :ARG3 (t / temporal-quantity :quant 1
+                                    :unit (d / day))))))
+      :ARG2 (b / businessman)
+      :ARG3 (c2 / converse-01
+            :ARG0 h
+            :ARG2 b))
+

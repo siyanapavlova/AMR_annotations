@@ -1,0 +1,27 @@
+
+(a / and
+      :op1 (c / contrast-01
+            :ARG2 (c2 / come-13
+                  :ARG1 (f / flower
+                        :mod (n / new)
+                        :source (s / seed
+                              :ARG1-of (b / blow-01
+                                    :source (a2 / amr-unknown))))
+                  :time (d / day
+                        :mod (o / one))))
+      :op2 (w / watch-03
+            :ARG0 (p / prince
+                  :mod (l / little))
+            :ARG1 (s2 / sprout
+                  :mod (s3 / small)
+                  :mod (t / this)
+                  :ARG1-of (r / resemble-01 :polarity -
+                        :ARG2 (s4 / sprout
+                              :mod (s5 / small)
+                              :mod (o2 / other
+                                    :mod (a3 / any))
+                              :location (p2 / planet
+                                    :poss p))))
+            :manner (c3 / close
+                  :degree (v / very))))
+

@@ -1,0 +1,10 @@
+
+(i / inquire-01
+      :ARG0 (p / prince
+            :mod (l / little))
+      :ARG1 (p2 / permit-01
+            :ARG1 (s / sit-01)
+            :ARG2 p)
+      :manner (t / timid)
+      :time (n / now))
+

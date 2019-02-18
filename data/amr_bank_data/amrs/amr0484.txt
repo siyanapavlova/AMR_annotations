@@ -1,0 +1,12 @@
+
+(s / seat-01
+      :ARG1 (h / he
+            :ARG1-of (c / clad-01
+                  :ARG2 (a / and
+                        :op1 (p / purple
+                              :mod (r / royal))
+                        :op2 (e / ermine))))
+      :ARG2 (t / throne
+            :mod (s2 / simple)
+            :mod (m / majesty)))
+

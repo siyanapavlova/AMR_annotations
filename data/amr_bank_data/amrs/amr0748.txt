@@ -1,0 +1,21 @@
+
+(o / own-01
+      :ARG0 (i / i)
+      :ARG1 (v / volcano :quant 3
+            :ARG1-of (c / clean-03
+                  :ARG0 i
+                  :frequency (r / rate-entity-91
+                        :ARG3 (t / temporal-quantity :quant 1
+                              :unit (w / week)))
+                  :ARG1-of (c2 / cause-01
+                        :ARG0 (c3 / clean-03
+                              :ARG0 i
+                              :ARG1 (v2 / volcano
+                                    :mod (e / extinct)
+                                    :ARG1-of (i2 / include-91
+                                          :ARG2 v))
+                              :mod (a / also)
+                              :ARG1-of (c4 / cause-01
+                                    :ARG0 (k / know-01 :polarity -
+                                          :ARG0 (o2 / one))))))))
+

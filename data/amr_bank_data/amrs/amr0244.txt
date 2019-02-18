@@ -1,0 +1,12 @@
+
+(a / add-01
+      :ARG0 (p / prince
+            :mod (l / little))
+      :ARG1 (c / contrast-01
+            :ARG1 (t / tedious
+                  :degree (v / very)
+                  :domain (w / work-01))
+            :ARG2 (e / easy
+                  :degree (v2 / very)
+                  :domain w)))
+

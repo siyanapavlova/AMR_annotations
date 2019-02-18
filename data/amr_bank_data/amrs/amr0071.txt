@@ -1,0 +1,10 @@
+
+(a / and
+  :op1 (c2 / creature
+         :mod (d2 / dangerous)
+         :domain (b / boa
+                   :mod (c / constrictor)))
+  :op2 (c3 / cumbersome
+         :degree (v2 / very)
+         :domain (e / elephant)))
+

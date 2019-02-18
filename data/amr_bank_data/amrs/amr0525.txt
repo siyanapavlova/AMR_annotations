@@ -1,0 +1,7 @@
+
+(s / say-01
+      :ARG0 (k / king)
+      :ARG1 (e / everything)
+      :manner (s2 / simple
+            :mod (m / magnificence)))
+

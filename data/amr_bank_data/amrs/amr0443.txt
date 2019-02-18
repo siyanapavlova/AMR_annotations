@@ -1,0 +1,8 @@
+
+(c / cause-01
+      :ARG0 (t3 / that)
+      :ARG1 (t2 / trouble-01
+            :ARG0 (t4 / they)
+            :ARG1 (w / we)
+            :quant (e / end :polarity -)))
+

@@ -1,0 +1,8 @@
+
+(p / possible
+      :domain (j / judge-01
+            :ARG0 (y / you)
+            :ARG1 (r / rat
+                  :mod (o / old)
+                  :mod (t / this))))
+

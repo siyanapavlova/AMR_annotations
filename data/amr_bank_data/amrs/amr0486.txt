@@ -1,0 +1,11 @@
+
+(e / exclaim-01
+      :ARG0 (k / king)
+      :ARG1 (h2 / here
+            :location-of (s / subject))
+      :time (s2 / see-01
+            :ARG0 k
+            :ARG1 (p / prince
+                  :mod (l / little)
+                  :ARG1-of (c / come-01))))
+

@@ -1,0 +1,16 @@
+
+(a / and
+  :op1 (t2 / thing
+         :domain (t / they)
+         :ARG0-of (m / make-02
+                    :ARG1 (d / differ-02
+                            :ARG1 (d2 / day
+                                    :quant (o4 / one))
+                            :ARG1 (d3 / day
+                                    :mod (o / other)))))
+  :op2 (d4 / differ-02
+         :ARG1 (h / hour
+                 :quant (o3 / one))
+         :ARG1 (h2 / hour
+                 :mod (o2 / other))))
+

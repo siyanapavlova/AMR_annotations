@@ -1,0 +1,26 @@
+
+(c4 / contrast-01
+      :ARG2 (a / and
+            :op1 (r / remember-01
+                  :ARG0 (i / i)
+                  :ARG1 (c / concentrate-01
+                        :ARG1 (a2 / and
+                              :op1 (g / geography)
+                              :op2 (h / history)
+                              :op3 (a3 / arithmetic)
+                              :op4 (g2 / grammar))
+                        :ARG2 (s / study-01
+                              :ARG0 i))
+                  :time (t / then))
+            :op2 (t2 / tell-01
+                  :ARG0 i
+                  :ARG1 (k / know-01 :polarity -
+                        :ARG0 i
+                        :ARG2 (d / draw-01
+                              :ARG0 i))
+                  :ARG2 (c2 / chap
+                        :mod (l / little))
+                  :manner (c3 / cross
+                        :mod (l2 / little)
+                        :mod (a4 / also)))))
+

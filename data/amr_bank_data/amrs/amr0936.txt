@@ -1,0 +1,34 @@
+
+(p / possible
+      :domain (p2 / put-01
+            :ARG1 p3
+            :ARG2 (s5 / square
+                  :mod (p6 / public)
+                  :extent (a4 / and
+                        :op1 (l / long
+                              :op1 (d2 / distance-quantity :quant 20
+                                    :unit (m / mile)))
+                        :op2 (w / wide
+                              :op1 (d3 / distance-quantity :quant 20
+                                    :unit (m2 / mile)))))
+            :manner (e / easy))
+      :condition (s / stand-01
+            :ARG0 (p3 / person :quant 2000000000
+                  :ARG0-of (i / inhabit-01)
+                  :ARG2-of (p4 / people-01
+                        :ARG1 (s2 / surface
+                              :poss (i2 / it)))
+                  :mod (a / all))
+            :ARG1-of (r / resemble-01
+                  :ARG2 (d / do-02
+                        :ARG0 p3
+                        :purpose (a3 / assemble-02
+                              :mod (p5 / public)
+                              :mod (b / big)
+                              :mod (s4 / some))))
+            :manner (a2 / and
+                  :op1 (u / upright)
+                  :op2 (c / crowd-02
+                        :manner (t / together)
+                        :degree (s3 / somewhat)))))
+

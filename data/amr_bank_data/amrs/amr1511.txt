@@ -1,0 +1,10 @@
+
+(s / say-01
+  :ARG0 (h / he)
+  :ARG1 (k / know-01
+          :ARG0 (y / you)
+          :ARG1 (f / flower
+                  :poss h))
+  :time (t / then)
+  :mod (a / again))
+

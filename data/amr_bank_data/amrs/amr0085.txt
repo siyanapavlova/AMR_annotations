@@ -1,0 +1,8 @@
+
+(c / contrast-01
+      :ARG1 (r / reject-01
+            :ARG1 (i / it)
+            :ARG1-of (r2 / resemble-01
+                  :ARG2 (o / other))
+            :mod (t / too)))
+

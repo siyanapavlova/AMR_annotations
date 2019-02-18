@@ -1,0 +1,12 @@
+
+(c / contrast-01
+      :ARG2 (y / young
+            :degree (t / too)
+            :domain (i / i)
+            :compared-to (k / know-01
+                  :ARG0 i
+                  :ARG1 (m / manner
+                        :manner-of (l / love-01
+                              :ARG0 i
+                              :ARG1 (s / she))))))
+

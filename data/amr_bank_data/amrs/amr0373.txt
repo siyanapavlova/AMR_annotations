@@ -1,0 +1,7 @@
+
+(p / possible
+      :domain (b2 / baobab
+            :mod (k / kind
+                  :mod (n / new))
+            :domain (i / it)))
+

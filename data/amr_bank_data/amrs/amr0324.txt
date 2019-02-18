@@ -1,0 +1,5 @@
+
+(m / matter
+      :ARG0-of (h / have-03
+            :ARG1 (c / consequence)))
+

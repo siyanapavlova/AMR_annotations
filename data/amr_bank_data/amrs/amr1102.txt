@@ -1,0 +1,11 @@
+
+(s / send-03
+  :ARG0 (s2 / step-01
+          :mod (o / other))
+  :ARG1 (i / i)
+  :ARG4 (u / underneath
+          :op1 (g / ground))
+  :ARG5 (b / back)
+  :manner (h / hurry-01
+            :ARG1 i))
+

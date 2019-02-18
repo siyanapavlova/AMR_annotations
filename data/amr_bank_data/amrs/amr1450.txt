@@ -1,0 +1,11 @@
+
+(h / have-03
+      :ARG0 (y / you
+            :mod (a / alone))
+      :ARG1 (s / star)
+      :ARG1-of (r / resemble-01 :polarity -
+            :ARG2 (h2 / have-03
+                  :ARG0 (a2 / anyone
+                        :mod (e / else))
+                  :ARG1 s)))
+

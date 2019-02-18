@@ -1,0 +1,20 @@
+
+(e / err-01
+      :ARG0 (i / i)
+      :topic (h / height
+            :poss (p / prince
+                  :mod (l / little)))
+      :mod (t / too)
+      :example (a / and
+            :op1 (t2 / tall
+                  :domain p
+                  :degree (t3 / too)
+                  :location (p2 / place
+                        :mod (o / one)))
+            :op2 (s / short
+                  :domain p
+                  :degree (t4 / too)
+                  :location (p3 / place
+                        :mod (a2 / another))))
+      :mod (s2 / some))
+

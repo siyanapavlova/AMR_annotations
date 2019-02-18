@@ -1,0 +1,8 @@
+
+(a / and
+      :op2 (b / bear-02
+            :ARG1 (i / i)
+            :time (m / moment
+                  :ARG1-of (s / same-41
+                        :ARG2 (s2 / sun)))))
+

@@ -1,0 +1,12 @@
+
+(f / flatten-01
+      :ARG0 (c / child
+            :mod (o / only))
+      :ARG1 (n / nose
+            :part-of c)
+      :ARG1-of (c2 / cause-01
+            :ARG0 (p / push-01
+                  :ARG0 c
+                  :ARG1 n
+                  :ARG2 (w / windowpane))))
+

@@ -1,0 +1,6 @@
+
+(s / seem-01
+      :ARG1 (f / favorable
+            :domain (c / condition))
+      :ARG2 (i2 / i))
+

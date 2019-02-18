@@ -1,0 +1,8 @@
+
+(t / take-01
+      :ARG0 (h / he
+            :ARG0-of (s / sigh-02))
+      :ARG1 (l / leave-01
+            :ARG0 h)
+      :time (t2 / then))
+

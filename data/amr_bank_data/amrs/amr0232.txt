@@ -1,0 +1,21 @@
+
+(a / and
+      :op1 (s / stretch-01
+            :ARG0 (s2 / seed
+                  :mod (l / little)
+                  :mod (t2 / this))
+            :ARG1 s2)
+      :op2 (b / begin-01
+            :ARG0 s2
+            :ARG1 (p / push-01
+                  :ARG0 s2
+                  :ARG1 (s3 / sprig
+                        :mod (l2 / little)
+                        :ARG0-of (c / charm-01))
+                  :ARG2 (u / upward
+                        :direction (s4 / sun))
+                  :manner (o / offensive :polarity -))
+            :manner (t3 / timid
+                  :time (a2 / at-first)))
+      :time (t / then))
+

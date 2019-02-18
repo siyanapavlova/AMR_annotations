@@ -1,0 +1,10 @@
+
+(r2 / resemble-01
+  :ARG1 (w / water
+          :mod (t / this))
+  :ARG2 (t2 / thing
+          :ARG2-of (n / nourish-01)
+          :mod (o / ordinary))
+  :mod (i / indeed)
+  :polarity -)
+

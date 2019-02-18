@@ -1,0 +1,10 @@
+
+(c / contrast-01
+  :ARG2 (s / sure
+          :domain (i / i)
+          :polarity -
+          :degree (a / at
+                    :op1 (a2 / all))
+          :topic (s2 / succeed-01
+                   :ARG0 i)))
+

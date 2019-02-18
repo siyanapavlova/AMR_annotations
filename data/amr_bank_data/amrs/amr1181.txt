@@ -1,0 +1,12 @@
+
+(r / repeat-01
+      :ARG0 (p / prince
+            :mod (l / little))
+      :ARG1 (r2 / responsible-41
+            :ARG1 p
+            :ARG3 (r3 / rose
+                  :poss p))
+      :purpose (r4 / remember-01
+            :ARG0 p
+            :mod (s / sure)))
+

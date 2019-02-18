@@ -1,0 +1,17 @@
+
+(b / begin-01
+      :ARG0 (h / he)
+      :ARG1 (f / fear-01
+            :ARG0 h
+            :ARG1 (c / come-01
+                  :ARG1 h
+                  :ARG4 (p / planet
+                        :mod (w / wrong))))
+      :time (f2 / flash-02
+            :ARG1 (c2 / coil
+                  :mod (g / gold
+                        :mod (c3 / color
+                              :poss (m / moonlight))))
+            :path (a / across
+                  :op1 (s / sand))))
+

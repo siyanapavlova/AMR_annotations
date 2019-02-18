@@ -1,0 +1,30 @@
+
+(c8 / come-03
+      :ARG1 (t2 / turn-01
+            :ARG1 (p / person
+                  :ARG0-of (l / light-01
+                        :ARG1 (l2 / lamp))
+                  :source (c3 / continent :wiki "North_America"
+                        :name (n2 / name :op1 "North" :op2 "America"))))
+      :time (a3 / after
+            :op3 (p3 / person
+                  :ARG0-of l
+                  :source (c2 / continent :wiki "South_America"
+                        :name (n / name :op1 "South" :op2 "America")))
+            :time (a5 / after
+                  :op1 (p2 / person
+                        :source (a4 / and
+                              :op1 (c4 / continent :wiki "Africa"
+                                    :name (n5 / name :op1 "Africa"))
+                              :op2 (c5 / continent :wiki "Europe"
+                                    :name (n6 / name :op1 "Europe"))))
+                  :time (a / after
+                        :op1 (p4 / person
+                              :source (a2 / and
+                                    :op1 (c / country :wiki "Russia"
+                                          :name (n3 / name :op1 "Russia"))
+                                    :op2 (w / world-region :wiki "Indies"
+                                          :name (n4 / name :op1 "Indies")))
+                              :time (a6 / after
+                                    :op1 (t / that)))))))
+

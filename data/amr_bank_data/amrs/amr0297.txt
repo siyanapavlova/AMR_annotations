@@ -1,0 +1,5 @@
+
+(k / know-01
+  :ARG0 (i / i)
+  :polarity -)
+

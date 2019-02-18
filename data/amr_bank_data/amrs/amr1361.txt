@@ -1,0 +1,8 @@
+
+(w / wall
+      :mod (o / old)
+      :consist-of (s / stone)
+      :ARG1-of (r / ruin-01)
+      :location (b / beside
+            :op1 (w2 / well)))
+

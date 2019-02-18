@@ -1,0 +1,11 @@
+
+(s / seem-01
+      :ARG1 (f / fragile
+            :degree (m / more)
+            :domain (n2 / nothing
+                  :location (p / planet :wiki "Earth"
+                        :name (n / name :op1 "Earth")
+                        :mod (a / all))))
+      :ARG2 (i / i)
+      :mod (e / even))
+

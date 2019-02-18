@@ -1,0 +1,9 @@
+
+(c / cause-01
+  :ARG0 (a / amr-unknown)
+  :ARG1 (p / put-09
+          :ARG0 (y / you)
+          :ARG1 (l / lamp
+                  :poss y)
+          :mod (j / just)))
+

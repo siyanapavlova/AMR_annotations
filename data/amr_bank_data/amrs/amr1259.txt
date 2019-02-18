@@ -1,0 +1,16 @@
+
+(a / and
+  :op1 (k / know-01
+         :ARG0 (n / no-one)
+         :ARG1 (t / thing
+                 :manner-of (f / find-01
+                              :ARG0 n
+                              :ARG1 (i / it)))
+         :time (e2 / ever)
+         :mod (t2 / to-be-sure))
+  :op2 (p2 / possible
+         :domain (l / look-01
+                   :ARG0 n
+                   :ARG1 i
+                   :time e2)))
+

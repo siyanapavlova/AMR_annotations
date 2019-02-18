@@ -1,0 +1,8 @@
+
+(s / say-01
+  :ARG0 (s2 / switchman)
+  :ARG1 (p / pursue-01
+          :ARG0 (t / they)
+          :ARG1 (n / nothing
+                  :extent (a / at-all))))
+

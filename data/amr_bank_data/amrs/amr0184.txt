@@ -1,0 +1,17 @@
+
+(l / like-02
+      :ARG0 (i / i)
+      :ARG1 (s / say-01
+            :ARG0 i
+            :ARG1 (p / prince
+                  :mod (l2 / little)
+                  :ARG0-of (l3 / live-01
+                        :location (p2 / planet
+                              :mod (b / big
+                                    :degree (m / more
+                                          :quant (s2 / scarce))
+                                    :compared-to p)))
+                  :ARG0-of (n / need-01
+                        :ARG1 (s3 / sheep))
+                  :time (o / once-upon-a-time))))
+

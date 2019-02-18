@@ -1,0 +1,8 @@
+
+(h / hear-01 :polarity -
+      :ARG0 (p / person
+            :mod (c / conceit))
+      :ARG1 (a / anything
+            :concession (p2 / praise-01))
+      :time (e / ever))
+

@@ -1,0 +1,11 @@
+
+(s / say-01
+      :ARG0 (p / prince
+            :mod (l / little))
+      :ARG1 (k / know-01
+            :ARG0 (c / child
+                  :mod (o / only))
+            :ARG1 (t / thing
+                  :ARG1-of (l2 / look-01
+                        :ARG0 c))))
+

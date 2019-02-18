@@ -1,0 +1,13 @@
+
+(c3 / contrast-01
+      :ARG2 (c / charm-01
+            :ARG0 (t / thing
+                  :ARG1-of (d / draw-01
+                        :ARG0 (i / i)))
+            :quant (l / less
+                  :degree (m / much
+                        :degree (v / very)))
+            :mod (c2 / certain)
+            :compared-to (m2 / model
+                  :poss t)))
+

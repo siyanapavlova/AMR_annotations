@@ -1,0 +1,5 @@
+
+(a / anniversary
+  :time (t / tomorrow)
+  :poss (i / it))
+

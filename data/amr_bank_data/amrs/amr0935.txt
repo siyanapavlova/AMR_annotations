@@ -1,0 +1,9 @@
+
+(o / occupy-01
+      :ARG0 (m / man)
+      :ARG1 (p2 / place
+            :mod (s / small
+                  :degree (v / very))
+            :location (p / planet :wiki "Earth"
+                  :name (n / name :op1 "Earth"))))
+

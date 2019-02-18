@@ -1,0 +1,12 @@
+
+(h / have-03
+      :ARG0 (p / prince
+            :mod (l / little))
+      :ARG1 (i / idea
+            :topic (m / matter
+                  :mod (c / consequence))
+            :ARG1-of (d / differ-02
+                  :ARG1 (i2 / idea
+                        :poss (g / grown-up))
+                  :degree (v / very))))
+

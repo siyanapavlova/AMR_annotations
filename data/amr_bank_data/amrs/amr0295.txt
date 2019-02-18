@@ -1,0 +1,6 @@
+
+(f / flower
+      :mod (e / even)
+      :ARG0-of (h / have-03
+            :ARG1 (t / thorn)))
+

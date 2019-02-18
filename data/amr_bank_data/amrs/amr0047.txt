@@ -1,0 +1,8 @@
+
+(j / jump-03
+      :ARG0 (i / i
+            :mod (t / thunderstruck
+                  :degree (c / complete)))
+      :destination (f / foot
+            :part-of i))
+

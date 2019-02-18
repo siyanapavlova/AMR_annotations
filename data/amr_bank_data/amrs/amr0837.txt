@@ -1,0 +1,13 @@
+
+(s4 / scholar
+      :domain (g / geographer)
+      :ARG0-of (k / know-01
+            :ARG1 (l / location
+                  :location-of (a / and
+                        :op1 (s2 / sea)
+                        :op2 (r / river)
+                        :op3 (t / town)
+                        :op4 (m / mountain)
+                        :op5 (d / desert)
+                        :mod (a2 / all)))))
+

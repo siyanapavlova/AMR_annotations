@@ -1,0 +1,13 @@
+
+(a / and
+      :op1 (h / have-03 :polarity -
+            :ARG0 (t / they)
+            :ARG1 (r / root))
+      :op2 (m / make-02
+            :ARG0 h
+            :ARG1 (d / difficult
+                  :domain (t2 / thing
+                        :ARG1-of (l / live-01)
+                        :poss t)
+                  :degree (v / very))))
+

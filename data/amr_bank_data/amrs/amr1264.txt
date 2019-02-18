@@ -1,0 +1,13 @@
+
+(g2 / give-01
+  :ARG0 (s3 / something
+          :ARG1-of (s4 / see-01
+                     :mod (p / possible
+                            :polarity -)))
+  :ARG1 (b / beauty
+          :poss a)
+  :ARG2 (a / and
+          :op1 (h / house)
+          :op2 (s2 / star)
+          :op3 (d / desert)))
+

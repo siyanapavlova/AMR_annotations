@@ -1,0 +1,10 @@
+
+(e / explain-01 :polarity -
+      :ARG0 (p / person
+            :ARG0-of (h / have-rel-role-91
+                  :ARG1 i
+                  :ARG2 (f / friend)))
+      :ARG1 (a / anything)
+      :ARG2 (i / i)
+      :time (e2 / ever))
+

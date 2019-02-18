@@ -1,0 +1,9 @@
+
+(a / and
+  :op2 (c / cause-01
+         :ARG0 (b / beautiful
+                 :domain (i / it))
+         :ARG1 (u / useful
+                 :domain i
+                 :mod (t / true))))
+

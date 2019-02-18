@@ -1,0 +1,8 @@
+
+(c / cause-01
+  :ARG0 (s / small
+          :degree (v / very)
+          :domain (e / everything
+                    :location (l / live-01
+                                :ARG0 (i / i)))))
+

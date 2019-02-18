@@ -1,0 +1,13 @@
+
+(s / say-01
+      :ARG0 (p / prince
+            :mod (l / little))
+      :ARG1 (t / time
+            :ARG1-of (w / waste-01
+                  :ARG0 p)
+            :beneficiary (r / rose
+                  :poss p))
+      :purpose (r2 / remember-01
+            :ARG0 p
+            :mod (s2 / sure)))
+

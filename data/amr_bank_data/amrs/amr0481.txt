@@ -1,0 +1,20 @@
+
+(f / find-03
+      :ARG0 (h / he)
+      :ARG1 (b / be-located-at-91
+            :ARG1 h
+            :ARG2 (n / neighborhood
+                  :location-of (a3 / and
+                        :op1 (a4 / asteroid :wiki -
+                              :name (n2 / name :op1 325))
+                        :op2 (a5 / asteroid :wiki -
+                              :name (n3 / name :op1 326))
+                        :op3 (a6 / asteroid :wiki -
+                              :name (n4 / name :op1 327))
+                        :op4 (a7 / asteroid :wiki -
+                              :name (n5 / name :op1 328))
+                        :op5 (a8 / asteroid :wiki -
+                              :name (n6 / name :op1 329))
+                        :op6 (a9 / asteroid :wiki -
+                              :name (n7 / name :op1 330))))))
+

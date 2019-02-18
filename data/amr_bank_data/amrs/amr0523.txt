@@ -1,0 +1,13 @@
+
+(h / hasten-01
+      :ARG0 (k / king)
+      :ARG1 (a / assure-01
+            :ARG0 k
+            :ARG1 (h2 / he)
+            :ARG2 (o / order-01
+                  :ARG0 k
+                  :ARG1 h2
+                  :ARG2 (a2 / ask-01
+                        :ARG0 h2
+                        :ARG2 k))))
+

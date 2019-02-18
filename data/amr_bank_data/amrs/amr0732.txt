@@ -1,0 +1,7 @@
+
+(s / satisfy-01
+  :ARG1 (p / prince
+          :mod (l / little))
+  :mod (s2 / still)
+  :polarity -)
+

@@ -1,0 +1,12 @@
+
+(c / cause-01
+  :ARG1 (d / do-02
+          :ARG0 (i / i)
+          :ARG1 (t / thing
+                  :ARG1-of (d2 / draw-01
+                             :ARG0 i))
+          :mod (o / over)
+          :mod (m / more
+                 :mod (o2 / once))
+          :time (t2 / then)))
+

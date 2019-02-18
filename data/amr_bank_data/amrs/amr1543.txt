@@ -1,0 +1,7 @@
+
+(a / and
+      :op2 (s / sweetness
+            :location (l / laugh-01
+                  :ARG0 (s2 / star
+                        :quant (a2 / all)))))
+

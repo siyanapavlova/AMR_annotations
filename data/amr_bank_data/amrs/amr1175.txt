@@ -1,0 +1,11 @@
+
+(t / time
+      :ARG1-of (w / waste-01
+            :ARG0 (y / you)
+            :beneficiary (r / rose
+                  :poss y))
+      :ARG0-of (m / make-02
+            :ARG1 (i / important
+                  :domain r
+                  :degree (s / so))))
+

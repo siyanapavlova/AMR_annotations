@@ -1,0 +1,8 @@
+
+(s / say-01
+  :ARG0 (s2 / switchman)
+  :ARG1 (o / one
+          :ARG1-of (s3 / same-41
+                     :polarity -)
+          :domain (t / this)))
+

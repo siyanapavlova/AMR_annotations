@@ -1,0 +1,12 @@
+
+(n / need-01
+      :ARG0 (y / you)
+      :ARG1 (w / walk-01
+            :manner (s / slow
+                  :degree (r / rather))
+            :mod (o / only))
+      :purpose (b / be-located-at-91
+            :ARG1 y
+            :ARG2 (s2 / sunshine)
+            :time (a / always)))
+

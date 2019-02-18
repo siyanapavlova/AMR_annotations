@@ -1,0 +1,7 @@
+
+(s2 / sick
+  :degree (v / very)
+  :domain (s / sheep
+            :mod (t / this))
+  :time (a / already))
+

@@ -1,0 +1,5 @@
+
+(n / nobody
+      :location (h / here)
+      :ARG1-of (j / judge-01))
+

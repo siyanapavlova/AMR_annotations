@@ -1,0 +1,16 @@
+
+(c / contrast-01
+      :ARG1 (s / same-41
+            :ARG1 (i / it)
+            :ARG2 (t / that
+                  :location (p / page
+                        :ARG0-of (p2 / precede-01))))
+      :ARG2 (d / draw-01
+            :ARG0 i
+            :ARG1 i
+            :mod (a / again)
+            :purpose (i2 / impress-01
+                  :ARG0 i
+                  :ARG1 (m / memory
+                        :poss (y / you)))))
+

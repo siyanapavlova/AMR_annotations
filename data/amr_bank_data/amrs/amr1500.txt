@@ -1,0 +1,11 @@
+
+(c / contrast-01
+      :ARG2 (t / try-01
+            :ARG0 (h / he)
+            :topic (k / know-01
+                  :ARG0 (y / you)
+                  :ARG1 (i / it
+                        :mod (n / nice
+                              :degree (v / very))))
+            :mod (m2 / more :quant 1)))
+

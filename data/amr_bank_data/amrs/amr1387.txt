@@ -1,0 +1,9 @@
+
+(l / loosen-01
+      :ARG0 (i / i)
+      :ARG1 (m / muffler
+            :consist-of (g / gold)
+            :ARG1-of (w / wear-01
+                  :ARG0 (h / he)
+                  :time (a / always))))
+

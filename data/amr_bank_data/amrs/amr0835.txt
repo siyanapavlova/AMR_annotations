@@ -1,0 +1,8 @@
+
+(s / say-01
+  :ARG0 (g / gentleman
+          :mod (o / old))
+  :ARG1 (g2 / geographer
+          :domain g)
+  :ARG2 (h / he))
+

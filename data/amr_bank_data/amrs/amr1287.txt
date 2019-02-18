@@ -1,0 +1,12 @@
+
+(a / and
+      :op1 (l / laugh-01
+            :ARG0 (h / he))
+      :op2 (t / touch-01
+            :ARG0 h
+            :ARG1 (r / rope))
+      :op3 (s / set-08
+            :ARG0 h
+            :ARG1 (p / pulley)
+            :ARG2 (w / work-09)))
+

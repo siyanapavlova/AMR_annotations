@@ -1,0 +1,8 @@
+
+(r / reply-01
+      :ARG0 (p / person
+            :ARG0-of (t / tipple-01))
+      :ARG2 (d / drink-01
+            :ARG0 p)
+      :manner (l / lugubrious))
+

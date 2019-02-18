@@ -1,0 +1,6 @@
+
+(l / look-02
+      :ARG0 (i / i)
+      :ARG1 (h / have-manner-91
+            :ARG2 (s2 / suffer-01)))
+

@@ -1,0 +1,11 @@
+
+(a / and
+  :op1 (t / turn-01
+         :ARG1 (p / planet)
+         :manner (r / rapid
+                   :degree (m / more))
+         :frequency (y / year))
+  :op2 (c / change-01
+         :ARG1 (o / order-01)
+         :polarity -))
+

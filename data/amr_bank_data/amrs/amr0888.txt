@@ -1,0 +1,7 @@
+
+(s / say-01
+      :ARG0 (g / geographer)
+      :ARG1 (k / know-01 :polarity -
+            :ARG0 (o / one)
+            :time (e / ever)))
+

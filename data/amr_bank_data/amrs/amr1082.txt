@@ -1,0 +1,7 @@
+
+(t / think-01
+  :ARG0 (i / i)
+  :ARG1 (t2 / tame-01
+          :ARG0 (s / she)
+          :ARG1 i))
+

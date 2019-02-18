@@ -1,0 +1,27 @@
+
+(p / possible
+      :domain (a3 / and
+            :op1 (c / count-01
+                  :ARG0 (o / one)
+                  :ARG1 (a / and
+                        :op1 (p5 / person :quant 111
+                              :ARG0-of (h2 / have-org-role-91
+                                    :ARG2 (k / king)))
+                        :op2 (g2 / geographer :quant 7000)
+                        :op3 (b / businessman :quant 900000)
+                        :op4 (p4 / person :quant 7500000
+                              :ARG0-of (t2 / tipple-01))
+                        :op5 (m / man :quant 311000000
+                              :mod (c2 / conceited))
+                        :mod (g3 / grown-up
+                              :quant (a2 / about :op1 2000000000)))
+                  :location (t / there))
+            :op2 (f / forget-01 :polarity -
+                  :ARG0 o
+                  :ARG1 (n / negro
+                        :ARG1-of (i2 / include-91
+                              :ARG2 p5)
+                        :ARG0-of (h / have-org-role-91
+                              :ARG2 (k2 / king)))
+                  :mod (s2 / sure))))
+

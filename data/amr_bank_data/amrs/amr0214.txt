@@ -1,0 +1,4 @@
+
+(t / true
+      :domain (t2 / that))
+

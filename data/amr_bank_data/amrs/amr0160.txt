@@ -1,0 +1,10 @@
+
+(a / and
+  :op2 (a2 / accept-01
+         :ARG0 (e / everybody)
+         :ARG1 (t3 / thing
+                 :ARG1-of (r / report-01
+                            :ARG0 (h2 / he)))
+         :time (t / time
+                 :mod (t2 / this))))
+

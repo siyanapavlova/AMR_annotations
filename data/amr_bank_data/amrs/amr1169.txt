@@ -1,0 +1,6 @@
+
+(c / cause-01
+      :ARG0 (r / rose
+            :domain (s / she)
+            :poss (i / i)))
+

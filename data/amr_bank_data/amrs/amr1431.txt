@@ -1,0 +1,8 @@
+
+(a / and
+      :op2 (l / look-01
+            :ARG0 (y / you)
+            :ARG1 (s / star)
+            :direction (u / up)
+            :time (n / night)))
+

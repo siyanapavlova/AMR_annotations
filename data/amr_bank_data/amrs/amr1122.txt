@@ -1,0 +1,11 @@
+
+(t / tame-01
+      :ARG0 (y / you)
+      :ARG1 (i / i)
+      :condition (w / want-01
+            :ARG0 y
+            :ARG1 (h / have-rel-role-91
+                  :ARG0 (p / person)
+                  :ARG1 y
+                  :ARG2 (f / friend))))
+

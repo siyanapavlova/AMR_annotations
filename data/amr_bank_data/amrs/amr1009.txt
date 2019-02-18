@@ -1,0 +1,8 @@
+
+(a / and
+  :op2 (u / use-01
+         :ARG0 (h / he)
+         :ARG1 (v / volcano
+                 :mod (e / extinct))
+         :ARG2 (f / footstool)))
+

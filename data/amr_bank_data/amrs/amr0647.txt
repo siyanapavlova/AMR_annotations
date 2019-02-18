@@ -1,0 +1,14 @@
+
+(s / say-01
+      :ARG0 (h / he)
+      :ARG1 (o / odd
+            :degree (v / very
+                  :degree (v2 / very))
+            :domain (g / grown-up)
+            :mod (c / certain))
+      :ARG2 h
+      :time (c2 / continue-01
+            :ARG0 h
+            :ARG1 (j / journey-01
+                  :ARG0 h)))
+

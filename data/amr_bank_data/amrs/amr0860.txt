@@ -1,0 +1,20 @@
+
+(a3 / and
+      :op2 (o / order-02
+            :ARG0 (g / geographer)
+            :ARG1 (i / inquire-01
+                  :ARG1 (c / character
+                        :mod (m / moral)
+                        :poss (p / person
+                              :ARG0-of (e / explore-01)
+                              :mod (t2 / that))))
+            :condition (i4 / interest-01
+                  :ARG1 g
+                  :ARG2 (t4 / thing
+                        :ARG1-of (r2 / recall-02)
+                        :poss (p2 / person
+                              :ARG0-of (e2 / explore-01)
+                              :mod (a / any)
+                              :ARG1-of (i5 / include-91
+                                    :ARG2 (t5 / they)))))))
+

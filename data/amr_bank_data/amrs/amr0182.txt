@@ -1,0 +1,9 @@
+
+(c2 / contrast-01
+  :ARG2 (c / certain
+          :domain (i2 / indifferent-41
+                    :ARG1 (w2 / we
+                            :ARG0-of (u / understand-01
+                                       :ARG1 (l / life)))
+                    :ARG2 (f2 / figure))))
+

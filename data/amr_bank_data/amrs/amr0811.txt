@@ -1,0 +1,15 @@
+
+(w / walk-01
+      :ARG0 (y / you)
+      :time (w2 / want-01
+            :ARG0 y
+            :ARG1 (r / rest-01
+                  :ARG1 y))
+      :ARG0-of (c / cause-01
+            :ARG1 (l / last-01
+                  :ARG1 (d / day)
+                  :ARG2 (t / temporal-quantity
+                        :degree (e / equal)
+                        :compared-to (l2 / like-01
+                              :ARG0 y)))))
+

@@ -1,0 +1,24 @@
+
+(s / say-01
+      :ARG0 (p / prince
+            :mod (l / little))
+      :ARG1 (s2 / scorn-01
+            :ARG0 (o / other
+                  :quant (a / all)
+                  :domain (a2 / and
+                        :op1 (k / king)
+                        :op2 (m / man
+                              :mod (c / conceit))
+                        :op3 (p2 / person
+                              :ARG0-of (t / tipple-01))
+                        :op4 (b / businessman)))
+            :ARG1 (m2 / man
+                  :mod (t2 / that)))
+      :ARG2 p
+      :time (c2 / continue-01
+            :ARG0 p
+            :ARG1 (j / journey-01
+                  :ARG0 p)
+            :extent (f / far
+                  :degree (m3 / more))))
+

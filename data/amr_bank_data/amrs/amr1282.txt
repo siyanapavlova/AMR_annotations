@@ -1,0 +1,7 @@
+
+(r / resemble-01
+      :ARG1 (w / well
+            :mod (t / this))
+      :ARG2 (w2 / well
+            :location (v / village)))
+

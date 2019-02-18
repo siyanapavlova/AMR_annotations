@@ -1,0 +1,8 @@
+
+(a2 / and
+      :op2 (b / begin-01
+            :ARG1 (b4 / bore-02
+                  :ARG1 (h2 / he)
+                  :degree (l / little))
+            :time (a / already)))
+

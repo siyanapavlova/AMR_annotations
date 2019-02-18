@@ -1,0 +1,16 @@
+
+(s / say-01
+  :ARG0 (h / he)
+  :ARG1 (k / know-01
+          :ARG0 (y / you)
+          :ARG1 (p / possible
+                  :domain (t / tell-01
+                            :ARG0 h
+                            :ARG1 (w / way
+                                    :purpose (p2 / possible
+                                               :domain (r / rest-01
+                                                         :ARG1 y
+                                                         :time (w2 / want-01
+                                                                 :ARG0 y))))
+                            :ARG2 y))))
+

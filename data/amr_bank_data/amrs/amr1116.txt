@@ -1,0 +1,8 @@
+
+(c / contrast-01
+  :ARG2 (h / have-03
+          :ARG0 (i / i)
+          :ARG1 (t / time
+                  :quant (m / much
+                           :polarity -))))
+

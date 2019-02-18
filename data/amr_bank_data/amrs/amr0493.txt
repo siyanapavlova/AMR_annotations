@@ -1,0 +1,9 @@
+
+(s / say-01
+      :ARG0 (m / monarch)
+      :ARG1 (c / contrary-41
+            :ARG1 (y / yawn-01
+                  :location (k / king))
+            :ARG2 (e / etiquette))
+      :ARG2 (h / he))
+

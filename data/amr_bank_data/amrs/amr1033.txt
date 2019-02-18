@@ -1,0 +1,6 @@
+
+(s / say-01
+  :ARG0 (r / rose)
+  :ARG1 (r2 / rose
+          :domain r))
+

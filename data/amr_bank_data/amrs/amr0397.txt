@@ -1,0 +1,6 @@
+
+(t / tend-01
+      :ARG0 (h / he)
+      :ARG1 (f / flower)
+      :ARG1-of (c / cause-01))
+

@@ -1,0 +1,8 @@
+
+(p / possible
+      :domain (c / call-01
+            :ARG0 (h / he)
+            :ARG1 (i / it)
+            :ARG2 (n2 / name :op1 "Asteroid" :op2 325)
+            :ARG0-of (e / exemplify-01)))
+

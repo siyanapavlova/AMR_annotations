@@ -1,0 +1,7 @@
+
+(l / leave-02
+  :ARG0 (y / you)
+  :ARG1 (i2 / it)
+  :ARG2 (i / i)
+  :mode imperative)
+

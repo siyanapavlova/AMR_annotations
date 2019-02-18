@@ -1,0 +1,11 @@
+
+(r / reassure-01
+      :ARG0 (t / they)
+      :ARG1 t
+      :manner (g / good
+            :degree (m / most)
+            :compared-to (p2 / possible
+                  :domain (r2 / reassure-01
+                        :ARG0 t
+                        :ARG1 t))))
+

@@ -1,0 +1,7 @@
+
+(d / drop-01
+      :ARG1 (y / you)
+      :ARG3 (s / sky)
+      :direction (d2 / down)
+      :mode interrogative)
+

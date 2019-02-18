@@ -1,0 +1,10 @@
+
+(g / go-02
+  :ARG0 (p / prince
+          :mod (l / little))
+  :direction (a / away)
+  :purpose (l2 / look-01
+             :ARG0 p
+             :ARG1 (r / rose)
+             :mod (a2 / again)))
+

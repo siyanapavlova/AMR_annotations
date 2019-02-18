@@ -1,0 +1,9 @@
+
+(c / contrast-01
+      :ARG2 (m / man
+            :domain (i / i)
+            :ARG1-of (i2 / interest-01
+                  :ARG2 (m2 / matter
+                        :mod (c2 / consequence))
+                  :manner (n / natural))))
+

@@ -1,0 +1,10 @@
+
+(g2 / go-03
+      :ARG0 (i / i)
+      :ARG1 (l3 / look-01
+            :ARG0 i
+            :ARG1 (i2 / it))
+      :time (s3 / speak-01
+            :ARG0 (y2 / you)
+            :ARG2 i))
+

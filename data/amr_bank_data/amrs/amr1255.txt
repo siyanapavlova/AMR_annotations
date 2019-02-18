@@ -1,0 +1,8 @@
+
+(a2 / and
+  :op1 (t / throb-01
+         :ARG1 (s / something))
+  :op2 (g / gleam-01
+         :ARG0 s)
+  :concession (s3 / silence))
+

@@ -1,0 +1,13 @@
+
+(e / ensure-01
+  :ARG1 (f / forget-01
+          :ARG0 i
+          :ARG1 (h3 / he)
+          :polarity -)
+  :condition (t / try-01
+               :ARG0 (i / i)
+               :ARG1 (d / describe-01
+                       :ARG0 i
+                       :ARG1 (h / he)
+                       :location (h2 / here))))
+

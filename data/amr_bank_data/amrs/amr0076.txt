@@ -1,0 +1,11 @@
+
+(a / and
+  :op1 (l / look-01
+         :ARG0 (h / he)
+         :ARG1 (i / it)
+         :manner (c / careful))
+  :op2 (s / say-01
+         :ARG0 h
+         :ARG1 (n / no)
+         :time (t / then)))
+

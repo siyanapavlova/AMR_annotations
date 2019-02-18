@@ -1,0 +1,13 @@
+
+(c / contrast-01
+      :ARG2 (a / absurd :polarity -
+            :domain (h / he)
+            :compared-to (a2 / and
+                  :op1 (k / king)
+                  :op2 (m / man
+                        :mod (c2 / conceit))
+                  :op3 (b2 / businessman)
+                  :op4 (p / person
+                        :ARG0-of (t / tipple-01)))
+            :degree (e / equal)))
+

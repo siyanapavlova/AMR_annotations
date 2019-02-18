@@ -1,0 +1,17 @@
+
+(a / and
+      :op1 (a2 / answer-01
+            :ARG0 (k / king)
+            :ARG1 (h / he)
+            :ARG2 (o / order-01
+                  :ARG0 k
+                  :ARG1 h
+                  :ARG2 (d / do-02
+                        :ARG1 (s / so))))
+      :op2 (g / gather-01
+            :ARG0 k
+            :ARG1 (f / fold
+                  :part-of (m3 / mantle
+                        :consist-of (e2 / ermine)))
+            :manner (m / majesty)))
+

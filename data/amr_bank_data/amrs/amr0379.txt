@@ -1,0 +1,12 @@
+
+(w / wish-01 :polarity -
+      :ARG0 (s / she
+            :ARG1-of (r / rumple-02
+                  :mod (a / all))
+            :ARG1-of (r2 / resemble-01
+                  :ARG2 (p / poppy
+                        :mod (f / field))))
+      :ARG1 (g / go-17
+            :ARG0 s
+            :destination (w2 / world)))
+

@@ -1,0 +1,14 @@
+
+(c2 / contrast-01
+      :ARG2 (c / comment-02
+            :ARG0 (h / he)
+            :ARG1 (s / start-05
+                  :ARG0 (b2 / baobab)
+                  :ARG2 (l / little)
+                  :time (b4 / before
+                        :op1 (g / grow-02
+                              :ARG1 b2
+                              :ARG2 (b5 / big
+                                    :degree (s2 / so)))))
+            :manner (w / wise)))
+

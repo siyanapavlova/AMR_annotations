@@ -1,0 +1,6 @@
+
+(s3 / small
+      :domain (i / it
+            :mod (a / all))
+      :degree (s / so))
+

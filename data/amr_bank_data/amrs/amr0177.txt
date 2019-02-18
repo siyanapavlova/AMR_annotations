@@ -1,0 +1,11 @@
+
+(a / and
+      :op1 (s / shrug-01
+            :ARG0 (t / they)
+            :ARG1 (s2 / shoulder
+                  :poss t))
+      :op2 (t2 / treat-01
+            :ARG0 t
+            :ARG1 (y / you)
+            :ARG2 (c / child)))
+

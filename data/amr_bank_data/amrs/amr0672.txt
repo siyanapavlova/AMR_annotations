@@ -1,0 +1,6 @@
+
+(r / raise-01
+      :ARG0 (b / businessman)
+      :ARG1 (h / head
+            :part-of b))
+

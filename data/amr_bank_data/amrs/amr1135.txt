@@ -1,0 +1,18 @@
+
+(c / contrast-01
+      :ARG2 (k / know-01 :polarity -
+            :ARG0 (i / i)
+            :ARG1 (h3 / hour
+                  :time (r / ready-01
+                        :ARG0 (h2 / heart
+                              :part-of i)
+                        :ARG2 (g / greet-01
+                              :ARG0 h2
+                              :ARG1 (y / you))))
+            :time (e / ever)
+            :condition (c2 / come-01
+                  :ARG1 (y2 / you)
+                  :time (t / time
+                        :mod (a2 / any
+                              :mod (j2 / just))))))
+

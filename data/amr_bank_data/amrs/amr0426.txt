@@ -1,0 +1,10 @@
+
+(r2 / recommend-01
+      :ARG1 (a2 / and
+            :op1 (j / judge-01
+                  :ARG0 (i / i)
+                  :ARG3 (d / do-02))
+            :op2 (j2 / judge-01 :polarity -
+                  :ARG0 i
+                  :ARG3 (w / word))))
+

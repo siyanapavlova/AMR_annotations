@@ -1,0 +1,27 @@
+
+(t / take-11
+      :ARG0 (i / i
+            :location (r / relative-position
+                  :op1 (p5 / place
+                        :mod (a3 / any)
+                        :ARG1-of (i2 / inhabit-01
+                              :ARG0 (h / human)))
+                  :quant (d / distance-quantity :quant 1000
+                        :unit (m / mile))
+                  :direction (a2 / away))
+            :ARG1-of (e / endanger-01
+                  :ARG0 (d2 / die-01
+                        :ARG1 i)))
+      :ARG1 (a / and
+            :op1 (p / paper
+                  :quant (s / sheet :quant 1))
+            :op2 (p2 / pen
+                  :mod (f / fountain)
+                  :poss i))
+      :source (p3 / pocket
+            :poss i)
+      :concession (p4 / possible
+            :domain (s2 / seem-01
+                  :ARG1 (a4 / absurd)
+                  :ARG2 i)))
+

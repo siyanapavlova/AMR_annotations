@@ -1,0 +1,6 @@
+
+(s / say-01
+      :ARG0 (b2 / businessman)
+      :ARG1 (e / enough
+            :domain (t / that)))
+

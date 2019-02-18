@@ -1,0 +1,20 @@
+
+(c / cough-01
+      :ARG0 (s / she
+            :ARG1-of (e / embarrass-01
+                  :ARG0 (l2 / let-01
+                        :ARG0 s
+                        :ARG1 (c2 / catch-03
+                              :ARG1 s
+                              :ARG2 (v / verge-01
+                                    :ARG1 (t / truth :polarity -
+                                          :mod (n / naive
+                                                :degree (s2 / such))))))))
+      :purpose (p / put-03
+            :ARG0 s
+            :ARG1 (p2 / prince
+                  :mod (l / little))
+            :ARG2 (w / wrong-41
+                  :ARG1 p2))
+      :frequency (o / or :op1 2 :op2 3))
+

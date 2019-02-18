@@ -1,0 +1,19 @@
+
+(m / multi-sentence
+      :snt1 (r / reach-01
+            :ARG0 (i / i)
+            :ARG1 (w2 / wall)
+            :time (c / catch-01
+                  :ARG0 i
+                  :ARG1 (m2 / man
+                        :mod (l / little)
+                        :poss i)
+                  :mod (j / just)
+                  :location (a / arm
+                        :part-of i)))
+      :snt2 (f / face
+            :mod (w / white
+                  :degree (e / equal)
+                  :compared-to (s / snow))
+            :part-of m2))
+

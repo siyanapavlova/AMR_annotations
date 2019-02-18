@@ -1,0 +1,19 @@
+
+(m / mean-01
+      :ARG0 (a / admire-01)
+      :ARG1 (r / regard-01
+            :ARG0 (y / you)
+            :ARG1 (i / i)
+            :ARG2 (m6 / man
+                  :mod (h / handsome
+                        :degree (m2 / most))
+                  :ARG1-of (d / dress-01
+                        :manner (w / well
+                              :degree (m3 / most)))
+                  :mod (r2 / rich
+                        :degree (m4 / most))
+                  :mod (i2 / intelligent-41
+                        :degree (m5 / most))
+                  :location (p2 / planet
+                        :mod (t / this)))))
+

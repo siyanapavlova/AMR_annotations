@@ -1,0 +1,6 @@
+
+(a / and :mode expressive
+      :op2 (p2 / prince
+            :mod (l2 / little)
+            :mod (d / dear)))
+

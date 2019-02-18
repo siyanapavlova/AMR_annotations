@@ -1,0 +1,4 @@
+
+(d / difficult
+  :domain (i / it))
+

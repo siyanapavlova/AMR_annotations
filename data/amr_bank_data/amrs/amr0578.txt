@@ -1,0 +1,10 @@
+
+(d / difficult
+      :degree (m / more
+            :degree (m2 / much))
+      :domain (j / judge-01
+            :ARG0 (o2 / one)
+            :ARG1 o2)
+      :compared-to (j2 / judge-01
+            :ARG1 (o / other)))
+

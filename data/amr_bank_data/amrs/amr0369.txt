@@ -1,0 +1,9 @@
+
+(s / simple
+      :degree (v / very)
+      :domain (f / flower)
+      :time (a / always)
+      :location (p / planet
+            :poss (p2 / prince
+                  :mod (l / little))))
+

@@ -1,0 +1,6 @@
+
+(e / eat-01
+  :ARG0 (i / i)
+  :ARG1 (b / bread)
+  :polarity -)
+

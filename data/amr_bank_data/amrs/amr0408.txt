@@ -1,0 +1,6 @@
+
+(c / cold
+      :degree (v / very)
+      :location (l / live-01
+            :ARG0 (y / you)))
+

@@ -1,0 +1,10 @@
+
+(b / belong-01
+  :ARG0 i
+  :ARG1 (y / you)
+  :condition (d / discover-01
+               :ARG0 y
+               :ARG1 (i / island
+                       :ARG0-of (b2 / belong-01
+                                  :ARG1 (n / nobody)))))
+

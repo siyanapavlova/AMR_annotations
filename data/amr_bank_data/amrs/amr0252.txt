@@ -1,0 +1,9 @@
+
+(l / like-02 :polarity -
+      :ARG0 (i / i)
+      :ARG1 (t / take-01
+            :ARG0 i
+            :ARG1 (t2 / tone
+                  :poss (m2 / moralist)))
+      :degree (m / much))
+

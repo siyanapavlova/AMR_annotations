@@ -1,0 +1,7 @@
+
+(t3 / trick-01
+      :ARG0 (i / i)
+      :ARG1 (y / you)
+      :mod (s2 / shabby
+            :degree (v2 / very)))
+

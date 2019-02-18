@@ -1,0 +1,9 @@
+
+(a / and
+  :op1 (d / drink-01
+         :ARG0 (h / he))
+  :op2 (c / close-01
+         :ARG0 h
+         :ARG1 (e / eye
+                 :part-of h)))
+

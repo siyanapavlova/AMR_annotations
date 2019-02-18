@@ -1,0 +1,8 @@
+
+(a / and
+  :op1 (w / waken-01
+         :ARG0 (w2 / we)
+         :ARG1 (w3 / well))
+  :op2 (s / sing-01
+         :ARG0 w3))
+

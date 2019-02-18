@@ -1,0 +1,15 @@
+
+(l2 / light-01
+      :ARG0 h
+      :ARG1 (l3 / lamp
+            :mod (s2 / street)
+            :poss h)
+      :ARG1-of (r / resemble-01
+            :ARG2 (b / bring-01
+                  :ARG0 (h / he)
+                  :ARG1 (o / or
+                        :op1 (s / star :quant 1
+                              :mod (m / more))
+                        :op2 (f2 / flower))
+                  :ARG3 (l / live-01))))
+

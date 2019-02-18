@@ -1,0 +1,10 @@
+
+(m / make-01
+  :ARG0 (i / i)
+  :ARG1 (m2 / mistake
+          :topic (d / detail
+                   :mod (i2 / important
+                          :degree (m3 / more))
+                   :mod (c / certain)))
+  :mod (a / also))
+

@@ -1,0 +1,14 @@
+
+(o2 / opine-01
+      :ARG0 (i / i)
+      :ARG1 (b / boy
+            :mod (l / little)
+            :ARG1-of (r / resemble-01
+                  :ARG2 (b2 / boy :quant 100000
+                        :mod (l2 / little)
+                        :mod (o / other))
+                  :mod (j / just))
+            :domain (y2 / you
+                  :mod (m2 / more :polarity -))
+            :mod (s2 / still)))
+

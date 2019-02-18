@@ -1,0 +1,16 @@
+
+(a / and
+  :op2 (a2 / astound-01
+         :ARG0 (h / hear-01
+                 :ARG0 i
+                 :ARG1 (g / greet-01
+                         :ARG0 f
+                         :ARG1 (i2 / it)
+                         :ARG3 (a3 / and
+                                 :op1 (n / no)
+                                 :op2 (n2 / no)
+                                 :op3 (n3 / no)))
+                 :ARG2 (f / fellow
+                         :mod (l / little)))
+         :ARG1 (i / i)))
+

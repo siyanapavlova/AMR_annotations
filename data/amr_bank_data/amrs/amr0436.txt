@@ -1,0 +1,16 @@
+
+(a / and
+      :op1 (p / possess-01
+            :ARG0 (h / he)
+            :ARG1 (v / volcano :quant 2
+                  :mod (a2 / active)))
+      :op2 (c / convenient
+            :degree (v2 / very)
+            :purpose (h2 / heat-01
+                  :ARG1 (f / food
+                        :ARG1-of (b2 / breakfast-01
+                              :ARG0 h))
+                  :ARG2 v
+                  :time (m / morning))
+            :domain v))
+

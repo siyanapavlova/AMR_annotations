@@ -1,0 +1,12 @@
+
+(a2 / accommodate-01
+  :ARG0 (i / it)
+  :ARG1 (a / and
+          :op1 (l / lamp
+                 :mod (s / street))
+          :op2 (p / person
+                 :ARG0-of (l2 / light-01
+                            :ARG1 (l3 / lamp))))
+  :extent (e / enough
+            :mod (j / just)))
+

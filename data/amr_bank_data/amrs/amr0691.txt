@@ -1,0 +1,7 @@
+
+(t2 / time :polarity -
+      :purpose (d2 / dream-01
+            :manner (i2 / idle))
+      :duration (l / live-01
+            :ARG0 (i / i)))
+

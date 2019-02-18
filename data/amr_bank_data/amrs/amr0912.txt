@@ -1,0 +1,8 @@
+
+(c / contrast-01
+      :ARG2 (t / take-01
+            :ARG0 (h / he)
+            :ARG1 (c2 / courage)
+            :mod (o / once
+                  :mod (m / more))))
+

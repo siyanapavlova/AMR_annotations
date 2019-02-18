@@ -1,0 +1,9 @@
+
+(s / say-01
+  :ARG0 (p / prince
+          :mod (l / little))
+  :ARG1 (b / book
+          :domain (a / amr-unknown)
+          :mod (b2 / big)
+          :mod (t / that)))
+

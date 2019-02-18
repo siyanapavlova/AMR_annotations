@@ -1,0 +1,9 @@
+
+(w / want-01
+  :ARG0 (i / i)
+  :ARG1 (e / elephant
+          :location (i2 / inside
+                      :op1 (b2 / boa
+                             :mod (c2 / constrictor))))
+  :polarity -)
+

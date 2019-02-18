@@ -1,0 +1,11 @@
+
+(i / isolate-01
+      :ARG1 (i2 / i)
+      :degree (m / more
+            :compared-to (p / person
+                  :ARG0-of (s / sail-01)
+                  :ARG1-of (s2 / shipwreck-01)
+                  :location (r / raft
+                        :location (o / ocean
+                              :part (m2 / middle))))))
+

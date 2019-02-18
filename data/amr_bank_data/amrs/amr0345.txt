@@ -1,0 +1,6 @@
+
+(i2 / important :polarity - :mode interrogative
+      :domain (w / war-01
+            :ARG0 (s / sheep)
+            :ARG1 (f / flower)))
+

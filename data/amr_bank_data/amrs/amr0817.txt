@@ -1,0 +1,7 @@
+
+(a / and
+  :op2 (p / put-09
+         :ARG0 (h / he)
+         :ARG1 (l / lamp
+                 :poss h)))
+

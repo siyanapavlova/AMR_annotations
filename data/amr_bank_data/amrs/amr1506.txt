@@ -1,0 +1,12 @@
+
+(a / and
+      :op1 (h / have-03
+            :ARG0 (y / you)
+            :ARG1 (b / bell :quant 500000000
+                  :mod (l / little)))
+      :op2 (h2 / have-03
+            :ARG0 (i / i)
+            :ARG1 (s / spring :quant 500000000
+                  :source-of (w / water
+                        :mod (f / fresh)))))
+

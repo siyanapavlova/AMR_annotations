@@ -1,0 +1,10 @@
+
+(m / murmur-01
+      :ARG0 (p / prince
+            :mod (l / little)
+            :ARG1-of (a2 / abash-01
+                  :degree (c2 / complete)
+                  :time (n / now)))
+      :ARG1 (p2 / possible :polarity -
+            :time (a / anymore)))
+

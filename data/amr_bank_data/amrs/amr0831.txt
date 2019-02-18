@@ -1,0 +1,12 @@
+
+(a2 / and :mode expressive
+      :op1 (t / travel-01
+            :ARG0 (h / he)
+            :quant (m / much
+                  :mod (s / so)))
+      :op2 (t2 / travel-01
+            :ARG0 h
+            :extent (f / far
+                  :mod (s2 / so)))
+      :time (a / already))
+

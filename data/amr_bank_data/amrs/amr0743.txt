@@ -1,0 +1,7 @@
+
+(t / think-01
+  :ARG0 (p / prince
+          :mod (l / little))
+  :ARG1 (e / entertain-01
+          :ARG0 (i / it)))
+

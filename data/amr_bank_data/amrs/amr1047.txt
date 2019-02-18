@@ -1,0 +1,15 @@
+
+(a / and
+  :op1 (a2 / ask-01
+         :ARG0 (p / prince
+                 :mod (l / little))
+         :ARG1 (y2 / you
+                 :mod (a3 / amr-unknown)))
+  :op2 (a4 / add-01
+         :ARG0 p
+         :ARG1 (l2 / look-01
+                 :ARG0 p
+                 :ARG1 y2
+                 :ARG2 (p2 / pretty
+                         :degree (v / very)))))
+

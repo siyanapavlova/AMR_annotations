@@ -1,0 +1,10 @@
+
+(s / say-01
+      :ARG0 (s2 / switchman)
+      :ARG1 (k / know-01 :polarity -
+            :ARG0 (p / person
+                  :ARG0-of (e / engineer-01
+                        :mod (l / locomotive))
+                  :mod (e2 / even))
+            :ARG1 (t / that)))
+

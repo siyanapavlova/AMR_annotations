@@ -1,0 +1,8 @@
+
+(p / possible
+      :domain (s / see-01
+            :ARG0 (i / i)
+            :ARG1 (r / revive-01
+                  :ARG1 (h / he)
+                  :manner (l / little-by-little))))
+

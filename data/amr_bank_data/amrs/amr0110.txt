@@ -1,0 +1,4 @@
+
+(a / airplane
+  :domain (i / it))
+

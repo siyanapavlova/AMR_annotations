@@ -1,0 +1,25 @@
+
+(p / possible :polarity -
+      :domain (g / get-01
+            :ARG0 g2
+            :ARG1 (i / idea
+                  :mod (a / any)
+                  :mod (a2 / at
+                        :mod (a3 / all))
+                  :topic h2))
+      :condition (s / say-01
+            :ARG0 (y / you)
+            :ARG1 (s2 / see-01
+                  :ARG0 y
+                  :ARG1 (h2 / house
+                        :ARG1-of (m / make-01
+                              :ARG2 (b / brick
+                                    :mod (r / rosy)))
+                        :accompanier (a4 / and
+                              :op1 (g3 / geranium
+                                    :location (w / window))
+                              :op2 (d / dove
+                                    :location (r2 / roof)))
+                        :mod (b3 / beautiful)))
+            :ARG2 (g2 / grown-up)))
+

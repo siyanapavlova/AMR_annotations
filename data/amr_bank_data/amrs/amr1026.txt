@@ -1,0 +1,8 @@
+
+(a / and
+      :op2 (l / lead-01
+            :ARG0 (r / road
+                  :quant (a2 / all))
+            :ARG4 (a3 / abode
+                  :poss (m / man))))
+

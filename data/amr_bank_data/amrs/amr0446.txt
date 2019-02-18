@@ -1,0 +1,13 @@
+
+(c / contrast-01
+      :ARG2 (s / seem-01
+            :ARG1 (p / precious
+                  :degree (v / very)
+                  :domain (t2 / task
+                        :quant (a2 / all)
+                        :mod (f / familiar)))
+            :ARG2 (h / he)
+            :time (m / morning
+                  :mod (l / last)
+                  :mod (t / this))))
+

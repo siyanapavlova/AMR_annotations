@@ -1,0 +1,17 @@
+
+(s / say-01
+      :ARG0 (p / prince
+            :mod (l / little)
+            :ARG0-of (t / turn-01
+                  :ARG1 p
+                  :purpose (g / glance-01 :quant 1
+                        :ARG0 p
+                        :ARG1 (s2 / side
+                              :mod (o / other)
+                              :part-of (p2 / planet))
+                        :mod (m / more))))
+      :ARG1 (c / contrast-01
+            :ARG2 (l2 / look-01
+                  :ARG0 p
+                  :time (a2 / already))))
+

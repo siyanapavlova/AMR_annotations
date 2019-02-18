@@ -1,0 +1,7 @@
+
+(h / have-03
+      :ARG0 (h2 / he)
+      :ARG1 (a / air
+            :mod (m / magnificence)
+            :domain (a2 / authority)))
+

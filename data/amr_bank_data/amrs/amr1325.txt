@@ -1,0 +1,16 @@
+
+(a / and
+      :op1 (l / look-01
+            :ARG0 (p / prince
+                  :mod (l2 / little))
+            :ARG1 (t / they))
+      :op2 (l3 / laugh-01
+            :ARG0 p
+            :time (s / say-01
+                  :ARG0 p
+                  :ARG1 (l4 / look-02
+                        :ARG0 (b / baobab
+                              :poss (y / you))
+                        :ARG1 (c / cabbage)
+                        :degree (l5 / little)))))
+

@@ -1,0 +1,11 @@
+
+(m / mean-01
+  :ARG0 (t / that)
+  :ARG1 (w / write-01
+          :ARG0 (i / i)
+          :ARG1 (n / number
+                  :quant-of (s / star
+                              :poss i))
+          :location (p / paper
+                      :mod (l / little))))
+

@@ -1,0 +1,10 @@
+
+(s / say-01
+  :ARG0 (p / prince
+          :mod (l / little))
+  :ARG1 (u / understand-01
+          :ARG0 p
+          :ARG1 (y / you)
+          :mod (w / well
+                 :degree (v / very))))
+

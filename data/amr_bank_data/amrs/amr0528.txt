@@ -1,0 +1,8 @@
+
+(a / ask-01 :mode interrogative
+      :ARG0 (p / prince
+            :mod (l / little))
+      :ARG1 (o / over
+            :op1 (t / that
+                  :quant (a3 / all))))
+

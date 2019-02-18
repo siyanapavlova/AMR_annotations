@@ -1,0 +1,15 @@
+
+(s / say-01
+      :ARG0 (i / i)
+      :ARG1 (k / knock-03
+            :ARG0 i
+            :ARG1 b
+            :ARG2 (h / hammer)
+            :condition (t2 / turn-01 :polarity -
+                  :ARG1 (b / bolt
+                        :mod (t3 / this))
+                  :mod (s2 / still)))
+      :ARG2 i
+      :time (i2 / instant
+            :mod (t / that)))
+

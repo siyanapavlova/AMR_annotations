@@ -1,0 +1,14 @@
+
+(a / and
+      :op1 (b / be-located-at-91
+            :ARG1 (i / i)
+            :ARG2 (r / relative-position
+                  :op1 (w / wall)
+                  :quant (d / distance-quantity :quant 20
+                        :unit (m / metre)
+                        :mod (o / only))))
+      :op2 (s / see-01
+            :ARG0 i
+            :ARG1 (n / nothing)
+            :mod (s2 / still)))
+

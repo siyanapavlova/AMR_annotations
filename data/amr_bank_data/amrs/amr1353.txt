@@ -1,0 +1,7 @@
+
+(o / obligate-01
+  :ARG1 (y / you)
+  :ARG2 (w / work-01
+          :ARG0 y)
+  :time (n / now))
+

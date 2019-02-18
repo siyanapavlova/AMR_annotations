@@ -1,0 +1,8 @@
+
+(s / say-01
+  :ARG0 (f / fox)
+  :ARG1 (m / monotonous
+          :domain (l / life
+                    :poss (i / i))
+          :degree (v / very)))
+

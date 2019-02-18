@@ -1,0 +1,14 @@
+
+(p2 / person
+      :domain (g / geographer :polarity -)
+      :ARG1-of (g2 / go-01
+            :purpose (c / count-01
+                  :ARG0 g
+                  :ARG1 (a / and
+                        :op1 (t / town)
+                        :op2 (r / river)
+                        :op3 (m / mountain)
+                        :op4 (o2 / ocean)
+                        :op5 (d / desert)
+                        :op6 (s2 / sea)))))
+

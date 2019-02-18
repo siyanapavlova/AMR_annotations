@@ -1,0 +1,8 @@
+
+(a3 / and
+      :op1 (a4 / absolute
+            :domain (r / rule-03
+                  :ARG0 (h / he)))
+      :op2 (u2 / universal
+            :domain r))
+

@@ -1,0 +1,7 @@
+
+(r / respond-01
+      :ARG0 (f / flower)
+      :ARG1 (b / beautiful :polarity - :mode interrogative
+            :domain f)
+      :manner (s / sweet))
+

@@ -1,0 +1,7 @@
+
+(a / and
+      :op2 (g / go-02
+            :ARG0 (p / prince
+                  :mod (l / little))
+            :direction (a2 / away)))
+

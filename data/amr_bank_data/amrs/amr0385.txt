@@ -1,0 +1,14 @@
+
+(a / and
+      :op1 (y / yawn-01
+            :ARG0 (s2 / she))
+      :op2 (s / say-01
+            :ARG0 s2
+            :ARG1 (a2 / ah :mode expressive))
+      :time (a3 / after
+            :op1 (w / work-01
+                  :manner (p / precise
+                        :degree (p2 / painstaking)
+                        :mod (t / this)
+                        :mod (a4 / all)))))
+

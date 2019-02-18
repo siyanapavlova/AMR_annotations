@@ -1,0 +1,17 @@
+
+(a / ask-01
+      :ARG0 (p / prince
+            :mod (l2 / little))
+      :ARG1 (t / true :mode interrogative
+            :domain (e / eat-01
+                  :ARG0 (s / sheep)
+                  :ARG1 (b / bush
+                        :mod (l / little))))
+      :ARG2 (i2 / i)
+      :manner (a2 / abrupt)
+      :conj-as-if (s2 / seize-01
+            :ARG0 (d / doubt-01
+                  :ARG0 p
+                  :mod (g / grave))
+            :ARG1 p))
+

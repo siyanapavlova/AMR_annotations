@@ -1,0 +1,7 @@
+
+(s / show-01
+      :ARG0 (s2 / she)
+      :ARG1 (t / thorn :quant 4
+            :part-of s2)
+      :manner (n / naive))
+

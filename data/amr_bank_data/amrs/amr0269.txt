@@ -1,0 +1,6 @@
+
+(c / contrast-01
+      :ARG2 (o / obligate-01
+            :ARG2 (w2 / wait-01
+                  :ARG1 (w / we))))
+

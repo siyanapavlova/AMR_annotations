@@ -1,0 +1,7 @@
+
+(h / hear-01
+  :ARG0 (m / man
+          :mod (c / conceit))
+  :ARG2 (h2 / he)
+  :polarity -)
+

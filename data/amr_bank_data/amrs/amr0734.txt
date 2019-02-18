@@ -1,0 +1,15 @@
+
+(p / possible
+      :domain (a / and
+            :op1 (p2 / pluck-01
+                  :ARG0 (i / i)
+                  :ARG1 (f2 / flower
+                        :mod (t / that)))
+            :op2 (t2 / take-05
+                  :ARG0 i
+                  :ARG1 f2
+                  :accompanier i))
+      :condition (o / own-01
+            :ARG0 i
+            :ARG1 f2))
+

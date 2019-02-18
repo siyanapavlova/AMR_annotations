@@ -1,0 +1,6 @@
+
+(l / look-01
+  :ARG0 (y / you)
+  :ARG1 (c / chicken)
+  :mode interrogative)
+

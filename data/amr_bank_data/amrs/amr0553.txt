@@ -1,0 +1,15 @@
+
+(a / and
+      :op1 (r / reply-01
+            :ARG0 (k / king)
+            :ARG2 (h / hum :mode expressive))
+      :op2 (c / consult-01
+            :ARG0 k
+            :ARG1 (a2 / almanac
+                  :mod (b / bulk))
+            :time (b2 / before
+                  :op1 (s / say-01
+                        :ARG0 k
+                        :ARG1 (a3 / anything
+                              :mod (e / else))))))
+

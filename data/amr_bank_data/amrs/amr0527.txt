@@ -1,0 +1,12 @@
+
+(g / gesture-01
+      :ARG0 (k / king)
+      :ARG0-of (t / take-23
+            :ARG1 (a / and
+                  :op1 (p / planet
+                        :poss k)
+                  :op2 (p2 / planet
+                        :mod (o / other))
+                  :op3 (s / star
+                        :quant (a2 / all)))))
+

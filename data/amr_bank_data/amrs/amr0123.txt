@@ -1,0 +1,23 @@
+
+(a / and
+  :op1 (c / catch-03
+         :ARG0 (i / i)
+         :ARG1 (g / gleam
+                 :consist-of (l / light)
+                 :location (m / mystery
+                             :poss (p / presence
+                                     :poss (h / he))
+                             :ARG1-of (p3 / penetrate-01
+                                        :mod (p2 / possible
+                                               :polarity -))))
+         :time (m2 / moment
+                 :mod (t / that)))
+  :op2 (d / demand-01
+         :ARG0 i
+         :ARG1 (c2 / come-01
+                 :ARG1 (y / you)
+                 :ARG3 (p4 / planet
+                         :mod (a3 / another))
+                 :mode interrogative)
+         :manner (a2 / abrupt)))
+

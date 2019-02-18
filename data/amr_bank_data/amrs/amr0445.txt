@@ -1,0 +1,9 @@
+
+(b / believe-01
+      :ARG0 (h / he)
+      :ARG1 (w / want-01 :polarity -
+            :ARG0 h
+            :ARG1 (r / return-01
+                  :ARG1 h)
+            :time (e / ever)))
+

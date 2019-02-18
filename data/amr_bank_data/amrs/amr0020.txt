@@ -1,0 +1,15 @@
+
+(a / and
+      :op1 (u / understand-01 :polarity -
+            :ARG0 (g / grown-up)
+            :ARG1 (a3 / anything)
+            :time (e2 / ever)
+            :mod (b / by-oneself))
+      :op2 (t / tiresome
+            :domain (e / explain-01
+                  :ARG0 (c / child)
+                  :ARG1 (t2 / thing)
+                  :ARG2 g
+                  :time (a4 / always)
+                  :mod (f / forever))))
+

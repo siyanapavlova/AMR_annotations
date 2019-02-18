@@ -1,0 +1,16 @@
+
+(s / sleep-01
+  :ARG0 (i / i)
+  :location (s2 / sand)
+  :time (n / night
+          :ord (o / ordinal-entity :value 1))
+  :location (r / relative-position
+              :op1 (p / place
+                     :ARG1-of (i2 / inhabit-01
+                                :ARG0 (h / human))
+                     :mod (a2 / any))
+              :quant (d / distance-quantity
+                       :unit (m / mile)
+                       :quant 1000)
+              :direction (a3 / away)))
+

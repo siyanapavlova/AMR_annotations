@@ -1,0 +1,5 @@
+
+(b2 / believe-01 :polarity -
+      :ARG0 (i / i)
+      :ARG1 (a2 / anything))
+

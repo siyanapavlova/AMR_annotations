@@ -1,0 +1,18 @@
+
+(a / and
+      :op2 (r / resemble-01
+            :ARG1 (i2 / it)
+            :ARG2 (l2 / laugh-01
+                  :ARG0 (s / star
+                        :quant (a3 / all)))
+            :time (l3 / look-01
+                  :ARG0 (y / you
+                        :mod (o2 / only))
+                  :ARG1 (s2 / sky)
+                  :time (n / night
+                        :time-of (h / have-03
+                              :ARG0 y
+                              :ARG1 (s3 / star
+                                    :ARG0-of (l / laugh-01
+                                          :mod (p / possible))))))))
+

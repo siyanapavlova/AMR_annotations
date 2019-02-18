@@ -1,0 +1,7 @@
+
+(r / room
+  :poss (i / it)
+  :beneficiary (p / person
+                 :quant 2)
+  :polarity -)
+

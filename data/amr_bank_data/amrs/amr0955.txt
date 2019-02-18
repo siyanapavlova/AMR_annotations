@@ -1,0 +1,6 @@
+
+(b2 / be-located-at-91
+      :ARG1 (p / person
+            :polarity -)
+      :ARG2 (d / desert))
+

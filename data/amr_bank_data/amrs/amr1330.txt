@@ -1,0 +1,5 @@
+
+(f / fair :polarity -
+      :domain (p / prince
+            :mod (l / little)))
+

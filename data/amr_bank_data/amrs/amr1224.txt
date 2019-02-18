@@ -1,0 +1,6 @@
+
+(c2 / concern-02
+  :polarity -
+  :ARG1-of (c3 / cause-01
+             :ARG0 (a / amr-unknown)))
+

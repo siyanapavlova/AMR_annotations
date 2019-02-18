@@ -1,0 +1,7 @@
+
+(e / equal-01
+  :ARG1 (s / sum-of
+          :op1 15
+          :op2 7)
+  :ARG2 22)
+

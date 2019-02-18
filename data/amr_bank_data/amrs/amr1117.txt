@@ -1,0 +1,15 @@
+
+(o / obligate-01
+      :ARG2 (a / and
+            :op1 (d / discover-01
+                  :ARG0 (i / i)
+                  :ARG1 (p / person
+                        :ARG0-of (h / have-rel-role-91
+                              :ARG1 i
+                              :ARG2 (f / friend))))
+            :op2 (u / understand-01
+                  :ARG0 i
+                  :ARG1 (t / thing
+                        :quant (m / many
+                              :mod (g / great))))))
+

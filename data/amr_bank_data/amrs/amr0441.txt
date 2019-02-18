@@ -1,0 +1,7 @@
+
+(e / erupt-01
+      :ARG1 (v / volcano)
+      :ARG1-of (r / resemble-01
+            :ARG2 (f / fire
+                  :location (c / chimney))))
+

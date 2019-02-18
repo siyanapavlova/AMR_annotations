@@ -1,0 +1,22 @@
+
+(a / and
+      :op1 (p / pass-03
+            :ARG1 (t2 / temporal-quantity :quant 8
+                  :unit (d / day))
+            :time (s / since
+                  :op1 (a2 / accident
+                        :poss (i / i)
+                        :location (d2 / desert))))
+      :op2 (l / listen-01
+            :ARG0 i
+            :ARG1 (s2 / story
+                  :poss (p2 / person
+                        :ARG0-of (m2 / merchandise-01)))
+            :time (d3 / drink-01
+                  :ARG0 i
+                  :ARG1 (d4 / drop
+                        :part-of (w / water
+                              :ARG1-of (s3 / supply-01
+                                    :ARG2 i))
+                        :mod (l2 / last)))))
+

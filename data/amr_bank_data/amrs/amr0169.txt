@@ -1,0 +1,9 @@
+
+(m / make-05
+      :ARG0 (p / person
+            :ARG0-of (h2 / have-rel-role-91
+                  :ARG1 (h / he)
+                  :ARG2 (f / father)))
+      :ARG1 (m2 / monetary-quantity
+            :quant (a / amr-unknown)))
+

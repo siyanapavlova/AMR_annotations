@@ -1,0 +1,6 @@
+
+(h2 / have-03
+      :ARG0 (i / it)
+      :ARG1 (r / reputation
+            :mod (g / good)))
+

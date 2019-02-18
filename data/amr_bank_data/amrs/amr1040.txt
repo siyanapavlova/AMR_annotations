@@ -1,0 +1,20 @@
+
+(m / make-02 :polarity -
+      :ARG0 (a / and
+            :op1 (r / rose
+                  :mod (c / common))
+            :op2 (v2 / volcano :quant 3
+                  :ARG1-of (c2 / come-01
+                        :ARG4 (k / knee
+                              :part-of i)
+                        :direction (u / up))
+                  :ARG2-of (i2 / include-91
+                        :ARG1 (v3 / volcano :quant 1
+                              :mod (e / extinct
+                                    :mod (p2 / perhaps)
+                                    :duration (f / forever))))))
+      :ARG1 (p / prince
+            :mod (g / great
+                  :degree (v / very))
+            :domain (i / i)))
+

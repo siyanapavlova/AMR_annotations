@@ -1,0 +1,23 @@
+
+(s / see-01
+      :ARG0 (i / i
+            :location (r2 / relative-position
+                  :quant (d2 / distant)))
+      :ARG1 (s2 / sit-01
+            :ARG1 (p2 / prince
+                  :mod (l / little)
+                  :poss i
+                  :ARG0-of (d / dangle-01
+                        :ARG1 (f / foot
+                              :part-of p2)))
+            :ARG2 (w / wall
+                  :location (p / position
+                        :op1 (o / on
+                              :direction (t / top)))))
+      :time (r / return-01
+            :ARG1 i
+            :ARG3 (w2 / work-01
+                  :ARG0 i)
+            :time (e / evening
+                  :mod (n / next))))
+

@@ -1,0 +1,7 @@
+
+(o / obligate-01
+      :ARG2 (w2 / wait-01
+            :ARG1 (w / we)
+            :duration (u / until
+                  :op1 (t / time))))
+

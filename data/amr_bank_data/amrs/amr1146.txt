@@ -1,0 +1,13 @@
+
+(a / and
+      :op1 (s / say-01
+            :ARG0 (f / fox)
+            :ARG1 (a2 / and
+                  :op1 (a3 / ah)
+                  :op2 (c / cry-02
+                        :ARG0 f))
+            :time (h2 / hour
+                  :time-of (d / depart-01
+                        :ARG0 f)
+                  :ARG1-of (n2 / near-01))))
+

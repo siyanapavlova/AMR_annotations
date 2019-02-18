@@ -1,0 +1,10 @@
+
+(p / possible
+  :polarity -
+  :domain (k / know-01
+            :ARG0 (s / she)
+            :ARG1 (a / anything
+                    :topic (w / world
+                             :mod (o / other
+                                    :mod (a2 / any))))))
+

@@ -1,0 +1,6 @@
+
+(r / room
+  :polarity -
+  :purpose (c / carriage)
+  :location (h / here))
+

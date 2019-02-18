@@ -1,0 +1,12 @@
+
+(c / contrast-01
+      :ARG2 (k / know-01 :polarity -
+            :ARG0 (i / i)
+            :ARG1 (t2 / thing
+                  :manner-of (s / see-01
+                        :ARG1 (s2 / sheep)
+                        :path (t / through
+                              :op1 (w / wall
+                                    :consist-of (b2 / box))))))
+      :mod (a / alas))
+

@@ -1,0 +1,13 @@
+
+(s / speak-01
+  :ARG0 (p / prince
+          :mod (l / little))
+  :ARG1 (h / have-03
+          :ARG0 (y / you)
+          :ARG1 (p2 / poison-01
+                  :mod (g / good))
+          :mode interrogative)
+  :mod (a / again)
+  :time (a2 / after
+          :op1 (s2 / silence)))
+

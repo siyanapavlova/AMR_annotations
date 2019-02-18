@@ -1,0 +1,6 @@
+
+(l2 / love-01 :polarity -
+      :ARG0 (h3 / he)
+      :ARG1 (a2 / anyone)
+      :time (e / ever))
+

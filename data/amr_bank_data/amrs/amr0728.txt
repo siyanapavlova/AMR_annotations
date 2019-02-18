@@ -1,0 +1,7 @@
+
+(r / reply-01
+      :ARG0 (b / businessman)
+      :ARG2 (a / administer-01
+            :ARG0 b
+            :ARG1 (t / they)))
+

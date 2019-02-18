@@ -1,0 +1,4 @@
+
+(h2 / heavy
+      :degree (t2 / too))
+

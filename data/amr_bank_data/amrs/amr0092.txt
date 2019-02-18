@@ -1,0 +1,7 @@
+
+(b / be-located-at-91
+      :ARG1 (s2 / sheep
+            :ARG1-of (a / ask-01
+                  :ARG0 (y / you)))
+      :ARG2 (i2 / inside))
+

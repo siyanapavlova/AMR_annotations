@@ -1,0 +1,9 @@
+
+(h / hear-01
+      :ARG0 (i / i)
+      :ARG1 (c / catastrophe
+            :poss (b / baobab))
+      :manner (t / this)
+      :time (d / day
+            :ord (o / ordinal-entity :value 3)))
+

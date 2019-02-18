@@ -1,0 +1,7 @@
+
+(a / and
+      :op1 (e / embarrass-01
+            :ARG1 (r / rose)
+            :degree (m / much
+                  :degree (v / very))))
+

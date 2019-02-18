@@ -1,0 +1,4 @@
+
+(s / shame-01
+  :ARG0 (d / drink-01))
+

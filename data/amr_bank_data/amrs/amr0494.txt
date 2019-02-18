@@ -1,0 +1,8 @@
+
+(f / forbid-01
+      :ARG0 (i / i)
+      :ARG1 (d / do-02
+            :ARG0 y
+            :ARG1 (s / so))
+      :ARG2 (y / you))
+

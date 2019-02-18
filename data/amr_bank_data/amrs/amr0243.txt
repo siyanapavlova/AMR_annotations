@@ -1,0 +1,23 @@
+
+(o2 / obligate-01
+      :ARG1 (p / pull-01
+            :ARG0 (y / you)
+            :ARG1 (b / baobab
+                  :quant (a / all))
+            :manner (r / regular)
+            :time (m / moment
+                  :ord (o / ordinal-entity :value 1
+                        :degree (v / very))
+                  :time-of (p2 / possible
+                        :domain (d / distinguish-01
+                              :ARG1 b
+                              :ARG2 (r2 / rosebush
+                                    :ARG2-of (r3 / resemble-01
+                                          :ARG1 b
+                                          :manner (c / close
+                                                :degree (s / so))
+                                          :time (y2 / youth
+                                                :time (e / early
+                                                      :mod (m2 / most))
+                                                :poss b))))))))
+

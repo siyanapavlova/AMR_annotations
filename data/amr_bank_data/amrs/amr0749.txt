@@ -1,0 +1,15 @@
+
+(c / cause-01
+      :ARG0 (o / own-01
+            :ARG0 (i / i)
+            :ARG1 (a / and
+                  :op1 v
+                  :op2 f2))
+      :ARG1 (u / use-01
+            :beneficiary (a2 / and
+                  :op1 (v / volcano
+                        :poss i)
+                  :op2 (f2 / flower
+                        :poss i))
+            :degree (s / some)))
+

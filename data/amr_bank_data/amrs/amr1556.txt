@@ -1,0 +1,10 @@
+
+(a / and
+      :op1 (a2 / appear-01
+            :ARG1 (p / prince
+                  :mod (l / little))
+            :location (e / earth))
+      :op2 (d / disappear-01
+            :ARG1 p)
+      :location (h / here))
+

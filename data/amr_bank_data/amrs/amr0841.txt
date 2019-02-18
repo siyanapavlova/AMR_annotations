@@ -1,0 +1,13 @@
+
+(p / planet
+      :domain (i / it)
+      :mod (m2 / magnificent
+            :degree (m / most)
+            :compared-to (p2 / planet
+                  :ARG1-of (s2 / see-01
+                        :ARG0 (h / he)
+                        :time (e / ever))))
+      :mod (s / stately
+            :degree (m3 / most)
+            :compared-to p2))
+

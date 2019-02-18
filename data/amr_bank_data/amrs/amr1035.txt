@@ -1,0 +1,10 @@
+
+(t / tell-01
+      :ARG0 (f / flower
+            :poss (h / he))
+      :ARG1 (u2 / unique
+            :domain (s / she)
+            :location (u / universe
+                  :mod (a / all)))
+      :ARG2 h)
+

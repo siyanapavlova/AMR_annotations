@@ -1,0 +1,11 @@
+
+(s / say-01
+  :ARG0 (i / it)
+  :ARG1 (d / draw-01
+          :ARG0 (y2 / you)
+          :ARG1 (s2 / sheep)
+          :ARG2 (i2 / i)
+          :condition (p / please-01
+                       :ARG1 (y / you))
+          :mode imperative))
+

@@ -1,0 +1,13 @@
+
+(e2 / exemplify-01
+      :ARG0 (p / possible
+            :domain (o / order-01
+                  :ARG0 (h / he)
+                  :ARG1 (i / i)
+                  :ARG2 (g / go-02
+                        :ARG0 i
+                        :time (b / by
+                              :op1 (e / end-01
+                                    :ARG1 (t / temporal-quantity :quant 1
+                                          :unit (m / minute))))))))
+

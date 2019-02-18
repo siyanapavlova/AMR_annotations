@@ -1,0 +1,12 @@
+
+(a / and
+      :op1 (t / try-01 :mode imperative
+            :ARG0 (y / you)
+            :ARG1 (h / happy
+                  :domain y))
+      :op2 (l / let-01 :mode imperative
+            :ARG0 y
+            :ARG1 (b2 / be-02
+                  :ARG1 (g / globe
+                        :consist-of (g2 / glass)))))
+

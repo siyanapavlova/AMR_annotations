@@ -1,0 +1,9 @@
+
+(a / and
+  :op2 (l / love-02
+         :ARG0 (i / i)
+         :ARG1 (l2 / listen-01
+                 :ARG0 i
+                 :ARG1 (w / wind
+                         :location (w2 / wheat)))))
+

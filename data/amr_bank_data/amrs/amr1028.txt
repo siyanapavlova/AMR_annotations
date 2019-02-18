@@ -1,0 +1,8 @@
+
+(s / stand-01
+      :ARG1 (h / he)
+      :ARG2 (b / before
+            :op1 (g / garden
+                  :location-of (b2 / bloom-01
+                        :ARG0 (r / rose)))))
+

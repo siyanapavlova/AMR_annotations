@@ -1,0 +1,9 @@
+
+(h / hesitate-01
+      :ARG0 (p / prince
+            :mod (l / little))
+      :duration (m / moment)
+      :ARG1-of (c / cause-01
+            :ARG0 (a / answer-01 :polarity -
+                  :ARG0 (k / king))))
+

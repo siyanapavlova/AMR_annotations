@@ -1,0 +1,13 @@
+
+(a / and
+      :op1 (a2 / appear-01
+            :ARG1 (t / they)
+            :time (m / morning
+                  :mod (o / one))
+            :location (g / grass))
+      :op2 (f / fade-01
+            :ARG1 t
+            :manner (p / peaceful)
+            :time (b / by
+                  :op1 (n / night))))
+

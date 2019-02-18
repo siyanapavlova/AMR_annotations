@@ -1,0 +1,16 @@
+
+(a / and
+      :op1 (h / have-03
+            :ARG0 (i / i)
+            :ARG1 (w / water
+                  :purpose (d / drink-01)
+                  :mod (l / little
+                        :degree (s / so))
+                  :ARG1-of (l2 / leave-06))
+            :ARG0-of (o / obligate-01
+                  :ARG1 i
+                  :ARG2 (f / fear-01
+                        :ARG0 i
+                        :ARG1 (b / bad
+                              :degree (m / most))))))
+

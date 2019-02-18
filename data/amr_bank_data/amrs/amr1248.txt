@@ -1,0 +1,16 @@
+
+(a / and
+  :op2 (s / speak-01
+         :ARG0 (h / he)
+         :ARG1 (b / beautiful
+                 :domain (s5 / star)
+                 :ARG1-of (c / cause-01
+                            :ARG0 (f / flower
+                                    :ARG1-of (s6 / see-01
+                                               :mod (p / possible
+                                                      :polarity -)))))
+         :time (a2 / after
+                 :op1 (s2 / silence
+                        :duration (l / little)))
+         :mod (a3 / again)))
+

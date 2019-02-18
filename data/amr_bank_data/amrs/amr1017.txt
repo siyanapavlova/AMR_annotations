@@ -1,0 +1,7 @@
+
+(s / say-01
+  :ARG0 (h / he)
+  :ARG1 (a / alone
+          :degree (a2 / all)
+          :domain h))
+

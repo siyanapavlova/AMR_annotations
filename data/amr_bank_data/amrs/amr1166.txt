@@ -1,0 +1,6 @@
+
+(p / possible :polarity -
+      :domain (d / die-01
+            :ARG1 (o / one)
+            :beneficiary (y / you)))
+

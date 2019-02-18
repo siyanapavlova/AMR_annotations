@@ -1,0 +1,6 @@
+
+(d / do-02
+  :ARG0 (i / i)
+  :ARG1 (a / amr-unknown)
+  :ARG3 (t / they))
+

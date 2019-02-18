@@ -1,0 +1,7 @@
+
+(c / contrast-01
+      :ARG2 (s / say-01
+            :ARG0 (h / he)
+            :ARG1 (k / know-01 :polarity -
+                  :ARG0 (o / one))))
+

@@ -1,0 +1,6 @@
+
+(r / responsible-41
+      :ARG1 (i / i)
+      :ARG2 (f / flower
+            :mod (t / this)))
+

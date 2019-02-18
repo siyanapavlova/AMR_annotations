@@ -1,0 +1,16 @@
+
+(s / say-01
+      :ARG0 (k / king
+            :ARG0-of (p / pride-01
+                  :ARG2 (r / reign-01
+                        :ARG0 k
+                        :ARG1 (s3 / somebody)
+                        :time (a2 / at-last))))
+      :ARG1 (a / approach-01 :mode imperative
+            :ARG1 y
+            :purpose (s2 / see-01
+                  :ARG0 k
+                  :ARG1 (y / you)
+                  :manner (w / well
+                        :degree (m / more)))))
+

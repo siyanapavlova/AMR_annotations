@@ -1,0 +1,29 @@
+
+(k / know-01
+      :ARG0 (i / i)
+      :ARG1 (e / exist-01
+            :ARG1 (a2 / and
+                  :op1 (p / planet
+                        :mod (g / great)
+                        :example (p2 / planet :wiki "Earth" :name (n / name :op1 "Earth"))
+                        :example (p3 / planet :wiki "Jupiter" :name (n2 / name :op1 "Jupiter"))
+                        :example (p4 / planet :wiki "Mars" :name (n3 / name :op1 "Mars"))
+                        :example (p5 / planet :wiki "Venus" :name (n4 / name :op1 "Venus"))
+                        :ARG1-of (n5 / name-01
+                              :ARG0 (w3 / we)))
+                  :op2 (p7 / planet
+                        :ARG2-of (i2 / include-91
+                              :ARG1 (p6 / planet
+                                    :mod (s2 / small
+                                          :degree (s3 / so)
+                                          :ARG0-of (c / cause-01
+                                                :ARG1 (d / difficult
+                                                      :domain (s4 / see-01
+                                                            :ARG1 p6
+                                                            :instrument (t / telescope)))))))
+                        :mod (o / other)
+                        :quant (m / multiple :op1 100)
+                        :mod (a / also))))
+      :mod (w / well
+            :degree (v / very)))
+

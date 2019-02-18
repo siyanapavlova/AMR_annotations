@@ -1,0 +1,6 @@
+
+(s / say-01
+  :ARG0 (f / fox)
+  :ARG1 (f2 / fox
+          :domain f))
+

@@ -1,0 +1,11 @@
+
+(r2 / risk-01
+  :ARG0 (o / one)
+  :ARG1 (w / weep-01
+          :ARG0 o
+          :degree (l / little))
+  :condition (l2 / let-01
+               :ARG0 o
+               :ARG1 (t / tame-01
+                       :ARG1 o)))
+

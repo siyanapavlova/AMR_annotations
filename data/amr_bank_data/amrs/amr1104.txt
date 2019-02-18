@@ -1,0 +1,14 @@
+
+(a / and
+  :op2 (l / look-01
+         :ARG0 y
+         :time (t / then)
+         :mode imperative)
+  :op3 (s / see-01
+         :ARG0 (y / you)
+         :ARG1 (f / field
+                 :mod (g / grain)
+                 :location (y2 / yonder
+                             :mod (d / down)))
+         :mode interrogative))
+

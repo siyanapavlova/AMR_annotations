@@ -1,0 +1,8 @@
+
+(l / love-01
+      :ARG0 (i / i)
+      :ARG1 (h / hear-01
+            :ARG0 i
+            :ARG1 (l2 / laugh-01
+                  :mod (t / that))))
+

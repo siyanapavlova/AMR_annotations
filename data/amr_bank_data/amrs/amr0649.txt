@@ -1,0 +1,6 @@
+
+(b / belong-01
+      :ARG0 (p / planet
+            :ord (o / ordinal-entity :value 4))
+      :ARG1 (b3 / businessman))
+

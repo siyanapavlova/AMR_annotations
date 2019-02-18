@@ -1,0 +1,4 @@
+
+(f2 / funny
+  :domain (t2 / that))
+

@@ -1,0 +1,9 @@
+
+(s / say-01
+      :ARG0 (s2 / snake)
+      :ARG1 (l / lonely
+            :domain (b / be-located-at-91
+                  :ARG2 (a3 / among
+                        :op1 (m / man)))
+            :mod (a2 / also)))
+

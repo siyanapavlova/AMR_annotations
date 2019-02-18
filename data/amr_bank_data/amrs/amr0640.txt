@@ -1,0 +1,9 @@
+
+(r / reply-01
+  :ARG0 (p / person
+          :ARG0-of (t / tipple-01))
+  :ARG2 (c / cause-01
+          :ARG0 (p2 / possible
+                  :domain (f / forget-01
+                            :ARG0 p))))
+

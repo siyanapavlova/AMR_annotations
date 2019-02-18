@@ -1,0 +1,8 @@
+
+(a / and
+      :op2 (g / give-01
+            :ARG0 (h / he)
+            :ARG1 (s / smile
+                  :mod (s2 / sad))
+            :ARG2 (i / i)))
+

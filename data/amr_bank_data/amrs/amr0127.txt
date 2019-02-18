@@ -1,0 +1,16 @@
+
+(b / bury-01
+  :ARG0 (h / he)
+  :ARG1 h
+  :ARG2 (c / contemplate-01
+          :ARG0 h
+          :ARG1 (t / treasure
+                  :poss h))
+  :time (t2 / take-11
+          :ARG0 h
+          :ARG1 (s / sheep
+                  :source (p / pocket
+                            :poss h)
+                  :poss (i / i)))
+  :time (t3 / then))
+

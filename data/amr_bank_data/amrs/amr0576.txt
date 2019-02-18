@@ -1,0 +1,8 @@
+
+(a / answer-01
+      :ARG0 (k / king)
+      :ARG2 (h / have-condition-91
+            :ARG1 (j / judge-01
+                  :ARG0 (y / you)
+                  :ARG1 y)))
+

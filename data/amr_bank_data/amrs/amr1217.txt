@@ -1,0 +1,21 @@
+
+(s / say-01
+      :ARG0 (p / prince
+            :mod (l / little))
+      :ARG1 (w / walk-01
+            :ARG0 (i / i)
+            :direction (t / toward
+                  :destination (s2 / spring
+                        :source-of (w2 / water
+                              :mod (f / fresh))))
+            :manner (l2 / leisure
+                  :poss p)
+            :condition (h / have-03
+                  :ARG0 p
+                  :ARG1 (t2 / temporal-quantity :quant 53
+                        :unit (m / minute)
+                        :ARG1-of (s3 / spend-02
+                              :ARG2 (l3 / like-02
+                                    :ARG0 p)))))
+      :ARG2 p)
+

@@ -1,0 +1,6 @@
+
+(s / stir-02
+  :ARG1 (g / geographer)
+  :ARG3 (e / excite-01)
+  :manner (s2 / sudden))
+

@@ -1,0 +1,13 @@
+
+(a / and
+  :op2 (m / moan-01
+         :ARG0 (p / pulley)
+         :ARG1-of (r / resemble-01
+                    :ARG2 (m2 / moan-01
+                            :ARG0 (w / weathervane
+                                    :mod (o / old)
+                                    :ARG1-of (f / forget-01
+                                               :ARG0 (w2 / wind)
+                                               :time (s / since
+                                                       :op1 (l / long))))))))
+

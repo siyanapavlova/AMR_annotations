@@ -1,0 +1,8 @@
+
+(t / tell-01 :polarity -
+      :ARG0 (i / i)
+      :ARG1 (s / story
+            :mod (t2 / this))
+      :time (e / ever)
+      :time (y / yet))
+

@@ -1,0 +1,8 @@
+
+(h / have-03
+  :ARG0 (h2 / he)
+  :ARG1 (v / volcano
+          :mod (e / extinct)
+          :quant 1)
+  :mod (a / also))
+

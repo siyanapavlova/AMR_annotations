@@ -1,0 +1,9 @@
+
+(d / demand-01 :mode interrogative
+      :ARG0 (p / prince
+            :mod (l / little))
+      :ARG1 (c / come-01
+            :ARG1 (t / they)
+            :direction (b / back)
+            :time (a / already)))
+

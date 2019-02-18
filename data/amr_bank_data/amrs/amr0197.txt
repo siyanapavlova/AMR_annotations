@@ -1,0 +1,17 @@
+
+(a / and
+  :op1 (g / go-06
+         :ARG0 (t / thing
+                 :ARG1-of (d / draw-01)
+                 :quant 1)
+         :ARG2 (a2 / along)
+         :mod (r / right
+                :mod (a3 / all)))
+  :op2 (r2 / resemble-01
+         :ARG1 (t2 / thing
+                 :ARG1-of (d2 / draw-01)
+                 :mod (a4 / another))
+         :ARG2 (s / subject
+                 :poss t2)
+         :polarity -))
+

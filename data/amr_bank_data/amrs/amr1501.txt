@@ -1,0 +1,6 @@
+
+(l / look-01
+  :ARG0 (i / i
+          :mod (t / too))
+  :ARG1 (s / star))
+

@@ -1,0 +1,8 @@
+
+(b2 / beg-01
+      :ARG0 (i / i)
+      :ARG1 (y2 / you)
+      :ARG2 (e2 / excuse-01
+            :ARG0 y2
+            :ARG1 i))
+

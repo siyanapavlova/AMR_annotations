@@ -1,0 +1,9 @@
+
+(s / say-01
+  :ARG0 (p / prince
+          :mod (l / little))
+  :ARG1 (b / begin-01
+          :ARG0 (i / i)
+          :ARG1 (u / understand-01
+                  :ARG0 i)))
+

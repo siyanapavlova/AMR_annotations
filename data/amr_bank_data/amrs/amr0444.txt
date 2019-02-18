@@ -1,0 +1,13 @@
+
+(p / pull-01
+      :ARG0 (p2 / prince
+            :mod (l / little)
+            :ARG1-of (d2 / deject-01
+                  :mod (c / certain)))
+      :ARG1 (s / shoot
+            :part-of (b / baobab)
+            :mod (l2 / little)
+            :mod (l3 / last))
+      :mod (a / also)
+      :direction (u / up))
+

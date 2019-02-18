@@ -1,0 +1,14 @@
+
+(s / say-01
+  :ARG0 (s2 / snake)
+  :ARG1 (p / possible
+          :domain (c / carry-01
+                    :ARG0 s2
+                    :ARG1 (y / you)
+                    :extent (f / far
+                              :degree (m / more)
+                              :compared-to (t / take-01
+                                             :ARG0 (s3 / ship
+                                                     :mod (a / any))
+                                             :ARG1 y)))))
+

@@ -1,0 +1,17 @@
+
+(a / and
+  :op2 (c / cause-01
+         :ARG0 (h / have-03
+                 :ARG0 i
+                 :ARG1 (o / or
+                         :op1 (m / mechanic)
+                         :op2 (p / passenger))
+                 :accompanier (i / i)
+                 :polarity -)
+         :ARG1 (a2 / attempt-01
+                 :ARG0 i
+                 :ARG1 (r / repair-01
+                         :mod (d / difficult))
+                 :mod (a3 / alone
+                        :degree (a4 / all)))))
+

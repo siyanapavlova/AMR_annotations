@@ -1,0 +1,14 @@
+
+(f / find-01
+      :ARG0 (y / you)
+      :ARG1 (e / entertain-01
+            :ARG0 (l2 / look-01
+                  :ARG0 y
+                  :ARG1 (s / sunset)
+                  :mod (p / pleasure
+                        :mod (q / quiet)))
+            :ARG1 y
+            :mod (o / only))
+      :duration (t / time
+            :mod (l / long)))
+

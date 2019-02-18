@@ -1,0 +1,9 @@
+
+(t / think-01
+      :ARG0 (i / i)
+      :ARG1 (g / go-02
+            :ARG0 i
+            :ARG1 (w / way
+                  :poss i))
+      :time (n / now))
+

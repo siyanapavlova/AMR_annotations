@@ -1,0 +1,6 @@
+
+(s / spread-01
+  :ARG1 (i / it)
+  :ARG2 (p / planet
+          :mod (e / entire)))
+

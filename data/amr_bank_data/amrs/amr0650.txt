@@ -1,0 +1,16 @@
+
+(o / occupy-01
+  :ARG1 (m / man
+          :mod (t / this))
+  :degree (m2 / much
+            :degree (s / so))
+  :ARG0-of (c / cause-01
+             :ARG1 (r / raise-01
+                     :ARG0 m
+                     :ARG1 (h / head
+                             :part-of m)
+                     :polarity -
+                     :time (a / arrive-01
+                             :ARG1 (p / prince
+                                     :mod (l / little))))))
+

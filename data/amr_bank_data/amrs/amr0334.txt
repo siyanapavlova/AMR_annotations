@@ -1,0 +1,6 @@
+
+(l / look-01 :polarity -
+      :ARG0 (h / he)
+      :ARG1 (s / star)
+      :time (e / ever))
+

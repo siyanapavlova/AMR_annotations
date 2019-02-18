@@ -1,0 +1,13 @@
+
+(a / and
+      :op1 (s / sit-02
+            :ARG1 (p / prince
+                  :mod (l / little))
+            :ARG2 (s2 / stone)
+            :direction (d / down))
+      :op2 (r / raise-01
+            :ARG0 p
+            :ARG1 (e / eye
+                  :part-of p)
+            :direction (s3 / sky)))
+

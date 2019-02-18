@@ -1,0 +1,25 @@
+
+(a / and
+      :op2 (o / oblige-02
+            :ARG1 i
+            :ARG2 (p / pretend-01
+                  :ARG0 i
+                  :ARG1 (n / nurse-01
+                        :ARG0 i
+                        :ARG1 s
+                        :purpose (l / live-01
+                              :ARG0 s))))
+      :ARG1-of (c / cause-01
+            :ARG0 (a2 / allow-01
+                  :ARG0 (s / she)
+                  :ARG1 (d / die-01
+                        :ARG1 s)
+                  :mod (r / real)
+                  :condition (p2 / pretend-01 :polarity -
+                        :ARG0 i
+                        :ARG1 n
+                        :purpose (h / humble-01
+                              :ARG0 i
+                              :ARG1 (i / i)
+                              :mod (a3 / also))))))
+

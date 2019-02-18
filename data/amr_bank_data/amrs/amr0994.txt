@@ -1,0 +1,7 @@
+
+(s / say-01
+      :ARG0 (p / prince
+            :mod (l / little))
+      :ARG1 (m2 / morning
+            :mod (g2 / good)))
+

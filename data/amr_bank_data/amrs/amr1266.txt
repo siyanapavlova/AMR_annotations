@@ -1,0 +1,17 @@
+
+(a2 / and
+  :op1 (t / take-01
+         :ARG0 (i / i)
+         :ARG1 (p / prince
+                 :mod (l / little))
+         :destination (a / arm
+                        :part-of i))
+  :op2 (s / set-07
+         :ARG0 i
+         :ARG1 (w / walk-01)
+         :mod (o / once-more))
+  :time (d / drop-03
+          :ARG0 p
+          :ARG4 (s2 / sleep-01
+                  :ARG0 p)))
+

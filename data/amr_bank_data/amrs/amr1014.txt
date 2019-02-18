@@ -1,0 +1,7 @@
+
+(s / say-01
+  :ARG0 (p / prince
+          :mod (l / little))
+  :ARG2 (y / you
+          :domain (a / amr-unknown)))
+

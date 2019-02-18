@@ -1,0 +1,6 @@
+
+(p / possible :polarity -
+      :domain (h / help-02
+            :ARG0 (i / i)
+            :ARG1 (i2 / it)))
+

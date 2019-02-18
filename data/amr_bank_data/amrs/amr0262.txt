@@ -1,0 +1,13 @@
+
+(c / carry-01
+      :ARG0 (f / force-01
+            :ARG0 (n / necessity
+                  :mod (u / urgent))
+            :ARG0-of (i2 / inspire-01))
+      :ARG1 (i / i)
+      :destination (b / beyond
+            :op1 i)
+      :time (d / draw-01
+            :ARG0 i
+            :ARG1 (b2 / baobab)))
+

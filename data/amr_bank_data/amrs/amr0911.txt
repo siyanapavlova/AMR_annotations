@@ -1,0 +1,7 @@
+
+(m / moment
+  :domain (t / that)
+  :mod (r / regret-01)
+  :ord (o / ordinal-entity :value 1)
+  :poss (h / he))
+

@@ -1,0 +1,17 @@
+
+(a / attend-01
+      :ARG0 (y2 / you)
+      :ARG1 (t2 / toilet
+            :poss (p / planet
+                  :poss y)
+            :ARG1-of (r / resemble-01
+                  :ARG2 t))
+      :manner (c / care-01
+            :extent (g / great
+                  :degree (m2 / most)))
+      :time (f / finish-01
+            :ARG0 (y / you)
+            :ARG1 (t / toilet
+                  :poss y)
+            :time (m / morning)))
+

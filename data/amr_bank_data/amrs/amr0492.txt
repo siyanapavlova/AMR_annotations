@@ -1,0 +1,13 @@
+
+(a / and
+  :op1 (r / remain-01
+         :ARG1 (h / he)
+         :ARG3 (s / stand-01
+                 :ARG1 h
+                 :manner (u / upright)))
+  :op2 (y / yawn-01
+         :ARG0 h
+         :ARG1-of (c / cause-01
+                    :ARG0 (t / tire-01
+                            :ARG1 h))))
+

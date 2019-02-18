@@ -1,0 +1,36 @@
+
+(s / say-01
+      :ARG0 (i / i)
+      :ARG1 (m / move-05
+            :ARG0 (p / prince
+                  :mod (l / little)
+                  :ARG0-of (s2 / sleep-01
+                        :location (h / here)))
+            :ARG1 i
+            :ARG2 (l2 / loyal-41
+                  :ARG1 p
+                  :ARG2 (f / flower
+                        :op1 (i2 / image
+                              :poss (r / rose
+                                    :ARG1-of (s3 / shine-01
+                                          :ARG2 (t / through
+                                                :op1 (b / being
+                                                      :poss p
+                                                      :mod (w / whole)))
+                                          :ARG1-of (r2 / resemble-01
+                                                :ARG2 (f2 / flame-01
+                                                      :ARG1 (l3 / lamp)))
+                                          :concession (e / even-when
+                                                :op1 (s6 / sleep-01
+                                                      :ARG0 p)))))))
+            :manner (d / deep))
+      :ARG2 i
+      :time (o / open-01
+            :ARG1 (l4 / lip
+                  :part-of p)
+            :degree (s4 / slight)
+            :manner (s8 / smile-01
+                  :mod (h3 / half)
+                  :mod (s5 / suspicious)))
+      :mod (a2 / again))
+

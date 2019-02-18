@@ -1,0 +1,8 @@
+
+(f / frighten-01
+  :ARG0 (h / hat)
+  :ARG1 (o / one
+          :mod (a / any))
+  :ARG1-of (c / cause-01
+             :ARG0 (a2 / amr-unknown)))
+

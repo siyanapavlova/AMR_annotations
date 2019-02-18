@@ -1,0 +1,8 @@
+
+(t / tour-01 :polarity -
+      :ARG0 (i / i)
+      :ARG1 (k / kingdom
+            :poss i)
+      :ARG1-of (c / complete-01
+            :ARG0 i))
+

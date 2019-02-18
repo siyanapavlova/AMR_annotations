@@ -1,0 +1,10 @@
+
+(h / have-03
+  :ARG0 (i / i)
+  :ARG1 (t / time
+          :purpose (l / light-01
+                     :ARG0 i
+                     :ARG1 (i2 / it)
+                     :mod (a / again)))
+  :polarity -)
+

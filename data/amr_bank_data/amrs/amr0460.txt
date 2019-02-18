@@ -1,0 +1,9 @@
+
+(f / fault-01
+      :ARG1 (i / it)
+      :ARG2 (k / know-01 :polarity -
+            :ARG0 (y / you)
+            :ARG1 (i2 / it)
+            :time (w / while-01
+                  :duration (a / all))))
+

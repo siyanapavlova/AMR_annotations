@@ -1,0 +1,18 @@
+
+(e / exclaim-01
+      :ARG0 (h / he)
+      :ARG1 (v / visit-01
+            :ARG0 h
+            :ARG1 (p / person
+                  :ARG0-of (a / admire-01
+                        :ARG1 h))
+            :time (a3 / about-to))
+      :time (s / see-01
+            :ARG0 h
+            :ARG1 (c / come-01
+                  :ARG1 (p2 / prince
+                        :mod (l / little)))
+            :ord (o / ordinal-entity :value 1))
+      :direction (f2 / from
+            :op1 (a2 / afar)))
+

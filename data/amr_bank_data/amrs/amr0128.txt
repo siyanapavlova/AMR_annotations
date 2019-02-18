@@ -1,0 +1,13 @@
+
+(p / possible
+      :domain (i2 / imagine-01
+            :ARG0 (y / you)
+            :ARG1 (a / arouse-01
+                  :ARG0 (c4 / confidence
+                        :degree (h2 / half)
+                        :topic (p3 / planet
+                              :mod (o2 / other))
+                        :poss (h / he))
+                  :ARG1 (c / curiosity
+                        :poss (i / i)))))
+

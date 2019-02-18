@@ -1,0 +1,16 @@
+
+(s / say-01
+      :ARG0 (p / prince
+            :mod (l / little))
+      :ARG1 (r / reason-01
+            :ARG0 (m / man
+                  :mod (t2 / this))
+            :ARG1-of (r2 / resemble-01
+                  :ARG2 (r3 / reason-01
+                        :ARG0 (p2 / person
+                              :ARG0-of (t / tipple-01)
+                              :mod (p3 / poor)
+                              :poss p))
+                  :degree (l2 / little)))
+      :ARG2 p)
+

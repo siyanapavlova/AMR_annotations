@@ -1,0 +1,7 @@
+
+(c / come-01 :polarity - :mode imperative
+      :ARG1 (y / you)
+      :purpose (s / see-01
+            :ARG0 y
+            :ARG1 (t / that)))
+

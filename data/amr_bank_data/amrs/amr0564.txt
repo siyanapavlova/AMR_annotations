@@ -1,0 +1,4 @@
+
+(g / go-02 :polarity - :mode imperative
+      :ARG0 (y / you))
+

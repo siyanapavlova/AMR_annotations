@@ -1,0 +1,6 @@
+
+(p / pride-01
+      :ARG0 (f2 / flower
+            :domain (s / she))
+      :degree (s2 / such))
+

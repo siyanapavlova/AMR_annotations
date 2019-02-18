@@ -1,0 +1,8 @@
+
+(s / say-01
+      :ARG0 (p / prince
+            :mod (l / little))
+      :ARG1 (l2 / lucky :polarity -
+            :domain (y / you)
+            :time (t / then)))
+

@@ -1,0 +1,6 @@
+
+(s / say-01
+  :ARG0 (h / he)
+  :ARG1 (g / goodbye)
+  :mod (a / again))
+

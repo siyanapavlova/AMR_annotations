@@ -1,0 +1,4 @@
+
+(r2 / ram
+  :domain (t2 / this))
+

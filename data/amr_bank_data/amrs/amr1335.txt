@@ -1,0 +1,10 @@
+
+(a / and
+  :op2 (t / tear-01
+         :ARG1 (h / heart
+                 :part-of (i / i))
+         :time (g / give-01
+                 :ARG0 i
+                 :ARG1 (i2 / it)
+                 :ARG2 (h2 / he))))
+

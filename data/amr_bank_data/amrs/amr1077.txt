@@ -1,0 +1,10 @@
+
+(c / contrast-01
+  :ARG2 (n / need-01
+          :ARG0 (w / we)
+          :ARG1 (o / other
+                  :mod (e / each))
+          :condition (t / tame-01
+                       :ARG0 (y / you)
+                       :ARG1 (i / i))))
+

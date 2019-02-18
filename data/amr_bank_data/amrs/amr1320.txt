@@ -1,0 +1,18 @@
+
+(s / say-01
+      :ARG0 (p / prince
+            :mod (l / little))
+      :ARG1 (o / obligate-01
+            :ARG1 (y / you)
+            :ARG2 (h / honor-02
+                  :ARG0 y
+                  :ARG1 (t / thing
+                        :ARG1-of (p2 / promise-01
+                              :ARG0 y))))
+      :manner (s2 / soft)
+      :time (s3 / sit-02
+            :ARG1 p
+            :location (b / beside
+                  :op1 (i / i))
+            :mod (a / again :frequency 1)))
+

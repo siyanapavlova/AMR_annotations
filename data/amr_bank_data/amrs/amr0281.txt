@@ -1,0 +1,10 @@
+
+(f / fortunate-41 :polarity -
+      :ARG2 (b / be-located-at-91
+            :ARG1 (c / country :wiki "France"
+                  :name (n / name :op1 "France"))
+            :ARG2 (a / away
+                  :extent (f2 / far
+                        :degree (t / too)))
+            :purpose (t2 / that)))
+

@@ -1,0 +1,11 @@
+
+(s / sell-01
+      :ARG0 (p / person
+            :ARG0-of (m / merchandise-01)
+            :domain (t2 / this))
+      :ARG1 (p2 / pill
+            :ARG1-of (i / invent-01)
+            :purpose (q / quench-01
+                  :ARG0 p2
+                  :ARG1 (t / thirst-01))))
+

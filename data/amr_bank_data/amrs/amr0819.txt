@@ -1,0 +1,12 @@
+
+(h2 / have-concession-91
+      :ARG1 (s / seem-01 :polarity -
+            :ARG1 (r / ridiculous
+                  :domain (p / person
+                        :mod (o2 / only)
+                        :ARG1-of (i2 / include-91
+                              :ARG2 (t / they
+                                    :mod (a / all)))
+                        :domain (h / he)))
+            :ARG2 (i / i)))
+

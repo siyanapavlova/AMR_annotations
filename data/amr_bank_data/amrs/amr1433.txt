@@ -1,0 +1,7 @@
+
+(r / resemble-01
+  :ARG1 (i / it
+          :mod (g / good
+                 :degree (m / more)))
+  :ARG2 (t / that))
+

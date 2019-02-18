@@ -1,0 +1,5 @@
+
+(p / permit-01 :polarity -
+      :ARG0 (i / i)
+      :ARG1 (i2 / insubordinate-00))
+

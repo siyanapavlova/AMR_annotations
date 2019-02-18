@@ -1,0 +1,8 @@
+
+(s / see-01
+      :ARG0 (i / i)
+      :ARG1 (t / they)
+      :manner (i2 / intimate)
+      :ARG1-of (c / close-41
+            :ARG2 (a / at-hand)))
+

@@ -1,0 +1,10 @@
+
+(o2 / opine-01
+      :ARG0 (m2 / man
+            :mod (c / conceit))
+      :ARG1 (p2 / person
+            :ARG0-of (a3 / admire-01)
+            :domain (m / man
+                  :mod (o / other)
+                  :quant (a / all))))
+

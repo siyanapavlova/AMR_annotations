@@ -1,0 +1,13 @@
+
+(s / send-02
+      :ARG0 (h / he)
+      :ARG1 (o / or
+            :op1 (f2 / flower)
+            :op2 (s3 / star))
+      :ARG2 (s2 / sleep-01
+            :ARG0 o)
+      :time (p / put-09
+            :ARG0 h
+            :ARG1 (l / lamp
+                  :poss h)))
+

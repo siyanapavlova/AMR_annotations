@@ -1,0 +1,11 @@
+
+(k / know-01
+  :ARG0 (y / you)
+  :ARG1 (s / suffer-01
+          :ARG0 (i / i)
+          :ARG1 (i2 / it)
+          :polarity -
+          :duration (l / long
+                      :degree (t / too)))
+  :mode interrogative)
+

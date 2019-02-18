@@ -1,0 +1,5 @@
+
+(c / contrast-01
+      :ARG2 (v / visible :polarity -
+            :domain (s / seed)))
+

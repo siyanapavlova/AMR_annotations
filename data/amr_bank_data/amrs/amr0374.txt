@@ -1,0 +1,16 @@
+
+(a / and
+      :op1 (s / stop-01
+            :ARG0 (s2 / shrub)
+            :ARG1 (g / grow-01
+                  :ARG1 s2)
+            :time (s3 / soon))
+      :op2 (b / begin-01
+            :ARG0 s2
+            :ARG1 (r / ready-01
+                  :ARG0 s2
+                  :ARG1 s2
+                  :ARG2 (p / produce-01
+                        :ARG0 s2
+                        :ARG1 (f / flower)))))
+

@@ -1,0 +1,24 @@
+
+(l / look-01
+      :ARG0 (h / he)
+      :ARG1 (i / i
+            :ARG0-of (b2 / bend-01
+                  :destination (d / down)
+                  :location (o / object
+                        :mod (u / ugly
+                              :mod (s / seem-01
+                                    :ARG2 h)
+                              :degree (e2 / extreme))))
+            :ARG0-of (h4 / have-03
+                  :ARG1 (h2 / hammer
+                        :poss i)
+                  :location (h3 / hand
+                        :part-of i))
+            :ARG0-of (h5 / have-03
+                  :ARG1 (f / finger
+                        :part-of i
+                        :ARG1-of (b / blacken-01
+                              :ARG0 (g / grease
+                                    :mod (e / engine))))))
+      :location (t / there))
+

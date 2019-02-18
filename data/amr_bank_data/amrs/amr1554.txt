@@ -1,0 +1,12 @@
+
+(o / opine-01
+      :ARG0 (i / i)
+      :ARG1 (l / landscape
+            :mod (l2 / lovely
+                  :degree (m / most)
+                  :compared-to (w / world))
+            :mod (s / sad
+                  :degree (m2 / most)
+                  :compared-to w)
+            :domain (t / this)))
+

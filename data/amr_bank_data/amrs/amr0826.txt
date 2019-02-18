@@ -1,0 +1,9 @@
+
+(l / large
+      :domain (p / planet
+            :ord (o / ordinal-entity :value 6))
+      :quant (p3 / product-of :op1 10
+            :op2 (v / volume-quantity
+                  :quant-of (p2 / planet
+                        :mod (l2 / last)))))
+

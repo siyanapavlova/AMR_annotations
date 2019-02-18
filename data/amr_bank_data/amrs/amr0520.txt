@@ -1,0 +1,4 @@
+
+(t / tiny
+  :domain (p / planet))
+

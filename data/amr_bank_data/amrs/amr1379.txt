@@ -1,0 +1,13 @@
+
+(a / and
+      :op1 (d / drop-01
+            :ARG0 (i / i)
+            :ARG1 (e / eye
+                  :part-of i)
+            :ARG4 (f / foot
+                  :part-of (w / wall))
+            :time (t / then))
+      :op2 (l / leap-03
+            :ARG0 i
+            :destination (a2 / air)))
+

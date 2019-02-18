@@ -1,0 +1,7 @@
+
+(c / contrast-01
+      :ARG2 (k / know-01
+            :ARG0 (o / one)
+            :polarity -
+            :time (e / ever)))
+

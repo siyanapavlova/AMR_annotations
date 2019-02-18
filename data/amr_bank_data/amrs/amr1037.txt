@@ -1,0 +1,25 @@
+
+(s / say-01
+      :ARG0 (h / he)
+      :ARG1 (a / and
+            :op1 (a2 / annoy-01
+                  :ARG1 (s2 / she)
+                  :degree (m2 / much
+                        :degree (v / very)))
+            :op2 (c / cough-01
+                  :ARG0 s2
+                  :manner (d2 / dreadful
+                        :degree (m / most)))
+            :op3 (p / pretend-01
+                  :ARG0 s2
+                  :ARG1 (d / die-01
+                        :ARG1 s2)
+                  :purpose (a3 / avoid-01
+                        :ARG0 s2
+                        :ARG1 (l / laugh-01
+                              :ARG2 s2)))
+            :condition (s3 / see-01
+                  :ARG0 s2
+                  :ARG1 (t / that)))
+      :ARG2 h)
+

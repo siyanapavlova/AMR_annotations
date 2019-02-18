@@ -1,0 +1,16 @@
+
+(a / and
+  :op1 (l / live-01
+         :ARG0 (i / i)
+         :location (h / house
+                     :mod (o / old))
+         :time (b / boy
+                 :mod (l2 / little)
+                 :domain i))
+  :op2 (t / tell-01
+         :ARG0 (l3 / legend)
+         :ARG1 (b2 / bury-01
+                 :ARG1 (t2 / treasure)
+                 :location h)
+         :ARG2 (w / we)))
+

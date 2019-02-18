@@ -1,0 +1,5 @@
+
+(w / weigh-01
+      :ARG1 (h / he)
+      :ARG3 (a / amr-unknown))
+

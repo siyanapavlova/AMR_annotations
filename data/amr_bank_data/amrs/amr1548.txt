@@ -1,0 +1,22 @@
+
+(p / possible
+      :domain (s / same-41
+            :ARG1 (n / nothing
+                  :location (u / universe))
+            :ARG3 (a / and
+                  :op1 (y / you
+                        :ARG0-of (l / love-01
+                              :ARG1 (p2 / prince
+                                    :mod (l2 / little)))
+                        :mod (a2 / also))
+                  :op2 (i / i)))
+      :condition (e / eat-01
+            :ARG0 (s2 / sheep
+                  :ARG1-of (s3 / see-01 :polarity -
+                        :ARG0 (w2 / we)
+                        :time (e2 / ever)))
+            :ARG1 (r / rose)
+            :location (s4 / somewhere
+                  :ARG1-of (k / know-01 :polarity -
+                        :ARG0 w2))))
+

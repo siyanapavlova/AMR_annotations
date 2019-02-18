@@ -1,0 +1,8 @@
+
+(a / and
+      :op1 (t / they :quant 5000
+            :mod (a2 / alike
+                  :mod (a3 / all))
+            :location (h / here)
+            :location (g / garden :quant 1)))
+

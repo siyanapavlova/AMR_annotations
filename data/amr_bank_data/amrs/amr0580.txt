@@ -1,0 +1,11 @@
+
+(s / say-01
+  :ARG0 (p / prince
+          :mod (l / little))
+  :ARG1 (y / yes
+          :concession (p2 / possible
+                        :domain (j / judge-01
+                                  :ARG0 p
+                                  :ARG1 p
+                                  :location (a / anywhere)))))
+

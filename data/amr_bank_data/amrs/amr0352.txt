@@ -1,0 +1,7 @@
+
+(p / possible :polarity -
+      :domain (s / say-01
+            :ARG0 (h / he)
+            :ARG1 (a / anything
+                  :mod (m / more))))
+

@@ -1,0 +1,4 @@
+
+(n / naive
+      :domain (t / they))
+

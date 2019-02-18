@@ -1,0 +1,5 @@
+
+(m / mean-01
+  :ARG0 (a / admire-01)
+  :ARG1 (a2 / amr-unknown))
+

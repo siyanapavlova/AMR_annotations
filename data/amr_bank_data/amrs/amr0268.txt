@@ -1,0 +1,11 @@
+
+(a / and
+      :op1 (c / come-01 :mode imperative
+            :ARG1 (y / you))
+      :op2 (g / go-05 :mode imperative
+            :ARG0 w
+            :ARG1 (l / look-01
+                  :ARG0 (w / we)
+                  :ARG1 (s / sunset)
+                  :time (n / now))))
+

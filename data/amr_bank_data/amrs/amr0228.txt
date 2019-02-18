@@ -1,0 +1,18 @@
+
+(b2 / be-located-at-91
+      :ARG1 (a3 / and
+            :op1 (p / plant
+                  :mod (g / good))
+            :op2 (p2 / plant
+                  :mod (b / bad))
+            :mod (i / indeed))
+      :ARG2 (a / and
+            :op1 (p3 / planet
+                  :location-of (l / live-01
+                        :ARG0 (p4 / prince
+                              :mod (l2 / little))))
+            :op2 (p5 / planet
+                  :mod (a2 / all)))
+      :ARG1-of (l3 / learn-01
+            :ARG0 (i2 / i)))
+

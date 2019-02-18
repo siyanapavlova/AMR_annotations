@@ -1,0 +1,7 @@
+
+(s / say-01
+  :ARG0 (s2 / snake)
+  :ARG1 (d / date-entity
+          :dayperiod (e / evening)
+          :mod (g / good)))
+

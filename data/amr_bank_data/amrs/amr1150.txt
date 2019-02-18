@@ -1,0 +1,9 @@
+
+(s / say-01
+      :ARG0 (p / prince
+            :mod (l / little))
+      :ARG1 (c / contrast-01
+            :ARG2 (c2 / cry-02
+                  :ARG0 (y / you)
+                  :time (n / now))))
+

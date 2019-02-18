@@ -1,0 +1,6 @@
+
+(h / heavy
+      :domain (i2 / it)
+      :degree (t / too)
+      :compared-to (y / you))
+

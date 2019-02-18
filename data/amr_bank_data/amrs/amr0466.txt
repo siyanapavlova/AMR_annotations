@@ -1,0 +1,13 @@
+
+(a / and
+      :op1 (b2 / bad :polarity -
+            :compared-to (t / that
+                  :quant (a2 / all))
+            :domain (c3 / cold
+                  :poss (i / i)))
+      :op2 (g2 / good-42
+            :ARG1 i
+            :ARG2 (a3 / air
+                  :mod (c2 / cool)
+                  :mod (n / night))))
+

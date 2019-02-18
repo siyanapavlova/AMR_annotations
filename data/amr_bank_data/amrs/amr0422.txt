@@ -1,0 +1,8 @@
+
+(p / perfume-01
+      :ARG0 (t / thing
+            :poss (i / i))
+      :ARG1 (p2 / planet
+            :mod (a / all)
+            :poss i))
+

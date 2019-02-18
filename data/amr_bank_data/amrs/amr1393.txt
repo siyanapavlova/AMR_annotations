@@ -1,0 +1,8 @@
+
+(p / possible
+      :domain (g / go-02
+            :ARG0 (y / you)
+            :ARG4 (h / home)
+            :direction (b / back))
+      :time (n / now))
+

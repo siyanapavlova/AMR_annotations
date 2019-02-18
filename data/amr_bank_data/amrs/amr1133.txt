@@ -1,0 +1,10 @@
+
+(a / and
+      :op1 (w / worry-01
+            :ARG1 (i / i))
+      :op2 (j / jump-03
+            :ARG0 i
+            :direction (a2 / about))
+      :time (d / date-entity :time "4:00")
+      :time (a3 / already))
+

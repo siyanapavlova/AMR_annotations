@@ -1,0 +1,8 @@
+
+(g / give-01
+      :ARG0 (i / i)
+      :ARG1 (s / sheep
+            :mod (s2 / small
+                  :degree (v / very)))
+      :ARG2 (y / you))
+

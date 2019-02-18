@@ -1,0 +1,8 @@
+
+(a / and
+  :op2 (a2 / acquaint-01
+         :ARG1 (i / i)
+         :ARG2 (p / prince
+                 :mod (l / little))
+         :manner (t / that)))
+

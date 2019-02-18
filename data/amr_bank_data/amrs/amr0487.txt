@@ -1,0 +1,16 @@
+
+(a / ask-01
+      :ARG0 (p / prince
+            :mod (l / little))
+      :ARG1 (p2 / possible
+            :domain (r / recognize-01
+                  :ARG0 (h / he)
+                  :ARG1 p
+                  :condition (s / see-01 :polarity -
+                        :ARG0 h
+                        :ARG1 p
+                        :time (b / before)
+                        :time (e / ever)))
+            :manner (a2 / amr-unknown))
+      :ARG2 p)
+

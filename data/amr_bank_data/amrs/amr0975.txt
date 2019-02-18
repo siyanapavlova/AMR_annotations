@@ -1,0 +1,5 @@
+
+(p / powerful
+      :domain (y / you)
+      :degree (v / very :polarity -))
+

@@ -1,0 +1,5 @@
+
+(m2 / man
+      :mod (l2 / little)
+      :mod (d / dear))
+

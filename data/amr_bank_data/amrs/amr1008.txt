@@ -1,0 +1,12 @@
+
+(v / volcano :quant 3
+  :domain (m / mountain
+            :mod (o / only)
+            :ARG1-of (k / know-01
+                       :ARG0 (h / he)
+                       :time (e / ever)))
+  :ARG1-of (c / come-04
+             :ARG2 (u / up-to
+                     :op1 (k2 / knee
+                            :part-of h))))
+

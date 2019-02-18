@@ -1,0 +1,6 @@
+
+(h2 / hat
+      :mod (q2 / queer)
+      :domain (t2 / that)
+      :ARG1-of (w2 / wear-01))
+

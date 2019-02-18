@@ -1,0 +1,8 @@
+
+(a / absurd
+  :domain (l / look-01
+            :ARG1 (w / well)
+            :location (d / desert
+                        :mod (i / immense))
+            :manner (r / random)))
+

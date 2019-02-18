@@ -1,0 +1,8 @@
+
+(c / contrast-01
+  :ARG2 (a / answer-01
+          :ARG0 (h / he)
+          :ARG1 (p / plea
+                  :poss (i / i))
+          :polarity -))
+

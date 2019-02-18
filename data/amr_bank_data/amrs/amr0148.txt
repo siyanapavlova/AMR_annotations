@@ -1,0 +1,8 @@
+
+(c / contrast-01
+      :ARG2 (s / surprise-01 :polarity -
+            :ARG0 (t / that)
+            :ARG1 (i / i)
+            :degree (m / much)
+            :mod (r / real)))
+

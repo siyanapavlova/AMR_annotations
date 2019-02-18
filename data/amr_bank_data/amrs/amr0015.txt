@@ -1,0 +1,23 @@
+
+(c / contrast-01
+      :ARG2 (a2 / and
+            :op1 (d3 / draw-01
+                  :ARG0 (i / i)
+                  :ARG1 (p2 / picture
+                        :mod (a / another))
+                  :ARG1-of (c3 / cause-01
+                        :ARG0 (p3 / possible :polarity -
+                              :domain (u / understand-01
+                                    :ARG0 (g / grown-up)
+                                    :ARG1 (i2 / it)))))
+            :op2 (d / draw-01
+                  :ARG0 i
+                  :ARG1 (i3 / inside
+                        :part-of (b2 / boa
+                              :mod (c4 / constrictor)))
+                  :purpose (p / possible
+                        :domain (s / see-01
+                              :ARG0 g
+                              :ARG1 (i4 / it)
+                              :mod (c2 / clear))))))
+

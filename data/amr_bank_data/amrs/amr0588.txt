@@ -1,0 +1,7 @@
+
+(d / depend-01
+      :ARG0 (l / live-01
+            :ARG0 (h / he))
+      :ARG1 (j / justice
+            :poss (y / you)))
+

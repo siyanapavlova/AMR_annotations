@@ -1,0 +1,8 @@
+
+(r / rite
+      :ARG1-of (h / have-03
+            :ARG0 (p / person
+                  :ARG0-of (h2 / hunt-01
+                        :ARG1 (i / i))))
+      :ARG0-of (e / exemplify-01))
+

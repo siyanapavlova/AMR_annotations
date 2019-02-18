@@ -1,0 +1,8 @@
+
+(c2 / contrast-01
+      :ARG2 (c3 / cause-01 :polarity -
+            :ARG0 (h / have-03
+                  :ARG0 (s / she)
+                  :ARG1 (c / cold))
+            :ARG1 (i / it)))
+

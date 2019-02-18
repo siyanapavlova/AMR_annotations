@@ -1,0 +1,16 @@
+
+(g / give-01
+      :ARG0 (a / astronomer)
+      :ARG1 (n2 / number)
+      :ARG2 (t / thing :quant 1
+            :ARG1-of (i / include-91
+                  :ARG2 (t2 / this)))
+      :mod (o2 / only)
+      :time (d / discover-01
+            :ARG0 a
+            :ARG1 t)
+      :ARG1-of (i2 / instead-of-91
+            :ARG2 (n3 / name-01
+                  :ARG0 a
+                  :ARG1 t)))
+

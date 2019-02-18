@@ -1,0 +1,10 @@
+
+(t / take-01
+      :ARG0 (i / i)
+      :ARG1 (t3 / thing
+            :ARG1-of (d3 / draft-01)
+            :mod (r2 / rough)
+            :ARG1-of (d4 / draw-01))
+      :ARG2 (p / pocket
+            :poss i))
+

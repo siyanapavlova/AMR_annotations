@@ -1,0 +1,9 @@
+
+(r / reveal-01
+  :ARG0 (w / word
+          :ARG1-of (d / drop-06
+                     :manner (c / chance)))
+  :ARG1 (e / everything)
+  :ARG2 (i / i)
+  :manner (l / little-by-little))
+

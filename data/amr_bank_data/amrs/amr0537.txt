@@ -1,0 +1,36 @@
+
+(p / pluck-01
+      :ARG0 (h / he)
+      :ARG1 (c / courage
+            :poss h)
+      :mod (u / up)
+      :ARG1-of (c2 / cause-01
+            :ARG0 (f / feel-01
+                  :ARG0 h
+                  :ARG1 (s3 / sad
+                        :degree (b / bit))
+                  :ARG1-of (c3 / cause-01
+                        :ARG0 (r / remember-01
+                              :ARG0 h
+                              :ARG1 (p2 / planet
+                                    :poss h
+                                    :mod (l2 / little)
+                                    :ARG1-of (f2 / forsake-01
+                                          :ARG0 h))))))
+      :ARG0-of (c4 / cause-01
+            :ARG1 (a / ask-02
+                  :ARG0 h
+                  :ARG1 (a2 / and
+                        :op1 (l / like-02
+                              :ARG0 (i / i)
+                              :ARG1 (s / see-01
+                                    :ARG0 i
+                                    :ARG1 (s2 / sunset)))
+                        :op2 (d / do-02 :mode imperative
+                              :ARG0 k
+                              :ARG1 (t / thing
+                                    :ARG1-of (k2 / kind-41
+                                          :ARG2 h))
+                              :ARG2 h))
+                  :ARG2 (k / king))))
+

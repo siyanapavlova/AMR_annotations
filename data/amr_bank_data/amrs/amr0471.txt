@@ -1,0 +1,10 @@
+
+(c / call-05
+      :ARG0 (a / amr-unknown)
+      :ARG1 (i / i)
+      :condition (c3 / call-05 :polarity -
+            :ARG0 (a2 / and
+                  :op1 (b / butterfly)
+                  :op2 (c2 / caterpillar))
+            :ARG1 i))
+

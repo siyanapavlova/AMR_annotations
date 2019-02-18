@@ -1,0 +1,17 @@
+
+(b / begin-01
+      :ARG0 (h / he)
+      :ARG1 (c / clap-01
+            :ARG0 h
+            :ARG1 (h2 / hand
+                  :part-of h)
+            :manner (c2 / clap-01
+                  :ARG0 h
+                  :ARG1 (h3 / hand :quant 1
+                        :part-of h)
+                  :ARG2 (h4 / hand
+                        :part-of h
+                        :ARG1-of (d / differ-02
+                              :ARG2 h3))))
+      :mod (a / again))
+

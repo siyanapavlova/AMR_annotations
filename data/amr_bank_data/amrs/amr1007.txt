@@ -1,0 +1,9 @@
+
+(c / climb-01
+  :ARG0 (p / prince
+          :mod (l / little))
+  :ARG1 (m / mountain
+          :mod (h / high))
+  :time (a / after
+          :op1 (t / that)))
+

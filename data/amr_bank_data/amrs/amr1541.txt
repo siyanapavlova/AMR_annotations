@@ -1,0 +1,20 @@
+
+(a / and
+      :op1 (s / shut-01
+            :ARG0 (p / prince
+                  :mod (l / little))
+            :ARG1 (g / globe
+                  :consist-of (g2 / glass)
+                  :poss (s2 / she)
+                  :op1-of (u / under
+                        :location-of (f2 / flower
+                              :mod (l2 / little)
+                              :poss p)))
+            :time (r / rate-entity-91
+                  :ARG4 (n / night)))
+      :op2 (w / watch-01
+            :ARG0 p
+            :ARG1 (s3 / sheep)
+            :manner (c / careful
+                  :degree (v / very))))
+

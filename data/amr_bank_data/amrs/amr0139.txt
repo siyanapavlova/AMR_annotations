@@ -1,0 +1,11 @@
+
+(s / say-01
+  :ARG0 (i / i)
+  :ARG1 (a / and
+          :op1 (w / wander-01
+                 :ARG0 (h / he)
+                 :ARG1 (s2 / somewhere))
+          :op2 (g / get-03
+                 :ARG1 h
+                 :ARG2 (l / lost))))
+

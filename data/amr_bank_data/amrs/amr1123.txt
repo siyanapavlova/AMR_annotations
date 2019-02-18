@@ -1,0 +1,12 @@
+
+(a / ask-01
+  :ARG0 (p / prince
+          :mod (l / little))
+  :ARG1 (o / obligate-01
+          :ARG2 (d / do-02
+                  :ARG0 p
+                  :ARG1 (a2 / amr-unknown)
+                  :purpose (t / tame-01
+                             :ARG0 p
+                             :ARG1 (y / you)))))
+

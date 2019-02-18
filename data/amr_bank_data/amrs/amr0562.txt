@@ -1,0 +1,8 @@
+
+(c / cause-01
+      :ARG1 (s / set-07
+            :ARG0 (i / i)
+            :ARG1 (w / way
+                  :poss i)
+            :mod (a / again)))
+

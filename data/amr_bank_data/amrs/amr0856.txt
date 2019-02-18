@@ -1,0 +1,10 @@
+
+(i2 / important
+      :domain (g / geographer
+            :ARG1-of (g2 / go-01
+                  :purpose (l / loaf-01
+                        :ARG0 g
+                        :path (a / about))))
+      :degree (t / too
+            :degree (m / much)))
+

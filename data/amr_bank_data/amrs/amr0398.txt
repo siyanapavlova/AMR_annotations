@@ -1,0 +1,17 @@
+
+(b / begin-01
+      :ARG0 (s / she)
+      :ARG1 (t2 / torment-01
+            :ARG0 s
+            :ARG1 (h / he)
+            :ARG2 (v2 / vanity
+                  :poss s
+                  :ARG1-of (d3 / deal-01
+                        :mod (d / difficult
+                              :degree (l / little))
+                        :condition (k / know-01
+                              :ARG1 (t3 / truth)))))
+      :mod (t / too)
+      :manner (q / quick
+            :degree (v / very)))
+

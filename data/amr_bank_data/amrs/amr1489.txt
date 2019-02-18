@@ -1,0 +1,4 @@
+
+(s / suffer-01
+  :ARG0 (y / you))
+

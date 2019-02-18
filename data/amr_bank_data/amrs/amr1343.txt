@@ -1,0 +1,13 @@
+
+(a2 / and
+      :op2 (s / sense-01
+            :ARG0 (i / i)
+            :ARG1 (s2 / sorrow-01
+                  :ARG0 i)
+            :mod (q / queer)
+            :mod (a / again :frequency 1)
+            :ARG1-of (c2 / cause-01
+                  :ARG0 (a3 / amr-unknown
+                        :ARG1-of (u2 / understand-01 :polarity -
+                              :ARG0 i)))))
+

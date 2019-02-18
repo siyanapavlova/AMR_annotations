@@ -1,0 +1,14 @@
+
+(t / talk-01
+  :ARG0 (i / i)
+  :ARG1 (o / or
+          :op1 (b / boa
+                 :mod (c2 / constrictor))
+          :op2 (f / forest
+                 :mod (p2 / primeval))
+          :op3 (s / star))
+  :ARG2 (p / person
+          :mod (t2 / that))
+  :time (e / ever)
+  :polarity -)
+

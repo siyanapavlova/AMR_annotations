@@ -1,0 +1,8 @@
+
+(s / show-01
+      :ARG0 (i / i)
+      :ARG1 (h / happy
+            :degree (s2 / so)
+            :domain i)
+      :ARG2 (y / you))
+

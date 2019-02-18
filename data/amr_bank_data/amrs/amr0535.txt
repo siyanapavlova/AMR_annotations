@@ -1,0 +1,7 @@
+
+(m / marvel-01
+      :ARG0 (p / prince
+            :mod (l / little))
+      :ARG1 (p2 / power
+            :degree (s / such)))
+

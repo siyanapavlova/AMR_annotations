@@ -1,0 +1,9 @@
+
+(a / and
+      :op1 (t / tame-01
+            :ARG0 (n / no-one)
+            :ARG1 (y / you))
+      :op2 (t2 / tame-01
+            :ARG0 y
+            :ARG1 n))
+

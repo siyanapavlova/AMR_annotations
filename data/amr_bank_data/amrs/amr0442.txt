@@ -1,0 +1,13 @@
+
+(s / small
+      :degree (t2 / too
+            :degree (m / much))
+      :compared-to (c / clean-03
+            :ARG0 w
+            :ARG1 (v / volcano
+                  :poss w))
+      :domain (w / we)
+      :location (e / earth
+            :poss w)
+      :mod (o / obvious))
+

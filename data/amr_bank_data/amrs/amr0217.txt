@@ -1,0 +1,13 @@
+
+(u / understand-01 :polarity -
+      :ARG0 (i / i)
+      :ARG1 (i2 / important
+            :mod (s2 / so)
+            :domain (r / recommend-01
+                  :ARG1 (e / eat-01
+                        :ARG0 (s / sheep)
+                        :ARG1 (b / bush
+                              :mod (l / little))))
+            :ARG1-of (c / cause-01
+                  :ARG0 (a / amr-unknown))))
+

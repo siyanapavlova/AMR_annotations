@@ -1,0 +1,11 @@
+
+(c / contrast
+      :op2 (a / and
+            :op1 (a2 / and
+                  :op1 (i / innocence)
+                  :op2 (t / truth)
+                  :domain (y / you))
+            :op2 (c2 / come-01
+                  :ARG1 y
+                  :ARG3 (s2 / star))))
+

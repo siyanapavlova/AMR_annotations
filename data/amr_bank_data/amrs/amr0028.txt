@@ -1,0 +1,10 @@
+
+(a / and
+      :op2 (i / improve-01 :polarity -
+            :ARG0 (t / that)
+            :ARG1 (t3 / thing
+                  :ARG1-of (o2 / opine-01
+                        :ARG0 (i2 / i)
+                        :topic (t2 / they)))
+            :degree (m2 / much)))
+

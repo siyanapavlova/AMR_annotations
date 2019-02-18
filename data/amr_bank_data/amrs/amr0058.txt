@@ -1,0 +1,18 @@
+
+(s / suggest-01
+  :ARG0 (n / nothing
+          :topic (h / he))
+  :ARG1 (c / child
+          :ARG1-of (l / lose-02
+                     :location (d / desert
+                                 :part (m / middle))
+                     :location (r / relative-position
+                                 :op1 (t / thing
+                                        :ARG1-of (i / inhabit-01
+                                                   :ARG0 (h2 / human))
+                                        :mod (a3 / any))
+                                 :quant (d2 / distance-quantity
+                                          :unit (m2 / mile)
+                                          :quant 1000)
+                                 :direction (a2 / away)))))
+

@@ -1,0 +1,12 @@
+
+(s / send-03
+      :ARG0 (i / i)
+      :ARG1 (t / train
+            :ARG0-of (c / carry-01
+                  :ARG1 (t2 / they)))
+      :ARG5 (a / and
+            :op1 (r / right
+                  :time (n / now))
+            :op2 (l / left
+                  :time (n2 / now))))
+

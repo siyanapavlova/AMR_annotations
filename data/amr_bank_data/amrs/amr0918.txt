@@ -1,0 +1,7 @@
+
+(p2 / planet
+      :ord (o / ordinal-entity :value 7)
+      :domain (p / planet :wiki "Earth"
+            :name (n / name :op1 "Earth"))
+      :ARG1-of (c / cause-01))
+

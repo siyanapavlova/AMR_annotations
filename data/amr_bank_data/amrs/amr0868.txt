@@ -1,0 +1,4 @@
+
+(p2 / possible
+      :domain (t / that))
+

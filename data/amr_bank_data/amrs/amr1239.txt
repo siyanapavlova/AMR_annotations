@@ -1,0 +1,15 @@
+
+(c / come-01
+  :ARG1 (w / word-01
+          :ARG0 (p / prince
+                  :mod (l2 / little))
+          :ARG1 (t / thirst-01
+                  :ARG0 (y / you
+                          :mod (t2 / too))
+                  :mode interrogative)
+          :mod (l / last))
+  :ARG4 (m / memory
+          :poss (i / i))
+  :manner (r / reel-00
+            :ARG1 w))
+

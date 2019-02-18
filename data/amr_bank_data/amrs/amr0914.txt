@@ -1,0 +1,6 @@
+
+(r / reply-01
+      :ARG0 (g / geographer)
+      :ARG2 (p2 / planet :wiki "Earth"
+            :name (n / name :op1 "Earth")))
+

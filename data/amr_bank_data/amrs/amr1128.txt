@@ -1,0 +1,13 @@
+
+(c2 / contrast-01
+      :ARG2 (s / sit-02
+            :ARG1 (y / you)
+            :location (r / relative-position
+                  :op1 (i / i)
+                  :frequency (r2 / rate-entity-91
+                        :ARG3 (t / temporal-quantity :quant 1
+                              :unit (d / day)))
+                  :quant (c / close
+                        :degree (m / more
+                              :mod (l / little))))))
+

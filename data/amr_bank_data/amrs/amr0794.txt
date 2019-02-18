@@ -1,0 +1,5 @@
+
+(f / funny
+  :degree (v / very)
+  :domain (t / that))
+

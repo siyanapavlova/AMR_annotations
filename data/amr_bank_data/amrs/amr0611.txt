@@ -1,0 +1,9 @@
+
+(r / reply-01
+      :ARG0 (m / man
+            :mod (c / conceit))
+      :ARG1 (h2 / hat
+            :purpose (s / salute-01
+                  :instrument h2)
+            :domain (i / it)))
+

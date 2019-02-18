@@ -1,0 +1,6 @@
+
+(b / be-located-at-91 :mode interrogative
+      :ARG1 (p / person
+            :quant (n / no))
+      :ARG2 (p2 / planet :wiki "Earth" :name (n2 / name :op1 "Earth")))
+

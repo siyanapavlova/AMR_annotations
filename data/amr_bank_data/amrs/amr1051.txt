@@ -1,0 +1,9 @@
+
+(s / say-01
+  :ARG0 (f / fox)
+  :ARG1 (p / possible
+          :polarity -
+          :domain (p2 / play-01
+                    :ARG0 f
+                    :accompanier (y / you))))
+

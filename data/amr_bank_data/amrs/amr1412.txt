@@ -1,0 +1,12 @@
+
+(f / feel-01
+  :ARG0 (i / i)
+  :ARG1 (f2 / freeze-01
+          :ARG0 (s / sense-01
+                  :ARG1 (s2 / something
+                          :ARG1-of (r / repair-01
+                                     :polarity -)))
+          :ARG1 i)
+  :mod (a / again
+         :mod (o / once)))
+

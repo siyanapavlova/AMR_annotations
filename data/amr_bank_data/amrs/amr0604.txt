@@ -1,0 +1,7 @@
+
+(i / inhabit-01
+  :ARG0 (m / man
+          :mod (c / conceit))
+  :ARG1 (p / planet
+          :ord (o / ordinal-entity :value 2)))
+

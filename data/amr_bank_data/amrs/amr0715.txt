@@ -1,0 +1,7 @@
+
+(p / possible
+      :domain (o / own-01
+            :ARG0 (o2 / one)
+            :ARG1 (s / star))
+      :manner (a / amr-unknown))
+

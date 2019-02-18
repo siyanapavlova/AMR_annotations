@@ -1,0 +1,19 @@
+
+(s / say-01
+      :ARG0 (p / prince
+            :mod (l / little))
+      :ARG1 (a / and
+            :op1 (r / raise-03
+                  :ARG0 (m / man
+                        :location (l2 / live-01
+                              :ARG0 (y / you)))
+                  :ARG1 (r2 / rose :quant 5000)
+                  :location (g / garden
+                        :mod (s2 / same)))
+            :op2 (f / find-01 :polarity -
+                  :ARG0 m
+                  :ARG1 (t / thing
+                        :ARG1-of (l3 / look-01
+                              :ARG0 m))
+                  :location g)))
+

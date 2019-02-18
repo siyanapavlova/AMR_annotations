@@ -1,0 +1,11 @@
+
+(a / and
+  :op1 (c / cross-02
+         :ARG0 (p / prince
+                 :mod (l / little))
+         :ARG1 (d / desert))
+  :op2 (m / meet-03
+         :ARG0 p
+         :ARG1 (f / flower :quant 1)
+         :mod (o2 / only)))
+

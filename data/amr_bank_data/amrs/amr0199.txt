@@ -1,0 +1,11 @@
+
+(a / and
+  :op2 (f / feel-01
+         :ARG0 (i / i)
+         :ARG1 (d / doubt-01
+                 :ARG0 i
+                 :ARG1 (c / color
+                         :poss (c2 / costume
+                                 :poss (h / he)))
+                 :quant (s / some))))
+

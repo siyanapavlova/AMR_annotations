@@ -1,0 +1,9 @@
+
+(s / see-01
+      :ARG0 (o / one)
+      :ARG1 (t / thing
+            :mod (s2 / sort
+                  :mod (a / all)))
+      :location (p / planet :wiki "Earth"
+            :name (n / name :op1 "Earth")))
+

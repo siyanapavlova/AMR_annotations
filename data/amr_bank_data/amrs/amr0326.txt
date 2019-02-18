@@ -1,0 +1,7 @@
+
+(t2 / talk-01
+      :ARG0 (y / you)
+      :ARG1-of (r / resemble-01
+            :ARG2 (g2 / grown-up)
+            :mod (j2 / just)))
+

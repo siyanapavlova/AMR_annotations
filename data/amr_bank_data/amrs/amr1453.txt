@@ -1,0 +1,7 @@
+
+(l / laugh-01
+      :ARG0 (i / i)
+      :location (s / star :quant 1
+            :ARG1-of (i2 / include-91
+                  :ARG2 (t / they))))
+

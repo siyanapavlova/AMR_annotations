@@ -1,0 +1,10 @@
+
+(u / useful
+      :degree (v / very)
+      :beneficiary (t2 / they)
+      :domain (t / that)
+      :condition (t3 / travel-01
+            :ARG0 t2
+            :time (d / day
+                  :mod (s / some))))
+

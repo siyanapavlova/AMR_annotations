@@ -1,0 +1,8 @@
+
+(f / feel-01
+      :ARG0 (i / i)
+      :ARG1 (a / and
+            :op1 (a2 / awkward)
+            :op2 (b / blunder-01
+                  :ARG0 i)))
+

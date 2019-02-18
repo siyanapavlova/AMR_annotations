@@ -1,0 +1,11 @@
+
+(s / say-01
+      :ARG0 (h / he)
+      :ARG1 (k / know-01
+            :ARG0 i
+            :ARG1 (d / descend-01
+                  :ARG0 h
+                  :ARG1 (e / earth)))
+      :ARG2 (i / i)
+      :ARG1-of (i2 / instead-of-91))
+

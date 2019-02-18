@@ -1,0 +1,7 @@
+
+(c2 / contrast
+      :op2 (p / person
+            :domain (i / i)
+            :polarity -
+            :ARG0-of (e / explore-01)))
+

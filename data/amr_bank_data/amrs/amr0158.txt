@@ -1,0 +1,24 @@
+
+(c5 / contrast-01
+      :ARG2 (m / make-01
+            :ARG0 (p3 / person
+                  :ARG0-of (h / have-org-role-91
+                        :ARG1 (c / country :wiki "Turkey" :name (n / name :op1 "Turkey"))
+                        :ARG2 (d / dictator)))
+            :ARG1 (l / law
+                  :topic (c2 / change-01
+                        :ARG0 (s / subject
+                              :poss p3)
+                        :ARG3 (c3 / costume
+                              :mod (c4 / continent :wiki "Europe" :name (n2 / name :op1 "Europe")))
+                        :manner (t / threaten-01
+                              :ARG0 d
+                              :ARG1 (p / penalize-01
+                                    :ARG1 s
+                                    :topic (d2 / die-01
+                                          :ARG1 s))
+                              :ARG2 s)))
+            :ARG2-of (f / fortunate-41
+                  :ARG1 (r / reputation
+                        :poss (p2 / planet :wiki - :name (n3 / name :op1 "Asteroid" :op2 "B-612"))))))
+

@@ -1,0 +1,7 @@
+
+(c2 / contrast-01 :mode expressive
+      :ARG2 (f / far
+            :direction (a / away)
+            :domain (i / it)
+            :degree (s / so)))
+

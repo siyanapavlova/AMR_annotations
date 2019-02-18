@@ -1,0 +1,9 @@
+
+(s / say-01
+      :ARG0 (p / prince
+            :mod (l / little))
+      :ARG1 (i / interest-01
+            :ARG0 (t2 / that)
+            :ARG1 p
+            :degree (v / very)))
+

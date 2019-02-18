@@ -1,0 +1,6 @@
+
+(s / small
+  :compared-to (a / all)
+  :degree (m / most)
+  :domain (i / it))
+

@@ -1,0 +1,11 @@
+
+(s / say-01
+  :ARG0 (h / he)
+  :ARG1 (g / glad
+          :ARG1-of (c / cause-01
+                     :ARG0 (a / agree-01
+                             :ARG0 (y / you)
+                             :ARG2 (f / fox
+                                     :poss h)))
+          :domain h))
+

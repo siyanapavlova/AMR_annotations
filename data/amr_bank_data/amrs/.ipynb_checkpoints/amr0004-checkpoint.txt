@@ -1,0 +1,8 @@
+
+(p / picture
+  :domain (i / it)
+  :topic (b2 / boa
+           :mod (c2 / constrictor)
+           :ARG0-of (s / swallow-01
+                      :ARG1 (a / animal))))
+

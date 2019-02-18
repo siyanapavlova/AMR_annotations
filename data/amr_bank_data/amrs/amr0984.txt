@@ -1,0 +1,15 @@
+
+(p / possible
+      :domain (h / help-01
+            :ARG0 (i / i)
+            :ARG1 (y / you)
+            :time (d / day
+                  :mod (s / some)))
+      :condition (g / grow-02
+            :ARG1 y
+            :ARG2 (h2 / homesick
+                  :topic (p2 / planet
+                        :source-of y)
+                  :degree (t / too)
+                  :domain y)))
+

@@ -1,0 +1,9 @@
+
+(c / choose-01
+      :ARG0 (s / she)
+      :ARG1 (c2 / color
+            :poss s)
+      :manner (c3 / care-01
+            :degree (g / great
+                  :degree (m / most))))
+

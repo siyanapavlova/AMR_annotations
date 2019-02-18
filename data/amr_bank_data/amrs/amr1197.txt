@@ -1,0 +1,8 @@
+
+(s / say-01
+      :ARG0 (s2 / switchman)
+      :ARG1 (s3 / satisfy-01
+            :ARG1 (n / no-one)
+            :time (e / ever)
+            :location n))
+

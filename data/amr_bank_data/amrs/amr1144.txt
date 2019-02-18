@@ -1,0 +1,20 @@
+
+(c2 / contrast-01
+      :ARG2 (h / have-06 :polarity -
+            :ARG0 (i / i)
+            :ARG1 (v / vacation
+                  :quant (a / any))
+            :condition (d / dance-01
+                  :ARG0 (p / person
+                        :ARG0-of (h2 / hunt-01))
+                  :time (a2 / any
+                        :mod (j / just))
+                  :ARG1-of (c / cause-01
+                        :ARG0 (r / resemble-01
+                              :ARG1 (d2 / day
+                                    :mod (e / every))
+                              :ARG2 (d3 / day
+                                    :mod (o / other
+                                          :mod (e2 / every))))))
+            :mod (a3 / at-all)))
+

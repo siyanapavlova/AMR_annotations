@@ -1,0 +1,9 @@
+
+(c / contrast-01
+      :ARG1 (n / nothing)
+      :ARG2 (f / flash
+            :mod (y / yellow)
+            :location (c2 / close
+                  :op1 (a / ankle
+                        :part-of (h / he)))))
+

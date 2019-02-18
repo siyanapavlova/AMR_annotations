@@ -1,0 +1,9 @@
+
+(d / demand-01
+  :ARG0 (p / prince
+          :mod (l / little))
+  :ARG1 (c / cause-01
+          :ARG0 (a / amr-unknown)
+          :ARG1 (d2 / drink-01
+                  :ARG0 (y / you))))
+

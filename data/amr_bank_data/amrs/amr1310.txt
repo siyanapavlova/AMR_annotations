@@ -1,0 +1,13 @@
+
+(c / contrast-01
+  :ARG2 (p2 / possible
+          :domain (f / find-01
+                    :ARG1 (t / thing
+                            :ARG1-of (l2 / look-01
+                                       :ARG0 (t2 / they)))
+                    :location (o / or
+                                :op1 (r / rose
+                                       :mod (s2 / single))
+                                :op2 (w / water
+                                       :quant (l3 / little))))))
+

@@ -1,0 +1,12 @@
+
+(a / and
+  :op1 (p / put-09
+         :ARG0 (i / i)
+         :ARG1 (l / lamp)
+         :time (m / morning))
+  :op2 (l2 / light-01
+         :ARG0 i
+         :ARG1 l
+         :time (e / evening)
+         :mod (a2 / again)))
+

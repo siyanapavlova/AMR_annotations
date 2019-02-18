@@ -1,0 +1,7 @@
+
+(s2 / sketch-01
+  :ARG0 (i / i)
+  :ARG1 (m / muzzle)
+  :instrument (p / pencil)
+  :time (t / then))
+

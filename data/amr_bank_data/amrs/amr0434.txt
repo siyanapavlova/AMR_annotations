@@ -1,0 +1,10 @@
+
+(o / order-00
+      :ARG0 (h / he)
+      :ARG1 (p2 / planet
+            :poss h)
+      :degree (p4 / perfect)
+      :time (m / morning
+            :domain (d / depart-01
+                  :ARG0 h)))
+

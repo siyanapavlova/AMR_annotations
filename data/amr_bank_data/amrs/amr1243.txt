@@ -1,0 +1,10 @@
+
+(u2 / understand-01
+  :ARG0 (i / i)
+  :ARG1 (a / answer
+          :mod (t / this))
+  :polarity -
+  :concession-of (s / say-01
+                   :ARG0 i
+                   :ARG1 (n / nothing)))
+

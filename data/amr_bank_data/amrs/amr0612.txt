@@ -1,0 +1,11 @@
+
+(h / have-purpose-91
+      :ARG1 (i / it)
+      :ARG2 (r / raise-01
+            :ARG1 i
+            :subevent-of (s / salute-01
+                  :time (a / acclaim-01
+                        :ARG0 (p / person)
+                        :ARG1 (i2 / i))
+                  :instrument i)))
+

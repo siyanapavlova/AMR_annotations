@@ -1,0 +1,16 @@
+
+(c / contrast-01
+      :ARG2 (t / thing :quant 1
+            :mod (e / extraordinary)
+            :time (d / draw-01
+                  :ARG0 (i / i
+                        :ARG0-of (f / forget-01
+                              :ARG1 (a / add-05
+                                    :ARG0 i
+                                    :ARG1 (s / strap
+                                          :consist-of (l2 / leather))
+                                    :ARG2 m)))
+                  :ARG1 (m / muzzle)
+                  :ARG2 (p / prince
+                        :mod (l / little)))))
+

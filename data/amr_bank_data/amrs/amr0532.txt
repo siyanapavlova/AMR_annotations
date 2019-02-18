@@ -1,0 +1,7 @@
+
+(s / say-01
+  :ARG0 (k / king)
+  :ARG1 (d / do-02
+          :ARG0 (t / they)
+          :mod (c / certain)))
+

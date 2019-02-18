@@ -1,0 +1,12 @@
+
+(a / and
+      :op1 (l / look-01
+            :ARG0 (i / i)
+            :ARG1 (y / you)
+            :source (c / corner
+                  :part-of (e / eye
+                        :part-of i)))
+      :op2 (s / say-01
+            :ARG0 y
+            :ARG1 (n / nothing)))
+

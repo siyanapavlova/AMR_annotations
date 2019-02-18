@@ -1,0 +1,15 @@
+
+(e / encounter-01
+  :ARG0 (i / i)
+  :ARG1 (p / person
+          :quant (m2 / many
+                   :mod (g2 / great))
+          :ARG1-of (c / concern-01
+                     :ARG0 (m3 / matter
+                             :mod (c2 / consequence))))
+  :quant (m / many
+           :mod (g / great))
+  :time (c3 / course
+          :poss (l / life
+                  :mod (t / this))))
+

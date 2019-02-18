@@ -1,0 +1,14 @@
+
+(r / reveal-01
+      :ARG0 (s / sheep
+            :ARG1-of (t / thank-01))
+      :ARG1 (s2 / secret
+            :poss (l / life
+                  :poss (p / prince
+                        :mod (l2 / little))))
+      :ARG2 (i / i)
+      :time (d / day
+            :ord (o / ordinal-entity :value 5))
+      :mod (a / again)
+      :time (a2 / always))
+

@@ -1,0 +1,15 @@
+
+(a / and
+      :op1 (l / look-01
+            :ARG0 (h / he)
+            :ARG1 (i / i)
+            :manner (g / grave
+                  :degree (v / very)))
+      :op2 (p / put-01
+            :ARG0 h
+            :ARG1 (a2 / arm
+                  :part-of h)
+            :ARG2 (a3 / around
+                  :op1 (n / neck
+                        :part-of i))))
+

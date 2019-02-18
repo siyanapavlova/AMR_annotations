@@ -1,0 +1,10 @@
+
+(d3 / drink-01
+      :ARG0 (p2 / person
+            :ARG0-of (e2 / explore-01))
+      :quant (m2 / much
+            :degree (t2 / too))
+      :ARG0-of (c / cause-01
+            :ARG1 (t / thing
+                  :mod (s / same))))
+

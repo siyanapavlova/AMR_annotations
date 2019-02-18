@@ -1,0 +1,12 @@
+
+(r / reply-01
+      :ARG0 (p / prince
+            :mod (l / little))
+      :ARG2 (p2 / possible :polarity -
+            :domain (s / stop-01
+                  :ARG0 p
+                  :ARG1 p))
+      :manner (e / embarrass-01
+            :ARG1 p
+            :degree (t / thorough)))
+

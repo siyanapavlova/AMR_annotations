@@ -1,0 +1,8 @@
+
+(s / say-01
+  :ARG0 (f / fox)
+  :ARG1 (n / neglect-01
+          :ARG1 (a / act-02)
+          :frequency (o / often
+                       :degree (t / too))))
+

@@ -1,0 +1,9 @@
+
+(e / empty-01
+  :ARG0 (o / ocean)
+  :ARG1 o
+  :ARG2 (w / water
+          :poss o)
+  :frequency (r / rare
+               :degree (v / very)))
+

@@ -1,0 +1,8 @@
+
+(m2 / man
+      :ARG0-of (h2 / have-03
+            :ARG1 (p2 / profession
+                  :mod (r2 / real)))
+      :time (a / at-last)
+      :mode expressive)
+

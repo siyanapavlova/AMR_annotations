@@ -1,0 +1,10 @@
+
+(d / demand-01 :mode interrogative
+      :ARG0 (p / prince
+            :mod (l / little))
+      :ARG1 (p2 / pursue-01
+            :ARG0 (t / they)
+            :ARG1 (p3 / person
+                  :ARG0-of (t2 / travel-01
+                        :ord (o / ordinal-entity :value 1)))))
+

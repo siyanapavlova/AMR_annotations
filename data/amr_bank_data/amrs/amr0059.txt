@@ -1,0 +1,15 @@
+
+(s / say-01
+      :ARG0 (i / i)
+      :ARG1 (c / contrast-01
+            :ARG2 (b2 / be-located-at-91
+                  :ARG1 (y2 / you)
+                  :ARG2 (h2 / here)
+                  :ARG1-of (c2 / cause-01
+                        :ARG0 (a / amr-unknown))))
+      :ARG2 (h / he)
+      :time (p / possible
+            :domain (s2 / speak-01
+                  :ARG0 i
+                  :mod (a2 / at-last))))
+

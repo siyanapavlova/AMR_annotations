@@ -1,0 +1,10 @@
+
+(a / and
+  :op1 (s / sit-02
+         :ARG1 (p2 / prince
+                 :mod (l / little))
+         :location (t / table))
+  :op2 (p / pant-01
+         :ARG0 p2
+         :duration (l2 / little)))
+

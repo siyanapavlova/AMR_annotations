@@ -1,0 +1,6 @@
+
+(a / and
+      :op2 (w / weak-41
+            :ARG1 (s / she)
+            :degree (s2 / so)))
+

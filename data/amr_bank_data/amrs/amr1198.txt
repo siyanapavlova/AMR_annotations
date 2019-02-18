@@ -1,0 +1,12 @@
+
+(a / and
+      :op2 (h / hear-01
+            :ARG0 (t / they)
+            :ARG1 (t2 / thunder-01
+                  :ARG1-of (r / roar-01))
+            :ARG2 (t3 / train
+                  :mod (e / express-02)
+                  :ARG1-of (l / light-01
+                        :manner (b / brilliant))
+                  :ord (o / ordinal-entity :value 3))))
+

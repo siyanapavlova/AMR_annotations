@@ -1,0 +1,7 @@
+
+(c / contrast-01
+  :ARG2 (a / answer-01
+          :ARG0 (t / they)
+          :ARG2 (f / frighten-01
+                  :mode interrogative)))
+

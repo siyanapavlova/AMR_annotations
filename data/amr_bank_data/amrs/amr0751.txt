@@ -1,0 +1,10 @@
+
+(c / contrast-01
+      :ARG1 (o / open-01
+            :ARG0 (b / businessman)
+            :ARG1 (m / mouth
+                  :part-of b))
+      :ARG2 (f / find-01
+            :ARG0 b
+            :ARG1 (a / answer-01 :polarity -)))
+

@@ -1,0 +1,12 @@
+
+(a / and
+  :op2 (t / thunder-01
+         :ARG0 (t2 / train
+                 :mod (e / express-02)
+                 :ARG1-of (l / light-02
+                            :manner (b2 / brilliant))
+                 :ord (o2 / ordinal-entity :value 2))
+         :direction (b / by)
+         :direction (o / opposite-41
+                      :ARG2 (d / direction))))
+

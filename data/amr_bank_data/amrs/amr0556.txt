@@ -1,0 +1,11 @@
+
+(b2 / be-temporally-at-91
+      :ARG1 (t3 / that)
+      :ARG2 (e3 / evening
+            :mod (t4 / this)
+            :time (u / until
+                  :op1 (t5 / temporal-quantity :quant 20
+                        :unit (m2 / minute))
+                  :duration (a / about
+                        :op1 (d / date-entity :time "8:00")))))
+

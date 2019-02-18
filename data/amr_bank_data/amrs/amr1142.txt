@@ -1,0 +1,8 @@
+
+(c / cause-01
+      :ARG1 (d2 / day :mode expressive
+            :domain (d / date-entity
+                  :weekday (t / thursday))
+            :mod (w / wonderful)
+            :beneficiary (i / i)))
+

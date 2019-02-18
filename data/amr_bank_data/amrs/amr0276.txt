@@ -1,0 +1,7 @@
+
+(a / and
+      :op1 (l / laugh-01
+            :ARG0 (y / you)
+            :ARG2 y
+            :time (t / then)))
+

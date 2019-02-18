@@ -1,0 +1,10 @@
+
+(c2 / contrast
+      :op2 (r / require-01
+            :ARG0 (o / one)
+            :ARG1 (f / furnish-01
+                  :ARG0 p
+                  :ARG1 (p2 / prove-01))
+            :ARG2 (p / person
+                  :ARG0-of (e / explore-01))))
+

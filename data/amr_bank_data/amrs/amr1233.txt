@@ -1,0 +1,6 @@
+
+(l / look-01
+  :ARG0 (w / we)
+  :ARG1 (w2 / well)
+  :mode imperative)
+

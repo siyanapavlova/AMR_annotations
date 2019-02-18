@@ -1,0 +1,17 @@
+
+(c / contrast
+      :op2 (s / say-01
+            :ARG0 (i / i)
+            :ARG1 (a2 / and :mode expressive
+                  :op1 (o / one
+                        :mod (a3 / absent-minded)
+                        :time (o2 / or
+                              :op1 (m / moment
+                                    :mod (s2 / some))
+                              :op2 (o3 / other)))
+                  :op2 (t2 / that
+                        :mod (e / enough)))
+            :ARG2 i
+            :time (t / time
+                  :mod (a / another))))
+

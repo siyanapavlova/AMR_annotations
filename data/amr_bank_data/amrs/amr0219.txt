@@ -1,0 +1,26 @@
+
+(p2 / point-02
+      :ARG0 (i / i)
+      :ARG1 (a / and
+            :op1 (t2 / tree
+                  :mod (b5 / big
+                        :compared-to (c / castle)
+                        :degree (e4 / equal))
+                  :domain (b2 / baobab)
+                  :ARG1-of (i2 / instead-of-91
+                        :ARG2 (b3 / bush
+                              :mod (l3 / little)
+                              :domain b2)))
+            :op2 (e / eat-02 :polarity -
+                  :ARG0 h
+                  :ARG1 (b / baobab :quant 1
+                        :mod (s / single))
+                  :concession (e3 / even-if
+                        :op1 (t / take-05
+                              :ARG0 p
+                              :ARG1 (h / herd
+                                    :consist-of (e2 / elephant)
+                                    :mod (w / whole))))))
+      :beneficiary (p / prince
+            :mod (l2 / little)))
+

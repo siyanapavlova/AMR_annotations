@@ -1,0 +1,13 @@
+
+(c2 / cause-01
+  :ARG1 (a / and
+          :op1 (c / choose-01
+                 :ARG0 (i / i)
+                 :ARG1 (p / profession
+                         :mod (a2 / another)))
+          :op2 (l / learn-01
+                 :ARG0 i
+                 :ARG1 (p2 / pilot-01
+                         :ARG0 i
+                         :ARG1 (a3 / airplane)))))
+

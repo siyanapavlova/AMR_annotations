@@ -1,0 +1,4 @@
+
+(o / over :mode interrogative
+      :op1 (e / everything))
+

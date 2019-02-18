@@ -1,0 +1,8 @@
+
+(r / recommend-01
+      :ARG1 (r2 / run-02 :polarity -
+            :ARG0 (i / i)
+            :time (e / ever)
+            :direction (a2 / away
+                  :op1 (s / she))))
+

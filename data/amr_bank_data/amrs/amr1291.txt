@@ -1,0 +1,9 @@
+
+(w / want-01
+  :ARG0 (i / i)
+  :ARG1 (t / tire-01
+          :ARG0 (h / he)
+          :ARG1 h
+          :instrument (r / rope))
+  :polarity -)
+

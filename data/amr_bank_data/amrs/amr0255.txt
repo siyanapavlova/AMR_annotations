@@ -1,0 +1,8 @@
+
+(s / say-01
+      :ARG0 (i / i)
+      :ARG1 (w / watch-02 :mode imperative
+            :ARG0 (y / you)
+            :ARG1 (b / baobab))
+      :manner (p / plain))
+

@@ -1,0 +1,13 @@
+
+(b / believe-01
+  :ARG0 (i / i)
+  :ARG1 (t / take-01
+          :ARG0 (h / he)
+          :ARG1 (a / advantage)
+          :ARG2 (m / migrate-01
+                  :ARG0 (f / flock-02
+                          :ARG0 (b2 / bird
+                                  :mod (w / wild))))
+          :purpose (e / escape-01
+                     :ARG0 h)))
+

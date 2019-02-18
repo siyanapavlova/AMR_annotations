@@ -1,0 +1,6 @@
+
+(a / angry
+      :domain (h / he)
+      :degree (v / very)
+      :mod (r / real))
+

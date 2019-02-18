@@ -1,0 +1,11 @@
+
+(r / raise-01
+      :ARG0 (m / man
+            :mod (c / conceit))
+      :ARG1 (h / hat
+            :poss m)
+      :subevent-of (s / salute-01
+            :ARG0 m
+            :manner (m2 / modest)
+            :instrument h))
+

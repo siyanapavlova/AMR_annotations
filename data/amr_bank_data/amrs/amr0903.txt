@@ -1,0 +1,6 @@
+
+(m3 / mountain
+      :domain (t / thing
+            :ARG1-of (m2 / matter-01
+                  :ARG2 (w / we))))
+

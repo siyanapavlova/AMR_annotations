@@ -1,0 +1,5 @@
+
+(m / mean-01
+  :ARG0 (t / that)
+  :ARG1 (a / amr-unknown))
+

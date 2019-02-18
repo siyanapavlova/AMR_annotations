@@ -1,0 +1,8 @@
+
+(i / inquire-01
+      :ARG0 (p / prince
+            :mod (l / little))
+      :ARG1 (b2 / be-temporally-at-91
+            :ARG1 (t / that)
+            :ARG2 (a / amr-unknown)))
+

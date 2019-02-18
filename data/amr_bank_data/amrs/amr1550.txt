@@ -1,0 +1,9 @@
+
+(a / ask-01
+  :ARG0 (y / you)
+  :ARG1 (o / or
+          :op1 (y2 / yes)
+          :op2 (n / no))
+  :ARG2 y
+  :mode imperative)
+

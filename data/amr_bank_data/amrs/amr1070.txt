@@ -1,0 +1,6 @@
+
+(m / mean-01
+  :ARG0 (i / it)
+  :ARG1 (e / establish-01
+          :ARG1 (t / tie-01)))
+

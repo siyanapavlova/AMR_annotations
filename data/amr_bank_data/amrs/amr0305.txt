@@ -1,0 +1,7 @@
+
+(h / have-03
+      :ARG0 (f / flower)
+      :ARG1 (t / thorn)
+      :purpose (s / spite)
+      :mod (j / just))
+

@@ -1,0 +1,3 @@
+AMRs (Abstract Meaning Representations) for the 1562 sentences of Le Petit Prince, a 1943 novel by Antoine de Saint-Exupery
+Version 1.4 - November 14, 2014
+

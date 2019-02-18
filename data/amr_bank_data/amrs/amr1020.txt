@@ -1,0 +1,12 @@
+
+(a / and
+      :op1 (d / dry
+            :degree (a2 / altogether))
+      :op2 (p / pointed
+            :degree (a3 / altogether))
+      :op3 (a4 / and
+            :op1 (h / harsh)
+            :op2 (f / forbidding)
+            :degree (a5 / altogether))
+      :domain (i / it))
+

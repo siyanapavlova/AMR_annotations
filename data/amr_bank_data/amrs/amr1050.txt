@@ -1,0 +1,6 @@
+
+(h / happy
+  :domain (i / i)
+  :polarity -
+  :mod (s / so))
+

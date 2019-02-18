@@ -1,0 +1,23 @@
+
+(k / know-01 :polarity -
+      :ARG0 (i / i)
+      :ARG1 (a2 / and
+            :op1 (m / manner
+                  :manner-of (r / reach-02
+                        :ARG0 i
+                        :ARG1 (h / he)
+                        :mod (p / possible)))
+            :op2 (l / location
+                  :location-of (o / overtake-01
+                        :ARG0 i
+                        :ARG1 h
+                        :mod (p2 / possible))
+                  :location-of (g / go-15
+                        :ARG1 i
+                        :time (m2 / more
+                              :mod (o2 / once))
+                        :manner (a / accompany-01
+                              :ARG0 h
+                              :ARG1 i
+                              :manner (h2 / hand-in-hand))))))
+

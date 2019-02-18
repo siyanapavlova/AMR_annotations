@@ -1,0 +1,11 @@
+
+(s / succeed-01
+      :ARG0 (i / i)
+      :ARG1 (c / catch-04
+            :ARG1 i
+            :ARG2 (h / he))
+      :time (w / walk-01
+            :ARG0 h
+            :manner (q2 / quick)
+            :manner (r2 / resolute)))
+

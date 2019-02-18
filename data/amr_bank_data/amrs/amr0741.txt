@@ -1,0 +1,6 @@
+
+(a / and
+  :op2 (a2 / all
+         :domain (t / that))
+  :mode interrogative)
+

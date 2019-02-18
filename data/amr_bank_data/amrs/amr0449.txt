@@ -1,0 +1,5 @@
+
+(c / contrast-01
+      :ARG2 (a2 / answer-01 :polarity -
+            :ARG0 (s / she)))
+

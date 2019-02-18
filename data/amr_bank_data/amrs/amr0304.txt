@@ -1,0 +1,13 @@
+
+(a / and
+      :op1 (a2 / answer-01
+            :ARG0 (i / i)
+            :ARG2 (t / thing
+                  :ord (o / ordinal-entity :value 1)
+                  :ARG1-of (c / come-01
+                        :ARG4 (h / head
+                              :part-of i))
+                  :domain (u / use-01 :polarity -
+                        :ARG1 (t2 / thorn)
+                        :ARG2 (a3 / anything)))))
+

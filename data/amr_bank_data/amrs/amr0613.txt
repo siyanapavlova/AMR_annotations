@@ -1,0 +1,9 @@
+
+(p / pass-03
+      :ARG1 (n / nobody
+            :degree (a / at-all))
+      :location (w / way
+            :mod (t / this))
+      :ARG2-of (f / fortunate-41 :polarity -)
+      :time (e / ever))
+

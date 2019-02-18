@@ -1,0 +1,8 @@
+
+(c2 / contrast-01
+  :ARG2 (h / have-03
+          :ARG0 (y / you)
+          :ARG1 (h2 / hair
+                  :domain-of (c / colour
+                               :mod (g / gold)))))
+

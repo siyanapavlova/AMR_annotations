@@ -1,0 +1,11 @@
+
+(b / begin-01
+      :ARG0 (i / i
+            :domain-of (h / happy))
+      :condition (c / come-01
+            :ARG1 (y / you)
+            :time (d2 / date-entity :time "4:00"
+                  :dayperiod (a / afternoon))
+            :ARG0-of (e / exemplify-01))
+      :time (d / date-entity :time "3:00"))
+

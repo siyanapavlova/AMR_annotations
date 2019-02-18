@@ -1,0 +1,15 @@
+
+(h / have-concession-91
+      :ARG2 (o / obligate-01
+            :ARG1 i
+            :ARG2 (e / endure-01
+                  :ARG1 (i / i)
+                  :ARG2 (p / present
+                        :domain (c / caterpillar
+                              :quant (o2 / or :op1 2 :op2 3)))
+                  :condition (w / wish-01
+                        :ARG0 i
+                        :ARG1 (a / acquaint-01
+                              :ARG1 i
+                              :ARG2 (b2 / butterfly))))))
+

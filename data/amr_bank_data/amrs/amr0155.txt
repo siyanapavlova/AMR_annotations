@@ -1,0 +1,13 @@
+
+(p / present-01
+      :ARG0 a
+      :ARG1 (i / it)
+      :ARG2 (o / organization :wiki "International_Astronautical_Congress"
+            :name (n / name :op1 "International" :op2 "Astronomical" :op3 "Congress"))
+      :time (o2 / on
+            :op1 (d3 / discover-01
+                  :ARG0 (a / astronomer)))
+      :manner (d2 / demonstrate-01
+            :ARG0 a
+            :mod (g / great)))
+

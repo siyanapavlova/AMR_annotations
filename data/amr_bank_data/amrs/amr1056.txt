@@ -1,0 +1,8 @@
+
+(s / say-01
+  :ARG0 (f / fox)
+  :ARG1 (l / live-01
+          :ARG0 (y / you)
+          :location (h / here
+                      :polarity -)))
+

@@ -1,0 +1,8 @@
+
+(c / contrast-01
+      :ARG2 (a / and
+            :op1 (m / man :polarity -
+                  :domain h)
+            :op2 (m2 / mushroom
+                  :domain (h / he))))
+

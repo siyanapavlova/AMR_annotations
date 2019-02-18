@@ -1,0 +1,7 @@
+
+(a / adjust-01
+  :ARG0 (s / she)
+  :ARG1 (p / petal
+          :poss s)
+  :manner (o / one-by-one))
+

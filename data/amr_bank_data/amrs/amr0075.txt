@@ -1,0 +1,6 @@
+
+(c / cause-01
+  :ARG1 (d / draw-01
+          :ARG0 (i / i)
+          :time (t2 / then)))
+

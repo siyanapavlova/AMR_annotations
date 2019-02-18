@@ -1,0 +1,8 @@
+
+(p / picture-01
+  :ARG0 (i / it)
+  :ARG1 (b2 / boa
+          :mod (c / constrictor)
+          :ARG0-of (d / digest-01
+                     :ARG1 (e / elephant))))
+

@@ -1,0 +1,10 @@
+
+(c / contrast-01
+      :ARG2 (w / waste-01 :mode imperative :polarity -
+            :ARG0 (y / you)
+            :ARG1 (t / time
+                  :poss y)
+            :ARG2 (t2 / task-01
+                  :mod (e / extra)
+                  :mod (t3 / this))))
+

@@ -1,0 +1,11 @@
+
+(s / say-01
+  :ARG0 i
+  :ARG1 (w / want-01
+          :ARG0 (i / i)
+          :ARG1 (h / hear-01
+                  :ARG0 i
+                  :ARG1 (l / laugh-01
+                          :ARG0 (y / you)
+                          :mod (a / again)))))
+

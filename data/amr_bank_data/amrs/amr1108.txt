@@ -1,0 +1,5 @@
+
+(a / and
+      :op2 (s / sad
+            :domain (t2 / that)))
+

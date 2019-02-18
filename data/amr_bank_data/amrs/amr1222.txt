@@ -1,0 +1,10 @@
+
+(s / say-01
+      :ARG0 (p / prince
+            :mod (l / little))
+      :ARG1 (f / fox
+            :ARG0-of (h / have-rel-role-91
+                  :ARG1 i
+                  :ARG2 (f2 / friend)))
+      :ARG2 (i / i))
+

@@ -1,0 +1,12 @@
+
+(s2 / say-01
+      :ARG1 (i / it
+            :domain-of (f / far
+                  :mod (m3 / much)
+                  :degree (m4 / more))
+            :mod (d / difficult
+                  :degree (m / more
+                        :mod (m2 / much))))
+      :time (t / then)
+      :manner (s / sad))
+

@@ -1,0 +1,7 @@
+
+(c / clean-03
+      :ARG0 (h / he)
+      :ARG1 (v / volcano
+            :mod (e / extinct))
+      :mod (t / too))
+

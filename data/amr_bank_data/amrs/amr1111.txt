@@ -1,0 +1,10 @@
+
+(b / bring-01
+  :ARG0 (g / grain
+          :mod (g2 / golden
+                 :mod (a / also)))
+  :ARG1 (t / think-01
+          :ARG1 (y / you))
+  :ARG2 (i / i)
+  :direction (b2 / back))
+

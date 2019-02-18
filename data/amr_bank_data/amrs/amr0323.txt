@@ -1,0 +1,6 @@
+
+(s / stare-01
+      :ARG0 (h / he
+            :mod (t / thunderstruck))
+      :ARG1 (i / i))
+

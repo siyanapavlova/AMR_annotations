@@ -1,0 +1,7 @@
+
+(d / demand-01
+      :ARG0 (h / he
+            :mod (t / thunderstruck))
+      :ARG1 (a / amr-unknown
+            :domain (y2 / you)))
+

@@ -1,0 +1,4 @@
+
+(q / queer
+      :domain (i / idea))
+

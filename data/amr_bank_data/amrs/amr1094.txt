@@ -1,0 +1,6 @@
+
+(s / sigh-01
+  :ARG0 (f / fox)
+  :ARG1 (p / perfect-01
+          :ARG1 (n / nothing)))
+

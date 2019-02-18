@@ -1,0 +1,10 @@
+
+(u / understand-01
+      :ARG0 (i / i)
+      :ARG1 (s / secret
+            :poss (l / life
+                  :poss (y / you)
+                  :mod (l2 / little)
+                  :mod (s2 / sad)))
+      :manner (b / bit-by-bit))
+

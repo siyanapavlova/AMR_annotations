@@ -1,0 +1,37 @@
+
+(a6 / and
+      :op1 (l / look-02
+            :ARG0 (p / picture :wiki - :name (n / name :op1 "Drawing" :op2 "Number" :op3 "Two")
+                  :poss i)
+            :ARG1 (t2 / this))
+      :op2 (r / respond-01
+            :ARG0 (g / grown-up)
+            :ARG1 (i / i)
+            :ARG2 (a / advise-01
+                  :ARG0 g
+                  :ARG1 i
+                  :ARG2 (a3 / and
+                        :op1 (l2 / lay-01
+                              :ARG0 i
+                              :ARG1 (t3 / thing
+                                    :ARG1-of (d2 / draw-01
+                                          :ARG0 i)
+                                    :topic (b2 / boa
+                                          :mod (c2 / constrictor)
+                                          :mod (o / or
+                                                :op1 (i2 / inside)
+                                                :op2 (o2 / outside))))
+                              :ARG2 (a2 / aside))
+                        :op2 (d3 / devote-01
+                              :ARG0 i
+                              :ARG1 i
+                              :ARG2 (a4 / and
+                                    :op1 (g2 / geography)
+                                    :op2 (h / history)
+                                    :op3 (a5 / arithmetic)
+                                    :op4 (g3 / grammar))
+                              :ARG1-of (i4 / instead-of-91
+                                    :ARG2 d2))))
+            :time (t4 / time
+                  :mod (t5 / this))))
+

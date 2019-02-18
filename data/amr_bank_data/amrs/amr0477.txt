@@ -1,0 +1,5 @@
+
+(g / go-02 :mode imperative
+      :ARG0 (y / you)
+      :time (n / now))
+

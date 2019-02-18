@@ -1,0 +1,8 @@
+
+(s / see-01
+      :ARG0 (y2 / you)
+      :ARG1 (b2 / begin-01
+            :ARG1 (t2 / track
+                  :poss (i / i))
+            :location (s3 / sand)))
+

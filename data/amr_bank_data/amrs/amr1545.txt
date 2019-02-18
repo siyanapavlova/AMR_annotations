@@ -1,0 +1,14 @@
+
+(o / or
+      :op1 (f / forget-01
+            :ARG0 (h / he)
+            :ARG1 (g / globe
+                  :consist-of (g2 / glass)))
+      :op2 (e / escape-01
+            :ARG0 (s / sheep)
+            :time (n2 / night)
+            :manner (s3 / sound-02 :polarity -
+                  :mod (a2 / any)))
+      :time (e2 / evening
+            :mod (s2 / some)))
+

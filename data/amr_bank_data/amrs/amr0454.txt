@@ -1,0 +1,8 @@
+
+(a / ask-02
+      :ARG0 (i / i)
+      :ARG1 (f / forgive-01
+            :ARG0 y
+            :ARG1 i)
+      :ARG2 (y / you))
+

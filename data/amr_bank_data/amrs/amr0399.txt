@@ -1,0 +1,17 @@
+
+(s / say-01
+      :ARG0 (s2 / she)
+      :ARG1 (c / come-01 :mode imperative
+            :ARG1 (t / tiger)
+            :accompanier (c2 / claw
+                  :part-of t))
+      :ARG2 (p / prince
+            :mod (l / little))
+      :time (d / day
+            :mod (o / one))
+      :ARG0-of (e / exemplify-01)
+      :time (s3 / speak-01
+            :ARG0 s2
+            :ARG1 (t2 / thorn :quant 4
+                  :part-of s2)))
+

@@ -1,0 +1,9 @@
+
+(p / propose-01
+  :ARG0 (p2 / prince
+          :mod (l / little))
+  :ARG1 (a / and
+          :op1 (c / come-01)
+          :op2 (p3 / play-01
+                 :accompanier p2)))
+

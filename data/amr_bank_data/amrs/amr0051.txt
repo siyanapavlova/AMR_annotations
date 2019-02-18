@@ -1,0 +1,15 @@
+
+(p / possible
+  :domain (s / see-01
+            :ARG0 (y / you)
+            :ARG1 (p2 / portrait
+                    :mod (g / good
+                           :degree (m / most))
+                    :ARG1-of (m2 / make-01
+                               :ARG0 (i / i)
+                               :domain-of (p3 / possible)
+                               :time (l / late
+                                       :degree (m3 / more)))
+                    :topic (h / he))
+            :location (h2 / here)))
+

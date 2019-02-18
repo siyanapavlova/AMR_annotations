@@ -1,0 +1,9 @@
+
+(s / star
+  :beneficiary (y / you)
+  :poss (i / i)
+  :ARG1-of (i2 / include-91
+             :ARG2 (s2 / star)
+             :ARG3 1
+             :mod (j / just)))
+

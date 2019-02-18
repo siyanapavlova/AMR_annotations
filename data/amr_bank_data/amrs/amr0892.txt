@@ -1,0 +1,9 @@
+
+(t3 / thing
+      :mod (b2 / beautiful
+            :degree (m2 / most))
+      :location (p / planet
+            :source-of (i / i))
+      :domain (t2 / thing
+            :ARG1-of (f / flower-01)))
+

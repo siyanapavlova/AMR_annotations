@@ -1,0 +1,7 @@
+
+(t / trust-01
+      :ARG0 (y / you)
+      :ARG2 (i / i)
+      :ARG1-of (k / know-01
+            :ARG0 i))
+

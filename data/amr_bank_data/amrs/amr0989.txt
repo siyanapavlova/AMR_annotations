@@ -1,0 +1,8 @@
+
+(s / say-01
+  :ARG0 (s2 / snake)
+  :ARG1 (s3 / solve-01
+          :ARG0 s2
+          :ARG1 (t / they
+                  :quant (a / all))))
+

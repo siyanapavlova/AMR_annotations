@@ -1,0 +1,4 @@
+
+(s / strange
+      :domain (i / it))
+

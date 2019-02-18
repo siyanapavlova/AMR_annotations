@@ -1,0 +1,6 @@
+
+(c / contrast-01
+  :ARG2 (i / interrupt-01
+          :ARG0 (h / he)
+          :ARG1 (i2 / i)))
+

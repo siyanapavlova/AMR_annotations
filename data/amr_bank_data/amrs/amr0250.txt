@@ -1,0 +1,7 @@
+
+(n / neglect-01
+  :ARG0 (h / he)
+  :ARG1 (b / bush
+          :mod (l / little)
+          :quant 3))
+

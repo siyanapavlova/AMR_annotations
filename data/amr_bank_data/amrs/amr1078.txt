@@ -1,0 +1,8 @@
+
+(o / opine-01
+      :ARG0 (i / i)
+      :ARG1 (u / unique
+            :domain (y / you)
+            :location (w / world
+                  :mod (a / all))))
+

@@ -1,0 +1,5 @@
+
+(o / obey-01
+  :ARG0 (t / they)
+  :manner (i / instant))
+

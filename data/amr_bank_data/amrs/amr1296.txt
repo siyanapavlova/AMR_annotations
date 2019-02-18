@@ -1,0 +1,16 @@
+
+(a / and
+      :op1 (h / hear-01
+            :ARG0 (i / i)
+            :ARG1 (s / sing-01
+                  :ARG0 (p / pulley))
+            :mod (s2 / still))
+      :op2 (p2 / possible
+            :domain (s3 / see-01
+                  :ARG0 i
+                  :ARG1 (s4 / shimmer-01
+                        :ARG1 (s5 / sunlight)
+                        :location (w / water
+                              :ARG1-of (t / tremble-01
+                                    :mod (s6 / still)))))))
+

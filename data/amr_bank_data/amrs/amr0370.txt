@@ -1,0 +1,15 @@
+
+(m / multi-sentence
+      :snt1 (h / have-03
+            :ARG0 (t / they)
+            :ARG1 (r / ring :quant 1
+                  :mod (o / only)
+                  :consist-of (p / petal)))
+      :snt2 (t2 / take-13 :polarity -
+            :ARG0 t
+            :ARG1 (r2 / room)
+            :degree (a / at-all))
+      :snt3 (t3 / trouble-01 :polarity -
+            :ARG0 t
+            :ARG1 (a2 / anybody)))
+

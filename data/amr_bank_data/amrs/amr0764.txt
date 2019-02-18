@@ -1,0 +1,5 @@
+
+(o / occupation
+  :mod (b / beautiful)
+  :domain (t / that))
+

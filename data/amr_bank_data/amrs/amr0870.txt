@@ -1,0 +1,7 @@
+
+(g2 / go-01 :mode interrogative
+      :ARG1 (o / one)
+      :purpose (s2 / see-01
+            :ARG0 o
+            :ARG1 (i / it)))
+

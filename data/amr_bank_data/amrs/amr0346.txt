@@ -1,0 +1,11 @@
+
+(h / have-03 :mode interrogative :polarity -
+      :ARG0 (t / this)
+      :ARG1 (c / consequence
+            :compared-to (s / sum
+                  :poss (g / gentleman
+                        :mod (f / fat)
+                        :part (f2 / face
+                              :mod (r / red))))
+            :degree (m2 / more)))
+

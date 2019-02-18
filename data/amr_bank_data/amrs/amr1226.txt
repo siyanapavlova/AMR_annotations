@@ -1,0 +1,18 @@
+
+(a / and
+      :op1 (f / follow-02 :polarity -
+            :ARG0 (h / he)
+            :ARG1 (r / reason-01
+                  :ARG0 (i / i)))
+      :op2 (a2 / answer-01
+            :ARG0 h
+            :ARG1 i
+            :ARG2 (g / good
+                  :domain (h2 / have-rel-role-91
+                        :ARG1 o
+                        :ARG2 (f2 / friend))
+                  :concession (e / even-if
+                        :op1 (d / die-01
+                              :ARG1 (o / one)
+                              :time (a3 / about-to))))))
+

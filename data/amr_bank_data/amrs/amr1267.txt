@@ -1,0 +1,10 @@
+
+(f / feel-01
+  :ARG0 (i / i)
+  :ARG1 (a / and
+          :op1 (m / move-05
+                 :ARG1 i
+                 :degree (d / deep))
+          :op2 (s / stir-02
+                 :ARG1 i)))
+

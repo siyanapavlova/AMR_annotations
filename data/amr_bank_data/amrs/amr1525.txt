@@ -1,0 +1,7 @@
+
+(s / sound-02 :polarity -
+      :mod (a / any
+            :mod (e / even))
+      :ARG1-of (c / cause-01
+            :ARG0 (s2 / sand)))
+

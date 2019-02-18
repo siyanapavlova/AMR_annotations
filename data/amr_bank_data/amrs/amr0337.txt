@@ -1,0 +1,24 @@
+
+(m2 / multi-sentence
+      :snt1 (a / and
+            :op1 (s / say-01
+                  :ARG0 (h / he)
+                  :ARG1 (b / busy
+                        :domain h
+                        :topic (m / matter
+                              :ARG0-of (h3 / have-03
+                                    :ARG1 (c2 / consequence))))
+                  :time (d / day
+                        :mod (a2 / all))
+                  :frequency (o / over-and-over)
+                  :manner (r / resemble-01
+                        :ARG2 (y / you)
+                        :mod (j / just))
+                  :ARG0-of (c3 / cause-01)))
+      :snt2 (a3 / and
+            :op1 (m3 / make-02
+                  :ARG0 (t / that)
+                  :ARG1 (s2 / swell-01
+                        :ARG1 (p / pride
+                              :poss (h2 / he))))))
+

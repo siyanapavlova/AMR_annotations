@@ -1,0 +1,17 @@
+
+(r2 / recommend-01
+      :ARG1 (f / fill-01
+            :ARG0 (t2 / tale
+                  :topic (c / claws)
+                  :ARG0-of (d / disturb-01
+                        :ARG1 (i / i)
+                        :degree (m / much
+                              :degree (s / so)))
+                  :mod (t3 / this))
+            :ARG1 (h / heart
+                  :part-of i)
+            :ARG2 (a / and
+                  :op1 (t / tender)
+                  :op2 (p / pity-01))
+            :mod (o / only)))
+

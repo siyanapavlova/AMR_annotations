@@ -1,0 +1,8 @@
+
+(t / tell-01
+      :ARG0 (i / i)
+      :ARG1 (c / cause-01
+            :ARG0 (s / snake)
+            :mod (a / also))
+      :ARG2 (y / you))
+

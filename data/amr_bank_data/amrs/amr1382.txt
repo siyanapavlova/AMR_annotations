@@ -1,0 +1,28 @@
+
+(c / contrast-01
+      :ARG2 (a / and
+            :op1 (l2 / let-01
+                  :ARG0 (s3 / snake)
+                  :ARG1 (f / flow-01
+                        :ARG1 s3
+                        :manner (e / easy)
+                        :ARG1-of (r / resemble-01
+                              :ARG2 (s5 / spray
+                                    :ARG1-of (d2 / die-02)
+                                    :poss (f2 / fountain)))
+                        :path (a3 / across
+                              :op1 (s4 / sand)))
+                  :ARG1-of (c2 / cause-01
+                        :ARG0 (n / noise
+                              :ARG1-of (m2 / make-01
+                                    :ARG0 (i / i)))))
+            :op2 (d / disappear-01
+                  :ARG1 s3
+                  :ARG1-of (h / hurry-01 :polarity -
+                        :mod (a2 / apparent))
+                  :location (a4 / among
+                        :op1 (s2 / stone))
+                  :ARG0-of (s / sound-02
+                        :ARG1 (m / metallic
+                              :mod (l / light))))))
+

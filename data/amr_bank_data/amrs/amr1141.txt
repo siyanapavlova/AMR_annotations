@@ -1,0 +1,9 @@
+
+(d / dance-01
+      :ARG0 (t / they)
+      :ARG2 (g / girl
+            :source (v / village))
+      :frequency (r / rate-entity-91
+            :ARG4 (d2 / date-entity
+                  :weekday (t2 / thursday))))
+

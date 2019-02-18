@@ -1,0 +1,8 @@
+
+(l / live-01
+      :ARG0 (y / you)
+      :location (p / place
+            :ARG1-of (s / speak-01
+                  :ARG0 y)
+            :domain (a / amr-unknown)))
+

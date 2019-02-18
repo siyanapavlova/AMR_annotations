@@ -1,0 +1,10 @@
+
+(k / keep-02
+      :ARG1 (w / wonder-01
+            :ARG0 (i / i)
+            :ARG1 (e / event
+                  :mod (a / amr-unknown)
+                  :location (p / planet
+                        :poss (h / he))))
+      :time (n / now))
+

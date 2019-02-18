@@ -1,0 +1,14 @@
+
+(s / say-01
+  :ARG0 (f2 / fox)
+  :ARG1 (d / do-02
+          :ARG0 (i / it)
+          :ARG1 (g / good-42
+                  :ARG1 f2
+                  :ARG2 i)
+          :ARG2 f2
+          :ARG1-of (c / cause-01
+                     :ARG0 (c2 / color-01
+                             :ARG1 (f / field
+                                     :mod (w / wheat))))))
+

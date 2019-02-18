@@ -1,0 +1,8 @@
+
+(i / inhabit-01
+      :ARG0 (k / king)
+      :ARG1 (t2 / thing
+            :ord (o / ordinal-entity :value 1)
+            :ARG1-of (i2 / include-91
+                  :ARG2 (t / they))))
+

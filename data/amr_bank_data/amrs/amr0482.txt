@@ -1,0 +1,12 @@
+
+(b / begin-01
+      :ARG0 (h / he)
+      :ARG2 (v / visit-01
+            :ARG0 h
+            :ARG1 (t2 / they))
+      :mod (t / therefore)
+      :purpose (a / add-02
+            :ARG0 v
+            :ARG2 (k / knowledge
+                  :poss h)))
+

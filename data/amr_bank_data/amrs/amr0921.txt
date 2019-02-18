@@ -1,0 +1,26 @@
+
+(t / tell-01
+      :ARG0 (i3 / i)
+      :ARG1 (o / obligate-01
+            :ARG2 (m / maintain-01
+                  :ARG1 (a / army
+                        :consist-of (p2 / person :quant 462511
+                              :ARG0-of (l2 / light-01
+                                    :ARG1 (l3 / lamp)))
+                        :mod (v / veritable))
+                  :location (o2 / over
+                        :op1 (c / continent
+                              :quant (w / whole :op1 6)))
+                  :purpose (l / lamp
+                        :location (s2 / street)))
+            :time (b / before
+                  :op1 (i2 / invent-01
+                        :ARG1 (e / electricity))))
+      :ARG2 y
+      :purpose (g / give-01
+            :ARG1 (i / idea
+                  :topic (s / size-01
+                        :ARG1 (p3 / planet :wiki "Earth"
+                              :name (n / name :op1 "Earth"))))
+            :ARG2 (y / you)))
+

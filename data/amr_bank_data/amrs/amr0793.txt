@@ -1,0 +1,15 @@
+
+(o / obligate-01
+      :ARG1 (i / i)
+      :ARG2 (a / and
+            :op1 (l / light-01
+                  :ARG0 i
+                  :ARG1 (l2 / lamp
+                        :poss i))
+            :op2 (p / put-09
+                  :ARG0 i
+                  :ARG1 l2))
+      :frequency (r / rate-entity-91
+            :ARG2 (t / temporal-quantity :quant 1
+                  :unit (m / minute))))
+

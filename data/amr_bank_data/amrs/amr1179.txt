@@ -1,0 +1,10 @@
+
+(b / become-01
+      :ARG1 (y / you)
+      :ARG2 (r / responsible-41
+            :ARG1 y
+            :ARG3 (t2 / thing
+                  :ARG1-of (t / tame-01
+                        :ARG0 y))
+            :extent (f / forever)))
+

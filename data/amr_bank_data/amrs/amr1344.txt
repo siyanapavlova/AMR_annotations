@@ -1,0 +1,29 @@
+
+(c / contrast-01
+      :ARG2 (q / question-01
+            :ARG0 (i / i)
+            :ARG1 (s / stroll-01
+                  :ARG0 y
+                  :manner (a3 / alone
+                        :degree (a4 / all)
+                        :ARG1-of (r / resemble-01
+                              :ARG2 (t2 / that)))
+                  :direction (a6 / along)
+                  :location (r3 / relative-position
+                        :op1 (r2 / region
+                              :ARG1-of (i3 / inhabit-01)
+                              :mod (a5 / any))
+                        :quant (d2 / distance-quantity :quant 1000
+                              :unit (m3 / mile)))
+                  :time (m / meet-03
+                        :ARG0 i
+                        :ARG1 (y / you)
+                        :ord (o2 / ordinal-entity :value 1)
+                        :time (b / before
+                              :op1 (n / now)
+                              :quant (t / temporal-quantity :quant 1
+                                    :unit (w / week)))
+                        :time (m2 / morning))
+                  :ARG1-of (c2 / cause-01 :polarity -
+                        :ARG0 (c3 / chance)))))
+

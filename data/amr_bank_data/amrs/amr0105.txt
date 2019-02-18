@@ -1,0 +1,17 @@
+
+(s / seem-01
+  :ARG1 (h / hear-01
+          :ARG0 (p / prince
+                  :mod (l / little)
+                  :ARG0-of (a / ask-01
+                             :ARG1 (q / question
+                                     :quant (m / many
+                                              :degree (s2 / so)))
+                             :ARG2 (i / i)))
+          :ARG1 (o / one
+                  :ARG1-of (a2 / ask-01
+                             :ARG0 i
+                             :ARG2 p))
+          :time (e2 / ever)
+          :polarity -))
+

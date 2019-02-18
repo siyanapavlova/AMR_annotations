@@ -1,0 +1,8 @@
+
+(a3 / and
+      :op2 (a4 / and
+            :op1 (t2 / town)
+            :op2 (r2 / river)
+            :op3 (d2 / desert))
+      :mode interrogative)
+

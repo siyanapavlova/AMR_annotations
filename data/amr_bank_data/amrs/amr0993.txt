@@ -1,0 +1,7 @@
+
+(f2 / flower
+      :ARG0-of (h / have-03
+            :ARG1 (p / petal :quant 3))
+      :domain-of (a2 / account :polarity -)
+      :domain (i / it))
+

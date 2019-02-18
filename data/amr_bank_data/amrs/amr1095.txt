@@ -1,0 +1,8 @@
+
+(c2 / contrast-01
+  :ARG2 (c / come-01
+          :ARG1 (h / he)
+          :ARG4 (i / idea
+                  :poss h)
+          :direction (b2 / back)))
+

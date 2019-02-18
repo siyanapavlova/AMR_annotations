@@ -1,0 +1,13 @@
+
+(a / and
+      :op2 (s / sharpen-01
+            :ARG0 g
+            :ARG1 (p / pencil
+                  :poss g)
+            :time (a3 / after
+                  :op1 (o / open-01
+                        :ARG0 (g / geographer)
+                        :ARG1 (r / register-02
+                              :ARG0 g
+                              :mod (b / big))))))
+

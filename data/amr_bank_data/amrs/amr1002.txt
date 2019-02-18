@@ -1,0 +1,6 @@
+
+(b / blow-01
+  :ARG0 (w / wind)
+  :ARG1 (t / they)
+  :direction (a / away))
+

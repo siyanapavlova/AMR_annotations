@@ -1,0 +1,7 @@
+
+(o / or
+      :op1 (p / person
+            :ARG0-of (h / have-org-role-91
+                  :ARG2 (g / general)))
+      :op2 (i / i))
+

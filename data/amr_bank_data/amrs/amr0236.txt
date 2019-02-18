@@ -1,0 +1,7 @@
+
+(i / infest-01
+      :ARG1 (s / soil
+            :poss (p / planet
+                  :mod (t2 / that)))
+      :ARG2 (t / they))
+

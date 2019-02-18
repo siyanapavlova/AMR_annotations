@@ -1,0 +1,9 @@
+
+(l / let-01
+      :ARG0 (i / i)
+      :ARG1 (d / drop-01
+            :ARG1 (t / tool
+                  :poss i)
+            :ARG3 (h / hand
+                  :part-of i)))
+

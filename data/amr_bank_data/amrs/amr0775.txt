@@ -1,0 +1,10 @@
+
+(c / contrast-01
+  :ARG2 (c2 / cause-01
+          :ARG0 (a / amr-unknown)
+          :ARG1 (l / light-01
+                  :ARG0 (y / you)
+                  :ARG1 (i / it)
+                  :mod (a2 / again)
+                  :mod (j / just))))
+

@@ -1,0 +1,11 @@
+
+(l / look-01
+  :ARG1 (s2 / sky
+          :time (n / night))
+  :mod (s / sweet)
+  :condition (l2 / love-01
+               :ARG0 (y / you)
+               :ARG1 (f / flower
+                       :ARG0-of (l3 / live-01
+                                  :location (s3 / star)))))
+

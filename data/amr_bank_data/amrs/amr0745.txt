@@ -1,0 +1,7 @@
+
+(c / contrast-01
+  :ARG2 (c2 / consequence
+          :domain (i / it)
+          :mod (g / great
+                 :polarity -)))
+

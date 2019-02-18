@@ -1,0 +1,8 @@
+
+(p / possible
+      :domain (w / walk-01
+            :ARG0 (i / i)
+            :extent (f / far
+                  :degree (e / equal)
+                  :compared-to (v / vineyard))))
+

@@ -1,0 +1,13 @@
+
+(a / and
+  :op1 (m / moisten-01
+         :ARG0 (i / i)
+         :ARG1 (t / temple
+                 :poss (h / he)))
+  :op2 (g / give-01
+         :ARG0 i
+         :ARG1 (w / water
+                 :quant (s / some)
+                 :purpose (d / drink-01))
+         :ARG2 h))
+

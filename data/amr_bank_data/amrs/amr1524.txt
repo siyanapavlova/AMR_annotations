@@ -1,0 +1,8 @@
+
+(f / fall-01
+      :ARG1 (h / he)
+      :manner (g / gentle
+            :degree (e / equal)
+            :compared-to (f2 / fall-01
+                  :ARG1 (t / tree))))
+

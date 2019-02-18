@@ -1,0 +1,10 @@
+
+(r / regulate-01
+      :ARG1 (m / move-01
+            :ARG0 (a / army
+                  :mod (t / this))
+            :ARG1-of (r3 / resemble-01
+                  :ARG2 (m2 / move-01
+                        :ARG0 (b / ballet
+                              :subevent-of (o / opera))))))
+

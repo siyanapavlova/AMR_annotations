@@ -1,0 +1,6 @@
+
+(c / come-01
+      :ARG1 (s / she)
+      :time-of (s2 / seed
+            :domain s))
+

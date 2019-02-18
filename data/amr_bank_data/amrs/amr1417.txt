@@ -1,0 +1,23 @@
+
+(c / contrast-01
+  :ARG2 (s / say-01
+          :ARG0 (h / he)
+          :ARG1 (p / possible
+                  :domain (f / find-01
+                            :ARG1 (s2 / star
+                                    :poss h)
+                            :location (a / above
+                                        :op1 (p2 / place
+                                               :location-of (c2 / come-01
+                                                              :ARG4 (e / earth)
+                                                              :time (b / before
+                                                                    :op1 (n / now)
+                                                                    :quant (t3 / temporal-quantity
+                                                                             :unit (y2 / year)
+                                                                             :quant 1))))
+                                        :mod (r / right)))
+                  :time (t / tonight)
+                  :duration (y / year)
+                  :mod (t2 / then))
+          :ARG2 (i / i)))
+

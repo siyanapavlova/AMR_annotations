@@ -1,0 +1,10 @@
+
+(c / cause-01
+      :ARG1 (l / lie-02
+            :ARG0 (p2 / person
+                  :ARG0-of (e2 / explore-01))
+            :condition-of (b3 / bring-01
+                  :ARG1 (d2 / disaster)
+                  :ARG2 (b4 / book
+                        :poss (g2 / geographer)))))
+

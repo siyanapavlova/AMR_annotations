@@ -1,0 +1,7 @@
+
+(t2 / thick
+      :degree (m / more
+            :polarity -)
+      :compared-to (f / finger)
+      :domain (y / you))
+

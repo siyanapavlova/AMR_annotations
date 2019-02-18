@@ -1,0 +1,8 @@
+
+(w / want-01 :polarity -
+      :ARG0 (s / she)
+      :ARG1 (s2 / see-01
+            :ARG0 (h / he)
+            :ARG1 (c / cry-02
+                  :ARG0 s)))
+

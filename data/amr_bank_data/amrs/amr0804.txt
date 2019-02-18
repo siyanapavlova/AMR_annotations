@@ -1,0 +1,17 @@
+
+(f / feel-01
+      :ARG0 (p / prince
+            :mod (l2 / little))
+      :ARG1 (l / love-01
+            :ARG0 p
+            :ARG1 (p2 / person
+                  :ARG0-of (l3 / light-01
+                        :ARG1 (l4 / lamp))
+                  :mod (t / this)
+                  :domain-of (f2 / faithful
+                        :beneficiary (o / order-01
+                              :ARG0 p2))))
+      :time (w / watch-01
+            :ARG0 p
+            :ARG1 p2))
+

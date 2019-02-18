@@ -1,0 +1,17 @@
+
+(c / come-04
+      :ARG1 (p / prince
+            :mod (l / little))
+      :ARG2 (d / doubt-01
+            :ARG0 p
+            :ARG1 (s3 / she))
+      :time (s / soon)
+      :ARG1-of (c2 / cause-01)
+      :concession (w / will
+            :mod (g / good)
+            :mod (a / all)
+            :ARG1-of (s2 / separate-01
+                  :ARG2 (l2 / love-01
+                        :ARG0 p)
+                  :mod (p2 / possible :polarity -))))
+

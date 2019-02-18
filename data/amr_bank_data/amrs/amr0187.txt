@@ -1,0 +1,11 @@
+
+(s / suffer-01
+      :ARG0 (i / i)
+      :ARG1 (g / grief
+            :quant (m / much
+                  :degree (t / too)))
+      :time (s2 / set-09
+            :ARG0 i
+            :ARG1 (m2 / memory
+                  :mod (t2 / this))))
+

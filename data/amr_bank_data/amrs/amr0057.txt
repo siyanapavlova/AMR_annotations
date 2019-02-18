@@ -1,0 +1,23 @@
+
+(c3 / contrast-01
+  :ARG2 (s / seem-01
+          :ARG1 (a / and
+                  :op1 (s2 / stray-01
+                         :ARG0 (m / man
+                                 :mod (l / little)
+                                 :poss (i / i))
+                         :ARG1 (a3 / among
+                                 :op1 (s3 / sand))
+                         :manner (c / certain
+                                   :polarity -)
+                         :polarity -)
+                  :op2 (f / faint-01
+                         :ARG0 m
+                         :ARG1-of (c2 / cause-01
+                                    :ARG0 (o / or
+                                            :op1 (f2 / fatigue-01)
+                                            :op2 (h / hunger-01)
+                                            :op3 (t / thirst-01)
+                                            :op4 (f3 / fear-01)))
+                         :polarity -))))
+

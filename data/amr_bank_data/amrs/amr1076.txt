@@ -1,0 +1,10 @@
+
+(o / opine-01
+      :ARG0 (y2 / you)
+      :ARG1 (f / fox
+            :ARG1-of (r3 / resemble-01
+                  :ARG2 (f2 / fox :quant 100000
+                        :mod (o3 / other)))
+            :domain (i / i
+                  :mod (m2 / more :polarity -))))
+

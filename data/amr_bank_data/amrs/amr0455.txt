@@ -1,0 +1,7 @@
+
+(t / try-01
+  :ARG0 (y / you)
+  :ARG1 (h2 / happy
+          :domain y)
+  :mode imperative)
+

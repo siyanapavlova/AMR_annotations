@@ -1,0 +1,9 @@
+
+(o / obligate-01
+      :ARG1 (o2 / one)
+      :ARG2 (h / hold-01 :polarity -
+            :ARG0 o2
+            :ARG1 (i / it)
+            :ARG2 (a / against
+                  :op1 (t / they))))
+

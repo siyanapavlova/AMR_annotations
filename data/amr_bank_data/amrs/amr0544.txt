@@ -1,0 +1,7 @@
+
+(r / rest-02
+      :ARG1 (a / authority
+            :ARG1-of (a2 / accept-01))
+      :ARG2 (r2 / reason-01)
+      :mod (f / first-of-all))
+

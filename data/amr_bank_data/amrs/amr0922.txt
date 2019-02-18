@@ -1,0 +1,11 @@
+
+(m / make-01
+      :ARG0 (t / that)
+      :ARG1 (s / spectacle
+            :mod (s2 / splendid))
+      :condition (s3 / see-01
+            :ARG1 t
+            :manner (d / distance-01
+                  :ARG2 t
+                  :degree (s4 / slight))))
+

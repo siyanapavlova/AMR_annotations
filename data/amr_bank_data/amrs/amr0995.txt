@@ -1,0 +1,6 @@
+
+(s / say-01
+  :ARG0 (f / flower-01)
+  :ARG1 (m2 / morning
+          :mod (g2 / good)))
+

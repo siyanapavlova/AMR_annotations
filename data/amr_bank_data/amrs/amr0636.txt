@@ -1,0 +1,12 @@
+
+(h / have-concession-91
+  :ARG1 (d / deject-01
+          :ARG0 v
+          :ARG1 (p2 / prince
+                  :mod (l / little))
+          :mod (d2 / deep))
+  :ARG2 (v / visit-01
+          :duration (s / short
+                      :degree (v2 / very))
+          :domain (t / this)))
+

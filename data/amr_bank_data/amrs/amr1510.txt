@@ -1,0 +1,8 @@
+
+(a / and
+      :op2 (s / sit-02
+            :ARG1 (h / he)
+            :ARG1-of (c / cause-01
+                  :ARG0 (f / fear-01
+                        :ARG0 h))))
+

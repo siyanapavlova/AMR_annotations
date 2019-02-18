@@ -1,0 +1,7 @@
+
+(s / say-01
+  :ARG0 (i / i)
+  :ARG1 (f / fear-01
+          :ARG0 h)
+  :ARG2 (h / he))
+

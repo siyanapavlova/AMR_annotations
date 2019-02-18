@@ -1,0 +1,13 @@
+
+(c / cause-01
+      :ARG0 (r / reason
+            :mod (s / serious))
+      :ARG1 (b / believe-01
+            :ARG0 (i / i)
+            :ARG1 (c2 / come-01
+                  :ARG1 (p2 / prince
+                        :mod (l / little))
+                  :ARG3 (a / asteroid :wiki -
+                        :name (n4 / name :op1 "B-612")
+                        :domain (p / planet)))))
+

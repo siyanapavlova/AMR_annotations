@@ -1,0 +1,6 @@
+
+(u / understand-01
+      :ARG0 (y / you)
+      :ARG1 (f / far
+            :degree (t / too)))
+

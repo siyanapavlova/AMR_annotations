@@ -1,0 +1,9 @@
+
+(s / seem-01
+  :ARG1 (a / and
+          :op1 (p / perplex-01
+                 :ARG1 (f / fox))
+          :op2 (c / curious-41
+                 :ARG1 f
+                 :degree (v / very))))
+

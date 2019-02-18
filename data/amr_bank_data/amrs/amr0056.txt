@@ -1,0 +1,16 @@
+
+(r / remember-01
+  :ARG0 (y / you)
+  :ARG1 (c / crash-01
+          :ARG1 (i / i)
+          :location (d / desert)
+          :location (r3 / relative-position
+                      :op1 (r2 / region
+                             :ARG1-of (i2 / inhabit-01)
+                             :mod (a2 / any))
+                      :quant (d2 / distance-quantity
+                               :unit (m / mile)
+                               :quant 1000)
+                      :direction (a / away)))
+  :mode imperative)
+

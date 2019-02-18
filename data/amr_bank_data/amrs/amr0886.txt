@@ -1,0 +1,8 @@
+
+(a3 / and
+      :op1 (a / active
+            :domain (v / volcano
+                  :quant 2))
+      :op2 (e / extinct
+            :domain (o / other)))
+

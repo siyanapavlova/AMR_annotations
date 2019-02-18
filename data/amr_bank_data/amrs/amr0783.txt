@@ -1,0 +1,6 @@
+
+(f / follow-02
+  :ARG0 (i / i)
+  :ARG1 (p / profession
+          :mod (t / terrible-41)))
+

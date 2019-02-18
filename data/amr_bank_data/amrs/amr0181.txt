@@ -1,0 +1,9 @@
+
+(r / recommend-01
+      :ARG1 (s / show-01
+            :ARG0 (c / child)
+            :ARG1 (f / forbearance
+                  :mod (g / great))
+            :ARG2 (g2 / grown-up)
+            :time (a / always)))
+

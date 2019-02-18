@@ -1,0 +1,5 @@
+
+(t / that
+  :mod (a / all)
+  :time (n / now))
+

@@ -1,0 +1,11 @@
+
+(c / contrast-01
+      :ARG2 (c2 / cause-01
+            :ARG0 (a / amr-unknown)
+            :ARG1 (w / want-01
+                  :ARG0 (y / you)
+                  :ARG1 (e / eat-01
+                        :ARG0 (s / sheep)
+                        :ARG1 (b / baobab
+                              :mod (l / little))))))
+

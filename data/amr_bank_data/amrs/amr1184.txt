@@ -1,0 +1,7 @@
+
+(s / say-01
+      :ARG0 (s2 / switchman
+            :mod (r / railway))
+      :ARG1 (m / morning
+            :mod (g / good)))
+

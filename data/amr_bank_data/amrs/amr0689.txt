@@ -1,0 +1,10 @@
+
+(c / cause-01
+  :ARG0 (o / object
+          :consist-of (g / gold)
+          :mod (l / little))
+  :ARG1 (d / dream-01
+          :ARG0 (m / man
+                  :mod (l2 / lazy))
+          :manner (i / idle-01)))
+

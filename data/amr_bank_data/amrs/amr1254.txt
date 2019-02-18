@@ -1,0 +1,14 @@
+
+(a / and
+      :op1 (s / sit-02
+            :ARG1 (o / one)
+            :location (d / dune
+                  :consist-of (s2 / sand)
+                  :location (d2 / desert)))
+      :op2 (s3 / see-01
+            :ARG0 o
+            :ARG1 (n / nothing))
+      :op3 (h / hear-01
+            :ARG0 o
+            :ARG1 (n2 / nothing)))
+

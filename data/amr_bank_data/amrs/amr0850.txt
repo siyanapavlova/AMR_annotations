@@ -1,0 +1,8 @@
+
+(p2 / possible :polarity -
+      :domain (t / tell-01
+            :ARG0 (i / i)
+            :ARG1 (t2 / that)
+            :ARG2 (y / you))
+      :mod (e / either))
+

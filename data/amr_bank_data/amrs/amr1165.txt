@@ -1,0 +1,9 @@
+
+(g / go-25
+      :ARG0 (h / he)
+      :ARG1 (c / contrast-01
+            :ARG1 (b2 / beautiful
+                  :domain (y / you))
+            :ARG2 (e / empty
+                  :domain y)))
+

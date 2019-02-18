@@ -1,0 +1,11 @@
+
+(a / and
+      :op1 (t / take-01
+            :ARG0 (i / i)
+            :ARG1 (h / he)
+            :destination (a2 / arm
+                  :part-of i))
+      :op2 (r / rock-01
+            :ARG0 i
+            :ARG1 h))
+

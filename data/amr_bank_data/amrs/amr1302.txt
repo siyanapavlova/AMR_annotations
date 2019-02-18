@@ -1,0 +1,9 @@
+
+(s / sweet
+      :domain (i / it)
+      :degree (e / equal)
+      :compared-to (t / treat
+            :mod (f / festival)
+            :mod (s2 / some)
+            :mod (s3 / special)))
+

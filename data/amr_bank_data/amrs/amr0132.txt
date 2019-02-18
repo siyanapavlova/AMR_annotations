@@ -1,0 +1,9 @@
+
+(w / want-01
+  :ARG0 (y / you)
+  :ARG1 (t / take-01
+          :ARG0 y
+          :ARG1 (s / sheep
+                  :poss y)
+          :destination (a / amr-unknown)))
+

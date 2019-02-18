@@ -1,0 +1,15 @@
+
+(s / say-01
+      :ARG0 (h / he
+            :ARG0-of (t / talk-01
+                  :ARG2 h
+                  :time (c2 / continue-01
+                        :ARG0 h
+                        :ARG1 (j / journey-01
+                              :ARG0 h))))
+      :ARG1 (e / extraordinary
+            :domain (g2 / grown-up)
+            :mod (c / certain)
+            :degree (a / altogether))
+      :manner (s2 / simple))
+

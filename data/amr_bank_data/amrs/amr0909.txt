@@ -1,0 +1,18 @@
+
+(s / say-01
+      :ARG0 (p / prince
+            :mod (l / little))
+      :ARG1 (a / and
+            :op1 (e / ephemeral
+                  :domain (f2 / flower
+                        :poss p))
+            :op2 (h / have-03
+                  :ARG0 f2
+                  :ARG1 (t2 / thorn
+                        :ARG2-of (d / defend-01
+                              :ARG0 f2
+                              :ARG1 f2
+                              :ARG3 (w / world))
+                        :quant (o / only :op1 4))))
+      :ARG2 p)
+

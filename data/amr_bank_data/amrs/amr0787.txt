@@ -1,0 +1,8 @@
+
+(a / and
+      :op2 (c / change-01 :mode interrogative
+            :ARG1 (o / order-01)
+            :time (s / since
+                  :op1 (t / time
+                        :mod (t2 / that)))))
+

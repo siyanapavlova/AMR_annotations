@@ -1,0 +1,16 @@
+
+(l / look-01 :mode imperative
+      :ARG0 (y2 / you)
+      :ARG1 (i / it)
+      :manner (c / careful)
+      :purpose (r / recognize-01
+            :ARG0 (y / you)
+            :ARG1 i
+            :mod (s / sure)
+            :condition (t / travel-01
+                  :ARG0 y
+                  :ARG1 (d / desert
+                        :location (c2 / continent :wiki "Africa" :name (n / name :op1 "Africa")))
+                  :time (d2 / day
+                        :mod (s2 / some)))))
+

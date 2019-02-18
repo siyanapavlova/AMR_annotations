@@ -1,0 +1,8 @@
+
+(c / contrast-01
+      :ARG2 (s / small
+            :degree (t / too)
+            :domain (p / planet
+                  :poss (h / he))
+            :mod (i / indeed)))
+

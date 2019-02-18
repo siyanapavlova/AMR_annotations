@@ -1,0 +1,24 @@
+
+(g / go-06
+      :ARG0 h
+      :ARG1 (r / reflect-02
+            :ARG0 (h / he)
+            :ARG1 (c2 / contrast-01
+                  :ARG1 (t / think-01
+                        :ARG0 h
+                        :ARG1 (r3 / rich
+                              :ARG1-of (c3 / cause-01
+                                    :ARG0 (h3 / have-03
+                                          :ARG0 h
+                                          :ARG1 (f / flower
+                                                :mod (u / unique
+                                                      :compared-to (w / world
+                                                            :mod (a2 / all))))))
+                              :domain h))
+                  :ARG2 (h2 / have-03
+                        :ARG0 h
+                        :ARG1 (r2 / rose
+                              :mod (c / common))
+                        :mod (a / all))))
+      :time (t2 / then))
+

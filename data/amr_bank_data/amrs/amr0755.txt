@@ -1,0 +1,6 @@
+
+(s / strange
+  :degree (v / very)
+  :domain (p / planet
+            :ord (o / ordinal-entity :value 5)))
+

@@ -1,0 +1,11 @@
+
+(s / say-01
+      :ARG0 (p / prince
+            :mod (l / little))
+      :ARG1 (q / question
+            :topic (d / discipline)
+            :domain (i / it))
+      :ARG2 (i2 / i)
+      :time (l2 / late
+            :degree (m / more)))
+

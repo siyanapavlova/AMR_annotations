@@ -1,0 +1,9 @@
+
+(s / say-01
+  :ARG0 (h / he)
+  :ARG1 (s2 / see-01
+          :ARG0 (y / you)
+          :ARG1 (s4 / sheep
+                  :domain (t2 / this)
+                  :polarity -)))
+

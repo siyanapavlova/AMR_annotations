@@ -1,0 +1,14 @@
+
+(c / cause-01
+      :ARG0 (a / and
+            :op1 (p / pulley)
+            :op2 (r / rope))
+      :ARG1 (r2 / resemble-01
+            :ARG1 (t / thing
+                  :ARG1-of (g / give-01
+                        :ARG0 (y / you)
+                        :ARG2 (i / i)
+                        :purpose (d / drink-01
+                              :ARG0 i)))
+            :ARG2 (m / music)))
+

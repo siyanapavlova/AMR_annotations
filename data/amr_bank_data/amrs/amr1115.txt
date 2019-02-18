@@ -1,0 +1,12 @@
+
+(r / reply-01
+  :ARG0 (p / prince
+          :mod (l / little))
+  :ARG2 (w / want-01
+          :ARG0 p
+          :ARG1 (t / tame-01
+                  :ARG0 p
+                  :ARG1 (y / you))
+          :degree (m / much
+                    :degree (v / very))))
+

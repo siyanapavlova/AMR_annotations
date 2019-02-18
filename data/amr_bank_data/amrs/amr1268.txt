@@ -1,0 +1,9 @@
+
+(s / seem-01
+      :ARG1 (c / carry-01
+            :ARG0 i
+            :ARG1 (t / treasure
+                  :mod (f / fragile
+                        :degree (v / very))))
+      :ARG2 (i / i))
+

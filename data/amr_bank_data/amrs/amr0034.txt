@@ -1,0 +1,10 @@
+
+(t / talk-01
+  :ARG0 (i / i)
+  :ARG1 (a / and
+          :op1 (b / bridge)
+          :op2 (g / golf)
+          :op3 (p / politics)
+          :op4 (n2 / necktie))
+  :ARG2 (h / he))
+

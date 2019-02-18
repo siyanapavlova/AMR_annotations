@@ -1,0 +1,9 @@
+
+(h / hide-01
+      :ARG0 (h2 / home
+            :poss (i / i))
+      :ARG1 (s / secret)
+      :location (d / depth
+            :poss (h3 / heart
+                  :part-of h2)))
+

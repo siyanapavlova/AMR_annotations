@@ -1,0 +1,6 @@
+
+(s / say-01
+  :ARG0 (s2 / snake)
+  :ARG1 (b / beautiful
+          :domain (i / it)))
+

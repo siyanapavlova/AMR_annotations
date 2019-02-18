@@ -1,0 +1,13 @@
+
+(s / say-01
+  :ARG0 (i / i)
+  :ARG1 (c / concern-02
+          :ARG0 (m2 / matter
+                  :domain (t / this))
+          :ARG1 (f / fox)
+          :time (n / no-longer))
+  :ARG2 (m / man
+          :mod (l / little)
+          :poss i
+          :mod (d / dear)))
+

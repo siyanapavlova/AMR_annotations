@@ -1,0 +1,7 @@
+
+(a / and
+  :op1 (m / make-01
+         :ARG0 (i / i)
+         :ARG1 (p / present)
+         :ARG3 (y / you)))
+

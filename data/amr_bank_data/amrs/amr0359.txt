@@ -1,0 +1,9 @@
+
+(s / say-01
+      :ARG0 (i / i)
+      :ARG1 (e / endanger-01 :polarity -
+            :ARG1 (f / flower
+                  :ARG1-of (l / love-01
+                        :ARG0 h)))
+      :ARG2 (h / he))
+

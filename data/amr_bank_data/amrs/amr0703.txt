@@ -1,0 +1,5 @@
+
+(o / own-01
+  :ARG0 (i / i)
+  :ARG1 (t / they))
+

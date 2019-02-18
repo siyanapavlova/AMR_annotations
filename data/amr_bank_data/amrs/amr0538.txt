@@ -1,0 +1,7 @@
+
+(o / order-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (s / sun)
+      :ARG2 (s2 / set-11
+            :ARG1 s))
+

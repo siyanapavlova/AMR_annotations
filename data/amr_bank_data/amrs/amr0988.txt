@@ -1,0 +1,8 @@
+
+(c / contrast-01
+      :ARG2 (s2 / speak-01
+            :ARG0 (y / you)
+            :ARG1 (r / riddle)
+            :time (a / always)
+            :purpose (a2 / amr-unknown)))
+

@@ -1,0 +1,9 @@
+
+(s / say-01
+      :ARG0 (p / prince
+            :mod (l / little))
+      :ARG1 (t / thirst-01
+            :ARG0 (i / i)
+            :ARG1 (w / water
+                  :mod (t2 / this))))
+

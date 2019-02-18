@@ -1,0 +1,21 @@
+
+(t / try-01
+      :ARG0 (i / i)
+      :ARG1 (e / experiment-01
+            :ARG1 (s / show-01
+                  :ARG1 (p2 / picture :wiki -
+                        :name (n / name :op1 "Drawing" :op2 "Number" :op3 "One"))
+                  :ARG2 p
+                  :ARG1-of (k / keep-01
+                        :ARG0 i
+                        :time (a / always))))
+      :time (m / meet-02
+            :ARG0 i
+            :ARG1 (p / person
+                  :ARG1-of (i2 / include-91
+                        :ARG2 (t3 / they))
+                  :ARG0-of (s3 / see-01
+                        :manner (c2 / clear)
+                        :ARG1-of (s4 / seem-01
+                              :ARG2 i)))))
+

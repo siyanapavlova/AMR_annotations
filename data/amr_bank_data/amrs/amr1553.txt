@@ -1,0 +1,11 @@
+
+(a / and
+      :op2 (u / understand-01 :polarity -
+            :ARG0 (g / grown-up)
+            :ARG1 (t / this
+                  :ARG1-of (m / matter-01
+                        :mod (i / important
+                              :mod (m2 / much
+                                    :degree (s / so)))))
+            :time (e2 / ever)))
+

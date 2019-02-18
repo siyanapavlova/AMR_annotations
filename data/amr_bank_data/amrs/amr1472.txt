@@ -1,0 +1,4 @@
+
+(t / trouble
+      :domain (w2 / worth :polarity -))
+

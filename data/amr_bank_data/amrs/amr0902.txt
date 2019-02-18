@@ -1,0 +1,13 @@
+
+(s / say-01
+      :ARG0 (g / geographer)
+      :ARG1 (c / come-04
+            :ARG1 (i / it)
+            :ARG2 (t / thing
+                  :mod (s2 / same-41
+                        :ARG1 (e2 / extinct
+                              :domain (v / volcano))
+                        :ARG2 (l2 / live-01
+                              :ARG0 v)
+                        :ARG3 (w / we)))))
+

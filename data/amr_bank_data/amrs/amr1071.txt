@@ -1,0 +1,5 @@
+
+(e / establish-01
+  :ARG1 (t / tie-01)
+  :mode interrogative)
+

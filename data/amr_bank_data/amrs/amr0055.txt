@@ -1,0 +1,19 @@
+
+(s / stare-01
+      :ARG0 (i / i)
+      :ARG1 (t / thing
+            :ARG1-of (a / appear-01
+                  :manner (s2 / sudden))
+            :mod (t2 / this))
+      :time (n / now)
+      :manner (s3 / start-06
+            :ARG0 (e / eye
+                  :part-of i)
+            :ARG1 (o / out
+                  :op1 (h / head
+                        :part-of i))
+            :ARG1-of (c / cause-01
+                  :ARG0 (a2 / astonish-01
+                        :ARG1 i))
+            :degree (f / fair)))
+

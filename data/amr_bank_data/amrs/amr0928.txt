@@ -1,0 +1,11 @@
+
+(a / and
+      :op2 (m / make-01 :polarity -
+            :ARG0 (t / they)
+            :ARG1 (m2 / mistake-01
+                  :ARG1 (o / order
+                        :mod (e / enter-01
+                              :ARG0 t
+                              :ARG1 (s / stage))))
+            :time (e2 / ever)))
+

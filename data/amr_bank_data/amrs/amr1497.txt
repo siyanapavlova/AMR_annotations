@@ -1,0 +1,6 @@
+
+(s3 / sad
+      :domain (n2 / nothing)
+      :topic (s2 / shell
+            :mod (o / old)))
+

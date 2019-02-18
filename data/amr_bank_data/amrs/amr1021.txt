@@ -1,0 +1,6 @@
+
+(a / and
+      :op2 (h / have-03
+            :ARG0 (p / person)
+            :ARG1 (i2 / imagine-01 :polarity -)))
+

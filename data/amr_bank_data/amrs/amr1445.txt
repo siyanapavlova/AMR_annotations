@@ -1,0 +1,6 @@
+
+(g / guide-01
+  :ARG0 (s / star)
+  :ARG1 (s2 / some
+          :ARG0-of (t / travel-01)))
+

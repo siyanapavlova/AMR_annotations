@@ -1,0 +1,10 @@
+
+(b / believe-01 :polarity -
+      :ARG0 (g2 / grown-up)
+      :ARG1 (y / you)
+      :time (t / tell-01
+            :ARG0 y
+            :ARG1 (t2 / that)
+            :ARG2 g2)
+      :mod (s / sure))
+

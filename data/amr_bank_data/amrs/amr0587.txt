@@ -1,0 +1,8 @@
+
+(c / condemn-01
+  :ARG0 (y / you)
+  :ARG1 (h / he)
+  :ARG3 (d / die-01
+          :ARG1 h)
+  :frequency (t / time-to-time))
+

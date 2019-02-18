@@ -1,0 +1,8 @@
+
+(p / ponder-01
+  :ARG0 (i / i)
+  :ARG1 (a / adventure
+          :location (j / jungle))
+  :manner (d / deep)
+  :time (t / then))
+

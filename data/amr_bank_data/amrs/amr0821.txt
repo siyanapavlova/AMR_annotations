@@ -1,0 +1,25 @@
+
+(a / and
+      :op1 (b / breathe-02
+            :ARG0 (h / he)
+            :ARG1 (s / sigh-02
+                  :manner (r / regret-01)))
+      :op2 (s2 / say-01
+            :ARG0 h
+            :ARG1 (p / person
+                  :mod (o2 / only)
+                  :ARG1-of (i / include-91
+                        :ARG2 (t / they
+                              :quant (a2 / all)))
+                  :domain (m2 / man
+                        :mod (t2 / that))
+                  :ARG2-of (m / make-01
+                        :ARG0 h
+                        :ARG1 (h2 / have-rel-role-91
+                              :ARG0 p
+                              :ARG1 h
+                              :ARG2 (f / friend))
+                        :mod (p2 / possible)))
+            :ARG2 h
+            :mod (a3 / again)))
+

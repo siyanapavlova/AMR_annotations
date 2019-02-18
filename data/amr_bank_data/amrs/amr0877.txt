@@ -1,0 +1,5 @@
+
+(p2 / person
+      :ARG0-of (e / explore-01)
+      :domain (y / you))
+

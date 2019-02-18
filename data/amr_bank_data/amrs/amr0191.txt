@@ -1,0 +1,8 @@
+
+(h / have-03 :polarity -
+      :ARG0 (e / everyone)
+      :ARG1 (p / person
+            :ARG0-of (h2 / have-rel-role-91
+                  :ARG1 e
+                  :ARG2 (f / friend))))
+

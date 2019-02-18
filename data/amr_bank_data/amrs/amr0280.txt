@@ -1,0 +1,15 @@
+
+(p / possible
+      :domain (g / go-02
+            :ARG0 y
+            :ARG3 (d / date-entity :time "12:00")
+            :ARG4 (s / sunset)
+            :manner (s2 / straight))
+      :condition (p2 / possible
+            :domain (f / fly-01
+                  :ARG1 (y / you)
+                  :duration (t / temporal-quantity :quant 1
+                        :unit (m / minute))
+                  :destination (c / country :wiki "France"
+                        :name (n / name :op1 "France")))))
+

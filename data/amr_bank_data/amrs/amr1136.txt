@@ -1,0 +1,8 @@
+
+(o / obligate-01
+      :ARG1 (o3 / one)
+      :ARG2 (o2 / observe-01
+            :ARG0 o3
+            :ARG1 (r / rite
+                  :mod (p2 / proper))))
+

@@ -1,0 +1,11 @@
+
+(c / contrast-01
+      :ARG2 (p2 / possible :polarity -
+            :domain (r / restrain-01
+                  :ARG0 (p / prince
+                        :mod (l / little)
+                        :ARG0-of (s / say-01
+                              :ARG1 (o / oh :mode "expressive")))
+                  :ARG1 (a / admire-01
+                        :ARG0 p))))
+

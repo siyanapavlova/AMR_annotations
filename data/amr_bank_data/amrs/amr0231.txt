@@ -1,0 +1,15 @@
+
+(s / sleep-01
+      :ARG0 (t / they)
+      :location (h / heart
+            :location (d / deep)
+            :part-of (d2 / darkness
+                  :poss (e / earth)))
+      :time (u / until
+            :op1 (s2 / seize-01
+                  :ARG0 (d3 / desire-01
+                        :ARG1 (a / awaken-01))
+                  :ARG1 (s3 / someone
+                        :ARG1-of (i / include-91
+                              :ARG2 t)))))
+

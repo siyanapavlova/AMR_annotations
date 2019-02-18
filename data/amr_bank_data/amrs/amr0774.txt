@@ -1,0 +1,8 @@
+
+(a / and
+  :op2 (l / light-01
+         :ARG0 (h / he)
+         :ARG1 (l2 / lamp
+                 :poss h)
+         :mod (a2 / again)))
+

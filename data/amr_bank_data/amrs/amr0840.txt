@@ -1,0 +1,9 @@
+
+(a / and
+      :op2 (l / look-01
+            :ARG0 (h / he)
+            :ARG1 (p / planet
+                  :poss (g / geographer))
+            :direction (a2 / around
+                  :op1 h)))
+

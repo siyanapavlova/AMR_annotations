@@ -1,0 +1,15 @@
+
+(a / and
+      :op1 (g / go-03
+            :ARG0 (p / prince
+                  :mod (l2 / little)
+                  :ARG1-of (a2 / abash-01
+                        :degree (c3 / complete)))
+            :ARG1 (l / look-01
+                  :ARG0 p
+                  :ARG1 (c / can
+                        :ARG0-of (s / sprinkle-01)
+                        :ARG0-of (c2 / contain-01
+                              :ARG1 (w / water
+                                    :mod (f / fresh)))))))
+

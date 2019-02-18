@@ -1,0 +1,8 @@
+
+(b / buy-01
+  :ARG0 (t / they)
+  :ARG1 (t2 / thing
+          :ARG1-of (m / make-01
+                     :time (a / already)))
+  :location (s / shop))
+

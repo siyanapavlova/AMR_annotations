@@ -1,0 +1,7 @@
+
+(p / place
+      :mod (s / secret
+            :degree (s2 / such))
+      :domain (l / land
+            :location-of (t / tear)))
+

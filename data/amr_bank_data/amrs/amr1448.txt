@@ -1,0 +1,7 @@
+
+(o / opine-01
+      :ARG0 (b / businessman
+            :poss (i / i))
+      :ARG1 (w / wealth
+            :domain (t / they)))
+

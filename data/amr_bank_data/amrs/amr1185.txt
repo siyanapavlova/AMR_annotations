@@ -1,0 +1,9 @@
+
+(a / ask-01
+      :ARG0 (p / prince
+            :mod (l / little))
+      :ARG1 (d / do-02
+            :ARG0 (y / you)
+            :ARG1 (a2 / amr-unknown)
+            :location (h / here)))
+

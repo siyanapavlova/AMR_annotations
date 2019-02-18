@@ -1,0 +1,12 @@
+
+(s / say-01
+  :ARG0 (p / person
+          :ARG0-of (m / merchandise-01))
+  :ARG1 (c / cause-01
+          :ARG0 (t / they)
+          :ARG1 (s2 / save-01
+                  :ARG0 t
+                  :ARG1 (t2 / time
+                          :ARG1-of (a / amount-01
+                                     :ARG2 (t3 / tremendous))))))
+

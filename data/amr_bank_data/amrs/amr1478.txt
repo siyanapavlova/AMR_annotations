@@ -1,0 +1,9 @@
+
+(p / possible
+  :domain (b / bite-01
+            :ARG0 (o / one
+                    :mod (t / this))
+            :ARG1 (y / you)
+            :purpose (f / fun
+                       :mod (j / just))))
+

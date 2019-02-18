@@ -1,0 +1,7 @@
+
+(p / person
+  :ARG0-of (h / hunt-01)
+  :location (p2 / planet
+              :mod (t / this))
+  :mode interrogative)
+

@@ -1,0 +1,9 @@
+
+(v / value-01
+      :ARG1 (k / knowledge
+            :mod (s / such))
+      :condition (g / get-03
+            :ARG1 (o / one)
+            :ARG2 (l / lost
+                  :time (n / night))))
+

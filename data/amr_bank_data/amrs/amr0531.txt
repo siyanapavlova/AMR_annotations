@@ -1,0 +1,6 @@
+
+(o / obey-01
+  :ARG0 (s / star)
+  :ARG1 (y / you)
+  :mode interrogative)
+

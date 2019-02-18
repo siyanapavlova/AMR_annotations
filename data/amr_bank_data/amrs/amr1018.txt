@@ -1,0 +1,7 @@
+
+(a / answer-01
+      :ARG0 (e / echo-01)
+      :ARG2 (a2 / alone
+            :domain (i / i)
+            :mod (a3 / all)))
+

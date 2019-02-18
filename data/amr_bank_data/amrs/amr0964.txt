@@ -1,0 +1,10 @@
+
+(s / say-01
+      :ARG0 (p / prince
+            :mod (l / little))
+      :ARG1 (h / have-03
+            :ARG0 p
+            :ARG1 (t / trouble-01
+                  :ARG0 (f2 / flower)
+                  :mod (s2 / some))))
+

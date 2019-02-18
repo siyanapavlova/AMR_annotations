@@ -1,0 +1,8 @@
+
+(r / retort-01
+      :ARG0 (b3 / businessman)
+      :ARG2 (b2 / belong-01
+            :ARG0 (t / they)
+            :ARG1 (a / amr-unknown))
+      :manner (p / peevish))
+

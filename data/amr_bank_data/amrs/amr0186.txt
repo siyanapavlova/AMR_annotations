@@ -1,0 +1,11 @@
+
+(c / cause-01
+      :ARG0 (w / want-01
+            :ARG0 (i / i)
+            :ARG1 (r / read-01
+                  :ARG0 (a / anyone)
+                  :ARG1 (b / book
+                        :poss i)
+                  :manner (c2 / careless))
+            :polarity -))
+

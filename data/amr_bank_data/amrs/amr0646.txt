@@ -1,0 +1,8 @@
+
+(a / and
+      :op2 (g / go-01
+            :ARG1 (p / prince
+                  :mod (l / little)
+                  :ARG1-of (p2 / puzzle-01))
+            :direction (a2 / away)))
+

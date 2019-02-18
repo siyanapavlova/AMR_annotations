@@ -1,0 +1,7 @@
+
+(r / regret-01
+      :ARG0 (h / he)
+      :ARG1 (l / lose-02
+            :ARG0 h
+            :ARG1 (s / sunset)))
+

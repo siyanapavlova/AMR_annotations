@@ -1,0 +1,6 @@
+
+(r / resemble-01
+      :ARG1 (s / she)
+      :ARG2 (c / creature
+            :mod (c2 / coquet)))
+

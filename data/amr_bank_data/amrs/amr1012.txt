@@ -1,0 +1,7 @@
+
+(s / say-01
+      :ARG0 (h / he)
+      :ARG1 (m / morning
+            :mod (g / good))
+      :manner (c / courtesy))
+

@@ -1,0 +1,7 @@
+
+(s / see-01
+      :ARG0 (a / astronomer
+            :mod (c / country :wiki "Turkey"
+                  :name (n / name :op1 "Turkey")))
+      :time (d / date-entity :year 1909))
+

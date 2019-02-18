@@ -1,0 +1,4 @@
+
+(s / so
+  :domain (t / that))
+

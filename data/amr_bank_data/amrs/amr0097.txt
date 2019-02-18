@@ -1,0 +1,7 @@
+
+(b / benefit-01
+      :ARG0 (g3 / grass
+            :mod (e3 / enough
+                  :mod (s / sure)))
+      :ARG1 (h2 / he))
+

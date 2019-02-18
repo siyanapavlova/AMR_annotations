@@ -1,0 +1,6 @@
+
+(h / have-03
+      :ARG0 (i / i)
+      :ARG1 (c / claw
+            :part-of i))
+

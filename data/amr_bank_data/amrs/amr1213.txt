@@ -1,0 +1,7 @@
+
+(m / make-01
+      :ARG0 (p / person
+            :ARG1-of (e / expert-41))
+      :ARG1 (t / thing
+            :ARG1-of (c / compute-01)))
+

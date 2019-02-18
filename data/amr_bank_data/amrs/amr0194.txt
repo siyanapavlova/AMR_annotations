@@ -1,0 +1,30 @@
+
+(h / hard
+      :domain (t / take-13
+            :ARG0 (i / i
+                  :age (t4 / temporal-quantity
+                        :duration-of (m / make-01 :polarity -
+                              :ARG1 (p / picture
+                                    :mod (a5 / any)
+                                    :ARG2-of (e2 / except-01
+                                          :ARG1 (a6 / and
+                                                :op1 (p2 / picture
+                                                      :topic (b / boa
+                                                            :mod (c2 / constrictor)
+                                                            :direction (f / from
+                                                                  :op1 (o / outside))))
+                                                :op2 (p3 / picture
+                                                      :topic (b2 / boa
+                                                            :mod (c3 / constrictor)
+                                                            :direction (f2 / from
+                                                                  :op1 (i2 / inside)))))))
+                              :duration (s / since
+                                    :op1 (t2 / time
+                                          :time-of (a7 / age-01
+                                                :ARG2 (t3 / temporal-quantity :quant 6
+                                                      :unit (y / year)))))
+                              :time (e / ever))))
+            :ARG1 (d / draw-01)
+            :mod (a / again))
+      :ARG1-of (c / cause-01))
+

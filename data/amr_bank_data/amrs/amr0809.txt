@@ -1,0 +1,18 @@
+
+(g / go-25
+      :ARG0 (p / prince
+            :mod (l / little))
+      :ARG1 (e / explain-01
+            :ARG0 p
+            :ARG1 (c / cause-01
+                  :ARG0 (s / small
+                        :domain (p2 / planet
+                              :poss (y / you))
+                        :degree (s2 / so))
+                  :ARG1 (t / take-03
+                        :ARG0 (s3 / stride-01 :quant 3)
+                        :ARG1 y
+                        :ARG2 (a / around
+                              :op1 p2
+                              :degree (a2 / all-the-way))))))
+

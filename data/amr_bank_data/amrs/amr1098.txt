@@ -1,0 +1,11 @@
+
+(a / and
+  :op1 (a2 / alike
+         :mod (j / just)
+         :domain (c / chicken
+                   :quant (a5 / all)))
+  :op2 (a4 / alike
+         :domain (m / man
+                   :quant (a7 / all))
+         :mod (j2 / just)))
+

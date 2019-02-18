@@ -1,0 +1,6 @@
+
+(l / leave-01
+  :ARG0 (i / i)
+  :ARG1 (y / you)
+  :polarity -)
+

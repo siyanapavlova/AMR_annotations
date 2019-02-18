@@ -1,0 +1,18 @@
+
+(s / say-01
+      :ARG0 (h / he)
+      :ARG1 (w2 / wonder-01
+            :ARG0 h
+            :ARG1 (l / light-01 :mode interrogative
+                  :ARG1 (s2 / star)
+                  :location (h2 / heaven)
+                  :purpose (f / find-01
+                        :ARG0 (w / we
+                              :mod (e / each))
+                        :ARG1 (s3 / star
+                              :poss w)
+                        :time (d / day
+                              :mod (o / one))
+                        :mod (a / again)
+                        :mod (p / possible)))))
+

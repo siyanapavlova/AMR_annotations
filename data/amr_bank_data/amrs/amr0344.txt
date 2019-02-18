@@ -1,0 +1,20 @@
+
+(a / and
+      :op1 (h / have-03 :polarity - :mode interrogative
+            :ARG0 (t / try-01
+                  :ARG1 (u / understand-01
+                        :ARG1 (t4 / thing
+                              :ARG0-of (c2 / cause-01
+                                    :ARG1 (e / endure-01
+                                          :ARG1 (f / flower)
+                                          :ARG2 (t2 / trouble
+                                                :purpose (g2 / grow-01
+                                                      :ARG0 f
+                                                      :ARG1 (t3 / thorn
+                                                            :ARG1-of (u2 / use-01 :polarity -
+                                                                  :ARG0 f
+                                                                  :time (e2 / ever))))
+                                                :quant (m / much
+                                                      :degree (s / so))))))))
+            :ARG1 (c / consequence)))
+

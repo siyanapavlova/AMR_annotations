@@ -1,0 +1,10 @@
+
+(s / say-01
+      :ARG0 (y / you)
+      :ARG1 (s2 / see-01 :frequency 44
+            :ARG0 y
+            :ARG1 (s3 / sunset)
+            :time (d / day
+                  :mod (o / one)))
+      :ARG2 (i / i))
+

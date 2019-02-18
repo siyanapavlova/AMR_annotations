@@ -1,0 +1,7 @@
+
+(a / and
+      :op2 (t / take-01
+            :ARG0 (h / he)
+            :ARG1 (i / i)
+            :manner (h2 / hand)))
+

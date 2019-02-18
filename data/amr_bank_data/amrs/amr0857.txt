@@ -1,0 +1,7 @@
+
+(l / leave-01
+      :ARG0 (h / he)
+      :ARG1 (d / desk
+            :poss h)
+      :polarity -)
+

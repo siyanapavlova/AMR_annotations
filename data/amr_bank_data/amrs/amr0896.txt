@@ -1,0 +1,8 @@
+
+(b / become-01
+      :ARG1 (t / they)
+      :ARG2 (f / fashion
+            :mod (o / old))
+      :time (e / ever)
+      :polarity -)
+

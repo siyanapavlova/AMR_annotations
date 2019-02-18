@@ -1,0 +1,19 @@
+
+(d / direct-01
+      :ARG0 (m / man
+            :mod (c / conceit))
+      :ARG1 (h / he)
+      :ARG2 (c2 / clap-01 :mode imperative
+            :ARG0 h
+            :ARG1 (h2 / hand
+                  :part-of h)
+            :manner (c3 / clap-01
+                  :ARG0 h
+                  :ARG1 (h3 / hand :quant 1
+                        :part-of h)
+                  :ARG2 (h4 / hand
+                        :part-of h
+                        :ARG1-of (d2 / differ-02
+                              :ARG2 h3))))
+      :time (n / now))
+

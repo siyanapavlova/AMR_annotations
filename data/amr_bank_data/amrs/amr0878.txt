@@ -1,0 +1,7 @@
+
+(d2 / describe-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (p / planet
+            :source-of y)
+      :beneficiary (i / i))
+

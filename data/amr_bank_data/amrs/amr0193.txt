@@ -1,0 +1,10 @@
+
+(b / buy-01
+  :ARG0 (i / i)
+  :ARG1 (a / and
+          :op1 (p / paint
+                 :location (b2 / box))
+          :op2 (p2 / pencil
+                 :quant (s / some)))
+  :purpose (t2 / that))
+

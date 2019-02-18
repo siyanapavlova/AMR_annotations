@@ -1,0 +1,8 @@
+
+(a / and
+      :op2 (s / sink-01
+            :ARG0 (h / he)
+            :ARG4 (r / reverie
+                  :duration (t / time
+                        :mod (l / long)))))
+

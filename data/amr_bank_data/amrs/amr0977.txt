@@ -1,0 +1,6 @@
+
+(p / possible :polarity -
+      :domain (t / travel-01
+            :ARG0 (y / you))
+      :mod (e / even))
+

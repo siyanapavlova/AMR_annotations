@@ -1,0 +1,6 @@
+
+(o2 / old
+  :degree (t2 / too)
+  :domain (o / one
+            :mod (t / this)))
+

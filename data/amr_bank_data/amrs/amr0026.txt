@@ -1,0 +1,8 @@
+
+(l / live-01
+      :ARG0 (i / i)
+      :mod (d / deal
+            :mod (g2 / great))
+      :location (a / among
+            :op1 (g / grown-up)))
+

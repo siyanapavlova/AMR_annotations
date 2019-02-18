@@ -1,0 +1,9 @@
+
+(a / and
+      :op2 (c / cause-01
+            :ARG0 (o / own-01
+                  :ARG1 (s / star))
+            :ARG1 (g / good
+                  :beneficiary (y / you)
+                  :domain (a2 / amr-unknown))))
+

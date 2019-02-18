@@ -1,0 +1,17 @@
+
+(c / cause-01
+      :ARG0 (t / think-01
+            :ARG0 (n / nobody
+                  :mod (e2 / else))
+            :ARG1 (o / own-01
+                  :ARG0 n
+                  :ARG1 (s / star))
+            :time (e / ever)
+            :time (b / before
+                  :op1 (i / i)))
+      :ARG1 (o2 / own-01
+            :ARG0 i
+            :ARG1 s)
+      :ARG1-of (r / resemble-01
+            :beneficiary i))
+

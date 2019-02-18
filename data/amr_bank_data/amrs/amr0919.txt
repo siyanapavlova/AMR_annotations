@@ -1,0 +1,7 @@
+
+(p / planet
+      :mod (o / ordinary
+            :mod (j / just :polarity -))
+      :domain (p2 / planet :wiki "Earth"
+            :name (n / name :op1 "Earth")))
+

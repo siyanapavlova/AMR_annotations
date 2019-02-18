@@ -1,0 +1,9 @@
+
+(c / contrast-01
+  :ARG2 (p2 / possible
+          :polarity -
+          :domain (p / pluck-01
+                    :ARG0 (y / you)
+                    :ARG1 (s / star)
+                    :ARG2 (h / heaven))))
+

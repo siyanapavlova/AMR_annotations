@@ -1,0 +1,8 @@
+
+(a / and
+      :op2 (g / go-15
+            :ARG1 (t / temporal-quantity :quant 6
+                  :unit (y / year))
+            :time (a2 / already))
+      :time (n / now))
+

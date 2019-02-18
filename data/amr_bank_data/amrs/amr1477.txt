@@ -1,0 +1,5 @@
+
+(s / snake
+      :mod (c / creature
+            :mod (m / malicious)))
+

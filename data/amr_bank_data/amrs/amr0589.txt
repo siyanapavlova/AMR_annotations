@@ -1,0 +1,12 @@
+
+(p / pardon-01
+      :ARG0 (y / you)
+      :ARG1 (h / he)
+      :frequency (o2 / occasion
+            :quant (e / each))
+      :ARG1-of (c / cause-01
+            :ARG0 (o / obligate-01
+                  :ARG2 (t / treat-04
+                        :ARG1 h
+                        :manner (t2 / thrift)))))
+

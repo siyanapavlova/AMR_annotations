@@ -1,0 +1,11 @@
+
+(a / answer-01
+      :ARG0 (h / he)
+      :ARG1 (i2 / i)
+      :ARG2 (c / come-25)
+      :time (i / immediate)
+      :conj-as-if (s / speak-01
+            :ARG0 h
+            :ARG1 (s2 / something
+                  :mod (s3 / self-evident))))
+

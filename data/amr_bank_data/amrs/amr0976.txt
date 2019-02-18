@@ -1,0 +1,7 @@
+
+(h / have-03 :polarity -
+      :ARG0 (y / you)
+      :ARG1 (f / foot
+            :quant (a / any))
+      :mod (e / even))
+

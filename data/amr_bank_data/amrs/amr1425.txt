@@ -1,0 +1,6 @@
+
+(b / bloom-01
+      :ARG0 (f / flower)
+      :location (s / star
+            :mod (a / all)))
+

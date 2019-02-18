@@ -1,0 +1,17 @@
+
+(a / allow-01
+      :ARG0 (o / one)
+      :ARG1 (g / grow-01
+            :ARG1 i
+            :location (w2 / wish-01
+                  :ARG0 i
+                  :mod (p / possible)))
+      :condition (o2 / or
+            :op1 (s / sprout
+                  :part-of (r / radish))
+            :op2 (s2 / sprig
+                  :part-of (b2 / bush
+                        :mod (r2 / rose)))
+            :mod (o3 / only)
+            :domain (i / it)))
+

@@ -1,0 +1,11 @@
+
+(a / add-01
+      :ARG0 (s / she)
+      :ARG1 (t / think-01
+            :ARG0 s
+            :ARG1 (t2 / time
+                  :purpose (b / breakfast-01)))
+      :time (l / late
+            :degree (m / more
+                  :quant (i / instant))))
+

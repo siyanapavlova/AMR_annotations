@@ -1,0 +1,16 @@
+
+(f / feel-01
+      :ARG0 (i / i)
+      :ARG1 (n / need-01
+            :ARG0 i
+            :ARG1 (p / protect-01
+                  :ARG0 i
+                  :ARG1 (h / he)
+                  :conj-as-if (f2 / flame-01
+                        :ARG1 h
+                        :ARG1-of (e / extinguish-01
+                              :ARG0 (p3 / puff-04
+                                    :ARG1 (w / wind)
+                                    :mod (l / little))
+                              :mod (p2 / possible))))))
+

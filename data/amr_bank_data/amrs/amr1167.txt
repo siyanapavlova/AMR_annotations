@@ -1,0 +1,14 @@
+
+(t / think-01
+  :ARG0 (p2 / person
+          :ARG0-of (p3 / pass-17)
+          :mod (o / ordinary))
+  :ARG1 (l / look-02
+          :ARG0 (r / rose
+                  :poss (i / i)
+                  :ARG0-of (b / belong-01
+                             :ARG1 i))
+          :ARG1 (y / you)
+          :degree (j / just))
+  :mod (s / sure))
+

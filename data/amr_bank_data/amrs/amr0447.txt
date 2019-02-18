@@ -1,0 +1,27 @@
+
+(r / realize-01
+      :ARG0 (h / he)
+      :ARG1 (c / close-41
+            :ARG1 h
+            :ARG2 (t / tear-03
+                  :ARG1 h)
+            :degree (v / very))
+      :time (a / and
+            :op1 (w / water-01
+                  :ARG0 h
+                  :ARG1 (f / flower-01)
+                  :ord (o / ordinal-entity :value "-1"))
+            :op2 (p / prepare-02
+                  :ARG0 h
+                  :ARG1 h
+                  :ARG2 (p2 / place-01
+                        :ARG0 h
+                        :ARG1 f
+                        :ARG2 (u2 / under
+                              :op1 (g / globe
+                                    :consist-of (g2 / glass)
+                                    :poss f
+                                    :ARG2-of (s2 / shelter-01
+                                          :ARG0 h
+                                          :ARG1 f)))))))
+

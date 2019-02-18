@@ -1,0 +1,8 @@
+
+(h / have-03
+  :ARG0 (i / i)
+  :ARG1 (t / time
+          :purpose (l / loaf-01
+                     :ARG0 i))
+  :polarity -)
+

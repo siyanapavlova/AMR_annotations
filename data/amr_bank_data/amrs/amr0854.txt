@@ -1,0 +1,10 @@
+
+(h2 / have-03
+      :ARG0 (i / i)
+      :ARG1 (p2 / person
+            :quant (s / single)
+            :ARG0-of (e / explore-01)
+            :location (p3 / planet
+                  :poss i))
+      :polarity -)
+

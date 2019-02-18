@@ -1,0 +1,12 @@
+
+(r / recommend-01
+      :ARG1 (a / and
+            :op1 (l / look-01
+                  :ARG0 (o2 / one)
+                  :ARG1 (t / they)
+                  :manner (s / simple))
+            :op2 (b / breathe-01
+                  :ARG0 o2
+                  :ARG1 (f / fragrance
+                        :poss t))))
+

@@ -1,0 +1,11 @@
+
+(s / save-03
+      :ARG0 (y / you)
+      :ARG1 (r / rate-entity-91
+            :ARG1 (t / temporal-quantity :quant 53
+                  :unit (m / minute))
+            :ARG2 (t3 / temporal-quantity :quant 1
+                  :unit (w / week)))
+      :instrument (p / pill
+            :mod (t2 / this)))
+

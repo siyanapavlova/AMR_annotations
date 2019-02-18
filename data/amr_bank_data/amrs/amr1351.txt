@@ -1,0 +1,8 @@
+
+(s / say-01
+  :ARG0 (i / i)
+  :ARG1 (f / frighten-01
+          :ARG1 i
+          :degree (l / little))
+  :ARG2 (h / he))
+

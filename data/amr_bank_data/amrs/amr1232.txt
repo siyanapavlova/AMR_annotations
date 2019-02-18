@@ -1,0 +1,16 @@
+
+(c / contrast-01
+  :ARG2 (a2 / and
+          :op1 (l / look-01
+                 :ARG0 (h / he)
+                 :ARG1 (i / i)
+                 :manner (s / steady))
+          :op2 (r / reply-01
+                 :ARG0 h
+                 :ARG1 (t / thing
+                         :ARG1-of (t2 / think-01
+                                    :ARG0 i))
+                 :ARG2 (t3 / thirst-01
+                         :ARG0 h
+                         :mod (t4 / too)))))
+

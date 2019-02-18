@@ -1,0 +1,14 @@
+
+(p / possible
+      :domain (s / see-01
+            :ARG0 (y / you)
+            :ARG1 (a / and
+                  :op1 (e / end-01
+                        :ARG1 (d / day))
+                  :op2 (f / fall-01
+                        :ARG1 (t / twilight)))
+            :time (l / like-01
+                  :ARG0 y
+                  :ARG1 s
+                  :time (e2 / ever))))
+

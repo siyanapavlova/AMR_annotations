@@ -1,0 +1,22 @@
+
+(p / possible
+      :domain (a / ask-01
+            :ARG0 (y / you)
+            :ARG1 (t3 / thing
+                  :ARG0-of (c / cause-01
+                        :ARG1 (p2 / picture :polarity -
+                              :ARG1-of (d / draw-01)
+                              :mod (o / other)
+                              :location (b / book
+                                    :mod (t / this))
+                              :mod (m / magnificent
+                                    :degree (e / equal)
+                                    :compared-to (p3 / picture
+                                          :ARG1-of (d2 / draw-01)
+                                          :mod (t2 / this)
+                                          :topic (b2 / baobab)))
+                              :ARG0-of (i / impress-01
+                                    :degree (e2 / equal)
+                                    :compared-to p3))))
+            :ARG2 (i2 / i)))
+

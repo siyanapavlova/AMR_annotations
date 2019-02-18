@@ -1,0 +1,7 @@
+
+(c / contrast-01
+      :ARG2 (s / see-01
+            :ARG0 (i / i)
+            :ARG1 (k / king)
+            :time (a / already)))
+

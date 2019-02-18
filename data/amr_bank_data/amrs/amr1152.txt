@@ -1,0 +1,8 @@
+
+(d / do-02
+  :ARG0 (i / it)
+  :ARG1 (g / good-42
+          :polarity -)
+  :ARG2 (y / you)
+  :mod (a / at-all))
+

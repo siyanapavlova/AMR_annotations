@@ -1,0 +1,15 @@
+
+(s / say-01
+      :ARG0 (s2 / snake)
+      :ARG1 (p3 / pity-01
+            :ARG0 s2
+            :ARG1 (y / you)
+            :ARG1-of (c / cause-01
+                  :ARG0 (w / weak
+                        :domain y
+                        :degree (s3 / so)
+                        :location (p2 / planet :wiki "Earth"
+                              :name (n / name :op1 "Earth")
+                              :consist-of (g / granite)
+                              :mod (t / this))))))
+

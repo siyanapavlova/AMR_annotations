@@ -1,0 +1,5 @@
+
+(c2 / curious-41
+      :ARG1 (i / i)
+      :ARG2 (y2 / yawn-01))
+

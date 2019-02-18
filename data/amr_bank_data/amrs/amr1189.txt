@@ -1,0 +1,8 @@
+
+(s / say-01
+      :ARG0 (p / prince
+            :mod (l / little))
+      :ARG1 (h / hurry-01
+            :ARG1 (t / they)
+            :degree (g / great)))
+

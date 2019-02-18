@@ -1,0 +1,10 @@
+
+(p / possible
+      :domain (c / cause-01
+            :ARG0 (t / think-01
+                  :ARG0 (h / he)
+                  :ARG2 (s / something
+                        :mod (e / else)
+                        :ARG1-of (d / differ-02
+                              :ARG2 h)))))
+

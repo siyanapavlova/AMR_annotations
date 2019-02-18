@@ -1,0 +1,23 @@
+
+(a / and
+      :op1 (t / toss-01
+            :ARG0 (h / he)
+            :ARG1 (h2 / head
+                  :part-of h)
+            :manner (g / gentle)
+            :manner (t2 / take-05 :polarity -
+                  :ARG0 h
+                  :ARG1 (e / eye
+                        :part-of h)
+                  :direction (p2 / plane
+                        :poss (i / i))))
+      :op2 (s / say-01
+            :ARG0 h
+            :ARG1 (p / possible :polarity -
+                  :domain (c / come-01
+                        :ARG1 (y / you)
+                        :ARG3 (a2 / away
+                              :extent (f / far
+                                    :degree (v / very)))
+                        :manner p2))))
+

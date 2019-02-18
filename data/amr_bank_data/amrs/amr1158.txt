@@ -1,0 +1,9 @@
+
+(s / say-01
+      :ARG0 (h / he)
+      :ARG1 (r / resemble-01 :polarity -
+            :ARG1 (y / you)
+            :ARG2 (r2 / rose
+                  :poss (i / i))
+            :degree (a / at-all)))
+

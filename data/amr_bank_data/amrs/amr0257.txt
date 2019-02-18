@@ -1,0 +1,12 @@
+
+(w / worth
+      :extent (t / trouble
+            :ARG2-of (c / cost-01
+                  :ARG1 l
+                  :ARG3 i)
+            :mod (a / all))
+      :domain (l / lesson
+            :ARG1-of (p / pass-09
+                  :ARG0 (i / i)
+                  :manner (t2 / this))))
+

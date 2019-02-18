@@ -1,0 +1,5 @@
+
+(a / ahead
+  :mod (s / straight)
+  :compared-to (h / he))
+

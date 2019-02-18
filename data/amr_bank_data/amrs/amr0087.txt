@@ -1,0 +1,8 @@
+
+(w / want-01
+      :ARG0 (i / i)
+      :ARG1 (s / sheep
+            :ARG0-of (l / live-01
+                  :duration (t / time
+                        :mod (l2 / long)))))
+

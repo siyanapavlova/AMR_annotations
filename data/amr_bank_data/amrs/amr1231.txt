@@ -1,0 +1,7 @@
+
+(n / need-01
+  :ARG0 (h / he)
+  :ARG1 (s / sunshine
+          :quant (l / little))
+  :mod (a / all))
+

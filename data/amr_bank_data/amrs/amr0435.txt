@@ -1,0 +1,8 @@
+
+(c / clean-03
+      :ARG0 (h / he)
+      :ARG1 (v / volcano
+            :poss h
+            :mod (a / active))
+      :manner (c2 / careful))
+

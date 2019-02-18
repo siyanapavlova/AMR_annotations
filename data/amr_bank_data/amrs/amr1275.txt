@@ -1,0 +1,11 @@
+
+(a / and
+  :op2 (f / find-01
+         :ARG0 (i / i)
+         :ARG1 (w / well)
+         :time (d / daybreak)
+         :time (w2 / walk-01
+                 :ARG0 i
+                 :ARG1 (o / on)
+                 :manner (s / so))))
+

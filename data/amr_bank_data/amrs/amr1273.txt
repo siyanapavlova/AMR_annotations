@@ -1,0 +1,9 @@
+
+(a / and
+  :op2 (f / feel-02
+         :ARG0 (i / i)
+         :ARG1 (f3 / fragile
+                 :domain (h / he)
+                 :degree (m / more)
+                 :mod (s / still))))
+

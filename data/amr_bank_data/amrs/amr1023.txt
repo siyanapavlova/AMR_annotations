@@ -1,0 +1,10 @@
+
+(h / have-03
+      :ARG0 (i / i)
+      :ARG1 (f / flower
+            :ARG0-of (s / speak-01
+                  :ord (o / ordinal-entity :value 1)
+                  :time (a / always)))
+      :location (p2 / planet
+            :poss i))
+

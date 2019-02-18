@@ -1,0 +1,8 @@
+
+(u / understand-01
+  :ARG0 (h / he)
+  :ARG1 (s / sweetness
+          :mod (q / quiet-41)
+          :mod (t / this))
+  :polarity -)
+

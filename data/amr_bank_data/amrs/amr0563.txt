@@ -1,0 +1,11 @@
+
+(s / say-01
+      :ARG0 (k / king
+            :ARG1-of (p / proud-41
+                  :ARG2 (h / have-03
+                        :ARG0 k
+                        :ARG1 (s2 / subject))
+                  :degree (v / very)))
+      :ARG1 (g / go-02 :polarity - :mode imperative
+            :ARG0 (y / you)))
+

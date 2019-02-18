@@ -1,0 +1,12 @@
+
+(l / let-01 :polarity -
+      :ARG0 (p / prince
+            :mod (l2 / little))
+      :ARG1 (g / go-01
+            :ARG1 (t / thing
+                  :ARG1-of (q / question-01)))
+      :time (o / once
+            :op1 (a / ask-01
+                  :ARG0 p
+                  :ARG1 q)))
+

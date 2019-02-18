@@ -1,0 +1,10 @@
+
+(a4 / and
+      :op2 (l / leave-01
+            :ARG0 (i / i)
+            :ARG1 (s / she)
+            :ARG2 (a2 / alone
+                  :degree (a3 / all))
+            :location (p / planet
+                  :source-of i)))
+

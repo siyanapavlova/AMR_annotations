@@ -1,0 +1,12 @@
+
+(i / inquire-01
+      :ARG0 (p / prince
+            :mod (l / little)
+            :ARG1-of (s / sorry-41
+                  :ARG2 (h / he)
+                  :time (a2 / already)))
+      :ARG1 (f / forget-01
+            :ARG0 h
+            :ARG1 (a / amr-unknown))
+      :ARG2 h)
+

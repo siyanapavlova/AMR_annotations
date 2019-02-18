@@ -1,0 +1,10 @@
+
+(s / say-01
+  :ARG0 (f / fox)
+  :ARG1 (a / act-02
+          :domain (t2 / that)
+          :ARG1-of (n2 / neglect-01
+                     :frequency (o / often
+                                  :degree (t3 / too)))
+          :mod (a3 / also)))
+

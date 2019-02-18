@@ -1,0 +1,7 @@
+
+(h / have-03
+      :ARG0 (i / it)
+      :ARG1 (o / ocean
+            :mod (a / any))
+      :mode interrogative)
+

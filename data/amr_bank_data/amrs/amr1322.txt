@@ -1,0 +1,8 @@
+
+(k / know-01
+      :ARG0 (y / you)
+      :ARG1 (t / thing
+            :ARG2-of (m2 / muzzle-01
+                  :ARG1 (s / sheep
+                        :poss (i / i)))))
+

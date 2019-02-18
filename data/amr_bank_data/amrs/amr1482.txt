@@ -1,0 +1,6 @@
+
+(g / get-08
+      :ARG0 (h / he)
+      :source (i / i)
+      :manner (s2 / sound-02 :polarity -))
+

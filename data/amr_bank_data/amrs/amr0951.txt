@@ -1,0 +1,11 @@
+
+(a / answer-01
+      :ARG0 (s / snake)
+      :ARG2 (a2 / and
+            :op1 (p / planet :wiki "Earth"
+                  :name (n / name :op1 "Earth")
+                  :domain (t / this))
+            :op2 (c / continent :wiki "Africa"
+                  :name (n2 / name :op1 "Africa")
+                  :domain (t2 / this))))
+

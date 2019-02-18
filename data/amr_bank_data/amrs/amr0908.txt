@@ -1,0 +1,4 @@
+
+(c2 / certain
+      :domain (i2 / it))
+

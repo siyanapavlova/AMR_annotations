@@ -1,0 +1,11 @@
+
+(c3 / contrast-01
+  :ARG2 (a / and
+          :op1 (v / village
+                 :polarity -
+                 :location (h / here))
+          :op2 (t / think-01
+                 :ARG0 (i / i)
+                 :ARG1 (d / dream-01
+                         :ARG0 i))))
+

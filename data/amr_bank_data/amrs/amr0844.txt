@@ -1,0 +1,9 @@
+
+(s / say-01
+  :ARG0 (g / geographer)
+  :ARG1 (p / possible
+          :domain (t / tell-01
+                    :ARG0 g
+                    :ARG2 (y / you))
+          :polarity -))
+

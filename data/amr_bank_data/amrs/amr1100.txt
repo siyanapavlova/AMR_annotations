@@ -1,0 +1,10 @@
+
+(c / contrast-01
+  :ARG2 (s / shine-01
+          :ARG1 (s2 / sun)
+          :ARG2 (l / life
+                  :poss (i / i))
+          :condition (t / tame-01
+                       :ARG0 (y / you)
+                       :ARG1 i)))
+

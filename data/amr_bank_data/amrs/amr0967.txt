@@ -1,0 +1,12 @@
+
+(a3 / and
+      :op1 (t / take-13
+            :ARG0 (p / prince
+                  :mod (l / little))
+            :ARG1 (c / converse-01)
+            :mod (a / again)
+            :time (a2 / at-last))
+      :op2 (b2 / be-located-at-91
+            :ARG1 (m / man)
+            :ARG2 (a4 / amr-unknown)))
+

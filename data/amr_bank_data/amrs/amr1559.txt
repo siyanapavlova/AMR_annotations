@@ -1,0 +1,8 @@
+
+(w / wait-01 :mode imperative
+      :ARG1 (y / you)
+      :duration (t / time)
+      :location (u / under
+            :op1 (s / star)
+            :manner (e / exact)))
+

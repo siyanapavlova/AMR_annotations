@@ -1,0 +1,6 @@
+
+(g2 / gesture-01
+  :ARG0 (i / i)
+  :manner (w / weary-01
+            :ARG1 i))
+

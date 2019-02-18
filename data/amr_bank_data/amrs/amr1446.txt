@@ -1,0 +1,10 @@
+
+(o2 / opine-01
+      :ARG0 (p / person
+            :mod (o / other))
+      :ARG1 (l / light
+            :mod (l2 / little)
+            :location (s / sky)
+            :mod (o3 / only)
+            :domain (t / they)))
+

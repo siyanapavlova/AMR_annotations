@@ -1,0 +1,11 @@
+
+(c / contrast-01
+  :ARG2 (a / add-01
+          :ARG0 (h / he)
+          :ARG1 (m / mean-01
+                  :ARG0 (t2 / tame-01)
+                  :ARG1 (a3 / amr-unknown))
+          :time (a2 / after
+                  :op1 (t / think-01
+                         :mod (s / some)))))
+

@@ -1,0 +1,20 @@
+
+(c / contrast-01
+      :ARG2 (o / obligate-01
+            :ARG2 (d / destroy-01
+                  :ARG0 (o2 / one)
+                  :ARG1 i2
+                  :time (i / instant
+                        :time-of (r / recognize-01
+                              :ARG0 o2
+                              :ARG1 i2)
+                        :ord (o3 / ordinal-entity :value 1
+                              :degree (v / very)))
+                  :time (s / soon
+                        :degree (m / most)
+                        :compared-to (p2 / possible
+                              :domain d)))
+            :condition (p / plant
+                  :mod (b / bad)
+                  :domain (i2 / it))))
+

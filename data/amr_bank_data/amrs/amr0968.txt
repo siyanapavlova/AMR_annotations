@@ -1,0 +1,6 @@
+
+(l2 / lonely
+      :domain (b / be-located-at-91
+            :ARG2 (d / desert))
+      :degree (l / little))
+

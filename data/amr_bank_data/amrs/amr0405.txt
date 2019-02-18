@@ -1,0 +1,8 @@
+
+(s / suppose-01
+      :ARG0 (i / i)
+      :ARG1 (h / have-03 :polarity - :mode interrogative
+            :ARG0 (y / you)
+            :ARG1 (s2 / screen)
+            :beneficiary i))
+

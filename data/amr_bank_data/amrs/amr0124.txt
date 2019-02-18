@@ -1,0 +1,6 @@
+
+(c / contrast-01
+  :ARG2 (r / reply-01
+          :ARG0 (h / he)
+          :polarity -))
+

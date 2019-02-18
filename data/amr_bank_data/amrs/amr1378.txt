@@ -1,0 +1,9 @@
+
+(w / want-01
+      :ARG0 (i / i)
+      :ARG1 (g / get-05
+            :ARG0 i
+            :ARG2 (r / relative-position
+                  :op1 (w2 / wall)
+                  :direction (d / down))))
+

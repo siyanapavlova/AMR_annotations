@@ -1,0 +1,20 @@
+
+(a / ask-01 :polarity -
+      :ARG0 (t2 / they)
+      :ARG1 (q / question
+            :mod (a2 / any)
+            :topic (m / matter
+                  :mod (e / essential)))
+      :ARG2 (y / you)
+      :time (t3 / tell-01
+            :ARG0 y
+            :ARG1 (m2 / make-01
+                  :ARG0 y
+                  :ARG1 (h / have-rel-role-91
+                        :ARG0 (p / person)
+                        :ARG1 y
+                        :ARG2 (f / friend)
+                        :mod (n / new)))
+            :ARG2 (t / they))
+      :time (e2 / ever))
+

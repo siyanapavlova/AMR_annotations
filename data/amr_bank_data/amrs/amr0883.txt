@@ -1,0 +1,15 @@
+
+(s / say-01
+      :ARG0 (p / prince
+            :mod (l / little))
+      :ARG1 (a / and
+            :op1 (o / oh
+                  :mode expressive)
+            :op2 (i2 / interest-01
+                  :ARG0 (l2 / location
+                        :location-of (l3 / live-01
+                              :ARG0 p))
+                  :ARG1 p
+                  :degree (v / very)
+                  :polarity -)))
+

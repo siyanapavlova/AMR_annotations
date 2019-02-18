@@ -1,0 +1,4 @@
+
+(t / tragedy :mode expressive
+      :domain (t2 / that))
+

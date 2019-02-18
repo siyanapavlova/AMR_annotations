@@ -1,0 +1,10 @@
+
+(l / last-01
+      :ARG1 (t / temporal-quantity :quant 1
+            :unit (d / day))
+      :ARG2 (t2 / temporal-quantity :quant 1
+            :unit (m / minute))
+      :mod (o / only)
+      :location (l2 / live-01
+            :ARG0 (y / you)))
+

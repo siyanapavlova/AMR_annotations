@@ -1,0 +1,6 @@
+
+(a / and
+      :op2 (h / have-03
+            :ARG0 (i / i)
+            :ARG1 (m / muzzle)))
+

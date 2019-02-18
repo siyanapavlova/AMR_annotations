@@ -1,0 +1,11 @@
+
+(k / know-01
+      :ARG0 (i / i)
+      :ARG1 (d / draw-01
+            :ARG0 i
+            :ARG1 (a2 / and
+                  :op1 (o / outside
+                        :part-of (b / boa-constrictor))
+                  :op2 (i2 / inside
+                        :part-of b))))
+

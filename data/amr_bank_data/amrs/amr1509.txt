@@ -1,0 +1,7 @@
+
+(a / allow-01
+      :ARG0 (y / you)
+      :ARG1 (g / go-15
+            :ARG1 (i / i)
+            :mod (b / by-oneself)))
+

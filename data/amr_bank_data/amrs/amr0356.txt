@@ -1,0 +1,13 @@
+
+(o / or
+      :op1 (h / hammer
+            :poss (i / i))
+      :op2 (b / bolt
+            :poss i)
+      :op3 (t / thirst-01
+            :ARG0 i)
+      :op4 (d / die-01
+            :ARG1 i)
+      :time (m / moment
+            :mod (a / amr-unknown)))
+

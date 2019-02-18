@@ -1,0 +1,7 @@
+
+(a2 / and
+      :op1 (t / think-01
+            :ARG0 (y / you)
+            :ARG1 (i / important :polarity -
+                  :domain (t2 / that))))
+

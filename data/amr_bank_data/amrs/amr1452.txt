@@ -1,0 +1,8 @@
+
+(l / live-01
+      :ARG0 (i / i)
+      :location (s / star
+            :ARG1-of (i2 / include-91
+                  :ARG2 (s2 / star)
+                  :ARG3 1)))
+

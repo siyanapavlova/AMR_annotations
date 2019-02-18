@@ -1,0 +1,10 @@
+
+(a / and
+  :op1 (h / hunger-01
+         :ARG0 (h2 / he)
+         :polarity -)
+  :op2 (t / thirst-01
+         :ARG0 h2
+         :polarity -)
+  :time (e / ever))
+

@@ -1,0 +1,10 @@
+
+(d2 / draw-01
+      :ARG0 (i / i)
+      :ARG1 (r / railing
+            :ARG1-of (p / put-01
+                  :ARG2 (a / around
+                        :op1 (f / flower
+                              :poss y))))
+      :ARG2 (y / you))
+

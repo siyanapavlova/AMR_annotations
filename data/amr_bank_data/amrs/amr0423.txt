@@ -1,0 +1,10 @@
+
+(c / contrast-01
+      :ARG2 (k / know-01 :polarity -
+            :ARG0 (i / i)
+            :manner (p2 / please-01
+                  :ARG0 (g / grace
+                        :poss (s / she)
+                        :mod (a / all))
+                  :ARG1 i)))
+

@@ -1,0 +1,8 @@
+
+(k / know-01 :polarity -
+      :ARG0 (i / i)
+      :ARG1 (t / thing
+            :ARG1-of (s / say-01
+                  :ARG0 i
+                  :ARG2 (h / he))))
+

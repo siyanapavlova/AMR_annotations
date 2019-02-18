@@ -1,0 +1,11 @@
+
+(t / think-01
+      :ARG0 (t2 / they)
+      :ARG1 (l / learn-01
+            :ARG0 t2
+            :ARG1 (a / anything
+                  :topic (h / he))
+            :source (f / figure
+                  :mod (t3 / this
+                        :mod (o / only)))))
+

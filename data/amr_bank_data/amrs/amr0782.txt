@@ -1,0 +1,11 @@
+
+(m / mop-01
+  :ARG0 (h / he)
+  :ARG1 (f / forehead
+          :part-of h)
+  :ARG2 (h2 / handkerchief
+          :ARG1-of (d / decorate-01
+                     :ARG2 (s / square
+                             :mod (r / red))))
+  :time (t / then))
+

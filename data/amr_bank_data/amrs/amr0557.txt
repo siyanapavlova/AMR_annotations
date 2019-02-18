@@ -1,0 +1,8 @@
+
+(s / see-01
+      :ARG0 (y / you)
+      :ARG1 (o / obey-01
+            :ARG1 (i / i)
+            :manner (w / well
+                  :degree (a / amr-unknown))))
+

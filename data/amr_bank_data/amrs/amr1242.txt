@@ -1,0 +1,11 @@
+
+(s / say-01
+  :ARG0 (h / he)
+  :ARG1 (p / possible
+          :domain (g / good-42
+                    :ARG1 (h2 / heart)
+                    :ARG2 (w / water)
+                    :mod (a / also)))
+  :ARG2 (i / i)
+  :mod (m / mere))
+

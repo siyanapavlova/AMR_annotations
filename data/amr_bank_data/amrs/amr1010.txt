@@ -1,0 +1,19 @@
+
+(s / say-01
+      :ARG0 (h / he)
+      :ARG1 (p / possible
+            :domain (s2 / see-01
+                  :ARG0 h
+                  :ARG1 (a / and
+                        :op1 (p2 / planet
+                              :extent (w / whole))
+                        :op2 (p3 / person
+                              :quant (a3 / all)))
+                  :source (m / mountain
+                        :mod (h2 / high
+                              :degree (e / equal)
+                              :compared-to (m2 / mountain
+                                    :mod (t / this))))
+                  :manner (g / glance-01 :quant 1)))
+      :ARG2 h)
+

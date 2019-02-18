@@ -1,0 +1,6 @@
+
+(s / sad :mode interrogative
+      :domain (y / you)
+      :time (t / then)
+      :degree (s2 / so))
+

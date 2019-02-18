@@ -1,0 +1,10 @@
+
+(b / belong-01
+      :ARG0 d
+      :ARG1 (y / you)
+      :condition (f / find-01
+            :ARG0 y
+            :ARG1 (d / diamond
+                  :ARG0-of (b2 / belong-01
+                        :ARG1 (n / nobody)))))
+

@@ -1,0 +1,8 @@
+
+(i / insist-01
+  :ARG0 (k / king)
+  :ARG1 (r / respect-01
+          :ARG1 (a / authority
+                  :poss k))
+  :mod (f / fundamental))
+

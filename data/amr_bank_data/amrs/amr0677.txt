@@ -1,0 +1,6 @@
+
+(e / exercise-02
+  :ARG0 (i / i)
+  :degree (e2 / enough
+            :polarity -))
+

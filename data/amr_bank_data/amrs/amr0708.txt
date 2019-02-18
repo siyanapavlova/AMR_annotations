@@ -1,0 +1,6 @@
+
+(m / matter
+      :ARG1-of (d / differ-02
+            :degree (v / very))
+      :domain (i / it))
+

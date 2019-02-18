@@ -1,0 +1,14 @@
+
+(h2 / have-03
+  :ARG0 (i / i)
+  :ARG1 (r3 / reason
+          :mod (g2 / good)
+          :ARG0-of (c / cause-01
+                     :ARG1 (b3 / believe-01
+                             :ARG0 i
+                             :ARG1 (r2 / rat
+                                     :location (s / somewhere
+                                                 :location (p / planet
+                                                             :poss i))
+                                     :mod (o / old))))))
+

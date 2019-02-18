@@ -1,0 +1,8 @@
+
+(c / contrast-01
+      :ARG2 (i / interrupt-01
+            :ARG0 (s / she)
+            :ARG1 s
+            :time (p / point
+                  :mod (t / that))))
+

@@ -1,0 +1,7 @@
+
+(t / think-01
+      :ARG0 (h / he)
+      :ARG1 (p / planet
+            :mod (q / queer
+                  :degree (a / amr-unknown))))
+

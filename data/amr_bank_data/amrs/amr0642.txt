@@ -1,0 +1,12 @@
+
+(c / confess-01
+  :ARG0 (p / person
+          :ARG0-of (t / tipple-01)
+          :ARG0-of (h / hang-01
+                     :ARG1 (h2 / head
+                             :part-of p)))
+  :ARG1 (f / forget-01
+          :ARG0 p
+          :ARG1 (s / shame-01
+                  :ARG1 p)))
+

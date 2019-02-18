@@ -1,0 +1,8 @@
+
+(g / grow-03
+      :ARG0 (f / flower)
+      :ARG1 (t / thorn)
+      :duration (m / multiple
+            :op1 (t2 / temporal-quantity :quant 1000000
+                  :unit (y / year))))
+

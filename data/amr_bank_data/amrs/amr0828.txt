@@ -1,0 +1,6 @@
+
+(a / and
+      :op1 (o / Oh :mode expressive)
+      :op2 (l / look-01 :mode imperative
+            :ARG0 (y / you)))
+

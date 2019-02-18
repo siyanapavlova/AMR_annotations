@@ -1,0 +1,10 @@
+
+(p / put-01
+      :ARG1 (t / thing
+            :ARG1-of (r / recite-01
+                  :ARG0 (p2 / person
+                        :ARG0-of (e / explore-01))))
+      :direction (d / down)
+      :time (f / first)
+      :instrument (p3 / pencil))
+

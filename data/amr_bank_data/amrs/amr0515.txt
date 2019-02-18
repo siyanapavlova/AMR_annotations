@@ -1,0 +1,19 @@
+
+(s / say-01
+      :ARG0 (h / he)
+      :ARG1 (o / order-01
+            :ARG0 h
+            :ARG1 (p / person
+                  :ARG0-of (h2 / have-org-role-91
+                        :ARG2 (g / general)))
+            :ARG2 (c / change-01
+                  :ARG0 p
+                  :ARG1 p
+                  :ARG2 (b / bird
+                        :mod (s2 / sea)))
+            :ARG1-of (o2 / obey-01 :polarity -
+                  :ARG0 p)
+            :condition-of (f / fault-01 :polarity -
+                  :ARG1 p))
+      :ARG0-of (e / exemplify-01))
+

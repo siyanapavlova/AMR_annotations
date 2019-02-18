@@ -1,0 +1,6 @@
+
+(a / and
+  :op2 (e / explain-01
+         :ARG0 (i / i)
+         :ARG1 (i3 / it)))
+

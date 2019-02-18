@@ -1,0 +1,11 @@
+
+(w / want-01
+      :ARG0 (i / i)
+      :ARG1 (p / put-01
+            :ARG0 (y / you)
+            :ARG1 i
+            :ARG2 (u / under
+                  :op1 (g / globe
+                        :consist-of (g2 / glass)))
+            :time (n / night)))
+

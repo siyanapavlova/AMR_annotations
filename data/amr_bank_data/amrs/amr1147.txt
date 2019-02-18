@@ -1,0 +1,8 @@
+
+(s / say-01
+      :ARG0 (p / prince
+            :mod (l / little))
+      :ARG1 (f / fault
+            :domain (i / it)
+            :poss (y / you)))
+

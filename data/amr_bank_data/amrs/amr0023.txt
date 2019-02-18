@@ -1,0 +1,11 @@
+
+(p / possible
+      :domain (d / distinguish-01
+            :ARG0 (i / i)
+            :ARG1 (c / country :wiki "China"
+                  :name (n / name :op1 "China"))
+            :ARG2 (s / state :wiki "Arizona"
+                  :name (n2 / name :op1 "Arizona"))
+            :manner (g / glance-01
+                  :ARG0 i)))
+

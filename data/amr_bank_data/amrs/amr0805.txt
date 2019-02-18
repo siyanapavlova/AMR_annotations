@@ -1,0 +1,24 @@
+
+(a / and
+      :op1 (r / remember-01
+            :ARG0 (h / he)
+            :ARG1 (s3 / sunset
+                  :ARG1-of (s / seek-01
+                        :purpose-of (g / go-02
+                              :ARG0 h
+                              :manner (p / pull-01
+                                    :ARG0 h
+                                    :ARG1 (c / chair)
+                                    :mod (m / mere)
+                                    :direction (u / up))
+                              :time (d / day
+                                    :mod (o / other))))))
+      :op2 (w / want-01
+            :ARG0 h
+            :ARG1 (h2 / help-01
+                  :ARG0 h
+                  :ARG1 (p2 / person
+                        :ARG0-of (h3 / have-rel-role-91
+                              :ARG1 h
+                              :ARG2 (f / friend))))))
+

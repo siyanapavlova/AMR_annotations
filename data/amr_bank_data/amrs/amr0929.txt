@@ -1,0 +1,4 @@
+
+(m / magnificent
+  :domain (i / it))
+

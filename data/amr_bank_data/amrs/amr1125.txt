@@ -1,0 +1,12 @@
+
+(s / sit-02
+      :ARG1 (y / you)
+      :time (f / first)
+      :location (r / relative-position
+            :op1 (i / i)
+            :quant (l / little)
+            :unit (d / distance))
+      :direction (d2 / down
+            :location (g / grass))
+      :example (t / that))
+

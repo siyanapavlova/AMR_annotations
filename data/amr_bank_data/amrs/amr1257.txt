@@ -1,0 +1,11 @@
+
+(a / astonish-01
+  :ARG0 (u / understand-01
+          :ARG0 i
+          :ARG1 (r / radiate-01
+                  :ARG0 (s2 / sand)
+                  :mod (m / mystery)
+                  :mod (t / that))
+          :manner (s / sudden))
+  :ARG1 (i / i))
+

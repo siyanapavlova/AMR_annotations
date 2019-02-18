@@ -1,0 +1,5 @@
+
+(m / monarch
+      :mod (a / absolute)
+      :domain (h2 / he))
+

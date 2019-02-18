@@ -1,0 +1,7 @@
+
+(a / and
+      :op2 (e / eat-01 :polarity -
+            :ARG0 (t / tiger)
+            :ARG1 (w / weed)
+            :mod (a2 / anyway)))
+

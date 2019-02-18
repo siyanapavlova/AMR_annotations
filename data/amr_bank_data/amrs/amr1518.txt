@@ -1,0 +1,11 @@
+
+(m / multi-sentence
+      :snt1 (h / hesitate-01
+            :ARG0 (h2 / he)
+            :mod (s / still)
+            :degree (l / little))
+      :snt2 (g / get-05
+            :ARG1 h2
+            :direction (u / up)
+            :time (t / then)))
+

@@ -1,0 +1,8 @@
+
+(c / contrast-01
+      :ARG2 (m / man
+            :quant (o / only
+                  :location (p / planet
+                        :poss y))
+            :domain (y / you)))
+

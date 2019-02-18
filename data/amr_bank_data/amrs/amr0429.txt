@@ -1,0 +1,13 @@
+
+(r / recommend-01
+      :ARG1 (g / guess-01
+            :ARG0 (i / i)
+            :ARG1 (a / affection
+                  :mod (a2 / all)
+                  :ARG1-of (l / lie-01
+                        :ARG2 (b / behind
+                              :op1 (s / strategem
+                                    :mod (l2 / little)
+                                    :mod (p / poor)
+                                    :poss (s2 / she)))))))
+

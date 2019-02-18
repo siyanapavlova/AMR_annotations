@@ -1,0 +1,12 @@
+
+(p / possible :polarity -
+      :domain (e / eliminate-01
+            :ARG0 (y / you)
+            :ARG1 (b / baobab)
+            :time (e2 / ever))
+      :condition (a / attend-01
+            :ARG0 y
+            :ARG1 b
+            :time (l / late
+                  :degree (t / too))))
+

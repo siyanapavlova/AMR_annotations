@@ -1,0 +1,11 @@
+
+(f / feel-01
+      :ARG0 (i / i)
+      :ARG1 (a / and
+            :op1 (h / happy
+                  :degree (m / more))
+            :op2 (h2 / happy
+                  :degree (m2 / more)))
+      :time (a2 / advance-01
+            :ARG1 (h3 / hour)))
+

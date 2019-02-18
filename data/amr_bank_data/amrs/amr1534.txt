@@ -1,0 +1,12 @@
+
+(a / and
+      :op1 (b / body
+            :mod (h / heavy :polarity -
+                  :mod (s / such)))
+      :op2 (l / love-01
+            :ARG0 (i / i)
+            :ARG1 (l2 / listen-01
+                  :ARG0 i
+                  :ARG1 (s2 / star)
+                  :time (n / night))))
+

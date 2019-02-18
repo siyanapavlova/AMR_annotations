@@ -1,0 +1,6 @@
+
+(l / love-01
+      :ARG0 (i / i)
+      :ARG1 (d / desert)
+      :time (a / always))
+

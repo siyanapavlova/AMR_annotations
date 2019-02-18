@@ -1,0 +1,13 @@
+
+(a / and
+      :op2 (l / love-01
+            :ARG0 (y / you)
+            :ARG1 (w / watch-01
+                  :ARG0 y
+                  :ARG1 (s / star
+                        :location (h / heaven)
+                        :quant (a2 / all)
+                        :ARG0-of (h2 / have-rel-role-91
+                              :ARG1 y
+                              :ARG2 (f / friend))))))
+

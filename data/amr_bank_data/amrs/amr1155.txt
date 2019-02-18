@@ -1,0 +1,10 @@
+
+(u / understand-01
+      :ARG0 (y / you)
+      :ARG1 (u2 / unique
+            :domain (r / rose
+                  :poss y)
+            :location (w / world
+                  :extent (a / all)))
+      :time (n / now))
+

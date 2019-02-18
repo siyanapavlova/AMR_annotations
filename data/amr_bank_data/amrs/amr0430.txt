@@ -1,0 +1,5 @@
+
+(c / consistent :polarity -
+      :degree (s / so)
+      :domain (f / flower))
+

@@ -1,0 +1,15 @@
+
+(a / and
+      :op2 (s / see-01
+            :ARG0 (i / i)
+            :ARG1 (p / person
+                  :mod (s2 / small)
+                  :mod (e / extraordinary
+                        :degree (m / most))
+                  :ARG1-of (s3 / stand-01
+                        :ARG2 (t / there))
+                  :ARG0-of (e2 / examine-01
+                        :ARG1 i
+                        :manner (s4 / serious
+                              :degree (g / great))))))
+

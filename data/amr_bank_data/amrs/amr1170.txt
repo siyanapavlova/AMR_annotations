@@ -1,0 +1,9 @@
+
+(a / and
+      :op1 (g / go-02
+            :ARG0 (h / he)
+            :direction (b / back)
+            :purpose (m / meet-03
+                  :ARG0 h
+                  :ARG1 (f / fox))))
+

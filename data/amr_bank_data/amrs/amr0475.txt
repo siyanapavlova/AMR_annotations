@@ -1,0 +1,8 @@
+
+(a / add-01
+      :ARG0 (s / she)
+      :ARG1 (l / linger-01 :polarity - :mode imperative
+            :ARG1 (y / you)
+            :compared-to (t3 / this))
+      :time (t / then))
+

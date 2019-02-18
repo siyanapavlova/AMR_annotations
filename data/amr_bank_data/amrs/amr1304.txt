@@ -1,0 +1,14 @@
+
+(b2 / bear-02
+  :ARG0 (a / and
+          :op1 (w2 / walk-01
+                 :ARG1 (u / under
+                         :op1 (s2 / star)))
+          :op2 (s3 / sing-01
+                 :ARG0 (p / pulley))
+          :op3 (e / effort
+                 :instrument (a2 / arm
+                               :part-of (i / i))))
+  :ARG1 (s4 / sweet
+          :domain (i3 / it)))
+

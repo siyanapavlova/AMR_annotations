@@ -1,0 +1,8 @@
+
+(a / ask-01
+  :ARG0 (i / i)
+  :ARG1 (t / time
+          :time (d / day
+                  :poss (s / sunset
+                          :quant 44))))
+

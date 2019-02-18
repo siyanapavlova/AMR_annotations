@@ -1,0 +1,7 @@
+
+(c / contrast-01
+      :ARG1 (d / day
+            :mod (r / right))
+      :ARG2 (p / place :polarity -
+            :domain (t / this)))
+

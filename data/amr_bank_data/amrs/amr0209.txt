@@ -1,0 +1,19 @@
+
+(l / learn-01
+      :ARG0 (i / i)
+      :ARG1 (a / and
+            :op1 (s / something
+                  :topic (p2 / planet
+                        :poss (p3 / prince
+                              :mod (l2 / little))))
+            :op2 (d2 / depart-01
+                  :ARG0 p3
+                  :ARG1 p2)
+            :op3 (j / journey-01
+                  :ARG0 p3))
+      :time (p / pass-03
+            :ARG1 (d / day
+                  :mod (e / each)))
+      :source (t / talk-01
+            :ARG0 (w / we)))
+

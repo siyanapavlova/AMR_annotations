@@ -1,0 +1,6 @@
+
+(s / say-01
+      :ARG0 (f / fox)
+      :ARG1 (m / morning
+            :mod (g / good)))
+

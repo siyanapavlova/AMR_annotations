@@ -1,0 +1,7 @@
+
+(t / thing
+      :domain (t2 / that)
+      :mod (d / difficult
+            :degree (m / most)
+            :compared-to (a / all)))
+

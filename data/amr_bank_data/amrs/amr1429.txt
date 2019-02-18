@@ -1,0 +1,7 @@
+
+(r / remember-01
+      :ARG0 (y / you)
+      :ARG1 (i2 / it
+            :domain-of (g2 / good
+                  :degree (s / so))))
+

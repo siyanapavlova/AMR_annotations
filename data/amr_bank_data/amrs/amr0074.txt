@@ -1,0 +1,7 @@
+
+(d / draw-01
+  :ARG0 (y / you)
+  :ARG1 (s / sheep)
+  :ARG2 (i / i)
+  :mode imperative)
+

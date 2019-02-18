@@ -1,0 +1,9 @@
+
+(i / imagine-01
+  :ARG0 (t / they)
+  :ARG1 (f / fill-01
+          :ARG1 (s / space
+                  :quant (d / deal
+                           :mod (g / great)))
+          :ARG2 t))
+

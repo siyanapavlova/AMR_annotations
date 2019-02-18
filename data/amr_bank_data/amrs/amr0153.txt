@@ -1,0 +1,9 @@
+
+(s / see-01
+      :ARG1 (a / asteroid
+            :mod (t / this))
+      :instrument (t2 / telescope)
+      :ARG1-of (h / have-frequency-91
+            :ARG2 1
+            :mod (o / only)))
+

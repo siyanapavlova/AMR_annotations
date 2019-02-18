@@ -1,0 +1,12 @@
+
+(a2 / and
+      :op1 (l4 / look-02
+            :ARG0 (e / ear
+                  :part-of (f / fox
+                        :poss (y / you)))
+            :ARG1 (h / horn)
+            :degree (l / little))
+      :op2 (l5 / long
+            :domain e
+            :degree (t2 / too)))
+

@@ -1,0 +1,17 @@
+
+(c / come-02
+      :ARG0 (i / i)
+      :ARG1 (t / tell-01
+            :ARG0 i
+            :ARG1 (w / work-01
+                  :ARG0 i
+                  :mod (s / successful
+                        :extent (b / beyond
+                              :op1 (a / anything
+                                    :ARG1-of (h2 / hope-01
+                                          :ARG0 i
+                                          :ARG2-of (d / dare-01
+                                                :ARG1 i))))))
+            :ARG2 (h / he))
+      :mod (j / just))
+

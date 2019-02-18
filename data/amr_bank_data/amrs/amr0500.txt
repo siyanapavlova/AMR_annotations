@@ -1,0 +1,9 @@
+
+(p / pass-03
+      :ARG1 (y3 / year)
+      :time (s3 / since
+            :op1 (s / see-01
+                  :ARG0 (i / i)
+                  :ARG1 (a / anyone
+                        :ARG0-of (y / yawn-01)))))
+

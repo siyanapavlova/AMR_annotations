@@ -1,0 +1,12 @@
+
+(a / and
+      :op1 (f / fly-01
+            :ARG0 i
+            :location (o / over
+                  :op1 (p2 / part
+                        :part-of (w / world))))
+      :op2 (u / useful
+            :degree (v / very)
+            :domain (g / geography)
+            :beneficiary (i / i)))
+

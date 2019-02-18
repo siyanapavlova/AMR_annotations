@@ -1,0 +1,6 @@
+
+(t / talk-01
+      :ARG0 (y / you)
+      :ARG2 (s / snake)
+      :purpose (a / amr-unknown))
+

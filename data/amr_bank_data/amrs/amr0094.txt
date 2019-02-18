@@ -1,0 +1,12 @@
+
+(t / think-01
+  :ARG0 (y / you)
+  :ARG1 (o / obligate-01
+          :ARG2 (h / have-03
+                  :ARG0 (s / sheep
+                          :mod (t2 / this))
+                  :ARG1 (g / grass
+                          :quant (d / deal
+                                   :mod (g2 / great)))))
+  :mode interrogative)
+

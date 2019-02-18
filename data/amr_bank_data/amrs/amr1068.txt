@@ -1,0 +1,5 @@
+
+(m / mean-01
+  :ARG0 (t / tame-01)
+  :ARG1 (a / amr-unknown))
+

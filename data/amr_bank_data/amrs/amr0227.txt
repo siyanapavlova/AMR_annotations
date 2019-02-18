@@ -1,0 +1,14 @@
+
+(a / and
+      :op1 (o / oblige-02
+            :ARG2 (t2 / try-01
+                  :ARG0 (i / i)
+                  :ARG1 (s / solve-01
+                        :ARG0 i
+                        :ARG1 (p / problem
+                              :mod (t / this))
+                        :ARG2-of (a2 / assist-01 :polarity -
+                              :ARG1 i))
+                  :manner (m2 / mental)
+                  :mod (g / great))))
+

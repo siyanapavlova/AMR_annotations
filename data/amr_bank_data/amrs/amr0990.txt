@@ -1,0 +1,6 @@
+
+(a / and
+  :op2 (s / silent
+         :domain (t / they
+                   :mod (b / both))))
+

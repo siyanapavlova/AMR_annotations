@@ -1,0 +1,12 @@
+
+(o / order-01
+      :ARG0 (i / i)
+      :ARG1 (y / you)
+      :ARG2 (a / and
+            :op1 (y2 / yawn-01
+                  :ARG0 y
+                  :frequency (s / sometimes))
+            :op2 (d / do-02
+                  :frequency (s2 / sometimes)))
+      :mod (t2 / then))
+

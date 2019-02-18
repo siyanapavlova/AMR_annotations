@@ -1,0 +1,6 @@
+
+(t / think-01
+      :ARG0 (y / you)
+      :ARG1 (t2 / that
+            :mod (i / important :polarity -)))
+

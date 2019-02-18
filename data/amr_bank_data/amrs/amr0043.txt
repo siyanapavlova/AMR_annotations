@@ -1,0 +1,14 @@
+
+(c / cause-01
+      :ARG1 (p / possible
+            :domain (i2 / imagine-01
+                  :ARG0 (y / you)
+                  :ARG1 (a / amaze-01
+                        :ARG1 (i / i)
+                        :time (s / sunrise
+                              :time-of (w / wake-01
+                                    :ARG0 (v / voice
+                                          :mod (o / odd)
+                                          :mod (l / little))
+                                    :ARG1 i))))))
+

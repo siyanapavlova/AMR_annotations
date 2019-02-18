@@ -1,0 +1,5 @@
+
+(l / look-01
+      :ARG0 (t / they)
+      :ARG1 (a / amr-unknown))
+

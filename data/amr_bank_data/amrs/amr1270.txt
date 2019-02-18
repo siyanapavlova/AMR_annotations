@@ -1,0 +1,28 @@
+
+(a / and
+  :op1 (l / look-01
+         :ARG0 (i / i)
+         :ARG1 (a2 / and
+                 :op1 (f / forehead
+                        :part-of (h / he)
+                        :mod (p / pale))
+                 :op2 (e / eye
+                        :ARG1-of (c / close-01)
+                        :part-of h)
+                 :op3 (l2 / lock
+                        :consist-of (h2 / hair)
+                        :ARG1-of (t / tremble-01
+                                   :ARG1-of (c2 / cause-01
+                                              :ARG0 (w / wind)))
+                        :part-of h)
+                 :ARG1-of (l3 / light-01
+                            :ARG0 (m2 / moon))))
+  :op2 (s / say-01
+         :ARG0 i
+         :ARG1 (s2 / see-01
+                 :ARG0 i
+                 :ARG1 (s3 / shell)
+                 :mod (n / nothing-but)
+                 :location (h3 / here))
+         :ARG2 i))
+

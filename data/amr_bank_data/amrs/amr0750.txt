@@ -1,0 +1,6 @@
+
+(c / contrast-01
+      :ARG2 (u / use-01 :polarity -
+            :ARG0 (s / star)
+            :ARG1 (y / you)))
+

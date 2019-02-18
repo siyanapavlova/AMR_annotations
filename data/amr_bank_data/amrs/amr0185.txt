@@ -1,0 +1,14 @@
+
+(g / give-01
+  :ARG0 (t / that)
+  :ARG1 (t3 / truth
+          :quant (a / air
+                   :mod (g2 / great
+                          :degree (m / more
+                                    :degree (m2 / much)))))
+  :ARG2 (s / story
+          :poss (i / i))
+  :beneficiary (p / person
+                 :ARG0-of (u / understand-01
+                            :ARG1 (l / life))))
+

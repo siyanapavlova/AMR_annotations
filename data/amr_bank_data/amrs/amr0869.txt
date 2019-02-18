@@ -1,0 +1,14 @@
+
+(o2 / order-01
+      :ARG1 (i / inquire-01
+            :ARG1 (t / thing
+                  :ARG1-of (d / discover-01
+                        :ARG0 p)))
+      :time (s3 / show-01
+            :ARG1 (g / good
+                  :domain (c / character
+                        :poss (p / person
+                              :ARG0-of (e / explore-01))
+                        :mod (m / moral))))
+      :time (t3 / then))
+

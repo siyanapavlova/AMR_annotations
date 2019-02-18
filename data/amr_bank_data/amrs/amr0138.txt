@@ -1,0 +1,7 @@
+
+(c / contrast-01
+      :ARG2 (t / tie-01 :polarity -
+            :ARG0 (y / you)
+            :ARG1 (h / he)
+            :condition-of (t2 / thing)))
+

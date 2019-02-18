@@ -1,0 +1,7 @@
+
+(w / want-01
+      :ARG0 (y / you)
+      :ARG1 (l / laugh-01
+            :ARG0 y
+            :accompanier (i / i)))
+

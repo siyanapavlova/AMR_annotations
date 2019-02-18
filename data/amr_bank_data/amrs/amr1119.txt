@@ -1,0 +1,9 @@
+
+(h / have-03
+  :ARG0 (m / man)
+  :ARG1 (t / time
+          :duration-of (u / understand-01
+                         :ARG0 m
+                         :ARG1 (a / anything)))
+  :polarity -)
+

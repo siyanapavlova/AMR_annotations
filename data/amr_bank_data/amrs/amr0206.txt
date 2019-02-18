@@ -1,0 +1,7 @@
+
+(r / resemble-01
+      :ARG1 (i / i)
+      :ARG2 (g / grown-up)
+      :mod (p / perhaps)
+      :quant (l / little))
+

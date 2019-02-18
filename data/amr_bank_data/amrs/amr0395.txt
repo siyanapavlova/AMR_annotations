@@ -1,0 +1,9 @@
+
+(t / think-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (t2 / thing
+            :ARG1-of (n / need-01
+                  :ARG0 (i / i)))
+      :ARG1-of (k2 / kind-41
+            :ARG2 i))
+

@@ -1,0 +1,12 @@
+
+(a / and
+      :op1 (a2 / away
+            :extent (f / far)
+            :location-of (y / you))
+      :op2 (f2 / fear-01 :polarity -
+            :ARG0 (i / i)
+            :ARG1 (a3 / animal
+                  :mod (l / large)
+                  :quant (a4 / any))
+            :degree (a5 / at-all)))
+

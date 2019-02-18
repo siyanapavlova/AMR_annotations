@@ -1,0 +1,13 @@
+
+(c / confide-01
+  :ARG0 (h / he)
+  :ARG1 (r / recommend-01
+          :ARG1 (l / listen-01
+                  :ARG0 h
+                  :ARG1 (s / she)
+                  :polarity -)
+          :ARG2 h)
+  :ARG2 (i / i)
+  :time (d / day
+          :mod (o / one)))
+

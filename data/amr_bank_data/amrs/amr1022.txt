@@ -1,0 +1,11 @@
+
+(r / repeat-01
+      :ARG0 (t2 / they)
+      :ARG1 (t / thing
+            :ARG1-of (s2 / say-01
+                  :ARG0 (p / person
+                        :ARG1-of (i / include-91
+                              :ARG2 (t3 / they)))
+                  :ARG2 t2)
+            :quant (a / all)))
+

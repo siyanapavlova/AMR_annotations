@@ -1,0 +1,14 @@
+
+(r / realize-01
+      :ARG0 (b / businessman)
+      :ARG1 (h / hope-01 :polarity -
+            :ARG1 (l / leave-01
+                  :ARG1 b
+                  :ARG2 (i / in-peace))
+            :time (u / until
+                  :op1 (a / answer-01
+                        :ARG0 b
+                        :ARG1 (q / question
+                              :mod (t / this)))))
+      :manner (s / sudden))
+

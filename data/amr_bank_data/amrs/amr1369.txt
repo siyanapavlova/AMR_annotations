@@ -1,0 +1,9 @@
+
+(c / contrast-01
+      :ARG2 (r / reply-01
+            :ARG0 (p / prince
+                  :mod (l / little))
+            :ARG2 (e / exact)
+            :mod (a / again)
+            :time (o / once)))
+

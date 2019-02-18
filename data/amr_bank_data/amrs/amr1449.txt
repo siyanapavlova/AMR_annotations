@@ -1,0 +1,7 @@
+
+(c / contrast-01
+      :ARG2 (s2 / silent
+            :domain (s / star
+                  :mod (t / this
+                        :mod (a / all)))))
+

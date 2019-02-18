@@ -1,0 +1,16 @@
+
+(k / know-01
+      :ARG0 (y / you)
+      :ARG1 m
+      :condition (a / appear-01
+            :ARG1 (m / man
+                  :mod (l / little)
+                  :ARG0-of (l2 / laugh-01)
+                  :ARG0-of (h / have-03
+                        :ARG1 (h2 / hair
+                              :mod (g / golden)))
+                  :ARG0-of (r / refuse-01
+                        :ARG1 (a2 / answer-01
+                              :ARG1 (q / question-01))))
+            :time (t / then)))
+

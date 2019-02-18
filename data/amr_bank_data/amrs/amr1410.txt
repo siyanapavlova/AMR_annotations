@@ -1,0 +1,6 @@
+
+(c / contrast-01
+  :ARG2 (l / laugh-01
+          :ARG0 (h / he)
+          :manner (l2 / light)))
+

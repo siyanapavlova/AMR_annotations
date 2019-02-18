@@ -1,0 +1,8 @@
+
+(a / ask-01 :mode interrogative
+      :ARG0 (p / prince
+            :mod (l / little))
+      :ARG1 (s / satisfy-01 :polarity -
+            :ARG1 (t / they)
+            :location-of (t2 / they)))
+

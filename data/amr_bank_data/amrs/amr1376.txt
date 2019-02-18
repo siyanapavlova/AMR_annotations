@@ -1,0 +1,14 @@
+
+(c / contrast-01
+      :ARG1 (a / and
+            :op1 (s / stop-01
+                  :ARG1 (i / i)
+                  :manner (i2 / in-track))
+            :op2 (t / tear-01
+                  :ARG1 (h / heart
+                        :part-of i)
+                  :mod (a2 / asunder)))
+      :ARG2 (u / understand-01 :polarity -
+            :ARG0 i
+            :mod (s2 / still)))
+

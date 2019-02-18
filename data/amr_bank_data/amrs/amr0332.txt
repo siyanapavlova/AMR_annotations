@@ -1,0 +1,9 @@
+
+(k2 / know-01
+      :ARG0 (i / i)
+      :ARG1 (p / planet
+            :location-of (g2 / gentleman
+                  :mod (c / certain)
+                  :part (f / face
+                        :mod (r / red)))))
+

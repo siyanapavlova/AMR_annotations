@@ -1,0 +1,11 @@
+
+(l / look-01
+      :ARG0 (h / he)
+      :mod (s / serious
+            :degree (v / very))
+      :ARG1-of (r / resemble-01
+            :ARG2 (s2 / someone
+                  :ARG1-of (l2 / lose-02
+                        :direction (a / away
+                              :mod (f / far))))))
+

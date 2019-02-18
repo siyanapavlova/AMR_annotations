@@ -1,0 +1,8 @@
+
+(c / contrast-01
+      :ARG2 (p2 / possible
+            :domain (p / put-01
+                  :ARG0 (i / i)
+                  :ARG1 (t / they)
+                  :ARG2 (b / bank))))
+

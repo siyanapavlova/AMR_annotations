@@ -1,0 +1,15 @@
+
+(c / contrast-01
+      :ARG2 (m / make-01
+            :ARG0 (i / i)
+            :ARG1 (h / have-rel-role-91
+                  :ARG0 (h2 / he)
+                  :ARG1 i
+                  :ARG2 (f / friend))
+            :ARG0-of (c2 / cause-01
+                  :ARG1 (u / unique
+                        :domain h2
+                        :time (n / now)
+                        :location (w / world
+                              :extent (a2 / all))))))
+

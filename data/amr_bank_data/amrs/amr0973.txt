@@ -1,0 +1,10 @@
+
+(s / say-01
+      :ARG0 (s2 / snake)
+      :ARG1 (c2 / contrast-01
+            :ARG2 (p / powerful
+                  :domain (i / i)
+                  :degree (m / more)
+                  :compared-to (f / finger
+                        :part-of (k / king)))))
+

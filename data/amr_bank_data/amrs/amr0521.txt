@@ -1,0 +1,7 @@
+
+(p / possible
+      :domain (r / rule-03
+            :ARG0 (k / king)
+            :ARG1 (a / amr-unknown)
+            :mod (r2 / real)))
+

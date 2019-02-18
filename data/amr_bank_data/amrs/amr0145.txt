@@ -1,0 +1,15 @@
+
+(a / and
+      :op2 (a2 / add-01
+            :ARG0 (h / he)
+            :ARG1 (g / go-02
+                  :ARG0 (s2 / somebody :polarity -)
+                  :ARG4 (f / far
+                        :degree (v / very))
+                  :direction (a3 / ahead
+                        :mod (s3 / straight)
+                        :compared-to s2))
+            :manner (s / sad
+                  :quant (h2 / hint)
+                  :mod (p / possible))))
+

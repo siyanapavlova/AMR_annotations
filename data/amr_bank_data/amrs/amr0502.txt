@@ -1,0 +1,6 @@
+
+(c / come-01
+  :ARG1 (y / you)
+  :time (n / now)
+  :mode imperative)
+

@@ -1,0 +1,14 @@
+
+(r / repeat-01
+      :ARG0 (p / prince
+            :mod (l / little))
+      :ARG1 (p2 / possible :polarity -
+            :domain (s2 / see-01
+                  :ARG1 (t / thing
+                        :mod (e / essential))
+                  :instrument (e2 / eye)))
+      :purpose (r2 / remember-01
+            :ARG0 p
+            :ARG1 p2
+            :mod (s / sure)))
+

@@ -1,0 +1,10 @@
+
+(c / contrast-01
+      :ARG2 (g / go-25
+            :ARG0 (h / he)
+            :ARG1 (m / mix-02
+                  :ARG0 (y / you)
+                  :ARG1 (e / everything)
+                  :ARG3 (t / together))
+            :manner (r / relentless)))
+

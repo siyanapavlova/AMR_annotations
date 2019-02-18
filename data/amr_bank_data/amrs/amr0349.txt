@@ -1,0 +1,30 @@
+
+(t / turn-02
+      :ARG1 (f / face
+            :part-of (h / he))
+      :ARG2 (r / red)
+      :ARG3 (w / white)
+      :time (c / continue-02
+            :ARG0 h
+            :ARG1 (s3 / suffice-01
+                  :ARG0 l
+                  :ARG1 (m / make-02
+                        :ARG0 l
+                        :ARG1 (h2 / happy
+                              :domain s)
+                        :ARG1-of (c2 / cause-01
+                              :ARG0 (l2 / look-01
+                                    :ARG0 s
+                                    :ARG1 s2
+                                    :mod (j2 / just))))
+                  :condition (l / love-01
+                        :ARG0 (s / someone)
+                        :ARG1 (f2 / flower
+                              :part (b / blossom :quant 1
+                                    :mod (j / just)
+                                    :ARG1-of (g / grow-01
+                                          :location (s2 / star
+                                                :mod (a2 / all)
+                                                :quant (m2 / multiple :op1 1000000)))
+                                    :mod (s4 / single)))))))
+

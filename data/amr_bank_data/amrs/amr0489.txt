@@ -1,0 +1,7 @@
+
+(o / opine-01
+      :ARG0 (t2 / they)
+      :ARG1 (s2 / subject
+            :domain (m2 / man
+                  :quant (a2 / all))))
+

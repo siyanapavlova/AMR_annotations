@@ -1,0 +1,16 @@
+
+(c / contrast-01
+  :ARG2 (k / know-01
+          :ARG0 (i / i)
+          :ARG1 (g / go-19
+                  :ARG1 (h / he)
+                  :ARG2 (p / planet
+                          :poss h))
+          :ARG1-of (c2 / cause-01
+                     :ARG0 (f / find-01
+                             :ARG0 i
+                             :ARG1 (b / body
+                                     :poss h)
+                             :polarity -
+                             :time (d / daybreak)))))
+

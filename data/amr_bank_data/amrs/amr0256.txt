@@ -1,0 +1,25 @@
+
+(c / cause-01
+      :ARG0 (s / skirt-02
+            :ARG0 (a / and
+                  :op1 (p2 / person
+                        :ARG0-of (h2 / have-rel-role-91
+                              :ARG1 (i / i)
+                              :ARG2 (f / friend)))
+                  :op2 i)
+            :ARG1 (d / danger
+                  :mod (t / this))
+            :duration (t2 / time
+                  :mod (l / long))
+            :ARG1-of (k / know-01 :polarity -
+                  :ARG0 p2
+                  :time (e / ever)))
+      :ARG1 (w / work-01
+            :ARG0 i
+            :ARG1 (p / picture
+                  :ARG1-of (d2 / draw-01)
+                  :mod (t3 / this))
+            :manner (h / hard
+                  :degree (s2 / so))
+            :beneficiary p2))
+

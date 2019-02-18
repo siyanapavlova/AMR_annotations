@@ -1,0 +1,13 @@
+
+(d / disturb-01
+      :ARG0 (a / attack-01
+            :ARG0 (r / rheumatism)
+            :ARG1 i)
+      :ARG1 (i / i)
+      :time (b / before
+            :op1 (n / now)
+            :quant (t2 / temporal-quantity :quant 11
+                  :unit (y / year)))
+      :domain (d2 / disturb-01
+            :ord (o / ordinal-entity :value 2)))
+

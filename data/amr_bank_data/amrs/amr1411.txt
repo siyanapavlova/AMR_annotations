@@ -1,0 +1,8 @@
+
+(f / fear-01
+  :ARG0 (i / i)
+  :degree (m / more
+            :mod (m2 / much))
+  :time (e / evening
+          :mod (t / this)))
+

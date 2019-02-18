@@ -1,0 +1,15 @@
+
+(c / contrast-01
+      :ARG2 (p / possible :polarity -
+            :domain (b / buy-01
+                  :ARG0 (o / one)
+                  :ARG1 (f / friendship)
+                  :location (s / shop
+                        :location (a2 / anywhere))
+                  :ARG0-of (c2 / cause-01
+                        :ARG1 (h / have-rel-role-91 :polarity -
+                              :ARG0 (p2 / person)
+                              :ARG1 (m / man)
+                              :ARG2 (f2 / friend)
+                              :mod (a / anymore))))))
+

@@ -1,0 +1,11 @@
+
+(t / twine-01
+      :ARG0 (h / he)
+      :ARG1 h
+      :ARG2 (a / ankle
+            :part-of (p / prince
+                  :mod (l / little)))
+      :manner (r / resemble-01
+            :ARG2 (b / bracelet
+                  :consist-of (g / gold))))
+

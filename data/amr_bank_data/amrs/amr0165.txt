@@ -1,0 +1,6 @@
+
+(c / collect-01
+      :ARG0 (h / he)
+      :ARG1 (b / butterfly)
+      :mode interrogative)
+

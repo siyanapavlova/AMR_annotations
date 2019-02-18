@@ -1,0 +1,8 @@
+
+(s / star
+      :domain (w / well
+            :ARG0-of (h / have-03
+                  :ARG1 (p / pulley
+                        :mod (r / rust))))
+      :quant (a / all))
+

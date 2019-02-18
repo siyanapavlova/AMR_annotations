@@ -1,0 +1,16 @@
+
+(g / go-02
+      :ARG0 (p / person
+            :ARG0-of (h / have-rel-role-91
+                  :ARG1 (i / i)
+                  :ARG2 (f / friend)))
+      :direction (a / away
+            :op1 i)
+      :accompanier (s / sheep
+            :poss p)
+      :time (b / before
+            :op1 (n / now)
+            :quant (t / temporal-quantity :quant 6
+                  :unit (y / year)))
+      :time (a3 / already))
+

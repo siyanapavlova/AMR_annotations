@@ -1,0 +1,11 @@
+
+(g / go-02
+      :ARG0 (t / they)
+      :purpose (s / sleep-01
+            :ARG0 t)
+      :time (a / after
+            :op1 (l2 / light-01
+                  :ARG0 t
+                  :ARG1 (l / lamp
+                        :poss t))))
+

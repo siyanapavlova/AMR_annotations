@@ -1,0 +1,8 @@
+
+(l / like-01
+      :ARG0 (i / i)
+      :ARG1 (t / take-04
+            :ARG1 (m / misfortune
+                  :poss i)
+            :manner (s / serious)))
+

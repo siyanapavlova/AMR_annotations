@@ -1,0 +1,6 @@
+
+(c / choke-04
+      :ARG0 (s / sob-01)
+      :ARG1 (w / word
+            :poss (h / he)))
+

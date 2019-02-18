@@ -1,0 +1,19 @@
+
+(a / and
+      :op1 (c / come-01 :mode imperative
+            :ARG1 (y / you)
+            :direction (b / back)
+            :time (t / then)
+            :purpose (s / say-01
+                  :ARG0 y
+                  :ARG1 (g / goodbye)
+                  :ARG2 (i / i)))
+      :op2 (g2 / give-01
+            :ARG0 i
+            :ARG1 (p / present)
+            :ARG2 y
+            :manner (r / reveal-01
+                  :ARG0 i
+                  :ARG1 (s2 / secret)
+                  :ARG2 y)))
+

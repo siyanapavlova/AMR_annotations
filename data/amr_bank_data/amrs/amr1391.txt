@@ -1,0 +1,14 @@
+
+(f / feel-01
+      :ARG0 (i / i)
+      :ARG1 (h4 / heart
+            :part-of (h2 / he)
+            :ARG1-of (b / beat-01
+                  :ARG1-of (r / resemble-01
+                        :ARG2 (h3 / heart
+                              :part-of (b2 / bird
+                                    :ARG1-of (d / die-01)
+                                    :ARG1-of (s / shoot-02
+                                          :ARG2 (r2 / rifle
+                                                :poss (s2 / someone)))))))))
+

@@ -1,0 +1,5 @@
+
+(d / drink-01
+  :ARG0 (i / i)
+  :ARG1 (w / water))
+

@@ -1,0 +1,4 @@
+
+(c / contrast-01
+  :ARG2 (a / animal))
+

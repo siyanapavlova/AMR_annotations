@@ -1,0 +1,8 @@
+
+(l / love-01
+      :ARG0 (h / he)
+      :ARG1 (a2 / amr-unknown
+            :domain (g2 / game))
+      :mod (g / good
+            :degree (m / most)))
+

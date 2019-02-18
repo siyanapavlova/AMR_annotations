@@ -1,0 +1,7 @@
+
+(o / one
+      :mod (o2 / only)
+      :domain (h2 / he)
+      :ARG1-of (h / have-03
+            :ARG0 (w / we)))
+

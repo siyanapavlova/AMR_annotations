@@ -1,0 +1,14 @@
+
+(c / cause-01
+      :ARG1 (d4 / demonstrate-01
+            :ARG0 (a / astronomer
+                  :ARG1-of (d2 / dress-01
+                        :ARG2 (a4 / and
+                              :op1 (s / style)
+                              :op2 (e / elegance)
+                              :ARG0-of (i / impress-01))))
+            :time (a2 / all
+                  :op1 (o / over
+                        :mod (a3 / again)))
+            :time (d3 / date-entity :year 1920)))
+

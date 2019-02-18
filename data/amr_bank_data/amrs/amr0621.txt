@@ -1,0 +1,11 @@
+
+(t / tire-01
+      :ARG0 (p / prince
+            :mod (l / little))
+      :ARG1 (m / monotony
+            :poss (g2 / game))
+      :time (a / after
+            :op1 (e / exercise
+                  :duration (t2 / temporal-quantity :quant 5
+                        :unit (m2 / minute)))))
+

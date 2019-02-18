@@ -1,0 +1,13 @@
+
+(r / revolt-01
+      :ARG0 (p / person
+            :poss y)
+      :ARG1 y
+      :condition (o / order-01
+            :ARG0 (y / you)
+            :ARG1 p
+            :ARG2 (t / throw-01
+                  :ARG0 p
+                  :ARG1 p
+                  :ARG2 (s / sea))))
+

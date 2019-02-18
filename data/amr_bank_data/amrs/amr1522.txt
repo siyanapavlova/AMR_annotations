@@ -1,0 +1,6 @@
+
+(r / remain-01
+      :ARG1 (h / he)
+      :duration (i / instant)
+      :manner (m / move-01 :polarity -))
+

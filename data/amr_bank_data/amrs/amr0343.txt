@@ -1,0 +1,9 @@
+
+(e / eat-01
+      :ARG0 (s / sheep)
+      :ARG1 (t / they)
+      :duration (m / multiple
+            :op1 (t2 / temporal-quantity :quant 1000000
+                  :unit (y / year)))
+      :ARG1-of (h / have-concession-91))
+

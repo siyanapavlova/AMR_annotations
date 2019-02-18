@@ -1,0 +1,12 @@
+
+(a / ask-01
+      :ARG0 (h / he)
+      :ARG1 (a2 / advise-01
+            :ARG0 (y / you)
+            :ARG1 h
+            :ARG2 (v / visit-01
+                  :ARG0 h
+                  :ARG1 (p / place
+                        :domain (a3 / amr-unknown))
+                  :time (n / now))))
+

@@ -1,0 +1,7 @@
+
+(s / small
+      :degree (s2 / so)
+      :domain (e / everything
+            :location (l / live-01
+                  :ARG0 (i / i))))
+

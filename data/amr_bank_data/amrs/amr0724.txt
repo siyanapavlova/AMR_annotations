@@ -1,0 +1,15 @@
+
+(a / and
+  :op1 (p / patent-01
+         :ARG0 y
+         :ARG1 i)
+  :op2 (b2 / belong-01
+         :ARG0 i
+         :ARG1 (y / you))
+  :condition (g / get-01
+               :ARG0 y
+               :ARG1 (i / idea)
+               :time (b / before
+                       :op1 (a3 / anyone
+                              :mod (e / else)))))
+

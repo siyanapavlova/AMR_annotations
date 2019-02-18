@@ -1,0 +1,10 @@
+
+(a / and
+      :op2 (h / hear-01
+            :ARG0 (i / i)
+            :ARG1 (s / say-01
+                  :ARG0 (h2 / he)
+                  :ARG1 (r / remember-01 :polarity -
+                        :ARG0 (y / you)
+                        :mod (t / then)))))
+

@@ -1,0 +1,37 @@
+
+(s / say-01
+      :ARG0 (i / i)
+      :ARG1 (a / and
+            :op1 (c2 / charm-01
+                  :ARG0 (m / memory
+                        :poss (y / you)
+                        :mod (t / this))
+                  :concession-of (a2 / and
+                        :op1 (s2 / succeed-01 :polarity -
+                              :ARG0 i
+                              :ARG1 (r / repair-01
+                                    :ARG0 i
+                                    :ARG1 (p2 / plane
+                                          :poss i))
+                              :time (y2 / yet))
+                        :op2 (h / have-03
+                              :ARG0 i
+                              :ARG1 (n / nothing
+                                    :purpose (d / drink-01
+                                          :ARG0 i)))
+                        :op3 (h2 / happy
+                              :domain i
+                              :degree (v2 / very)
+                              :condition (p3 / possible
+                                    :domain (w / walk-01
+                                          :ARG0 i
+                                          :direction (s3 / spring
+                                                :source-of (w2 / water
+                                                      :mod (f / fresh)))
+                                          :manner (a3 / at
+                                                :op1 (l2 / leisure
+                                                      :poss i))))))
+                  :degree (v / very)))
+      :ARG2 (p / prince
+            :mod (l / little)))
+

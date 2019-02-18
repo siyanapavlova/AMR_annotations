@@ -1,0 +1,20 @@
+
+(s / say-01
+      :ARG0 (h / he)
+      :ARG1 (p / possible
+            :domain (a2 / and
+                  :op1 (p2 / put-01
+                        :ARG0 h
+                        :ARG1 (s2 / scarf
+                              :consist-of (s3 / silk))
+                        :ARG2 (a / around
+                              :op1 (n / neck
+                                    :part-of h)))
+                  :op2 (t / take-05
+                        :ARG0 h
+                        :ARG1 s2
+                        :accompanier h))
+            :condition (o / own-01
+                  :ARG0 h
+                  :ARG1 s2)))
+

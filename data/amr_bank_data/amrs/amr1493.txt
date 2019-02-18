@@ -1,0 +1,8 @@
+
+(p / possible :polarity -
+      :domain (c / carry-01
+            :ARG0 (i / i)
+            :ARG1 (b / body
+                  :mod (t / this))
+            :ARG3 (i2 / i)))
+

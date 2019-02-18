@@ -1,0 +1,9 @@
+
+(b / bore-01
+      :ARG0 (i / it)
+      :ARG2 (t2 / through
+            :op1 (i2 / it)
+            :mod (c2 / clear))
+      :ARG3 (r / root
+            :poss i))
+

@@ -1,0 +1,18 @@
+
+(f / feel-01
+      :ARG0 (p / prince
+            :mod (l / little)
+            :ARG0-of (w / witness-01
+                  :ARG1 (a / appear-01
+                        :ARG1 (b / bud
+                              :mod (h / huge))
+                        :ord (o2 / ordinal-entity :value 1))))
+      :ARG1 (o / obligate-01
+            :ARG2 (e / emerge-01
+                  :ARG0 (t / thing
+                        :ARG1-of (a4 / appear-01
+                              :manner (m / miraculous))
+                        :mod (s / sort))
+                  :ARG1 b))
+      :time (a2 / at-once))
+

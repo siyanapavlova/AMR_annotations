@@ -1,0 +1,11 @@
+
+(s / see-01
+  :ARG0 (i / i)
+  :ARG1 (s2 / set-07
+          :ARG0 (h / he)
+          :ARG1 (w / way
+                  :poss h))
+  :polarity -
+  :time (n / night
+          :mod (t / that)))
+

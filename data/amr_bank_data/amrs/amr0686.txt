@@ -1,0 +1,5 @@
+
+(o / object
+  :mod (l / little)
+  :ARG0-of (g / glitter-01))
+

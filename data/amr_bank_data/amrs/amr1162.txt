@@ -1,0 +1,8 @@
+
+(f2 / fox
+      :domain (h / he)
+      :ARG1-of (r / resemble-01
+            :ARG2 (f3 / fox :quant 100000
+                  :mod (o / other)))
+      :mod (o2 / only))
+

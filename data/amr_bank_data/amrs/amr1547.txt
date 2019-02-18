@@ -1,0 +1,6 @@
+
+(m / mystery
+      :mod (g / great)
+      :time (t / then)
+      :location (h / here))
+

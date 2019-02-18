@@ -1,0 +1,8 @@
+
+(l / love-01
+      :ARG0 (i / i)
+      :ARG1 (s / sleep-01
+            :ARG0 i
+            :mod (t / thing :quant 1))
+      :time (l2 / live-01))
+

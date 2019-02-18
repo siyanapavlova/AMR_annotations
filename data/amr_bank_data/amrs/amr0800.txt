@@ -1,0 +1,5 @@
+
+(t / temporal-quantity
+  :unit (m / minute)
+  :quant 30)
+

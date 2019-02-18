@@ -1,0 +1,20 @@
+
+(a / account-01
+  :ARG1 a3
+  :ARG2 (a2 / and
+          :op1 (g / grown-up)
+          :op2 (w / way
+                 :poss g))
+  :condition (a3 / and
+               :op1 (t / tell-01
+                      :ARG0 (i / i)
+                      :ARG1 (d / detail
+                              :mod (t2 / this)
+                              :topic (a4 / asteroid))
+                      :ARG2 (y / you))
+               :op2 (n3 / note-01
+                      :ARG0 i
+                      :ARG1 (n4 / number
+                              :poss a4)
+                      :ARG2 y)))
+

@@ -1,0 +1,6 @@
+
+(f / find-01
+  :ARG0 (t / they)
+  :ARG1 (i / it)
+  :polarity -)
+

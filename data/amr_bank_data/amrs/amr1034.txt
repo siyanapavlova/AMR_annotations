@@ -1,0 +1,6 @@
+
+(a / and
+      :op2 (o / overcome-01
+            :ARG0 (s / sad)
+            :ARG1 (h / he)))
+

@@ -1,0 +1,16 @@
+
+(s / say-01
+      :ARG0 (h / he)
+      :ARG1 (b / beg-01
+            :ARG0 h
+            :ARG1 p
+            :ARG2 (e / excuse-01
+                  :ARG0 p
+                  :ARG1 h
+                  :ARG2 (a / ask-01
+                        :ARG0 h
+                        :ARG2 p)))
+      :ARG2 (p / person
+            :ARG1-of (t / title-01
+                  :ARG2 (s2 / sire))))
+

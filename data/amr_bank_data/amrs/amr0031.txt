@@ -1,0 +1,10 @@
+
+(c / contrast-01
+  :ARG2 (s / say-01
+          :ARG0 (o / or
+                  :op1 (h / he)
+                  :op2 (s2 / she))
+          :ARG1 (h2 / hat
+                  :domain (t / that))
+          :time (a / always)))
+

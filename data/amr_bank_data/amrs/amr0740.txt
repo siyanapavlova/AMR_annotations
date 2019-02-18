@@ -1,0 +1,14 @@
+
+(a / and
+  :op2 (a2 / and
+         :op1 (p / put-01
+                :ARG0 (i / i)
+                :ARG1 (p2 / paper
+                        :mod (t2 / this))
+                :ARG2 (d / drawer))
+         :op2 (l / lock-01
+                :ARG0 i
+                :ARG1 p2
+                :ARG2 (k / key)))
+  :time (t / then))
+

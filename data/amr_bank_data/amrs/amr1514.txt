@@ -1,0 +1,5 @@
+
+(n / naive
+      :degree (s2 / so)
+      :domain (s / she))
+

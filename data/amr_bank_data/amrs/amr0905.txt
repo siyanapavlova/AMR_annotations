@@ -1,0 +1,21 @@
+
+(r / repeat-01
+      :ARG0 (p / prince
+            :mod (l / little)
+            :ARG0-of (l2 / let-01 :polarity -
+                  :ARG1 (g / go-01
+                        :ARG1 (t / thing
+                              :ARG1-of (q / question-01
+                                    :ARG0 p)))
+                  :time (o / once
+                        :op1 (a2 / ask-01
+                              :ARG1 t))
+                  :time (e2 / ever
+                        :duration (t2 / thing
+                              :ARG1-of (l3 / live-01
+                                    :ARG0 p)))))
+      :ARG1 (c / contrast-01
+            :ARG2 (m / mean-01
+                  :ARG0 (e / ephemeral)
+                  :ARG1 (a / amr-unknown))))
+

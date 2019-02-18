@@ -1,0 +1,12 @@
+
+(a / and
+      :op1 (s / seed
+            :mod (g / good)
+            :source (p / plant
+                  :mod (g2 / good)))
+      :op2 (s2 / seed
+            :mod (b / bad)
+            :source (p2 / plant
+                  :mod (b2 / bad)))
+      :ARG1-of (c2 / cause-01))
+

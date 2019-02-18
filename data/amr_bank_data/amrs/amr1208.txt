@@ -1,0 +1,7 @@
+
+(s / say-01
+      :ARG0 (p / person
+            :ARG0-of (m / merchandise-01))
+      :ARG1 (m2 / morning
+            :mod (g / good)))
+

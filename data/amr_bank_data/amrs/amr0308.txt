@@ -1,0 +1,14 @@
+
+(f / flash-01
+      :ARG0 (p / prince
+            :mod (l / little))
+      :ARG1 (b / believe-01 :polarity -
+            :ARG0 p
+            :ARG1 i)
+      :ARG2 (i / i)
+      :time (t / then)
+      :manner (r / resent-01
+            :ARG0 p
+            :mod (k / kind))
+      :direction (b2 / back))
+

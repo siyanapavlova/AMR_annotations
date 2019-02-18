@@ -1,0 +1,11 @@
+
+(b / burn-01
+      :ARG1 (v / volcano
+            :ARG1-of (e2 / erupt-01 :polarity -))
+      :manner (a / and
+            :op1 (s / slow)
+            :op2 (s2 / steady))
+      :condition (c / clean-03
+            :ARG1 v
+            :degree (w / well)))
+

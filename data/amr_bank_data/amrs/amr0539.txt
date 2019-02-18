@@ -1,0 +1,37 @@
+
+(d / demand-01
+      :ARG0 (k / king)
+      :ARG1 (w / wrong-41
+            :ARG1 (a / amr-unknown
+                  :ARG1-of (i2 / include-91
+                        :ARG2 (w3 / we)))
+            :condition (a2 / and
+                  :op1 (o3 / order-01
+                        :ARG0 k
+                        :ARG1 (p / person
+                              :ARG0-of (h / have-org-role-91
+                                    :ARG2 (g / general)))
+                        :ARG2 (o4 / or
+                              :op1 (f / fly-01
+                                    :ARG1 p
+                                    :destination (a3 / another)
+                                    :source (t / thing
+                                          :ARG1-of (f2 / flower-01 :quant 1))
+                                    :manner (b / butterfly))
+                              :op2 (w2 / write-01
+                                    :ARG0 p
+                                    :ARG1 (d2 / drama
+                                          :mod (t2 / tragedy)))
+                              :op3 (c2 / change-01
+                                    :ARG0 p
+                                    :ARG1 p
+                                    :ARG2 (b2 / bird
+                                          :mod (s / sea)))))
+                  :op2 (c / carry-03 :polarity -
+                        :ARG0 p
+                        :ARG1 (t3 / thing
+                              :ARG2-of (o2 / order-01)
+                              :ARG1-of (r / receive-01
+                                    :ARG0 p
+                                    :ARG2 k))))))
+

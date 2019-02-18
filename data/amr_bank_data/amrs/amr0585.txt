@@ -1,0 +1,6 @@
+
+(h / hear-01
+  :ARG0 (i / i)
+  :ARG1 (h2 / he)
+  :time (n / night))
+

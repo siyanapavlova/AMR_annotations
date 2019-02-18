@@ -1,0 +1,5 @@
+
+(p / poetry
+  :domain (i / it)
+  :degree (r / rather))
+

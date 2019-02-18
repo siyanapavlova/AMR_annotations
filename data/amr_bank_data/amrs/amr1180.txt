@@ -1,0 +1,6 @@
+
+(r / responsible-41
+      :ARG1 (y / you)
+      :ARG3 (r2 / rose
+            :poss y))
+

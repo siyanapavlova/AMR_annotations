@@ -1,0 +1,15 @@
+
+(w / wish-01 :polarity -
+      :ARG0 (p / prince
+            :mod (l / little)
+            :ARG0-of (c / complete-01
+                  :ARG1 (p2 / prepare-02
+                        :ARG0 p
+                        :ARG2 (d / depart-01
+                              :ARG0 p))
+                  :time (n / now)))
+      :ARG1 (g / grieve-01
+            :ARG0 p
+            :ARG1 (m / monarch
+                  :mod (o / old))))
+

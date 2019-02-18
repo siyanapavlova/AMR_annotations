@@ -1,0 +1,11 @@
+
+(l / learn-01
+      :ARG0 (i / i)
+      :ARG1 (k / know-01
+            :ARG0 i
+            :ARG1 (f / flower
+                  :mod (t / this))
+            :manner (g / good
+                  :degree (m / more)))
+      :time (s / soon))
+

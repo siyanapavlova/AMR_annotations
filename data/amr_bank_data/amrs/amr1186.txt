@@ -1,0 +1,13 @@
+
+(s / say-01
+  :ARG0 (s2 / switchman)
+  :ARG1 (s3 / sort-01
+          :ARG0 s2
+          :ARG1 (p / person
+                  :ARG0-of (t / travel-01))
+          :ARG2 (b / bundle-01
+                  :ARG0 s2
+                  :ARG1 p
+                  :ARG2 (p2 / person
+                          :quant 1000))))
+

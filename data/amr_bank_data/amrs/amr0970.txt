@@ -1,0 +1,8 @@
+
+(g / gaze-01
+  :ARG0 (p / prince
+          :mod (l / little))
+  :ARG1 (h / he)
+  :duration (t / time
+              :mod (l2 / long)))
+

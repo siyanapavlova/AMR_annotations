@@ -1,0 +1,8 @@
+
+(a / and
+  :op1 (h / have-03
+         :ARG0 (t / they)
+         :ARG1 (g / gun))
+  :op2 (h2 / hunt-01
+         :ARG0 t))
+

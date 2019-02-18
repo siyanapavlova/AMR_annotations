@@ -1,0 +1,6 @@
+
+(l2 / look-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (p / planet
+            :source (i / i)))
+

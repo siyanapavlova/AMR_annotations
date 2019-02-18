@@ -1,0 +1,11 @@
+
+(h / have-03
+      :ARG0 (s / she)
+      :ARG1 (t / thorn :quant 4
+            :ARG1-of (u / use-01 :polarity -))
+      :purpose (p / protect-01
+            :ARG0 t
+            :ARG1 s
+            :ARG2 (w / world
+                  :mod (a / all))))
+

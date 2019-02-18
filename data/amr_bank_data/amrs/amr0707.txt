@@ -1,0 +1,7 @@
+
+(c / contrast-01
+      :ARG1 (o / own-01 :polarity -
+            :ARG0 (k / king))
+      :ARG2 (r / reign-01
+            :ARG0 k))
+

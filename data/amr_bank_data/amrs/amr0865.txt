@@ -1,0 +1,8 @@
+
+(s3 / see-01
+      :ARG0 (m2 / man
+            :ARG1-of (i2 / intoxicate-01))
+      :ARG2 (d / double)
+      :ARG0-of (c2 / cause-01
+            :ARG1 (t2 / thing)))
+

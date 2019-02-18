@@ -1,0 +1,10 @@
+
+(a / ask-01
+      :ARG0 (p / prince
+            :mod (l / little))
+      :ARG1 (s / sell-01
+            :ARG0 (y / you)
+            :ARG1 (t / that)
+            :ARG1-of (c / cause-01
+                  :ARG0 (a2 / amr-unknown))))
+

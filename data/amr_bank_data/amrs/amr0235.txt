@@ -1,0 +1,12 @@
+
+(b2 / be-located-at-91
+      :ARG1 (s / seed
+            :mod (t / terrible)
+            :quant (s2 / some)
+            :poss (b / baobab))
+      :ARG2 (p / planet
+            :location-of (h / home
+                  :poss (p2 / prince
+                        :mod (l / little))))
+      :time (n / now))
+

@@ -1,0 +1,9 @@
+
+(p / possible :polarity -
+      :time (e / ever)
+      :domain (f / fasten-01
+            :ARG0 (h / he)
+            :ARG1 (i / it)
+            :ARG2 (s / sheep
+                  :poss h)))
+

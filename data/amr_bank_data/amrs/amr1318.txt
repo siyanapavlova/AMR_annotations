@@ -1,0 +1,9 @@
+
+(a / and
+      :op2 (m / make-02
+            :ARG0 (c / color
+                  :mod (h / honey))
+            :ARG1 (h2 / happy
+                  :domain (i / i))
+            :mod (t / too)))
+

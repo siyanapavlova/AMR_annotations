@@ -1,0 +1,9 @@
+
+(m2 / mean-01
+      :ARG0 (i / it)
+      :ARG1 (t / thing
+            :ARG1-of (e / endanger-01
+                  :ARG1-of (c / cause-01
+                        :ARG0 (d / disappear-01
+                              :manner (s / speed))))))
+

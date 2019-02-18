@@ -1,0 +1,13 @@
+
+(g / go-23
+  :ARG0 (h / he)
+  :ARG1 (c / come-01
+          :ARG1 h
+          :ARG4 (n / near
+                  :op1 (h2 / here)
+                  :degree (v / very))
+          :direction (d / down))
+  :time (t / then
+          :time (a / after
+                  :op1 (s / silence))))
+

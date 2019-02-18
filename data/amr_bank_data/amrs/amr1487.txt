@@ -1,0 +1,6 @@
+
+(c / contrast-01
+      :ARG2 (w / worry-01
+            :ARG1 (h / he)
+            :time (s2 / still)))
+

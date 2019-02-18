@@ -1,0 +1,18 @@
+
+(c3 / contrast-01
+      :ARG2 (a / and
+            :op1 (c / convince-01
+                  :ARG1 (t / they))
+            :op2 (l / leave-01
+                  :ARG0 t
+                  :ARG1 y
+                  :ARG2 (p2 / peace
+                        :topic (q2 / question-01 :polarity -
+                              :ARG0 t)))
+            :condition (s / say-01
+                  :ARG0 (y / you)
+                  :ARG1 (c2 / come-01
+                        :ARG1 (h / he)
+                        :ARG3 (p / planet :wiki - :name (n / name :op1 "Asteroid" :op2 "B-612")))
+                  :ARG2 t)))
+

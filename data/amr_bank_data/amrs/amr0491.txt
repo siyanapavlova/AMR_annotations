@@ -1,0 +1,21 @@
+
+(a / and
+      :op1 (c / cram-01
+            :ARG1 (r2 / robe
+                  :mod (e2 / ermine)
+                  :mod (m / magnificent)
+                  :poss (k / king))
+            :ARG2 (p3 / planet
+                  :extent (e3 / entire)))
+      :op2 (o / obstruct-01
+            :ARG0 r2
+            :ARG1 p3)
+      :concession (l / look-01
+            :ARG0 (p / prince
+                  :mod (l2 / little))
+            :ARG1 (p2 / place
+                  :purpose (s / sit-01
+                        :ARG1 p
+                        :ARG2 p2))
+            :location (e / everywhere)))
+

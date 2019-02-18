@@ -1,0 +1,16 @@
+
+(a / and
+      :op2 (s / shake-01
+            :ARG0 (t / train
+                  :mod (e / express-02)
+                  :ARG1-of (l / light-01
+                        :manner (b / brilliant)))
+            :ARG1 (c / cabin
+                  :poss (s2 / switchman))
+            :time (r / rush-01
+                  :ARG1 t
+                  :direction (b2 / by)
+                  :ARG0-of (r2 / roar-01
+                        :ARG1-of (r3 / resemble-01
+                              :ARG2 (t2 / thunder))))))
+

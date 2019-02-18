@@ -1,0 +1,5 @@
+
+(s / simple
+      :domain (t / thing
+            :ARG2-of (r / reply-01)))
+

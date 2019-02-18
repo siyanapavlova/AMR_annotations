@@ -1,0 +1,11 @@
+
+(h / have-03
+      :ARG0 (i / i)
+      :ARG1 (a / and
+            :op1 (r / rest
+                  :purpose (r2 / relax-01)
+                  :part-of (d / day))
+            :op2 (r3 / rest
+                  :purpose (s / sleep-01)
+                  :part-of (n / night))))
+

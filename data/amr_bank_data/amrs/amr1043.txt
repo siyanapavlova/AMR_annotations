@@ -1,0 +1,5 @@
+
+(a / appear-01
+      :ARG1 (f / fox)
+      :time (t / then))
+

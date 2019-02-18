@@ -1,0 +1,9 @@
+
+(g / go-01
+  :ARG1 (y2 / you)
+  :ARG4 (p2 / place
+          :location-of (l / land-01
+                         :ARG0 (y / you)))
+  :direction (b / back)
+  :mode interrogative)
+

@@ -1,0 +1,6 @@
+
+(w3 / write-01
+      :ARG0 (w2 / we)
+      :ARG1 (t / thing
+            :mod (e / eternal)))
+

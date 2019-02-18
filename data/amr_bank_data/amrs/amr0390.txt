@@ -1,0 +1,5 @@
+
+(b / beautiful
+      :domain (y / you)
+      :degree (s / so))
+

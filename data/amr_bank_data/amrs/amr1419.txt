@@ -1,0 +1,18 @@
+
+(s / say-01
+      :ARG0 (i / i)
+      :ARG1 (t / tell-01 :mode imperative
+            :ARG0 (y / you)
+            :ARG1 (d / dream-01
+                  :ARG0 i
+                  :ARG1 (a / and
+                        :op1 (a2 / affair
+                              :poss (s2 / snake)
+                              :mod (t2 / this))
+                        :op2 (m / meet-01
+                              :location (p / place))
+                        :op3 (s3 / star))
+                  :ARG2-of (b / bad-42)
+                  :mod (o / only))
+            :ARG2 i))
+

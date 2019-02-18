@@ -1,0 +1,7 @@
+
+(c / contrast-01
+      :ARG2 (f / foolish
+            :domain (y / you)
+            :degree (e / equal)
+            :compared-to (i / i)))
+

@@ -1,0 +1,7 @@
+
+(a3 / arrange-01 :polarity -
+      :ARG1 (p2 / petal
+            :part-of (i / i)
+            :quant (a4 / all))
+      :mod (s4 / still))
+

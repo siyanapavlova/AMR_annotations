@@ -1,0 +1,9 @@
+
+(w / white
+      :domain (p / prince
+            :mod (l / little))
+      :time (n / now)
+      :ARG1-of (c / cause-01
+            :ARG0 (e / enrage-01
+                  :ARG1 p)))
+

@@ -1,0 +1,8 @@
+
+(c / continue-01
+      :ARG0 (i / i)
+      :ARG1 (w / walk-01
+            :ARG0 i
+            :direction (t / toward
+                  :op1 (w2 / wall))))
+

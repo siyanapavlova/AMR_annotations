@@ -1,0 +1,7 @@
+
+(c / cause-01
+      :ARG1 (t / tame-01
+            :ARG0 (p / prince
+                  :mod (l / little))
+            :ARG1 (f / fox)))
+

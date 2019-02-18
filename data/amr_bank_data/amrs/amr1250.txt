@@ -1,0 +1,18 @@
+
+(a / and
+  :op2 (l / look-01
+         :ARG0 (i / i)
+         :ARG1 (a3 / across
+                 :op1 (r / ridge
+                        :consist-of (s / sand)
+                        :ARG1-of (s2 / stretch-02
+                                   :location (b / before
+                                               :op1 (w / we)))
+                        :ARG1-of (l2 / light-01
+                                   :ARG0 (m / moon))))
+         :manner (s3 / say-01
+                   :ARG0 i
+                   :ARG1 (a2 / anything
+                           :mod (m2 / more))
+                   :polarity -)))
+

@@ -1,0 +1,6 @@
+
+(h / have-purpose-91
+      :ARG1 (t / thorn)
+      :ARG2 (a / amr-unknown)
+      :ARG1-of (h2 / have-condition-91))
+

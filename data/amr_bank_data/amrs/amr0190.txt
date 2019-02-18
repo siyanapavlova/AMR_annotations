@@ -1,0 +1,7 @@
+
+(s2 / sad
+      :domain (f3 / forget-01
+            :ARG1 (p / person
+                  :ARG0-of (h / have-rel-role-91
+                        :ARG2 (f / friend)))))
+

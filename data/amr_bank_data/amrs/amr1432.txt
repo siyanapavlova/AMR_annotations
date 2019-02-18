@@ -1,0 +1,17 @@
+
+(p / possible
+  :polarity -
+  :domain (s / show-01
+            :ARG0 (i / i)
+            :ARG1 (l / location
+                    :location-of (f / find-01
+                                   :ARG1 (s2 / star
+                                           :poss i)))
+            :ARG2 (y2 / you))
+  :ARG1-of (c / cause-01
+             :ARG0 (e / everything
+                     :mod (s3 / small
+                            :degree (s4 / so))
+                     :location (l2 / live-01
+                                 :ARG0 i))))
+

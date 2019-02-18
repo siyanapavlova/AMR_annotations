@@ -1,0 +1,5 @@
+
+(a / all :mode interrogative
+      :domain (t2 / that)
+      :ARG1-of (n / need-01))
+

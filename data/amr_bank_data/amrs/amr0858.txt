@@ -1,0 +1,9 @@
+
+(c / contrast
+      :op2 (r / receive-01
+            :ARG0 (h / he)
+            :ARG1 (p / person
+                  :ARG0-of (e / explore-01))
+            :location (s / study
+                  :poss h)))
+

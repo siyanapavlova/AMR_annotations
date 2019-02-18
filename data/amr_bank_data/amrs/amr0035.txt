@@ -1,0 +1,11 @@
+
+(a / and
+      :op2 (p / please-01
+            :ARG0 (m / meet-02
+                  :ARG0 g
+                  :ARG1 (m2 / man
+                        :mod (s / sensible
+                              :degree (s2 / so))))
+            :ARG1 (g / grown-up)
+            :degree (g2 / great)))
+

@@ -1,0 +1,12 @@
+
+(c / contrast
+      :op2 (k / know-01
+            :ARG0 (p / person
+                  :ARG1-of (i / include-91
+                        :ARG2 (t2 / they)))
+            :ARG1 (f / find-01
+                  :ARG0 p
+                  :ARG1 (t / they)
+                  :location (a / amr-unknown))
+            :time (e / ever :polarity -)))
+

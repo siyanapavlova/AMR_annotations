@@ -1,0 +1,11 @@
+
+(a / and
+      :op2 (h / hurry-01 :polarity - :mode imperative
+            :ARG0 y
+            :ARG1 y
+            :mod (p / please)
+            :condition (c / come-21
+                  :ARG0 (y / you)
+                  :ARG1 (s / spot
+                        :mod (t / this)))))
+

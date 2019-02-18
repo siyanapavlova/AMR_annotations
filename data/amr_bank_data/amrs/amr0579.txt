@@ -1,0 +1,11 @@
+
+(w2 / wise
+      :domain (y / you)
+      :condition (s / succeed-01
+            :ARG0 y
+            :ARG1 (j / judge-01
+                  :ARG0 y
+                  :ARG1 y
+                  :manner (r / right)))
+      :mod (t2 / true))
+

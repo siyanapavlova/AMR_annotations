@@ -1,0 +1,13 @@
+
+(i / interrupt-01
+      :ARG0 (p2 / prince
+            :mod (l / little))
+      :ARG2 (c / contrast-01
+            :ARG2 (p / possible
+                  :domain (c2 / come-04
+                        :ARG1 (v / volcano
+                              :mod (e / extinct))
+                        :ARG2 (t / thing
+                              :ARG1-of (l3 / live-01))
+                        :mod (a / again)))))
+

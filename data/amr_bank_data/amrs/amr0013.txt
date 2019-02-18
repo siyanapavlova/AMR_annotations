@@ -1,0 +1,8 @@
+
+(p / picture-01
+  :ARG0 (t / thing
+          :ARG1-of (d / draw-01
+                     :ARG0 (i / i)))
+  :ARG1 (h / hat)
+  :polarity -)
+
