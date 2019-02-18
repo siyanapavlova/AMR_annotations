@@ -1,7 +1,5 @@
 import re
-
 def get_amr_sents(amrs_list): 
-
 	'''a function to extract the sentence and the list of lines for the AMRs contained in a readlines pull from a 
 	.txt file of AMR data
 	input | a list containing a .readlines() pull from a .txt file of AMR data
@@ -9,17 +7,17 @@ def get_amr_sents(amrs_list):
 	containing the AMR representation in text. the elements of the list correspond to individual lines in this textual 
 	AMR representation. 
 	'''
-
+	
 	amr_lines_prev = []
-    sentence = ''
-    while amrs_list: 
-        __ = amrs_list.pop(0)
-        if not re.match(r"^[0-9]+",  __):
-            amr_lines_prev.append(__)
-        else:
-            sentence = __
-            break
-    return sentence, amr_lines_prev
+	sentence = ''
+	while len(amrs_list) != 0: 
+		__ = amrs_list.pop(0)
+		if not re.match(r"^[0-9]+",  __):
+			amr_lines_prev.append(__)
+		else:
+			sentence = __
+			break
+	return sentence, amr_lines_prev
 
 def preprocess(amrs_list, amrs_filepath_structure, sents_filepath_structure):
 
@@ -34,35 +32,35 @@ def preprocess(amrs_list, amrs_filepath_structure, sents_filepath_structure):
 	in the dataset
 	'''
 
-    sent_written_count = 0 
-    while len(amrs_list) !=0:
-        __sentence, __amr_lines_prev = get_amr_sents(amrs_list)
+	sent_written_count = 0 
+	while len(amrs_list) !=0:
+		__sentence, __amr_lines_prev = get_amr_sents(amrs_list)
 
-        try: 
-            sent_num = re.Match.group(re.match(r"^[0-9]+", __sentence))
-            sentence_only = __sentence.lstrip(sent_num+". ")
-            sent_num4file = sent_num if len(sent_num) == 4 else "0" * (4-len(sent_num))+sent_num
+		try: 
+			sent_num = re.Match.group(re.match(r"^[0-9]+", __sentence))
+			sentence_only = __sentence.lstrip(sent_num+". ")
+			sent_num4file = sent_num if len(sent_num) == 4 else "0" * (4-len(sent_num))+sent_num
 
-        # exception to catch the case when dealing with the last text AMR obtained (which would not have
-        # a subsequent sentence number in order to establish its file name. )
-        except TypeError:
-            sent_num = sent_written_count+1
+		# exception to catch the case when dealing with the last text AMR obtained (which would not have
+		# a subsequent sentence number in order to establish its file name. )
+		except TypeError:
+			sent_num = sent_written_count+1
 
 
-        with open (sent_filepath_structure.format(sent_num4file), 'w') as file:
-            file.write(sentence_only)
-            file.close()
+		with open (sent_filepath_structure.format(sent_num4file), 'w') as file:
+			file.write(sentence_only)
+			file.close()
 
-        # write the amr_lines into a file with its corresponding sentence number. recall that as we loop through 
-        # the amrs_list, __amr_lines_prev collects lines that are for the preceding sentence. 
-        sent_num_prev = str(int(sent_num)-1)
-        sent_num4file_prev = sent_num_prev if len(sent_num_prev) == 4 else "0" * (4-len(sent_num_prev))+sent_num_prev
+		# write the amr_lines into a file with its corresponding sentence number. recall that as we loop through 
+		# the amrs_list, __amr_lines_prev collects lines that are for the preceding sentence. 
+		sent_num_prev = str(int(sent_num)-1)
+		sent_num4file_prev = sent_num_prev if len(sent_num_prev) == 4 else "0" * (4-len(sent_num_prev))+sent_num_prev
 
-        with open (amrs_filepath_structure.format(sent_num4file_prev), 'w') as file:
-            for line in __amr_lines_prev:
-                file.write(line)
-            file.close()
-        sent_written_count+=1
+		with open (amrs_filepath_structure.format(sent_num4file_prev), 'w') as file:
+			for line in __amr_lines_prev:
+				file.write(line)
+			file.close()
+		sent_written_count+=1
 
 
 if __name__== "__main__":
