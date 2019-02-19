@@ -1,0 +1,18 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.1538
+# text = So now I keep wondering : what is happening on his planet ?
+1	So	so	ADV	RB	_	4	advmod	_	_
+2	now	now	ADV	RB	_	4	advmod	_	_
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+4	keep	keep	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	wondering	wondere	VERB	VBG	VerbForm=Ger	4	xcomp	_	_
+6	:	:	PUNCT	:	_	4	punct	_	_
+7	what	what	PRON	WP	PronType=Int	9	nsubj	_	_
+8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	happening	happen	VERB	VBG	Tense=Pres|VerbForm=Part	4	parataxis	_	_
+10	on	on	ADP	IN	_	12	case	_	_
+11	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	nmod:poss	_	_
+12	planet	planet	NOUN	NN	Number=Sing	9	obl	_	_
+13	?	?	PUNCT	.	_	4	punct	_	SpacesAfter=\s\n
+

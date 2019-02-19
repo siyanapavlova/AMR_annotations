@@ -1,0 +1,17 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.1540
+# text = At one time I say to myself : " Surely not !
+1	At	at	ADP	IN	_	3	case	_	_
+2	one	one	NUM	CD	NumType=Card	3	nummod	_	_
+3	time	time	NOUN	NN	Number=Sing	5	obl	_	_
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+5	say	say	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	to	to	ADP	IN	_	7	case	_	_
+7	myself	myself	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	5	obl	_	_
+8	:	:	PUNCT	:	_	5	punct	_	_
+9	"	"	PUNCT	``	_	5	punct	_	_
+10	Surely	surely	ADV	RB	_	11	advmod	_	_
+11	not	not	ADV	RB	_	5	advmod	_	_
+12	!	!	PUNCT	.	_	5	punct	_	SpacesAfter=\s\n
+

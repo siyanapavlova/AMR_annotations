@@ -1,0 +1,14 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.659
+# text = I have n't time to light it again .
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	n't	not	PART	RB	_	4	advmod	_	_
+4	time	time	NOUN	NN	Number=Sing	0	root	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	light	light	VERB	VB	VerbForm=Inf	4	advcl	_	_
+7	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	obj	_	_
+8	again	again	ADV	RB	_	6	advmod	_	_
+9	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\s\n
+

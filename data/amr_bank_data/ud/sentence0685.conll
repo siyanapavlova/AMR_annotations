@@ -1,0 +1,10 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.685
+# text = " Oh , no .
+1	"	"	PUNCT	``	_	4	punct	_	_
+2	Oh	oh	INTJ	UH	_	4	discourse	_	_
+3	,	,	PUNCT	,	_	4	punct	_	_
+4	no	no	INTJ	UH	_	0	root	_	_
+5	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\s\n
+

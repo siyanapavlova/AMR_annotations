@@ -1,0 +1,22 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.277
+# text = You said to me : " I am always thinking that I am at home ! "
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	nsubj	_	_
+2	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	to	to	ADP	IN	_	4	case	_	_
+4	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	2	obl	_	_
+5	:	:	PUNCT	:	_	2	punct	_	_
+6	"	"	PUNCT	``	_	2	punct	_	_
+7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+8	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	aux	_	_
+9	always	always	ADV	RB	_	10	advmod	_	_
+10	thinking	think	VERB	VBG	VerbForm=Ger	2	ccomp	_	_
+11	that	that	SCONJ	IN	_	15	mark	_	_
+12	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj	_	_
+13	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	15	cop	_	_
+14	at	at	ADP	IN	_	15	case	_	_
+15	home	home	NOUN	NN	Number=Sing	10	ccomp	_	_
+16	!	!	PUNCT	.	_	2	punct	_	_
+17	"	"	PUNCT	''	_	2	punct	_	SpacesAfter=\s\n
+

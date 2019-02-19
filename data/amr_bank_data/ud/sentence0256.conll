@@ -1,0 +1,42 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.256
+# text = My friends , like myself , have been skirting this danger for a long time , without ever knowing it ; and so it is for them that I have worked so hard over this drawing .
+1	My	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+2	friends	friend	NOUN	NNS	Number=Plur	9	nsubj	_	_
+3	,	,	PUNCT	,	_	2	punct	_	_
+4	like	like	ADP	IN	_	5	case	_	_
+5	myself	myself	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	2	nmod	_	_
+6	,	,	PUNCT	,	_	9	punct	_	_
+7	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	9	aux	_	_
+8	been	be	AUX	VBN	Tense=Past|VerbForm=Part	9	aux	_	_
+9	skirting	skirt	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+10	this	this	DET	DT	Number=Sing|PronType=Dem	11	det	_	_
+11	danger	danger	NOUN	NN	Number=Sing	9	obj	_	_
+12	for	for	ADP	IN	_	15	case	_	_
+13	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	_	_
+14	long	long	ADJ	JJ	Degree=Pos	15	amod	_	_
+15	time	time	NOUN	NN	Number=Sing	9	obl	_	_
+16	,	,	PUNCT	,	_	9	punct	_	_
+17	without	without	SCONJ	IN	_	19	mark	_	_
+18	ever	ever	ADV	RB	_	19	advmod	_	_
+19	knowing	know	VERB	VBG	VerbForm=Ger	9	advcl	_	_
+20	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	19	obj	_	_
+21	;	;	PUNCT	,	_	9	punct	_	_
+22	and	and	CCONJ	CC	_	27	cc	_	_
+23	so	so	ADV	RB	_	27	advmod	_	_
+24	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	27	nsubj	_	_
+25	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	cop	_	_
+26	for	for	ADP	IN	_	27	case	_	_
+27	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	9	conj	_	_
+28	that	that	SCONJ	IN	_	31	mark	_	_
+29	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	31	nsubj	_	_
+30	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	31	aux	_	_
+31	worked	work	VERB	VBN	Tense=Past|VerbForm=Part	27	acl	_	_
+32	so	so	ADV	RB	_	33	advmod	_	_
+33	hard	hard	ADV	RB	Degree=Pos	31	advmod	_	_
+34	over	over	ADP	IN	_	36	case	_	_
+35	this	this	DET	DT	Number=Sing|PronType=Dem	36	det	_	_
+36	drawing	drawing	NOUN	NN	Number=Sing	31	obl	_	_
+37	.	.	PUNCT	.	_	9	punct	_	SpacesAfter=\s\n
+

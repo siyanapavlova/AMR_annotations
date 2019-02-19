@@ -1,0 +1,19 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.1287
+# text = He laughed , touched the rope , and set the pulley to working .
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	laughed	laugh	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	,	,	PUNCT	,	_	4	punct	_	_
+4	touched	touch	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	rope	rope	NOUN	NN	Number=Sing	4	obj	_	_
+7	,	,	PUNCT	,	_	9	punct	_	_
+8	and	and	CCONJ	CC	_	9	cc	_	_
+9	set	set	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	pulley	pulley	NOUN	NN	Number=Sing	9	obj	_	_
+12	to	to	SCONJ	IN	_	13	mark	_	_
+13	working	work	VERB	VBG	VerbForm=Ger	9	advcl	_	_
+14	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\s\n
+

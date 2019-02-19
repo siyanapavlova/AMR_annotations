@@ -1,0 +1,23 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.866
+# text = Then the geographer would note down two mountains in a place where there was only one . "
+1	Then	then	ADV	RB	PronType=Dem	5	advmod	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	geographer	geographer	NOUN	NN	Number=Sing	5	nsubj	_	_
+4	would	would	AUX	MD	VerbForm=Fin	5	aux	_	_
+5	note	note	VERB	VB	VerbForm=Inf	0	root	_	_
+6	down	down	ADV	RB	_	5	advmod	_	_
+7	two	two	NUM	CD	NumType=Card	8	nummod	_	_
+8	mountains	mountain	NOUN	NNS	Number=Plur	5	obj	_	_
+9	in	in	ADP	IN	_	11	case	_	_
+10	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	_
+11	place	place	NOUN	NN	Number=Sing	8	nmod	_	_
+12	where	where	ADV	WRB	PronType=Rel	14	advmod	_	_
+13	there	there	PRON	EX	_	14	expl	_	_
+14	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	acl:relcl	_	_
+15	only	only	ADV	RB	_	16	advmod	_	_
+16	one	one	NUM	CD	NumType=Card	14	nsubj	_	_
+17	.	.	PUNCT	.	_	5	punct	_	_
+18	"	"	PUNCT	''	_	5	punct	_	SpacesAfter=\s\n
+

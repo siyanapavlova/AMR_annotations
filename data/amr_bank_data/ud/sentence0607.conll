@@ -1,0 +1,31 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.607
+# text = I am about to receive a visit from an admirer ! " he exclaimed from afar , when he first saw the little prince coming .
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+2	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	about	about	ADV	RB	_	5	advmod	_	_
+4	to	to	PART	TO	_	5	mark	_	_
+5	receive	receive	VERB	VB	VerbForm=Inf	0	root	_	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+7	visit	visit	NOUN	NN	Number=Sing	5	obj	_	_
+8	from	from	ADP	IN	_	10	case	_	_
+9	an	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+10	admirer	admirer	NOUN	NN	Number=Sing	5	obl	_	_
+11	!	!	PUNCT	.	_	5	punct	_	_
+12	"	"	PUNCT	''	_	5	punct	_	_
+13	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	_
+14	exclaimed	exclaim	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	ccomp	_	_
+15	from	from	ADP	IN	_	14	obl	_	_
+16	afar	afar	ADV	RB	_	14	advmod	_	_
+17	,	,	PUNCT	,	_	5	punct	_	_
+18	when	when	ADV	WRB	PronType=Int	21	mark	_	_
+19	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	21	nsubj	_	_
+20	first	first	ADV	RB	_	21	advmod	_	_
+21	saw	see	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	advcl	_	_
+22	the	the	DET	DT	Definite=Def|PronType=Art	24	det	_	_
+23	little	little	ADJ	JJ	Degree=Pos	24	amod	_	_
+24	prince	prince	NOUN	NN	Number=Sing	21	obj	_	_
+25	coming	come	VERB	VBG	VerbForm=Ger	24	acl	_	_
+26	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\s\n
+

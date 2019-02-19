@@ -1,0 +1,27 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.41
+# text = The first night , then , I went to sleep on the sand , a thousand miles from any human habitation .
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+2	first	first	ADJ	JJ	Degree=Pos|NumType=Ord	3	amod	_	_
+3	night	night	NOUN	NN	Number=Sing	8	obl:tmod	_	_
+4	,	,	PUNCT	,	_	8	punct	_	_
+5	then	then	ADV	RB	PronType=Dem	8	advmod	_	_
+6	,	,	PUNCT	,	_	8	punct	_	_
+7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+8	went	go	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+9	to	to	PART	TO	_	10	mark	_	_
+10	sleep	sleep	VERB	VB	VerbForm=Inf	8	xcomp	_	_
+11	on	on	ADP	IN	_	13	case	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	sand	sand	NOUN	NN	Number=Sing	10	obl	_	_
+14	,	,	PUNCT	,	_	8	punct	_	_
+15	a	a	DET	DT	Definite=Ind|PronType=Art	17	det	_	_
+16	thousand	thousand	NUM	CD	NumType=Card	17	nummod	_	_
+17	miles	mile	NOUN	NNS	Number=Plur	8	obj	_	_
+18	from	from	ADP	IN	_	21	case	_	_
+19	any	any	DET	DT	_	21	det	_	_
+20	human	human	ADJ	JJ	Degree=Pos	21	amod	_	_
+21	habitation	habitation	NOUN	NN	Number=Sing	17	nmod	_	_
+22	.	.	PUNCT	.	_	8	punct	_	SpacesAfter=\s\n
+

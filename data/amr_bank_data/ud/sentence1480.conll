@@ -1,0 +1,29 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.1480
+# text = But a thought came to reassure him : " It is true that they have no more poison for a second bite . "
+1	But	but	CCONJ	CC	_	4	cc	_	_
+2	a	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	_
+3	thought	thought	NOUN	NN	Number=Sing	4	nsubj	_	_
+4	came	come	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	reassure	reassure	VERB	VB	VerbForm=Inf	4	advcl	_	_
+7	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	obj	_	_
+8	:	:	PUNCT	:	_	4	punct	_	_
+9	"	"	PUNCT	``	_	4	punct	_	_
+10	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
+11	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+12	true	true	ADJ	JJ	Degree=Pos	4	ccomp	_	_
+13	that	that	SCONJ	IN	_	15	mark	_	_
+14	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	15	nsubj	_	_
+15	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	12	ccomp	_	_
+16	no	no	DET	DT	_	18	det	_	_
+17	more	more	ADV	RBR	_	18	advmod	_	_
+18	poison	poison	ADJ	JJ	Degree=Pos	15	obj	_	_
+19	for	for	ADP	IN	_	22	case	_	_
+20	a	a	DET	DT	Definite=Ind|PronType=Art	22	det	_	_
+21	second	second	ADJ	JJ	Degree=Pos|NumType=Ord	22	amod	_	_
+22	bite	bite	NOUN	NN	Number=Sing	18	obl	_	_
+23	.	.	PUNCT	.	_	4	punct	_	_
+24	"	"	PUNCT	''	_	4	punct	_	SpacesAfter=\s\n
+

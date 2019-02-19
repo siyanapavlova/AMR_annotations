@@ -1,0 +1,26 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.155
+# text = On making his discovery , the astronomer had presented it to the International Astronomical Congress , in a great demonstration .
+1	On	on	SCONJ	IN	_	2	mark	_	_
+2	making	make	VERB	VBG	VerbForm=Ger	9	advcl	_	_
+3	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
+4	discovery	discovery	NOUN	NN	Number=Sing	2	obj	_	_
+5	,	,	PUNCT	,	_	9	punct	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	astronomer	astronomer	NOUN	NN	Number=Sing	9	nsubj	_	_
+8	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	9	aux	_	_
+9	presented	present	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+10	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	obj	_	_
+11	to	to	ADP	IN	_	15	case	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+13	International	International	PROPN	NNP	Number=Sing	15	compound	_	_
+14	Astronomical	Astronomical	PROPN	NNP	Number=Sing	15	compound	_	_
+15	Congress	Congress	PROPN	NNP	Number=Sing	9	obl	_	_
+16	,	,	PUNCT	,	_	9	punct	_	_
+17	in	in	ADP	IN	_	20	case	_	_
+18	a	a	DET	DT	Definite=Ind|PronType=Art	20	det	_	_
+19	great	great	ADJ	JJ	Degree=Pos	20	amod	_	_
+20	demonstration	demonstration	NOUN	NN	Number=Sing	9	obl	_	_
+21	.	.	PUNCT	.	_	9	punct	_	SpacesAfter=\s\n
+

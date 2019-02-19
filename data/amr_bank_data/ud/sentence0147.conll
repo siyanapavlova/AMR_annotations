@@ -1,0 +1,34 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.147
+# text = I had thus learned a second fact of great importance : this was that the planet the little prince came from was scarcely any larger than a house !
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	thus	thus	ADV	RB	_	4	advmod	_	_
+4	learned	learn	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	ccomp	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+6	second	second	ADJ	JJ	Degree=Pos|NumType=Ord	7	amod	_	_
+7	fact	fact	NOUN	NN	Number=Sing	4	obj	_	_
+8	of	of	ADP	IN	_	10	case	_	_
+9	great	great	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	importance	importance	NOUN	NN	Number=Sing	7	nmod	_	_
+11	:	:	PUNCT	:	_	2	punct	_	_
+12	this	this	PRON	DT	Number=Sing|PronType=Dem	13	nsubj	_	_
+13	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	parataxis	_	_
+14	that	that	SCONJ	IN	_	20	mark	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	planet	planet	NOUN	NN	Number=Sing	20	nsubj	_	_
+17	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+18	little	little	ADJ	JJ	Degree=Pos	19	amod	_	_
+19	prince	prince	NOUN	NN	Number=Sing	20	nsubj	_	_
+20	came	come	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	13	ccomp	_	_
+21	from	from	ADP	IN	_	25	nsubj	_	_
+22	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	25	cop	_	_
+23	scarcely	scarcely	ADV	RB	_	24	advmod	_	_
+24	any	any	ADV	RB	_	25	advmod	_	_
+25	larger	larger	ADJ	JJR	Degree=Cmp	20	advcl	_	_
+26	than	than	ADP	IN	_	28	case	_	_
+27	a	a	DET	DT	Definite=Ind|PronType=Art	28	det	_	_
+28	house	house	NOUN	NN	Number=Sing	25	obl	_	_
+29	!	!	PUNCT	.	_	2	punct	_	SpacesAfter=\s\n
+

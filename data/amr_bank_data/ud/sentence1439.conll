@@ -1,0 +1,13 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.1439
+# text = I love to hear that laughter ! "
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	love	love	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	to	to	PART	TO	_	4	mark	_	_
+4	hear	hear	VERB	VB	VerbForm=Inf	2	xcomp	_	_
+5	that	that	DET	DT	Number=Sing|PronType=Dem	6	det	_	_
+6	laughter	laughter	NOUN	NN	Number=Sing	4	obj	_	_
+7	!	!	PUNCT	.	_	2	punct	_	_
+8	"	"	PUNCT	''	_	2	punct	_	SpacesAfter=\s\n
+

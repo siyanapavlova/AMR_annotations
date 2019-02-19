@@ -1,0 +1,17 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.255
+# text = I say plainly , " watch out for the baobabs ! "
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	say	say	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	plainly	plainly	ADV	RB	_	2	advmod	_	_
+4	,	,	PUNCT	,	_	2	punct	_	_
+5	"	"	PUNCT	''	_	2	punct	_	_
+6	watch	watch	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+7	out	out	ADP	RP	_	6	compound:prt	_	_
+8	for	for	ADP	IN	_	10	case	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	baobabs	baobab	NOUN	NNS	Number=Plur	6	obl	_	_
+11	!	!	PUNCT	.	_	2	punct	_	_
+12	"	"	PUNCT	''	_	2	punct	_	SpacesAfter=\s\n
+

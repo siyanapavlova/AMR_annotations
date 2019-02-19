@@ -1,0 +1,14 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.623
+# text = But the conceited man did not hear him .
+1	But	but	CCONJ	CC	_	7	cc	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+3	conceited	conceit	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	man	man	NOUN	NN	Number=Sing	7	nsubj	_	_
+5	did	do	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	7	aux	_	_
+6	not	not	PART	RB	_	7	advmod	_	_
+7	hear	hear	VERB	VB	VerbForm=Inf	0	root	_	_
+8	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	obj	_	_
+9	.	.	PUNCT	.	_	7	punct	_	SpacesAfter=\s\n
+

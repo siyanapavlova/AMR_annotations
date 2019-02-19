@@ -1,0 +1,11 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.672
+# text = The businessman raised his head .
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	businessman	businessman	NOUN	NN	Number=Sing	3	nsubj	_	_
+3	raised	raise	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+5	head	head	NOUN	NN	Number=Sing	3	obj	_	_
+6	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\s\n
+

@@ -1,0 +1,13 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.305
+# text = Flowers have thorns just for spite ! "
+1	Flowers	flower	NOUN	NNS	Number=Plur	2	nsubj	_	_
+2	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	thorns	thorn	NOUN	NNS	Number=Plur	2	obj	_	_
+4	just	just	ADV	RB	_	6	advmod	_	_
+5	for	for	ADP	IN	_	6	case	_	_
+6	spite	spite	NOUN	NN	Number=Sing	2	obl	_	_
+7	!	!	PUNCT	.	_	2	punct	_	_
+8	"	"	PUNCT	''	_	2	punct	_	SpacesAfter=\s\n
+

@@ -1,0 +1,23 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.1365
+# text = Another voice must have answered him , for he replied to it : " Yes , yes !
+1	Another	another	DET	DT	_	2	det	_	_
+2	voice	voice	NOUN	NN	Number=Sing	5	nsubj	_	_
+3	must	must	AUX	MD	VerbForm=Fin	5	aux	_	_
+4	have	have	AUX	VB	VerbForm=Inf	5	aux	_	_
+5	answered	answer	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+6	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+7	,	,	PUNCT	,	_	5	punct	_	_
+8	for	for	SCONJ	IN	_	10	mark	_	_
+9	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
+10	replied	reply	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	advcl	_	_
+11	to	to	ADP	IN	_	12	case	_	_
+12	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	obl	_	_
+13	:	:	PUNCT	:	_	5	punct	_	_
+14	"	"	PUNCT	``	_	5	punct	_	_
+15	Yes	yes	INTJ	UH	_	5	discourse	_	_
+16	,	,	PUNCT	,	_	5	punct	_	_
+17	yes	yes	INTJ	UH	_	5	discourse	_	_
+18	!	!	PUNCT	.	_	5	punct	_	SpacesAfter=\s\n
+

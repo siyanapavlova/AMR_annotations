@@ -1,0 +1,12 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.1448
+# text = For my businessman they were wealth .
+1	For	for	ADP	IN	_	3	case	_	_
+2	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	3	nmod:poss	_	_
+3	businessman	businessman	NOUN	NN	Number=Sing	6	obl	_	_
+4	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	_
+5	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	6	cop	_	_
+6	wealth	wealth	ADV	RB	_	0	root	_	_
+7	.	.	PUNCT	.	_	6	punct	_	SpacesAfter=\s\n
+

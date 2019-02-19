@@ -1,0 +1,25 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.1100
+# text = But if you tame me , it will be as if the sun came to shine on my life .
+1	But	but	CCONJ	CC	_	9	cc	_	_
+2	if	if	SCONJ	IN	_	4	mark	_	_
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	_
+4	tame	tame	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	9	advcl	_	_
+5	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	4	obj	_	_
+6	,	,	PUNCT	,	_	9	punct	_	_
+7	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
+8	will	will	AUX	MD	VerbForm=Fin	9	aux	_	_
+9	be	be	AUX	VB	VerbForm=Inf	0	root	_	_
+10	as	as	ADV	RB	_	14	advmod	_	_
+11	if	if	SCONJ	IN	_	14	mark	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	sun	sun	NOUN	NN	Number=Sing	14	nsubj	_	_
+14	came	come	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	9	advcl	_	_
+15	to	to	PART	TO	_	16	mark	_	_
+16	shine	shine	VERB	VB	VerbForm=Inf	14	xcomp	_	_
+17	on	on	ADP	IN	_	19	case	_	_
+18	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	19	nmod:poss	_	_
+19	life	life	NOUN	NN	Number=Sing	16	obl	_	_
+20	.	.	PUNCT	.	_	14	punct	_	SpacesAfter=\s\n
+

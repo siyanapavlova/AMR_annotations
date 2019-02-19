@@ -1,0 +1,15 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.1302
+# text = It was as sweet as some special festival treat .
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
+3	as	as	ADV	RB	_	4	advmod	_	_
+4	sweet	sweet	ADJ	JJ	Degree=Pos	0	root	_	_
+5	as	as	SCONJ	IN	_	9	mark	_	_
+6	some	some	DET	DT	_	9	det	_	_
+7	special	special	ADJ	JJ	Degree=Pos	9	amod	_	_
+8	festival	festival	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	treat	treat	NOUN	NN	Number=Sing	4	advcl	_	_
+10	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\s\n
+

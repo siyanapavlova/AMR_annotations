@@ -1,0 +1,18 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.992
+# text = The little prince crossed the desert and met with only one flower .
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+2	little	little	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	prince	prince	NOUN	NN	Number=Sing	0	root	_	_
+4	crossed	cross	VERB	VBN	Tense=Past|VerbForm=Part	3	acl	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	desert	desert	NOUN	NN	Number=Sing	4	obj	_	_
+7	and	and	CCONJ	CC	_	8	cc	_	_
+8	met	meet	VERB	VBN	Tense=Past|VerbForm=Part	3	conj	_	_
+9	with	with	ADP	IN	_	12	case	_	_
+10	only	only	ADV	RB	_	12	advmod	_	_
+11	one	one	NUM	CD	NumType=Card	12	nummod	_	_
+12	flower	flower	NOUN	NN	Number=Sing	8	obl	_	_
+13	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\s\n
+

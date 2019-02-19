@@ -1,0 +1,23 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.1349
+# text = He never answered questions - - but when one flushes does that not mean " Yes " ?
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	never	never	ADV	RB	_	3	advmod	_	_
+3	answered	answer	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	questions	question	NOUN	NNS	Number=Plur	3	obj	_	_
+5	-	-	PUNCT	,	_	3	punct	_	_
+6	-	-	PUNCT	,	_	3	punct	_	_
+7	but	but	CCONJ	CC	_	11	cc	_	_
+8	when	when	ADV	WRB	PronType=Int	11	mark	_	_
+9	one	one	NUM	CD	NumType=Card	10	nummod	_	_
+10	flushes	flush	NOUN	NNS	Number=Plur	11	nsubj	_	_
+11	does	do	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+12	that	that	SCONJ	IN	_	14	mark	_	_
+13	not	not	PART	RB	_	14	advmod	_	_
+14	mean	mean	VERB	VB	VerbForm=Inf	11	ccomp	_	_
+15	"	"	PUNCT	``	_	14	punct	_	_
+16	Yes	yes	INTJ	UH	_	14	discourse	_	_
+17	"	"	PUNCT	''	_	14	punct	_	_
+18	?	?	PUNCT	.	_	3	punct	_	SpacesAfter=\s\n
+

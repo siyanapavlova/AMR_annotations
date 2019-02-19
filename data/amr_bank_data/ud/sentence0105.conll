@@ -1,0 +1,26 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.105
+# text = The little prince , who asked me so many questions , never seemed to hear the ones I asked him .
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+2	little	little	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	prince	prince	NOUN	NN	Number=Sing	13	nsubj	_	_
+4	,	,	PUNCT	,	_	3	punct	_	_
+5	who	who	PRON	WP	PronType=Rel	6	nsubj	_	_
+6	asked	ask	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	acl:relcl	_	_
+7	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	6	iobj	_	_
+8	so	so	ADV	RB	_	9	advmod	_	_
+9	many	many	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	questions	question	NOUN	NNS	Number=Plur	6	obj	_	_
+11	,	,	PUNCT	,	_	13	punct	_	_
+12	never	never	ADV	RB	_	13	advmod	_	_
+13	seemed	seem	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+14	to	to	PART	TO	_	15	mark	_	_
+15	hear	hear	VERB	VB	VerbForm=Inf	13	xcomp	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+17	ones	one	NOUN	NNS	Number=Plur	15	obj	_	_
+18	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	19	nsubj	_	_
+19	asked	ask	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	17	acl:relcl	_	_
+20	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	obj	_	_
+21	.	.	PUNCT	.	_	13	punct	_	SpacesAfter=\s\n
+

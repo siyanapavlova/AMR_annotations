@@ -1,0 +1,24 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.433
+# text = I believe that for his escape he took advantage of the migration of a flock of wild birds .
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	believe	believe	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	that	that	SCONJ	IN	_	8	mark	_	_
+4	for	for	ADP	IN	_	6	case	_	_
+5	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+6	escape	escape	NOUN	NN	Number=Sing	8	obl	_	_
+7	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
+8	took	take	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	ccomp	_	_
+9	advantage	advantage	NOUN	NN	Number=Sing	8	obj	_	_
+10	of	of	ADP	IN	_	12	case	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	migration	migration	NOUN	NN	Number=Sing	8	obl	_	_
+13	of	of	ADP	IN	_	15	case	_	_
+14	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	_	_
+15	flock	flock	NOUN	NN	Number=Sing	12	nmod	_	_
+16	of	of	ADP	IN	_	18	case	_	_
+17	wild	wild	ADJ	JJ	Degree=Pos	18	amod	_	_
+18	birds	bird	NOUN	NNS	Number=Plur	15	nmod	_	_
+19	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\s\n
+

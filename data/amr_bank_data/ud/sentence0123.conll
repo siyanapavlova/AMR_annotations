@@ -1,0 +1,37 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.123
+# text = At that moment I caught a gleam of light in the impenetrable mystery of his presence ; and I demanded , abruptly : " Do you come from another planet ? "
+1	At	at	ADP	IN	_	3	case	_	_
+2	that	that	DET	DT	Number=Sing|PronType=Dem	3	det	_	_
+3	moment	moment	NOUN	NN	Number=Sing	5	obl	_	_
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+5	caught	catch	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+7	gleam	gleam	NOUN	NN	Number=Sing	5	obj	_	_
+8	of	of	ADP	IN	_	9	case	_	_
+9	light	light	NOUN	NN	Number=Sing	7	nmod	_	_
+10	in	in	ADP	IN	_	13	case	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+12	impenetrable	impenetrable	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	mystery	mystery	NOUN	NN	Number=Sing	5	obl	_	_
+14	of	of	ADP	IN	_	16	case	_	_
+15	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	16	nmod:poss	_	_
+16	presence	presence	NOUN	NN	Number=Sing	13	nmod	_	_
+17	;	;	PUNCT	,	_	5	punct	_	_
+18	and	and	CCONJ	CC	_	20	cc	_	_
+19	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	20	nsubj	_	_
+20	demanded	demand	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	conj	_	_
+21	,	,	PUNCT	,	_	20	punct	_	_
+22	abruptly	abruptly	ADV	RB	_	20	advmod	_	_
+23	:	:	PUNCT	:	_	20	punct	_	_
+24	"	"	PUNCT	``	_	20	punct	_	_
+25	Do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	27	aux	_	_
+26	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	27	nsubj	_	_
+27	come	come	VERB	VB	VerbForm=Inf	20	ccomp	_	_
+28	from	from	ADP	IN	_	30	case	_	_
+29	another	another	DET	DT	_	30	det	_	_
+30	planet	planet	NOUN	NN	Number=Sing	27	obl	_	_
+31	?	?	PUNCT	.	_	5	punct	_	_
+32	"	"	PUNCT	''	_	5	punct	_	SpacesAfter=\s\n
+

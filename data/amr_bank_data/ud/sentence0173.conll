@@ -1,0 +1,21 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.173
+# text = Then they would exclaim : " Oh , what a pretty house that is ! "
+1	Then	then	ADV	RB	PronType=Dem	4	advmod	_	_
+2	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	_
+3	would	would	AUX	MD	VerbForm=Fin	4	aux	_	_
+4	exclaim	exclaim	VERB	VB	VerbForm=Inf	0	root	_	_
+5	:	:	PUNCT	:	_	4	punct	_	_
+6	"	"	PUNCT	``	_	4	punct	_	_
+7	Oh	oh	INTJ	UH	_	9	discourse	_	_
+8	,	,	PUNCT	,	_	9	punct	_	_
+9	what	what	PRON	WP	PronType=Int	4	obj	_	_
+10	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	_
+11	pretty	pretty	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	house	house	NOUN	NN	Number=Sing	9	nsubj	_	_
+13	that	that	PRON	WDT	PronType=Rel	14	nsubj	_	_
+14	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	_
+15	!	!	PUNCT	.	_	4	punct	_	_
+16	"	"	PUNCT	''	_	4	punct	_	SpacesAfter=\s\n
+

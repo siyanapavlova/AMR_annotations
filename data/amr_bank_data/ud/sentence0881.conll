@@ -1,0 +1,21 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.881
+# text = One waits until the explorer has furnished proofs , before putting them down in ink .
+1	One	one	NUM	CD	NumType=Card	2	nummod	_	_
+2	waits	wait	NOUN	NNS	Number=Plur	7	nsubj	_	_
+3	until	until	ADP	IN	_	5	case	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	explorer	explorer	NOUN	NN	Number=Sing	2	nmod	_	_
+6	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	furnished	furnish	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+8	proofs	proof	NOUN	NNS	Number=Plur	7	obj	_	_
+9	,	,	PUNCT	,	_	7	punct	_	_
+10	before	before	SCONJ	IN	_	11	mark	_	_
+11	putting	put	VERB	VBG	VerbForm=Ger	7	advcl	_	_
+12	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	11	obj	_	_
+13	down	down	ADP	RP	_	11	compound:prt	_	_
+14	in	in	ADP	IN	_	15	case	_	_
+15	ink	ink	NOUN	NN	Number=Sing	11	obl	_	_
+16	.	.	PUNCT	.	_	7	punct	_	SpacesAfter=\s\n
+

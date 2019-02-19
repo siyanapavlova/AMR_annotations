@@ -1,0 +1,13 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.1145
+# text = So the little prince tamed the fox .
+1	So	so	ADV	RB	_	5	advmod	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+3	little	little	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	prince	prince	NOUN	NN	Number=Sing	5	nsubj	_	_
+5	tamed	tame	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	fox	fox	NOUN	NN	Number=Sing	5	obj	_	_
+8	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\s\n
+

@@ -1,0 +1,25 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.69
+# text = And I was astounded to hear the little fellow greet it with , " No , no , no !
+1	And	and	CCONJ	CC	_	4	cc	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
+4	astounded	astound	ADJ	JJ	Degree=Pos	0	root	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	hear	hear	VERB	VB	VerbForm=Inf	4	xcomp	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	little	little	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	fellow	fellow	ADJ	JJ	Degree=Pos	6	obj	_	_
+10	greet	greet	VERB	VB	VerbForm=Inf	9	advcl	_	_
+11	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	obj	_	_
+12	with	with	ADP	IN	_	10	obl	_	_
+13	,	,	PUNCT	,	_	4	punct	_	_
+14	"	"	PUNCT	``	_	4	punct	_	_
+15	No	no	INTJ	UH	_	4	discourse	_	_
+16	,	,	PUNCT	,	_	4	punct	_	_
+17	no	no	INTJ	UH	_	4	discourse	_	_
+18	,	,	PUNCT	,	_	4	punct	_	_
+19	no	no	INTJ	UH	_	4	discourse	_	_
+20	!	!	PUNCT	.	_	4	punct	_	SpacesAfter=\s\n
+

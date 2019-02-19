@@ -1,0 +1,33 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.228
+# text = Indeed , as I learned , there were on the planet where the little prince lived -- as on all planets -- good plants and bad plants .
+1	Indeed	indeed	ADV	RB	_	8	advmod	_	_
+2	,	,	PUNCT	,	_	8	punct	_	_
+3	as	as	SCONJ	IN	_	5	mark	_	_
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+5	learned	learn	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	8	advcl	_	_
+6	,	,	PUNCT	,	_	8	punct	_	_
+7	there	there	PRON	EX	_	8	expl	_	_
+8	were	be	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+9	on	on	ADP	IN	_	11	case	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	planet	planet	NOUN	NN	Number=Sing	8	nsubj	_	_
+12	where	were	ADV	WRB	PronType=Rel	16	advmod	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+14	little	little	ADJ	JJ	Degree=Pos	15	amod	_	_
+15	prince	prince	NOUN	NN	Number=Sing	16	nsubj	_	_
+16	lived	live	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	11	acl:relcl	_	_
+17	--	--	PUNCT	,	_	16	punct	_	_
+18	as	as	SCONJ	IN	_	24	mark	_	_
+19	on	on	ADP	IN	_	21	case	_	_
+20	all	all	DET	DT	_	21	det	_	_
+21	planets	planet	NOUN	NNS	Number=Plur	24	nmod	_	_
+22	--	--	PUNCT	,	_	24	punct	_	_
+23	good	good	ADJ	JJ	Degree=Pos	24	amod	_	_
+24	plants	plant	NOUN	NNS	Number=Plur	16	advcl	_	_
+25	and	and	CCONJ	CC	_	27	cc	_	_
+26	bad	bad	ADJ	JJ	Degree=Pos	27	amod	_	_
+27	plants	plant	NOUN	NNS	Number=Plur	24	conj	_	_
+28	.	.	PUNCT	.	_	8	punct	_	SpacesAfter=\s\n
+

@@ -1,0 +1,32 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.1536
+# text = But there is one extraordinary thing ... when I drew the muzzle for the little prince , I forgot to add the leather strap to it .
+1	But	but	CCONJ	CC	_	3	cc	_	_
+2	there	there	PRON	EX	_	3	expl	_	_
+3	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	one	one	NUM	CD	NumType=Card	6	nummod	_	_
+5	extraordinary	extraordinary	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	thing	thing	NOUN	NN	Number=Sing	3	nsubj	_	_
+7	...	...	PUNCT	,	_	3	punct	_	_
+8	when	when	ADV	WRB	PronType=Int	10	mark	_	_
+9	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+10	drew	draw	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	19	advcl	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	muzzle	muzzle	NOUN	NN	Number=Sing	10	obj	_	_
+13	for	for	ADP	IN	_	16	case	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+15	little	little	ADJ	JJ	Degree=Pos	16	amod	_	_
+16	prince	prince	NOUN	NN	Number=Sing	10	obl	_	_
+17	,	,	PUNCT	,	_	19	punct	_	_
+18	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	19	nsubj	_	_
+19	forgot	forget	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	parataxis	_	_
+20	to	to	PART	TO	_	21	mark	_	_
+21	add	add	VERB	VB	VerbForm=Inf	19	xcomp	_	_
+22	the	the	DET	DT	Definite=Def|PronType=Art	24	det	_	_
+23	leather	leather	NOUN	NN	Number=Sing	24	compound	_	_
+24	strap	strap	NOUN	NN	Number=Sing	21	obj	_	_
+25	to	to	ADP	IN	_	26	case	_	_
+26	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	21	obl	_	_
+27	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\s\n
+

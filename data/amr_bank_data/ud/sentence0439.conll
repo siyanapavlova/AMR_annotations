@@ -1,0 +1,15 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.439
+# text = So he cleaned out the extinct volcano , too .
+1	So	so	ADV	RB	_	3	advmod	_	_
+2	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	cleaned	clean	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	out	out	ADP	RP	_	3	compound:prt	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+6	extinct	extinct	NOUN	NN	Number=Sing	7	compound	_	_
+7	volcano	volcano	NOUN	NN	Number=Sing	3	obj	_	_
+8	,	,	PUNCT	,	_	3	punct	_	_
+9	too	too	ADV	RB	_	3	advmod	_	_
+10	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\s\n
+

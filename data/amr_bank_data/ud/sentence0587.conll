@@ -1,0 +1,16 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.587
+# text = From time to time you will condemn him to death .
+1	From	from	ADP	IN	_	2	case	_	_
+2	time	time	NOUN	NN	Number=Sing	7	obl	_	_
+3	to	to	ADP	IN	_	4	case	_	_
+4	time	time	NOUN	NN	Number=Sing	2	nmod	_	_
+5	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	7	nsubj	_	_
+6	will	will	AUX	MD	VerbForm=Fin	7	aux	_	_
+7	condemn	condemn	VERB	VB	VerbForm=Inf	0	root	_	_
+8	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	obj	_	_
+9	to	to	ADP	IN	_	10	case	_	_
+10	death	death	NOUN	NN	Number=Sing	7	obl	_	_
+11	.	.	PUNCT	.	_	7	punct	_	SpacesAfter=\s\n
+

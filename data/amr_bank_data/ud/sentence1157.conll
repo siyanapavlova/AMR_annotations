@@ -1,0 +1,18 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.1157
+# text = The little prince went away , to look again at the roses .
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+2	little	little	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	prince	prince	NOUN	NN	Number=Sing	4	nsubj	_	_
+4	went	go	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+5	away	away	ADV	RB	_	4	advmod	_	_
+6	,	,	PUNCT	,	_	4	punct	_	_
+7	to	to	PART	TO	_	8	mark	_	_
+8	look	look	VERB	VB	VerbForm=Inf	4	advcl	_	_
+9	again	again	ADV	RB	_	8	advmod	_	_
+10	at	at	ADP	IN	_	12	case	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	roses	ros	NOUN	NNS	Number=Plur	8	obl	_	_
+13	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\s\n
+

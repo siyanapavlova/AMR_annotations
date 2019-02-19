@@ -1,0 +1,21 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.1280
+# text = The well that we had come to was not like the wells of the Sahara .
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	well	well	NOUN	NN	Number=Sing	12	nsubj	_	_
+3	that	that	PRON	WDT	PronType=Rel	6	obj	_	_
+4	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	6	nsubj	_	_
+5	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	6	aux	_	_
+6	come	come	VERB	VBN	Tense=Past|VerbForm=Part	2	acl:relcl	_	_
+7	to	to	ADP	IN	_	6	obl	_	_
+8	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	cop	_	_
+9	not	not	PART	RB	_	12	advmod	_	_
+10	like	like	ADP	IN	_	12	case	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	wells	well	NOUN	NNS	Number=Plur	0	root	_	_
+13	of	of	ADP	IN	_	15	case	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+15	Sahara	Sahara	PROPN	NNP	Number=Sing	12	nmod	_	_
+16	.	.	PUNCT	.	_	12	punct	_	SpacesAfter=\s\n
+

@@ -1,0 +1,21 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.1516
+# text = I too sat down , because I was not able to stand up any longer .
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	too	too	ADV	RB	_	3	advmod	_	_
+3	sat	sit	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	down	down	ADP	RP	_	3	compound:prt	_	_
+5	,	,	PUNCT	,	_	3	punct	_	_
+6	because	because	SCONJ	IN	_	10	mark	_	_
+7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+8	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	cop	_	_
+9	not	not	PART	RB	_	10	advmod	_	_
+10	able	able	ADJ	JJ	Degree=Pos	3	advcl	_	_
+11	to	to	PART	TO	_	12	mark	_	_
+12	stand	stand	VERB	VB	VerbForm=Inf	10	xcomp	_	_
+13	up	up	ADP	RP	_	12	compound:prt	_	_
+14	any	any	ADV	RB	_	15	advmod	_	_
+15	longer	longer	ADV	RBR	Degree=Cmp	12	advmod	_	_
+16	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\s\n
+

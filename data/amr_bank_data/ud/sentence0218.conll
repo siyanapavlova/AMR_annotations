@@ -1,0 +1,22 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.218
+# text = But the little prince added : " Then it follows that they also eat baobabs ? "
+1	But	but	CCONJ	CC	_	5	cc	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+3	little	little	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	prince	prince	NOUN	NN	Number=Sing	5	nsubj	_	_
+5	added	add	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+6	:	:	PUNCT	:	_	5	punct	_	_
+7	"	"	PUNCT	``	_	5	punct	_	_
+8	Then	then	ADV	RB	PronType=Dem	10	advmod	_	_
+9	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
+10	follows	follow	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	ccomp	_	_
+11	that	that	SCONJ	IN	_	14	mark	_	_
+12	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	14	nsubj	_	_
+13	also	also	ADV	RB	_	14	advmod	_	_
+14	eat	eat	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	10	ccomp	_	_
+15	baobabs	baobab	NOUN	NNS	Number=Plur	14	obj	_	_
+16	?	?	PUNCT	.	_	5	punct	_	_
+17	"	"	PUNCT	''	_	5	punct	_	SpacesAfter=\s\n
+

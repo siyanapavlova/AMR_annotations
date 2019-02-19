@@ -1,0 +1,39 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.161
+# text = If I have told you these details about the asteroid , and made a note of its number for you , it is on account of the grown - ups and their ways .
+1	If	if	SCONJ	IN	_	4	mark	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+3	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	told	tell	VERB	VBN	Tense=Past|VerbForm=Part	25	advcl	_	_
+5	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	4	iobj	_	_
+6	these	these	DET	DT	Number=Plur|PronType=Dem	7	det	_	_
+7	details	detail	NOUN	NNS	Number=Plur	4	obj	_	_
+8	about	about	ADP	IN	_	10	case	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	asteroid	asteroid	NOUN	NN	Number=Sing	4	obl	_	_
+11	,	,	PUNCT	,	_	13	punct	_	_
+12	and	and	CCONJ	CC	_	13	cc	_	_
+13	made	make	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	conj	_	_
+14	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	_	_
+15	note	note	NOUN	NN	Number=Sing	13	obj	_	_
+16	of	of	ADP	IN	_	18	case	_	_
+17	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	18	nmod:poss	_	_
+18	number	number	NOUN	NN	Number=Sing	15	nmod	_	_
+19	for	for	ADP	IN	_	20	case	_	_
+20	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	18	nmod	_	_
+21	,	,	PUNCT	,	_	25	punct	_	_
+22	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	25	nsubj	_	_
+23	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	cop	_	_
+24	on	on	ADP	IN	_	25	case	_	_
+25	account	account	NOUN	NN	Number=Sing	0	root	_	_
+26	of	of	ADP	IN	_	30	case	_	_
+27	the	the	DET	DT	Definite=Def|PronType=Art	30	det	_	_
+28	grown	grown	VERB	VBN	Tense=Past|VerbForm=Part	30	amod	_	_
+29	-	-	PUNCT	HYPH	_	30	punct	_	_
+30	ups	up	NOUN	NNS	Number=Plur	25	nmod	_	_
+31	and	and	CCONJ	CC	_	33	cc	_	_
+32	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	33	nmod:poss	_	_
+33	ways	way	NOUN	NNS	Number=Plur	25	conj	_	_
+34	.	.	PUNCT	.	_	25	punct	_	SpacesAfter=\s\n
+

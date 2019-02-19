@@ -1,0 +1,15 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.427
+# text = She cast her fragrance and her radiance over me .
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	cast	cast	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
+4	fragrance	fragrance	NOUN	NN	Number=Sing	2	obj	_	_
+5	and	and	CCONJ	CC	_	7	cc	_	_
+6	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+7	radiance	radiance	NOUN	NN	Number=Sing	4	conj	_	_
+8	over	over	ADP	IN	_	9	case	_	_
+9	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	2	obl	_	_
+10	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\s\n
+

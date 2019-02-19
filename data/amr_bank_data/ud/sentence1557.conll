@@ -1,0 +1,29 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.1557
+# text = Look at it carefully so that you will be sure to recognise it in case you travel some day to the African desert .
+1	Look	look	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	at	at	ADP	IN	_	3	case	_	_
+3	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	1	obl	_	_
+4	carefully	carefully	ADV	RB	_	1	advmod	_	_
+5	so	so	ADV	RB	_	1	advmod	_	_
+6	that	that	SCONJ	IN	_	10	mark	_	_
+7	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	10	nsubj	_	_
+8	will	will	AUX	MD	VerbForm=Fin	10	aux	_	_
+9	be	be	AUX	VB	VerbForm=Inf	10	cop	_	_
+10	sure	sure	ADJ	JJ	Degree=Pos	1	ccomp	_	_
+11	to	to	PART	TO	_	12	mark	_	_
+12	recognise	recognise	VERB	VB	VerbForm=Inf	10	xcomp	_	_
+13	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	obj	_	_
+14	in	in	ADP	RP	_	17	mark	_	_
+15	case	case	NOUN	NN	Number=Sing	14	fixed	_	_
+16	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	17	nsubj	_	_
+17	travel	travel	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	12	advcl	_	_
+18	some	some	DET	DT	_	19	det	_	_
+19	day	day	NOUN	NN	Number=Sing	17	obl:tmod	_	_
+20	to	to	ADP	IN	_	23	case	_	_
+21	the	the	DET	DT	Definite=Def|PronType=Art	23	det	_	_
+22	African	african	ADJ	JJ	Degree=Pos	23	amod	_	_
+23	desert	desert	NOUN	NN	Number=Sing	17	obl	_	_
+24	.	.	PUNCT	.	_	1	punct	_	SpacesAfter=\s\n
+

@@ -1,0 +1,17 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.187
+# text = I have suffered too much grief in setting down these memories .
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	suffered	suffer	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+4	too	too	ADV	RB	_	5	advmod	_	_
+5	much	much	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	grief	grief	NOUN	NN	Number=Sing	3	obj	_	_
+7	in	in	SCONJ	IN	_	8	mark	_	_
+8	setting	set	VERB	VBG	VerbForm=Ger	3	advcl	_	_
+9	down	down	ADP	RP	_	8	compound:prt	_	_
+10	these	these	DET	DT	Number=Plur|PronType=Dem	11	det	_	_
+11	memories	memory	NOUN	NNS	Number=Plur	8	obj	_	_
+12	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\s\n
+

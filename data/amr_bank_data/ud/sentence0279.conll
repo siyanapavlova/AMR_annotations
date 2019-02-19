@@ -1,0 +1,23 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.279
+# text = Everybody knows that when it is noon in the United States the sun is setting over France .
+1	Everybody	everybody	PRON	NN	Number=Sing	2	nsubj	_	_
+2	knows	know	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	that	that	SCONJ	IN	_	15	mark	_	_
+4	when	when	ADV	WRB	PronType=Int	7	mark	_	_
+5	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+7	noon	noon	NOUN	NN	Number=Sing	15	advcl	_	_
+8	in	in	ADP	IN	_	11	case	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+10	United	United	PROPN	NNP	Number=Sing	11	compound	_	_
+11	States	States	PROPN	NNP	Number=Sing	7	nmod	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	sun	sun	NOUN	NN	Number=Sing	15	nsubj	_	_
+14	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	setting	set	VERB	VBG	Tense=Pres|VerbForm=Part	2	ccomp	_	_
+16	over	over	ADP	IN	_	17	case	_	_
+17	France	France	PROPN	NNP	Number=Sing	15	obl	_	_
+18	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\s\n
+

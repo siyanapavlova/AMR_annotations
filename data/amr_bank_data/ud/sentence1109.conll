@@ -1,0 +1,16 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.1109
+# text = But you have hair that is the colour of gold .
+1	But	but	CCONJ	CC	_	3	cc	_	_
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	_
+3	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	hair	hair	NOUN	NN	Number=Sing	3	obj	_	_
+5	that	that	PRON	WDT	PronType=Rel	8	nsubj	_	_
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	colour	colour	NOUN	NN	Number=Sing	4	acl:relcl	_	_
+9	of	of	ADP	IN	_	10	case	_	_
+10	gold	gold	NOUN	NN	Number=Sing	8	nmod	_	_
+11	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\s\n
+

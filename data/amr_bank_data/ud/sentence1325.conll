@@ -1,0 +1,31 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.1325
+# text = The little prince looked them over , and laughed as he said : " Your baobabs - - they look a little like cabbages . "
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+2	little	little	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	prince	prince	NOUN	NN	Number=Sing	4	nsubj	_	_
+4	looked	look	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+5	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	4	obj	_	_
+6	over	over	ADV	RB	_	4	advmod	_	_
+7	,	,	PUNCT	,	_	9	punct	_	_
+8	and	and	CCONJ	CC	_	9	cc	_	_
+9	laughed	laugh	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	conj	_	_
+10	as	as	SCONJ	IN	_	12	mark	_	_
+11	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
+12	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	9	advcl	_	_
+13	:	:	PUNCT	:	_	12	punct	_	_
+14	"	"	PUNCT	``	_	12	punct	_	_
+15	Your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	16	nmod:poss	_	_
+16	baobabs	baobab	NOUN	NNS	Number=Plur	12	nsubj	_	_
+17	-	-	PUNCT	,	_	16	punct	_	_
+18	-	-	PUNCT	,	_	16	punct	_	_
+19	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	20	nsubj	_	_
+20	look	look	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	16	parataxis	_	_
+21	a	a	DET	DT	Definite=Ind|PronType=Art	22	det	_	_
+22	little	little	NOUN	NN	Number=Sing	20	obj	_	_
+23	like	like	ADP	IN	_	24	case	_	_
+24	cabbages	cabbage	NOUN	NNS	Number=Plur	22	nmod	_	_
+25	.	.	PUNCT	.	_	4	punct	_	_
+26	"	"	PUNCT	''	_	4	punct	_	SpacesAfter=\s\n
+

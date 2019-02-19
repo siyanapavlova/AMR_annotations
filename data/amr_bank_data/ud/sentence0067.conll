@@ -1,0 +1,21 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.67
+# text = So I drew for him one of the two pictures I had drawn so often .
+1	So	so	ADV	RB	_	3	advmod	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	drew	draw	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	for	for	ADP	IN	_	5	case	_	_
+5	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obl	_	_
+6	one	one	NUM	CD	NumType=Card	3	obj	_	_
+7	of	of	ADP	IN	_	10	case	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+9	two	two	NUM	CD	NumType=Card	10	nummod	_	_
+10	pictures	picture	NOUN	NNS	Number=Plur	6	nmod	_	_
+11	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	_
+12	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	13	aux	_	_
+13	drawn	draw	VERB	VBN	Tense=Past|VerbForm=Part	10	acl:relcl	_	_
+14	so	so	ADV	RB	_	15	advmod	_	_
+15	often	often	ADV	RB	_	3	advmod	_	_
+16	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\s\n
+

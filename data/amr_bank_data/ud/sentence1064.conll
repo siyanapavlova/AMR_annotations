@@ -1,0 +1,11 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.1064
+# text = These are their only interests .
+1	These	these	PRON	DT	Number=Plur|PronType=Dem	5	nsubj	_	_
+2	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+4	only	only	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	interests	interest	NOUN	NNS	Number=Plur	0	root	_	_
+6	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\s\n
+

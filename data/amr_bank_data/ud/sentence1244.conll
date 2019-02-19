@@ -1,0 +1,19 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.1244
+# text = I knew very well that it was impossible to cross - examine him .
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	knew	know	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	very	very	ADV	RB	_	4	advmod	_	_
+4	well	well	ADV	RB	Degree=Pos	2	advmod	_	_
+5	that	that	SCONJ	IN	_	8	mark	_	_
+6	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	expl	_	_
+7	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	cop	_	_
+8	impossible	impossible	ADJ	JJ	Degree=Pos	2	ccomp	_	_
+9	to	to	PART	TO	_	10	mark	_	_
+10	cross	cross	VERB	VB	VerbForm=Inf	8	csubj	_	_
+11	-	-	PUNCT	,	_	2	punct	_	_
+12	examine	examine	VERB	VB	VerbForm=Inf	2	ccomp	_	_
+13	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	obj	_	_
+14	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\s\n
+

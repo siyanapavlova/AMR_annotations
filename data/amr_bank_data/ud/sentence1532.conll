@@ -1,0 +1,14 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.1532
+# text = That is to say - - not entirely .
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	2	nsubj	_	_
+2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	to	to	PART	TO	_	4	mark	_	_
+4	say	say	VERB	VB	VerbForm=Inf	2	ccomp	_	_
+5	-	-	PUNCT	,	_	2	punct	_	_
+6	-	-	PUNCT	,	_	2	punct	_	_
+7	not	not	ADV	RB	_	8	advmod	_	_
+8	entirely	entirely	ADV	RB	_	2	advmod	_	_
+9	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\s\n
+

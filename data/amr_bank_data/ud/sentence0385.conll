@@ -1,0 +1,23 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.385
+# text = And , after working with all this painstaking precision , she yawned and said : " Ah !
+1	And	and	CCONJ	CC	_	12	cc	_	_
+2	,	,	PUNCT	,	_	12	punct	_	_
+3	after	after	SCONJ	IN	_	4	mark	_	_
+4	working	work	VERB	VBG	VerbForm=Ger	12	advcl	_	_
+5	with	with	ADP	IN	_	9	case	_	_
+6	all	all	DET	PDT	_	9	det:predet	_	_
+7	this	this	DET	DT	Number=Sing|PronType=Dem	9	det	_	_
+8	painstaking	painstaking	NOUN	NN	Number=Sing	9	compound	_	_
+9	precision	precision	NOUN	NN	Number=Sing	4	obl	_	_
+10	,	,	PUNCT	,	_	12	punct	_	_
+11	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
+12	yawned	yawn	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+13	and	and	CCONJ	CC	_	14	cc	_	_
+14	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	12	conj	_	_
+15	:	:	PUNCT	:	_	12	punct	_	_
+16	"	"	PUNCT	``	_	12	punct	_	_
+17	Ah	ah	INTJ	UH	_	12	discourse	_	_
+18	!	!	PUNCT	.	_	12	punct	_	SpacesAfter=\s\n
+

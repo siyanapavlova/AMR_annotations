@@ -1,0 +1,8 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.1218
+# text = Chapter 24 .
+1	Chapter	chapter	NOUN	NN	Number=Sing	0	root	_	_
+2	24	24	NUM	CD	NumType=Card	1	nummod	_	_
+3	.	.	PUNCT	.	_	1	punct	_	SpacesAfter=\s\n
+

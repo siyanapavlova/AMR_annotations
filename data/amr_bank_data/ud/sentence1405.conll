@@ -1,0 +1,11 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.1405
+# text = I waited a long time .
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	waited	wait	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+4	long	long	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	time	time	NOUN	NN	Number=Sing	2	obj	_	_
+6	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\s\n
+

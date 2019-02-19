@@ -1,0 +1,21 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.129
+# text = I made a great effort , therefore , to find out more on this subject .
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	made	make	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+4	great	great	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	effort	effort	NOUN	NN	Number=Sing	2	obj	_	_
+6	,	,	PUNCT	,	_	2	punct	_	_
+7	therefore	therefore	ADV	RB	_	10	advmod	_	_
+8	,	,	PUNCT	,	_	10	punct	_	_
+9	to	to	PART	TO	_	10	mark	_	_
+10	find	find	VERB	VB	VerbForm=Inf	2	parataxis	_	_
+11	out	out	ADP	RP	_	10	compound:prt	_	_
+12	more	more	ADJ	JJR	Degree=Cmp	10	obj	_	_
+13	on	on	ADP	IN	_	15	case	_	_
+14	this	this	DET	DT	Number=Sing|PronType=Dem	15	det	_	_
+15	subject	subject	NOUN	NN	Number=Sing	10	obl	_	_
+16	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\s\n
+

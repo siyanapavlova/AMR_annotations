@@ -1,0 +1,12 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.1070
+# text = It means to establish ties . "
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	means	mean	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	to	to	PART	TO	_	4	mark	_	_
+4	establish	establish	VERB	VB	VerbForm=Inf	2	xcomp	_	_
+5	ties	tie	NOUN	NNS	Number=Plur	4	obj	_	_
+6	.	.	PUNCT	.	_	2	punct	_	_
+7	"	"	PUNCT	''	_	2	punct	_	SpacesAfter=\s\n
+

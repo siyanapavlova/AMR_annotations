@@ -1,0 +1,31 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.1131
+# text = " If , for example , you come at four o'clock in the afternoon , then at three o'clock I shall begin to be happy .
+1	"	"	PUNCT	``	_	22	punct	_	_
+2	If	if	SCONJ	IN	_	8	mark	_	_
+3	,	,	PUNCT	,	_	8	punct	_	_
+4	for	for	ADP	IN	_	5	case	_	_
+5	example	example	NOUN	NN	Number=Sing	8	obl	_	_
+6	,	,	PUNCT	,	_	8	punct	_	_
+7	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	8	nsubj	_	_
+8	come	come	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	22	advcl	_	_
+9	at	at	ADP	IN	_	11	case	_	_
+10	four	four	NUM	CD	NumType=Card	11	nummod	_	_
+11	o'clock	o'clock	NOUN	NN	Number=Sing	8	obl	_	_
+12	in	in	ADP	IN	_	14	case	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+14	afternoon	afternoon	NOUN	NN	Number=Sing	11	nmod	_	_
+15	,	,	PUNCT	,	_	22	punct	_	_
+16	then	then	ADV	RB	PronType=Dem	22	advmod	_	_
+17	at	at	ADP	IN	_	19	case	_	_
+18	three	three	NUM	CD	NumType=Card	19	nummod	_	_
+19	o'clock	o'clock	NOUN	NN	Number=Sing	22	obl	_	_
+20	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	22	nsubj	_	_
+21	shall	shall	AUX	MD	VerbForm=Fin	22	aux	_	_
+22	begin	begin	VERB	VB	VerbForm=Inf	0	root	_	_
+23	to	to	PART	TO	_	25	mark	_	_
+24	be	be	AUX	VB	VerbForm=Inf	25	cop	_	_
+25	happy	happy	ADJ	JJ	Degree=Pos	22	xcomp	_	_
+26	.	.	PUNCT	.	_	22	punct	_	SpacesAfter=\s\n
+

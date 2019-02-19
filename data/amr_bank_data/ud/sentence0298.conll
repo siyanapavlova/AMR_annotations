@@ -1,0 +1,25 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.298
+# text = At that moment I was very busy trying to unscrew a bolt that had got stuck in my engine .
+1	At	at	ADP	IN	_	3	case	_	_
+2	that	that	DET	DT	Number=Sing|PronType=Dem	3	det	_	_
+3	moment	moment	NOUN	NN	Number=Sing	7	obl	_	_
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+5	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	cop	_	_
+6	very	very	ADV	RB	_	7	advmod	_	_
+7	busy	busy	ADJ	JJ	Degree=Pos	0	root	_	_
+8	trying	try	VERB	VBG	VerbForm=Ger	7	advcl	_	_
+9	to	to	PART	TO	_	10	mark	_	_
+10	unscrew	unscrew	VERB	VB	VerbForm=Inf	8	xcomp	_	_
+11	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	_
+12	bolt	bolt	NOUN	NN	Number=Sing	10	obj	_	_
+13	that	that	PRON	WDT	PronType=Rel	15	nsubj	_	_
+14	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	15	aux	_	_
+15	got	get	VERB	VBN	Tense=Past|VerbForm=Part	12	acl:relcl	_	_
+16	stuck	stick	ADJ	JJ	Degree=Pos	15	obj	_	_
+17	in	in	ADP	IN	_	19	case	_	_
+18	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	19	nmod:poss	_	_
+19	engine	engine	NOUN	NN	Number=Sing	15	obl	_	_
+20	.	.	PUNCT	.	_	7	punct	_	SpacesAfter=\s\n
+

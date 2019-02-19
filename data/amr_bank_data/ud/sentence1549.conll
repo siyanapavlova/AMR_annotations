@@ -1,0 +1,11 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.1549
+# text = Look up at the sky .
+1	Look	look	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	up	up	ADP	RP	_	1	compound:prt	_	_
+3	at	at	ADP	IN	_	5	case	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	sky	sky	NOUN	NN	Number=Sing	1	obl	_	_
+6	.	.	PUNCT	.	_	1	punct	_	SpacesAfter=\s\n
+

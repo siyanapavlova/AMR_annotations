@@ -1,0 +1,14 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.148
+# text = But that did not really surprise me much .
+1	But	but	CCONJ	CC	_	6	cc	_	_
+2	that	that	PRON	DT	Number=Sing|PronType=Dem	6	nsubj	_	_
+3	did	do	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	6	aux	_	_
+4	not	not	PART	RB	_	6	advmod	_	_
+5	really	really	ADV	RB	_	6	advmod	_	_
+6	surprise	surprise	VERB	VB	VerbForm=Inf	0	root	_	_
+7	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	6	obj	_	_
+8	much	much	ADV	RB	_	6	advmod	_	_
+9	.	.	PUNCT	.	_	6	punct	_	SpacesAfter=\s\n
+

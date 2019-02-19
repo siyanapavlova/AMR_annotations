@@ -1,0 +1,23 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.1413
+# text = And I knew that I could not bear the thought of never hearing that laughter any more .
+1	And	and	CCONJ	CC	_	3	cc	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	knew	know	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	that	that	SCONJ	IN	_	8	mark	_	_
+5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+6	could	could	AUX	MD	VerbForm=Fin	8	aux	_	_
+7	not	not	PART	RB	_	8	advmod	_	_
+8	bear	bear	VERB	VB	VerbForm=Inf	3	ccomp	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	thought	thought	NOUN	NN	Number=Sing	8	obj	_	_
+11	of	of	SCONJ	IN	_	13	mark	_	_
+12	never	never	ADV	RB	_	13	advmod	_	_
+13	hearing	hear	VERB	VBG	VerbForm=Ger	10	acl	_	_
+14	that	that	DET	DT	Number=Sing|PronType=Dem	15	det	_	_
+15	laughter	laughter	NOUN	NN	Number=Sing	13	obj	_	_
+16	any	any	ADV	RB	_	17	advmod	_	_
+17	more	more	ADV	RBR	_	13	advmod	_	_
+18	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\s\n
+

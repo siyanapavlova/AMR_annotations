@@ -1,0 +1,22 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.928
+# text = And never would they make a mistake in the order of their entry upon the stage .
+1	And	and	CCONJ	CC	_	5	cc	_	_
+2	never	never	ADV	RB	_	5	advmod	_	_
+3	would	would	AUX	MD	VerbForm=Fin	5	aux	_	_
+4	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	_
+5	make	make	VERB	VB	VerbForm=Inf	0	root	_	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+7	mistake	mistake	NOUN	NN	Number=Sing	5	obj	_	_
+8	in	in	ADP	IN	_	10	case	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	order	order	NOUN	NN	Number=Sing	5	obl	_	_
+11	of	of	ADP	IN	_	13	case	_	_
+12	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	13	nmod:poss	_	_
+13	entry	entry	NOUN	NN	Number=Sing	10	nmod	_	_
+14	upon	upon	ADP	IN	_	16	case	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	stage	stage	NOUN	NN	Number=Sing	13	nmod	_	_
+17	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\s\n
+

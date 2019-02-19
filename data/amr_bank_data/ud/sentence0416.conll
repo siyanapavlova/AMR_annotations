@@ -1,0 +1,24 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.416
+# text = Then she forced her cough a little more so that he should suffer from remorse just the same .
+1	Then	then	ADV	RB	PronType=Dem	3	advmod	_	_
+2	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	forced	force	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
+5	cough	cough	VERB	VB	VerbForm=Inf	3	xcomp	_	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+7	little	little	ADJ	JJ	Degree=Pos	5	obj	_	_
+8	more	more	ADV	RBR	_	5	advmod	_	_
+9	so	so	SCONJ	IN	_	13	mark	_	_
+10	that	that	SCONJ	IN	_	9	fixed	_	_
+11	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
+12	should	should	AUX	MD	VerbForm=Fin	13	aux	_	_
+13	suffer	suffer	VERB	VB	VerbForm=Inf	3	advcl	_	_
+14	from	from	ADP	IN	_	15	case	_	_
+15	remorse	remorse	NOUN	NN	Number=Sing	13	obl	_	_
+16	just	just	ADV	RB	_	18	advmod	_	_
+17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
+18	same	same	ADJ	JJ	Degree=Pos	13	obl	_	_
+19	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\s\n
+

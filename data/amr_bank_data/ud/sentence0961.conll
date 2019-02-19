@@ -1,0 +1,13 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.961
+# text = But how far away it is ! "
+1	But	but	CCONJ	CC	_	4	cc	_	_
+2	how	how	ADV	WRB	PronType=Int	3	advmod	_	_
+3	far	far	ADV	RB	Degree=Pos	4	advmod	_	_
+4	away	away	ADV	RB	_	0	root	_	_
+5	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+7	!	!	PUNCT	.	_	4	punct	_	_
+8	"	"	PUNCT	''	_	4	punct	_	SpacesAfter=\s\n
+

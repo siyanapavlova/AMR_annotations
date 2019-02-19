@@ -1,0 +1,43 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.1219
+# text = It was now the eighth day since I had had my accident in the desert , and I had listened to the story of the merchant as I was drinking the last drop of my water supply .
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	cop	_	_
+3	now	now	ADV	RB	_	6	advmod	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+5	eighth	eighth	ADJ	JJ	Degree=Pos|NumType=Ord	6	amod	_	_
+6	day	day	NOUN	NN	Number=Sing	0	root	_	_
+7	since	since	SCONJ	IN	_	10	mark	_	_
+8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+9	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	10	aux	_	_
+10	had	have	VERB	VBN	Tense=Past|VerbForm=Part	6	advcl	_	_
+11	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	12	nmod:poss	_	_
+12	accident	accident	NOUN	NN	Number=Sing	10	obj	_	_
+13	in	in	ADP	IN	_	15	case	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+15	desert	desert	NOUN	NN	Number=Sing	10	obl	_	_
+16	,	,	PUNCT	,	_	20	punct	_	_
+17	and	and	CCONJ	CC	_	20	cc	_	_
+18	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	20	nsubj	_	_
+19	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	20	aux	_	_
+20	listened	listen	VERB	VBN	Tense=Past|VerbForm=Part	6	conj	_	_
+21	to	to	ADP	IN	_	23	case	_	_
+22	the	the	DET	DT	Definite=Def|PronType=Art	23	det	_	_
+23	story	story	NOUN	NN	Number=Sing	20	obl	_	_
+24	of	of	ADP	IN	_	26	case	_	_
+25	the	the	DET	DT	Definite=Def|PronType=Art	26	det	_	_
+26	merchant	merchant	NOUN	NN	Number=Sing	23	nmod	_	_
+27	as	as	SCONJ	IN	_	30	mark	_	_
+28	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	30	nsubj	_	_
+29	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	30	aux	_	_
+30	drinking	drink	VERB	VBG	Tense=Pres|VerbForm=Part	20	advcl	_	_
+31	the	the	DET	DT	Definite=Def|PronType=Art	33	det	_	_
+32	last	last	ADJ	JJ	Degree=Pos	33	amod	_	_
+33	drop	drop	NOUN	NN	Number=Sing	30	obj	_	_
+34	of	of	ADP	IN	_	37	case	_	_
+35	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	37	nmod:poss	_	_
+36	water	water	NOUN	NN	Number=Sing	37	compound	_	_
+37	supply	supply	NOUN	NN	Number=Sing	33	nmod	_	_
+38	.	.	PUNCT	.	_	6	punct	_	SpacesAfter=\s\n
+

@@ -1,0 +1,39 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.158
+# text = Fortunately , however , for the reputation of Asteroid B-612 , a Turkish dictator made a law that his subjects , under pain of death , should change to European costume .
+1	Fortunately	fortunately	ADV	RB	_	17	advmod	_	_
+2	,	,	PUNCT	,	_	17	punct	_	_
+3	however	however	ADV	RB	_	17	advmod	_	_
+4	,	,	PUNCT	,	_	17	punct	_	_
+5	for	for	ADP	IN	_	7	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	reputation	reputation	NOUN	NN	Number=Sing	17	obl	_	_
+8	of	of	ADP	IN	_	10	case	_	_
+9	Asteroid	Asteroid	PROPN	NNP	Number=Sing	10	compound	_	_
+10	B	b	PROPN	NNP	Number=Sing	7	nmod	_	SpaceAfter=No
+11	-	-	PUNCT	,	_	10	punct	_	SpaceAfter=No
+12	612	612	NUM	CD	NumType=Card	10	nummod	_	_
+13	,	,	PUNCT	,	_	17	punct	_	_
+14	a	a	DET	DT	Definite=Ind|PronType=Art	16	det	_	_
+15	Turkish	turkish	ADJ	JJ	Degree=Pos	16	amod	_	_
+16	dictator	dictator	NOUN	NN	Number=Sing	17	nsubj	_	_
+17	made	make	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+18	a	a	DET	DT	Definite=Ind|PronType=Art	19	det	_	_
+19	law	law	NOUN	NN	Number=Sing	17	obj	_	_
+20	that	that	SCONJ	IN	_	30	mark	_	_
+21	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	22	nmod:poss	_	_
+22	subjects	subject	NOUN	NNS	Number=Plur	30	nsubj	_	_
+23	,	,	PUNCT	,	_	22	punct	_	_
+24	under	under	ADP	IN	_	25	case	_	_
+25	pain	pain	NOUN	NN	Number=Sing	22	nmod	_	_
+26	of	of	ADP	IN	_	27	case	_	_
+27	death	death	NOUN	NN	Number=Sing	25	nmod	_	_
+28	,	,	PUNCT	,	_	30	punct	_	_
+29	should	should	AUX	MD	VerbForm=Fin	30	aux	_	_
+30	change	change	VERB	VB	VerbForm=Inf	19	acl	_	_
+31	to	to	ADP	IN	_	33	case	_	_
+32	European	european	ADJ	JJ	Degree=Pos	33	amod	_	_
+33	costume	costume	NOUN	NN	Number=Sing	30	obl	_	_
+34	.	.	PUNCT	.	_	17	punct	_	SpacesAfter=\s\n
+

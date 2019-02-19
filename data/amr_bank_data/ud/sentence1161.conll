@@ -1,0 +1,16 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.1161
+# text = You are like my fox when I first knew him .
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	nsubj	_	_
+2	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	like	like	ADP	IN	_	5	case	_	_
+4	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+5	fox	fox	NOUN	NN	Number=Sing	0	root	_	_
+6	when	when	ADV	WRB	PronType=Int	9	mark	_	_
+7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
+8	first	first	ADV	RB	_	9	advmod	_	_
+9	knew	know	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	advcl	_	_
+10	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	obj	_	_
+11	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\s\n
+

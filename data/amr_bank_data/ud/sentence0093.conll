@@ -1,0 +1,32 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.93
+# text = I was very surprised to see a light break over the face of my young judge : " That is exactly the way I wanted it !
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
+3	very	very	ADV	RB	_	4	advmod	_	_
+4	surprised	surprised	ADJ	JJ	Degree=Pos	0	root	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	see	see	VERB	VB	VerbForm=Inf	4	advcl	_	_
+7	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+8	light	light	NOUN	NN	Number=Sing	9	compound	_	_
+9	break	break	NOUN	NN	Number=Sing	6	obj	_	_
+10	over	over	ADP	IN	_	12	case	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	face	face	NOUN	NN	Number=Sing	6	obl	_	_
+13	of	of	ADP	IN	_	16	case	_	_
+14	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	16	nmod:poss	_	_
+15	young	young	ADJ	JJ	Degree=Pos	16	amod	_	_
+16	judge	judge	NOUN	NN	Number=Sing	12	nmod	_	_
+17	:	:	PUNCT	:	_	4	punct	_	_
+18	"	"	PUNCT	``	_	4	punct	_	_
+19	That	that	PRON	DT	Number=Sing|PronType=Dem	23	nsubj	_	_
+20	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	cop	_	_
+21	exactly	exactly	ADV	RB	_	23	advmod	_	_
+22	the	the	DET	DT	Definite=Def|PronType=Art	23	det	_	_
+23	way	way	NOUN	NN	Number=Sing	4	parataxis	_	_
+24	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	25	nsubj	_	_
+25	wanted	want	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	23	acl:relcl	_	_
+26	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	25	obj	_	_
+27	!	!	PUNCT	.	_	4	punct	_	SpacesAfter=\s\n
+

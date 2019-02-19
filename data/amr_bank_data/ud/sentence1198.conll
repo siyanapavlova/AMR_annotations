@@ -1,0 +1,18 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.1198
+# text = And they heard the roaring thunder of a third brilliantly lighted express .
+1	And	and	CCONJ	CC	_	3	cc	_	_
+2	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	_
+3	heard	hear	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+5	roaring	roaring	VERB	VBG	VerbForm=Ger	6	amod	_	_
+6	thunder	thunder	NOUN	NN	Number=Sing	3	obj	_	_
+7	of	of	ADP	IN	_	12	case	_	_
+8	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	_
+9	third	third	ADJ	JJ	Degree=Pos|NumType=Ord	12	amod	_	_
+10	brilliantly	brilliantly	ADV	RB	_	11	advmod	_	_
+11	lighted	light	VERB	VBN	Tense=Past|VerbForm=Part	12	amod	_	_
+12	express	express	NOUN	NNS	Number=Plur	6	nmod	_	_
+13	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\s\n
+

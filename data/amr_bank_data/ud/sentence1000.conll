@@ -1,0 +1,13 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.1000
+# text = I saw them , several years ago .
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	saw	see	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	2	obj	_	_
+4	,	,	PUNCT	,	_	2	punct	_	_
+5	several	several	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	years	year	NOUN	NNS	Number=Plur	7	obl:npmod	_	_
+7	ago	ago	ADV	RB	_	2	advmod	_	_
+8	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\s\n
+

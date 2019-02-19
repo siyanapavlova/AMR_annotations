@@ -1,0 +1,14 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.1527
+# text = And now six years have already gone by ...
+1	And	and	CCONJ	CC	_	7	cc	_	_
+2	now	now	ADV	RB	_	7	advmod	_	_
+3	six	six	NUM	CD	NumType=Card	4	nummod	_	_
+4	years	year	NOUN	NNS	Number=Plur	7	nsubj	_	_
+5	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	7	aux	_	_
+6	already	already	ADV	RB	_	7	advmod	_	_
+7	gone	go	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+8	by	by	ADP	IN	_	7	advmod	_	_
+9	...	...	PUNCT	.	_	7	punct	_	SpacesAfter=\s\n
+

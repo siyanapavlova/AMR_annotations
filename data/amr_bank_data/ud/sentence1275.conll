@@ -1,0 +1,21 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.1275
+# text = And , as I walked on so , I found the well , at daybreak .
+1	And	and	CCONJ	CC	_	10	cc	_	_
+2	,	,	PUNCT	,	_	10	punct	_	_
+3	as	as	SCONJ	IN	_	5	mark	_	_
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+5	walked	walk	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	10	advcl	_	_
+6	on	on	ADP	IN	_	5	compound:prt	_	_
+7	so	so	ADV	RB	_	5	advmod	_	_
+8	,	,	PUNCT	,	_	10	punct	_	_
+9	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+10	found	find	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	well	well	ADJ	JJ	Degree=Pos	10	xcomp	_	_
+13	,	,	PUNCT	,	_	10	punct	_	_
+14	at	at	ADP	IN	_	15	case	_	_
+15	daybreak	daybreak	NOUN	NN	Number=Sing	10	obl	_	_
+16	.	.	PUNCT	.	_	10	punct	_	SpacesAfter=\s\n
+

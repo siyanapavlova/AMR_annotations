@@ -1,0 +1,19 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.575
+# text = On that side , as on this , there was nobody at all ...
+1	On	on	ADP	IN	_	3	case	_	_
+2	that	that	DET	DT	Number=Sing|PronType=Dem	3	det	_	_
+3	side	side	NOUN	NN	Number=Sing	10	obl	_	_
+4	,	,	PUNCT	,	_	10	punct	_	_
+5	as	as	SCONJ	IN	_	7	mark	_	_
+6	on	on	ADP	IN	_	7	case	_	_
+7	this	this	PRON	DT	Number=Sing|PronType=Dem	10	obl	_	_
+8	,	,	PUNCT	,	_	10	punct	_	_
+9	there	there	PRON	EX	_	10	expl	_	_
+10	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+11	nobody	nobody	PRON	NN	Number=Sing	10	nsubj	_	_
+12	at	at	ADV	RB	_	13	case	_	_
+13	all	all	ADV	RB	_	10	obl	_	_
+14	...	...	PUNCT	,	_	10	punct	_	SpacesAfter=\s\n
+

@@ -1,0 +1,28 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.222
+# text = But he made a wise comment : " Before they grow so big , the baobabs start out by being little . "
+1	But	but	CCONJ	CC	_	3	cc	_	_
+2	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	made	make	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+5	wise	wise	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	comment	comment	NOUN	NN	Number=Sing	3	obj	_	_
+7	:	:	PUNCT	:	_	3	punct	_	_
+8	"	"	PUNCT	``	_	3	punct	_	_
+9	Before	before	SCONJ	IN	_	11	mark	_	_
+10	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	11	nsubj	_	_
+11	grow	grow	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	17	advcl	_	_
+12	so	so	ADV	RB	_	11	advmod	_	_
+13	big	big	ADJ	JJ	Degree=Pos	11	advmod	_	_
+14	,	,	PUNCT	,	_	17	punct	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	baobabs	baobab	NOUN	NNS	Number=Plur	17	nsubj	_	_
+17	start	start	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+18	out	out	ADP	RP	_	17	compound:prt	_	_
+19	by	by	SCONJ	IN	_	21	mark	_	_
+20	being	be	AUX	VBG	VerbForm=Ger	21	cop	_	_
+21	little	little	ADJ	JJ	Degree=Pos	17	advcl	_	_
+22	.	.	PUNCT	.	_	3	punct	_	_
+23	"	"	PUNCT	''	_	3	punct	_	SpacesAfter=\s\n
+

@@ -1,0 +1,28 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.6
+# text = After that they are not able to move , and they sleep through the six months that they need for digestion . "
+1	After	after	SCONJ	IN	_	6	mark	_	_
+2	that	that	SCONJ	IN	_	6	mark	_	_
+3	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	_
+4	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	not	not	PART	RB	_	6	advmod	_	_
+6	able	able	ADJ	JJ	Degree=Pos	12	advcl	_	_
+7	to	to	PART	TO	_	8	mark	_	_
+8	move	move	VERB	VB	VerbForm=Inf	6	xcomp	_	_
+9	,	,	PUNCT	,	_	12	punct	_	_
+10	and	and	CCONJ	CC	_	12	cc	_	_
+11	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	12	nsubj	_	_
+12	sleep	sleep	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+13	through	through	ADP	IN	_	16	case	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+15	six	six	NUM	CD	NumType=Card	16	nummod	_	_
+16	months	month	NOUN	NNS	Number=Plur	12	obl	_	_
+17	that	that	SCONJ	IN	_	19	mark	_	_
+18	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	19	nsubj	_	_
+19	need	need	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	12	ccomp	_	_
+20	for	for	ADP	IN	_	21	case	_	_
+21	digestion	digestion	NOUN	NN	Number=Sing	19	obl	_	_
+22	.	.	PUNCT	.	_	12	punct	_	_
+23	"	"	PUNCT	''	_	12	punct	_	SpacesAfter=\s\n
+

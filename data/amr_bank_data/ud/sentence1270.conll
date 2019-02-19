@@ -1,0 +1,46 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.1270
+# text = In the moonlight I looked at his pale forehead , his closed eyes , his locks of hair that trembled in the wind , and I said to myself : " What I see here is nothing but a shell .
+1	In	in	ADP	IN	_	3	case	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	moonlight	moonlight	NOUN	NN	Number=Sing	5	obl	_	_
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+5	looked	look	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+6	at	at	ADP	IN	_	8	case	_	_
+7	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+8	pale	pale	NOUN	NN	Number=Sing	5	obl	_	_
+9	forehead	forehead	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	conj	_	_
+10	,	,	PUNCT	,	_	9	punct	_	_
+11	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	nmod:poss	_	_
+12	closed	close	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	9	ccomp	_	_
+13	eyes	eyes	NOUN	NNS	Number=Plur	12	obj	_	_
+14	,	,	PUNCT	,	_	16	punct	_	_
+15	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	16	nmod:poss	_	_
+16	locks	lock	NOUN	NNS	Number=Plur	12	conj	_	_
+17	of	of	ADP	IN	_	18	case	_	_
+18	hair	hair	NOUN	NN	Number=Sing	16	nmod	_	_
+19	that	that	PRON	WDT	PronType=Rel	20	nsubj	_	_
+20	trembled	tremble	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	18	acl:relcl	_	_
+21	in	in	ADP	IN	_	23	case	_	_
+22	the	the	DET	DT	Definite=Def|PronType=Art	23	det	_	_
+23	wind	wind	NOUN	NN	Number=Sing	20	obl	_	_
+24	,	,	PUNCT	,	_	27	punct	_	_
+25	and	and	CCONJ	CC	_	27	cc	_	_
+26	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	27	nsubj	_	_
+27	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	12	conj	_	_
+28	to	to	ADP	IN	_	29	case	_	_
+29	myself	myself	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	27	obl	_	_
+30	:	:	PUNCT	:	_	12	punct	_	_
+31	"	"	PUNCT	``	_	12	punct	_	_
+32	What	what	PRON	WP	PronType=Int	12	obj	_	_
+33	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	34	nsubj	_	_
+34	see	see	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	32	acl:relcl	_	_
+35	here	here	ADV	RB	PronType=Dem	34	advmod	_	_
+36	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	37	cop	_	_
+37	nothing	nothing	PRON	NN	Number=Sing	5	conj	_	_
+38	but	but	CCONJ	CC	_	40	cc	_	_
+39	a	a	DET	DT	Definite=Ind|PronType=Art	40	det	_	_
+40	shell	shell	NOUN	NN	Number=Sing	37	conj	_	_
+41	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\s\n
+

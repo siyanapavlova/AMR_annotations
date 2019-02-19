@@ -1,0 +1,12 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.1263
+# text = I said to the little prince .
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	to	to	ADP	IN	_	6	case	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+5	little	little	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	prince	prince	NOUN	NN	Number=Sing	2	obl	_	_
+7	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\s\n
+

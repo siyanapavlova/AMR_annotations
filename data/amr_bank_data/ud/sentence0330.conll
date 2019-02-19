@@ -1,0 +1,11 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.330
+# text = He was really very angry .
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	_
+3	really	really	ADV	RB	_	5	advmod	_	_
+4	very	very	ADV	RB	_	5	advmod	_	_
+5	angry	angry	ADJ	JJ	Degree=Pos	0	root	_	_
+6	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\s\n
+

@@ -1,0 +1,17 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.1543
+# text = And there is sweetness in the laughter of all the stars .
+1	And	and	CCONJ	CC	_	3	cc	_	_
+2	there	there	PRON	EX	_	3	expl	_	_
+3	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	sweetness	sweetness	NOUN	NNS	Number=Plur	3	nsubj	_	_
+5	in	in	ADP	IN	_	7	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	laughter	laughter	NOUN	NN	Number=Sing	4	nmod	_	_
+8	of	of	ADP	IN	_	11	case	_	_
+9	all	all	DET	PDT	_	11	det:predet	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	stars	star	NOUN	NNS	Number=Plur	7	nmod	_	_
+12	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\s\n
+

@@ -1,0 +1,39 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.37
+# text = So I lived my life alone , without anyone that I could really talk to , until I had an accident with my plane in the Desert of Sahara , six years ago .
+1	So	so	ADV	RB	_	3	advmod	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	lived	live	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+5	life	life	NOUN	NN	Number=Sing	3	obj	_	_
+6	alone	alone	ADV	RB	_	3	advmod	_	_
+7	,	,	PUNCT	,	_	3	punct	_	_
+8	without	without	ADP	IN	_	9	case	_	_
+9	anyone	anyone	PRON	NN	Number=Sing	3	obl	_	_
+10	that	that	PRON	WDT	PronType=Rel	14	obj	_	_
+11	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	nsubj	_	_
+12	could	could	AUX	MD	VerbForm=Fin	14	aux	_	_
+13	really	really	ADV	RB	_	14	advmod	_	_
+14	talk	talk	VERB	VB	VerbForm=Inf	9	acl:relcl	_	_
+15	to	to	ADP	IN	_	14	obl	_	_
+16	,	,	PUNCT	,	_	3	punct	_	_
+17	until	until	SCONJ	IN	_	19	mark	_	_
+18	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	19	nsubj	_	_
+19	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	advcl	_	_
+20	an	a	DET	DT	Definite=Ind|PronType=Art	21	det	_	_
+21	accident	accident	NOUN	NN	Number=Sing	19	obj	_	_
+22	with	with	ADP	IN	_	24	case	_	_
+23	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	24	nmod:poss	_	_
+24	plane	plane	NOUN	NN	Number=Sing	21	nmod	_	_
+25	in	in	ADP	IN	_	27	case	_	_
+26	the	the	DET	DT	Definite=Def|PronType=Art	27	det	_	_
+27	Desert	desert	PROPN	NNP	Number=Sing	19	obl	_	_
+28	of	of	ADP	IN	_	29	case	_	_
+29	Sahara	Sahara	PROPN	NNP	Number=Sing	27	nmod	_	_
+30	,	,	PUNCT	,	_	3	punct	_	_
+31	six	six	NUM	CD	NumType=Card	32	nummod	_	_
+32	years	year	NOUN	NNS	Number=Plur	33	obl:npmod	_	_
+33	ago	ago	ADV	RB	_	3	advmod	_	_
+34	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\s\n
+

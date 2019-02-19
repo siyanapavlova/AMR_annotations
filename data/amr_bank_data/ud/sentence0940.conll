@@ -1,0 +1,14 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.940
+# text = They fancy themselves as important as the baobabs .
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
+2	fancy	fancy	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	themselves	themselves	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	2	obj	_	_
+4	as	as	ADV	RB	_	5	advmod	_	_
+5	important	important	ADJ	JJ	Degree=Pos	2	xcomp	_	_
+6	as	as	SCONJ	IN	_	8	case	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	baobabs	baobab	NOUN	NNS	Number=Plur	5	obl	_	_
+9	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\s\n
+

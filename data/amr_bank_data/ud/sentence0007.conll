@@ -1,0 +1,18 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.7
+# text = I pondered deeply , then , over the adventures of the jungle .
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	pondered	ponder	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	deeply	deeply	ADV	RB	_	2	advmod	_	_
+4	,	,	PUNCT	,	_	2	punct	_	_
+5	then	then	ADV	RB	PronType=Dem	2	advmod	_	_
+6	,	,	PUNCT	,	_	2	punct	_	_
+7	over	over	ADP	IN	_	9	case	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	adventures	adventure	NOUN	NNS	Number=Plur	2	obl	_	_
+10	of	of	ADP	IN	_	12	case	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	jungle	jungle	NOUN	NN	Number=Sing	9	nmod	_	_
+13	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\s\n
+

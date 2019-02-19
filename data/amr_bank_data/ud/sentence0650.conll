@@ -1,0 +1,26 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.650
+# text = This man was so much occupied that he did not even raise his head at the little prince 's arrival .
+1	This	this	DET	DT	Number=Sing|PronType=Dem	2	det	_	_
+2	man	man	NOUN	NN	Number=Sing	6	nsubj	_	_
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	cop	_	_
+4	so	so	ADV	RB	_	5	advmod	_	_
+5	much	much	ADV	RB	_	6	advmod	_	_
+6	occupied	occupy	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+7	that	that	SCONJ	IN	_	12	mark	_	_
+8	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
+9	did	do	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	12	aux	_	_
+10	not	not	PART	RB	_	12	advmod	_	_
+11	even	even	ADV	RB	_	12	advmod	_	_
+12	raise	raise	VERB	VB	VerbForm=Inf	6	ccomp	_	_
+13	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	14	nmod:poss	_	_
+14	head	head	NOUN	NN	Number=Sing	12	obj	_	_
+15	at	at	ADP	IN	_	20	case	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
+17	little	little	ADJ	JJ	Degree=Pos	18	amod	_	_
+18	prince	prince	NOUN	NN	Number=Sing	20	nmod:poss	_	_
+19	's	's	PART	POS	_	18	case	_	_
+20	arrival	arrival	NOUN	NN	Number=Sing	12	obl	_	_
+21	.	.	PUNCT	.	_	6	punct	_	SpacesAfter=\s\n
+

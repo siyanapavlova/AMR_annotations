@@ -1,0 +1,12 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.519
+# text = But the little prince was wondering ...
+1	But	but	CCONJ	CC	_	6	cc	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+3	little	little	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	prince	prince	NOUN	NN	Number=Sing	6	nsubj	_	_
+5	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	aux	_	_
+6	wondering	wonder	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+7	...	...	PUNCT	.	_	6	punct	_	SpacesAfter=\s\n
+

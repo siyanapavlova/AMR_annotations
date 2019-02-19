@@ -1,0 +1,12 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.190
+# text = To forget a friend is sad .
+1	To	to	PART	TO	_	2	mark	_	_
+2	forget	forget	VERB	VB	VerbForm=Inf	6	csubj	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
+4	friend	friend	NOUN	NN	Number=Sing	2	obj	_	_
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+6	sad	sad	ADJ	JJ	Degree=Pos	0	root	_	_
+7	.	.	PUNCT	.	_	6	punct	_	SpacesAfter=\s\n
+

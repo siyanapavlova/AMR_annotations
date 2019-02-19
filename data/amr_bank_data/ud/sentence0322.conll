@@ -1,0 +1,21 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.322
+# text = Do n't you see - - I am very busy with matters of consequence ! "
+1	Do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	_
+2	n't	not	PART	RB	_	4	advmod	_	_
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	_
+4	see	see	VERB	VB	VerbForm=Inf	0	root	_	_
+5	-	-	PUNCT	,	_	4	punct	_	_
+6	-	-	PUNCT	,	_	4	punct	_	_
+7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+8	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	cop	_	_
+9	very	very	ADV	RB	_	10	advmod	_	_
+10	busy	busy	ADJ	JJ	Degree=Pos	4	parataxis	_	_
+11	with	with	ADP	IN	_	12	case	_	_
+12	matters	matter	NOUN	NNS	Number=Plur	10	obl	_	_
+13	of	of	ADP	IN	_	14	case	_	_
+14	consequence	consequence	NOUN	NN	Number=Sing	12	nmod	_	_
+15	!	!	PUNCT	.	_	4	punct	_	_
+16	"	"	PUNCT	''	_	4	punct	_	SpacesAfter=\s\n
+

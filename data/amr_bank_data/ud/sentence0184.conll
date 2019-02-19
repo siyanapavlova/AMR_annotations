@@ -1,0 +1,44 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.184
+# text = I should have like to say : " Once upon a time there was a little prince who lived on a planet that was scarcely any bigger than himself , and who had need of a sheep ... "
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	should	should	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	have	have	VERB	VB	VerbForm=Inf	0	root	_	_
+4	like	like	ADJ	JJ	Degree=Pos	3	xcomp	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	say	say	VERB	VB	VerbForm=Inf	3	xcomp	_	_
+7	:	:	PUNCT	:	_	6	punct	_	_
+8	"	"	PUNCT	``	_	6	punct	_	_
+9	Once	once	SCONJ	IN	_	14	mark	_	_
+10	upon	upon	ADP	IN	_	12	case	_	_
+11	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	_
+12	time	time	NOUN	NN	Number=Sing	14	obl	_	_
+13	there	there	PRON	EX	_	14	expl	_	_
+14	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	ccomp	_	_
+15	a	a	DET	DT	Definite=Ind|PronType=Art	17	det	_	_
+16	little	little	ADJ	JJ	Degree=Pos	17	amod	_	_
+17	prince	prince	NOUN	NN	Number=Sing	14	nsubj	_	_
+18	who	who	PRON	WP	PronType=Rel	19	nsubj	_	_
+19	lived	live	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	17	acl:relcl	_	_
+20	on	on	ADP	IN	_	22	case	_	_
+21	a	a	DET	DT	Definite=Ind|PronType=Art	22	det	_	_
+22	planet	planet	NOUN	NN	Number=Sing	19	obl	_	_
+23	that	that	PRON	WDT	PronType=Rel	27	nsubj	_	_
+24	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	27	cop	_	_
+25	scarcely	scarcely	ADV	RB	_	27	advmod	_	_
+26	any	any	ADV	RB	_	27	advmod	_	_
+27	bigger	bigger	ADJ	JJR	Degree=Cmp	22	acl:relcl	_	_
+28	than	than	ADP	IN	_	29	case	_	_
+29	himself	himself	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	27	obl	_	_
+30	,	,	PUNCT	,	_	33	punct	_	_
+31	and	and	CCONJ	CC	_	33	cc	_	_
+32	who	who	PRON	WP	PronType=Int	33	nsubj	_	_
+33	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	19	conj	_	_
+34	need	need	NOUN	NN	Number=Sing	33	obj	_	_
+35	of	of	ADP	IN	_	37	case	_	_
+36	a	a	DET	DT	Definite=Ind|PronType=Art	37	det	_	_
+37	sheep	sheep	NOUN	NN	Number=Sing	34	nmod	_	_
+38	...	...	PUNCT	.	_	3	punct	_	_
+39	"	"	PUNCT	''	_	3	punct	_	SpacesAfter=\s\n
+

@@ -1,0 +1,8 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.224
+# text = I said .
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\s\n
+

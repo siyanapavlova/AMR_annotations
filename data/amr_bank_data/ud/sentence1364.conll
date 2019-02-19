@@ -1,0 +1,13 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.1364
+# text = This is not the exact spot . "
+1	This	this	PRON	DT	Number=Sing|PronType=Dem	6	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+3	not	not	PART	RB	_	6	advmod	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+5	exact	exact	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	spot	spot	NOUN	NN	Number=Sing	0	root	_	_
+7	.	.	PUNCT	.	_	6	punct	_	_
+8	"	"	PUNCT	''	_	6	punct	_	SpacesAfter=\s\n
+

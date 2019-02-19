@@ -1,0 +1,20 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.1098
+# text = All the chickens are just alike , and all the men are just alike .
+1	All	all	DET	PDT	_	3	det:predet	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	chickens	chicken	NOUN	NNS	Number=Plur	6	nsubj	_	_
+4	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	just	just	ADV	RB	_	6	advmod	_	_
+6	alike	alike	ADJ	JJ	Degree=Pos	0	root	_	_
+7	,	,	PUNCT	,	_	14	punct	_	_
+8	and	and	CCONJ	CC	_	14	cc	_	_
+9	all	all	DET	PDT	_	11	det:predet	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	men	man	NOUN	NNS	Number=Plur	14	nsubj	_	_
+12	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	14	cop	_	_
+13	just	just	ADV	RB	_	14	advmod	_	_
+14	alike	alike	ADJ	JJ	Degree=Pos	6	conj	_	_
+15	.	.	PUNCT	.	_	6	punct	_	SpacesAfter=\s\n
+

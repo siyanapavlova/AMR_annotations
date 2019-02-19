@@ -1,0 +1,10 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.230
+# text = But seeds are invisible .
+1	But	but	CCONJ	CC	_	2	cc	_	_
+2	seeds	seed	NOUN	NNS	Number=Plur	4	nsubj	_	_
+3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	invisible	invisible	ADJ	JJ	Degree=Pos	0	root	_	_
+5	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\s\n
+

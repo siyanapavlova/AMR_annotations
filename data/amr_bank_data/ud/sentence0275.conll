@@ -1,0 +1,15 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.275
+# text = At first you seemed to be very much surprised .
+1	At	at	ADP	IN	_	2	case	_	_
+2	first	first	ADV	RB	_	4	advmod	_	_
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	_
+4	seemed	seem	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+5	to	to	PART	TO	_	9	mark	_	_
+6	be	be	AUX	VB	VerbForm=Inf	9	cop	_	_
+7	very	very	ADV	RB	_	8	advmod	_	_
+8	much	much	ADV	RB	_	9	advmod	_	_
+9	surprised	surprised	ADJ	JJ	Degree=Pos	4	xcomp	_	_
+10	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\s\n
+

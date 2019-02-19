@@ -1,0 +1,10 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.512
+# text = He tolerated no disobedience .
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	tolerated	tolerate	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	no	no	DET	DT	_	4	det	_	_
+4	disobedience	disobedience	NOUN	NN	Number=Sing	2	obj	_	_
+5	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\s\n
+

@@ -1,0 +1,22 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.923
+# text = The movements of this army would be regulated like those of the ballet in the opera .
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	movements	movement	NOUN	NNS	Number=Plur	8	nsubj:pass	_	_
+3	of	of	ADP	IN	_	5	case	_	_
+4	this	this	DET	DT	Number=Sing|PronType=Dem	5	det	_	_
+5	army	army	NOUN	NN	Number=Sing	2	nmod	_	_
+6	would	would	AUX	MD	VerbForm=Fin	8	aux	_	_
+7	be	be	AUX	VB	VerbForm=Inf	8	aux:pass	_	_
+8	regulated	regulate	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+9	like	like	ADP	IN	_	10	case	_	_
+10	those	those	PRON	DT	Number=Plur|PronType=Dem	8	obl	_	_
+11	of	of	ADP	IN	_	13	case	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	ballet	ballet	NOUN	NN	Number=Sing	10	nmod	_	_
+14	in	in	ADP	IN	_	16	case	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	opera	opera	NOUN	NN	Number=Sing	13	nmod	_	_
+17	.	.	PUNCT	.	_	8	punct	_	SpacesAfter=\s\n
+

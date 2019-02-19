@@ -1,0 +1,19 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.373
+# text = It might , you see , have been a new kind of baobab .
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+2	might	might	AUX	MD	VerbForm=Fin	5	aux	_	_
+3	,	,	PUNCT	,	_	5	punct	_	_
+4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	nsubj	_	_
+5	see	see	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	,	,	PUNCT	,	_	5	punct	_	_
+7	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	11	aux	_	_
+8	been	be	AUX	VBN	Tense=Past|VerbForm=Part	11	cop	_	_
+9	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	_
+10	new	new	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	kind	kind	NOUN	NN	Number=Sing	5	parataxis	_	_
+12	of	of	ADP	IN	_	13	case	_	_
+13	baobab	baobab	NOUN	NN	Number=Sing	11	nmod	_	_
+14	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\s\n
+

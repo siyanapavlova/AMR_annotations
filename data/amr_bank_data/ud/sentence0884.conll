@@ -1,0 +1,11 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.884
+# text = It is all so small .
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	all	all	ADV	RB	_	5	advmod	_	_
+4	so	so	ADV	RB	_	5	advmod	_	_
+5	small	small	ADJ	JJ	Degree=Pos	0	root	_	_
+6	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\s\n
+

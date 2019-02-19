@@ -1,0 +1,12 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.250
+# text = He neglected three little bushes ... "
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	neglected	neglect	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	three	three	NUM	CD	NumType=Card	5	nummod	_	_
+4	little	little	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	bushes	bushe	NOUN	NNS	Number=Plur	2	obj	_	_
+6	...	...	PUNCT	.	_	2	punct	_	_
+7	"	"	PUNCT	''	_	2	punct	_	SpacesAfter=\s\n
+

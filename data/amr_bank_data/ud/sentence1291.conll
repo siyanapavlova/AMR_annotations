@@ -1,0 +1,17 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.1291
+# text = I did not want him to tire himself with the rope .
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	did	do	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	aux	_	_
+3	not	not	PART	RB	_	4	advmod	_	_
+4	want	want	VERB	VB	VerbForm=Inf	0	root	_	_
+5	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
+6	to	to	PART	TO	_	7	mark	_	_
+7	tire	tire	VERB	VB	VerbForm=Inf	4	xcomp	_	_
+8	himself	himself	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	7	obj	_	_
+9	with	with	ADP	IN	_	11	case	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	rope	rope	NOUN	NN	Number=Sing	7	obl	_	_
+12	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\s\n
+

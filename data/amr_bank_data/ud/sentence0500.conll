@@ -1,0 +1,15 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.500
+# text = It is years since I have seen anyone yawning .
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	years	year	NOUN	NNS	Number=Plur	2	obl:tmod	_	_
+4	since	since	SCONJ	IN	_	7	mark	_	_
+5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+6	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	seen	see	VERB	VBN	Tense=Past|VerbForm=Part	2	advcl	_	_
+8	anyone	anyone	PRON	NN	Number=Sing	7	obj	_	_
+9	yawning	yawn	VERB	VBG	VerbForm=Ger	8	acl	_	_
+10	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\s\n
+

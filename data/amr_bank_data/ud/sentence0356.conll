@@ -1,0 +1,22 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.356
+# text = Of what moment now was my hammer , my bolt , or thirst , or death ?
+1	Of	of	ADP	IN	_	2	case	_	_
+2	what	what	DET	WDT	PronType=Int	3	det	_	_
+3	moment	moment	NOUN	NN	Number=Sing	7	nsubj	_	_
+4	now	now	ADV	RB	_	3	advmod	_	_
+5	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	cop	_	_
+6	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+7	hammer	hammer	NOUN	NN	Number=Sing	0	root	_	_
+8	,	,	PUNCT	,	_	7	punct	_	_
+9	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
+10	bolt	bolt	NOUN	NN	Number=Sing	7	appos	_	_
+11	,	,	PUNCT	,	_	13	punct	_	_
+12	or	or	CCONJ	CC	_	13	cc	_	_
+13	thirst	thirst	ADJ	JJS	Degree=Sup	10	conj	_	_
+14	,	,	PUNCT	,	_	16	punct	_	_
+15	or	or	CCONJ	CC	_	16	cc	_	_
+16	death	death	NOUN	NN	Number=Sing	7	conj	_	_
+17	?	?	PUNCT	.	_	7	punct	_	SpacesAfter=\s\n
+

@@ -1,0 +1,44 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.1417
+# text = But he said to me : " Tonight , it will be a year ... my star , then , can be found right above the place where I came to the Earth , a year ago ... "
+1	But	but	CCONJ	CC	_	3	cc	_	_
+2	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	14	advcl	_	_
+4	to	to	ADP	IN	_	5	case	_	_
+5	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	3	obl	_	_
+6	:	:	PUNCT	:	_	3	punct	_	_
+7	"	"	PUNCT	``	_	3	punct	_	_
+8	Tonight	Tonight	NOUN	NN	Number=Sing	3	obl:tmod	_	_
+9	,	,	PUNCT	,	_	14	punct	_	_
+10	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	_
+11	will	will	AUX	MD	VerbForm=Fin	14	aux	_	_
+12	be	be	AUX	VB	VerbForm=Inf	14	cop	_	_
+13	a	a	DET	DT	Definite=Ind|PronType=Art	14	det	_	_
+14	year	year	NOUN	NN	Number=Sing	0	root	_	_
+15	...	...	PUNCT	,	_	14	punct	_	_
+16	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	17	nmod:poss	_	_
+17	star	star	NOUN	NN	Number=Sing	14	appos	_	_
+18	,	,	PUNCT	,	_	14	punct	_	_
+19	then	then	ADV	RB	PronType=Dem	23	advmod	_	_
+20	,	,	PUNCT	,	_	23	punct	_	_
+21	can	can	AUX	MD	VerbForm=Fin	23	aux	_	_
+22	be	be	AUX	VB	VerbForm=Inf	23	aux:pass	_	_
+23	found	find	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	14	parataxis	_	_
+24	right	right	ADV	RB	_	27	advmod	_	_
+25	above	above	ADP	IN	_	27	case	_	_
+26	the	the	DET	DT	Definite=Def|PronType=Art	27	det	_	_
+27	place	place	NOUN	NN	Number=Sing	23	obl	_	_
+28	where	where	ADV	WRB	PronType=Rel	30	advmod	_	_
+29	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	30	nsubj	_	_
+30	came	come	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	27	acl:relcl	_	_
+31	to	to	ADP	IN	_	33	case	_	_
+32	the	the	DET	DT	Definite=Def|PronType=Art	33	det	_	_
+33	Earth	earth	PROPN	NNP	Number=Sing	30	obl	_	_
+34	,	,	PUNCT	,	_	30	punct	_	_
+35	a	a	DET	DT	Definite=Ind|PronType=Art	36	det	_	_
+36	year	year	NOUN	NN	Number=Sing	37	obl:npmod	_	_
+37	ago	ago	ADV	RB	_	30	advmod	_	_
+38	...	...	PUNCT	.	_	14	punct	_	_
+39	"	"	PUNCT	''	_	14	punct	_	SpacesAfter=\s\n
+

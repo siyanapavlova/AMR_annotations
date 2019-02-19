@@ -1,0 +1,21 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.1036
+# text = And here were five thousand of them , all alike , in one single garden !
+1	And	and	CCONJ	CC	_	2	cc	_	_
+2	here	here	ADV	RB	PronType=Dem	0	root	_	_
+3	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	cop	_	_
+4	five	five	NUM	CD	NumType=Card	5	nummod	_	_
+5	thousand	thousand	NUM	CD	NumType=Card	2	nsubj	_	_
+6	of	of	ADP	IN	_	7	case	_	_
+7	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	5	nmod	_	_
+8	,	,	PUNCT	,	_	2	punct	_	_
+9	all	all	ADV	RB	_	10	advmod	_	_
+10	alike	alike	ADJ	JJ	Degree=Pos	2	advmod	_	_
+11	,	,	PUNCT	,	_	2	punct	_	_
+12	in	in	ADP	IN	_	15	case	_	_
+13	one	one	NUM	CD	NumType=Card	15	nummod	_	_
+14	single	single	ADJ	JJ	Degree=Pos	15	amod	_	_
+15	garden	garden	NOUN	NN	Number=Sing	2	obl	_	_
+16	!	!	PUNCT	.	_	2	punct	_	SpacesAfter=\s\n
+

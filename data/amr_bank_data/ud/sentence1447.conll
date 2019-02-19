@@ -1,0 +1,16 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.1447
+# text = For others , who are scholars , they are problems .
+1	For	for	ADP	IN	_	2	case	_	_
+2	others	other	NOUN	NNS	Number=Plur	10	obl	_	_
+3	,	,	PUNCT	,	_	2	punct	_	_
+4	who	who	PRON	WP	PronType=Rel	6	nsubj	_	_
+5	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	cop	_	_
+6	scholars	scholar	NOUN	NNS	Number=Plur	2	acl:relcl	_	_
+7	,	,	PUNCT	,	_	10	punct	_	_
+8	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	10	nsubj	_	_
+9	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	10	cop	_	_
+10	problems	problem	NOUN	NNS	Number=Plur	0	root	_	_
+11	.	.	PUNCT	.	_	10	punct	_	SpacesAfter=\s\n
+

@@ -1,0 +1,32 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.233
+# text = If it is only a sprout of radish or the sprig of a rose - bush , one would let it grow wherever it might wish .
+1	If	if	SCONJ	IN	_	6	mark	_	_
+2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+4	only	only	ADV	RB	_	6	advmod	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+6	sprout	sprout	NOUN	NN	Number=Sing	20	advcl	_	_
+7	of	of	ADP	IN	_	8	case	_	_
+8	radish	radish	NOUN	NN	Number=Sing	6	nmod	_	_
+9	or	or	CCONJ	CC	_	11	cc	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	sprig	sprig	NOUN	NN	Number=Sing	6	conj	_	_
+12	of	of	ADP	IN	_	16	case	_	_
+13	a	a	DET	DT	Definite=Ind|PronType=Art	16	det	_	_
+14	rose	rose	NOUN	NN	Number=Sing	16	compound	_	_
+15	-	-	PUNCT	HYPH	_	16	punct	_	_
+16	bush	bush	NOUN	NN	Number=Sing	11	nmod	_	_
+17	,	,	PUNCT	,	_	20	punct	_	_
+18	one	one	NUM	CD	NumType=Card	20	nsubj	_	_
+19	would	would	AUX	MD	VerbForm=Fin	20	aux	_	_
+20	let	let	VERB	VB	VerbForm=Inf	0	root	_	_
+21	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	20	obj	_	_
+22	grow	grow	VERB	VB	VerbForm=Inf	20	xcomp	_	_
+23	wherever	wherever	ADV	WRB	PronType=Int	26	advmod	_	_
+24	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	26	nsubj	_	_
+25	might	might	AUX	MD	VerbForm=Fin	26	aux	_	_
+26	wish	wish	VERB	VB	VerbForm=Inf	20	parataxis	_	_
+27	.	.	PUNCT	.	_	20	punct	_	SpacesAfter=\s\n
+

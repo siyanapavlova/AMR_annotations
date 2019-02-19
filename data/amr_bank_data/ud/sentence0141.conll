@@ -1,0 +1,8 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.141
+# text = " Anywhere .
+1	"	"	PUNCT	``	_	2	punct	_	_
+2	Anywhere	anywhere	ADV	RB	PronType=Dem	0	root	_	_
+3	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\s\n
+

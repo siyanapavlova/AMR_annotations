@@ -1,0 +1,28 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.811
+# text = When you want to rest , you will walk - - and the day will last as long as you like . "
+1	When	when	ADV	WRB	PronType=Int	3	mark	_	_
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	_
+3	want	want	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	9	advcl	_	_
+4	to	to	PART	TO	_	5	mark	_	_
+5	rest	rest	VERB	VB	VerbForm=Inf	3	xcomp	_	_
+6	,	,	PUNCT	,	_	9	punct	_	_
+7	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	9	nsubj	_	_
+8	will	will	AUX	MD	VerbForm=Fin	9	aux	_	_
+9	walk	walk	VERB	VB	VerbForm=Inf	0	root	_	_
+10	-	-	PUNCT	HYPH	_	11	punct	_	_
+11	-	-	PUNCT	,	_	9	punct	_	_
+12	and	and	CCONJ	CC	_	16	cc	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+14	day	day	NOUN	NN	Number=Sing	16	nsubj	_	_
+15	will	will	AUX	MD	VerbForm=Fin	16	aux	_	_
+16	last	last	VERB	VB	VerbForm=Inf	9	conj	_	_
+17	as	as	ADV	RB	_	18	advmod	_	_
+18	long	long	ADV	RB	Degree=Pos	16	advmod	_	_
+19	as	as	SCONJ	IN	_	21	mark	_	_
+20	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	21	nsubj	_	_
+21	like	like	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	18	advcl	_	_
+22	.	.	PUNCT	.	_	9	punct	_	_
+23	"	"	PUNCT	''	_	9	punct	_	SpacesAfter=\s\n
+

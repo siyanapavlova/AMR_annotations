@@ -1,0 +1,58 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.536
+# text = If he had been master of such complete authority , he would have been able to watch the sunset , not forty - four times in one day , but seventy - two , or even a hundred , or even two hundred times , without ever having to move his chair .
+1	If	if	SCONJ	IN	_	5	mark	_	_
+2	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+3	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	aux	_	_
+4	been	be	AUX	VBN	Tense=Past|VerbForm=Part	5	cop	_	_
+5	master	master	NOUN	NN	Number=Sing	15	advcl	_	_
+6	of	of	ADP	IN	_	9	case	_	_
+7	such	such	ADJ	JJ	Degree=Pos	9	amod	_	_
+8	complete	complete	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	authority	authority	NOUN	NN	Number=Sing	5	nmod	_	_
+10	,	,	PUNCT	,	_	15	punct	_	_
+11	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
+12	would	would	AUX	MD	VerbForm=Fin	15	aux	_	_
+13	have	have	AUX	VB	VerbForm=Inf	15	aux	_	_
+14	been	be	AUX	VBN	Tense=Past|VerbForm=Part	15	cop	_	_
+15	able	able	ADJ	JJ	Degree=Pos	0	root	_	_
+16	to	to	PART	TO	_	17	mark	_	_
+17	watch	watch	VERB	VB	VerbForm=Inf	15	xcomp	_	_
+18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+19	sunset	sunset	NOUN	NN	Number=Sing	17	obj	_	_
+20	,	,	PUNCT	,	_	17	punct	_	_
+21	not	not	ADV	RB	_	22	advmod	_	_
+22	forty	forty	NUM	CD	NumType=Card	25	nummod	_	_
+23	-	-	SYM	SYM	_	24	case	_	_
+24	four	four	NUM	CD	NumType=Card	22	nmod	_	_
+25	times	time	NOUN	NNS	Number=Plur	17	obl:tmod	_	_
+26	in	in	ADP	IN	_	28	case	_	_
+27	one	one	NUM	CD	NumType=Card	28	nummod	_	_
+28	day	day	NOUN	NN	Number=Sing	25	nmod	_	_
+29	,	,	PUNCT	,	_	33	punct	_	_
+30	but	but	CCONJ	CC	_	33	cc	_	_
+31	seventy	seventy	NOUN	NN	Number=Sing	33	compound	_	_
+32	-	-	PUNCT	,	_	33	punct	_	_
+33	two	two	NUM	CD	NumType=Card	15	conj	_	_
+34	,	,	PUNCT	,	_	38	punct	_	_
+35	or	or	CCONJ	CC	_	38	cc	_	_
+36	even	even	ADV	RB	_	38	advmod	_	_
+37	a	a	DET	DT	Definite=Ind|PronType=Art	38	det	_	_
+38	hundred	hundred	NOUN	NN	Number=Sing	33	conj	_	_
+39	,	,	PUNCT	,	_	44	punct	_	_
+40	or	or	CCONJ	CC	_	44	cc	_	_
+41	even	even	ADV	RB	_	44	advmod	_	_
+42	two	two	NUM	CD	NumType=Card	44	nummod	_	_
+43	hundred	hundred	NUM	CD	NumType=Card	44	nummod	_	_
+44	times	time	NOUN	NNS	Number=Plur	33	conj	_	_
+45	,	,	PUNCT	,	_	44	punct	_	_
+46	without	without	SCONJ	IN	_	48	mark	_	_
+47	ever	ever	ADV	RB	_	48	advmod	_	_
+48	having	have	VERB	VBG	VerbForm=Ger	44	advcl	_	_
+49	to	to	PART	TO	_	50	mark	_	_
+50	move	move	VERB	VB	VerbForm=Inf	48	xcomp	_	_
+51	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	52	nmod:poss	_	_
+52	chair	chair	NOUN	NN	Number=Sing	50	obj	_	_
+53	.	.	PUNCT	.	_	15	punct	_	SpacesAfter=\s\n
+

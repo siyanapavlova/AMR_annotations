@@ -1,0 +1,15 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.953
+# text = Then there are no people on the Earth ? "
+1	Then	then	ADV	RB	PronType=Dem	3	advmod	_	_
+2	there	there	PRON	EX	_	3	expl	_	_
+3	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	no	no	DET	DT	_	5	det	_	_
+5	people	people	NOUN	NNS	Number=Plur	3	nsubj	_	_
+6	on	on	ADP	IN	_	8	case	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	Earth	Earth	NOUN	NN	Number=Sing	5	nmod	_	_
+9	?	?	PUNCT	.	_	3	punct	_	_
+10	"	"	PUNCT	''	_	3	punct	_	SpacesAfter=\s\n
+

@@ -1,0 +1,13 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.1267
+# text = I felt deeply moved , and stirred .
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	felt	feel	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	deeply	deeply	ADV	RB	_	4	advmod	_	_
+4	moved	move	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	xcomp	_	_
+5	,	,	PUNCT	,	_	7	punct	_	_
+6	and	and	CCONJ	CC	_	7	cc	_	_
+7	stirred	stir	VERB	VBN	Tense=Past|VerbForm=Part	4	conj	_	_
+8	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\s\n
+

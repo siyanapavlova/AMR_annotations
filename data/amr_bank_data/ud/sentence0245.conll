@@ -1,0 +1,37 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.245
+# text = And one day he said to me : " You ought to make a beautiful drawing , so that the children where you live can see exactly how all this is .
+1	And	and	CCONJ	CC	_	5	cc	_	_
+2	one	one	NUM	CD	NumType=Card	3	nummod	_	_
+3	day	day	NOUN	NN	Number=Sing	5	obl:tmod	_	_
+4	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+5	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+6	to	to	ADP	IN	_	7	case	_	_
+7	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	5	obl	_	_
+8	:	:	PUNCT	:	_	5	punct	_	_
+9	"	"	PUNCT	``	_	5	punct	_	_
+10	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	13	nsubj	_	_
+11	ought	ought	AUX	MD	VerbForm=Fin	13	aux	_	_
+12	to	to	PART	TO	_	13	mark	_	_
+13	make	make	VERB	VB	VerbForm=Inf	5	ccomp	_	_
+14	a	a	DET	DT	Definite=Ind|PronType=Art	16	det	_	_
+15	beautiful	beautiful	ADJ	JJ	Degree=Pos	16	amod	_	_
+16	drawing	drawing	NOUN	NN	Number=Sing	13	obj	_	_
+17	,	,	PUNCT	,	_	13	punct	_	_
+18	so	so	SCONJ	IN	_	26	mark	_	_
+19	that	that	SCONJ	IN	_	18	fixed	_	_
+20	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	_
+21	children	child	NOUN	NNS	Number=Plur	26	nsubj	_	_
+22	where	where	ADV	WRB	PronType=Int	24	advmod	_	_
+23	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	24	nsubj	_	_
+24	live	live	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	21	acl:relcl	_	_
+25	can	can	AUX	MD	VerbForm=Fin	26	aux	_	_
+26	see	see	VERB	VB	VerbForm=Inf	13	advcl	_	_
+27	exactly	exactly	ADV	RB	_	28	advmod	_	_
+28	how	how	ADV	WRB	PronType=Int	26	ccomp	_	_
+29	all	all	ADV	RB	_	30	advmod	_	_
+30	this	this	PRON	DT	Number=Sing|PronType=Dem	31	nsubj	_	_
+31	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	cop	_	_
+32	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\s\n
+

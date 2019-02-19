@@ -1,0 +1,18 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.1434
+# text = My star will just be one of the stars , for you .
+1	My	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+2	star	star	NOUN	NN	Number=Sing	6	nsubj	_	_
+3	will	will	AUX	MD	VerbForm=Fin	6	aux	_	_
+4	just	just	ADV	RB	_	6	advmod	_	_
+5	be	be	AUX	VB	VerbForm=Inf	6	cop	_	_
+6	one	one	NUM	CD	NumType=Card	0	root	_	_
+7	of	of	ADP	IN	_	9	case	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	stars	star	NOUN	NNS	Number=Plur	6	nmod	_	_
+10	,	,	PUNCT	,	_	6	punct	_	_
+11	for	for	ADP	IN	_	12	case	_	_
+12	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	6	nmod	_	_
+13	.	.	PUNCT	.	_	6	punct	_	SpacesAfter=\s\n
+

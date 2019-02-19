@@ -1,0 +1,13 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.378
+# text = She adjusted her petals one by one .
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	adjusted	adjust	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
+4	petals	petal	NOUN	NNS	Number=Plur	2	obj	_	_
+5	one	one	NUM	CD	NumType=Card	2	obj	_	_
+6	by	by	ADP	IN	_	7	case	_	_
+7	one	one	NUM	CD	NumType=Card	2	obl	_	_
+8	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\s\n
+

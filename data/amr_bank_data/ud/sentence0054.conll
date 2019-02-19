@@ -1,0 +1,42 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.54
+# text = The grown - ups discouraged me in my painter 's career when I was six years old , and I never learned to draw anything , except boas from the outside and boas from the inside .
+1	The	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+2	grown	grow	VERB	VBN	Tense=Past|VerbForm=Part	4	amod	_	_
+3	-	-	PUNCT	HYPH	_	4	punct	_	_
+4	ups	up	NOUN	NNS	Number=Plur	5	nsubj	_	_
+5	discouraged	discourage	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+6	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	5	obj	_	_
+7	in	in	ADP	IN	_	11	case	_	_
+8	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	9	nmod:poss	_	_
+9	painter	painter	NOUN	NN	Number=Sing	11	nmod:poss	_	_
+10	's	's	PART	POS	_	9	case	_	_
+11	career	career	NOUN	NN	Number=Sing	5	obl	_	_
+12	when	when	ADV	WRB	PronType=Int	17	mark	_	_
+13	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	17	nsubj	_	_
+14	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	17	cop	_	_
+15	six	six	NUM	CD	NumType=Card	16	nummod	_	_
+16	years	year	NOUN	NNS	Number=Plur	17	obl:npmod	_	_
+17	old	old	ADJ	JJ	Degree=Pos	5	advcl	_	_
+18	,	,	PUNCT	,	_	22	punct	_	_
+19	and	and	CCONJ	CC	_	22	cc	_	_
+20	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	22	nsubj	_	_
+21	never	never	ADV	RB	_	22	advmod	_	_
+22	learned	learn	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	conj	_	_
+23	to	to	PART	TO	_	24	mark	_	_
+24	draw	draw	VERB	VB	VerbForm=Inf	22	xcomp	_	_
+25	anything	anything	PRON	NN	Number=Sing	24	obj	_	_
+26	,	,	PUNCT	,	_	24	punct	_	_
+27	except	except	ADP	IN	_	28	case	_	_
+28	boas	boa	NOUN	NNS	Number=Plur	24	obl	_	_
+29	from	from	ADP	IN	_	33	case	_	_
+30	the	the	DET	DT	Definite=Def|PronType=Art	33	det	_	_
+31	outside	outside	ADJ	JJ	Degree=Pos	33	amod	_	_
+32	and	and	CCONJ	CC	_	33	cc	_	_
+33	boas	boa	NOUN	NNS	Number=Plur	28	nmod	_	_
+34	from	from	ADP	IN	_	36	case	_	_
+35	the	the	DET	DT	Definite=Def|PronType=Art	36	det	_	_
+36	inside	inside	NOUN	NN	Number=Sing	33	nmod	_	_
+37	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\s\n
+

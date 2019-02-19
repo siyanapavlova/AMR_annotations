@@ -1,0 +1,39 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.133
+# text = After a reflective silence he answered : " The thing that is so good about the box you have given me is that at night he can use it as his house . "
+1	After	after	ADP	IN	_	4	case	_	_
+2	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
+3	reflective	reflective	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	silence	silence	NOUN	NN	Number=Sing	6	obl	_	_
+5	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+6	answered	answer	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+7	:	:	PUNCT	:	_	6	punct	_	_
+8	"	"	PUNCT	``	_	6	punct	_	_
+9	The	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	thing	thing	NOUN	NN	Number=Sing	22	nsubj	_	_
+11	that	that	PRON	WDT	PronType=Rel	14	nsubj	_	_
+12	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+13	so	so	ADV	RB	_	14	advmod	_	_
+14	good	good	ADJ	JJ	Degree=Pos	10	acl:relcl	_	_
+15	about	about	ADP	IN	_	17	case	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+17	box	box	NOUN	NN	Number=Sing	14	obl	_	_
+18	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	20	nsubj	_	_
+19	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	20	aux	_	_
+20	given	give	VERB	VBN	Tense=Past|VerbForm=Part	17	acl:relcl	_	_
+21	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	20	iobj	_	_
+22	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	parataxis	_	_
+23	that	that	SCONJ	IN	_	28	mark	_	_
+24	at	at	ADP	IN	_	25	case	_	_
+25	night	night	NOUN	NN	Number=Sing	28	obl	_	_
+26	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	28	nsubj	_	_
+27	can	can	AUX	MD	VerbForm=Fin	28	aux	_	_
+28	use	use	VERB	VB	VerbForm=Inf	22	ccomp	_	_
+29	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	28	obj	_	_
+30	as	as	ADP	IN	_	32	case	_	_
+31	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	32	nmod:poss	_	_
+32	house	house	NOUN	NN	Number=Sing	28	obl	_	_
+33	.	.	PUNCT	.	_	6	punct	_	_
+34	"	"	PUNCT	''	_	6	punct	_	SpacesAfter=\s\n
+

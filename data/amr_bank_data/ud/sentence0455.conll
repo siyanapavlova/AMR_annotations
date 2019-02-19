@@ -1,0 +1,11 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.455
+# text = Try to be happy ... "
+1	Try	try	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	to	to	PART	TO	_	4	mark	_	_
+3	be	be	AUX	VB	VerbForm=Inf	4	cop	_	_
+4	happy	happy	ADJ	JJ	Degree=Pos	1	xcomp	_	_
+5	...	...	PUNCT	.	_	1	punct	_	_
+6	"	"	PUNCT	''	_	1	punct	_	SpacesAfter=\s\n
+

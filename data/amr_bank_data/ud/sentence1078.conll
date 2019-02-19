@@ -1,0 +1,17 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.1078
+# text = To me , you will be unique in all the world .
+1	To	to	ADP	IN	_	2	case	_	_
+2	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	7	obl	_	_
+3	,	,	PUNCT	,	_	7	punct	_	_
+4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	7	nsubj	_	_
+5	will	will	AUX	MD	VerbForm=Fin	7	aux	_	_
+6	be	be	AUX	VB	VerbForm=Inf	7	cop	_	_
+7	unique	unique	ADJ	JJ	Degree=Pos	0	root	_	_
+8	in	in	ADP	IN	_	11	case	_	_
+9	all	all	DET	PDT	_	11	det:predet	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	world	world	NOUN	NN	Number=Sing	7	obl	_	_
+12	.	.	PUNCT	.	_	7	punct	_	SpacesAfter=\s\n
+

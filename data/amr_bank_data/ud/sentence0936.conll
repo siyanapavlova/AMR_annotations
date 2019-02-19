@@ -1,0 +1,50 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.936
+# text = If the two billion inhabitants who people its surface were all to stand upright and somewhat crowded together , as they do for some big public assembly , they could easily be put into one public square twenty miles long and twenty miles wide .
+1	If	if	SCONJ	IN	_	5	mark	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+3	two	two	NUM	CD	NumType=Card	4	compound	_	_
+4	billion	billion	NUM	CD	NumType=Card	5	compound	_	_
+5	inhabitants	inhabitant	NOUN	NNS	Number=Plur	33	advcl	_	_
+6	who	who	PRON	WP	PronType=Rel	13	nsubj	_	_
+7	people	people	NOUN	NNS	Number=Plur	13	nsubj	_	_
+8	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	nmod:poss	_	_
+9	surface	surface	NOUN	NN	Number=Sing	7	nsubj	_	_
+10	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	13	cop	_	_
+11	all	all	ADV	RB	_	13	advmod	_	_
+12	to	to	PART	TO	_	13	mark	_	_
+13	stand	stand	VERB	VB	VerbForm=Inf	5	acl:relcl	_	_
+14	upright	upright	ADJ	JJ	Degree=Pos	13	obj	_	_
+15	and	and	CCONJ	CC	_	17	cc	_	_
+16	somewhat	somewhat	ADV	RB	_	17	advmod	_	_
+17	crowded	crowd	VERB	VBN	Tense=Past|VerbForm=Part	13	conj	_	_
+18	together	together	ADV	RB	_	17	advmod	_	_
+19	,	,	PUNCT	,	_	13	punct	_	_
+20	as	as	SCONJ	IN	_	22	mark	_	_
+21	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	22	nsubj	_	_
+22	do	do	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	13	advcl	_	_
+23	for	for	ADP	IN	_	27	case	_	_
+24	some	some	DET	DT	_	27	det	_	_
+25	big	big	ADJ	JJ	Degree=Pos	27	amod	_	_
+26	public	public	ADJ	JJ	Degree=Pos	27	amod	_	_
+27	assembly	assembly	NOUN	NN	Number=Sing	22	obl	_	_
+28	,	,	PUNCT	,	_	33	punct	_	_
+29	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	33	nsubj:pass	_	_
+30	could	could	AUX	MD	VerbForm=Fin	33	aux	_	_
+31	easily	easily	ADV	RB	_	33	advmod	_	_
+32	be	be	AUX	VB	VerbForm=Inf	33	aux:pass	_	_
+33	put	put	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+34	into	into	ADP	IN	_	39	case	_	_
+35	one	one	NUM	CD	NumType=Card	39	nummod	_	_
+36	public	public	ADJ	JJ	Degree=Pos	37	amod	_	_
+37	square	square	NOUN	NN	Number=Sing	39	compound	_	_
+38	twenty	twenty	NUM	CD	NumType=Card	39	nummod	_	_
+39	miles	mile	NOUN	NNS	Number=Plur	33	obl	_	_
+40	long	long	ADV	RB	Degree=Pos	44	advmod	_	_
+41	and	and	CCONJ	CC	_	43	cc	_	_
+42	twenty	twenty	NUM	CD	NumType=Card	43	nummod	_	_
+43	miles	mile	NOUN	NNS	Number=Plur	40	conj	_	_
+44	wide	wide	ADV	RB	_	33	advmod	_	_
+45	.	.	PUNCT	.	_	33	punct	_	SpacesAfter=\s\n
+

@@ -1,0 +1,19 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.1556
+# text = It is here that the little prince appeared on Earth , and disappeared .
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	here	here	ADV	RB	PronType=Dem	0	root	_	_
+4	that	that	SCONJ	IN	_	8	mark	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+6	little	little	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	prince	prince	NOUN	NN	Number=Sing	8	nsubj	_	_
+8	appeared	appear	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	acl:relcl	_	_
+9	on	on	ADP	IN	_	10	case	_	_
+10	Earth	earth	PROPN	NNP	Number=Sing	8	obl	_	_
+11	,	,	PUNCT	,	_	13	punct	_	_
+12	and	and	CCONJ	CC	_	13	cc	_	_
+13	disappeared	disappear	ADJ	JJ	Degree=Pos	8	conj	_	_
+14	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\s\n
+

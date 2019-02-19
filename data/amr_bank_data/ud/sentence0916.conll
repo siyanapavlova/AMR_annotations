@@ -1,0 +1,17 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.916
+# text = And the little prince went away , thinking of his flower .
+1	And	and	CCONJ	CC	_	5	cc	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+3	little	little	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	prince	prince	NOUN	NN	Number=Sing	5	nsubj	_	_
+5	went	go	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+6	away	away	ADV	RB	_	5	advmod	_	_
+7	,	,	PUNCT	,	_	5	punct	_	_
+8	thinking	think	VERB	VBG	VerbForm=Ger	5	advcl	_	_
+9	of	of	ADP	IN	_	11	case	_	_
+10	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
+11	flower	flower	NOUN	NN	Number=Sing	8	obl	_	_
+12	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\s\n
+

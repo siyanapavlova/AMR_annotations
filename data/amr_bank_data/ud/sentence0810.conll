@@ -1,0 +1,20 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.810
+# text = To be always in the sunshine , you need only walk along rather slowly .
+1	To	to	PART	TO	_	6	mark	_	_
+2	be	be	AUX	VB	VerbForm=Inf	6	cop	_	_
+3	always	always	ADV	RB	_	6	advmod	_	_
+4	in	in	ADP	IN	_	6	case	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	sunshine	sunshine	NOUN	NN	Number=Sing	9	advcl	_	_
+7	,	,	PUNCT	,	_	9	punct	_	_
+8	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	9	nsubj	_	_
+9	need	need	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	only	only	ADV	RB	_	11	advmod	_	_
+11	walk	walk	VERB	VB	VerbForm=Inf	9	ccomp	_	_
+12	along	along	ADV	RB	_	14	advmod	_	_
+13	rather	rather	ADV	RB	_	14	advmod	_	_
+14	slowly	slowly	ADV	RB	_	11	advmod	_	_
+15	.	.	PUNCT	.	_	9	punct	_	SpacesAfter=\s\n
+

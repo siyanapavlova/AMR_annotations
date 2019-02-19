@@ -1,0 +1,47 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.1306
+# text = When I was a little boy , the lights of the Christmas tree , the music of the Midnight Mass , the tenderness of smiling faces , used to make up , so , the radiance of the gifts I received .
+1	When	when	ADV	WRB	PronType=Int	6	mark	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	cop	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+5	little	little	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	boy	boy	NOUN	NN	Number=Sing	23	advcl	_	_
+7	,	,	PUNCT	,	_	23	punct	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	lights	light	NOUN	NNS	Number=Plur	23	nsubj	_	_
+10	of	of	ADP	IN	_	13	case	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+12	Christmas	Christmas	PROPN	NNP	Number=Sing	13	compound	_	_
+13	tree	tree	NOUN	NN	Number=Sing	9	nmod	_	_
+14	,	,	PUNCT	,	_	23	punct	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	music	music	NOUN	NN	Number=Sing	23	nsubj	_	_
+17	of	of	ADP	IN	_	20	case	_	_
+18	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	_
+19	Midnight	Midnight	PROPN	NNP	Number=Sing	20	compound	_	_
+20	Mass	mass	PROPN	NNP	Number=Sing	16	nmod	_	_
+21	,	,	PUNCT	,	_	20	punct	_	_
+22	the	the	DET	DT	Definite=Def|PronType=Art	23	det	_	_
+23	tenderness	tenderness	NOUN	NNS	Number=Plur	0	root	_	_
+24	of	of	SCONJ	IN	_	25	mark	_	_
+25	smiling	smile	VERB	VBG	VerbForm=Ger	23	acl	_	_
+26	faces	face	NOUN	NNS	Number=Plur	25	obj	_	_
+27	,	,	PUNCT	,	_	25	punct	_	_
+28	used	use	VERB	VBN	Tense=Past|VerbForm=Part	23	acl	_	_
+29	to	to	PART	TO	_	30	mark	_	_
+30	make	make	VERB	VB	VerbForm=Inf	28	xcomp	_	_
+31	up	up	ADP	RP	_	30	compound:prt	_	_
+32	,	,	PUNCT	,	_	30	punct	_	_
+33	so	so	ADV	RB	_	30	advmod	_	_
+34	,	,	PUNCT	,	_	30	punct	_	_
+35	the	the	DET	DT	Definite=Def|PronType=Art	36	det	_	_
+36	radiance	radiance	NOUN	NN	Number=Sing	30	obj	_	_
+37	of	of	ADP	IN	_	39	case	_	_
+38	the	the	DET	DT	Definite=Def|PronType=Art	39	det	_	_
+39	gifts	gift	NOUN	NNS	Number=Plur	36	nmod	_	_
+40	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	41	nsubj	_	_
+41	received	receive	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	39	acl:relcl	_	_
+42	.	.	PUNCT	.	_	23	punct	_	SpacesAfter=\s\n
+

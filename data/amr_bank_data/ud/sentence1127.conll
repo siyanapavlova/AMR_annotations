@@ -1,0 +1,12 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.1127
+# text = Words are the source of misunderstandings .
+1	Words	word	NOUN	NNS	Number=Plur	4	nsubj	_	_
+2	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	source	source	NOUN	NN	Number=Sing	0	root	_	_
+5	of	of	ADP	IN	_	6	case	_	_
+6	misunderstandings	misunderstanding	NOUN	NNS	Number=Plur	4	nmod	_	_
+7	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\s\n
+

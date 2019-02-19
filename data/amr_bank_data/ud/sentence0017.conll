@@ -1,0 +1,8 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.17
+# text = My Drawing Number
+1	My	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+2	Drawing	Drawing	PROPN	NNP	Number=Sing	0	root	_	_
+3	Number	number	PROPN	NNP	Number=Sing	2	flat	_	_
+

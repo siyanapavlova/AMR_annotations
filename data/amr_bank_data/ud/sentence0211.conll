@@ -1,0 +1,26 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.211
+# text = It was in this way that I heard , on the third day , about the catastrophe of the baobabs .
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	_
+3	in	in	ADP	IN	_	5	case	_	_
+4	this	this	DET	DT	Number=Sing|PronType=Dem	5	det	_	_
+5	way	way	NOUN	NN	Number=Sing	0	root	_	_
+6	that	that	PRON	WDT	PronType=Rel	8	obj	_	_
+7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+8	heard	hear	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	acl:relcl	_	_
+9	,	,	PUNCT	,	_	5	punct	_	_
+10	on	on	ADP	IN	_	13	case	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+12	third	third	ADJ	JJ	Degree=Pos|NumType=Ord	13	amod	_	_
+13	day	day	NOUN	NN	Number=Sing	5	obl	_	_
+14	,	,	PUNCT	,	_	5	punct	_	_
+15	about	about	ADP	IN	_	17	case	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+17	catastrophe	catastrophe	NOUN	NN	Number=Sing	5	nmod	_	_
+18	of	of	ADP	IN	_	20	case	_	_
+19	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	_
+20	baobabs	baobab	NOUN	NNS	Number=Plur	17	nmod	_	_
+21	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\s\n
+

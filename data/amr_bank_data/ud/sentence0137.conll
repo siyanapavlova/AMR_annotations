@@ -1,0 +1,11 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.137
+# text = What a queer idea ! "
+1	What	what	DET	WDT	PronType=Int	4	det	_	_
+2	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
+3	queer	queer	NOUN	NN	Number=Sing	4	compound	_	_
+4	idea	idea	NOUN	NN	Number=Sing	0	root	_	_
+5	!	!	PUNCT	.	_	4	punct	_	_
+6	"	"	PUNCT	''	_	4	punct	_	SpacesAfter=\s\n
+

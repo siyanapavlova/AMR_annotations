@@ -1,0 +1,23 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.734
+# text = If I owned a flower , I could pluck that flower and take it away with me .
+1	If	if	SCONJ	IN	_	3	mark	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	owned	own	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	9	advcl	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+5	flower	flower	NOUN	NN	Number=Sing	3	obj	_	_
+6	,	,	PUNCT	,	_	9	punct	_	_
+7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
+8	could	could	AUX	MD	VerbForm=Fin	9	aux	_	_
+9	pluck	plike	VERB	VB	VerbForm=Inf	0	root	_	_
+10	that	that	DET	DT	Number=Sing|PronType=Dem	11	det	_	_
+11	flower	flower	NOUN	NN	Number=Sing	9	obj	_	_
+12	and	and	CCONJ	CC	_	13	cc	_	_
+13	take	take	VERB	VB	VerbForm=Inf	9	conj	_	_
+14	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	obj	_	_
+15	away	away	ADV	RB	_	13	advmod	_	_
+16	with	with	ADP	IN	_	17	case	_	_
+17	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	13	obl	_	_
+18	.	.	PUNCT	.	_	9	punct	_	SpacesAfter=\s\n
+

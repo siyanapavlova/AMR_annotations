@@ -1,0 +1,37 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.1226
+# text = He did not follow my reasoning , and he answered me : " It is a good thing to have had a friend , even if one is about to die .
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	did	do	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	aux	_	_
+3	not	not	PART	RB	_	4	advmod	_	_
+4	follow	follow	VERB	VB	VerbForm=Inf	0	root	_	_
+5	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+6	reasoning	reasoning	NOUN	NN	Number=Sing	4	obj	_	_
+7	,	,	PUNCT	,	_	10	punct	_	_
+8	and	and	CCONJ	CC	_	10	cc	_	_
+9	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
+10	answered	answer	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	conj	_	_
+11	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	10	obj	_	_
+12	:	:	PUNCT	:	_	10	punct	_	_
+13	"	"	PUNCT	``	_	10	punct	_	_
+14	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	_
+15	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
+16	a	a	DET	DT	Definite=Ind|PronType=Art	18	det	_	_
+17	good	good	ADJ	JJ	Degree=Pos	18	amod	_	_
+18	thing	thing	NOUN	NN	Number=Sing	10	ccomp	_	_
+19	to	to	PART	TO	_	21	mark	_	_
+20	have	have	AUX	VB	VerbForm=Inf	21	aux	_	_
+21	had	have	VERB	VBN	Tense=Past|VerbForm=Part	18	acl	_	_
+22	a	a	DET	DT	Definite=Ind|PronType=Art	23	det	_	_
+23	friend	friend	NOUN	NN	Number=Sing	21	obj	_	_
+24	,	,	PUNCT	,	_	4	punct	_	_
+25	even	even	ADV	RB	_	29	advmod	_	_
+26	if	if	SCONJ	IN	_	29	mark	_	_
+27	one	one	NOUN	NN	Number=Sing	29	nsubj	_	_
+28	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	cop	_	_
+29	about	about	ADJ	JJ	Degree=Pos	4	advcl	_	_
+30	to	to	PART	TO	_	31	mark	_	_
+31	die	die	VERB	VB	VerbForm=Inf	29	xcomp	_	_
+32	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\s\n
+

@@ -1,0 +1,16 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.689
+# text = Little golden objects that set lazy men to idle dreaming .
+1	Little	little	ADJ	JJ	Degree=Pos	3	amod	_	_
+2	golden	golden	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	objects	object	NOUN	NNS	Number=Plur	0	root	_	_
+4	that	that	PRON	WDT	PronType=Rel	5	nsubj	_	_
+5	set	set	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+6	lazy	lazy	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	men	man	NOUN	NNS	Number=Plur	5	obj	_	_
+8	to	to	ADP	IN	_	10	case	_	_
+9	idle	idle	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	dreaming	dreaming	NOUN	NN	Number=Sing	5	obl	_	_
+11	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\s\n
+

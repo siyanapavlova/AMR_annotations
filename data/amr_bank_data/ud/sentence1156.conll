@@ -1,0 +1,26 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.1156
+# text = Then come back to say goodbye to me , and I will make you a present of a secret . "
+1	Then	then	ADV	RB	PronType=Dem	2	advmod	_	_
+2	come	come	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+3	back	back	ADV	RB	_	2	advmod	_	_
+4	to	to	ADP	IN	_	3	obl	_	_
+5	say	say	INTJ	UH	_	6	discourse	_	_
+6	goodbye	goodbye	VERB	VB	Mood=Imp|VerbForm=Fin	2	parataxis	_	_
+7	to	to	ADP	IN	_	8	case	_	_
+8	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	6	obl	_	_
+9	,	,	PUNCT	,	_	6	punct	_	_
+10	and	and	CCONJ	CC	_	13	cc	_	_
+11	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	_
+12	will	will	AUX	MD	VerbForm=Fin	13	aux	_	_
+13	make	make	VERB	VB	VerbForm=Inf	6	conj	_	_
+14	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	13	iobj	_	_
+15	a	a	DET	DT	Definite=Ind|PronType=Art	16	det	_	_
+16	present	present	NOUN	NN	Number=Sing	13	obj	_	_
+17	of	of	ADP	IN	_	19	case	_	_
+18	a	a	DET	DT	Definite=Ind|PronType=Art	19	det	_	_
+19	secret	secret	NOUN	NN	Number=Sing	16	nmod	_	_
+20	.	.	PUNCT	.	_	2	punct	_	_
+21	"	"	PUNCT	''	_	2	punct	_	SpacesAfter=\s\n
+

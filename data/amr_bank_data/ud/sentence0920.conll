@@ -1,0 +1,12 @@
+# newdoc
+# newpar
+# sent_id =  not forgetting , to be sure , the Negro kings among them ) , 7000 geographers , 900,000 businessmen , 7,500,000 tipplers , 311,000,000 conceited men - - that is to say , about 2,000,000,000 grown - ups . (lpp_1943.920
+# text = One can count , there 111 kings
+1	One	one	PRON	PRP	_	3	nsubj	_	_
+2	can	can	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	count	count	VERB	VB	VerbForm=Inf	0	root	_	_
+4	,	,	PUNCT	,	_	3	punct	_	_
+5	there	there	PRON	EX	_	7	nmod:poss	_	_
+6	111	111	NUM	CD	NumType=Card	7	nummod	_	_
+7	kings	king	NOUN	NNS	Number=Plur	3	obj	_	SpacesAfter=\s\n
+

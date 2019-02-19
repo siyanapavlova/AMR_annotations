@@ -1,0 +1,16 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.85
+# text = But it was rejected too , just like the others .
+1	But	but	CCONJ	CC	_	4	cc	_	_
+2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj:pass	_	_
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
+4	rejected	reject	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+5	too	too	ADV	RB	_	4	advmod	_	_
+6	,	,	PUNCT	,	_	4	punct	_	_
+7	just	just	ADV	RB	_	10	advmod	_	_
+8	like	like	ADP	IN	_	10	case	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	others	other	NOUN	NNS	Number=Plur	4	obl	_	_
+11	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\s\n
+

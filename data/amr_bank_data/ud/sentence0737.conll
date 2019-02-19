@@ -1,0 +1,15 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.737
+# text = But I can put them in the bank . "
+1	But	but	CCONJ	CC	_	4	cc	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+3	can	can	AUX	MD	VerbForm=Fin	4	aux	_	_
+4	put	put	VERB	VB	VerbForm=Inf	0	root	_	_
+5	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	4	obj	_	_
+6	in	in	ADP	IN	_	8	case	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	bank	bank	NOUN	NN	Number=Sing	4	obl	_	_
+9	.	.	PUNCT	.	_	4	punct	_	_
+10	"	"	PUNCT	''	_	4	punct	_	SpacesAfter=\s\n
+

@@ -1,0 +1,21 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.156
+# text = But he was in Turkish costume , and so nobody would believe what he said .
+1	But	but	CCONJ	CC	_	6	cc	_	_
+2	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	cop	_	_
+4	in	in	ADP	IN	_	6	case	_	_
+5	Turkish	turkish	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	costume	costume	NOUN	NN	Number=Sing	0	root	_	_
+7	,	,	PUNCT	,	_	12	punct	_	_
+8	and	and	CCONJ	CC	_	12	cc	_	_
+9	so	so	ADV	RB	_	12	advmod	_	_
+10	nobody	nobody	PRON	NN	Number=Sing	12	nsubj	_	_
+11	would	would	AUX	MD	VerbForm=Fin	12	aux	_	_
+12	believe	believe	VERB	VB	VerbForm=Inf	6	conj	_	_
+13	what	what	PRON	WP	PronType=Int	12	obj	_	_
+14	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
+15	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	13	acl:relcl	_	_
+16	.	.	PUNCT	.	_	6	punct	_	SpacesAfter=\s\n
+

@@ -1,0 +1,18 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.24
+# text = If one gets lost in the night , such knowledge is valuable .
+1	If	if	SCONJ	IN	_	4	mark	_	_
+2	one	one	PRON	PRP	_	4	nsubj:pass	_	_
+3	gets	get	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
+4	lost	lost	VERB	VBN	Tense=Past|VerbForm=Part	12	advcl	_	_
+5	in	in	ADP	IN	_	7	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	night	night	NOUN	NN	Number=Sing	4	obl	_	_
+8	,	,	PUNCT	,	_	12	punct	_	_
+9	such	such	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	knowledge	knowledge	NOUN	NN	Number=Sing	12	nsubj	_	_
+11	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+12	valuable	valuable	ADJ	JJ	Degree=Pos	0	root	_	_
+13	.	.	PUNCT	.	_	12	punct	_	SpacesAfter=\s\n
+

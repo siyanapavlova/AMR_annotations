@@ -1,0 +1,19 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.1003
+# text = They have no roots , and that makes their life very difficult . "
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
+2	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	no	no	DET	DT	_	4	det	_	_
+4	roots	root	NOUN	NNS	Number=Plur	2	obj	_	_
+5	,	,	PUNCT	,	_	8	punct	_	_
+6	and	and	CCONJ	CC	_	8	cc	_	_
+7	that	that	PRON	DT	Number=Sing|PronType=Dem	8	nsubj	_	_
+8	makes	make	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+9	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
+10	life	life	NOUN	NN	Number=Sing	8	obj	_	_
+11	very	very	ADV	RB	_	12	advmod	_	_
+12	difficult	difficult	ADJ	JJ	Degree=Pos	8	xcomp	_	_
+13	.	.	PUNCT	.	_	2	punct	_	_
+14	"	"	PUNCT	''	_	2	punct	_	SpacesAfter=\s\n
+

@@ -1,0 +1,27 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.746
+# text = On matters of consequence , the little prince had ideas which were very different from those of the grown - ups .
+1	On	on	ADP	IN	_	2	case	_	_
+2	matters	matter	NOUN	NNS	Number=Plur	10	obl	_	_
+3	of	of	ADP	IN	_	4	case	_	_
+4	consequence	consequence	NOUN	NN	Number=Sing	2	nmod	_	_
+5	,	,	PUNCT	,	_	10	punct	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+7	little	little	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	prince	prince	NOUN	NN	Number=Sing	10	compound	_	_
+9	had	have	VERB	VBN	Tense=Past|VerbForm=Part	10	amod	_	_
+10	ideas	idea	NOUN	NNS	Number=Plur	0	root	_	_
+11	which	which	PRON	WDT	PronType=Rel	14	nsubj	_	_
+12	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	14	cop	_	_
+13	very	very	ADV	RB	_	14	advmod	_	_
+14	different	different	ADJ	JJ	Degree=Pos	10	acl:relcl	_	_
+15	from	from	ADP	IN	_	16	case	_	_
+16	those	those	PRON	DT	Number=Plur|PronType=Dem	14	obl	_	_
+17	of	of	ADP	IN	_	21	case	_	_
+18	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	_
+19	grown	grown	VERB	VBN	Tense=Past|VerbForm=Part	21	amod	_	_
+20	-	-	PUNCT	HYPH	_	21	punct	_	_
+21	ups	up	NOUN	NNS	Number=Plur	16	nmod	_	_
+22	.	.	PUNCT	.	_	10	punct	_	SpacesAfter=\s\n
+

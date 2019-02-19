@@ -1,0 +1,28 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.424
+# text = This tale of claws , which disturbed me so much , should only have filled my heart with tenderness and pity . "
+1	This	this	DET	DT	Number=Sing|PronType=Dem	2	det	_	_
+2	tale	tale	NOUN	NN	Number=Sing	15	nsubj	_	_
+3	of	of	ADP	IN	_	4	case	_	_
+4	claws	claw	NOUN	NNS	Number=Plur	2	nmod	_	_
+5	,	,	PUNCT	,	_	2	punct	_	_
+6	which	which	PRON	WDT	PronType=Rel	7	nsubj	_	_
+7	disturbed	distur	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	acl:relcl	_	_
+8	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	7	obj	_	_
+9	so	so	ADV	RB	_	10	advmod	_	_
+10	much	much	ADV	RB	_	7	advmod	_	_
+11	,	,	PUNCT	,	_	7	punct	_	_
+12	should	should	AUX	MD	VerbForm=Fin	15	aux	_	_
+13	only	only	ADV	RB	_	15	advmod	_	_
+14	have	have	AUX	VB	VerbForm=Inf	15	aux	_	_
+15	filled	fill	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+16	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	17	nmod:poss	_	_
+17	heart	heart	NOUN	NN	Number=Sing	15	obj	_	_
+18	with	with	ADP	IN	_	19	case	_	_
+19	tenderness	tenderness	NOUN	NN	Number=Sing	17	nmod	_	_
+20	and	and	CCONJ	CC	_	21	cc	_	_
+21	pity	pity	NOUN	NN	Number=Sing	19	conj	_	_
+22	.	.	PUNCT	.	_	15	punct	_	_
+23	"	"	PUNCT	''	_	15	punct	_	SpacesAfter=\s\n
+

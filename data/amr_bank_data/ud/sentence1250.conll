@@ -1,0 +1,29 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.1250
+# text = And , without saying anything more , I looked across the ridges of sand that were stretched out before us in the moonlight .
+1	And	and	CCONJ	CC	_	9	cc	_	_
+2	,	,	PUNCT	,	_	9	punct	_	_
+3	without	without	SCONJ	IN	_	4	mark	_	_
+4	saying	say	VERB	VBG	VerbForm=Ger	9	advcl	_	_
+5	anything	anything	PRON	NN	Number=Sing	4	obj	_	_
+6	more	more	ADV	RBR	_	5	advmod	_	_
+7	,	,	PUNCT	,	_	9	punct	_	_
+8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
+9	looked	look	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+10	across	across	ADP	IN	_	12	case	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	ridges	ridge	NOUN	NNS	Number=Plur	9	obl	_	_
+13	of	of	ADP	IN	_	14	case	_	_
+14	sand	sand	NOUN	NN	Number=Sing	12	nmod	_	_
+15	that	that	PRON	WDT	PronType=Rel	17	nsubj:pass	_	_
+16	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	17	aux:pass	_	_
+17	stretched	stretch	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	12	acl:relcl	_	_
+18	out	out	ADP	RP	_	17	compound:prt	_	_
+19	before	before	ADP	IN	_	20	case	_	_
+20	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	17	obl	_	_
+21	in	in	ADP	IN	_	23	case	_	_
+22	the	the	DET	DT	Definite=Def|PronType=Art	23	det	_	_
+23	moonlight	moonlight	NOUN	NN	Number=Sing	17	obl	_	_
+24	.	.	PUNCT	.	_	9	punct	_	SpacesAfter=\s\n
+

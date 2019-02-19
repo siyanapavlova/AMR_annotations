@@ -1,0 +1,10 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.974
+# text = The little prince smiled .
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+2	little	little	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	prince	prince	NOUN	NN	Number=Sing	0	root	_	_
+4	smiled	smiled	VERB	VBN	Tense=Past|VerbForm=Part	3	acl	_	_
+5	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\s\n
+

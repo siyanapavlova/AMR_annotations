@@ -1,0 +1,25 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.193
+# text = It is for that purpose , again , that I have bought a box of paints and some pencils .
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	for	for	ADP	IN	_	5	case	_	_
+4	that	that	DET	DT	Number=Sing|PronType=Dem	5	det	_	_
+5	purpose	purpose	NOUN	NN	Number=Sing	0	root	_	_
+6	,	,	PUNCT	,	_	5	punct	_	_
+7	again	again	ADV	RB	_	5	advmod	_	_
+8	,	,	PUNCT	,	_	5	punct	_	_
+9	that	that	SCONJ	IN	_	12	mark	_	_
+10	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	_
+11	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	bought	buy	VERB	VBN	Tense=Past|VerbForm=Part	5	acl	_	_
+13	a	a	DET	DT	Definite=Ind|PronType=Art	14	det	_	_
+14	box	box	NOUN	NN	Number=Sing	12	obj	_	_
+15	of	of	ADP	IN	_	16	case	_	_
+16	paints	paint	NOUN	NNS	Number=Plur	14	nmod	_	_
+17	and	and	CCONJ	CC	_	19	cc	_	_
+18	some	some	DET	DT	_	19	det	_	_
+19	pencils	pencil	NOUN	NNS	Number=Plur	14	conj	_	_
+20	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\s\n
+

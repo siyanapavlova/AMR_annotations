@@ -1,0 +1,13 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.911
+# text = That was his first moment of regret .
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	5	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	_
+3	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+4	first	first	ADJ	JJ	Degree=Pos|NumType=Ord	5	amod	_	_
+5	moment	moment	NOUN	NN	Number=Sing	0	root	_	_
+6	of	of	ADP	IN	_	7	case	_	_
+7	regret	regret	NOUN	NN	Number=Sing	5	nmod	_	_
+8	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\s\n
+

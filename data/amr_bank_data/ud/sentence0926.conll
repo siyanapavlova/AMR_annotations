@@ -1,0 +1,34 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.926
+# text = Next , the lamplighters of China and Siberia would enter for their steps in the dance , and then they too would be waved back into the wings .
+1	Next	next	ADV	RB	_	10	advmod	_	_
+2	,	,	PUNCT	,	_	10	punct	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	lamplighters	lamplighter	NOUN	NNS	Number=Plur	10	nsubj	_	_
+5	of	of	ADP	IN	_	6	case	_	_
+6	China	China	PROPN	NNP	Number=Sing	4	nmod	_	_
+7	and	and	CCONJ	CC	_	8	cc	_	_
+8	Siberia	Siberia	PROPN	NNP	Number=Sing	6	conj	_	_
+9	would	would	AUX	MD	VerbForm=Fin	10	aux	_	_
+10	enter	enter	VERB	VB	VerbForm=Inf	0	root	_	_
+11	for	for	ADP	IN	_	13	case	_	_
+12	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	13	nmod:poss	_	_
+13	steps	step	NOUN	NNS	Number=Plur	10	obl	_	_
+14	in	in	ADP	IN	_	16	case	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	dance	dance	NOUN	NN	Number=Sing	13	nmod	_	_
+17	,	,	PUNCT	,	_	24	punct	_	_
+18	and	and	CCONJ	CC	_	24	cc	_	_
+19	then	then	ADV	RB	PronType=Dem	24	advmod	_	_
+20	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	24	nsubj:pass	_	_
+21	too	too	ADV	RB	_	24	advmod	_	_
+22	would	would	AUX	MD	VerbForm=Fin	24	aux	_	_
+23	be	be	AUX	VB	VerbForm=Inf	24	aux:pass	_	_
+24	waved	wave	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	10	conj	_	_
+25	back	back	ADV	RB	_	24	advmod	_	_
+26	into	into	ADP	IN	_	28	case	_	_
+27	the	the	DET	DT	Definite=Def|PronType=Art	28	det	_	_
+28	wings	wing	NOUN	NNS	Number=Plur	25	obl	_	_
+29	.	.	PUNCT	.	_	10	punct	_	SpacesAfter=\s\n
+

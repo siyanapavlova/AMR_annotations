@@ -1,0 +1,12 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.982
+# text = The little prince made no reply .
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+2	little	little	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	prince	prince	NOUN	NN	Number=Sing	0	root	_	_
+4	made	make	VERB	VBN	Tense=Past|VerbForm=Part	3	acl	_	_
+5	no	no	DET	DT	_	6	det	_	_
+6	reply	reply	NOUN	NN	Number=Sing	4	obj	_	_
+7	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\s\n
+

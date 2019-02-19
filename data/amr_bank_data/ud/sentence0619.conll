@@ -1,0 +1,19 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.619
+# text = And he began again to clap his hands , one against the other .
+1	And	and	CCONJ	CC	_	3	cc	_	_
+2	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	began	begin	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	again	again	ADV	RB	_	3	advmod	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	clap	clap	VERB	VB	VerbForm=Inf	3	xcomp	_	_
+7	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+8	hands	hand	NOUN	NNS	Number=Plur	6	obj	_	_
+9	,	,	PUNCT	,	_	3	punct	_	_
+10	one	one	NUM	CD	NumType=Card	3	obj	_	_
+11	against	against	ADP	IN	_	13	case	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	other	other	ADJ	JJ	Degree=Pos	10	nmod	_	_
+14	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\s\n
+

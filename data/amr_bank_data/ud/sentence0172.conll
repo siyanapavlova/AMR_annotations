@@ -1,0 +1,24 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.172
+# text = You would have to say to them : " I saw a house that cost $ 20,000 . "
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	_
+2	would	would	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	have	have	VERB	VB	VerbForm=Inf	0	root	_	_
+4	to	to	PART	TO	_	5	mark	_	_
+5	say	say	VERB	VB	VerbForm=Inf	3	xcomp	_	_
+6	to	to	ADP	IN	_	7	case	_	_
+7	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	5	obl	_	_
+8	:	:	PUNCT	:	_	3	punct	_	_
+9	"	"	PUNCT	``	_	3	punct	_	_
+10	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
+11	saw	see	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	ccomp	_	_
+12	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	_
+13	house	house	NOUN	NN	Number=Sing	11	obj	_	_
+14	that	that	PRON	WDT	PronType=Rel	15	nsubj	_	_
+15	cost	cost	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	13	acl:relcl	_	_
+16	$	$	SYM	$	_	15	obj	_	_
+17	20,000	20,000	NUM	CD	NumType=Card	16	nummod	_	_
+18	.	.	PUNCT	.	_	3	punct	_	_
+19	"	"	PUNCT	''	_	3	punct	_	SpacesAfter=\s\n
+

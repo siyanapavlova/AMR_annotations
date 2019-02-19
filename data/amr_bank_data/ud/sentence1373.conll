@@ -1,0 +1,20 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.1373
+# text = I was only twenty metres from the wall , and I still saw nothing .
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	_
+3	only	only	ADV	RB	_	5	advmod	_	_
+4	twenty	twenty	NUM	CD	NumType=Card	5	nummod	_	_
+5	metres	metre	NOUN	NNS	Number=Plur	0	root	_	_
+6	from	from	ADP	IN	_	8	case	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	wall	wall	NOUN	NN	Number=Sing	5	nmod	_	_
+9	,	,	PUNCT	,	_	13	punct	_	_
+10	and	and	CCONJ	CC	_	13	cc	_	_
+11	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	_
+12	still	still	ADV	RB	_	13	advmod	_	_
+13	saw	see	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	conj	_	_
+14	nothing	nothing	PRON	NN	Number=Sing	13	obj	_	_
+15	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\s\n
+

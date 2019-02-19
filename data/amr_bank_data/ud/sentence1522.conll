@@ -1,0 +1,12 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.1522
+# text = He remained motionless for an instant .
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	remained	remain	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	motionless	motionless	ADV	RB	_	2	advmod	_	_
+4	for	for	ADP	IN	_	6	case	_	_
+5	an	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+6	instant	instant	NOUN	NN	Number=Sing	2	obl	_	_
+7	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\s\n
+

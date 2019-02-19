@@ -1,0 +1,28 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.304
+# text = And I answered with the first thing that came into my head : " The thorns are of no use at all .
+1	And	and	CCONJ	CC	_	3	cc	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	answered	answer	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	with	with	ADP	IN	_	7	case	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+6	first	first	ADJ	JJ	Degree=Pos|NumType=Ord	7	amod	_	_
+7	thing	thing	NOUN	NN	Number=Sing	3	obl	_	_
+8	that	that	PRON	WDT	PronType=Rel	9	nsubj	_	_
+9	came	come	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	7	acl:relcl	_	_
+10	into	into	ADP	IN	_	12	case	_	_
+11	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	12	nmod:poss	_	_
+12	head	head	NOUN	NN	Number=Sing	9	obl	_	_
+13	:	:	PUNCT	:	_	3	punct	_	_
+14	"	"	PUNCT	``	_	3	punct	_	_
+15	The	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	thorns	thorn	NOUN	NNS	Number=Plur	20	nsubj	_	_
+17	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	20	cop	_	_
+18	of	of	ADP	IN	_	20	case	_	_
+19	no	no	DET	DT	_	20	det	_	_
+20	use	use	NOUN	NN	Number=Sing	3	ccomp	_	_
+21	at	at	ADV	RB	_	22	case	_	_
+22	all	all	ADV	RB	_	20	nmod	_	_
+23	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\s\n
+

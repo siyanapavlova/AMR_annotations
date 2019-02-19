@@ -1,0 +1,28 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.1304
+# text = Its sweetness was born of the walk under the stars , the song of the pulley , the effort of my arms .
+1	Its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+2	sweetness	sweetness	NOUN	NN	Number=Sing	4	nsubj:pass	_	_
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
+4	born	bear	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+5	of	of	ADP	IN	_	7	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	walk	walk	NOUN	NN	Number=Sing	4	obl	_	_
+8	under	under	ADP	IN	_	10	case	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	stars	star	NOUN	NNS	Number=Plur	7	nmod	_	_
+11	,	,	PUNCT	,	_	7	punct	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	song	song	NOUN	NN	Number=Sing	7	appos	_	_
+14	of	of	ADP	IN	_	16	case	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	pulley	pulley	NOUN	NN	Number=Sing	13	nmod	_	_
+17	,	,	PUNCT	,	_	13	punct	_	_
+18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+19	effort	effort	NOUN	NN	Number=Sing	13	appos	_	_
+20	of	of	ADP	IN	_	22	case	_	_
+21	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	22	nmod:poss	_	_
+22	arms	arm	NOUN	NNS	Number=Plur	19	nmod	_	_
+23	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\s\n
+

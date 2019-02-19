@@ -1,0 +1,15 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.140
+# text = My friend broke into another peal of laughter : "
+1	My	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+2	friend	friend	NOUN	NN	Number=Sing	3	nsubj	_	_
+3	broke	break	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	into	into	ADP	IN	_	6	case	_	_
+5	another	another	DET	DT	_	6	det	_	_
+6	peal	peal	NOUN	NN	Number=Sing	3	obl	_	_
+7	of	of	ADP	IN	_	8	case	_	_
+8	laughter	laughter	NOUN	NN	Number=Sing	6	nmod	_	_
+9	:	:	PUNCT	:	_	3	punct	_	_
+10	"	"	PUNCT	``	_	3	punct	_	_
+

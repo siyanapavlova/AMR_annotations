@@ -1,0 +1,17 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.1507
+# text = And he too said nothing more , because he was crying ...
+1	And	and	CCONJ	CC	_	4	cc	_	_
+2	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+3	too	too	ADV	RB	_	4	advmod	_	_
+4	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+5	nothing	nothing	PRON	NN	Number=Sing	4	obj	_	_
+6	more	more	ADJ	JJR	Degree=Cmp	5	amod	_	_
+7	,	,	PUNCT	,	_	4	punct	_	_
+8	because	because	SCONJ	IN	_	11	mark	_	_
+9	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
+10	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	aux	_	_
+11	crying	cry	VERB	VBG	Tense=Pres|VerbForm=Part	4	advcl	_	_
+12	...	...	PUNCT	.	_	4	punct	_	SpacesAfter=\s\n
+

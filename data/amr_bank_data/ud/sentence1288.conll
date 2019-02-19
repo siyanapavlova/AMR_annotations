@@ -1,0 +1,22 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.1288
+# text = And the pulley moaned , like an old weathervane which the wind has long since forgotten .
+1	And	and	CCONJ	CC	_	4	cc	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	pulley	pulley	NOUN	NN	Number=Sing	4	nsubj	_	_
+4	moaned	moan	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+5	,	,	PUNCT	,	_	4	punct	_	_
+6	like	like	ADP	IN	_	9	case	_	_
+7	an	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+8	old	old	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	weathervane	weathervane	NOUN	NN	Number=Sing	4	obl	_	_
+10	which	which	PRON	WDT	PronType=Rel	13	obj	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	wind	wind	NOUN	NN	Number=Sing	13	nsubj	_	_
+13	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	_
+14	long	long	ADV	RB	Degree=Pos	13	advmod	_	_
+15	since	since	SCONJ	IN	_	16	mark	_	_
+16	forgotten	forgotten	ADJ	JJ	Degree=Pos	13	advcl	_	_
+17	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\s\n
+

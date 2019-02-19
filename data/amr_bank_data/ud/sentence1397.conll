@@ -1,0 +1,11 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.1397
+# text = Then , sadly - - "
+1	Then	then	ADV	RB	PronType=Dem	3	advmod	_	_
+2	,	,	PUNCT	,	_	3	punct	_	_
+3	sadly	sadly	ADV	RB	_	0	root	_	_
+4	-	-	PUNCT	HYPH	_	3	punct	_	_
+5	-	-	PUNCT	,	_	3	punct	_	_
+6	"	"	PUNCT	''	_	3	punct	_	_
+

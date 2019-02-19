@@ -1,0 +1,13 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.1271
+# text = What is most important is invisible ... "
+1	What	what	PRON	WP	PronType=Int	0	root	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	most	most	ADV	RBS	_	4	advmod	_	_
+4	important	important	ADJ	JJ	Degree=Pos	6	nsubj	_	_
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+6	invisible	invisible	ADJ	JJ	Degree=Pos	1	acl:relcl	_	_
+7	...	...	PUNCT	.	_	1	punct	_	_
+8	"	"	PUNCT	''	_	1	punct	_	SpacesAfter=\s\n
+

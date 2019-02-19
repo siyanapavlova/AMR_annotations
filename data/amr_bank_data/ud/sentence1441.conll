@@ -1,0 +1,8 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.1441
+# text = Just that .
+1	Just	just	ADV	RB	_	2	advmod	_	_
+2	that	that	PRON	DT	Number=Sing|PronType=Dem	0	root	_	_
+3	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\s\n
+

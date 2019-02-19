@@ -1,0 +1,12 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.1234
+# text = I made a gesture of weariness .
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	made	make	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
+4	gesture	gesture	NOUN	NN	Number=Sing	2	obj	_	_
+5	of	of	ADP	IN	_	6	case	_	_
+6	weariness	weariness	NOUN	NNS	Number=Plur	4	nmod	_	_
+7	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\s\n
+

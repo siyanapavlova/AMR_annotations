@@ -1,0 +1,13 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.66
+# text = But I had never drawn a sheep .
+1	But	but	CCONJ	CC	_	5	cc	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+3	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	aux	_	_
+4	never	never	ADV	RB	_	5	advmod	_	_
+5	drawn	draw	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+7	sheep	sheep	NOUN	NN	Number=Sing	5	obj	_	_
+8	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\s\n
+

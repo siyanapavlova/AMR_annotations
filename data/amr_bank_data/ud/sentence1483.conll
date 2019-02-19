@@ -1,0 +1,24 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.1483
+# text = When I succeeded in catching up with him he was walking along with a quick and resolute step .
+1	When	when	ADV	WRB	PronType=Int	3	mark	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	succeeded	succeed	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	11	advcl	_	_
+4	in	in	SCONJ	IN	_	5	mark	_	_
+5	catching	catch	VERB	VBG	VerbForm=Ger	3	advcl	_	_
+6	up	up	ADP	RP	_	5	compound:prt	_	_
+7	with	with	ADP	IN	_	8	case	_	_
+8	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obl	_	_
+9	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
+10	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	aux	_	_
+11	walking	walk	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+12	along	along	ADV	RB	_	11	advmod	_	_
+13	with	with	ADP	IN	_	18	case	_	_
+14	a	a	DET	DT	Definite=Ind|PronType=Art	18	det	_	_
+15	quick	quick	ADJ	JJ	Degree=Pos	18	amod	_	_
+16	and	and	CCONJ	CC	_	17	cc	_	_
+17	resolute	resolute	ADJ	JJ	Degree=Pos	15	conj	_	_
+18	step	step	NOUN	NN	Number=Sing	11	obl	_	_
+19	.	.	PUNCT	.	_	11	punct	_	SpacesAfter=\s\n
+

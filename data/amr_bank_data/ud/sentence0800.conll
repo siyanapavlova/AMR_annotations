@@ -1,0 +1,8 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.800
+# text = Thirty minutes .
+1	Thirty	thirty	NUM	CD	NumType=Card	2	nummod	_	_
+2	minutes	minute	NOUN	NNS	Number=Plur	0	root	_	_
+3	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\s\n
+

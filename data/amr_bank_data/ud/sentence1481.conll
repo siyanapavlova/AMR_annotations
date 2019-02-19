@@ -1,0 +1,18 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.1481
+# text = That night I did not see him set out on his way .
+1	That	that	DET	DT	Number=Sing|PronType=Dem	2	det	_	_
+2	night	night	NOUN	NN	Number=Sing	6	obl:tmod	_	_
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+4	did	do	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	6	aux	_	_
+5	not	not	PART	RB	_	6	advmod	_	_
+6	see	see	VERB	VB	VerbForm=Inf	0	root	_	_
+7	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	obj	_	_
+8	set	set	VERB	VBN	Tense=Past|VerbForm=Part	6	xcomp	_	_
+9	out	out	ADP	RP	_	8	compound:prt	_	_
+10	on	on	ADP	IN	_	12	case	_	_
+11	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	nmod:poss	_	_
+12	way	way	NOUN	NN	Number=Sing	8	obl	_	_
+13	.	.	PUNCT	.	_	6	punct	_	SpacesAfter=\s\n
+

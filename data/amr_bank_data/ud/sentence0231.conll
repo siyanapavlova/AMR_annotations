@@ -1,0 +1,30 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.231
+# text = They sleep deep in the heart of the earth 's darkness , until some one among them is seized with the desire to awaken .
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
+2	sleep	sleep	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	deep	deep	ADJ	JJ	Degree=Pos	2	xcomp	_	_
+4	in	in	ADP	IN	_	6	case	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	heart	heart	NOUN	NN	Number=Sing	3	obl	_	_
+7	of	of	ADP	IN	_	11	case	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	earth	earth	NOUN	NN	Number=Sing	11	nmod:poss	_	_
+10	's	's	PART	POS	_	9	case	_	_
+11	darkness	darkness	NOUN	NN	Number=Sing	6	nmod	_	_
+12	,	,	PUNCT	,	_	2	punct	_	_
+13	until	until	SCONJ	IN	_	19	mark	_	_
+14	some	some	DET	DT	_	15	det	_	_
+15	one	one	NOUN	NN	Number=Sing	19	nsubj:pass	_	_
+16	among	among	ADP	IN	_	17	case	_	_
+17	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	15	nmod	_	_
+18	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux:pass	_	_
+19	seized	seize	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	advcl	_	_
+20	with	with	ADP	IN	_	22	case	_	_
+21	the	the	DET	DT	Definite=Def|PronType=Art	22	det	_	_
+22	desire	desire	NOUN	NN	Number=Sing	19	obl	_	_
+23	to	to	PART	TO	_	24	mark	_	_
+24	awaken	awaken	VERB	VB	VerbForm=Inf	22	acl	_	_
+25	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\s\n
+

@@ -1,0 +1,12 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.157
+# text = Grown - ups are like that ...
+1	Grown	grow	ADJ	JJ	Degree=Pos	3	amod	_	_
+2	-	-	PUNCT	HYPH	_	3	punct	_	_
+3	ups	up	NOUN	NNS	Number=Plur	6	nsubj	_	_
+4	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	like	like	ADP	IN	_	6	case	_	_
+6	that	that	PRON	DT	Number=Sing|PronType=Dem	0	root	_	_
+7	...	...	PUNCT	.	_	6	punct	_	SpacesAfter=\s\n
+

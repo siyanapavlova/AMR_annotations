@@ -1,0 +1,13 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.1106
+# text = Wheat is of no use to me .
+1	Wheat	wheat	NOUN	NN	Number=Sing	5	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	of	of	ADP	IN	_	5	case	_	_
+4	no	no	DET	DT	_	5	det	_	_
+5	use	use	NOUN	NN	Number=Sing	0	root	_	_
+6	to	to	ADP	IN	_	7	case	_	_
+7	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	5	nmod	_	_
+8	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\s\n
+

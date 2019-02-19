@@ -1,0 +1,12 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.756
+# text = It was the smallest of all .
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	smallest	smallest	ADJ	JJS	Degree=Sup	0	root	_	_
+5	of	of	ADP	IN	_	6	case	_	_
+6	all	all	DET	DT	_	4	obl	_	_
+7	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\s\n
+

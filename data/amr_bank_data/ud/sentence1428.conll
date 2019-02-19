@@ -1,0 +1,24 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.1428
+# text = Because of the pulley , and the rope , what you gave me to drink was like music .
+1	Because	because	ADP	IN	_	4	case	_	_
+2	of	of	ADP	IN	_	1	fixed	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	pulley	pulley	NOUN	NN	Number=Sing	18	obl	_	_
+5	,	,	PUNCT	,	_	8	punct	_	_
+6	and	and	CCONJ	CC	_	8	cc	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	rope	rope	NOUN	NN	Number=Sing	4	conj	_	_
+9	,	,	PUNCT	,	_	18	punct	_	_
+10	what	what	PRON	WP	PronType=Int	18	nsubj	_	_
+11	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	12	nsubj	_	_
+12	gave	give	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	18	acl:relcl	_	_
+13	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	12	iobj	_	_
+14	to	to	PART	TO	_	15	mark	_	_
+15	drink	drink	VERB	VB	VerbForm=Inf	18	advcl	_	_
+16	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	18	cop	_	_
+17	like	like	ADP	IN	_	18	case	_	_
+18	music	music	NOUN	NN	Number=Sing	0	root	_	_
+19	.	.	PUNCT	.	_	18	punct	_	SpacesAfter=\s\n
+

@@ -1,0 +1,17 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.443
+# text = That is why they bring no end of trouble upon us .
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	3	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	why	why	ADV	WRB	PronType=Int	0	root	_	_
+4	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	_
+5	bring	bring	VERB	VBG	Tense=Pres|VerbForm=Part	3	acl:relcl	_	_
+6	no	no	DET	DT	_	7	det	_	_
+7	end	end	NOUN	NN	Number=Sing	5	obj	_	_
+8	of	of	ADP	IN	_	9	case	_	_
+9	trouble	trouble	NOUN	NN	Number=Sing	7	nmod	_	_
+10	upon	upon	ADP	IN	_	11	case	_	_
+11	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	5	obl	_	_
+12	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\s\n
+

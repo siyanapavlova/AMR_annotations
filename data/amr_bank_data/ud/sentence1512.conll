@@ -1,0 +1,11 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.1512
+# text = I am responsible for her .
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	responsible	responsible	ADJ	JJ	Degree=Pos	0	root	_	_
+4	for	for	ADP	IN	_	5	case	_	_
+5	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	obl	_	_
+6	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\s\n
+

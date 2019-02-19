@@ -1,0 +1,16 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.475
+# text = Then she added : " Do n't linger like this .
+1	Then	then	ADV	RB	PronType=Dem	3	advmod	_	_
+2	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	added	add	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	:	:	PUNCT	:	_	3	punct	_	_
+5	"	"	PUNCT	``	_	3	punct	_	_
+6	Do	do	AUX	VB	Mood=Imp|VerbForm=Fin	8	aux	_	_
+7	n't	not	PART	RB	_	8	advmod	_	_
+8	linger	linger	VERB	VB	Mood=Imp|VerbForm=Fin	3	parataxis	_	_
+9	like	like	ADP	IN	_	10	case	_	_
+10	this	this	PRON	DT	Number=Sing|PronType=Dem	8	obl	_	_
+11	.	.	PUNCT	.	_	8	punct	_	SpacesAfter=\s\n
+

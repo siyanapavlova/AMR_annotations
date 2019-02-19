@@ -1,0 +1,16 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.1007
+# text = After that , the little prince climbed a high mountain .
+1	After	after	ADP	IN	_	2	case	_	_
+2	that	that	PRON	DT	Number=Sing|PronType=Dem	7	obl	_	_
+3	,	,	PUNCT	,	_	7	punct	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+5	little	little	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	prince	prince	NOUN	NN	Number=Sing	7	nsubj	_	_
+7	climbed	climb	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+8	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+9	high	high	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	mountain	mountain	NOUN	NN	Number=Sing	7	obj	_	_
+11	.	.	PUNCT	.	_	7	punct	_	SpacesAfter=\s\n
+

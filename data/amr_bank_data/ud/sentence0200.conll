@@ -1,0 +1,30 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.200
+# text = So I fumble along as best I can , now good , now bad , and I hope generally fair - to - middling .
+1	So	so	ADV	RB	_	3	advmod	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	fumble	fumble	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	along	along	ADV	RB	_	3	advmod	_	_
+5	as	as	ADV	RB	_	3	advmod	_	_
+6	best	best	ADV	RBS	Degree=Sup	8	advmod	_	_
+7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+8	can	can	AUX	MD	VerbForm=Fin	5	acl:relcl	_	_
+9	,	,	PUNCT	,	_	3	punct	_	_
+10	now	now	ADV	RB	_	11	advmod	_	_
+11	good	good	ADJ	JJ	Degree=Pos	3	xcomp	_	_
+12	,	,	PUNCT	,	_	3	punct	_	_
+13	now	now	ADV	RB	_	14	advmod	_	_
+14	bad	bad	ADJ	JJ	Degree=Pos	3	conj	_	_
+15	,	,	PUNCT	,	_	18	punct	_	_
+16	and	and	CCONJ	CC	_	18	cc	_	_
+17	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	18	nsubj	_	_
+18	hope	hope	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	conj	_	_
+19	generally	generally	ADV	RB	_	20	advmod	_	_
+20	fair	fair	ADJ	JJ	Degree=Pos	18	xcomp	_	_
+21	-	-	PUNCT	HYPH	_	20	punct	_	_
+22	to	to	ADP	IN	_	24	case	_	_
+23	-	-	PUNCT	HYPH	_	24	punct	_	_
+24	middling	middling	NOUN	NN	Number=Sing	20	obl	_	_
+25	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\s\n
+

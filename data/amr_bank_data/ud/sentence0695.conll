@@ -1,0 +1,9 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.695
+# text = The stars . "
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	stars	star	NOUN	NNS	Number=Plur	0	root	_	_
+3	.	.	PUNCT	.	_	2	punct	_	_
+4	"	"	PUNCT	''	_	2	punct	_	SpacesAfter=\s\n
+
