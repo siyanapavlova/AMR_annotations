@@ -1,0 +1,8 @@
+# sentence-text: Une nouvelle école pour la commune
+1	Une	un	D	DET	g=f|n=s|s=ind|sentid=annodis.er_00023|void=y	_	_	_	_
+2	nouvelle	nouveau	A	ADJ	g=f|n=s|s=qual	3	domain-of	_	_
+3	école	école	N	NC	g=f|n=s|s=c	0	root	_	_
+4	pour	pour	P	P	type=purpose	3	amr-mod	_	_
+5	la	le	D	DET	g=f|n=s|s=def|void=y	_	_	_	_
+6	commune	commune	N	NC	def=y|g=f|n=s|s=c	4	op1	_	_
+
