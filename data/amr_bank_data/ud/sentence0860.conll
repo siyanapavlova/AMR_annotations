@@ -1,0 +1,32 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.860
+# text = And if the recollections of any one among them seem interesting to him , the geographer orders an inquiry into that explorer 's moral character . "
+1	And	and	CCONJ	CC	_	19	cc	_	_
+2	if	if	SCONJ	IN	_	10	mark	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	recollections	recollection	NOUN	NNS	Number=Plur	10	nsubj	_	_
+5	of	of	ADP	IN	_	7	case	_	_
+6	any	any	DET	DT	_	7	det	_	_
+7	one	one	NOUN	NN	Number=Sing	4	nmod	_	_
+8	among	among	ADP	IN	_	9	case	_	_
+9	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	7	nmod	_	_
+10	seem	seem	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	19	advcl	_	_
+11	interesting	interesting	ADJ	JJ	Degree=Pos	10	xcomp	_	_
+12	to	to	ADP	IN	_	13	case	_	_
+13	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	obl	_	_
+14	,	,	PUNCT	,	_	19	punct	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+16	geographer	geographer	ADJ	JJR	Degree=Cmp	17	amod	_	_
+17	orders	order	NOUN	NNS	Number=Plur	19	nsubj	_	_
+18	an	a	DET	DT	Definite=Ind|PronType=Art	19	det	_	_
+19	inquiry	inquiry	NOUN	NN	Number=Sing	0	root	_	_
+20	into	into	ADP	IN	_	25	case	_	_
+21	that	that	DET	DT	Number=Sing|PronType=Dem	22	det	_	_
+22	explorer	explorer	NOUN	NN	Number=Sing	25	nmod:poss	_	_
+23	's	's	PART	POS	_	22	case	_	_
+24	moral	moral	ADJ	JJ	Degree=Pos	25	amod	_	_
+25	character	character	NOUN	NN	Number=Sing	19	nmod	_	_
+26	.	.	PUNCT	.	_	19	punct	_	_
+27	"	"	PUNCT	''	_	19	punct	_	SpacesAfter=\s\n
+

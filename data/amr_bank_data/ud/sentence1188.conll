@@ -1,0 +1,26 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.1188
+# text = And a brilliantly lighted express train shook the switchman 's cabin as it rushed by with a roar like thunder .
+1	And	and	CCONJ	CC	_	7	cc	_	_
+2	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+3	brilliantly	brilliantly	ADV	RB	_	4	advmod	_	_
+4	lighted	light	ADJ	JJ	Degree=Pos	6	amod	_	_
+5	express	express	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	train	train	NOUN	NN	Number=Sing	7	nsubj	_	_
+7	shook	shake	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	switchman	switchman	NOUN	NN	Number=Sing	11	nmod:poss	_	_
+10	's	's	PART	POS	_	9	case	_	_
+11	cabin	cabin	NOUN	NN	Number=Sing	7	obj	_	_
+12	as	as	SCONJ	IN	_	14	mark	_	_
+13	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	_
+14	rushed	rush	VERB	VBN	Tense=Past|VerbForm=Part	7	advcl	_	_
+15	by	by	ADP	IN	_	18	case	_	_
+16	with	with	ADP	IN	_	18	case	_	_
+17	a	a	DET	DT	Definite=Ind|PronType=Art	18	det	_	_
+18	roar	roar	NOUN	NN	Number=Sing	14	obl	_	_
+19	like	like	ADP	IN	_	20	case	_	_
+20	thunder	thunder	NOUN	NN	Number=Sing	18	nmod	_	_
+21	.	.	PUNCT	.	_	7	punct	_	SpacesAfter=\s\n
+

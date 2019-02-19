@@ -1,0 +1,16 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.28
+# text = And that has n't much improved my opinion of them .
+1	And	and	CCONJ	CC	_	6	cc	_	_
+2	that	that	PRON	DT	Number=Sing|PronType=Dem	6	nsubj	_	_
+3	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+4	n't	not	PART	RB	_	6	advmod	_	_
+5	much	much	ADV	RB	_	6	advmod	_	_
+6	improved	improve	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+7	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+8	opinion	opinion	NOUN	NN	Number=Sing	6	obj	_	_
+9	of	of	ADP	IN	_	10	case	_	_
+10	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	8	nmod	_	_
+11	.	.	PUNCT	.	_	6	punct	_	SpacesAfter=\s\n
+

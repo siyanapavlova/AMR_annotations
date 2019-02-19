@@ -1,0 +1,18 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.1103
+# text = Yours will call me , like music , out of my burrow .
+1	Yours	yours	PRON	PRP	_	3	nsubj	_	_
+2	will	will	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	call	call	VERB	VB	VerbForm=Inf	0	root	_	_
+4	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	3	obj	_	_
+5	,	,	PUNCT	,	_	3	punct	_	_
+6	like	like	ADP	IN	_	7	case	_	_
+7	music	music	NOUN	NN	Number=Sing	3	obl	_	_
+8	,	,	PUNCT	,	_	7	punct	_	_
+9	out	out	ADP	IN	_	12	case	_	_
+10	of	of	ADP	IN	_	12	case	_	_
+11	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	12	nmod:poss	_	_
+12	burrow	burrow	NOUN	NN	Number=Sing	7	nmod	_	_
+13	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\s\n
+

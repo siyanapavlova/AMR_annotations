@@ -1,0 +1,23 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.1553
+# text = And no grown - up will ever understand that this is a matter of so much importance !
+1	And	and	CCONJ	CC	_	8	cc	_	_
+2	no	no	DET	DT	_	5	det	_	_
+3	grown	grow	VERB	VBN	Tense=Past|VerbForm=Part	5	amod	_	_
+4	-	-	PUNCT	HYPH	_	5	punct	_	_
+5	up	up	NOUN	NN	Number=Sing	8	nsubj	_	_
+6	will	will	AUX	MD	VerbForm=Fin	8	aux	_	_
+7	ever	ever	ADV	RB	_	8	advmod	_	_
+8	understand	understand	VERB	VB	VerbForm=Inf	0	root	_	_
+9	that	that	SCONJ	IN	_	13	mark	_	_
+10	this	this	PRON	DT	Number=Sing|PronType=Dem	13	nsubj	_	_
+11	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+12	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	_
+13	matter	matter	NOUN	NN	Number=Sing	8	ccomp	_	_
+14	of	of	ADP	IN	_	17	case	_	_
+15	so	so	ADV	RB	_	16	advmod	_	_
+16	much	much	ADJ	JJ	Degree=Pos	17	amod	_	_
+17	importance	importance	NOUN	NN	Number=Sing	13	nmod	_	_
+18	!	!	PUNCT	.	_	8	punct	_	SpacesAfter=\s\n
+

@@ -1,0 +1,19 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.143
+# text = Then the little prince said , earnestly : " That does n't matter .
+1	Then	then	ADV	RB	PronType=Dem	5	advmod	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+3	little	little	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	prince	prince	NOUN	NN	Number=Sing	5	nsubj	_	_
+5	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+6	,	,	PUNCT	,	_	5	punct	_	_
+7	earnestly	earnestly	ADV	RB	_	5	advmod	_	_
+8	:	:	PUNCT	:	_	5	punct	_	_
+9	"	"	PUNCT	``	_	5	punct	_	_
+10	That	that	PRON	DT	Number=Sing|PronType=Dem	13	nsubj	_	_
+11	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+12	n't	not	PART	RB	_	13	advmod	_	_
+13	matter	matter	VERB	VB	VerbForm=Inf	5	ccomp	_	_
+14	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\s\n
+

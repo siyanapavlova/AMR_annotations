@@ -1,0 +1,14 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.1561
+# text = If this should happen , please comfort me .
+1	If	if	SCONJ	IN	_	4	mark	_	_
+2	this	this	PRON	DT	Number=Sing|PronType=Dem	4	nsubj	_	_
+3	should	should	AUX	MD	VerbForm=Fin	4	aux	_	_
+4	happen	happen	VERB	VB	VerbForm=Inf	7	advcl	_	_
+5	,	,	PUNCT	,	_	7	punct	_	_
+6	please	please	INTJ	UH	_	7	discourse	_	_
+7	comfort	comfort	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+8	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	7	obj	_	_
+9	.	.	PUNCT	.	_	7	punct	_	SpacesAfter=\s\n
+

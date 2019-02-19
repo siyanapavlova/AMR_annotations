@@ -1,0 +1,34 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.1025
+# text = But it happened that after walking for a long time through sand , and rocks , and snow , the little prince at last came upon a road .
+1	But	but	CCONJ	CC	_	3	cc	_	_
+2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	happened	happen	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	that	that	SCONJ	IN	_	25	mark	_	_
+5	after	after	SCONJ	IN	_	6	mark	_	_
+6	walking	walk	VERB	VBG	VerbForm=Ger	25	advcl	_	_
+7	for	for	ADP	IN	_	10	case	_	_
+8	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+9	long	long	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	time	time	NOUN	NN	Number=Sing	6	obl	_	_
+11	through	through	ADP	IN	_	12	case	_	_
+12	sand	sand	NOUN	NN	Number=Sing	10	nmod	_	_
+13	,	,	PUNCT	,	_	15	punct	_	_
+14	and	and	CCONJ	CC	_	15	cc	_	_
+15	rocks	rock	NOUN	NNS	Number=Plur	6	conj	_	_
+16	,	,	PUNCT	,	_	18	punct	_	_
+17	and	and	CCONJ	CC	_	18	cc	_	_
+18	snow	snow	NOUN	NN	Number=Sing	6	conj	_	_
+19	,	,	PUNCT	,	_	25	punct	_	_
+20	the	the	DET	DT	Definite=Def|PronType=Art	22	det	_	_
+21	little	little	ADJ	JJ	Degree=Pos	22	amod	_	_
+22	prince	prince	NOUN	NN	Number=Sing	25	nsubj	_	_
+23	at	at	ADP	IN	_	24	case	_	_
+24	last	last	ADJ	JJ	Degree=Pos	22	nmod	_	_
+25	came	come	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	ccomp	_	_
+26	upon	upon	ADP	IN	_	28	case	_	_
+27	a	a	DET	DT	Definite=Ind|PronType=Art	28	det	_	_
+28	road	road	NOUN	NN	Number=Sing	25	obl	_	_
+29	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\s\n
+

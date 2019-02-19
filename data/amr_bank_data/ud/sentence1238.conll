@@ -1,0 +1,26 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.1238
+# text = Thirst had made me a little feverish , and I looked at them as if I were in a dream .
+1	Thirst	thirst	ADV	RB	_	3	advmod	_	_
+2	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	aux	_	_
+3	made	make	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+4	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	3	iobj	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+6	little	little	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	feverish	feverish	NOUN	NN	Number=Sing	3	obj	_	_
+8	,	,	PUNCT	,	_	11	punct	_	_
+9	and	and	CCONJ	CC	_	11	cc	_	_
+10	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
+11	looked	look	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	conj	_	_
+12	at	at	ADP	IN	_	13	case	_	_
+13	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	11	obl	_	_
+14	as	as	SCONJ	IN	_	20	mark	_	_
+15	if	if	SCONJ	IN	_	20	mark	_	_
+16	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	20	nsubj	_	_
+17	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	20	cop	_	_
+18	in	in	ADP	IN	_	20	case	_	_
+19	a	a	DET	DT	Definite=Ind|PronType=Art	20	det	_	_
+20	dream	dream	NOUN	NN	Number=Sing	11	advcl	_	_
+21	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\s\n
+

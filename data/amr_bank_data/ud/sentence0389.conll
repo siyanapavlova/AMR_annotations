@@ -1,0 +1,18 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.389
+# text = But the little prince could not restrain his admiration : " Oh !
+1	But	but	CCONJ	CC	_	7	cc	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+3	little	little	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	prince	prince	NOUN	NN	Number=Sing	7	nsubj	_	_
+5	could	could	AUX	MD	VerbForm=Fin	7	aux	_	_
+6	not	not	PART	RB	_	7	advmod	_	_
+7	restrain	restrain	VERB	VB	VerbForm=Inf	0	root	_	_
+8	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	nmod:poss	_	_
+9	admiration	admiration	NOUN	NN	Number=Sing	7	obj	_	_
+10	:	:	PUNCT	:	_	7	punct	_	_
+11	"	"	PUNCT	``	_	7	punct	_	_
+12	Oh	oh	INTJ	UH	_	7	discourse	_	_
+13	!	!	PUNCT	.	_	7	punct	_	SpacesAfter=\s\n
+

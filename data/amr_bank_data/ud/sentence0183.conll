@@ -1,0 +1,22 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.183
+# text = I should have liked to begin this story in the fashion of the fairy - tales .
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	should	should	AUX	MD	VerbForm=Fin	4	aux	_	_
+3	have	have	AUX	VB	VerbForm=Inf	4	aux	_	_
+4	liked	like	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	begin	begin	VERB	VB	VerbForm=Inf	4	xcomp	_	_
+7	this	this	DET	DT	Number=Sing|PronType=Dem	8	det	_	_
+8	story	story	NOUN	NN	Number=Sing	6	obj	_	_
+9	in	in	ADP	IN	_	11	case	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	fashion	fashion	NOUN	NN	Number=Sing	6	obl	_	_
+12	of	of	ADP	IN	_	16	case	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+14	fairy	fairy	NOUN	NN	Number=Sing	16	compound	_	_
+15	-	-	PUNCT	HYPH	_	16	punct	_	_
+16	tales	tale	NOUN	NNS	Number=Plur	11	nmod	_	_
+17	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\s\n
+

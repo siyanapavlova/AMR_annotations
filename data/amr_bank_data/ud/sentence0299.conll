@@ -1,0 +1,28 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.299
+# text = I was very much worried , for it was becoming clear to me that the breakdown of my plane was extremely serious .
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	_
+3	very	very	ADV	RB	_	4	advmod	_	_
+4	much	much	ADV	RB	_	5	advmod	_	_
+5	worried	worry	ADJ	JJ	Degree=Pos	0	root	_	_
+6	,	,	PUNCT	,	_	5	punct	_	_
+7	for	for	SCONJ	IN	_	10	mark	_	_
+8	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
+9	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	aux	_	_
+10	becoming	become	VERB	VBG	Tense=Pres|VerbForm=Part	5	advcl	_	_
+11	clear	clear	ADJ	JJ	Degree=Pos	10	xcomp	_	_
+12	to	to	ADP	IN	_	13	case	_	_
+13	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	10	obl	_	_
+14	that	that	SCONJ	IN	_	22	mark	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	breakdown	breakdown	NOUN	NN	Number=Sing	22	nsubj	_	_
+17	of	of	ADP	IN	_	19	case	_	_
+18	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	19	nmod:poss	_	_
+19	plane	plane	NOUN	NN	Number=Sing	16	nmod	_	_
+20	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	22	cop	_	_
+21	extremely	extremely	ADV	RB	_	22	advmod	_	_
+22	serious	serious	ADJ	JJ	Degree=Pos	10	ccomp	_	_
+23	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\s\n
+

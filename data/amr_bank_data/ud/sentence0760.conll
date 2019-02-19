@@ -1,0 +1,26 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.760
+# text = But he is not so absurd as the king , the conceited man , the businessman , and the tippler .
+1	But	but	CCONJ	CC	_	6	cc	_	_
+2	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+4	not	not	PART	RB	_	6	advmod	_	_
+5	so	so	ADV	RB	_	6	advmod	_	_
+6	absurd	absurd	ADJ	JJ	Degree=Pos	0	root	_	_
+7	as	as	ADP	IN	_	9	case	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	king	king	NOUN	NN	Number=Sing	6	obl	_	_
+10	,	,	PUNCT	,	_	6	punct	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+12	conceited	conceit	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	man	man	NOUN	NN	Number=Sing	6	appos	_	_
+14	,	,	PUNCT	,	_	13	punct	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	businessman	businessman	NOUN	NN	Number=Sing	13	appos	_	_
+17	,	,	PUNCT	,	_	20	punct	_	_
+18	and	and	CCONJ	CC	_	20	cc	_	_
+19	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	_
+20	tippler	tippler	NOUN	NN	Number=Sing	13	conj	_	_
+21	.	.	PUNCT	.	_	6	punct	_	SpacesAfter=\s\n
+

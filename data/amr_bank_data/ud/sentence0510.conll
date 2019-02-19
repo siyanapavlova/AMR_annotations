@@ -1,0 +1,14 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.510
+# text = He sputtered a little , and seemed vexed .
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	sputtered	sputter	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
+4	little	little	ADJ	JJ	Degree=Pos	2	obj	_	_
+5	,	,	PUNCT	,	_	7	punct	_	_
+6	and	and	CCONJ	CC	_	7	cc	_	_
+7	seemed	seem	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+8	vexed	vex	ADV	RB	_	7	advmod	_	_
+9	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\s\n
+

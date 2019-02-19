@@ -1,0 +1,17 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.1202
+# text = Only the children are flattening their noses against the windowpanes . "
+1	Only	only	ADV	RB	_	5	advmod	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	children	child	NOUN	NNS	Number=Plur	5	nsubj	_	_
+4	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	flattening	flatten	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+6	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+7	noses	nose	NOUN	NNS	Number=Plur	5	obj	_	_
+8	against	against	ADP	IN	_	10	case	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	windowpanes	windowpane	NOUN	NNS	Number=Plur	5	obl	_	_
+11	.	.	PUNCT	.	_	5	punct	_	_
+12	"	"	PUNCT	''	_	5	punct	_	SpacesAfter=\s\n
+

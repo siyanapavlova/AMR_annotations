@@ -1,0 +1,16 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.26
+# text = I have lived a great deal among grown - ups .
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	lived	live	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+5	great	great	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	deal	deal	NOUN	NN	Number=Sing	3	obj	_	_
+7	among	among	ADP	IN	_	10	case	_	_
+8	grown	grow	VERB	VBN	Tense=Past|VerbForm=Part	10	amod	_	_
+9	-	-	PUNCT	HYPH	_	10	punct	_	_
+10	ups	up	NOUN	NNS	Number=Plur	6	nmod	_	_
+11	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\s\n
+

@@ -1,0 +1,10 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.329
+# text = You confuse everything ... "
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	nsubj	_	_
+2	confuse	confuse	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	everything	everything	PRON	NN	Number=Sing	2	obj	_	_
+4	...	...	PUNCT	.	_	2	punct	_	_
+5	"	"	PUNCT	''	_	2	punct	_	SpacesAfter=\s\n
+

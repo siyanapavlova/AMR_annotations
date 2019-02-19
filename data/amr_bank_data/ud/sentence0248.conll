@@ -1,0 +1,20 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.248
+# text = But when it is a matter of baobabs , that always means a catastrophe .
+1	But	but	CCONJ	CC	_	12	cc	_	_
+2	when	when	ADV	WRB	PronType=Int	6	mark	_	_
+3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+6	matter	matter	NOUN	NN	Number=Sing	12	advcl	_	_
+7	of	of	ADP	IN	_	8	case	_	_
+8	baobabs	baobab	NOUN	NNS	Number=Plur	6	nmod	_	_
+9	,	,	PUNCT	,	_	12	punct	_	_
+10	that	that	SCONJ	IN	_	12	mark	_	_
+11	always	always	ADV	RB	_	12	advmod	_	_
+12	means	mean	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+13	a	a	DET	DT	Definite=Ind|PronType=Art	14	det	_	_
+14	catastrophe	catastrophe	NOUN	NN	Number=Sing	12	obj	_	_
+15	.	.	PUNCT	.	_	12	punct	_	SpacesAfter=\s\n
+

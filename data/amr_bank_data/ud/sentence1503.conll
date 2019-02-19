@@ -1,0 +1,19 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.1503
+# text = All the stars will pour out fresh water for me to drink ... "
+1	All	all	DET	PDT	_	3	det:predet	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	stars	star	NOUN	NNS	Number=Plur	5	nsubj	_	_
+4	will	will	AUX	MD	VerbForm=Fin	5	aux	_	_
+5	pour	pour	VERB	VB	VerbForm=Inf	0	root	_	_
+6	out	out	ADP	RP	_	5	compound:prt	_	_
+7	fresh	fresh	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	water	water	NOUN	NN	Number=Sing	5	obj	_	_
+9	for	for	ADP	IN	_	10	case	_	_
+10	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	5	obl	_	_
+11	to	to	PART	TO	_	12	mark	_	_
+12	drink	drink	VERB	VB	VerbForm=Inf	5	advcl	_	_
+13	...	...	PUNCT	.	_	5	punct	_	_
+14	"	"	PUNCT	''	_	5	punct	_	SpacesAfter=\s\n
+

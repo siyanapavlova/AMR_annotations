@@ -1,0 +1,22 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.35
+# text = And the grown - up would be greatly pleased to have met such a sensible man .
+1	And	and	CCONJ	CC	_	9	cc	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+3	grown	grow	VERB	VBN	Tense=Past|VerbForm=Part	5	amod	_	_
+4	-	-	PUNCT	HYPH	_	5	punct	_	_
+5	up	up	NOUN	NN	Number=Sing	9	nsubj	_	_
+6	would	would	AUX	MD	VerbForm=Fin	9	aux	_	_
+7	be	be	AUX	VB	VerbForm=Inf	9	cop	_	_
+8	greatly	greatly	ADV	RB	_	9	advmod	_	_
+9	pleased	pleased	ADJ	JJ	Degree=Pos	0	root	_	_
+10	to	to	PART	TO	_	12	mark	_	_
+11	have	have	AUX	VB	VerbForm=Inf	12	aux	_	_
+12	met	meet	VERB	VBN	Tense=Past|VerbForm=Part	9	advcl	_	_
+13	such	such	DET	PDT	_	16	det:predet	_	_
+14	a	a	DET	DT	Definite=Ind|PronType=Art	16	det	_	_
+15	sensible	sensible	ADJ	JJ	Degree=Pos	16	amod	_	_
+16	man	man	NOUN	NN	Number=Sing	12	obj	_	_
+17	.	.	PUNCT	.	_	9	punct	_	SpacesAfter=\s\n
+

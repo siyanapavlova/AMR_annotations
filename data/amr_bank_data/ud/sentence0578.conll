@@ -1,0 +1,18 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.578
+# text = It is much more difficult to judge oneself than to judge others .
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	expl	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	much	much	ADV	RB	_	4	advmod	_	_
+4	more	more	ADV	RBR	_	5	advmod	_	_
+5	difficult	difficult	ADJ	JJ	Degree=Pos	0	root	_	_
+6	to	to	PART	TO	_	7	mark	_	_
+7	judge	judge	VERB	VB	VerbForm=Inf	5	csubj	_	_
+8	oneself	oneself	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	7	obj	_	_
+9	than	than	SCONJ	IN	_	11	mark	_	_
+10	to	to	PART	TO	_	11	mark	_	_
+11	judge	judge	VERB	VB	VerbForm=Inf	7	advcl	_	_
+12	others	other	NOUN	NNS	Number=Plur	11	obj	_	_
+13	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\s\n
+

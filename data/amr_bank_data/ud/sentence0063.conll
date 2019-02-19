@@ -1,0 +1,31 @@
+# newdoc
+# newpar
+# sent_id =  a little crossly , too ) that I did not know how to draw . (lpp_1943.63
+# text = But then I remembered how my studies had been concentrated on geography , history , arithmetic , and grammar , and I told the little chap
+1	But	but	CCONJ	CC	_	4	cc	_	_
+2	then	then	ADV	RB	PronType=Dem	4	advmod	_	_
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+4	remembered	remember	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+5	how	how	ADV	WRB	PronType=Int	10	advmod	_	_
+6	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+7	studies	study	NOUN	NNS	Number=Plur	10	nsubj:pass	_	_
+8	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	10	aux	_	_
+9	been	be	AUX	VBN	Tense=Past|VerbForm=Part	10	aux:pass	_	_
+10	concentrated	concentrate	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	4	ccomp	_	_
+11	on	on	ADP	IN	_	12	case	_	_
+12	geography	geography	NOUN	NN	Number=Sing	10	obl	_	_
+13	,	,	PUNCT	,	_	14	punct	_	_
+14	history	history	NOUN	NN	Number=Sing	12	conj	_	_
+15	,	,	PUNCT	,	_	16	punct	_	_
+16	arithmetic	arithmetic	NOUN	NN	Number=Sing	12	conj	_	_
+17	,	,	PUNCT	,	_	19	punct	_	_
+18	and	and	CCONJ	CC	_	19	cc	_	_
+19	grammar	grammar	NOUN	NN	Number=Sing	12	conj	_	_
+20	,	,	PUNCT	,	_	23	punct	_	_
+21	and	and	CCONJ	CC	_	23	cc	_	_
+22	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	23	nsubj	_	_
+23	told	tell	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	conj	_	_
+24	the	the	DET	DT	Definite=Def|PronType=Art	26	det	_	_
+25	little	little	ADJ	JJ	Degree=Pos	26	amod	_	_
+26	chap	chap	NOUN	NN	Number=Sing	23	obj	_	SpacesAfter=\s\n
+

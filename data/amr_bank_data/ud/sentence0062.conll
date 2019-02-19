@@ -1,0 +1,42 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.62
+# text = Absurd as it might seem to me , a thousand miles from any human habitation and in danger of death , I took out of my pocket a sheet of paper and my fountain - pen .
+1	Absurd	absurd	ADV	RB	_	23	advmod	_	_
+2	as	as	SCONJ	IN	_	5	mark	_	_
+3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+4	might	might	AUX	MD	VerbForm=Fin	5	aux	_	_
+5	seem	seem	VERB	VB	VerbForm=Inf	23	advcl	_	_
+6	to	to	ADP	IN	_	7	case	_	_
+7	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	5	obl	_	_
+8	,	,	PUNCT	,	_	11	punct	_	_
+9	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	_
+10	thousand	thousand	NUM	CD	NumType=Card	11	nummod	_	_
+11	miles	mile	NOUN	NNS	Number=Plur	5	obj	_	_
+12	from	from	ADP	IN	_	15	case	_	_
+13	any	any	DET	DT	_	15	det	_	_
+14	human	human	ADJ	JJ	Degree=Pos	15	amod	_	_
+15	habitation	habitation	NOUN	NN	Number=Sing	11	nmod	_	_
+16	and	and	CCONJ	CC	_	18	cc	_	_
+17	in	in	ADP	IN	_	18	case	_	_
+18	danger	danger	NOUN	NN	Number=Sing	11	conj	_	_
+19	of	of	ADP	IN	_	20	case	_	_
+20	death	death	NOUN	NN	Number=Sing	18	nmod	_	_
+21	,	,	PUNCT	,	_	23	punct	_	_
+22	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	23	nsubj	_	_
+23	took	take	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+24	out	out	ADP	IN	_	27	case	_	_
+25	of	of	ADP	IN	_	27	case	_	_
+26	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	27	nmod:poss	_	_
+27	pocket	pocket	NOUN	NN	Number=Sing	23	obl	_	_
+28	a	a	DET	DT	Definite=Ind|PronType=Art	29	det	_	_
+29	sheet	sheet	NOUN	NN	Number=Sing	27	nmod	_	_
+30	of	of	ADP	IN	_	31	case	_	_
+31	paper	paper	NOUN	NN	Number=Sing	29	nmod	_	_
+32	and	and	CCONJ	CC	_	36	cc	_	_
+33	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	34	nmod:poss	_	_
+34	fountain	fountain	NOUN	NN	Number=Sing	36	compound	_	_
+35	-	-	PUNCT	HYPH	_	36	punct	_	_
+36	pen	pen	NOUN	NN	Number=Sing	27	conj	_	_
+37	.	.	PUNCT	.	_	23	punct	_	SpacesAfter=\s\n
+

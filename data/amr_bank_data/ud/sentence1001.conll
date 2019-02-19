@@ -1,0 +1,14 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.1001
+# text = But one never knows where to find them .
+1	But	but	CCONJ	CC	_	4	cc	_	_
+2	one	one	NUM	CD	NumType=Card	4	nsubj	_	_
+3	never	never	ADV	RB	_	4	advmod	_	_
+4	knows	know	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	where	where	ADV	WRB	PronType=Int	7	advmod	_	_
+6	to	to	PART	TO	_	7	mark	_	_
+7	find	find	VERB	VB	VerbForm=Inf	4	ccomp	_	_
+8	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	7	obj	_	_
+9	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\s\n
+

@@ -1,0 +1,39 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.413
+# text = Embarassed over having let herself be caught on the verge of such a naïve untruth , she coughed two or three times , in order to put the little prince in the wrong .
+1	Embarassed	Embarassed	VERB	VBN	Tense=Past|VerbForm=Part	18	advcl	_	_
+2	over	over	SCONJ	IN	_	3	mark	_	_
+3	having	have	VERB	VBG	VerbForm=Ger	1	advcl	_	_
+4	let	let	ADV	RB	_	7	advmod	_	_
+5	herself	herself	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	7	nsubj:pass	_	_
+6	be	be	AUX	VB	VerbForm=Inf	7	aux:pass	_	_
+7	caught	catch	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	xcomp	_	_
+8	on	on	ADP	IN	_	10	case	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	verge	verge	NOUN	NN	Number=Sing	7	obl	_	_
+11	of	of	ADP	IN	_	15	case	_	_
+12	such	such	DET	PDT	_	15	det:predet	_	_
+13	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	_	_
+14	naïve	naïve	NOUN	NN	Number=Sing	15	compound	_	_
+15	untruth	untruth	NOUN	NN	Number=Sing	10	nmod	_	_
+16	,	,	PUNCT	,	_	18	punct	_	_
+17	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	_
+18	coughed	cough	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+19	two	two	NUM	CD	NumType=Card	22	nummod	_	_
+20	or	or	CCONJ	CC	_	21	cc	_	_
+21	three	three	NUM	CD	NumType=Card	19	conj	_	_
+22	times	time	NOUN	NNS	Number=Plur	18	obl:tmod	_	_
+23	,	,	PUNCT	,	_	18	punct	_	_
+24	in	in	ADP	IN	_	27	mark	_	_
+25	order	order	NOUN	NN	Number=Sing	24	fixed	_	_
+26	to	to	PART	TO	_	27	mark	_	_
+27	put	put	VERB	VB	VerbForm=Inf	18	advcl	_	_
+28	the	the	DET	DT	Definite=Def|PronType=Art	30	det	_	_
+29	little	little	ADJ	JJ	Degree=Pos	30	amod	_	_
+30	prince	prince	NOUN	NN	Number=Sing	27	obj	_	_
+31	in	in	ADP	IN	_	33	case	_	_
+32	the	the	DET	DT	Definite=Def|PronType=Art	33	det	_	_
+33	wrong	wrong	NOUN	NN	Number=Sing	27	obl	_	_
+34	.	.	PUNCT	.	_	18	punct	_	SpacesAfter=\s\n
+

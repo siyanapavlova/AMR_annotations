@@ -1,0 +1,12 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.1471
+# text = Do not come to see that .
+1	Do	do	AUX	VB	Mood=Imp|VerbForm=Fin	3	aux	_	_
+2	not	not	PART	RB	_	3	advmod	_	_
+3	come	come	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+4	to	to	PART	TO	_	5	mark	_	_
+5	see	see	VERB	VB	VerbForm=Inf	3	xcomp	_	_
+6	that	that	PRON	DT	Number=Sing|PronType=Dem	5	obj	_	_
+7	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\s\n
+

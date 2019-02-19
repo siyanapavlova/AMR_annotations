@@ -1,0 +1,45 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.927
+# text = After that would come the turn of the lamplighters of Russia and the Indies ; then those of Africa and Europe , then those of South America ; then those of South America ; then those of North America .
+1	After	after	SCONJ	IN	_	4	mark	_	_
+2	that	that	PRON	DT	Number=Sing|PronType=Dem	4	nsubj	_	_
+3	would	would	AUX	MD	VerbForm=Fin	4	aux	_	_
+4	come	come	VERB	VB	VerbForm=Inf	17	advcl	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	turn	turn	NOUN	NN	Number=Sing	4	obj	_	_
+7	of	of	ADP	IN	_	9	case	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	lamplighters	lamplighter	NOUN	NNS	Number=Plur	6	nmod	_	_
+10	of	of	ADP	IN	_	11	case	_	_
+11	Russia	Russia	PROPN	NNP	Number=Sing	9	nmod	_	_
+12	and	and	CCONJ	CC	_	14	cc	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+14	Indies	Indy	NOUN	NNS	Number=Plur	11	conj	_	_
+15	;	;	PUNCT	,	_	4	punct	_	_
+16	then	then	ADV	RB	PronType=Dem	17	advmod	_	_
+17	those	those	PRON	DT	Number=Plur|PronType=Dem	0	root	_	_
+18	of	of	ADP	IN	_	19	case	_	_
+19	Africa	Africa	PROPN	NNP	Number=Sing	17	nmod	_	_
+20	and	and	CCONJ	CC	_	21	cc	_	_
+21	Europe	Europe	PROPN	NNP	Number=Sing	19	conj	_	_
+22	,	,	PUNCT	,	_	17	punct	_	_
+23	then	then	ADV	RB	PronType=Dem	24	advmod	_	_
+24	those	those	PRON	DT	Number=Plur|PronType=Dem	17	parataxis	_	_
+25	of	of	ADP	IN	_	27	case	_	_
+26	South	South	PROPN	NNP	Number=Sing	27	compound	_	_
+27	America	America	PROPN	NNP	Number=Sing	24	nmod	_	_
+28	;	;	PUNCT	,	_	17	punct	_	_
+29	then	then	ADV	RB	PronType=Dem	30	advmod	_	_
+30	those	those	PRON	DT	Number=Plur|PronType=Dem	17	appos	_	_
+31	of	of	ADP	IN	_	33	case	_	_
+32	South	South	PROPN	NNP	Number=Sing	33	compound	_	_
+33	America	America	PROPN	NNP	Number=Sing	30	nmod	_	_
+34	;	;	PUNCT	,	_	17	punct	_	_
+35	then	then	ADV	RB	PronType=Dem	36	advmod	_	_
+36	those	those	PRON	DT	Number=Plur|PronType=Dem	17	parataxis	_	_
+37	of	of	ADP	IN	_	39	case	_	_
+38	North	North	PROPN	NNP	Number=Sing	39	compound	_	_
+39	America	America	PROPN	NNP	Number=Sing	36	nmod	_	_
+40	.	.	PUNCT	.	_	17	punct	_	SpacesAfter=\s\n
+

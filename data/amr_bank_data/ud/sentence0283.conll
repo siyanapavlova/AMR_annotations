@@ -1,0 +1,19 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.283
+# text = You can see the day end and the twilight falling whenever you like ...
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	_
+2	can	can	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	see	see	VERB	VB	VerbForm=Inf	0	root	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+5	day	day	NOUN	NN	Number=Sing	6	compound	_	_
+6	end	end	NOUN	NN	Number=Sing	3	obj	_	_
+7	and	and	CCONJ	CC	_	9	cc	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	twilight	twilight	NOUN	NN	Number=Sing	6	conj	_	_
+10	falling	falling	VERB	VBG	VerbForm=Ger	9	advcl	_	_
+11	whenever	whenever	ADV	WRB	PronType=Int	10	advmod	_	_
+12	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	13	nsubj	_	_
+13	like	like	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	11	acl:relcl	_	_
+14	...	...	PUNCT	.	_	3	punct	_	SpacesAfter=\s\n
+

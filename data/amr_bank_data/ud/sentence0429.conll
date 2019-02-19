@@ -1,0 +1,21 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.429
+# text = I ought to have guessed all the affection that lay behind her poor little strategems .
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	ought	ought	AUX	MD	VerbForm=Fin	4	aux	_	_
+3	to	to	PART	TO	_	4	mark	_	_
+4	have	have	VERB	VB	VerbForm=Inf	0	root	_	_
+5	guessed	guess	VERB	VBN	Tense=Past|VerbForm=Part	4	xcomp	_	_
+6	all	all	DET	PDT	_	8	det:predet	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	affection	affection	NOUN	NN	Number=Sing	5	obj	_	_
+9	that	that	PRON	WDT	PronType=Rel	10	nsubj	_	_
+10	lay	lay	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	8	acl:relcl	_	_
+11	behind	behind	ADP	IN	_	15	case	_	_
+12	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	15	nmod:poss	_	_
+13	poor	poor	ADJ	JJ	Degree=Pos	15	amod	_	_
+14	little	little	ADJ	JJ	Degree=Pos	15	amod	_	_
+15	strategems	strategem	NOUN	NNS	Number=Plur	10	obl	_	_
+16	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\s\n
+

@@ -1,0 +1,11 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.449
+# text = But she made no answer .
+1	But	but	CCONJ	CC	_	3	cc	_	_
+2	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	made	make	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	no	no	DET	DT	_	5	det	_	_
+5	answer	answer	NOUN	NN	Number=Sing	3	obj	_	_
+6	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\s\n
+

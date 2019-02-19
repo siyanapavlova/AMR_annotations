@@ -1,0 +1,21 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.993
+# text = It was a flower with three petals , a flower of no account at all .
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
+4	flower	flower	NOUN	NN	Number=Sing	0	root	_	_
+5	with	with	ADP	IN	_	7	case	_	_
+6	three	three	NUM	CD	NumType=Card	7	nummod	_	_
+7	petals	petal	NOUN	NNS	Number=Plur	4	nmod	_	_
+8	,	,	PUNCT	,	_	4	punct	_	_
+9	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+10	flower	flower	NOUN	NN	Number=Sing	4	appos	_	_
+11	of	of	ADP	IN	_	13	case	_	_
+12	no	no	DET	DT	_	13	det	_	_
+13	account	account	NOUN	NN	Number=Sing	10	nmod	_	_
+14	at	at	ADV	RB	_	15	case	_	_
+15	all	all	ADV	RB	_	10	nmod	_	_
+16	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\s\n
+

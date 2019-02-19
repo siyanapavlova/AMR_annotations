@@ -1,0 +1,26 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.1121
+# text = But there is no shop anywhere where one can buy friendship , and so men have no friends any more .
+1	But	but	CCONJ	CC	_	3	cc	_	_
+2	there	there	PRON	EX	_	3	expl	_	_
+3	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	no	no	DET	DT	_	5	det	_	_
+5	shop	shop	NOUN	NN	Number=Sing	3	nsubj	_	_
+6	anywhere	anywhere	ADV	RB	_	10	advmod	_	_
+7	where	where	ADV	WRB	PronType=Int	10	advmod	_	_
+8	one	one	NUM	CD	NumType=Card	10	nsubj	_	_
+9	can	can	AUX	MD	VerbForm=Fin	10	aux	_	_
+10	buy	buy	VERB	VB	VerbForm=Inf	5	acl	_	_
+11	friendship	friendship	NOUN	NN	Number=Sing	10	obj	_	_
+12	,	,	PUNCT	,	_	15	punct	_	_
+13	and	and	CCONJ	CC	_	15	cc	_	_
+14	so	so	ADV	RB	_	15	advmod	_	_
+15	men	man	NOUN	NNS	Number=Plur	16	nsubj	_	_
+16	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	conj	_	_
+17	no	no	DET	DT	_	18	det	_	_
+18	friends	friend	NOUN	NNS	Number=Plur	16	obj	_	_
+19	any	any	ADV	RB	_	20	advmod	_	_
+20	more	more	ADV	RBR	_	16	advmod	_	_
+21	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\s\n
+

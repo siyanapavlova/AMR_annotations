@@ -1,0 +1,24 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.55
+# text = Now I stared at this sudden apparition with my eyes fairly starting out of my head in astonishment .
+1	Now	now	ADV	RB	_	3	advmod	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	stared	stare	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	at	at	ADP	IN	_	7	case	_	_
+5	this	this	DET	DT	Number=Sing|PronType=Dem	7	det	_	_
+6	sudden	sudden	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	apparition	apparition	NOUN	NN	Number=Sing	3	obl	_	_
+8	with	with	ADP	IN	_	10	case	_	_
+9	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
+10	eyes	eyes	NOUN	NNS	Number=Plur	7	nmod	_	_
+11	fairly	fairly	ADV	RB	_	12	advmod	_	_
+12	starting	start	VERB	VBG	VerbForm=Ger	3	advcl	_	_
+13	out	out	ADP	IN	_	16	case	_	_
+14	of	of	ADP	IN	_	16	case	_	_
+15	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	16	nmod:poss	_	_
+16	head	head	NOUN	NN	Number=Sing	12	obl	_	_
+17	in	in	ADP	IN	_	18	case	_	_
+18	astonishment	astonishment	NOUN	NN	Number=Sing	12	obl	_	_
+19	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\s\n
+

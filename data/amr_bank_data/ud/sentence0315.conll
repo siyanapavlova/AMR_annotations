@@ -1,0 +1,13 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.315
+# text = Again the little prince disturbed my thoughts .
+1	Again	again	ADV	RB	_	5	advmod	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+3	little	little	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	prince	prince	NOUN	NN	Number=Sing	5	nsubj	_	_
+5	disturbed	distur	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+6	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+7	thoughts	thought	NOUN	NNS	Number=Plur	5	obj	_	_
+8	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\s\n
+

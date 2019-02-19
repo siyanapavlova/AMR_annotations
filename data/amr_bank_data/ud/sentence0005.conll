@@ -1,0 +1,23 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.5
+# text = In the book it said : " Boa constrictors swallow their prey whole , without chewing it .
+1	In	in	ADP	IN	_	3	case	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	book	book	NOUN	NN	Number=Sing	5	obl	_	_
+4	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+5	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+6	:	:	PUNCT	:	_	5	punct	_	_
+7	"	"	PUNCT	``	_	5	punct	_	_
+8	Boa	Boa	PROPN	NNP	Number=Sing	9	compound	_	_
+9	constrictors	constrictor	NOUN	NNS	Number=Plur	10	nsubj	_	_
+10	swallow	swallow	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	ccomp	_	_
+11	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	12	nmod:poss	_	_
+12	prey	prey	NOUN	NN	Number=Sing	10	obj	_	_
+13	whole	whole	ADJ	JJ	Degree=Pos	10	xcomp	_	_
+14	,	,	PUNCT	,	_	10	punct	_	_
+15	without	without	SCONJ	IN	_	16	mark	_	_
+16	chewing	chew	VERB	VBG	VerbForm=Ger	10	advcl	_	_
+17	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	16	obj	_	_
+18	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\s\n
+

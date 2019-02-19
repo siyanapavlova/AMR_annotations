@@ -1,0 +1,30 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.1167
+# text = To be sure , an ordinary passerby would think that my rose looked just like you - - the rose that belongs to me .
+1	To	to	PART	TO	_	3	mark	_	_
+2	be	be	AUX	VB	VerbForm=Inf	3	cop	_	_
+3	sure	sure	ADJ	JJ	Degree=Pos	9	advcl	_	_
+4	,	,	PUNCT	,	_	9	punct	_	_
+5	an	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+6	ordinary	ordinary	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	passerby	passerby	NOUN	NN	Number=Sing	9	nsubj	_	_
+8	would	would	AUX	MD	VerbForm=Fin	9	aux	_	_
+9	think	think	VERB	VB	VerbForm=Inf	0	root	_	_
+10	that	that	SCONJ	IN	_	13	mark	_	_
+11	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	12	nmod:poss	_	_
+12	rose	rose	NOUN	NN	Number=Sing	13	nsubj	_	_
+13	looked	look	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	9	ccomp	_	_
+14	just	just	ADV	RB	_	16	advmod	_	_
+15	like	like	ADP	IN	_	16	case	_	_
+16	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	13	obl	_	_
+17	-	-	PUNCT	,	_	9	punct	_	_
+18	-	-	PUNCT	,	_	9	punct	_	_
+19	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	_
+20	rose	rose	NOUN	NN	Number=Sing	9	obj	_	_
+21	that	that	PRON	WDT	PronType=Rel	22	nsubj	_	_
+22	belongs	belong	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	acl:relcl	_	_
+23	to	to	ADP	IN	_	24	case	_	_
+24	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	22	obl	_	_
+25	.	.	PUNCT	.	_	9	punct	_	SpacesAfter=\s\n
+

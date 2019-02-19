@@ -1,0 +1,50 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.372
+# text = But one day , from a seed blown from no one knew where , a new flower had come up ; and the little prince had watched very closely over this small sprout which was not like any other small sprouts on his planet .
+1	But	but	CCONJ	CC	_	3	cc	_	_
+2	one	one	NUM	CD	NumType=Card	3	nummod	_	_
+3	day	day	NOUN	NN	Number=Sing	0	root	_	_
+4	,	,	PUNCT	,	_	3	punct	_	_
+5	from	from	ADP	IN	_	7	case	_	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+7	seed	seed	NOUN	NN	Number=Sing	3	nmod	_	_
+8	blown	blow	VERB	VBN	Tense=Past|VerbForm=Part	7	acl	_	_
+9	from	from	ADP	IN	_	11	case	_	_
+10	no	no	DET	DT	_	11	det	_	_
+11	one	one	NOUN	NN	Number=Sing	8	obl	_	_
+12	knew	know	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	8	conj	_	_
+13	where	where	ADV	WRB	PronType=Int	19	mark	_	_
+14	,	,	PUNCT	,	_	19	punct	_	_
+15	a	a	DET	DT	Definite=Ind|PronType=Art	17	det	_	_
+16	new	new	ADJ	JJ	Degree=Pos	17	amod	_	_
+17	flower	flower	NOUN	NN	Number=Sing	19	nsubj	_	_
+18	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	19	aux	_	_
+19	come	come	VERB	VBN	Tense=Past|VerbForm=Part	12	advcl	_	_
+20	up	up	ADP	RP	_	19	compound:prt	_	_
+21	;	;	PUNCT	,	_	3	punct	_	_
+22	and	and	CCONJ	CC	_	27	cc	_	_
+23	the	the	DET	DT	Definite=Def|PronType=Art	25	det	_	_
+24	little	little	ADJ	JJ	Degree=Pos	25	amod	_	_
+25	prince	prince	NOUN	NN	Number=Sing	27	nsubj	_	_
+26	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	27	aux	_	_
+27	watched	watch	VERB	VBN	Tense=Past|VerbForm=Part	3	conj	_	_
+28	very	very	ADV	RB	_	29	advmod	_	_
+29	closely	closely	ADV	RB	_	27	advmod	_	_
+30	over	over	ADP	IN	_	33	case	_	_
+31	this	this	DET	DT	Number=Sing|PronType=Dem	33	det	_	_
+32	small	small	ADJ	JJ	Degree=Pos	33	amod	_	_
+33	sprout	sprout	NOUN	NN	Number=Sing	27	obl	_	_
+34	which	which	PRON	WDT	PronType=Rel	41	nsubj	_	_
+35	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	41	cop	_	_
+36	not	not	PART	RB	_	41	advmod	_	_
+37	like	like	ADP	IN	_	41	case	_	_
+38	any	any	DET	DT	_	41	det	_	_
+39	other	other	ADJ	JJ	Degree=Pos	41	amod	_	_
+40	small	small	ADJ	JJ	Degree=Pos	41	amod	_	_
+41	sprouts	sprout	NOUN	NNS	Number=Plur	33	acl:relcl	_	_
+42	on	on	ADP	IN	_	44	case	_	_
+43	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	44	nmod:poss	_	_
+44	planet	planet	NOUN	NN	Number=Sing	41	nmod	_	_
+45	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\s\n
+

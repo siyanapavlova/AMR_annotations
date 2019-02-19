@@ -1,0 +1,17 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.892
+# text = The flower is the most beautiful thing on my planet ! "
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	flower	flower	NOUN	NN	Number=Sing	7	nsubj	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+5	most	most	ADV	RBS	_	6	advmod	_	_
+6	beautiful	beautiful	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	thing	thing	NOUN	NN	Number=Sing	0	root	_	_
+8	on	on	ADP	IN	_	10	case	_	_
+9	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
+10	planet	planet	NOUN	NN	Number=Sing	7	nmod	_	_
+11	!	!	PUNCT	.	_	7	punct	_	_
+12	"	"	PUNCT	''	_	7	punct	_	SpacesAfter=\s\n
+

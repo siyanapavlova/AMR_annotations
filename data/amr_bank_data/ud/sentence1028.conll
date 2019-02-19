@@ -1,0 +1,19 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.1028
+# text = He was standing before a garden , all a - bloom with roses .
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux	_	_
+3	standing	stand	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+4	before	before	ADP	IN	_	6	case	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+6	garden	garden	NOUN	NN	Number=Sing	3	obl	_	_
+7	,	,	PUNCT	,	_	3	punct	_	_
+8	all	all	DET	DT	_	11	det:predet	_	_
+9	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	_
+10	-	-	PUNCT	HYPH	_	11	punct	_	_
+11	bloom	bloom	NOUN	NN	Number=Sing	3	obj	_	_
+12	with	with	ADP	IN	_	13	case	_	_
+13	roses	ros	NOUN	NNS	Number=Plur	11	nmod	_	_
+14	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\s\n
+

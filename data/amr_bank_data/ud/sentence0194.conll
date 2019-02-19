@@ -1,0 +1,46 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.194
+# text = It is hard to take up drawing again at my age , when I have never made any pictures except those of the boa constrictor from the outside and the boa constrictor from the inside , since I was six .
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	hard	hard	ADJ	JJ	Degree=Pos	0	root	_	_
+4	to	to	PART	TO	_	5	mark	_	_
+5	take	take	VERB	VB	VerbForm=Inf	3	csubj	_	_
+6	up	up	ADP	RP	_	5	compound:prt	_	_
+7	drawing	draw	VERB	VBG	VerbForm=Ger	5	obj	_	_
+8	again	again	ADV	RB	_	5	advmod	_	_
+9	at	at	ADP	IN	_	11	case	_	_
+10	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
+11	age	age	NOUN	NN	Number=Sing	3	obl	_	_
+12	,	,	PUNCT	,	_	3	punct	_	_
+13	when	when	ADV	WRB	PronType=Int	17	mark	_	_
+14	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	17	nsubj	_	_
+15	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	17	aux	_	_
+16	never	never	ADV	RB	_	17	advmod	_	_
+17	made	make	VERB	VBN	Tense=Past|VerbForm=Part	40	advcl	_	_
+18	any	any	DET	DT	_	19	det	_	_
+19	pictures	picture	NOUN	NNS	Number=Plur	17	obj	_	_
+20	except	except	ADP	IN	_	21	case	_	_
+21	those	those	PRON	DT	Number=Plur|PronType=Dem	19	nmod	_	_
+22	of	of	ADP	IN	_	25	case	_	_
+23	the	the	DET	DT	Definite=Def|PronType=Art	25	det	_	_
+24	boa	boa	NOUN	NN	Number=Sing	25	compound	_	_
+25	constrictor	constrictor	NOUN	NN	Number=Sing	21	nmod	_	_
+26	from	from	ADP	IN	_	32	case	_	_
+27	the	the	DET	DT	Definite=Def|PronType=Art	32	det	_	_
+28	outside	outside	ADJ	JJ	Degree=Pos	32	amod	_	_
+29	and	and	CCONJ	CC	_	32	cc	_	_
+30	the	the	DET	DT	Definite=Def|PronType=Art	32	det	_	_
+31	boa	boa	NOUN	NN	Number=Sing	32	compound	_	_
+32	constrictor	constrictor	NOUN	NN	Number=Sing	25	nmod	_	_
+33	from	from	ADP	IN	_	35	case	_	_
+34	the	the	DET	DT	Definite=Def|PronType=Art	35	det	_	_
+35	inside	inside	NOUN	NN	Number=Sing	32	nmod	_	_
+36	,	,	PUNCT	,	_	17	punct	_	_
+37	since	since	SCONJ	IN	_	40	mark	_	_
+38	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	40	nsubj	_	_
+39	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	40	cop	_	_
+40	six	six	NUM	CD	NumType=Card	3	advcl	_	_
+41	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\s\n
+

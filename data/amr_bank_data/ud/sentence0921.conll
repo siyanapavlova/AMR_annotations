@@ -1,0 +1,52 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.921
+# text = To give you an idea of the size of the Earth , I will tell you that before the invention of electricity it was necessary to maintain , over the whole of the six continents , a veritable army of 462,511 lamplighters for the street lamps .
+1	To	to	PART	TO	_	2	mark	_	_
+2	give	give	VERB	VB	VerbForm=Inf	15	advcl	_	_
+3	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	2	iobj	_	_
+4	an	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+5	idea	idea	NOUN	NN	Number=Sing	2	obj	_	_
+6	of	of	ADP	IN	_	8	case	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	size	size	NOUN	NN	Number=Sing	5	nmod	_	_
+9	of	of	ADP	IN	_	11	case	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	Earth	earth	PROPN	NNP	Number=Sing	8	nmod	_	_
+12	,	,	PUNCT	,	_	15	punct	_	_
+13	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj	_	_
+14	will	will	AUX	MD	VerbForm=Fin	15	aux	_	_
+15	tell	tell	VERB	VB	VerbForm=Inf	0	root	_	_
+16	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	15	iobj	_	_
+17	that	that	SCONJ	IN	_	25	mark	_	_
+18	before	before	SCONJ	IN	_	25	mark	_	_
+19	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	_
+20	invention	invention	NOUN	NN	Number=Sing	25	nsubj	_	_
+21	of	of	ADP	IN	_	22	case	_	_
+22	electricity	electricity	NOUN	NN	Number=Sing	20	nmod	_	_
+23	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	25	expl	_	_
+24	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	25	cop	_	_
+25	necessary	necessary	ADJ	JJ	Degree=Pos	15	ccomp	_	_
+26	to	to	PART	TO	_	27	mark	_	_
+27	maintain	maintain	VERB	VB	VerbForm=Inf	25	csubj	_	_
+28	,	,	PUNCT	,	_	27	punct	_	_
+29	over	over	ADP	IN	_	31	case	_	_
+30	the	the	DET	DT	Definite=Def|PronType=Art	31	det	_	_
+31	whole	whole	ADJ	JJ	Degree=Pos	27	obl	_	_
+32	of	of	ADP	IN	_	35	case	_	_
+33	the	the	DET	DT	Definite=Def|PronType=Art	35	det	_	_
+34	six	six	NUM	CD	NumType=Card	35	nummod	_	_
+35	continents	continent	NOUN	NNS	Number=Plur	31	obl	_	_
+36	,	,	PUNCT	,	_	35	punct	_	_
+37	a	a	DET	DT	Definite=Ind|PronType=Art	39	det	_	_
+38	veritable	veritable	ADJ	JJ	Degree=Pos	39	amod	_	_
+39	army	army	NOUN	NN	Number=Sing	35	appos	_	_
+40	of	of	ADP	IN	_	42	case	_	_
+41	462,511	462,511	NUM	CD	NumType=Card	42	nummod	_	_
+42	lamplighters	lamplighter	NOUN	NNS	Number=Plur	39	nmod	_	_
+43	for	for	ADP	IN	_	46	case	_	_
+44	the	the	DET	DT	Definite=Def|PronType=Art	46	det	_	_
+45	street	street	NOUN	NN	Number=Sing	46	compound	_	_
+46	lamps	lamp	NOUN	NNS	Number=Plur	42	nmod	_	_
+47	.	.	PUNCT	.	_	15	punct	_	SpacesAfter=\s\n
+

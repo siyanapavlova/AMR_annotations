@@ -1,0 +1,24 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.938
+# text = The grown - ups , to be sure , will not believe you when you tell them that .
+1	The	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+2	grown	grow	VERB	VBN	Tense=Past|VerbForm=Part	4	amod	_	_
+3	-	-	PUNCT	HYPH	_	4	punct	_	_
+4	ups	up	NOUN	NNS	Number=Plur	12	nsubj	_	_
+5	,	,	PUNCT	,	_	4	punct	_	_
+6	to	to	PART	TO	_	8	mark	_	_
+7	be	be	AUX	VB	VerbForm=Inf	8	cop	_	_
+8	sure	sure	ADJ	JJ	Degree=Pos	4	acl	_	_
+9	,	,	PUNCT	,	_	12	punct	_	_
+10	will	will	AUX	MD	VerbForm=Fin	12	aux	_	_
+11	not	not	PART	RB	_	12	advmod	_	_
+12	believe	believe	VERB	VB	VerbForm=Inf	0	root	_	_
+13	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	12	obj	_	_
+14	when	when	ADV	WRB	PronType=Int	16	mark	_	_
+15	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	16	nsubj	_	_
+16	tell	tell	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	12	advcl	_	_
+17	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	16	obj	_	_
+18	that	that	PRON	DT	Number=Sing|PronType=Dem	16	obj	_	_
+19	.	.	PUNCT	.	_	12	punct	_	SpacesAfter=\s\n
+

@@ -1,0 +1,37 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.821
+# text = He breathed a sigh of regret , and said to himself , again : " That man is the only one of them all whom I could have made my friend .
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	breathed	breath	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
+4	sigh	sigh	NOUN	NN	Number=Sing	2	obj	_	_
+5	of	of	ADP	IN	_	6	case	_	_
+6	regret	regret	NOUN	NN	Number=Sing	4	nmod	_	_
+7	,	,	PUNCT	,	_	9	punct	_	_
+8	and	and	CCONJ	CC	_	9	cc	_	_
+9	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+10	to	to	ADP	IN	_	11	case	_	_
+11	himself	himself	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	9	obl	_	_
+12	,	,	PUNCT	,	_	9	punct	_	_
+13	again	again	ADV	RB	_	9	advmod	_	_
+14	:	:	PUNCT	:	_	9	punct	_	_
+15	"	"	PUNCT	``	_	9	punct	_	_
+16	That	that	DET	DT	Number=Sing|PronType=Dem	17	det	_	_
+17	man	man	NOUN	NN	Number=Sing	21	nsubj	_	_
+18	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	cop	_	_
+19	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	_
+20	only	only	ADJ	JJ	Degree=Pos	21	amod	_	_
+21	one	one	NOUN	NN	Number=Sing	9	ccomp	_	_
+22	of	of	ADP	IN	_	23	case	_	_
+23	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	21	nmod	_	_
+24	all	all	DET	DT	_	25	det	_	_
+25	whom	whom	PRON	WP	PronType=Rel	29	obj	_	_
+26	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	29	nsubj	_	_
+27	could	could	AUX	MD	VerbForm=Fin	29	aux	_	_
+28	have	have	AUX	VB	VerbForm=Inf	29	aux	_	_
+29	made	make	VERB	VBN	Tense=Past|VerbForm=Part	21	acl:relcl	_	_
+30	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	31	nmod:poss	_	_
+31	friend	friend	NOUN	NN	Number=Sing	29	obj	_	_
+32	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\s\n
+

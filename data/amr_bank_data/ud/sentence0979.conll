@@ -1,0 +1,20 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.979
+# text = He twined himself around the little prince 's ankle , like a golden bracelet .
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	twined	twin	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	himself	himself	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	2	obj	_	_
+4	around	around	ADP	IN	_	9	case	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+6	little	little	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	prince	prince	NOUN	NN	Number=Sing	9	nmod:poss	_	_
+8	's	's	PART	POS	_	7	case	_	_
+9	ankle	ankle	NOUN	NN	Number=Sing	2	obl	_	_
+10	,	,	PUNCT	,	_	2	punct	_	_
+11	like	like	ADP	IN	_	14	case	_	_
+12	a	a	DET	DT	Definite=Ind|PronType=Art	14	det	_	_
+13	golden	golden	ADJ	JJ	Degree=Pos	14	amod	_	_
+14	bracelet	bracelet	NOUN	NN	Number=Sing	2	obl	_	_
+15	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\s\n
+

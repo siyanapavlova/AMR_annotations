@@ -1,0 +1,19 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.44
+# text = It said : " If you please -- draw me a sheep ! "
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	:	:	PUNCT	:	_	2	punct	_	_
+4	"	"	PUNCT	``	_	2	punct	_	_
+5	If	if	SCONJ	IN	_	7	mark	_	_
+6	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	7	nsubj	_	_
+7	please	please	INTJ	UH	_	2	ccomp	_	_
+8	--	--	PUNCT	,	_	2	punct	_	_
+9	draw	draw	VERB	VB	Mood=Imp|VerbForm=Fin	2	ccomp	_	_
+10	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	9	iobj	_	_
+11	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	_
+12	sheep	sheep	NOUN	NN	Number=Sing	9	obj	_	_
+13	!	!	PUNCT	.	_	2	punct	_	_
+14	"	"	PUNCT	''	_	2	punct	_	SpacesAfter=\s\n
+

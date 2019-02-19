@@ -1,0 +1,14 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.882
+# text = " Well ? " said the geographer expectantly .
+1	"	"	PUNCT	``	_	3	punct	_	_
+2	Well	well	INTJ	UH	_	3	discourse	_	_
+3	?	?	PUNCT	.	_	5	punct	_	_
+4	"	"	PUNCT	''	_	5	punct	_	_
+5	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	geographer	geographer	NOUN	NN	Number=Sing	5	nsubj	_	_
+8	expectantly	expectantly	ADV	RB	_	7	advmod	_	_
+9	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\s\n
+

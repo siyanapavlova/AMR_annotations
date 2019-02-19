@@ -1,0 +1,8 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.692
+# text = " Ah !
+1	"	"	PUNCT	``	_	2	punct	_	_
+2	Ah	ah	INTJ	UH	_	0	root	_	_
+3	!	!	PUNCT	.	_	2	punct	_	SpacesAfter=\s\n
+

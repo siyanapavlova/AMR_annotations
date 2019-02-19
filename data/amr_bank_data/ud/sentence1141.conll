@@ -1,0 +1,14 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.1141
+# text = Every Thursday they dance with the village girls .
+1	Every	every	DET	DT	_	4	det	_	_
+2	Thursday	Thursday	PROPN	NNP	Number=Sing	4	compound	_	_
+3	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	_
+4	dance	dance	NOUN	NN	Number=Sing	0	root	_	_
+5	with	with	ADP	IN	_	8	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+7	village	village	NOUN	NN	Number=Sing	8	compound	_	_
+8	girls	girl	NOUN	NNS	Number=Plur	4	nmod	_	_
+9	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\s\n
+

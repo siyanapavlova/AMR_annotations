@@ -1,0 +1,18 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.186
+# text = For I do not want any one to read my book carelessly .
+1	For	for	CCONJ	CC	_	5	cc	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+3	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	not	not	PART	RB	_	5	advmod	_	_
+5	want	want	VERB	VB	VerbForm=Inf	0	root	_	_
+6	any	any	DET	DT	_	7	det	_	_
+7	one	one	NOUN	NN	Number=Sing	5	obj	_	_
+8	to	to	PART	TO	_	9	mark	_	_
+9	read	read	VERB	VB	VerbForm=Inf	7	acl	_	_
+10	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
+11	book	book	NOUN	NN	Number=Sing	9	obj	_	_
+12	carelessly	carelessly	ADV	RB	_	9	advmod	_	_
+13	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\s\n
+

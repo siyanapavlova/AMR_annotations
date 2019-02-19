@@ -1,0 +1,24 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.436
+# text = He possessed two active volcanoes ; and they were very convenient for heating his breakfast in the morning .
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	possessed	possess	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	two	two	NUM	CD	NumType=Card	5	nummod	_	_
+4	active	active	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	volcanoes	volcanoe	NOUN	NNS	Number=Plur	2	obj	_	_
+6	;	;	PUNCT	,	_	2	punct	_	_
+7	and	and	CCONJ	CC	_	11	cc	_	_
+8	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	11	nsubj	_	_
+9	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	11	cop	_	_
+10	very	very	ADV	RB	_	11	advmod	_	_
+11	convenient	convenient	ADJ	JJ	Degree=Pos	2	conj	_	_
+12	for	for	SCONJ	IN	_	13	mark	_	_
+13	heating	heat	VERB	VBG	VerbForm=Ger	11	advcl	_	_
+14	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	15	nmod:poss	_	_
+15	breakfast	breakfast	NOUN	NN	Number=Sing	13	obj	_	_
+16	in	in	ADP	IN	_	18	case	_	_
+17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
+18	morning	morning	NOUN	NN	Number=Sing	13	obl	_	_
+19	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\s\n
+

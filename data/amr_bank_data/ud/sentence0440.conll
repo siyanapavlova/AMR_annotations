@@ -1,0 +1,22 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.440
+# text = If they are well cleaned out , volcanoes burn slowly and steadily , without any eruptions .
+1	If	if	SCONJ	IN	_	5	mark	_	_
+2	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	nsubj:pass	_	_
+3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
+4	well	well	ADV	RB	Degree=Pos	5	advmod	_	_
+5	cleaned	clean	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	9	advcl	_	_
+6	out	out	ADP	RP	_	5	compound:prt	_	_
+7	,	,	PUNCT	,	_	9	punct	_	_
+8	volcanoes	volcano	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	burn	burn	VERB	VB	VerbForm=Inf	0	root	_	_
+10	slowly	slowly	ADV	RB	_	9	advmod	_	_
+11	and	and	CCONJ	CC	_	12	cc	_	_
+12	steadily	steadily	ADV	RB	_	10	conj	_	_
+13	,	,	PUNCT	,	_	9	punct	_	_
+14	without	without	ADP	IN	_	16	case	_	_
+15	any	any	DET	DT	_	16	det	_	_
+16	eruptions	eruption	NOUN	NNS	Number=Plur	9	obl	_	_
+17	.	.	PUNCT	.	_	9	punct	_	SpacesAfter=\s\n
+

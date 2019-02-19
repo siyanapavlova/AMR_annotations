@@ -1,0 +1,19 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.1511
+# text = Then he said , again : " You know - - my flower ...
+1	Then	then	ADV	RB	PronType=Dem	3	advmod	_	_
+2	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	,	,	PUNCT	,	_	3	punct	_	_
+5	again	again	ADV	RB	_	3	advmod	_	_
+6	:	:	PUNCT	:	_	3	punct	_	_
+7	"	"	PUNCT	``	_	3	punct	_	_
+8	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	9	nsubj	_	_
+9	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+10	-	-	PUNCT	,	_	9	punct	_	_
+11	-	-	PUNCT	,	_	9	punct	_	_
+12	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	13	nmod:poss	_	_
+13	flower	flower	NOUN	NN	Number=Sing	9	obj	_	_
+14	...	...	PUNCT	.	_	9	punct	_	SpacesAfter=\s\n
+

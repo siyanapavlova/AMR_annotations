@@ -1,0 +1,27 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.444
+# text = The little prince also pulled up , with a certain sense of dejection , the last little shoots of the baobabs .
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+2	little	little	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	prince	prince	NOUN	NN	Number=Sing	5	nsubj	_	_
+4	also	also	ADV	RB	_	5	advmod	_	_
+5	pulled	pull	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+6	up	up	ADP	RP	_	5	compound:prt	_	_
+7	,	,	PUNCT	,	_	5	punct	_	_
+8	with	with	ADP	IN	_	11	case	_	_
+9	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	_
+10	certain	certain	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	sense	sense	NOUN	NN	Number=Sing	5	obl	_	_
+12	of	of	ADP	IN	_	13	case	_	_
+13	dejection	dejection	NOUN	NN	Number=Sing	11	nmod	_	_
+14	,	,	PUNCT	,	_	11	punct	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
+16	last	last	ADJ	JJ	Degree=Pos	18	amod	_	_
+17	little	little	ADJ	JJ	Degree=Pos	18	amod	_	_
+18	shoots	shoot	NOUN	NNS	Number=Plur	5	obj	_	_
+19	of	of	ADP	IN	_	21	case	_	_
+20	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	_
+21	baobabs	baobab	NOUN	NNS	Number=Plur	18	nmod	_	_
+22	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\s\n
+

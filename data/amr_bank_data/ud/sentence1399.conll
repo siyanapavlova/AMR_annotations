@@ -1,0 +1,45 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.1399
+# text = I was holding him close in my arms as if he were a little child ; and yet it seemed to me that he was rushing headlong toward an abyss from which I could do nothing to restrain him ...
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	3	aux	_	_
+3	holding	hold	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+4	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
+5	close	close	ADJ	JJ	Degree=Pos	3	xcomp	_	_
+6	in	in	ADP	IN	_	8	case	_	_
+7	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+8	arms	arm	NOUN	NNS	Number=Plur	5	obl	_	_
+9	as	as	SCONJ	IN	_	12	mark	_	_
+10	if	if	SCONJ	IN	_	12	mark	_	_
+11	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
+12	were	be	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	advcl	_	_
+13	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	_	_
+14	little	little	ADJ	JJ	Degree=Pos	15	amod	_	_
+15	child	child	NOUN	NN	Number=Sing	12	obj	_	_
+16	;	;	PUNCT	,	_	3	punct	_	_
+17	and	and	CCONJ	CC	_	18	cc	_	_
+18	yet	yet	CCONJ	CC	_	20	cc	_	_
+19	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	_
+20	seemed	seem	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	conj	_	_
+21	to	to	ADP	IN	_	22	case	_	_
+22	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	20	obl	_	_
+23	that	that	SCONJ	IN	_	26	mark	_	_
+24	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	26	nsubj	_	_
+25	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	26	aux	_	_
+26	rushing	rush	VERB	VBG	Tense=Pres|VerbForm=Part	20	ccomp	_	_
+27	headlong	headlong	VERB	VBG	VerbForm=Ger	26	xcomp	_	_
+28	toward	toward	ADP	IN	_	30	case	_	_
+29	an	a	DET	DT	Definite=Ind|PronType=Art	30	det	_	_
+30	abyss	abyss	NOUN	NN	Number=Sing	27	obl	_	_
+31	from	from	ADP	IN	_	32	case	_	_
+32	which	which	PRON	WDT	PronType=Rel	35	obl	_	_
+33	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	35	nsubj	_	_
+34	could	could	AUX	MD	VerbForm=Fin	35	aux	_	_
+35	do	do	VERB	VB	VerbForm=Inf	30	acl:relcl	_	_
+36	nothing	nothing	PRON	NN	Number=Sing	35	obj	_	_
+37	to	to	PART	TO	_	38	mark	_	_
+38	restrain	restrain	VERB	VB	VerbForm=Inf	36	acl	_	_
+39	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	38	obj	_	_
+40	...	...	PUNCT	.	_	3	punct	_	SpacesAfter=\s\n
+

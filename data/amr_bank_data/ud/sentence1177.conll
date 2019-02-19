@@ -1,0 +1,17 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.1177
+# text = " Men have forgotten this truth , " said the fox .
+1	"	"	PUNCT	``	_	2	punct	_	_
+2	Men	man	NOUN	NNS	Number=Plur	4	nsubj	_	_
+3	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	forgotten	forget	VERB	VBN	Tense=Past|VerbForm=Part	9	ccomp	_	_
+5	this	this	DET	DT	Number=Sing|PronType=Dem	6	det	_	_
+6	truth	truth	NOUN	NN	Number=Sing	4	obj	_	_
+7	,	,	PUNCT	,	_	9	punct	_	_
+8	"	"	PUNCT	''	_	9	punct	_	_
+9	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	fox	fox	NOUN	NN	Number=Sing	9	nsubj	_	_
+12	.	.	PUNCT	.	_	9	punct	_	SpacesAfter=\s\n
+

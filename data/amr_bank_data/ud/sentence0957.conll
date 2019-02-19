@@ -1,0 +1,22 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.957
+# text = The little prince sat down on a stone , and raised his eyes toward the sky .
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+2	little	little	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	prince	prince	NOUN	NN	Number=Sing	4	nsubj	_	_
+4	sat	sit	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+5	down	down	ADP	RP	_	4	compound:prt	_	_
+6	on	on	ADP	IN	_	8	case	_	_
+7	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+8	stone	stone	NOUN	NN	Number=Sing	4	obl	_	_
+9	,	,	PUNCT	,	_	11	punct	_	_
+10	and	and	CCONJ	CC	_	11	cc	_	_
+11	raised	raise	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	conj	_	_
+12	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	13	nmod:poss	_	_
+13	eyes	eye	NOUN	NNS	Number=Plur	11	obj	_	_
+14	toward	toward	ADP	IN	_	16	case	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	sky	sky	NOUN	NN	Number=Sing	11	obl	_	_
+17	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\s\n
+

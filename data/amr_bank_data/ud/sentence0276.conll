@@ -1,0 +1,12 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.276
+# text = And then you laughed to yourself .
+1	And	and	CCONJ	CC	_	4	cc	_	_
+2	then	then	ADV	RB	PronType=Dem	4	advmod	_	_
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	_
+4	laughed	laugh	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+5	to	to	ADP	IN	_	6	case	_	_
+6	yourself	yourself	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs|Reflex=Yes	4	obl	_	_
+7	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\s\n
+

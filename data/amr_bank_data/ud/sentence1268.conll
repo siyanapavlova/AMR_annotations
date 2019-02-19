@@ -1,0 +1,18 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.1268
+# text = It seemed to me that I was carrying a very fragile treasure .
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	seemed	seem	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	to	to	ADP	IN	_	4	case	_	_
+4	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	2	obl	_	_
+5	that	that	SCONJ	IN	_	8	mark	_	_
+6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+7	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	aux	_	_
+8	carrying	carry	VERB	VBG	VerbForm=Ger	2	ccomp	_	_
+9	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	_
+10	very	very	ADV	RB	_	11	advmod	_	_
+11	fragile	fragile	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	treasure	treasure	NOUN	NN	Number=Sing	8	obj	_	_
+13	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\s\n
+

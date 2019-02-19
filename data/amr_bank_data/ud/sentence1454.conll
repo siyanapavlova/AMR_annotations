@@ -1,0 +1,42 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.1454
+# text = And so it will be as if all the stars were laughing , when you look at the sky at night ... you - - only you - - will have stars that can laugh ! "
+1	And	and	CCONJ	CC	_	12	cc	_	_
+2	so	so	ADV	RB	_	12	advmod	_	_
+3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
+4	will	will	AUX	MD	VerbForm=Fin	12	aux	_	_
+5	be	be	AUX	VB	VerbForm=Inf	12	aux	_	_
+6	as	as	ADV	RB	_	12	advmod	_	_
+7	if	if	SCONJ	IN	_	12	mark	_	_
+8	all	all	DET	PDT	_	10	det:predet	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	stars	star	NOUN	NNS	Number=Plur	12	nsubj	_	_
+11	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	12	aux	_	_
+12	laughing	laugh	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+13	,	,	PUNCT	,	_	12	punct	_	_
+14	when	when	ADV	WRB	PronType=Int	16	mark	_	_
+15	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	16	nsubj	_	_
+16	look	look	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	12	advcl	_	_
+17	at	at	ADP	IN	_	19	case	_	_
+18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+19	sky	sky	NOUN	NN	Number=Sing	16	obl	_	_
+20	at	at	ADP	IN	_	21	case	_	_
+21	night	night	NOUN	NN	Number=Sing	16	obl	_	_
+22	...	...	PUNCT	,	_	12	punct	_	_
+23	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	12	parataxis	_	_
+24	-	-	PUNCT	,	_	23	punct	_	_
+25	-	-	PUNCT	HYPH	_	12	punct	_	_
+26	only	only	ADV	RB	_	27	advmod	_	_
+27	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	31	nsubj	_	_
+28	-	-	PUNCT	,	_	27	punct	_	_
+29	-	-	PUNCT	,	_	31	punct	_	_
+30	will	will	AUX	MD	VerbForm=Fin	31	aux	_	_
+31	have	have	VERB	VB	VerbForm=Inf	12	parataxis	_	_
+32	stars	star	NOUN	NNS	Number=Plur	31	obj	_	_
+33	that	that	PRON	WDT	PronType=Rel	35	nsubj	_	_
+34	can	can	AUX	MD	VerbForm=Fin	35	aux	_	_
+35	laugh	laugh	VERB	VB	VerbForm=Inf	32	acl:relcl	_	_
+36	!	!	PUNCT	.	_	12	punct	_	_
+37	"	"	PUNCT	''	_	12	punct	_	SpacesAfter=\s\n
+

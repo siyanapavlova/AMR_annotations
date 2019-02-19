@@ -1,0 +1,22 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.1490
+# text = I shall look as if I were dead ; and that will not be true ... "
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	shall	shall	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	look	look	VERB	VB	VerbForm=Inf	0	root	_	_
+4	as	as	SCONJ	IN	_	8	mark	_	_
+5	if	if	SCONJ	IN	_	8	mark	_	_
+6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+7	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	8	cop	_	_
+8	dead	dead	ADJ	JJ	Degree=Pos	3	advcl	_	_
+9	;	;	PUNCT	,	_	3	punct	_	_
+10	and	and	CCONJ	CC	_	15	cc	_	_
+11	that	that	PRON	DT	Number=Sing|PronType=Dem	15	nsubj	_	_
+12	will	will	AUX	MD	VerbForm=Fin	15	aux	_	_
+13	not	not	PART	RB	_	15	advmod	_	_
+14	be	be	AUX	VB	VerbForm=Inf	15	cop	_	_
+15	true	true	ADJ	JJ	Degree=Pos	3	conj	_	_
+16	...	...	PUNCT	.	_	3	punct	_	_
+17	"	"	PUNCT	''	_	3	punct	_	SpacesAfter=\s\n
+

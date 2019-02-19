@@ -1,0 +1,19 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.1366
+# text = It is the right day , but this is not the place . "
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+4	right	right	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	day	day	NOUN	NN	Number=Sing	0	root	_	_
+6	,	,	PUNCT	,	_	12	punct	_	_
+7	but	but	CCONJ	CC	_	12	cc	_	_
+8	this	this	PRON	DT	Number=Sing|PronType=Dem	12	nsubj	_	_
+9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+10	not	not	PART	RB	_	12	advmod	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	place	place	NOUN	NN	Number=Sing	5	conj	_	_
+13	.	.	PUNCT	.	_	5	punct	_	_
+14	"	"	PUNCT	''	_	5	punct	_	SpacesAfter=\s\n
+

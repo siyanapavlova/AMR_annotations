@@ -1,0 +1,8 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.702
+# text = " Nothing .
+1	"	"	PUNCT	``	_	2	punct	_	_
+2	Nothing	nothing	PRON	NN	Number=Sing	0	root	_	_
+3	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\s\n
+

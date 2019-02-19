@@ -1,0 +1,16 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.176
+# text = And what good would it do to tell them that ?
+1	And	and	CCONJ	CC	_	2	cc	_	_
+2	what	what	PRON	WP	PronType=Int	0	root	_	_
+3	good	good	ADJ	JJ	Degree=Pos	6	amod	_	_
+4	would	would	AUX	MD	VerbForm=Fin	6	aux	_	_
+5	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+6	do	do	VERB	VB	VerbForm=Inf	2	acl:relcl	_	_
+7	to	to	PART	TO	_	8	mark	_	_
+8	tell	tell	VERB	VB	VerbForm=Inf	6	csubj	_	_
+9	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	8	obj	_	_
+10	that	that	PRON	DT	Number=Sing|PronType=Dem	8	obj	_	_
+11	?	?	PUNCT	.	_	2	punct	_	SpacesAfter=\s\n
+

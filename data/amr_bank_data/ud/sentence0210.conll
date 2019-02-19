@@ -1,0 +1,22 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.210
+# text = The information would come very slowly , as it might chance to fall from his thoughts .
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	information	information	NOUN	NN	Number=Sing	4	nsubj	_	_
+3	would	would	AUX	MD	VerbForm=Fin	4	aux	_	_
+4	come	come	VERB	VB	VerbForm=Inf	0	root	_	_
+5	very	very	ADV	RB	_	6	advmod	_	_
+6	slowly	slowly	ADV	RB	_	4	advmod	_	_
+7	,	,	PUNCT	,	_	4	punct	_	_
+8	as	as	SCONJ	IN	_	11	mark	_	_
+9	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
+10	might	might	AUX	MD	VerbForm=Fin	11	aux	_	_
+11	chance	chance	NOUN	NN	Number=Sing	4	advcl	_	_
+12	to	to	PART	TO	_	13	mark	_	_
+13	fall	fall	VERB	VB	VerbForm=Inf	11	acl	_	_
+14	from	from	ADP	IN	_	16	case	_	_
+15	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	16	nmod:poss	_	_
+16	thoughts	thought	NOUN	NNS	Number=Plur	13	obl	_	_
+17	.	.	PUNCT	.	_	11	punct	_	SpacesAfter=\s\n
+

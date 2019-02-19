@@ -1,0 +1,16 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.679
+# text = The third time - - well , this is it !
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+2	third	third	ADJ	JJ	Degree=Pos|NumType=Ord	3	amod	_	_
+3	time	time	NOUN	NN	Number=Sing	0	root	_	_
+4	-	-	PUNCT	,	_	3	punct	_	_
+5	-	-	PUNCT	,	_	3	punct	_	_
+6	well	well	INTJ	UH	_	10	discourse	_	_
+7	,	,	PUNCT	,	_	10	punct	_	_
+8	this	this	PRON	DT	Number=Sing|PronType=Dem	10	nsubj	_	_
+9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+10	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	parataxis	_	_
+11	!	!	PUNCT	.	_	3	punct	_	SpacesAfter=\s\n
+

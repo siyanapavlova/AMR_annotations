@@ -1,0 +1,37 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.399
+# text = One day , for instance , when she was speaking of her four thorns , she said to the little prince : " Let the tigers come with their claws ! "
+1	One	one	NUM	CD	NumType=Card	2	nummod	_	_
+2	day	day	NOUN	NN	Number=Sing	17	obl:tmod	_	_
+3	,	,	PUNCT	,	_	2	punct	_	_
+4	for	for	ADP	IN	_	5	case	_	_
+5	instance	instance	NOUN	NN	Number=Sing	2	nmod	_	_
+6	,	,	PUNCT	,	_	2	punct	_	_
+7	when	when	ADV	WRB	PronType=Int	10	mark	_	_
+8	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
+9	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	aux	_	_
+10	speaking	speak	VERB	VBG	Tense=Pres|VerbForm=Part	2	advcl	_	_
+11	of	of	ADP	IN	_	14	case	_	_
+12	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	14	nmod:poss	_	_
+13	four	four	NUM	CD	NumType=Card	14	nummod	_	_
+14	thorns	thorn	NOUN	NNS	Number=Plur	10	obl	_	_
+15	,	,	PUNCT	,	_	17	punct	_	_
+16	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	_
+17	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+18	to	to	ADP	IN	_	21	case	_	_
+19	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	_
+20	little	little	ADJ	JJ	Degree=Pos	21	amod	_	_
+21	prince	prince	NOUN	NN	Number=Sing	17	obl	_	_
+22	:	:	PUNCT	:	_	17	punct	_	_
+23	"	"	PUNCT	``	_	17	punct	_	_
+24	Let	let	VERB	VB	Mood=Imp|VerbForm=Fin	17	ccomp	_	_
+25	the	the	DET	DT	Definite=Def|PronType=Art	26	det	_	_
+26	tigers	tiger	NOUN	NNS	Number=Plur	24	obj	_	_
+27	come	come	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	24	xcomp	_	_
+28	with	with	ADP	IN	_	30	case	_	_
+29	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	30	nmod:poss	_	_
+30	claws	claw	NOUN	NNS	Number=Plur	27	obl	_	_
+31	!	!	PUNCT	.	_	17	punct	_	_
+32	"	"	PUNCT	''	_	17	punct	_	SpacesAfter=\s\n
+

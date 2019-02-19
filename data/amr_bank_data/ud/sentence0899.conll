@@ -1,0 +1,12 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.899
+# text = We write of eternal things . "
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	_
+2	write	write	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	of	of	ADP	IN	_	5	case	_	_
+4	eternal	eternal	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	things	thing	NOUN	NNS	Number=Plur	2	obl	_	_
+6	.	.	PUNCT	.	_	2	punct	_	_
+7	"	"	PUNCT	''	_	2	punct	_	SpacesAfter=\s\n
+

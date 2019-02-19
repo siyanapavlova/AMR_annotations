@@ -1,0 +1,17 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.1389
+# text = And now I did not dare ask him any more questions .
+1	And	and	CCONJ	CC	_	6	cc	_	_
+2	now	now	ADV	RB	_	6	advmod	_	_
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+4	did	do	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	6	aux	_	_
+5	not	not	PART	RB	_	6	advmod	_	_
+6	dare	dare	VERB	VB	VerbForm=Inf	0	root	_	_
+7	ask	ask	VERB	VB	Mood=Imp|VerbForm=Fin	6	ccomp	_	_
+8	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	iobj	_	_
+9	any	any	DET	DT	_	11	det	_	_
+10	more	more	ADJ	JJR	Degree=Cmp	11	amod	_	_
+11	questions	question	NOUN	NNS	Number=Plur	7	obj	_	_
+12	.	.	PUNCT	.	_	6	punct	_	SpacesAfter=\s\n
+

@@ -1,0 +1,16 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.1305
+# text = It was good for the heart , like a present .
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cop	_	_
+3	good	good	ADJ	JJ	Degree=Pos	0	root	_	_
+4	for	for	ADP	IN	_	6	case	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	heart	heart	NOUN	NN	Number=Sing	3	obl	_	_
+7	,	,	PUNCT	,	_	3	punct	_	_
+8	like	like	ADP	IN	_	10	case	_	_
+9	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+10	present	present	NOUN	NN	Number=Sing	3	obl	_	_
+11	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\s\n
+

@@ -1,0 +1,23 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.300
+# text = And I had so little drinking - water left that I had to fear for the worst .
+1	And	and	CCONJ	CC	_	3	cc	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	so	so	ADV	RB	_	5	advmod	_	_
+5	little	little	ADJ	JJ	Degree=Pos	9	amod	_	_
+6	drinking	drink	NOUN	NN	Number=Sing	8	compound	_	_
+7	-	-	PUNCT	HYPH	_	8	punct	_	_
+8	water	water	NOUN	NN	Number=Sing	9	compound	_	_
+9	left	left	NOUN	NN	Number=Sing	3	obj	_	_
+10	that	that	PRON	WDT	PronType=Rel	12	obj	_	_
+11	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	_
+12	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	9	acl:relcl	_	_
+13	to	to	PART	TO	_	14	mark	_	_
+14	fear	fear	VERB	VB	VerbForm=Inf	12	xcomp	_	_
+15	for	for	ADP	IN	_	17	case	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+17	worst	worst	ADJ	JJS	Degree=Sup	14	obl	_	_
+18	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\s\n
+

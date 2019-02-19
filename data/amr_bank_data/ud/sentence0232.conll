@@ -1,0 +1,31 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.232
+# text = Then this little seed will stretch itself and begin -- timidly at first -- to push a charming little sprig inoffensively upward toward the sun .
+1	Then	then	ADV	RB	PronType=Dem	6	advmod	_	_
+2	this	this	DET	DT	Number=Sing|PronType=Dem	4	det	_	_
+3	little	little	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	seed	seed	NOUN	NN	Number=Sing	6	nsubj	_	_
+5	will	will	AUX	MD	VerbForm=Fin	6	aux	_	_
+6	stretch	stretch	VERB	VB	VerbForm=Inf	0	root	_	_
+7	itself	itself	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	6	obj	_	_
+8	and	and	CCONJ	CC	_	9	cc	_	_
+9	begin	begin	VERB	VB	VerbForm=Inf	6	conj	_	_
+10	--	--	PUNCT	,	_	6	punct	_	_
+11	timidly	timidly	ADV	RB	_	13	advmod	_	_
+12	at	at	ADV	RB	_	13	advmod	_	_
+13	first	first	ADV	RBS	_	6	advmod	_	_
+14	--	--	PUNCT	,	_	6	punct	_	_
+15	to	to	PART	TO	_	16	mark	_	_
+16	push	push	VERB	VB	VerbForm=Inf	6	advcl	_	_
+17	a	a	DET	DT	Definite=Ind|PronType=Art	18	det	_	_
+18	charming	charming	NOUN	NN	Number=Sing	20	compound	_	_
+19	little	little	ADJ	JJ	Degree=Pos	20	amod	_	_
+20	sprig	sprig	NOUN	NN	Number=Sing	16	obj	_	_
+21	inoffensively	inoffensively	ADV	RB	_	22	advmod	_	_
+22	upward	upward	ADV	RB	_	16	advmod	_	_
+23	toward	toward	ADP	IN	_	25	case	_	_
+24	the	the	DET	DT	Definite=Def|PronType=Art	25	det	_	_
+25	sun	sun	NOUN	NN	Number=Sing	22	obl	_	_
+26	.	.	PUNCT	.	_	6	punct	_	SpacesAfter=\s\n
+

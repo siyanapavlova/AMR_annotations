@@ -1,0 +1,14 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.997
+# text = The flower had once seen a caravan passing .
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	flower	flower	NOUN	NN	Number=Sing	5	nsubj	_	_
+3	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	aux	_	_
+4	once	once	ADV	RB	NumType=Mult	5	advmod	_	_
+5	seen	see	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+7	caravan	caravan	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	passing	passing	NOUN	NN	Number=Sing	5	obj	_	_
+9	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\s\n
+

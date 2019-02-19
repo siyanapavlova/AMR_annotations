@@ -1,0 +1,37 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.213
+# text = For the little prince asked me abruptly -- as if seized by a grave doubt -- " It is true , is n't it , that sheep eat little bushes ? "
+1	For	for	ADP	IN	_	4	case	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	little	little	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	prince	prince	NOUN	NN	Number=Sing	5	obl	_	_
+5	asked	ask	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+6	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	5	iobj	_	_
+7	abruptly	abruptly	ADV	RB	_	5	advmod	_	_
+8	--	--	PUNCT	,	_	5	punct	_	_
+9	as	as	SCONJ	IN	_	11	mark	_	_
+10	if	if	SCONJ	IN	_	11	mark	_	_
+11	seized	seize	VERB	VBN	Tense=Past|VerbForm=Part	5	advcl	_	_
+12	by	by	ADP	IN	_	15	case	_	_
+13	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	_	_
+14	grave	grave	NOUN	NN	Number=Sing	15	compound	_	_
+15	doubt	doubt	NOUN	NN	Number=Sing	11	obl	_	_
+16	--	--	PUNCT	,	_	5	punct	_	_
+17	"	"	PUNCT	``	_	5	punct	_	_
+18	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	_
+19	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	_
+20	true	true	ADJ	JJ	Degree=Pos	5	ccomp	_	_
+21	,	,	PUNCT	,	_	24	punct	_	_
+22	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	cop	_	_
+23	n't	not	PART	RB	_	24	advmod	_	_
+24	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	20	conj	_	_
+25	,	,	PUNCT	,	_	20	punct	_	_
+26	that	that	SCONJ	IN	_	28	mark	_	_
+27	sheep	sheep	NOUN	NNS	Number=Plur	28	nsubj	_	_
+28	eat	eat	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	20	ccomp	_	_
+29	little	little	ADJ	JJ	Degree=Pos	30	amod	_	_
+30	bushes	bushe	NOUN	NNS	Number=Plur	28	obj	_	_
+31	?	?	PUNCT	.	_	5	punct	_	_
+32	"	"	PUNCT	''	_	5	punct	_	SpacesAfter=\s\n
+

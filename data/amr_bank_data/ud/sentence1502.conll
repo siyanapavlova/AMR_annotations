@@ -1,0 +1,16 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.1502
+# text = All the stars will be wells with a rusty pulley .
+1	All	all	DET	PDT	_	3	det:predet	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	stars	star	NOUN	NNS	Number=Plur	6	nsubj	_	_
+4	will	will	AUX	MD	VerbForm=Fin	6	aux	_	_
+5	be	be	AUX	VB	VerbForm=Inf	6	cop	_	_
+6	wells	well	NOUN	NNS	Number=Plur	0	root	_	_
+7	with	with	ADP	IN	_	10	case	_	_
+8	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+9	rusty	rusty	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	pulley	pulley	NOUN	NN	Number=Sing	6	nmod	_	_
+11	.	.	PUNCT	.	_	6	punct	_	SpacesAfter=\s\n
+

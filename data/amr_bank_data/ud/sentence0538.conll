@@ -1,0 +1,12 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.538
+# text = Order the sun to set ... "
+1	Order	order	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	sun	sun	NOUN	NN	Number=Sing	1	obj	_	_
+4	to	to	PART	TO	_	5	mark	_	_
+5	set	set	VERB	VB	VerbForm=Inf	1	xcomp	_	_
+6	...	...	PUNCT	.	_	1	punct	_	_
+7	"	"	PUNCT	''	_	1	punct	_	SpacesAfter=\s\n
+

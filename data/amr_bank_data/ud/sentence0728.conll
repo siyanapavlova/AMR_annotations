@@ -1,0 +1,15 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.728
+# text = " I administer them , " replied the businessman .
+1	"	"	PUNCT	``	_	7	punct	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	administer	administer	VERB	VB	VerbForm=Inf	7	ccomp	_	_
+4	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	3	obj	_	_
+5	,	,	PUNCT	,	_	7	punct	_	_
+6	"	"	PUNCT	''	_	7	punct	_	_
+7	replied	reply	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	businessman	businessman	NOUN	NN	Number=Sing	7	obj	_	_
+10	.	.	PUNCT	.	_	7	punct	_	SpacesAfter=\s\n
+

@@ -1,0 +1,49 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.1382
+# text = But , at the noise I made , the snake let himself flow easily across the sand like the dying spray of a fountain , and , in no apparent hurry , disappeared , with a light metallic sound , among the stones .
+1	But	but	CCONJ	CC	_	11	cc	_	_
+2	,	,	PUNCT	,	_	11	punct	_	_
+3	at	at	ADP	IN	_	5	case	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	noise	noise	NOUN	NN	Number=Sing	11	obl	_	_
+6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+7	made	make	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	acl:relcl	_	_
+8	,	,	PUNCT	,	_	11	punct	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	snake	snake	NOUN	NN	Number=Sing	11	nsubj	_	_
+11	let	let	VERB	VB	VerbForm=Inf	0	root	_	_
+12	himself	himself	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	11	obj	_	_
+13	flow	flow	VERB	VB	VerbForm=Inf	11	xcomp	_	_
+14	easily	easily	ADV	RB	_	13	advmod	_	_
+15	across	across	ADP	IN	_	17	case	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+17	sand	sand	NOUN	NN	Number=Sing	13	obl	_	_
+18	like	like	ADP	IN	_	21	case	_	_
+19	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	_
+20	dying	die	VERB	VBG	VerbForm=Ger	21	amod	_	_
+21	spray	spray	NOUN	NN	Number=Sing	17	nmod	_	_
+22	of	of	ADP	IN	_	24	case	_	_
+23	a	a	DET	DT	Definite=Ind|PronType=Art	24	det	_	_
+24	fountain	fountain	NOUN	NN	Number=Sing	21	nmod	_	_
+25	,	,	PUNCT	,	_	31	punct	_	_
+26	and	and	CCONJ	CC	_	31	cc	_	_
+27	,	,	PUNCT	,	_	31	punct	_	_
+28	in	in	ADP	IN	_	31	case	_	_
+29	no	no	DET	DT	_	31	det	_	_
+30	apparent	apparent	ADJ	JJ	Degree=Pos	31	amod	_	_
+31	hurry	hurry	NOUN	NN	Number=Sing	21	conj	_	_
+32	,	,	PUNCT	,	_	33	punct	_	_
+33	disappeared	disappeared	ADJ	JJ	Degree=Pos	31	amod	_	_
+34	,	,	PUNCT	,	_	33	punct	_	_
+35	with	with	ADP	IN	_	39	case	_	_
+36	a	a	DET	DT	Definite=Ind|PronType=Art	39	det	_	_
+37	light	light	NOUN	NN	Number=Sing	38	compound	_	_
+38	metallic	metallic	NOUN	NN	Number=Sing	39	compound	_	_
+39	sound	sound	NOUN	NN	Number=Sing	33	obl	_	_
+40	,	,	PUNCT	,	_	39	punct	_	_
+41	among	among	ADP	IN	_	43	case	_	_
+42	the	the	DET	DT	Definite=Def|PronType=Art	43	det	_	_
+43	stones	stone	NOUN	NNS	Number=Plur	39	nmod	_	_
+44	.	.	PUNCT	.	_	11	punct	_	SpacesAfter=\s\n
+

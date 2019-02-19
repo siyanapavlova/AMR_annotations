@@ -1,0 +1,18 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.431
+# text = But I was too young to know how to love her ... "
+1	But	but	CCONJ	CC	_	5	cc	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	_
+4	too	too	ADV	RB	_	5	advmod	_	_
+5	young	young	ADJ	JJ	Degree=Pos	0	root	_	_
+6	to	to	PART	TO	_	7	mark	_	_
+7	know	know	VERB	VB	VerbForm=Inf	5	advcl	_	_
+8	how	how	ADV	WRB	PronType=Int	10	advmod	_	_
+9	to	to	PART	TO	_	10	mark	_	_
+10	love	love	VERB	VB	VerbForm=Inf	7	ccomp	_	_
+11	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	obj	_	_
+12	...	...	PUNCT	.	_	5	punct	_	_
+13	"	"	PUNCT	''	_	5	punct	_	SpacesAfter=\s\n
+

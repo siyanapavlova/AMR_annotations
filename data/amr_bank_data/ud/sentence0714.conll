@@ -1,0 +1,14 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.714
+# text = Nevertheless , he still had some more questions .
+1	Nevertheless	nevertheless	ADV	RB	_	5	advmod	_	_
+2	,	,	PUNCT	,	_	5	punct	_	_
+3	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+4	still	still	ADV	RB	_	5	advmod	_	_
+5	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+6	some	some	DET	DT	_	8	det	_	_
+7	more	more	ADJ	JJR	Degree=Cmp	8	amod	_	_
+8	questions	question	NOUN	NNS	Number=Plur	5	obj	_	_
+9	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\s\n
+

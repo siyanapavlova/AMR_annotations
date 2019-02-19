@@ -1,0 +1,35 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.1144
+# text = But if the hunters danced at just any time , every day would be like every other day , and I should never have any vacation at all . "
+1	But	but	CCONJ	CC	_	18	cc	_	_
+2	if	if	SCONJ	IN	_	5	mark	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	hunters	hunter	NOUN	NNS	Number=Plur	5	nsubj	_	_
+5	danced	dance	VERB	VBN	Tense=Past|VerbForm=Part	18	advcl	_	_
+6	at	at	ADP	IN	_	9	case	_	_
+7	just	just	ADV	RB	_	9	advmod	_	_
+8	any	any	DET	DT	_	9	det	_	_
+9	time	time	NOUN	NN	Number=Sing	5	obl	_	_
+10	,	,	PUNCT	,	_	18	punct	_	_
+11	every	every	DET	DT	_	12	det	_	_
+12	day	day	NOUN	NN	Number=Sing	18	nsubj	_	_
+13	would	would	AUX	MD	VerbForm=Fin	18	aux	_	_
+14	be	be	AUX	VB	VerbForm=Inf	18	cop	_	_
+15	like	like	ADP	IN	_	18	case	_	_
+16	every	every	DET	DT	_	18	det	_	_
+17	other	other	ADJ	JJ	Degree=Pos	18	amod	_	_
+18	day	day	NOUN	NN	Number=Sing	0	root	_	_
+19	,	,	PUNCT	,	_	24	punct	_	_
+20	and	and	CCONJ	CC	_	24	cc	_	_
+21	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	24	nsubj	_	_
+22	should	should	AUX	MD	VerbForm=Fin	24	aux	_	_
+23	never	never	ADV	RB	_	24	advmod	_	_
+24	have	have	VERB	VB	VerbForm=Inf	18	conj	_	_
+25	any	any	DET	DT	_	26	det	_	_
+26	vacation	vacation	NOUN	NN	Number=Sing	24	obj	_	_
+27	at	at	ADV	RB	_	28	case	_	_
+28	all	all	ADV	RB	_	26	nmod	_	_
+29	.	.	PUNCT	.	_	18	punct	_	_
+30	"	"	PUNCT	''	_	18	punct	_	SpacesAfter=\s\n
+

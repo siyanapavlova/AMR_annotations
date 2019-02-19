@@ -1,0 +1,17 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.765
+# text = And since it is beautiful , it is truly useful . "
+1	And	and	CCONJ	CC	_	10	cc	_	_
+2	since	since	SCONJ	IN	_	5	mark	_	_
+3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	beautiful	beautiful	ADJ	JJ	Degree=Pos	10	advcl	_	_
+6	,	,	PUNCT	,	_	10	punct	_	_
+7	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
+8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+9	truly	truly	ADV	RB	_	10	advmod	_	_
+10	useful	useful	ADJ	JJ	Degree=Pos	0	root	_	_
+11	.	.	PUNCT	.	_	10	punct	_	_
+12	"	"	PUNCT	''	_	10	punct	_	SpacesAfter=\s\n
+

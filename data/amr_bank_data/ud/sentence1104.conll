@@ -1,0 +1,18 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.1104
+# text = And then look : you see the grain - fields down yonder ?
+1	And	and	CCONJ	CC	_	3	cc	_	_
+2	then	then	ADV	RB	PronType=Dem	3	advmod	_	_
+3	look	look	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+4	:	:	PUNCT	:	_	3	punct	_	_
+5	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	6	nsubj	_	_
+6	see	see	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+8	grain	grain	NOUN	NN	Number=Sing	10	compound	_	_
+9	-	-	PUNCT	HYPH	_	10	punct	_	_
+10	fields	field	NOUN	NNS	Number=Plur	6	obj	_	_
+11	down	down	ADP	IN	_	12	case	_	_
+12	yonder	yonder	NOUN	NN	Number=Sing	10	nmod	_	_
+13	?	?	PUNCT	.	_	3	punct	_	SpacesAfter=\s\n
+

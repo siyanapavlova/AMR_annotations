@@ -1,0 +1,19 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.1112
+# text = And I shall love to listen to the wind in the wheat ... "
+1	And	and	CCONJ	CC	_	4	cc	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+3	shall	shall	AUX	MD	VerbForm=Fin	4	aux	_	_
+4	love	love	VERB	VB	VerbForm=Inf	0	root	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	listen	listen	VERB	VB	VerbForm=Inf	4	xcomp	_	_
+7	to	to	ADP	IN	_	9	case	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	wind	wind	NOUN	NN	Number=Sing	6	obl	_	_
+10	in	in	ADP	IN	_	12	case	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	wheat	wheat	NOUN	NN	Number=Sing	6	obl	_	_
+13	...	...	PUNCT	.	_	4	punct	_	_
+14	"	"	PUNCT	''	_	4	punct	_	SpacesAfter=\s\n
+

@@ -1,0 +1,58 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.347
+# text = And if I know - - I , myself - - one flower which is unique in the world , which grows nowhere but on my planet , but which one little sheep can destroy in a single bite some morning , without even noticing what he is doing - - Oh !
+1	And	and	CCONJ	CC	_	4	cc	_	_
+2	if	if	SCONJ	IN	_	4	mark	_	_
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+4	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	-	-	PUNCT	,	_	4	punct	_	_
+6	-	-	PUNCT	,	_	4	punct	_	_
+7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
+8	,	,	PUNCT	,	_	9	punct	_	_
+9	myself	myself	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	4	parataxis	_	_
+10	-	-	PUNCT	,	_	4	punct	_	_
+11	-	-	PUNCT	HYPH	_	4	punct	_	_
+12	one	one	NUM	CD	NumType=Card	13	nummod	_	_
+13	flower	flower	NOUN	NN	Number=Sing	49	nsubj	_	_
+14	which	which	PRON	WDT	PronType=Rel	16	nsubj	_	_
+15	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+16	unique	unique	ADJ	JJ	Degree=Pos	13	acl:relcl	_	_
+17	in	in	ADP	IN	_	19	case	_	_
+18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+19	world	world	NOUN	NN	Number=Sing	16	obl	_	_
+20	,	,	PUNCT	,	_	13	punct	_	_
+21	which	which	PRON	WDT	PronType=Rel	22	nsubj	_	_
+22	grows	grow	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	acl:relcl	_	_
+23	nowhere	nowhere	ADV	RB	_	22	advmod	_	_
+24	but	but	CCONJ	CC	_	35	cc	_	_
+25	on	on	ADP	IN	_	27	case	_	_
+26	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	27	nmod:poss	_	_
+27	planet	planet	NOUN	NN	Number=Sing	35	obl	_	_
+28	,	,	PUNCT	,	_	35	punct	_	_
+29	but	but	CCONJ	CC	_	35	cc	_	_
+30	which	which	DET	WDT	PronType=Int	33	det	_	_
+31	one	one	NUM	CD	NumType=Card	33	nummod	_	_
+32	little	little	ADJ	JJ	Degree=Pos	33	amod	_	_
+33	sheep	sheep	NOUN	NNS	Number=Plur	35	nsubj	_	_
+34	can	can	AUX	MD	VerbForm=Fin	35	aux	_	_
+35	destroy	destroy	VERB	VB	VerbForm=Inf	22	conj	_	_
+36	in	in	ADP	IN	_	39	case	_	_
+37	a	a	DET	DT	Definite=Ind|PronType=Art	39	det	_	_
+38	single	single	ADJ	JJ	Degree=Pos	39	amod	_	_
+39	bite	bite	NOUN	NN	Number=Sing	35	obl	_	_
+40	some	some	DET	DT	_	41	det	_	_
+41	morning	morning	NOUN	NN	Number=Sing	35	obl:tmod	_	_
+42	,	,	PUNCT	,	_	49	punct	_	_
+43	without	without	SCONJ	IN	_	45	mark	_	_
+44	even	even	ADV	RB	_	45	advmod	_	_
+45	noticing	notice	VERB	VBG	VerbForm=Ger	49	advcl	_	_
+46	what	what	PRON	WP	PronType=Int	49	obj	_	_
+47	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	49	nsubj	_	_
+48	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	49	aux	_	_
+49	doing	do	VERB	VBG	Tense=Pres|VerbForm=Part	4	ccomp	_	_
+50	-	-	PUNCT	,	_	4	punct	_	_
+51	-	-	PUNCT	,	_	4	punct	_	_
+52	Oh	oh	INTJ	UH	_	4	discourse	_	_
+53	!	!	PUNCT	.	_	4	punct	_	SpacesAfter=\s\n
+

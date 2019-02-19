@@ -1,0 +1,23 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.244
+# text = It is very tedious work , " the little prince added , " but very easy . "
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	very	very	ADV	RB	_	4	advmod	_	_
+4	tedious	tedious	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	work	work	NOUN	NN	Number=Sing	0	root	_	_
+6	,	,	PUNCT	,	_	5	punct	_	_
+7	"	"	PUNCT	``	_	5	punct	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+9	little	little	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	prince	prince	NOUN	NN	Number=Sing	5	appos	_	_
+11	added	add	VERB	VBN	Tense=Past|VerbForm=Part	10	acl	_	_
+12	,	,	PUNCT	,	_	5	punct	_	_
+13	"	"	PUNCT	''	_	5	punct	_	_
+14	but	but	CCONJ	CC	_	16	cc	_	_
+15	very	very	ADV	RB	_	16	advmod	_	_
+16	easy	easy	ADJ	JJ	Degree=Pos	5	conj	_	_
+17	.	.	PUNCT	.	_	5	punct	_	_
+18	"	"	PUNCT	''	_	5	punct	_	SpacesAfter=\s\n
+

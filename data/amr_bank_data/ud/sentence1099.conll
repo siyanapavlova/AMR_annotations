@@ -1,0 +1,16 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.1099
+# text = And , in consequence , I am a little bored .
+1	And	and	CCONJ	CC	_	10	cc	_	_
+2	,	,	PUNCT	,	_	10	punct	_	_
+3	in	in	ADP	IN	_	4	case	_	_
+4	consequence	consequence	NOUN	NN	Number=Sing	10	obl	_	_
+5	,	,	PUNCT	,	_	10	punct	_	_
+6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+7	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	cop	_	_
+8	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+9	little	little	ADJ	JJ	Degree=Pos	10	obl:npmod	_	_
+10	bored	bored	ADJ	JJ	Degree=Pos	0	root	_	_
+11	.	.	PUNCT	.	_	10	punct	_	SpacesAfter=\s\n
+

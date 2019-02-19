@@ -1,0 +1,15 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.428
+# text = I ought never to have run away from her ...
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	ought	ought	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	never	never	ADV	RB	_	2	advmod	_	_
+4	to	to	PART	TO	_	6	mark	_	_
+5	have	have	AUX	VB	VerbForm=Inf	6	aux	_	_
+6	run	run	VERB	VBN	Tense=Past|VerbForm=Part	2	xcomp	_	_
+7	away	away	ADV	RB	_	6	advmod	_	_
+8	from	from	ADP	IN	_	9	case	_	_
+9	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	obl	_	_
+10	...	...	PUNCT	.	_	2	punct	_	SpacesAfter=\s\n
+

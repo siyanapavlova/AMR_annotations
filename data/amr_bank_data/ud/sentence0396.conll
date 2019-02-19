@@ -1,0 +1,25 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.396
+# text = And the little prince , completely abashed , went to look for a sprinkling - can of fresh water .
+1	And	and	CCONJ	CC	_	4	cc	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+3	little	little	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	prince	prince	NOUN	NN	Number=Sing	9	nsubj	_	_
+5	,	,	PUNCT	,	_	4	punct	_	_
+6	completely	completely	ADV	RB	_	7	advmod	_	_
+7	abashed	abash	VERB	VBN	Tense=Past|VerbForm=Part	4	acl	_	_
+8	,	,	PUNCT	,	_	9	punct	_	_
+9	went	go	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+10	to	to	PART	TO	_	11	mark	_	_
+11	look	look	VERB	VB	VerbForm=Inf	9	xcomp	_	_
+12	for	for	ADP	IN	_	16	case	_	_
+13	a	a	DET	DT	Definite=Ind|PronType=Art	16	det	_	_
+14	sprinkling	sprinkling	NOUN	NN	Number=Sing	16	compound	_	_
+15	-	-	PUNCT	HYPH	_	16	punct	_	_
+16	can	can	NOUN	NN	Number=Sing	11	obl	_	_
+17	of	of	ADP	IN	_	19	case	_	_
+18	fresh	fresh	ADJ	JJ	Degree=Pos	19	amod	_	_
+19	water	water	NOUN	NN	Number=Sing	16	nmod	_	_
+20	.	.	PUNCT	.	_	9	punct	_	SpacesAfter=\s\n
+

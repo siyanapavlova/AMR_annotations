@@ -1,0 +1,23 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.486
+# text = Here is a subject , " exclaimed the king , when he saw the little prince coming .
+1	Here	here	ADV	RB	PronType=Dem	0	root	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
+4	subject	subject	NOUN	NN	Number=Sing	1	nsubj	_	_
+5	,	,	PUNCT	,	_	7	punct	_	_
+6	"	"	PUNCT	''	_	7	punct	_	_
+7	exclaimed	exclaim	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	1	conj	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	king	king	NOUN	NN	Number=Sing	7	obj	_	_
+10	,	,	PUNCT	,	_	1	punct	_	_
+11	when	when	ADV	WRB	PronType=Int	13	mark	_	_
+12	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
+13	saw	see	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	1	advcl	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+15	little	little	ADJ	JJ	Degree=Pos	16	amod	_	_
+16	prince	prince	NOUN	NN	Number=Sing	13	obj	_	_
+17	coming	come	VERB	VBG	VerbForm=Ger	16	acl	_	_
+18	.	.	PUNCT	.	_	1	punct	_	SpacesAfter=\s\n
+

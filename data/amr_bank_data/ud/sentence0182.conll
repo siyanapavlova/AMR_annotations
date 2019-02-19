@@ -1,0 +1,21 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.182
+# text = But certainly , for us who understand life , figures are a matter of indifference .
+1	But	but	CCONJ	CC	_	2	cc	_	_
+2	certainly	certainly	ADV	RB	_	13	advmod	_	_
+3	,	,	PUNCT	,	_	13	punct	_	_
+4	for	for	ADP	IN	_	5	case	_	_
+5	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	13	obl	_	_
+6	who	who	PRON	WP	PronType=Rel	7	nsubj	_	_
+7	understand	understand	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+8	life	life	NOUN	NN	Number=Sing	7	xcomp	_	_
+9	,	,	PUNCT	,	_	13	punct	_	_
+10	figures	figure	NOUN	NNS	Number=Plur	13	nsubj	_	_
+11	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	13	cop	_	_
+12	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	_
+13	matter	matter	NOUN	NN	Number=Sing	0	root	_	_
+14	of	of	ADP	IN	_	15	case	_	_
+15	indifference	indifference	NOUN	NN	Number=Sing	13	nmod	_	_
+16	.	.	PUNCT	.	_	13	punct	_	SpacesAfter=\s\n
+

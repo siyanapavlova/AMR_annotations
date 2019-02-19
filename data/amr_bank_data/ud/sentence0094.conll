@@ -1,0 +1,22 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.94
+# text = Do you think that this sheep will have to have a great deal of grass ? "
+1	Do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	_
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	_
+3	think	think	VERB	VB	VerbForm=Inf	0	root	_	_
+4	that	that	SCONJ	IN	_	8	mark	_	_
+5	this	this	DET	DT	Number=Sing|PronType=Dem	6	det	_	_
+6	sheep	sheep	NOUN	NN	Number=Sing	8	nsubj	_	_
+7	will	will	AUX	MD	VerbForm=Fin	8	aux	_	_
+8	have	have	VERB	VB	VerbForm=Inf	3	ccomp	_	_
+9	to	to	PART	TO	_	10	mark	_	_
+10	have	have	VERB	VB	VerbForm=Inf	8	xcomp	_	_
+11	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	_
+12	great	great	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	deal	deal	NOUN	NN	Number=Sing	10	obj	_	_
+14	of	of	ADP	IN	_	15	case	_	_
+15	grass	grass	NOUN	NN	Number=Sing	13	nmod	_	_
+16	?	?	PUNCT	.	_	3	punct	_	_
+17	"	"	PUNCT	''	_	3	punct	_	SpacesAfter=\s\n
+

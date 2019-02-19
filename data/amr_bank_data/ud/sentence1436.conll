@@ -1,0 +1,19 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.1436
+# text = And , besides , I am going to make you a present ... "
+1	And	and	CCONJ	CC	_	7	cc	_	_
+2	,	,	PUNCT	,	_	7	punct	_	_
+3	besides	beside	NOUN	NNS	Number=Plur	7	vocative	_	_
+4	,	,	PUNCT	,	_	7	punct	_	_
+5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+6	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+8	to	to	PART	TO	_	9	mark	_	_
+9	make	make	VERB	VB	VerbForm=Inf	7	xcomp	_	_
+10	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	9	iobj	_	_
+11	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	_
+12	present	present	ADJ	JJ	Degree=Pos	9	obj	_	_
+13	...	...	PUNCT	,	_	7	punct	_	_
+14	"	"	PUNCT	''	_	7	punct	_	SpacesAfter=\s\n
+

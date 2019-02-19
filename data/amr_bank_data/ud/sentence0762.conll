@@ -1,0 +1,28 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.762
+# text = When he lights his street lamp , it is as if he brought one more star to life , or one flower .
+1	When	when	ADV	WRB	PronType=Int	3	mark	_	_
+2	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	lights	lights	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	advcl	_	_
+4	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+5	street	street	NOUN	NN	Number=Sing	6	compound	_	_
+6	lamp	lamp	NOUN	NN	Number=Sing	3	obj	_	_
+7	,	,	PUNCT	,	_	9	punct	_	_
+8	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
+9	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	as	as	SCONJ	IN	_	13	mark	_	_
+11	if	if	SCONJ	IN	_	13	mark	_	_
+12	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
+13	brought	bring	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	9	advcl	_	_
+14	one	one	NUM	CD	NumType=Card	16	nummod	_	_
+15	more	more	ADJ	JJR	Degree=Cmp	16	amod	_	_
+16	star	star	NOUN	NN	Number=Sing	13	obj	_	_
+17	to	to	ADP	IN	_	18	case	_	_
+18	life	life	NOUN	NN	Number=Sing	13	obl	_	_
+19	,	,	PUNCT	,	_	22	punct	_	_
+20	or	or	CCONJ	CC	_	22	cc	_	_
+21	one	one	NUM	CD	NumType=Card	22	nummod	_	_
+22	flower	flower	NOUN	NN	Number=Sing	9	conj	_	_
+23	.	.	PUNCT	.	_	9	punct	_	SpacesAfter=\s\n
+

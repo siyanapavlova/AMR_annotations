@@ -1,0 +1,12 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.534
+# text = I do not permit insubordination . "
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	not	not	PART	RB	_	4	advmod	_	_
+4	permit	permit	VERB	VB	VerbForm=Inf	0	root	_	_
+5	insubordination	insubordination	NOUN	NN	Number=Sing	4	obj	_	_
+6	.	.	PUNCT	.	_	4	punct	_	_
+7	"	"	PUNCT	''	_	4	punct	_	SpacesAfter=\s\n
+

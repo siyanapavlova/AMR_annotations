@@ -1,0 +1,54 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.171
+# text = If you were to say to the grown - ups : " I saw a beautiful house made of rosy brick , with geraniums in the windows and doves on the roof , " they would not be able to get any idea of that house at all .
+1	If	if	SCONJ	IN	_	3	mark	_	_
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	_
+3	were	be	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	14	advcl	_	_
+4	to	to	PART	TO	_	5	mark	_	_
+5	say	say	VERB	VB	VerbForm=Inf	3	xcomp	_	_
+6	to	to	ADP	IN	_	10	case	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+8	grown	grow	VERB	VBN	Tense=Past|VerbForm=Part	10	amod	_	_
+9	-	-	PUNCT	HYPH	_	10	punct	_	_
+10	ups	up	NOUN	NNS	Number=Plur	5	obl	_	_
+11	:	:	PUNCT	:	_	3	punct	_	_
+12	"	"	PUNCT	``	_	3	punct	_	_
+13	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	nsubj	_	_
+14	saw	see	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+15	a	a	DET	DT	Definite=Ind|PronType=Art	17	det	_	_
+16	beautiful	beautiful	ADJ	JJ	Degree=Pos	17	amod	_	_
+17	house	house	NOUN	NN	Number=Sing	14	obj	_	_
+18	made	make	VERB	VBN	Tense=Past|VerbForm=Part	17	acl	_	_
+19	of	of	ADP	IN	_	21	case	_	_
+20	rosy	rosy	ADJ	JJ	Degree=Pos	21	amod	_	_
+21	brick	brick	NOUN	NN	Number=Sing	18	obl	_	_
+22	,	,	PUNCT	,	_	14	punct	_	_
+23	with	with	SCONJ	IN	_	39	mark	_	_
+24	geraniums	geranium	NOUN	NNS	Number=Plur	39	nsubj	_	_
+25	in	in	ADP	IN	_	27	case	_	_
+26	the	the	DET	DT	Definite=Def|PronType=Art	27	det	_	_
+27	windows	window	NOUN	NNS	Number=Plur	24	nmod	_	_
+28	and	and	CCONJ	CC	_	29	cc	_	_
+29	doves	dofe	NOUN	NNS	Number=Plur	24	conj	_	_
+30	on	on	ADP	IN	_	32	case	_	_
+31	the	the	DET	DT	Definite=Def|PronType=Art	32	det	_	_
+32	roof	roof	NOUN	NN	Number=Sing	24	nmod	_	_
+33	,	,	PUNCT	,	_	39	punct	_	_
+34	"	"	PUNCT	''	_	39	punct	_	_
+35	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	39	nsubj	_	_
+36	would	would	AUX	MD	VerbForm=Fin	39	aux	_	_
+37	not	not	PART	RB	_	39	advmod	_	_
+38	be	be	AUX	VB	VerbForm=Inf	39	cop	_	_
+39	able	able	ADJ	JJ	Degree=Pos	14	advcl	_	_
+40	to	to	PART	TO	_	41	mark	_	_
+41	get	get	VERB	VB	VerbForm=Inf	39	xcomp	_	_
+42	any	any	DET	DT	_	43	det	_	_
+43	idea	idea	NOUN	NN	Number=Sing	41	obj	_	_
+44	of	of	ADP	IN	_	46	case	_	_
+45	that	that	DET	DT	Number=Sing|PronType=Dem	46	det	_	_
+46	house	house	NOUN	NN	Number=Sing	43	nmod	_	_
+47	at	at	ADV	RB	_	48	case	_	_
+48	all	all	ADV	RB	_	14	nmod	_	_
+49	.	.	PUNCT	.	_	14	punct	_	SpacesAfter=\s\n
+

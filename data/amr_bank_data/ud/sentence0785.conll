@@ -1,0 +1,23 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.785
+# text = I put the lamp out in the morning , and in the evening I lighted it again .
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	put	put	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	lamp	lamp	NOUN	NN	Number=Sing	2	obj	_	_
+5	out	out	ADP	RP	_	2	compound:prt	_	_
+6	in	in	ADP	IN	_	8	case	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	morning	morning	NOUN	NN	Number=Sing	2	obl	_	_
+9	,	,	PUNCT	,	_	15	punct	_	_
+10	and	and	CCONJ	CC	_	15	cc	_	_
+11	in	in	ADP	IN	_	13	case	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	evening	evening	NOUN	NN	Number=Sing	15	obl	_	_
+14	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj	_	_
+15	lighted	light	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+16	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	15	obj	_	_
+17	again	again	ADV	RB	_	15	advmod	_	_
+18	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\s\n
+

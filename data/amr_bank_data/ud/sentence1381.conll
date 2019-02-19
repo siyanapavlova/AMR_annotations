@@ -1,0 +1,25 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.1381
+# text = Even as I was digging into my pocked to get out my revolver I made a running step back .
+1	Even	even	ADV	RB	_	5	advmod	_	_
+2	as	as	SCONJ	IN	_	5	mark	_	_
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+4	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	5	aux	_	_
+5	digging	digge	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+6	into	into	ADP	IN	_	8	case	_	_
+7	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+8	pocked	pocked	ADJ	JJ	Degree=Pos	5	obl	_	_
+9	to	to	PART	TO	_	10	mark	_	_
+10	get	get	VERB	VB	VerbForm=Inf	5	advcl	_	_
+11	out	out	ADP	RP	_	10	compound:prt	_	_
+12	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	13	nmod:poss	_	_
+13	revolver	revolver	NOUN	NN	Number=Sing	10	obj	_	_
+14	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj	_	_
+15	made	make	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	13	acl:relcl	_	_
+16	a	a	DET	DT	Definite=Ind|PronType=Art	17	det	_	_
+17	running	run	VERB	VBG	VerbForm=Ger	15	xcomp	_	_
+18	step	step	NOUN	NN	Number=Sing	17	obj	_	_
+19	back	back	ADV	RB	_	17	advmod	_	_
+20	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\s\n
+

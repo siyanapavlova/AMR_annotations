@@ -1,0 +1,18 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.922
+# text = Seen from a slight distance , that would make a splendid spectacle .
+1	Seen	see	AUX	VBN	Tense=Past|VerbForm=Part	5	aux	_	_
+2	from	from	ADP	IN	_	5	case	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+4	slight	slight	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	distance	distance	NOUN	NN	Number=Sing	9	obl	_	_
+6	,	,	PUNCT	,	_	9	punct	_	_
+7	that	that	PRON	DT	Number=Sing|PronType=Dem	9	nsubj	_	_
+8	would	would	AUX	MD	VerbForm=Fin	9	aux	_	_
+9	make	make	VERB	VB	VerbForm=Inf	0	root	_	_
+10	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	_
+11	splendid	splendid	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	spectacle	spectacle	NOUN	NN	Number=Sing	9	obj	_	_
+13	.	.	PUNCT	.	_	9	punct	_	SpacesAfter=\s\n
+

@@ -1,0 +1,13 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.965
+# text = " Ah ! " said the snake .
+1	"	"	PUNCT	``	_	2	punct	_	_
+2	Ah	ah	INTJ	UH	_	5	ccomp	_	_
+3	!	!	PUNCT	.	_	2	punct	_	_
+4	"	"	PUNCT	''	_	5	punct	_	_
+5	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	snake	snake	NOUN	NN	Number=Sing	5	nsubj	_	_
+8	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\s\n
+

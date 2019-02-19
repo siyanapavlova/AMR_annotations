@@ -1,0 +1,13 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.657
+# text = FIfteen and seven make twenty - two .
+1	FIfteen	Fifteen	PROPN	NNP	Number=Sing	0	root	_	_
+2	and	and	CCONJ	CC	_	4	cc	_	_
+3	seven	seven	NUM	CD	NumType=Card	4	nsubj	_	_
+4	make	make	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	1	conj	_	_
+5	twenty	twenty	NUM	CD	NumType=Card	7	compound	_	_
+6	-	-	PUNCT	HYPH	_	7	punct	_	_
+7	two	two	NUM	CD	NumType=Card	4	obj	_	_
+8	.	.	PUNCT	.	_	1	punct	_	SpacesAfter=\s\n
+

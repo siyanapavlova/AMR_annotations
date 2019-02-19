@@ -1,0 +1,29 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.1296
+# text = The song of the pulley was still in my ears , and I could see the sunlight shimmer in the still trembling water .
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	song	song	NOUN	NN	Number=Sing	10	nsubj	_	_
+3	of	of	ADP	IN	_	5	case	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	pulley	pulley	NOUN	NN	Number=Sing	2	nmod	_	_
+6	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	cop	_	_
+7	still	still	ADV	RB	_	10	advmod	_	_
+8	in	in	ADP	IN	_	10	case	_	_
+9	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
+10	ears	ear	NOUN	NNS	Number=Plur	0	root	_	_
+11	,	,	PUNCT	,	_	15	punct	_	_
+12	and	and	CCONJ	CC	_	15	cc	_	_
+13	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj	_	_
+14	could	could	AUX	MD	VerbForm=Fin	15	aux	_	_
+15	see	see	VERB	VB	VerbForm=Inf	10	conj	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
+17	sunlight	sunlight	NOUN	NN	Number=Sing	18	compound	_	_
+18	shimmer	shimmer	NOUN	NN	Number=Sing	15	obj	_	_
+19	in	in	ADP	IN	_	23	case	_	_
+20	the	the	DET	DT	Definite=Def|PronType=Art	23	det	_	_
+21	still	still	ADV	RB	_	22	advmod	_	_
+22	trembling	trembl	VERB	VBG	VerbForm=Ger	23	amod	_	_
+23	water	water	NOUN	NN	Number=Sing	15	obl	_	_
+24	.	.	PUNCT	.	_	10	punct	_	SpacesAfter=\s\n
+

@@ -1,0 +1,13 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.573
+# text = And it tires me to walk . "
+1	And	and	CCONJ	CC	_	3	cc	_	_
+2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	tires	tire	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	3	obj	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	walk	walk	VERB	VB	VerbForm=Inf	3	xcomp	_	_
+7	.	.	PUNCT	.	_	3	punct	_	_
+8	"	"	PUNCT	''	_	3	punct	_	SpacesAfter=\s\n
+

@@ -1,0 +1,11 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.1513
+# text = And she is so weak !
+1	And	and	CCONJ	CC	_	5	cc	_	_
+2	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	so	so	ADV	RB	_	5	advmod	_	_
+5	weak	weak	ADJ	JJ	Degree=Pos	0	root	_	_
+6	!	!	PUNCT	.	_	5	punct	_	SpacesAfter=\s\n
+

@@ -1,0 +1,15 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.935
+# text = Men occupy a very small place upon the Earth .
+1	Men	men	INTJ	UH	_	2	discourse	_	_
+2	occupy	occupy	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+4	very	very	ADV	RB	_	5	advmod	_	_
+5	small	small	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	place	place	NOUN	NN	Number=Sing	2	obj	_	_
+7	upon	upon	ADP	IN	_	9	case	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	Earth	Earth	NOUN	NN	Number=Sing	2	obl	_	_
+10	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\s\n
+

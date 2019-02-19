@@ -1,0 +1,13 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.875
+# text = The geographer was suddenly stirred to excitement .
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	geographer	geographer	NOUN	NN	Number=Sing	5	nsubj:pass	_	_
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	aux:pass	_	_
+4	suddenly	suddenly	ADV	RB	_	5	advmod	_	_
+5	stirred	stir	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+6	to	to	ADP	IN	_	7	case	_	_
+7	excitement	excitement	NOUN	NN	Number=Sing	5	obl	_	_
+8	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\s\n
+

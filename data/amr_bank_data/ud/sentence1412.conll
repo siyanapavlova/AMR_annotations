@@ -1,0 +1,18 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.1412
+# text = Once again I felt myself frozen by the sense of something irreparable .
+1	Once	once	SCONJ	IN	_	4	mark	_	_
+2	again	again	ADV	RB	_	4	advmod	_	_
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+4	felt	feel	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+5	myself	myself	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	4	obj	_	_
+6	frozen	freeze	VERB	VBN	Tense=Past|VerbForm=Part	4	xcomp	_	_
+7	by	by	ADP	IN	_	9	case	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	sense	sense	NOUN	NN	Number=Sing	6	obl	_	_
+10	of	of	ADP	IN	_	11	case	_	_
+11	something	something	PRON	NN	Number=Sing	9	nmod	_	_
+12	irreparable	irreparable	ADJ	JJ	Degree=Pos	11	amod	_	_
+13	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\s\n
+

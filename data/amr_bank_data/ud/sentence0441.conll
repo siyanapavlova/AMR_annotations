@@ -1,0 +1,14 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.441
+# text = Volcanic eruptions are like fires in a chimney .
+1	Volcanic	Volcanic	ADJ	JJ	Degree=Pos	2	amod	_	_
+2	eruptions	eruption	NOUN	NNS	Number=Plur	5	nsubj	_	_
+3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	like	like	ADP	IN	_	5	case	_	_
+5	fires	fire	NOUN	NNS	Number=Plur	0	root	_	_
+6	in	in	ADP	IN	_	8	case	_	_
+7	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+8	chimney	chimney	NOUN	NN	Number=Sing	5	nmod	_	_
+9	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\s\n
+

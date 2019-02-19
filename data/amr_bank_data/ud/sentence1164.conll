@@ -1,0 +1,13 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.1164
+# text = And the roses were very much embarassed .
+1	And	and	CCONJ	CC	_	7	cc	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	roses	ros	NOUN	NNS	Number=Plur	7	nsubj	_	_
+4	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	7	cop	_	_
+5	very	very	ADV	RB	_	6	advmod	_	_
+6	much	much	ADV	RB	_	7	advmod	_	_
+7	embarassed	embarassed	ADJ	JJ	Degree=Pos	0	root	_	_
+8	.	.	PUNCT	.	_	7	punct	_	SpacesAfter=\s\n
+

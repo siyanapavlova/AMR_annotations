@@ -1,0 +1,18 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.782
+# text = Then he mopped his forehead with a handkerchief decorated with red squares .
+1	Then	then	ADV	RB	PronType=Dem	3	advmod	_	_
+2	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	mopped	mop	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+5	forehead	forehead	NOUN	NN	Number=Sing	3	obj	_	_
+6	with	with	ADP	IN	_	8	case	_	_
+7	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+8	handkerchief	handkerchief	NOUN	NN	Number=Sing	3	obl	_	_
+9	decorated	decorate	VERB	VBN	Tense=Past|VerbForm=Part	8	acl	_	_
+10	with	with	ADP	IN	_	12	case	_	_
+11	red	red	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	squares	square	NOUN	NNS	Number=Plur	9	obl	_	_
+13	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\s\n
+

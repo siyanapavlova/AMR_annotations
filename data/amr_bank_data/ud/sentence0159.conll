@@ -1,0 +1,24 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.159
+# text = So in 1920 the astronomer gave his demonstration all over again , dressed with impressive style and elegance .
+1	So	so	ADV	RB	_	6	advmod	_	_
+2	in	in	ADP	IN	_	3	case	_	_
+3	1920	1920	NUM	CD	NumType=Card	6	obl	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	astronomer	astronomer	NOUN	NN	Number=Sing	6	nsubj	_	_
+6	gave	give	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+7	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+8	demonstration	demonstration	NOUN	NN	Number=Sing	6	obj	_	_
+9	all	all	ADV	RB	_	10	advmod	_	_
+10	over	over	ADV	RB	_	6	advmod	_	_
+11	again	again	ADV	RB	_	6	advmod	_	_
+12	,	,	PUNCT	,	_	6	punct	_	_
+13	dressed	dress	VERB	VBN	Tense=Past|VerbForm=Part	6	conj	_	_
+14	with	with	ADP	IN	_	16	case	_	_
+15	impressive	impressive	ADJ	JJ	Degree=Pos	16	amod	_	_
+16	style	style	NOUN	NN	Number=Sing	13	obl	_	_
+17	and	and	CCONJ	CC	_	18	cc	_	_
+18	elegance	elegance	NOUN	NN	Number=Sing	16	conj	_	_
+19	.	.	PUNCT	.	_	6	punct	_	SpacesAfter=\s\n
+

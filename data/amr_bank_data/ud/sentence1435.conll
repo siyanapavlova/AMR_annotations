@@ -1,0 +1,26 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.1435
+# text = And so you will love to watch all the stars in the heavens ... they will all be your friends .
+1	And	and	CCONJ	CC	_	5	cc	_	_
+2	so	so	ADV	RB	_	5	advmod	_	_
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	nsubj	_	_
+4	will	will	AUX	MD	VerbForm=Fin	5	aux	_	_
+5	love	love	VERB	VB	VerbForm=Inf	0	root	_	_
+6	to	to	PART	TO	_	7	mark	_	_
+7	watch	watch	VERB	VB	VerbForm=Inf	5	xcomp	_	_
+8	all	all	DET	PDT	_	10	det:predet	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	stars	star	NOUN	NNS	Number=Plur	7	obj	_	_
+11	in	in	ADP	IN	_	13	case	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	heavens	heaven	NOUN	NNS	Number=Plur	7	obl	_	_
+14	...	...	PUNCT	,	_	5	punct	_	_
+15	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	20	nsubj	_	_
+16	will	will	AUX	MD	VerbForm=Fin	20	aux	_	_
+17	all	all	ADV	RB	_	20	advmod	_	_
+18	be	be	AUX	VB	VerbForm=Inf	20	cop	_	_
+19	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	20	nmod:poss	_	_
+20	friends	friend	NOUN	NNS	Number=Plur	5	parataxis	_	_
+21	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\s\n
+

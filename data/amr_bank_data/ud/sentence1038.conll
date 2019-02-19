@@ -1,0 +1,44 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.1038
+# text = And I should be obliged to pretend that I was nursing her back to life - - for if I did not do that , to humble myself also , she would really allow herself to die ... "
+1	And	and	CCONJ	CC	_	5	cc	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj:pass	_	_
+3	should	should	AUX	MD	VerbForm=Fin	5	aux	_	_
+4	be	be	AUX	VB	VerbForm=Inf	5	aux:pass	_	_
+5	obliged	oblige	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+6	to	to	PART	TO	_	7	mark	_	_
+7	pretend	pretend	VERB	VB	VerbForm=Inf	5	advcl	_	_
+8	that	that	SCONJ	IN	_	11	mark	_	_
+9	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
+10	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	11	aux	_	_
+11	nursing	nurse	VERB	VBG	Tense=Pres|VerbForm=Part	7	ccomp	_	_
+12	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	obj	_	_
+13	back	back	ADV	RB	_	11	advmod	_	_
+14	to	to	ADP	IN	_	15	case	_	_
+15	life	life	NOUN	NN	Number=Sing	11	obl	_	_
+16	-	-	PUNCT	,	_	5	punct	_	_
+17	-	-	PUNCT	,	_	5	punct	_	_
+18	for	for	SCONJ	IN	_	23	mark	_	_
+19	if	if	SCONJ	IN	_	23	mark	_	_
+20	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	23	nsubj	_	_
+21	did	do	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	23	aux	_	_
+22	not	not	PART	RB	_	23	advmod	_	_
+23	do	do	VERB	VB	VerbForm=Inf	25	advcl	_	_
+24	that	that	PRON	DT	Number=Sing|PronType=Dem	23	obj	_	_
+25	,	,	PUNCT	,	_	5	punct	_	_
+26	to	to	PART	TO	_	27	mark	_	_
+27	humble	humble	VERB	VB	VerbForm=Inf	5	advcl	_	_
+28	myself	myself	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	27	obj	_	_
+29	also	also	ADV	RB	_	27	advmod	_	_
+30	,	,	PUNCT	,	_	5	punct	_	_
+31	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	34	nsubj	_	_
+32	would	would	AUX	MD	VerbForm=Fin	34	aux	_	_
+33	really	really	ADV	RB	_	34	advmod	_	_
+34	allow	allow	VERB	VB	VerbForm=Inf	5	parataxis	_	_
+35	herself	herself	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	34	obj	_	_
+36	to	to	PART	TO	_	37	mark	_	_
+37	die	die	VERB	VB	VerbForm=Inf	34	xcomp	_	_
+38	...	...	PUNCT	.	_	5	punct	_	_
+39	"	"	PUNCT	''	_	5	punct	_	SpacesAfter=\s\n
+

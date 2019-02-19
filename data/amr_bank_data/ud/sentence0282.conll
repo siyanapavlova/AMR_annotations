@@ -1,0 +1,27 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.282
+# text = But on your tiny planet , my little prince , all you need do is move your chair a few steps .
+1	But	but	CCONJ	CC	_	5	cc	_	_
+2	on	on	ADP	IN	_	5	case	_	_
+3	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+4	tiny	tiny	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	planet	planet	NOUN	NN	Number=Sing	16	obl	_	_
+6	,	,	PUNCT	,	_	5	punct	_	_
+7	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	9	nmod:poss	_	_
+8	little	little	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	prince	prince	NOUN	NN	Number=Sing	5	appos	_	_
+10	,	,	PUNCT	,	_	16	punct	_	_
+11	all	all	DET	DT	_	16	nsubj	_	_
+12	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	13	nsubj	_	_
+13	need	need	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	11	acl:relcl	_	_
+14	do	do	X	AFX	_	16	advmod	_	_
+15	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+16	move	move	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+17	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	18	nmod:poss	_	_
+18	chair	chair	NOUN	NN	Number=Sing	16	obj	_	_
+19	a	a	DET	DT	Definite=Ind|PronType=Art	21	det	_	_
+20	few	few	ADJ	JJ	Degree=Pos	21	amod	_	_
+21	steps	step	NOUN	NNS	Number=Plur	16	obj	_	_
+22	.	.	PUNCT	.	_	16	punct	_	SpacesAfter=\s\n
+

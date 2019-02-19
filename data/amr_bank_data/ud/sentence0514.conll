@@ -1,0 +1,21 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.514
+# text = But , because he was a very good man , he made his orders reasonable .
+1	But	but	CCONJ	CC	_	12	cc	_	_
+2	,	,	PUNCT	,	_	12	punct	_	_
+3	because	because	SCONJ	IN	_	9	mark	_	_
+4	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
+5	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	cop	_	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+7	very	very	ADV	RB	_	8	advmod	_	_
+8	good	good	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	man	man	NOUN	NN	Number=Sing	12	advcl	_	_
+10	,	,	PUNCT	,	_	12	punct	_	_
+11	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
+12	made	make	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+13	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	14	nmod:poss	_	_
+14	orders	order	NOUN	NNS	Number=Plur	12	obj	_	_
+15	reasonable	reasonable	ADJ	JJ	Degree=Pos	12	xcomp	_	_
+16	.	.	PUNCT	.	_	12	punct	_	SpacesAfter=\s\n
+

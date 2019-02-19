@@ -1,0 +1,9 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.502
+# text = Come , now !
+1	Come	come	INTJ	UH	_	3	discourse	_	_
+2	,	,	PUNCT	,	_	3	punct	_	_
+3	now	now	ADV	RB	_	0	root	_	_
+4	!	!	PUNCT	.	_	3	punct	_	SpacesAfter=\s\n
+

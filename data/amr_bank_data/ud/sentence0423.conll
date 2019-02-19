@@ -1,0 +1,19 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.423
+# text = But I did not know how to take pleasure in all her grace .
+1	But	but	CCONJ	CC	_	5	cc	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+3	did	do	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	aux	_	_
+4	not	not	PART	RB	_	5	advmod	_	_
+5	know	know	VERB	VB	VerbForm=Inf	0	root	_	_
+6	how	how	ADV	WRB	PronType=Int	8	advmod	_	_
+7	to	to	PART	TO	_	8	mark	_	_
+8	take	take	VERB	VB	VerbForm=Inf	5	ccomp	_	_
+9	pleasure	pleasure	NOUN	NN	Number=Sing	8	obj	_	_
+10	in	in	ADP	IN	_	13	case	_	_
+11	all	all	DET	DT	_	13	det:predet	_	_
+12	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	13	nmod:poss	_	_
+13	grace	grace	NOUN	NN	Number=Sing	8	obl	_	_
+14	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\s\n
+

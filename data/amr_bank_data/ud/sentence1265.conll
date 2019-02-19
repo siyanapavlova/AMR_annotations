@@ -1,0 +1,23 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.1265
+# text = " I am glad , " he said , " that you agree with my fox . "
+1	"	"	PUNCT	``	_	8	punct	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+3	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	glad	glad	ADJ	JJ	Degree=Pos	8	ccomp	_	_
+5	,	,	PUNCT	,	_	8	punct	_	_
+6	"	"	PUNCT	''	_	8	punct	_	_
+7	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
+8	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+9	,	,	PUNCT	,	_	8	punct	_	_
+10	"	"	PUNCT	``	_	8	punct	_	_
+11	that	that	SCONJ	IN	_	13	mark	_	_
+12	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	13	nsubj	_	_
+13	agree	agree	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	8	ccomp	_	_
+14	with	with	ADP	IN	_	16	case	_	_
+15	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	16	nmod:poss	_	_
+16	fox	fox	NOUN	NN	Number=Sing	13	obl	_	_
+17	.	.	PUNCT	.	_	8	punct	_	_
+18	"	"	PUNCT	''	_	8	punct	_	SpacesAfter=\s\n
+

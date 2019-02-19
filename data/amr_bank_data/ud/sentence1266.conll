@@ -1,0 +1,27 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.1266
+# text = As the little prince dropped off to sleep , I took him in my arms and set out walking once more .
+1	As	as	SCONJ	IN	_	5	mark	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+3	little	little	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	prince	prince	NOUN	NN	Number=Sing	5	nsubj	_	_
+5	dropped	drop	VERB	VBN	Tense=Past|VerbForm=Part	11	advcl	_	_
+6	off	off	ADP	RP	_	5	compound:prt	_	_
+7	to	to	ADP	IN	_	8	case	_	_
+8	sleep	sleep	NOUN	NN	Number=Sing	5	obl	_	_
+9	,	,	PUNCT	,	_	11	punct	_	_
+10	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
+11	took	take	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+12	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	obj	_	_
+13	in	in	ADP	IN	_	15	case	_	_
+14	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	15	nmod:poss	_	_
+15	arms	arm	NOUN	NNS	Number=Plur	11	obl	_	_
+16	and	and	CCONJ	CC	_	17	cc	_	_
+17	set	set	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	11	conj	_	_
+18	out	out	ADP	RP	_	17	compound:prt	_	_
+19	walking	walk	VERB	VBG	VerbForm=Ger	17	xcomp	_	_
+20	once	once	ADV	RB	NumType=Mult	21	advmod	_	_
+21	more	more	ADJ	JJR	Degree=Cmp	19	obj	_	_
+22	.	.	PUNCT	.	_	11	punct	_	SpacesAfter=\s\n
+

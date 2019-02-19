@@ -1,0 +1,19 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.1128
+# text = But you will sit a little closer to me , every day ... "
+1	But	but	CCONJ	CC	_	4	cc	_	_
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	_
+3	will	will	AUX	MD	VerbForm=Fin	4	aux	_	_
+4	sit	sit	VERB	VB	VerbForm=Inf	0	root	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+6	little	little	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	closer	closer	NOUN	NN	Number=Sing	4	obj	_	_
+8	to	to	ADP	IN	_	9	case	_	_
+9	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	4	obl	_	_
+10	,	,	PUNCT	,	_	4	punct	_	_
+11	every	every	DET	DT	_	12	det	_	_
+12	day	day	NOUN	NN	Number=Sing	4	obl:tmod	_	_
+13	...	...	PUNCT	.	_	4	punct	_	_
+14	"	"	PUNCT	''	_	4	punct	_	SpacesAfter=\s\n
+

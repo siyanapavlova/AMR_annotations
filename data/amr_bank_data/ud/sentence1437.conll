@@ -1,0 +1,9 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.1437
+# text = He laughed again .
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	laughed	laugh	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	again	again	ADV	RB	_	2	advmod	_	_
+4	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\s\n
+

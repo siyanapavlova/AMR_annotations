@@ -1,0 +1,14 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.1241
+# text = But he did not reply to my question .
+1	But	but	CCONJ	CC	_	5	cc	_	_
+2	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+3	did	do	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	aux	_	_
+4	not	not	PART	RB	_	5	advmod	_	_
+5	reply	reply	VERB	VB	VerbForm=Inf	0	root	_	_
+6	to	to	ADP	IN	_	8	case	_	_
+7	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+8	question	question	NOUN	NN	Number=Sing	5	obl	_	_
+9	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\s\n
+

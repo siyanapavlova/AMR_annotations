@@ -1,0 +1,8 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.503
+# text = Yawn again !
+1	Yawn	Yawn	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	again	again	ADV	RB	_	1	advmod	_	_
+3	!	!	PUNCT	.	_	1	punct	_	SpacesAfter=\s\n
+

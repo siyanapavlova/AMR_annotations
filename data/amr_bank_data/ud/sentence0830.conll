@@ -1,0 +1,18 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.830
+# text = The little prince sat down on the table and panted a little .
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+2	little	little	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	prince	prince	NOUN	NN	Number=Sing	4	nsubj	_	_
+4	sat	sit	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+5	down	down	ADV	RB	_	4	advmod	_	_
+6	on	on	ADP	IN	_	8	case	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	table	table	NOUN	NN	Number=Sing	4	obl	_	_
+9	and	and	CCONJ	CC	_	10	cc	_	_
+10	panted	pant	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	conj	_	_
+11	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	_
+12	little	little	NOUN	NN	Number=Sing	10	obj	_	_
+13	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\s\n
+

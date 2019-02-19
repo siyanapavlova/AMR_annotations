@@ -1,0 +1,10 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.1514
+# text = She is so naïve !
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	so	so	ADV	RB	_	4	advmod	_	_
+4	naïve	naïve	ADJ	JJ	Degree=Pos	0	root	_	_
+5	!	!	PUNCT	.	_	4	punct	_	SpacesAfter=\s\n
+

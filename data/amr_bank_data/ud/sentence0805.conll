@@ -1,0 +1,36 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.805
+# text = He remembered the sunsets which he himself had gone to seek , in other days , merely by pulling up his chair ; and he wanted to help his friend .
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	remembered	remember	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	sunsets	sunset	NOUN	NNS	Number=Plur	2	obj	_	_
+5	which	which	PRON	WDT	PronType=Rel	6	nsubj	_	_
+6	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	acl:relcl	_	_
+7	himself	himself	PRON	PRP	Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
+8	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	9	aux	_	_
+9	gone	go	VERB	VBN	Tense=Past|VerbForm=Part	6	advcl	_	_
+10	to	to	PART	TO	_	11	mark	_	_
+11	seek	seek	VERB	VB	VerbForm=Inf	9	xcomp	_	_
+12	,	,	PUNCT	,	_	11	punct	_	_
+13	in	in	ADP	IN	_	15	case	_	_
+14	other	other	ADJ	JJ	Degree=Pos	15	amod	_	_
+15	days	day	NOUN	NNS	Number=Plur	11	obl	_	_
+16	,	,	PUNCT	,	_	9	punct	_	_
+17	merely	merely	ADV	RB	_	9	advmod	_	_
+18	by	by	SCONJ	IN	_	19	mark	_	_
+19	pulling	pull	VERB	VBG	VerbForm=Ger	9	advcl	_	_
+20	up	up	ADP	RP	_	19	compound:prt	_	_
+21	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	22	nmod:poss	_	_
+22	chair	chair	NOUN	NN	Number=Sing	19	obj	_	_
+23	;	;	PUNCT	,	_	2	punct	_	_
+24	and	and	CCONJ	CC	_	26	cc	_	_
+25	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	26	nsubj	_	_
+26	wanted	want	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+27	to	to	PART	TO	_	28	mark	_	_
+28	help	help	VERB	VB	VerbForm=Inf	26	xcomp	_	_
+29	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	30	nmod:poss	_	_
+30	friend	friend	NOUN	NN	Number=Sing	28	obj	_	_
+31	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\s\n
+

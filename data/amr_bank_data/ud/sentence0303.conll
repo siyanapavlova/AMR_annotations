@@ -1,0 +1,16 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.303
+# text = As for me , I was upset over that bolt .
+1	As	as	ADP	IN	_	3	case	_	_
+2	for	for	ADP	IN	_	1	fixed	_	_
+3	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	7	obl	_	_
+4	,	,	PUNCT	,	_	7	punct	_	_
+5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj:pass	_	_
+6	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	7	aux:pass	_	_
+7	upset	upset	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+8	over	over	ADP	IN	_	10	case	_	_
+9	that	that	DET	DT	Number=Sing|PronType=Dem	10	det	_	_
+10	bolt	bolt	NOUN	NN	Number=Sing	7	obl	_	_
+11	.	.	PUNCT	.	_	7	punct	_	SpacesAfter=\s\n
+

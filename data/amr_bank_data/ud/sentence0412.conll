@@ -1,0 +1,16 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.412
+# text = She could not have known anything of any other worlds .
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+2	could	could	AUX	MD	VerbForm=Fin	5	aux	_	_
+3	not	not	PART	RB	_	5	advmod	_	_
+4	have	have	AUX	VB	VerbForm=Inf	5	aux	_	_
+5	known	know	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+6	anything	anything	PRON	NN	Number=Sing	5	obj	_	_
+7	of	of	ADP	IN	_	10	case	_	_
+8	any	any	DET	DT	_	10	det	_	_
+9	other	other	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	worlds	world	NOUN	NNS	Number=Plur	6	nmod	_	_
+11	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\s\n
+

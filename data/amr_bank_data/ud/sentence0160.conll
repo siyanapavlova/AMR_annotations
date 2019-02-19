@@ -1,0 +1,13 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.160
+# text = And this time everybody accepted his report .
+1	And	and	CCONJ	CC	_	5	cc	_	_
+2	this	this	DET	DT	Number=Sing|PronType=Dem	3	det	_	_
+3	time	time	NOUN	NN	Number=Sing	5	obl:tmod	_	_
+4	everybody	everybody	PRON	NN	Number=Sing	5	nsubj	_	_
+5	accepted	accept	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+6	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+7	report	report	NOUN	NN	Number=Sing	5	obj	_	_
+8	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\s\n
+

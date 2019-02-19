@@ -1,0 +1,18 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.1075
+# text = And you , on your part , have no need of me .
+1	And	and	CCONJ	CC	_	2	cc	_	_
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	8	nsubj	_	_
+3	,	,	PUNCT	,	_	2	punct	_	_
+4	on	on	ADP	IN	_	6	case	_	_
+5	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+6	part	part	NOUN	NN	Number=Sing	2	nmod	_	_
+7	,	,	PUNCT	,	_	8	punct	_	_
+8	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	no	no	DET	DT	_	10	det	_	_
+10	need	need	NOUN	NN	Number=Sing	8	obj	_	_
+11	of	of	ADP	IN	_	12	case	_	_
+12	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	10	nmod	_	_
+13	.	.	PUNCT	.	_	8	punct	_	SpacesAfter=\s\n
+

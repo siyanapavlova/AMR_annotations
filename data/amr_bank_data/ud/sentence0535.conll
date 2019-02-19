@@ -1,0 +1,18 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.535
+# text = Such power was a thing for the little prince to marvel at .
+1	Such	such	ADJ	JJ	Degree=Pos	2	amod	_	_
+2	power	power	NOUN	NN	Number=Sing	5	nsubj	_	_
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+5	thing	thing	NOUN	NN	Number=Sing	0	root	_	_
+6	for	for	ADP	IN	_	9	case	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+8	little	little	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	prince	prince	NOUN	NN	Number=Sing	5	nmod	_	_
+10	to	to	PART	TO	_	11	mark	_	_
+11	marvel	marvel	VERB	VB	VerbForm=Inf	5	acl	_	_
+12	at	at	ADP	IN	_	11	obl	_	_
+13	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\s\n
+

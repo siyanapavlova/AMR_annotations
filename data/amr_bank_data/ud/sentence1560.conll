@@ -1,0 +1,33 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.1560
+# text = Then , if a little man appears who laughs , who has golden hair and who refuses to answer questions , you will know who he is .
+1	Then	then	ADV	RB	PronType=Dem	12	advmod	_	_
+2	,	,	PUNCT	,	_	12	punct	_	_
+3	if	if	SCONJ	IN	_	7	mark	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+5	little	little	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	man	man	NOUN	NN	Number=Sing	7	nsubj	_	_
+7	appears	appear	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	advcl	_	_
+8	who	who	PRON	WP	PronType=Rel	9	nsubj	_	_
+9	laughs	laugh	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	_
+10	,	,	PUNCT	,	_	9	punct	_	_
+11	who	who	PRON	WP	PronType=Rel	12	nsubj	_	_
+12	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+13	golden	golden	ADJ	JJ	Degree=Pos	14	amod	_	_
+14	hair	hair	NOUN	NN	Number=Sing	12	obj	_	_
+15	and	and	CCONJ	CC	_	17	cc	_	_
+16	who	who	PRON	WP	PronType=Int	17	nsubj	_	_
+17	refuses	refuse	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	conj	_	_
+18	to	to	PART	TO	_	19	mark	_	_
+19	answer	answer	VERB	VB	VerbForm=Inf	17	xcomp	_	_
+20	questions	question	NOUN	NNS	Number=Plur	19	obj	_	_
+21	,	,	PUNCT	,	_	24	punct	_	_
+22	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	24	nsubj	_	_
+23	will	will	AUX	MD	VerbForm=Fin	24	aux	_	_
+24	know	know	VERB	VB	VerbForm=Inf	12	parataxis	_	_
+25	who	who	PRON	WP	PronType=Int	24	obj	_	_
+26	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	27	nsubj	_	_
+27	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	acl:relcl	_	_
+28	.	.	PUNCT	.	_	12	punct	_	SpacesAfter=\s\n
+

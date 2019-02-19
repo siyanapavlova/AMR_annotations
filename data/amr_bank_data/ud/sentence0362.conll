@@ -1,0 +1,10 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.362
+# text = I will - - "
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	will	will	AUX	MD	VerbForm=Fin	4	cop	_	_
+3	-	-	SYM	SYM	_	4	punct	_	_
+4	-	-	SYM	SYM	_	0	root	_	_
+5	"	"	PUNCT	''	_	4	punct	_	SpacesAfter=\s\n
+

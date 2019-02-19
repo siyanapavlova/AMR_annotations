@@ -1,0 +1,23 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.471
+# text = And if not the butterflies - - and the caterpillars - - who will call upon me ?
+1	And	and	CCONJ	CC	_	5	cc	_	_
+2	if	if	SCONJ	IN	_	3	mark	_	_
+3	not	not	PART	RB	_	5	advcl	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	butterflies	butterfly	NOUN	NNS	Number=Plur	0	root	_	_
+6	-	-	PUNCT	,	_	5	punct	_	_
+7	-	-	PUNCT	,	_	5	punct	_	_
+8	and	and	CCONJ	CC	_	10	cc	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	caterpillars	caterpillar	NOUN	NNS	Number=Plur	12	conj	_	_
+11	-	-	PUNCT	,	_	10	punct	_	_
+12	-	-	PUNCT	,	_	5	punct	_	_
+13	who	who	PRON	WP	PronType=Int	15	nsubj	_	_
+14	will	will	AUX	MD	VerbForm=Fin	15	aux	_	_
+15	call	call	VERB	VB	VerbForm=Inf	5	parataxis	_	_
+16	upon	upon	ADP	IN	_	17	case	_	_
+17	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	15	obl	_	_
+18	?	?	PUNCT	.	_	5	punct	_	SpacesAfter=\s\n
+

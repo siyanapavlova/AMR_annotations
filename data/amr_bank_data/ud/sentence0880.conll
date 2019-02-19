@@ -1,0 +1,16 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.880
+# text = The recitals of explorers are put down first in pencil .
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	recitals	recital	NOUN	NNS	Number=Plur	6	nsubj:pass	_	_
+3	of	of	ADP	IN	_	4	case	_	_
+4	explorers	explorer	NOUN	NNS	Number=Plur	2	nmod	_	_
+5	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux:pass	_	_
+6	put	put	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+7	down	down	ADV	RB	_	6	advmod	_	_
+8	first	first	ADV	RB	_	6	advmod	_	_
+9	in	in	ADP	IN	_	10	case	_	_
+10	pencil	pencil	NOUN	NN	Number=Sing	6	obl	_	_
+11	.	.	PUNCT	.	_	6	punct	_	SpacesAfter=\s\n
+

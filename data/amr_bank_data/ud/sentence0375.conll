@@ -1,0 +1,35 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.375
+# text = The little prince , who was present at the first appearance of a huge bud , felt at once that some sort of miraculous apparition must emerge from it .
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+2	little	little	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	prince	prince	NOUN	NN	Number=Sing	17	nsubj	_	_
+4	,	,	PUNCT	,	_	3	punct	_	_
+5	who	who	PRON	WP	PronType=Rel	7	nsubj	_	_
+6	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	cop	_	_
+7	present	present	ADJ	JJ	Degree=Pos	3	acl:relcl	_	_
+8	at	at	ADP	IN	_	11	case	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+10	first	first	ADJ	JJ	Degree=Pos|NumType=Ord	11	amod	_	_
+11	appearance	appearance	NOUN	NN	Number=Sing	7	obl	_	_
+12	of	of	ADP	IN	_	15	case	_	_
+13	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	_	_
+14	huge	huge	ADJ	JJ	Degree=Pos	15	amod	_	_
+15	bud	bud	NOUN	NN	Number=Sing	11	nmod	_	_
+16	,	,	PUNCT	,	_	17	punct	_	_
+17	felt	feel	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+18	at	at	ADV	RB	_	27	mark	_	_
+19	once	once	SCONJ	IN	_	27	mark	_	_
+20	that	that	SCONJ	IN	_	27	mark	_	_
+21	some	some	DET	DT	_	22	det	_	_
+22	sort	sort	NOUN	NN	Number=Sing	27	nsubj	_	_
+23	of	of	ADP	IN	_	25	case	_	_
+24	miraculous	miraculous	ADJ	JJ	Degree=Pos	25	amod	_	_
+25	apparition	apparition	NOUN	NN	Number=Sing	22	nmod	_	_
+26	must	must	AUX	MD	VerbForm=Fin	27	aux	_	_
+27	emerge	emerge	VERB	VB	VerbForm=Inf	17	advcl	_	_
+28	from	from	ADP	IN	_	29	case	_	_
+29	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	27	obl	_	_
+30	.	.	PUNCT	.	_	17	punct	_	SpacesAfter=\s\n
+

@@ -1,0 +1,13 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.1323
+# text = I am responsible for this flower ... "
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	responsible	responsible	ADJ	JJ	Degree=Pos	0	root	_	_
+4	for	for	ADP	IN	_	6	case	_	_
+5	this	this	DET	DT	Number=Sing|PronType=Dem	6	det	_	_
+6	flower	flower	NOUN	NN	Number=Sing	3	obl	_	_
+7	...	...	PUNCT	.	_	3	punct	_	_
+8	"	"	PUNCT	''	_	3	punct	_	SpacesAfter=\s\n
+

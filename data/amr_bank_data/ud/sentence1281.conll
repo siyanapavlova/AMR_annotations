@@ -1,0 +1,18 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.1281
+# text = The wells of the Sahara are mere holes dug in the sand .
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	wells	well	NOUN	NNS	Number=Plur	8	nsubj	_	_
+3	of	of	ADP	IN	_	5	case	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	Sahara	Sahara	PROPN	NNP	Number=Sing	2	nmod	_	_
+6	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	8	cop	_	_
+7	mere	mere	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	holes	hole	NOUN	NNS	Number=Plur	0	root	_	_
+9	dug	dug	VERB	VBG	VerbForm=Ger	8	acl	_	_
+10	in	in	ADP	IN	_	12	case	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	sand	sand	NOUN	NN	Number=Sing	9	obl	_	_
+13	.	.	PUNCT	.	_	8	punct	_	SpacesAfter=\s\n
+

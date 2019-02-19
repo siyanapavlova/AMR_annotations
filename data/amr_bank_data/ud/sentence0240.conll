@@ -1,0 +1,26 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.240
+# text = And if the planet is too small , and the baobabs are too many , they split it in pieces ...
+1	And	and	CCONJ	CC	_	17	cc	_	_
+2	if	if	SCONJ	IN	_	7	mark	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	planet	planet	NOUN	NN	Number=Sing	7	nsubj	_	_
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+6	too	too	ADV	RB	_	7	advmod	_	_
+7	small	small	ADJ	JJ	Degree=Pos	17	advcl	_	_
+8	,	,	PUNCT	,	_	14	punct	_	_
+9	and	and	CCONJ	CC	_	14	cc	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	baobabs	baobab	NOUN	NNS	Number=Plur	14	nsubj	_	_
+12	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	14	cop	_	_
+13	too	too	ADV	RB	_	14	advmod	_	_
+14	many	many	ADJ	JJ	Degree=Pos	7	conj	_	_
+15	,	,	PUNCT	,	_	17	punct	_	_
+16	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	17	nsubj	_	_
+17	split	split	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+18	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	17	obj	_	_
+19	in	in	ADP	IN	_	20	case	_	_
+20	pieces	piece	NOUN	NNS	Number=Plur	17	obl	_	_
+21	...	...	PUNCT	.	_	17	punct	_	SpacesAfter=\s\n
+

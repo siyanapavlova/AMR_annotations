@@ -1,0 +1,16 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.1334
+# text = So then I made a pencil sketch of a muzzle .
+1	So	so	ADV	RB	_	4	advmod	_	_
+2	then	then	ADV	RB	PronType=Dem	4	advmod	_	_
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+4	made	make	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+6	pencil	pencil	NOUN	NN	Number=Sing	7	compound	_	_
+7	sketch	sketch	NOUN	NN	Number=Sing	4	obj	_	_
+8	of	of	ADP	IN	_	10	case	_	_
+9	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+10	muzzle	muzzle	NOUN	NN	Number=Sing	7	nmod	_	_
+11	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\s\n
+

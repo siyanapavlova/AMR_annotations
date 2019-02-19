@@ -1,0 +1,15 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.355
+# text = I had let my tools drop from my hands .
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	aux	_	_
+3	let	let	VERB	VB	VerbForm=Inf	0	root	_	_
+4	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+5	tools	tool	NOUN	NNS	Number=Plur	3	obj	_	_
+6	drop	drop	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	xcomp	_	_
+7	from	from	ADP	IN	_	9	case	_	_
+8	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	9	nmod:poss	_	_
+9	hands	hand	NOUN	NNS	Number=Plur	6	obl	_	_
+10	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\s\n
+

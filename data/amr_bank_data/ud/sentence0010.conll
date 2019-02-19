@@ -1,0 +1,10 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.10
+# text = It looked like this :
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	looked	look	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	like	like	ADP	IN	_	4	case	_	_
+4	this	this	PRON	DT	Number=Sing|PronType=Dem	2	obl	_	_
+5	:	:	PUNCT	:	_	2	punct	_	_
+

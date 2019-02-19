@@ -1,0 +1,33 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.258
+# text = Perhaps you will ask me , " Why are there no other drawing in this book as magnificent and impressive as this drawing of the baobabs ? "
+1	Perhaps	perhaps	ADV	RB	_	4	advmod	_	_
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	_
+3	will	will	AUX	MD	VerbForm=Fin	4	aux	_	_
+4	ask	ask	VERB	VB	VerbForm=Inf	0	root	_	_
+5	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	4	obj	_	_
+6	,	,	PUNCT	,	_	4	punct	_	_
+7	"	"	PUNCT	``	_	4	punct	_	_
+8	Why	why	ADV	WRB	PronType=Int	10	advmod	_	_
+9	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	10	cop	_	_
+10	there	there	ADV	RB	PronType=Dem	4	advmod	_	_
+11	no	no	DET	DT	_	13	det	_	_
+12	other	other	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	drawing	drawing	NOUN	NN	Number=Sing	4	obj	_	_
+14	in	in	ADP	IN	_	16	case	_	_
+15	this	this	DET	DT	Number=Sing|PronType=Dem	16	det	_	_
+16	book	book	NOUN	NN	Number=Sing	13	nmod	_	_
+17	as	as	ADP	IN	_	18	case	_	_
+18	magnificent	magnificent	ADJ	JJ	Degree=Pos	4	obl	_	_
+19	and	and	CCONJ	CC	_	20	cc	_	_
+20	impressive	impressive	ADJ	JJ	Degree=Pos	4	conj	_	_
+21	as	as	SCONJ	IN	_	23	case	_	_
+22	this	this	DET	DT	Number=Sing|PronType=Dem	23	det	_	_
+23	drawing	drawing	NOUN	NN	Number=Sing	20	obl	_	_
+24	of	of	ADP	IN	_	26	case	_	_
+25	the	the	DET	DT	Definite=Def|PronType=Art	26	det	_	_
+26	baobabs	baobab	NOUN	NNS	Number=Plur	23	nmod	_	_
+27	?	?	PUNCT	.	_	4	punct	_	_
+28	"	"	PUNCT	''	_	4	punct	_	SpacesAfter=\s\n
+

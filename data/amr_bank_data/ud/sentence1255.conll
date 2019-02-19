@@ -1,0 +1,15 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.1255
+# text = Yet through the silence something throbs , and gleams ...
+1	Yet	yet	CCONJ	CC	_	6	cc	_	_
+2	through	through	ADP	IN	_	6	case	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+4	silence	silence	NOUN	NN	Number=Sing	6	compound	_	_
+5	something	something	PRON	NN	Number=Sing	6	compound	_	_
+6	throbs	throb	NOUN	NNS	Number=Plur	0	root	_	_
+7	,	,	PUNCT	,	_	9	punct	_	_
+8	and	and	CCONJ	CC	_	9	cc	_	_
+9	gleams	gleam	NOUN	NNS	Number=Plur	6	conj	_	_
+10	...	...	PUNCT	.	_	6	punct	_	SpacesAfter=\s\n
+

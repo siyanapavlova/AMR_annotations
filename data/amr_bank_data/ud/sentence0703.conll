@@ -1,0 +1,10 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.703
+# text = I own them . "
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	own	own	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	2	obj	_	_
+4	.	.	PUNCT	.	_	2	punct	_	_
+5	"	"	PUNCT	''	_	2	punct	_	SpacesAfter=\s\n
+

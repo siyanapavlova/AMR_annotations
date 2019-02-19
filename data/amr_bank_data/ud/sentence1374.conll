@@ -1,0 +1,20 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.1374
+# text = After a silence the little prince spoke again : " You have good poison ?
+1	After	after	ADP	IN	_	3	case	_	_
+2	a	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	_
+3	silence	silence	NOUN	NN	Number=Sing	7	obl	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+5	little	little	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	prince	prince	NOUN	NN	Number=Sing	7	nsubj	_	_
+7	spoke	spoke	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+8	again	again	ADV	RB	_	7	advmod	_	_
+9	:	:	PUNCT	:	_	7	punct	_	_
+10	"	"	PUNCT	``	_	7	punct	_	_
+11	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	12	nsubj	_	_
+12	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	7	ccomp	_	_
+13	good	good	ADJ	JJ	Degree=Pos	14	amod	_	_
+14	poison	poison	NOUN	NN	Number=Sing	12	obj	_	_
+15	?	?	PUNCT	.	_	7	punct	_	SpacesAfter=\s\n
+

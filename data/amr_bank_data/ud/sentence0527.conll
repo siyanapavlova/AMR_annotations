@@ -1,0 +1,26 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.527
+# text = The king made a gesture , which took in his planet , the other planets , and all the stars .
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	king	king	NOUN	NN	Number=Sing	3	nsubj	_	_
+3	made	make	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+5	gesture	gesture	NOUN	NN	Number=Sing	3	obj	_	_
+6	,	,	PUNCT	,	_	5	punct	_	_
+7	which	which	PRON	WDT	PronType=Rel	8	nsubj	_	_
+8	took	take	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	acl:relcl	_	_
+9	in	in	ADP	IN	_	11	case	_	_
+10	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
+11	planet	planet	NOUN	NN	Number=Sing	8	obl	_	_
+12	,	,	PUNCT	,	_	3	punct	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+14	other	other	ADJ	JJ	Degree=Pos	15	amod	_	_
+15	planets	planet	NOUN	NNS	Number=Plur	3	obj	_	_
+16	,	,	PUNCT	,	_	20	punct	_	_
+17	and	and	CCONJ	CC	_	20	cc	_	_
+18	all	all	DET	PDT	_	20	det:predet	_	_
+19	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	_
+20	stars	star	NOUN	NNS	Number=Plur	3	conj	_	_
+21	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\s\n
+

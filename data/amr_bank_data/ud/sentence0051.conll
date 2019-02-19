@@ -1,0 +1,24 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.51
+# text = Here you may see the best portrait that , later , I was able to make of him .
+1	Here	here	ADV	RB	PronType=Dem	4	advmod	_	_
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	_
+3	may	may	AUX	MD	VerbForm=Fin	4	aux	_	_
+4	see	see	VERB	VB	VerbForm=Inf	0	root	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+6	best	best	ADJ	JJS	Degree=Sup	7	amod	_	_
+7	portrait	portrait	NOUN	NN	Number=Sing	4	obj	_	_
+8	that	that	PRON	WDT	PronType=Rel	14	nsubj	_	_
+9	,	,	PUNCT	,	_	14	punct	_	_
+10	later	later	ADV	RB	_	14	advmod	_	_
+11	,	,	PUNCT	,	_	14	punct	_	_
+12	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	nsubj	_	_
+13	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	cop	_	_
+14	able	able	ADJ	JJ	Degree=Pos	7	acl:relcl	_	_
+15	to	to	PART	TO	_	16	mark	_	_
+16	make	make	VERB	VB	VerbForm=Inf	14	xcomp	_	_
+17	of	of	ADP	IN	_	18	case	_	_
+18	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	obl	_	_
+19	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\s\n
+

@@ -1,0 +1,13 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.1233
+# text = Let us look for a well ... "
+1	Let	let	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	1	obj	_	_
+3	look	look	VERB	VB	VerbForm=Inf	1	xcomp	_	_
+4	for	for	ADP	IN	_	5	case	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	3	obl	_	_
+6	well	well	ADV	RB	Degree=Pos	5	advmod	_	_
+7	...	...	PUNCT	.	_	1	punct	_	_
+8	"	"	PUNCT	''	_	1	punct	_	SpacesAfter=\s\n
+

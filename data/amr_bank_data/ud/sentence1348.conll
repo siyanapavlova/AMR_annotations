@@ -1,0 +1,12 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.1348
+# text = The little prince flushed once more .
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+2	little	little	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	prince	prince	NOUN	NN	Number=Sing	4	nsubj	_	_
+4	flushed	flush	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+5	once	once	ADV	RB	NumType=Mult	6	advmod	_	_
+6	more	more	ADJ	JJR	Degree=Cmp	4	obj	_	_
+7	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\s\n
+

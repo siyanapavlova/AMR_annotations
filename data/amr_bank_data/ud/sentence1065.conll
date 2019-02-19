@@ -1,0 +1,12 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.1065
+# text = Are you looking for chickens ? "
+1	Are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	_
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	_
+3	looking	look	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+4	for	for	ADP	IN	_	5	case	_	_
+5	chickens	chicken	NOUN	NNS	Number=Plur	3	obl	_	_
+6	?	?	PUNCT	.	_	3	punct	_	_
+7	"	"	PUNCT	''	_	3	punct	_	SpacesAfter=\s\n
+

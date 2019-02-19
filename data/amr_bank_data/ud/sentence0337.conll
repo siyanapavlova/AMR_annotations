@@ -1,0 +1,28 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.337
+# text = And all day he says over and over , just like you : ' I am busy with matters of consequence ! '
+1	And	and	CCONJ	CC	_	5	cc	_	_
+2	all	all	DET	DT	_	3	det	_	_
+3	day	day	NOUN	NN	Number=Sing	5	obl:tmod	_	_
+4	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+5	says	say	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	over	over	ADP	RP	_	12	case	_	_
+7	and	and	CCONJ	CC	_	8	cc	_	_
+8	over	over	ADV	RB	_	6	conj	_	_
+9	,	,	PUNCT	,	_	6	punct	_	_
+10	just	just	ADV	RB	_	12	advmod	_	_
+11	like	like	ADP	IN	_	12	case	_	_
+12	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	5	obl	_	_
+13	:	:	PUNCT	:	_	5	punct	_	_
+14	'	'	PUNCT	``	_	5	punct	_	_
+15	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	17	nsubj	_	_
+16	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	17	cop	_	_
+17	busy	busy	ADJ	JJ	Degree=Pos	5	ccomp	_	_
+18	with	with	ADP	IN	_	19	case	_	_
+19	matters	matter	NOUN	NNS	Number=Plur	17	obl	_	_
+20	of	of	ADP	IN	_	21	case	_	_
+21	consequence	consequence	NOUN	NN	Number=Sing	19	nmod	_	_
+22	!	!	PUNCT	.	_	5	punct	_	_
+23	'	'	PUNCT	''	_	5	punct	_	_
+

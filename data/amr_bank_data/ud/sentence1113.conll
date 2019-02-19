@@ -1,0 +1,18 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.1113
+# text = The fox gazed at the little prince , for a long time .
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	fox	fox	NOUN	NN	Number=Sing	3	nsubj	_	_
+3	gazed	gaze	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+4	at	at	ADP	IN	_	7	case	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+6	little	little	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	prince	prince	NOUN	NN	Number=Sing	3	obl	_	_
+8	,	,	PUNCT	,	_	7	punct	_	_
+9	for	for	ADP	IN	_	12	case	_	_
+10	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	_
+11	long	long	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	time	time	NOUN	NN	Number=Sing	3	obl	_	_
+13	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\s\n
+

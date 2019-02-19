@@ -1,0 +1,20 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.731
+# text = But I am a man who is naturally interested in matters of consequence . "
+1	But	but	CCONJ	CC	_	5	cc	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+3	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+5	man	man	NOUN	NN	Number=Sing	0	root	_	_
+6	who	who	PRON	WP	PronType=Rel	9	nsubj	_	_
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+8	naturally	naturally	ADV	RB	_	9	advmod	_	_
+9	interested	interested	ADJ	JJ	Degree=Pos	5	acl:relcl	_	_
+10	in	in	ADP	IN	_	11	case	_	_
+11	matters	matter	NOUN	NNS	Number=Plur	9	obl	_	_
+12	of	of	ADP	IN	_	13	case	_	_
+13	consequence	consequence	NOUN	NN	Number=Sing	11	nmod	_	_
+14	.	.	PUNCT	.	_	5	punct	_	_
+15	"	"	PUNCT	''	_	5	punct	_	SpacesAfter=\s\n
+

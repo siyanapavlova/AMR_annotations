@@ -1,0 +1,17 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.987
+# text = I understand you very well , " said the little prince .
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	understand	understand	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	2	obj	_	_
+4	very	very	ADV	RB	_	5	advmod	_	_
+5	well	well	ADV	RB	Degree=Pos	2	advmod	_	_
+6	,	,	PUNCT	,	_	2	punct	_	_
+7	"	"	PUNCT	''	_	2	punct	_	_
+8	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	ccomp	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+10	little	little	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	prince	prince	NOUN	NN	Number=Sing	8	obj	_	_
+12	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\s\n
+

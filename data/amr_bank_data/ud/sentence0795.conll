@@ -1,0 +1,18 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.795
+# text = A day lasts only one minute , here where you live ! "
+1	A	a	DET	DT	Definite=Ind|PronType=Art	2	det	_	_
+2	day	day	NOUN	NN	Number=Sing	3	nsubj	_	_
+3	lasts	last	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	only	only	ADV	RB	_	6	advmod	_	_
+5	one	one	NUM	CD	NumType=Card	6	nummod	_	_
+6	minute	minute	NOUN	NN	Number=Sing	3	obj	_	_
+7	,	,	PUNCT	,	_	6	punct	_	_
+8	here	here	ADV	RB	PronType=Dem	6	advmod	_	_
+9	where	where	ADV	WRB	PronType=Int	11	advmod	_	_
+10	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	11	nsubj	_	_
+11	live	live	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	advcl	_	_
+12	!	!	PUNCT	.	_	3	punct	_	_
+13	"	"	PUNCT	''	_	3	punct	_	SpacesAfter=\s\n
+

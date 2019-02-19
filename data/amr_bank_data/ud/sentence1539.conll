@@ -1,0 +1,13 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.1539
+# text = Perhaps the sheep has eaten the flower ...
+1	Perhaps	perhaps	ADV	RB	_	5	advmod	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	sheep	sheep	NOUN	NN	Number=Sing	5	nsubj	_	_
+4	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	eaten	eat	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	flower	flower	NOUN	NN	Number=Sing	5	obj	_	_
+8	...	...	PUNCT	.	_	5	punct	_	SpacesAfter=\s\n
+

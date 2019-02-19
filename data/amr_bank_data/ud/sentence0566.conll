@@ -1,0 +1,11 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.566
+# text = " Minister of what ? "
+1	"	"	PUNCT	``	_	2	punct	_	_
+2	Minister	Minister	PROPN	NNP	Number=Sing	0	root	_	_
+3	of	of	ADP	IN	_	4	case	_	_
+4	what	what	PRON	WP	PronType=Int	2	nmod	_	_
+5	?	?	PUNCT	.	_	2	punct	_	_
+6	"	"	PUNCT	''	_	2	punct	_	SpacesAfter=\s\n
+

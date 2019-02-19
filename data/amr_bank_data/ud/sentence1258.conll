@@ -1,0 +1,29 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.1258
+# text = When I was a little boy I lived in an old house , and legend told us that a treasure was buried there .
+1	When	when	ADV	WRB	PronType=Int	6	mark	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	cop	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+5	little	little	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	boy	boy	NOUN	NN	Number=Sing	8	advcl	_	_
+7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+8	lived	live	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+9	in	in	ADP	IN	_	12	case	_	_
+10	an	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	_
+11	old	old	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	house	house	NOUN	NN	Number=Sing	8	obl	_	_
+13	,	,	PUNCT	,	_	16	punct	_	_
+14	and	and	CCONJ	CC	_	16	cc	_	_
+15	legend	legend	NOUN	NN	Number=Sing	16	nsubj	_	_
+16	told	tell	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	8	conj	_	_
+17	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	16	obj	_	_
+18	that	that	SCONJ	IN	_	22	mark	_	_
+19	a	a	DET	DT	Definite=Ind|PronType=Art	20	det	_	_
+20	treasure	treasure	NOUN	NN	Number=Sing	22	nsubj:pass	_	_
+21	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	22	aux:pass	_	_
+22	buried	bury	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	16	ccomp	_	_
+23	there	there	ADV	RB	PronType=Dem	22	advmod	_	_
+24	.	.	PUNCT	.	_	8	punct	_	SpacesAfter=\s\n
+

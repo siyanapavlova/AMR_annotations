@@ -1,0 +1,67 @@
+# newdoc
+# newpar
+# sent_id =  except the two or three that we saved to become butterflies ) ; because it is she that I have listened to , when she grumbled , or boasted , or ever sometimes when she said nothing . (lpp_1943.1168
+# text = But in herself alone she is more important than all the hundreds of you other roses : because it is she that I have watered ; because it is she that I have put under the glass globe ; because it is she that I have sheltered behind the screen ; because it is for her that I have killed the caterpillars
+1	But	but	CCONJ	CC	_	8	cc	_	_
+2	in	in	ADP	IN	_	3	case	_	_
+3	herself	herself	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	8	obl	_	_
+4	alone	alone	ADV	RB	_	3	advmod	_	_
+5	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+7	more	more	ADV	RBR	_	8	advmod	_	_
+8	important	important	ADJ	JJ	Degree=Pos	0	root	_	_
+9	than	than	ADP	IN	_	12	case	_	_
+10	all	all	DET	PDT	_	12	det:predet	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	hundreds	hundred	NOUN	NNS	Number=Plur	16	compound	_	_
+13	of	of	ADP	IN	_	14	case	_	_
+14	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	12	nmod	_	_
+15	other	other	ADJ	JJ	Degree=Pos	16	amod	_	_
+16	roses	ros	NOUN	NNS	Number=Plur	8	obl	_	_
+17	:	:	PUNCT	:	_	8	punct	_	_
+18	because	because	SCONJ	IN	_	21	mark	_	_
+19	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	21	nsubj	_	_
+20	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	cop	_	_
+21	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	parataxis	_	_
+22	that	that	SCONJ	IN	_	25	mark	_	_
+23	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	25	nsubj	_	_
+24	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	25	aux	_	_
+25	watered	water	VERB	VBN	Tense=Past|VerbForm=Part	21	acl	_	_
+26	;	;	PUNCT	,	_	25	punct	_	_
+27	because	because	SCONJ	IN	_	30	mark	_	_
+28	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	30	nsubj	_	_
+29	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	cop	_	_
+30	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	25	advcl	_	_
+31	that	that	SCONJ	IN	_	34	mark	_	_
+32	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	34	nsubj	_	_
+33	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	34	aux	_	_
+34	put	put	VERB	VBN	Tense=Past|VerbForm=Part	30	ccomp	_	_
+35	under	under	ADP	IN	_	38	case	_	_
+36	the	the	DET	DT	Definite=Def|PronType=Art	38	det	_	_
+37	glass	glass	NOUN	NN	Number=Sing	38	compound	_	_
+38	globe	globe	NOUN	NN	Number=Sing	34	obl	_	_
+39	;	;	PUNCT	,	_	34	punct	_	_
+40	because	because	SCONJ	IN	_	43	mark	_	_
+41	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	43	nsubj	_	_
+42	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	43	cop	_	_
+43	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	34	advcl	_	_
+44	that	that	SCONJ	IN	_	47	mark	_	_
+45	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	47	nsubj	_	_
+46	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	47	aux	_	_
+47	sheltered	shelter	VERB	VBN	Tense=Past|VerbForm=Part	43	acl:relcl	_	_
+48	behind	behind	ADP	IN	_	50	case	_	_
+49	the	the	DET	DT	Definite=Def|PronType=Art	50	det	_	_
+50	screen	screen	NOUN	NN	Number=Sing	47	obl	_	_
+51	;	;	PUNCT	,	_	34	punct	_	_
+52	because	because	SCONJ	IN	_	56	mark	_	_
+53	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	56	nsubj	_	_
+54	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	56	cop	_	_
+55	for	for	ADP	IN	_	56	case	_	_
+56	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	60	advcl	_	_
+57	that	that	SCONJ	IN	_	60	mark	_	_
+58	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	60	nsubj	_	_
+59	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	60	aux	_	_
+60	killed	kill	VERB	VBN	Tense=Past|VerbForm=Part	34	advcl	_	_
+61	the	the	DET	DT	Definite=Def|PronType=Art	62	det	_	_
+62	caterpillars	caterpillar	NOUN	NNS	Number=Plur	60	obj	_	SpacesAfter=\s\n
+

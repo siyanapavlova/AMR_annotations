@@ -1,0 +1,14 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.873
+# text = But one requires the explorer to furnish proofs .
+1	But	but	CCONJ	CC	_	3	cc	_	_
+2	one	one	PRON	PRP	_	3	nsubj	_	_
+3	requires	require	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	explorer	explorer	NOUN	NN	Number=Sing	3	obj	_	_
+6	to	to	PART	TO	_	7	mark	_	_
+7	furnish	furnish	VERB	VB	VerbForm=Inf	5	acl	_	_
+8	proofs	proof	NOUN	NNS	Number=Plur	7	obj	_	_
+9	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\s\n
+

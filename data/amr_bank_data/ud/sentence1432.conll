@@ -1,0 +1,26 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.1432
+# text = Where I live everything is so small that I can not show you where my star is to be found .
+1	Where	where	ADV	WRB	PronType=Int	3	advmod	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	live	live	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	7	advcl	_	_
+4	everything	everything	PRON	NN	Number=Sing	7	nsubj	_	_
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+6	so	so	ADV	RB	_	7	advmod	_	_
+7	small	small	ADJ	JJ	Degree=Pos	0	root	_	_
+8	that	that	SCONJ	IN	_	12	mark	_	_
+9	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	_
+10	can	can	AUX	MD	VerbForm=Fin	12	aux	_	_
+11	not	not	PART	RB	_	12	advmod	_	_
+12	show	show	VERB	VB	VerbForm=Inf	7	ccomp	_	_
+13	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	12	obj	_	_
+14	where	where	ADV	WRB	PronType=Rel	17	advmod	_	_
+15	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	16	nmod:poss	_	_
+16	star	star	NOUN	NN	Number=Sing	17	nsubj	_	_
+17	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	_
+18	to	to	PART	TO	_	20	mark	_	_
+19	be	be	AUX	VB	VerbForm=Inf	20	aux:pass	_	_
+20	found	find	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	17	advcl	_	_
+21	.	.	PUNCT	.	_	7	punct	_	SpacesAfter=\s\n
+

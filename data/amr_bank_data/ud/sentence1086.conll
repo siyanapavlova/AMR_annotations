@@ -1,0 +1,14 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.1086
+# text = The fox seemed perplexed , and very curious .
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	fox	fox	NOUN	NN	Number=Sing	3	nsubj	_	_
+3	seemed	seem	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	perplexed	perplex	VERB	VBN	Tense=Past|VerbForm=Part	3	xcomp	_	_
+5	,	,	PUNCT	,	_	8	punct	_	_
+6	and	and	CCONJ	CC	_	8	cc	_	_
+7	very	very	ADV	RB	_	8	advmod	_	_
+8	curious	curious	ADJ	JJ	Degree=Pos	3	conj	_	_
+9	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\s\n
+

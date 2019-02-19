@@ -1,0 +1,22 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.740
+# text = And then I put this paper in a drawer and lock it with a key . "
+1	And	and	CCONJ	CC	_	4	cc	_	_
+2	then	then	ADV	RB	PronType=Dem	4	advmod	_	_
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+4	put	put	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+5	this	this	DET	DT	Number=Sing|PronType=Dem	6	det	_	_
+6	paper	paper	NOUN	NN	Number=Sing	4	obj	_	_
+7	in	in	ADP	IN	_	9	case	_	_
+8	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+9	drawer	drawer	NOUN	NN	Number=Sing	4	obl	_	_
+10	and	and	CCONJ	CC	_	11	cc	_	_
+11	lock	lock	VERB	VB	VerbForm=Inf	4	conj	_	_
+12	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	obj	_	_
+13	with	with	ADP	IN	_	15	case	_	_
+14	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	_	_
+15	key	key	NOUN	NN	Number=Sing	11	obl	_	_
+16	.	.	PUNCT	.	_	4	punct	_	_
+17	"	"	PUNCT	''	_	4	punct	_	SpacesAfter=\s\n
+

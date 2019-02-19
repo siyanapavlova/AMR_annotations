@@ -1,0 +1,33 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.57
+# text = And yet my little man seemed neither to be straying uncertainly among the sands , nor to be fainting from fatigue or hunger or thirst or fear .
+1	And	and	CCONJ	CC	_	2	cc	_	_
+2	yet	yet	ADV	RB	_	6	advmod	_	_
+3	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+4	little	little	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	man	man	NOUN	NN	Number=Sing	6	nsubj	_	_
+6	seemed	seem	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+7	neither	neither	ADV	RB	_	10	advmod	_	_
+8	to	to	PART	TO	_	10	mark	_	_
+9	be	be	AUX	VB	VerbForm=Inf	10	aux	_	_
+10	straying	stray	VERB	VBG	Tense=Pres|VerbForm=Part	6	xcomp	_	_
+11	uncertainly	uncertainly	ADV	RB	_	10	advmod	_	_
+12	among	among	ADP	IN	_	14	case	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+14	sands	sand	NOUN	NNS	Number=Plur	10	obl	_	_
+15	,	,	PUNCT	,	_	19	punct	_	_
+16	nor	nor	CCONJ	CC	_	19	cc	_	_
+17	to	to	PART	TO	_	19	mark	_	_
+18	be	be	AUX	VB	VerbForm=Inf	19	aux	_	_
+19	fainting	faint	VERB	VBG	Tense=Pres|VerbForm=Part	6	conj	_	_
+20	from	from	ADP	IN	_	21	case	_	_
+21	fatigue	fatigue	NOUN	NN	Number=Sing	19	obl	_	_
+22	or	or	CCONJ	CC	_	23	cc	_	_
+23	hunger	hunger	NOUN	NN	Number=Sing	21	conj	_	_
+24	or	or	CCONJ	CC	_	25	cc	_	_
+25	thirst	thirst	NOUN	NN	Number=Sing	21	conj	_	_
+26	or	or	CCONJ	CC	_	27	cc	_	_
+27	fear	fear	NOUN	NN	Number=Sing	21	conj	_	_
+28	.	.	PUNCT	.	_	6	punct	_	SpacesAfter=\s\n
+

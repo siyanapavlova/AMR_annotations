@@ -1,0 +1,22 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.932
+# text = When one wishes to play the wit , he sometimes wanders a little from the truth .
+1	When	when	ADV	WRB	PronType=Int	11	mark	_	_
+2	one	one	NUM	CD	NumType=Card	3	nummod	_	_
+3	wishes	wish	NOUN	NNS	Number=Plur	11	nsubj	_	_
+4	to	to	PART	TO	_	5	mark	_	_
+5	play	play	VERB	VB	VerbForm=Inf	3	acl	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	wit	wit	NOUN	NN	Number=Sing	5	obj	_	_
+8	,	,	PUNCT	,	_	11	punct	_	_
+9	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
+10	sometimes	sometimes	ADV	RB	_	11	advmod	_	_
+11	wanders	wander	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	_
+13	little	little	NOUN	NN	Number=Sing	11	obj	_	_
+14	from	from	ADP	IN	_	16	case	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	truth	truth	NOUN	NN	Number=Sing	11	obl	_	_
+17	.	.	PUNCT	.	_	11	punct	_	SpacesAfter=\s\n
+

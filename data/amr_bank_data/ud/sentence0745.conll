@@ -1,0 +1,14 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.745
+# text = But it is of no great consequence . "
+1	But	but	CCONJ	CC	_	7	cc	_	_
+2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+4	of	of	ADP	IN	_	7	case	_	_
+5	no	no	DET	DT	_	7	det	_	_
+6	great	great	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	consequence	consequence	NOUN	NN	Number=Sing	0	root	_	_
+8	.	.	PUNCT	.	_	7	punct	_	_
+9	"	"	PUNCT	''	_	7	punct	_	SpacesAfter=\s\n
+

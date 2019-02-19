@@ -1,0 +1,21 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.56
+# text = Remember , I had crashed in the desert a thousand miles from any inhabited region .
+1	Remember	remember	VERB	VB	VerbForm=Inf	0	root	_	_
+2	,	,	PUNCT	,	_	1	punct	_	_
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+4	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	aux	_	_
+5	crashed	crash	VERB	VBN	Tense=Past|VerbForm=Part	1	ccomp	_	_
+6	in	in	ADP	IN	_	8	case	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	desert	desert	NOUN	NN	Number=Sing	5	obl	_	_
+9	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	_
+10	thousand	thousand	NUM	CD	NumType=Card	11	nummod	_	_
+11	miles	mile	NOUN	NNS	Number=Plur	5	obj	_	_
+12	from	from	ADP	IN	_	15	case	_	_
+13	any	any	DET	DT	_	15	det	_	_
+14	inhabited	inhabit	VERB	VBN	Tense=Past|VerbForm=Part	15	amod	_	_
+15	region	region	NOUN	NN	Number=Sing	5	obl	_	_
+16	.	.	PUNCT	.	_	1	punct	_	SpacesAfter=\s\n
+

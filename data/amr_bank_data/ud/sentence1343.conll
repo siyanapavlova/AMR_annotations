@@ -1,0 +1,21 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.1343
+# text = And once again , without understanding why , I had a queer sense of sorrow .
+1	And	and	CCONJ	CC	_	10	cc	_	_
+2	once	once	ADV	RB	NumType=Mult	3	advmod	_	_
+3	again	again	ADV	RB	_	10	advmod	_	_
+4	,	,	PUNCT	,	_	10	punct	_	_
+5	without	without	SCONJ	IN	_	6	mark	_	_
+6	understanding	understand	VERB	VBG	VerbForm=Ger	10	advcl	_	_
+7	why	why	ADV	WRB	PronType=Int	6	advmod	_	_
+8	,	,	PUNCT	,	_	10	punct	_	_
+9	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+10	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+11	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	_
+12	queer	queer	NOUN	NN	Number=Sing	13	compound	_	_
+13	sense	sense	NOUN	NN	Number=Sing	10	obj	_	_
+14	of	of	ADP	IN	_	15	case	_	_
+15	sorrow	sorrow	NOUN	NN	Number=Sing	13	nmod	_	_
+16	.	.	PUNCT	.	_	10	punct	_	SpacesAfter=\s\n
+

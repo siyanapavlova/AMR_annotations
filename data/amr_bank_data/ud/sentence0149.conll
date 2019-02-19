@@ -1,0 +1,60 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.149
+# text = I knew very well that in addition to the great planets -- such as the Earth , Jupiter , Mars , Venus -- to which we have given names , there are also hundreds of others , some of which are so small that one has a hard time seeing them through the telescope .
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	knew	know	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	very	very	ADV	RB	_	4	advmod	_	_
+4	well	well	ADV	RB	Degree=Pos	2	advmod	_	_
+5	that	that	SCONJ	IN	_	32	mark	_	_
+6	in	in	ADP	IN	_	7	case	_	_
+7	addition	addition	NOUN	NN	Number=Sing	32	obl	_	_
+8	to	to	ADP	IN	_	11	case	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+10	great	great	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	planets	planet	NOUN	NNS	Number=Plur	7	nmod	_	_
+12	--	--	PUNCT	,	_	7	punct	_	_
+13	such	such	ADJ	JJ	Degree=Pos	16	case	_	_
+14	as	as	ADP	IN	_	13	fixed	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	Earth	earth	PROPN	NNP	Number=Sing	7	nmod	_	_
+17	,	,	PUNCT	,	_	18	punct	_	_
+18	Jupiter	Jupiter	PROPN	NNP	Number=Sing	16	conj	_	_
+19	,	,	PUNCT	,	_	20	punct	_	_
+20	Mars	Mars	PROPN	NNP	Number=Sing	16	conj	_	_
+21	,	,	PUNCT	,	_	22	punct	_	_
+22	Venus	Venus	PROPN	NNP	Number=Sing	16	conj	_	_
+23	--	--	PUNCT	,	_	16	punct	_	_
+24	to	to	ADP	IN	_	25	case	_	_
+25	which	which	PRON	WDT	PronType=Rel	28	obl	_	_
+26	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	28	nsubj	_	_
+27	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	28	aux	_	_
+28	given	give	VERB	VBN	Tense=Past|VerbForm=Part	16	acl:relcl	_	_
+29	names	name	NOUN	NNS	Number=Plur	28	obj	_	_
+30	,	,	PUNCT	,	_	32	punct	_	_
+31	there	there	PRON	EX	_	32	expl	_	_
+32	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+33	also	also	ADV	RB	_	32	advmod	_	_
+34	hundreds	hundred	NOUN	NNS	Number=Plur	32	nsubj	_	_
+35	of	of	ADP	IN	_	36	case	_	_
+36	others	other	NOUN	NNS	Number=Plur	34	nmod	_	_
+37	,	,	PUNCT	,	_	2	punct	_	_
+38	some	some	DET	DT	_	2	obl	_	_
+39	of	of	ADP	IN	_	40	case	_	_
+40	which	which	PRON	WDT	PronType=Rel	43	nsubj	_	_
+41	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	43	cop	_	_
+42	so	so	ADV	RB	_	43	advmod	_	_
+43	small	small	ADJ	JJ	Degree=Pos	38	acl:relcl	_	_
+44	that	that	SCONJ	IN	_	46	mark	_	_
+45	one	one	PRON	PRP	_	46	nsubj	_	_
+46	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	43	ccomp	_	_
+47	a	a	DET	DT	Definite=Ind|PronType=Art	49	det	_	_
+48	hard	hard	ADJ	JJ	Degree=Pos	49	amod	_	_
+49	time	time	NOUN	NN	Number=Sing	46	obj	_	_
+50	seeing	see	VERB	VBG	VerbForm=Ger	49	acl	_	_
+51	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	50	obj	_	_
+52	through	through	ADP	IN	_	54	case	_	_
+53	the	the	DET	DT	Definite=Def|PronType=Art	54	det	_	_
+54	telescope	telescope	NOUN	NN	Number=Sing	50	obl	_	_
+55	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\s\n
+

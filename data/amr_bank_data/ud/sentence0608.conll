@@ -1,0 +1,17 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.608
+# text = For , to conceited men , all other men are admirers .
+1	For	for	ADP	IN	_	5	case	_	_
+2	,	,	PUNCT	,	_	5	punct	_	_
+3	to	to	ADP	IN	_	5	case	_	_
+4	conceited	conceit	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	men	man	NOUN	NNS	Number=Plur	11	obl	_	_
+6	,	,	PUNCT	,	_	11	punct	_	_
+7	all	all	DET	DT	_	9	det	_	_
+8	other	other	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	men	man	NOUN	NNS	Number=Plur	11	nsubj	_	_
+10	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	11	cop	_	_
+11	admirers	admirer	NOUN	NNS	Number=Plur	0	root	_	_
+12	.	.	PUNCT	.	_	11	punct	_	SpacesAfter=\s\n
+

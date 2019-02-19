@@ -1,0 +1,44 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.758
+# text = The little prince was not able to reach any explanation of the use of a street lamp and a lamplighter , somewhere in the heavens , on a planet which had no people , and not one house .
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+2	little	little	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	prince	prince	NOUN	NN	Number=Sing	6	nsubj	_	_
+4	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	cop	_	_
+5	not	not	PART	RB	_	6	advmod	_	_
+6	able	able	ADJ	JJ	Degree=Pos	0	root	_	_
+7	to	to	PART	TO	_	8	mark	_	_
+8	reach	reach	VERB	VB	VerbForm=Inf	6	xcomp	_	_
+9	any	any	DET	DT	_	10	det	_	_
+10	explanation	explanation	NOUN	NN	Number=Sing	8	obj	_	_
+11	of	of	ADP	IN	_	13	case	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	use	use	NOUN	NN	Number=Sing	10	nmod	_	_
+14	of	of	ADP	IN	_	17	case	_	_
+15	a	a	DET	DT	Definite=Ind|PronType=Art	17	det	_	_
+16	street	street	NOUN	NN	Number=Sing	17	compound	_	_
+17	lamp	lamp	NOUN	NN	Number=Sing	13	nmod	_	_
+18	and	and	CCONJ	CC	_	20	cc	_	_
+19	a	a	DET	DT	Definite=Ind|PronType=Art	20	det	_	_
+20	lamplighter	lamplighter	NOUN	NN	Number=Sing	17	conj	_	_
+21	,	,	PUNCT	,	_	6	punct	_	_
+22	somewhere	somewhere	ADV	RB	_	6	advmod	_	_
+23	in	in	ADP	IN	_	25	case	_	_
+24	the	the	DET	DT	Definite=Def|PronType=Art	25	det	_	_
+25	heavens	heaven	NOUN	NNS	Number=Plur	22	obl	_	_
+26	,	,	PUNCT	,	_	6	punct	_	_
+27	on	on	ADP	IN	_	29	case	_	_
+28	a	a	DET	DT	Definite=Ind|PronType=Art	29	det	_	_
+29	planet	planet	NOUN	NN	Number=Sing	6	obl	_	_
+30	which	which	PRON	WDT	PronType=Rel	31	nsubj	_	_
+31	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	29	acl:relcl	_	_
+32	no	no	DET	DT	_	33	det	_	_
+33	people	people	NOUN	NNS	Number=Plur	31	obj	_	_
+34	,	,	PUNCT	,	_	38	punct	_	_
+35	and	and	CCONJ	CC	_	38	cc	_	_
+36	not	not	ADV	RB	_	37	advmod	_	_
+37	one	one	NUM	CD	NumType=Card	38	nummod	_	_
+38	house	house	NOUN	NN	Number=Sing	6	conj	_	_
+39	.	.	PUNCT	.	_	6	punct	_	SpacesAfter=\s\n
+

@@ -1,0 +1,38 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.325
+# text = He looked at me there , with my hammer in my hand , my fingers black with engine - grease , bending down over an object which seemed to him extremely ugly ...
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	looked	look	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	at	at	ADP	IN	_	4	case	_	_
+4	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	2	obl	_	_
+5	there	there	ADV	RB	PronType=Dem	2	advmod	_	_
+6	,	,	PUNCT	,	_	2	punct	_	_
+7	with	with	ADP	IN	_	9	case	_	_
+8	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	9	nmod:poss	_	_
+9	hammer	hammer	NOUN	NN	Number=Sing	2	obl	_	_
+10	in	in	ADP	IN	_	12	case	_	_
+11	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	12	nmod:poss	_	_
+12	hand	hand	NOUN	NN	Number=Sing	9	nmod	_	_
+13	,	,	PUNCT	,	_	2	punct	_	_
+14	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	15	nmod:poss	_	_
+15	fingers	finger	NOUN	NNS	Number=Plur	2	obj	_	_
+16	black	black	ADJ	JJ	Degree=Pos	15	amod	_	_
+17	with	with	ADP	IN	_	20	case	_	_
+18	engine	engine	NOUN	NN	Number=Sing	20	compound	_	_
+19	-	-	PUNCT	HYPH	_	20	punct	_	_
+20	grease	grease	NOUN	NN	Number=Sing	16	obl	_	_
+21	,	,	PUNCT	,	_	2	punct	_	_
+22	bending	bend	VERB	VBG	VerbForm=Ger	2	advcl	_	_
+23	down	down	ADV	RB	_	22	advmod	_	_
+24	over	over	ADP	IN	_	26	case	_	_
+25	an	a	DET	DT	Definite=Ind|PronType=Art	26	det	_	_
+26	object	object	NOUN	NN	Number=Sing	22	obl	_	_
+27	which	which	PRON	WDT	PronType=Rel	28	nsubj	_	_
+28	seemed	seem	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	26	acl:relcl	_	_
+29	to	to	ADP	IN	_	30	case	_	_
+30	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	28	obl	_	_
+31	extremely	extremely	ADV	RB	_	32	advmod	_	_
+32	ugly	ugly	ADV	RB	_	28	advmod	_	_
+33	...	...	PUNCT	.	_	2	punct	_	SpacesAfter=\s\n
+

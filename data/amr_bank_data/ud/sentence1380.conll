@@ -1,0 +1,33 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.1380
+# text = There before me , facing the little prince , was one of those yellow snakes that take just thirty seconds to bring your life to an end .
+1	There	there	PRON	EX	_	11	nsubj	_	_
+2	before	before	ADP	IN	_	3	case	_	_
+3	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	nmod	_	_
+4	,	,	PUNCT	,	_	1	punct	_	_
+5	facing	face	VERB	VBG	VerbForm=Ger	1	acl	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+7	little	little	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	prince	prince	NOUN	NN	Number=Sing	5	obj	_	_
+9	,	,	PUNCT	,	_	5	punct	_	_
+10	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	cop	_	_
+11	one	one	NUM	CD	NumType=Card	0	root	_	_
+12	of	of	ADP	IN	_	15	case	_	_
+13	those	those	DET	DT	Number=Plur|PronType=Dem	15	det	_	_
+14	yellow	yellow	ADJ	JJ	Degree=Pos	15	amod	_	_
+15	snakes	snake	NOUN	NNS	Number=Plur	11	nmod	_	_
+16	that	that	PRON	WDT	PronType=Rel	17	nsubj	_	_
+17	take	take	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	15	acl:relcl	_	_
+18	just	just	ADV	RB	_	19	advmod	_	_
+19	thirty	thirty	NUM	CD	NumType=Card	20	nummod	_	_
+20	seconds	seconds	NOUN	NNS	Number=Plur	17	obj	_	_
+21	to	to	PART	TO	_	22	mark	_	_
+22	bring	bring	VERB	VB	VerbForm=Inf	17	advcl	_	_
+23	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	24	nmod:poss	_	_
+24	life	life	NOUN	NN	Number=Sing	22	obj	_	_
+25	to	to	ADP	IN	_	27	case	_	_
+26	an	a	DET	DT	Definite=Ind|PronType=Art	27	det	_	_
+27	end	end	NOUN	NN	Number=Sing	22	obl	_	_
+28	.	.	PUNCT	.	_	11	punct	_	SpacesAfter=\s\n
+
