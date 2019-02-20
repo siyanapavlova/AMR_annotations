@@ -47,7 +47,7 @@ def preprocess(amrs_list, amrs_filepath_structure, sents_filepath_structure):
 			sent_num = sent_written_count+1
 
 
-		with open (sent_filepath_structure.format(sent_num4file), 'w') as file:
+		with open (sents_filepath_structure.format(sent_num4file), 'w') as file:
 			file.write(sentence_only)
 			file.close()
 
@@ -68,4 +68,4 @@ if __name__== "__main__":
 	amrs = data.readlines()
 	amrs_filepath_structure = './data/amr_bank_data/amrs/amr{}.txt'
 	sents_filepath_structure = './data/amr_bank_data/sentences/sentence{}.txt'
-	preprocess(amrs, amrs_filepath_structure, sent_filepath_structure)
+	preprocess(amrs, amrs_filepath_structure, sents_filepath_structure)
