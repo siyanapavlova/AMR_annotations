@@ -1,5 +1,11 @@
 import grew 
-from amr_graph_to_conllu 
+import amr_graph_to_conllu 
+
+ud_tags = ['nsubj', 'obj', 'iobj', 'obl', 'vocative', 'expl', 'dislocated', 'nmod',
+			'appos', 'nummod', 'csubj', 'ccomp', 'xcomp', 'advcl', 'advmod*', 'discourse',
+			'aux', 'cop', 'mark', 'acl', 'amod', 'det', 'clf', 'case', 'conj', 'cc', 'fixed',
+			'flat', 'compound', 'list', 'parataxis', 'orphan', 'goeswith', 'reparandum',
+			'punct', 'root', 'dep']
 
 def load_data(filename):
 	"""
@@ -22,7 +28,7 @@ def ud_graph_search(ud_graph, pattern):
 	result = grew.corpus_search(pattern, ud_graph)
 	return result 
 	
-def ud_to_amr(grs, ud_graph, strat):
+def ud_to_amr(grs_filename, ud_graph, strat): #it was grs insted of grs_filename, so the module gave errors when called from other modules
 	"""
 	Takes a UD graph in CoNNL-U format and transforms it into an AMR graph by applying a set of rules
 	
@@ -77,6 +83,19 @@ def __test_no_iso__(amr_graph):
 			return 1
 	return 0
 
+def __test_only_AMR_tags__(amr_graph):
+	"""
+	Helper function for unit testing. Takes an amr_graph, checks that none of the tags are UD tags
+
+	input | amr_graph - an AMR graph in GREW dictionary format
+	output | 1 if no UD tags, 0 if there are UD tags
+	"""
+	for node in amr_graph[0]:
+		for relation in amr_graph[0][node][1]:
+			if relation[0] in ud_tags:
+				# print('UD TAAAAAGS ', relation[0])
+				return 0
+	return 1
 
 def __generate_nodetuples__(amr_graph):
 	'''
