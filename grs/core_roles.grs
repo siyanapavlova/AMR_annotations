@@ -40,3 +40,21 @@ rule remove_det{
 		del_node D;
 	}
 }
+
+rule remove_punct{
+	pattern{
+		P[cat=PUNCT];
+	}
+	commands{
+		del_node P;
+	}
+}
+
+rule remove_root_rel{
+	pattern{
+		root_rel: X -[root]-> Y;
+	}
+	commands{
+		del_edge root_rel;
+	}
+}

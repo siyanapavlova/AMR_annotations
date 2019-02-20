@@ -77,6 +77,7 @@ class UDtoAMRtest(unittest.TestCase):
 	def test_has_only_AMR_tags(self):
 		'''UD_to_AMR should produce a graph which has only AMR tags'''
 		for amr_graph in self.test_graphs:
+			# pp.pprint(amr_graph)
 			result = __test_only_AMR_tags__(amr_graph)
 			self.assertEqual(1, result)
 
