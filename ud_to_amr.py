@@ -51,7 +51,7 @@ def __test_amr_is_dag__(amr_graph):
 
 	"""
 	pass 
-	
+
 def __test_no_iso__(amr_graph):
 	"""
 	Helper function for unit testing module. Takes a ud_graph, checks that it does not have isolated components
@@ -166,13 +166,13 @@ if __name__== "__main__":
 	print("Grew initiated \n") 
 
 	# load the UD graph 
-	ud_graph = load_data("./data/dev_data/test_LP2half.conll")
+	ud_graph = load_data("./data/dev_data/sentence0002.conll")
 	print("Grew graph loaded \n")
-	
+	print(ud_graph)
+
 	# run a simple GRS 
 	grs_filename = './grs/grs_amr_main.grs' 
 
 	# generate the graph(s) from the application of the grs in grs_filename
 	new_graphs = ud_to_amr(grs_filename, ud_graph, strat="simple")
 	print(new_graphs[0])
-	print(__test_amr_is_dag__(new_graphs[0]))

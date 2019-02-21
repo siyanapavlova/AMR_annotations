@@ -1,4 +1,5 @@
 include "core_roles.grs"
+include "non_core_roles.grs"
 
 strat simplest {
   Seq (
@@ -21,7 +22,8 @@ strat simple {
     Iter (pred_nsubj_obj),  % identify a predicate and its arguments. 
     Iter (noun_amod),  % identify nouns with an amod. Add the :mod role. 
     Iter (remove_det),  % delete determiners
-    Iter (remove_punct), %delete punctuation
+    Iter (remove_punct), % delete punctuation
+	Iter (obl_nosubtag), % identify temporal or locational ARG2 roles
     %Iter (remove_root_rel), %delete root relation
 
     )

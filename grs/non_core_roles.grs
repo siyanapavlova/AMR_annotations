@@ -1,0 +1,34 @@
+% The obl relationship has a tmod subtag
+rule obl_temporal{
+	pattern {
+		V[cat=VERB];
+		obl_rel: V -[obl:tmod]-> nominal;
+	}
+	commands {
+		del_edge obl_rel;
+		add_edge V -[time]-> nominal;
+	}
+}
+
+% The obl relationship has a agent subtag
+rule obl_agent{
+	pattern {
+		V[cat=VERB];
+		obl_rel: V -[obl:agent]-> nominal;
+	}
+	commands {
+		del_edge obl_rel;
+		add_edge V -[ARG0]-> nominal;
+	}
+}
+% The obl relationship does not have a subtag
+rule obl_nosubtag{
+	pattern {
+		V[cat=VERB];
+		obl_rel: V -[obl]-> nominal;
+	}
+	commands {
+		del_edge obl_rel;
+		add_edge V -[ARG2]-> nominal;
+	}
+}

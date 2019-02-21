@@ -1,0 +1,32 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.2
+# text = Once when I was six years old I saw a magnificent picture in a book , called True Stories from Nature , about the primeval forest .
+1	Once	once	SCONJ	IN	_	7	mark	_	_
+2	when	when	ADV	WRB	PronType=Int	7	advmod	_	_
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+4	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	cop	_	_
+5	six	six	NUM	CD	NumType=Card	6	nummod	_	_
+6	years	year	NOUN	NNS	Number=Plur	7	obl:npmod	_	_
+7	old	old	ADJ	JJ	Degree=Pos	9	advcl	_	_
+8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
+9	saw	see	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+10	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	_
+11	magnificent	magnificent	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	picture	picture	NOUN	NN	Number=Sing	9	obj	_	_
+13	in	in	ADP	IN	_	15	case	_	_
+14	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	_	_
+15	book	book	NOUN	NN	Number=Sing	12	nmod	_	_
+16	,	,	PUNCT	,	_	12	punct	_	_
+17	called	call	VERB	VBN	Tense=Past|VerbForm=Part	12	acl	_	_
+18	True	true	ADJ	JJ	Degree=Pos	19	amod	_	_
+19	Stories	Stories	NOUN	NNS	Number=Plur	17	obj	_	_
+20	from	from	ADP	IN	_	21	case	_	_
+21	Nature	nature	PROPN	NNP	Number=Sing	17	obl	_	_
+22	,	,	PUNCT	,	_	9	punct	_	_
+23	about	about	ADP	IN	_	26	case	_	_
+24	the	the	DET	DT	Definite=Def|PronType=Art	26	det	_	_
+25	primeval	primeval	ADJ	JJ	Degree=Pos	26	amod	_	_
+26	forest	forest	NOUN	NN	Number=Sing	9	obl	_	_
+27	.	.	PUNCT	.	_	9	punct	_	SpacesAfter=\s\n
+
