@@ -50,10 +50,8 @@ def __test_amr_is_dag__(amr_graph):
 	output | int - 1 if yes, 0 if no
 
 	"""
+	pass 
 	
-	
-	pass
-
 def __test_no_iso__(amr_graph):
 	"""
 	Helper function for unit testing module. Takes a ud_graph, checks that it does not have isolated components
@@ -64,10 +62,10 @@ def __test_no_iso__(amr_graph):
 	node_tuples = __generate_nodetuples__(amr_graph)
 	simple_graphrep = __generate_simple_graphrep__(node_tuples)
 
-	# get all the nodes in the amr_graph with at least 1 connections
+	# get all the nodes in the amr_graph with at least 1 connection
 	nodes_all = set([i[0] for i in node_tuples] + [i[1] for i in node_tuples])
 
-	# get all the head nodes present in the amr_graph (except the "ROOT" and leaving out all the leaf nodes). 
+	# get all the head nodes present in the amr_graph (i.e. leaving out all the leaf nodes). 
 	nodes_heads = set([i for i in simple_graphrep.keys()])
 	
 	assert len(simple_graphrep["ROOT"]) == 1, "It appears this graph may have more than 1 root, \
@@ -76,12 +74,11 @@ def __test_no_iso__(amr_graph):
 		# element, which contains a str that is the index number for the root word. 
 	
 	# start searching with "ROOT". 
-	# using sets here to avoid duplicate nodes in nodes_to_visit and nodes_visited
-	nodes_to_visit = set(["ROOT"])# set(simple_graphrep["ROOT"]) 
+	nodes_to_visit = set(["ROOT"])
 	nodes_visited = set()
 	
-	# recursion to visit all nodes, stop when nodes_to_visit empty, or if visited nodes matches 
-	# the list of all nodes in the amr_graph (i.e. all nodes are connected). 
+	# recursion to visit all nodes accessible from "ROOT", stop when nodes_to_visit empty, or 
+	# if visited nodes matches the list of all nodes in the amr_graph (i.e. all nodes are connected). 
 	while len(nodes_to_visit) > 0:
 		# .pop on a set removes a random element. but this does not matter, we only want to 
 		# be sure to have visited all head nodes once, so the order of visit does not matter. 
@@ -96,7 +93,7 @@ def __test_no_iso__(amr_graph):
 		nodes_visited.add(__visiting_node)
 		if nodes_visited == nodes_all:
 			return 1
-	return 0
+	return 0 # returns zero if we can't match nodes_visited with nodes_all
 
 def __test_only_AMR_tags__(amr_graph):
 	"""
@@ -177,3 +174,5 @@ if __name__== "__main__":
 
 	# generate the graph(s) from the application of the grs in grs_filename
 	new_graphs = ud_to_amr(grs_filename, ud_graph, strat="simple")
+	print(new_graphs[0])
+	print(__test_amr_is_dag__(new_graphs[0]))
