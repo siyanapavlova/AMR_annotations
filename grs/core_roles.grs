@@ -50,11 +50,11 @@ rule remove_punct{
 	}
 }
 
-rule remove_root_rel{
-	pattern{
-		root_rel: X -[root]-> Y;
-	}
-	commands{
-		del_edge root_rel;
-	}
-}
+%rule remove_root_rel{
+%	pattern{
+%		root_rel: X -[root]-> Y;
+%	}
+%	commands{
+%		del_edge root_rel;
+%	}
+%}

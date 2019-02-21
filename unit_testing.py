@@ -58,7 +58,7 @@ class UDtoAMRtest(unittest.TestCase):
 	for filename in os.listdir("./data/dev_data/ud_graphs/"):
 		if filename.endswith('.conll'):
 			ud_graph = load_data("./data/dev_data/ud_graphs/"+filename)
-			test_graphs.append(ud_to_amr(grs_filename, ud_graph, strat="simple"))
+			test_graphs.extend(ud_to_amr(grs_filename, ud_graph, strat="simple"))
 	print(test_graphs)
 
 	def test_is_dag(self):

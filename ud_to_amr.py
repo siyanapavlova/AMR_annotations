@@ -64,19 +64,34 @@ def __test_no_iso__(amr_graph):
 	node_tuples = __generate_nodetuples__(amr_graph)
 	simple_graphrep = __generate_simple_graphrep__(node_tuples)
 
-	# get all the nodes in the amr_graph, except the "ROOT"
-	nodes_all = set([i for i in simple_graphrep.keys() if i != "ROOT"])
-	# start searching with dep node of "ROOT"
-	node_root = simple_graphrep["ROOT"]
-	nodes_to_visit = set(node_root)
+	# get all the nodes in the amr_graph with at least 1 connections
+	nodes_all = set([i[0] for i in node_tuples] + [i[1] for i in node_tuples])
+
+	# get all the head nodes present in the amr_graph (except the "ROOT" and leaving out all the leaf nodes). 
+	nodes_heads = set([i for i in simple_graphrep.keys()])
+	
+	assert len(simple_graphrep["ROOT"]) == 1, "It appears this graph may have more than 1 root, \
+	AMRs can only have a single root. Please check."
+		# AMRs should only have 1 root node, so simple_graphrep["ROOT"] should return a list of one 
+		# element, which contains a str that is the index number for the root word. 
+	
+	# start searching with "ROOT". 
+	# using sets here to avoid duplicate nodes in nodes_to_visit and nodes_visited
+	nodes_to_visit = set(["ROOT"])# set(simple_graphrep["ROOT"]) 
 	nodes_visited = set()
 	
 	# recursion to visit all nodes, stop when nodes_to_visit empty, or if visited nodes matches 
 	# the list of all nodes in the amr_graph (i.e. all nodes are connected). 
 	while len(nodes_to_visit) > 0:
+		# .pop on a set removes a random element. but this does not matter, we only want to 
+		# be sure to have visited all head nodes once, so the order of visit does not matter. 
 		__visiting_node = nodes_to_visit.pop()
+	
 		for node1 in simple_graphrep[__visiting_node]:
-			nodes_to_visit.add(node1)
+			# check that node1 is not a leaf node before adding to nodes_to_visit. 
+			nodes_visited.add(node1)
+			if node1 in nodes_heads: 
+				nodes_to_visit.add(node1)
 		
 		nodes_visited.add(__visiting_node)
 		if nodes_visited == nodes_all:
@@ -156,7 +171,7 @@ if __name__== "__main__":
 	# load the UD graph 
 	ud_graph = load_data("./data/dev_data/test_LP2half.conll")
 	print("Grew graph loaded \n")
-
+	
 	# run a simple GRS 
 	grs_filename = './grs/grs_amr_main.grs' 
 
