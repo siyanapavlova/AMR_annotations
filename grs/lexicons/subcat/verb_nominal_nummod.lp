@@ -1,0 +1,33 @@
+lemma	quantitytype
+%-------------------------
+dollar	monetary-quantity
+euro	monetary-quantity
+kilometre	distance-quantity
+km distance-quantity
+sqm	area-quantity
+litre	volume-quantity
+hour	temporal-quantity
+weekly	frequency-quantity
+kmh	speed-quantity
+m/s2	acceleration-quantity
+gram	mass-quantity
+newton	force-quantity
+bar	pressure-quantity
+joule energy-quantity
+watt power-quantity
+volt	voltage-quantity
+coulomb	charge-quantity
+volt potential-quantity
+ohm	resistance-quantity
+henry inductance-quantity
+tesla	magnetic-field-quantity
+weber	magnetic-flux-quantity
+sievert	radiation-quantity
+mol	concentration-quantity
+celcius temperature-quantity
+mark	score-quantity
+point	score-quantity
+km/l	fuel-consumption-quantity
+mpg	fuel-consumption-quantity
+richter	seismic-quantity
+
