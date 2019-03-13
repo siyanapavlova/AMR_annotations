@@ -33,6 +33,43 @@ rule obl_nosubtag{
 	}
 }
 
+% The compound relationship does not have a subtag; find and join the governor and dependent of a compound relationship. There may be
+% of a sequence of more than two words joined sequentially with the compound relationship, i.e. this rule is expected to be applied
+% in an iter manner. 
+rule find_joincompound {
+	pattern  {
+		compound_rel: Nominal1 -[compound]-> Nominal2;
+	}
+	commands {
+		Nominal1.concept = Nominal2.form + Nominal1.form 
+	}
+}
+
+% The compound relationship has a "part" subtag; find and join the governor and dependent of a compound relationship. There may be
+% of a sequence of more than two words joined sequentially with the compound relationship, i.e. this rule is expected to be applied
+% in an iter manner. 
+rule find_joincompound {
+	pattern  {
+		compound_rel: Nominal1 -[compound:part]-> Nominal2;
+	}
+	commands {
+		Nominal1.concept = Nominal2.form + Nominal1.form 
+	}
+}
+
+% The advmod relationship has a governor whose lemma is in the AMR predicate list. The dependent is a particle (i.e. lemma = "not" or 
+% "n't".)
+rule advmod_lemmapred_polarity(lex from "lexicons/subcat/verb_nominal_nummod.lp"){
+	pattern {
+		GOV[emma=lex.lemma];
+		DEP[upos=PART]
+		advmod_lemmapred_polarity_rel: GOV -[advmod]-> DEP;
+	}
+	commands {
+		del_edge advmod_lemmapred_polarity;
+		GOV.concept = polarity = -;
+	}
+}
 
 %% A nummod follows a nominal that follows a verb with nsubj | e.g. "She bought two gallons of milk." or "He bought 10 pretty grams of gold!"
 %rule verb_nominal_nummod_nsubj(lex1 from "lexicons/subcat/verb_nominal_nummod.lp", lex2 from "lexicons/subcat/verb_nsubj_obj.lp"){
