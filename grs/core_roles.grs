@@ -30,6 +30,35 @@ rule noun_amod{
 	}
 }
 
+
+% A clausal complement of a verb/adverb (i.e. predicate) that is not a copula construction. 
+rule ccomp_verbadv_notcop(lex from "lexicons/subcat/verb_nsubj_obj.lp"){
+	pattern{
+		GOV[lemma=lex.lemma, upos=VERB|ADV];
+		ccomp_rel: GOV -[ccomp]-> DEP;
+	}
+	without{GOV[lemma="be"]} %exclude all copula constructions
+	commands{
+		add_edge GOV -[lex.patient]-> DEP;
+		del_edge ccomp_rel;
+	}
+}
+
+%% A clausal complement involving a copula construction. !to figure out how to assign have-degree-91 ARG0 to ARG6
+%rule ccomp_copula(lex from "lexicons/subcat/verb_nsubj_obj.lp"){
+%	pattern{
+%		pattern { GOV[lemma="be"];
+%		GOV -[nsubj|obj|iobj]-> OTHERDEP;
+%		GOV -[ccomp]-> DEP }
+%	}
+%	commands{
+%		add_node X; X.concept = "have-degree-91";
+%		add_edge GOV-[]->DEP;
+%		del_edge ccomp_rel;
+%
+%	}
+%}
+
 % Remove DET tags with a lemma "a", "an" or "the"
 rule remove_det{
 	pattern{

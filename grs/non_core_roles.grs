@@ -21,6 +21,7 @@ rule obl_agent(lex from "lexicons/subcat/verb_nsubj_obj.lp"){
 		add_edge V -[lex.doer]-> Nominal;
 	}
 }
+
 % The obl relationship does not have a subtag
 rule obl_nosubtag{
 	pattern {
@@ -36,81 +37,81 @@ rule obl_nosubtag{
 % The compound relationship does not have a subtag; find and join the governor and dependent of a compound relationship. There may be
 % of a sequence of more than two words joined sequentially with the compound relationship, i.e. this rule is expected to be applied
 % in an iter manner. 
-rule find_joincompound {
+rule compound_find_join{
 	pattern  {
 		compound_rel: Nominal1 -[compound]-> Nominal2;
 	}
 	commands {
-		Nominal1.concept = Nominal2.form + Nominal1.form 
+		Nominal1.concept = Nominal2.form + Nominal1.form; 
 	}
 }
 
 % The compound relationship has a "part" subtag; find and join the governor and dependent of a compound relationship. There may be
 % of a sequence of more than two words joined sequentially with the compound relationship, i.e. this rule is expected to be applied
 % in an iter manner. 
-rule find_joincompound {
+rule compoundpart_find_join{
 	pattern  {
 		compound_rel: Nominal1 -[compound:part]-> Nominal2;
 	}
 	commands {
-		Nominal1.concept = Nominal2.form + Nominal1.form 
+		Nominal1.concept = Nominal2.form + Nominal1.form; 
 	}
 }
 
 % The advmod relationship has a governor whose lemma is in the AMR predicate list. The dependent is a particle (i.e. lemma = "not" or 
 % "n't".)
-rule advmod_lemmapred_polarity(lex from "lexicons/subcat/verb_nominal_nummod.lp"){
+rule advmod_lemmapred_polarity(lex from "lexicons/subcat/amr_predicates.lp"){
 	pattern {
-		GOV[emma=lex.lemma];
-		DEP[upos=PART]
+		GOV[lemma=lex.lemma];
+		DEP[upos=PART];
 		advmod_lemmapred_polarity_rel: GOV -[advmod]-> DEP;
 	}
 	commands {
-		del_edge advmod_lemmapred_polarity;
-		GOV.concept = polarity = -;
+		del_edge advmod_lemmapred_polarity_rel;
+		GOV.concept = "-";
 	}
 }
 
-%% A nummod follows a nominal that follows a verb with nsubj | e.g. "She bought two gallons of milk." or "He bought 10 pretty grams of gold!"
-%rule verb_nominal_nummod_nsubj(lex1 from "lexicons/subcat/verb_nominal_nummod.lp", lex2 from "lexicons/subcat/verb_nsubj_obj.lp"){
-%	pattern {
-%		V[upos=VERB, lemma=lex2.lemma];
-%		Nominal1[upos=NOUN, lemma=lex1.lemma]; 				% lexicon of quantity measure words
-%		Nominal2[upos=NOUN|PROPN];							% PROPN too, e.g. "ten Girl Guides"
-%		verb_nom_rel: V -[nsubj]-> Nominal1; 				% filter to only those with nsubj relations
-%		nmod_rel: Nominal1 -[nmod]-> Nominal2;
-%		nummod_rel: Nominal1 -[nummod]-> Num;
-%	}
-%	commands {
-%		add_node UNIT; UNIT.concept = lex1.quantitytype; 	% add a new node [x]-quantity 
-%		add_edge UNIT -[quant]-> Num; 
-%		add_edge UNIT -[unit]-> Nominal1;
-%		del_edge nmod_rel;
-%		del_edge nummod_rel;
-%
-%		add_edge V -[lex2.patient]-> Nominal2; 				% AMR takes the quantified element as the concept; see entry on milk in https://github.com/amrisi/amr-guidelines/blob/master/amr.md#quantities (same as AMR1.2)
-%		del_edge verb_nom_rel;
-%	}
-%}
+% A nummod follows a nominal that follows a verb with nsubj | e.g. "She bought two gallons of milk." or "He bought 10 pretty grams of gold!"
+rule verb_nominal_nummod_nsubj(lex1 from "lexicons/subcat/verb_nominal_nummod.lp", lex2 from "lexicons/subcat/verb_nsubj_obj.lp"){
+	pattern {
+		V[upos=VERB, lemma=lex2.lemma];
+		Nominal1[upos=NOUN, lemma=lex1.lemma]; 				% lexicon of quantity measure words
+		Nominal2[upos=NOUN|PROPN];							% PROPN too, e.g. "ten Girl Guides"
+		verb_nom_rel: V -[nsubj]-> Nominal1; 				% filter to only those with nsubj relations
+		nmod_rel: Nominal1 -[nmod]-> Nominal2;
+		nummod_rel: Nominal1 -[nummod]-> Num;
+	}
+	commands {
+		add_node UNIT; UNIT.concept = lex1.quantitytype; 	% add a new node [x]-quantity 
+		add_edge UNIT -[quant]-> Num; 
+		add_edge UNIT -[unit]-> Nominal1;
+		del_edge nmod_rel;
+		del_edge nummod_rel;
 
-%% A nummod follows a nominal that follows a verb with obj  | e.g. "Ten group of shareholders went to the meeting."
-%rule verb_nominal_nummod_obj(lex1 from "lexicons/subcat/verb_nominal_nummod.lp", lex2 from "lexicons/subcat/verb_nsubj_obj.lp"){
-%	pattern {
-%		V[upos=VERB, lemma=lex2.lemma];
-%		Nominal1[upos=NOUN, lemma=lex1.lemma]; 				% lexicon of quantity measure words
-%		Nominal2[upos=NOUN|PROPN];							% PROPN too, e.g. "ten Girl Guides"
-%		verb_nom_rel: V -[obj]-> Nominal1; 					% filter to only those with nsubj relations
-%		nmod_rel: Nominal1 -[nmod]-> Nominal2;
-%		nummod_rel: Nominal1 -[nummod]-> Num;
-%	}
-%	commands {
-%		add_node UNIT; UNIT.concept = lex1.quantitytype; 	% add a new node [x]-quantity 
-%		add_edge UNIT -[quant]-> Num; 
-%		add_edge UNIT -[unit]-> Nominal1;
-%		del_edge nmod_rel;
-%		del_edge nummod_rel;
-%
-%		add_edge V -[lex2.doer]-> Nominal2; 				
-%		del_edge verb_nom_rel;
-%	}
-%}
+		add_edge V -[lex2.patient]-> Nominal2; 				% AMR takes the quantified element as the concept; see entry on milk in https://github.com/amrisi/amr-guidelines/blob/master/amr.md#quantities (same as AMR1.2)
+		del_edge verb_nom_rel;
+	}
+}
+
+% A nummod follows a nominal that follows a verb with obj  | e.g. "Ten group of shareholders went to the meeting."
+rule verb_nominal_nummod_obj(lex1 from "lexicons/subcat/verb_nominal_nummod.lp", lex2 from "lexicons/subcat/verb_nsubj_obj.lp"){
+	pattern {
+		V[upos=VERB, lemma=lex2.lemma];
+		Nominal1[upos=NOUN, lemma=lex1.lemma]; 				% lexicon of quantity measure words
+		Nominal2[upos=NOUN|PROPN];							% PROPN too, e.g. "ten Girl Guides"
+		verb_nom_rel: V -[obj]-> Nominal1; 					% filter to only those with nsubj relations
+		nmod_rel: Nominal1 -[nmod]-> Nominal2;
+		nummod_rel: Nominal1 -[nummod]-> Num;
+	}
+	commands {
+		add_node UNIT; UNIT.concept = lex1.quantitytype; 	% add a new node [x]-quantity 
+		add_edge UNIT -[quant]-> Num; 
+		add_edge UNIT -[unit]-> Nominal1;
+		del_edge nmod_rel;
+		del_edge nummod_rel;
+
+		add_edge V -[lex2.doer]-> Nominal2; 				
+		del_edge verb_nom_rel;
+	}
+}
