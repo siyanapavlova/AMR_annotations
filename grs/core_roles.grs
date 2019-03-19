@@ -16,7 +16,18 @@ rule pred_nsubj_obj(lex from "lexicons/subcat/verb_nsubj_obj.lp"){
 	}
 }
 
-% Noun which has an amod
+% Noun which has an amod and has not been changed by noun_amod_arg_of
+rule noun_amod{
+	pattern{
+		N[cat=NOUN];
+		amod_rel: N -[amod]-> A;
+	}
+	commands{
+
+	}
+}
+
+% Noun which has an amod and has not been changed by noun_amod_arg_of
 rule noun_amod{
 	pattern{
 		N[cat=NOUN];
@@ -24,7 +35,7 @@ rule noun_amod{
 	}
 	commands{
 		del_edge amod_rel;
-		add_edge N -[ARG0-of]-> A;
+		add_edge N -[:mod]-> A;
 		N.concept = N.form;
 		A.concept = A.form
 	}
@@ -108,6 +119,36 @@ rule remove_det{
 	}
 }
 
+%If DET's lemma is "all", make it a :mod
+rule det_as_all{
+	pattern{
+		D[cat=DET, lemma="all"];
+		det_rel: X -[det]-> D;
+	}
+	commands{
+		del_edge det_rel;
+		add_edge X -[:mod]-> D;
+	}
+}
+
+% If DET is a personal pronoun, transform that to :poss
+% Possesive determiners are given the tag DEP, butthe relation nmod. However, we need
+% to account for the cases where they are given the relation dep too because
+% this may happen often across the data.
+rule det_as_pers_pron{
+	pattern{
+		D[cat=DET, upos=PRON];
+		det_rel: X -[det]-> D;
+	}
+	without{
+		D[lemma="which"];
+	}
+	commands{
+		del_edge det_rel;
+		add_edge X -[:poss]-> D;
+	}
+}
+
 rule remove_punct{
 	pattern{
 		P[cat=PUNCT];
@@ -125,3 +166,16 @@ rule remove_punct{
 %		del_edge root_rel;
 %	}
 %}
+
+
+% Transform an nmod or an nmod:poss relation to a poss relation
+rule nmod{
+	pattern{
+		nmod_rel: GOV -[nmod|nmod:poss]-> DEP;
+	}
+	commands{
+		del_edge nmod_rel;
+		add_edge GOV -[:poss]-> DEP;
+	}
+
+}
