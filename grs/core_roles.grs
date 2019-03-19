@@ -44,7 +44,7 @@ rule ccomp_verbadv_notcop(lex from "lexicons/subcat/verb_nsubj_obj.lp"){
 	}
 }
 
-%% A clausal complement involving a copula construction. !to figure out how to assign have-degree-91 ARG0 to ARG6
+%% K-to-complete | A clausal complement involving a copula construction. !to figure out how to assign have-degree-91 ARG0 to ARG6
 %rule ccomp_copula(lex from "lexicons/subcat/verb_nsubj_obj.lp"){
 %	pattern{
 %		pattern { GOV[lemma="be"];
@@ -56,6 +56,44 @@ rule ccomp_verbadv_notcop(lex from "lexicons/subcat/verb_nsubj_obj.lp"){
 %		add_edge GOV-[]->DEP;
 %		del_edge ccomp_rel;
 %
+%	}
+%}
+
+% An iobj relation whose dependent is a nominal and whose governor is in the predicate lexicon. 
+rule iobj_nom_lex(lex from "lexicons/subcat/verb_nsubj_obj.lp"){
+    pattern{
+		GOV [lemma = lex.lemma]
+      	DEP [upos=NOUN|PROPN|PRON];
+      	iobj_rel: GOV -[iobj]-> DEP;
+	  }
+    commands{ 
+		add_edge GOV -[lex.patient]-> DEP;
+		del_edge iobj_rel; 
+	}
+}
+
+% An iobj relation whose dependent is a nominal and whose governor is in not the predicate lexicon. 
+rule iobj_nom_notlex{
+    pattern{
+      	DEP [upos=NOUN|PROPN|PRON];
+      	iobj_rel: GOV -[iobj]-> DEP;
+	  }
+    commands{ 
+		add_edge GOV -[:beneficiary]-> DEP;
+		del_edge iobj_rel; 
+	}
+}
+
+%% K-to-complete | An iobj relation whose dependent is a not nominal and whose governor is/is not in the predicate lexicon. 
+%% [This means that the dependent should be the head of another AMR subgraph...]
+%rule iobj_notnom_notlex{
+%    pattern{
+%      	DEP [upos=NOUN|PROPN|PRON];
+%      	iobj_rel: GOV -[iobj]-> DEP;
+%	  }
+%    commands{ 
+%		add_edge GOV -[:beneficiary]-> DEP;
+%		del_edge iobj_rel; 
 %	}
 %}
 
