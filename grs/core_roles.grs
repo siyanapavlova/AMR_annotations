@@ -16,6 +16,20 @@ rule pred_nsubj_obj(lex from "lexicons/subcat/verb_nsubj_obj.lp"){
 	}
 }
 
+% The predicate has an object
+rule pred_nsubj_obj(lex from "lexicons/subcat/verb_nsubj_obj.lp"){
+	pattern {
+		V[cat=VERB,lemma=lex.lemma];
+		obj_rel: V -[obj]-> OBJ;
+	}
+	commands {
+		del_edge obj_rel;
+		add_edge V -[lex.patient]-> OBJ;
+		V.concept = lex.concept;
+		OBJ.concept = OBJ.form;
+	}
+}
+
 % Noun which has an amod and has not been changed by noun_amod_arg_of
 rule noun_amod{
 	pattern{
@@ -168,7 +182,7 @@ rule remove_punct{
 %}
 
 
-% Transform an nmod or an nmod:poss relation to a poss relation
+% Transform nmod or nmod:poss relation to a poss relation
 rule nmod{
 	pattern{
 		nmod_rel: GOV -[nmod|nmod:poss]-> DEP;
@@ -178,4 +192,36 @@ rule nmod{
 		add_edge GOV -[:poss]-> DEP;
 	}
 
+}
+
+% If there are more than members in a conjunction, add an :op relation to the middle ones
+% This rule needs to be applied once for each middle element
+rule cc_to_op{
+	pattern{
+		LAST -[cc]-> AND;
+		FIRST -[conj]-> LAST;
+		conj_rel FIRST -[conj]-> MID;
+	}
+	commands{
+		del_edge conj_rel;
+		add_edge AND -[:op]-> MID;
+	}
+}
+
+% If there are a cc and a conj relations but no middle relations (only two members in a conjuction)
+% then transform both the first and last element in :op
+rule cc_to_op{
+	pattern{
+		cc_rel: LAST -[cc]-> AND;
+		conj_rel FIRST -[conj]-> LAST;
+	}
+	without{
+		FIRST -[conj]-> MID;
+	}
+	commands{
+		del_edge conj_rel;
+		add_edge AND -[:op]-> FIRST;
+		del_edge cc_rel;
+		add_edge AND -[:op]-> LAST
+	}
 }
