@@ -44,8 +44,9 @@ rule ccomp_verbadv_notcop(lex from "lexicons/subcat/verb_nsubj_obj.lp"){
 	}
 }
 
-%% K-to-complete | A clausal complement involving a copula construction. !to figure out how to assign have-degree-91 ARG0 to ARG6
-%rule ccomp_copula(lex from "lexicons/subcat/verb_nsubj_obj.lp"){
+
+%% K-to-complete | A clausal complement involving an equational copula construction. !to figure out how to assign have-degree-91 ARG0 to ARG6
+%rule ccomp_copula_equational(lex from "lexicons/subcat/verb_nsubj_obj.lp"){
 %	pattern{
 %		pattern { GOV[lemma="be"];
 %		GOV -[nsubj|obj|iobj]-> OTHERDEP;
@@ -54,6 +55,20 @@ rule ccomp_verbadv_notcop(lex from "lexicons/subcat/verb_nsubj_obj.lp"){
 %	commands{
 %		add_node X; X.concept = "have-degree-91";
 %		add_edge GOV-[]->DEP;
+%		del_edge ccomp_rel;
+%
+%	}
+%}
+
+%% K-to-double check | A clausal complement with a copula construction that is not equational. !to figure out how to assign have-degree-91 ARG0 to ARG6
+%rule ccomp_copula_nonequational(lex from "lexicons/subcat/verb_nsubj_obj.lp"){
+%	pattern{
+%		pattern { GOV[lemma="be"];
+%		DEP[lemma=lex.lemma];
+%		ccomp_rel GOV -[ccomp]-> DEP }
+%	}
+%	commands{
+%		add_edge DEP -[lex.doer]-> GOV;
 %		del_edge ccomp_rel;
 %
 %	}
