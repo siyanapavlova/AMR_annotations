@@ -22,18 +22,25 @@ strat simple {
     Iter (pred_nsubj_obj),  % identify a predicate and its arguments. 
     Iter (pred_obj),
     Iter (noun_amod),  % identify nouns with an amod. Add the :mod role. 
-    Iter (remove_det),  % delete determiners
-    Iter (remove_punct), % delete punctuation
-  	Iter (obl_nosubtag), % identify temporal or locational ARG2 roles
-  	Iter (obl_temporal), 
-  	Iter (obl_agent), 
-  	Iter (compound_find_join),
-  	Iter (compoundpart_find_join),
-  	Iter (advmod_lemmapred_polarity),
-  	Iter (verb_nominal_nummod_nsubj),
-  	Iter (verb_nominal_nummod_obj),
-  	Iter (verb_nominal_nummod_obj), % identify nummod relations following verbs as part of obj
+    Iter (ccomp_verbadv_notcop),  % delete determiners
+    Iter (iobj_nom_lex), % delete punctuation
+  	Iter (iobj_nom_notlex), % identify temporal or locational ARG2 roles
+  	Iter (remove_det), 
+  	Iter (det_as_all), 
+  	Iter (det_as_pers_pron),
+  	Iter (remove_punct),
+  	Iter (nmod),
+  	Iter (cc_to_op_morethan2),
+  	Iter (cc_to_op), % identify nummod relations following verbs as part of obj
+  	Iter (obl_temporal), % identify nummod relations following verbs as part of obj	
+	Iter (obl_agent), % identify nummod relations following verbs as part of obj
+  	Iter (obl_nosubtag), % identify nummod relations following verbs as part of obj
+  	Iter (compound_find_join), % identify nummod relations following verbs as part of obj
+  	Iter (compoundpart_find_join), % identify nummod relations following verbs as part of obj
+  	Iter (advmod_lemmapred_polarity), % identify nummod relations following verbs as part of obj
   	Iter (verb_nominal_nummod_nsubj), % identify nummod relations following verbs as part of obj
+  	Iter (verb_nominal_nummod_obj), % identify nummod relations following verbs as part of obj
+ 
     %Iter (remove_root_rel), %delete root relation
 
 
