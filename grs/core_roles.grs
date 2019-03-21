@@ -1,7 +1,7 @@
 % The predicate has a subject and an object
 rule pred_nsubj_obj(lex from "lexicons/subcat/verb_nsubj_obj.lp"){
 	pattern {
-		V[cat=VERB,lemma=lex.lemma];
+		V[cat=VERB, lemma=lex.lemma];
 		nsubj_rel: V -[nsubj]-> NSUBJ;
 		obj_rel: V -[obj]-> OBJ;
 	}
@@ -17,9 +17,9 @@ rule pred_nsubj_obj(lex from "lexicons/subcat/verb_nsubj_obj.lp"){
 }
 
 % The predicate has an object
-rule pred_nsubj_obj(lex from "lexicons/subcat/verb_nsubj_obj.lp"){
+rule pred_obj(lex from "lexicons/subcat/verb_nsubj_obj.lp"){
 	pattern {
-		V[cat=VERB,lemma=lex.lemma];
+		V[cat=VERB, lemma=lex.lemma];
 		obj_rel: V -[obj]-> OBJ;
 	}
 	commands {
@@ -30,16 +30,16 @@ rule pred_nsubj_obj(lex from "lexicons/subcat/verb_nsubj_obj.lp"){
 	}
 }
 
-% Noun which has an amod and has not been changed by noun_amod_arg_of
-rule noun_amod{
-	pattern{
-		N[cat=NOUN];
-		amod_rel: N -[amod]-> A;
-	}
-	commands{
-
-	}
-}
+%% Noun which has an amod and has not been changed by noun_amod_arg_of
+%rule noun_amod2{
+%	pattern{
+%		N[cat=NOUN];
+%		amod_rel: N -[amod]-> A;
+%	}
+%	commands{
+%
+%	}
+%}
 
 % Noun which has an amod and has not been changed by noun_amod_arg_of
 rule noun_amod{
@@ -51,7 +51,7 @@ rule noun_amod{
 		del_edge amod_rel;
 		add_edge N -[:mod]-> A;
 		N.concept = N.form;
-		A.concept = A.form
+		A.concept = A.form;
 	}
 }
 
@@ -62,7 +62,9 @@ rule ccomp_verbadv_notcop(lex from "lexicons/subcat/verb_nsubj_obj.lp"){
 		GOV[lemma=lex.lemma, upos=VERB|ADV];
 		ccomp_rel: GOV -[ccomp]-> DEP;
 	}
-	without{GOV[lemma="be"]} %exclude all copula constructions
+	without{
+		GOV[lemma="be"];
+		} %exclude all copula constructions
 	commands{
 		add_edge GOV -[lex.patient]-> DEP;
 		del_edge ccomp_rel;
@@ -74,7 +76,7 @@ rule ccomp_verbadv_notcop(lex from "lexicons/subcat/verb_nsubj_obj.lp"){
 %rule ccomp_copula_equational(lex from "lexicons/subcat/verb_nsubj_obj.lp"){
 %	pattern{
 %		pattern { GOV[lemma="be"];
-%		GOV -[nsubj|obj|iobj]-> OTHERDEP;
+%		ccomp_rel: GOV -[nsubj|obj|iobj]-> OTHERDEP;
 %		GOV -[ccomp]-> DEP }
 %	}
 %	commands{
@@ -90,7 +92,7 @@ rule ccomp_verbadv_notcop(lex from "lexicons/subcat/verb_nsubj_obj.lp"){
 %	pattern{
 %		pattern { GOV[lemma="be"];
 %		DEP[lemma=lex.lemma];
-%		ccomp_rel GOV -[ccomp]-> DEP }
+%		ccomp_rel: GOV -[ccomp]-> DEP }
 %	}
 %	commands{
 %		add_edge DEP -[lex.doer]-> GOV;
@@ -102,7 +104,7 @@ rule ccomp_verbadv_notcop(lex from "lexicons/subcat/verb_nsubj_obj.lp"){
 % An iobj relation whose dependent is a nominal and whose governor is in the predicate lexicon. 
 rule iobj_nom_lex(lex from "lexicons/subcat/verb_nsubj_obj.lp"){
     pattern{
-		GOV [lemma = lex.lemma]
+		GOV [lemma = lex.lemma];
       	DEP [upos=NOUN|PROPN|PRON];
       	iobj_rel: GOV -[iobj]-> DEP;
 	  }
@@ -206,16 +208,15 @@ rule nmod{
 		del_edge nmod_rel;
 		add_edge GOV -[:poss]-> DEP;
 	}
-
 }
 
 % If there are more than members in a conjunction, add an :op relation to the middle ones
 % This rule needs to be applied once for each middle element
-rule cc_to_op{
+rule cc_to_op_morethan2{
 	pattern{
 		LAST -[cc]-> AND;
 		FIRST -[conj]-> LAST;
-		conj_rel FIRST -[conj]-> MID;
+		conj_rel: FIRST -[conj]-> MID;
 	}
 	commands{
 		del_edge conj_rel;
