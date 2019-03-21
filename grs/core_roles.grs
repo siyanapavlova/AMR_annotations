@@ -49,12 +49,11 @@ rule noun_amod{
 	}
 	commands{
 		del_edge amod_rel;
-		add_edge N -[:mod]-> A;
+		add_edge N -[mod]-> A;
 		N.concept = N.form;
 		A.concept = A.form;
 	}
 }
-
 
 % A clausal complement of a verb/adverb (i.e. predicate) that is not a copula construction. 
 rule ccomp_verbadv_notcop(lex from "lexicons/subcat/verb_nsubj_obj.lp"){
@@ -71,13 +70,10 @@ rule ccomp_verbadv_notcop(lex from "lexicons/subcat/verb_nsubj_obj.lp"){
 	}
 }
 
-
 %% K-to-complete | A clausal complement involving an equational copula construction. !to figure out how to assign have-degree-91 ARG0 to ARG6
 %rule ccomp_copula_equational(lex from "lexicons/subcat/verb_nsubj_obj.lp"){
 %	pattern{
-%		pattern { GOV[lemma="be"];
-%		ccomp_rel: GOV -[nsubj|obj|iobj]-> OTHERDEP;
-%		GOV -[ccomp]-> DEP }
+%		
 %	}
 %	commands{
 %		add_node X; X.concept = "have-degree-91";
@@ -90,9 +86,7 @@ rule ccomp_verbadv_notcop(lex from "lexicons/subcat/verb_nsubj_obj.lp"){
 %% K-to-double check | A clausal complement with a copula construction that is not equational. !to figure out how to assign have-degree-91 ARG0 to ARG6
 %rule ccomp_copula_nonequational(lex from "lexicons/subcat/verb_nsubj_obj.lp"){
 %	pattern{
-%		pattern { GOV[lemma="be"];
-%		DEP[lemma=lex.lemma];
-%		ccomp_rel: GOV -[ccomp]-> DEP }
+%		
 %	}
 %	commands{
 %		add_edge DEP -[lex.doer]-> GOV;
@@ -121,7 +115,7 @@ rule iobj_nom_notlex{
       	iobj_rel: GOV -[iobj]-> DEP;
 	  }
     commands{ 
-		add_edge GOV -[:beneficiary]-> DEP;
+		add_edge GOV -[beneficiary]-> DEP;
 		del_edge iobj_rel; 
 	}
 }
@@ -134,7 +128,7 @@ rule iobj_nom_notlex{
 %      	iobj_rel: GOV -[iobj]-> DEP;
 %	  }
 %    commands{ 
-%		add_edge GOV -[:beneficiary]-> DEP;
+%		add_edge GOV -[beneficiary]-> DEP;
 %		del_edge iobj_rel; 
 %	}
 %}
@@ -158,7 +152,7 @@ rule det_as_all{
 	}
 	commands{
 		del_edge det_rel;
-		add_edge X -[:mod]-> D;
+		add_edge X -[mod]-> D;
 	}
 }
 
@@ -176,7 +170,7 @@ rule det_as_pers_pron{
 	}
 	commands{
 		del_edge det_rel;
-		add_edge X -[:poss]-> D;
+		add_edge X -[poss]-> D;
 	}
 }
 
@@ -198,7 +192,6 @@ rule remove_punct{
 %	}
 %}
 
-
 % Transform nmod or nmod:poss relation to a poss relation
 rule nmod{
 	pattern{
@@ -206,7 +199,7 @@ rule nmod{
 	}
 	commands{
 		del_edge nmod_rel;
-		add_edge GOV -[:poss]-> DEP;
+		add_edge GOV -[poss]-> DEP;
 	}
 }
 
@@ -220,7 +213,7 @@ rule cc_to_op_morethan2{
 	}
 	commands{
 		del_edge conj_rel;
-		add_edge AND -[:op]-> MID;
+		add_edge AND -[op]-> MID;
 	}
 }
 
@@ -229,15 +222,15 @@ rule cc_to_op_morethan2{
 rule cc_to_op{
 	pattern{
 		cc_rel: LAST -[cc]-> AND;
-		conj_rel FIRST -[conj]-> LAST;
+		conj_rel: FIRST -[conj]-> LAST;
 	}
 	without{
 		FIRST -[conj]-> MID;
 	}
 	commands{
 		del_edge conj_rel;
-		add_edge AND -[:op]-> FIRST;
+		add_edge AND -[op]-> FIRST;
 		del_edge cc_rel;
-		add_edge AND -[:op]-> LAST
+		add_edge AND -[op]-> LAST;
 	}
 }
