@@ -19,6 +19,7 @@ strat simpler {
 
 strat simple {
   Seq (
+    Iter (add_concept), %add a concept to each node
     Iter (pred_nsubj_obj),  % identify a predicate and its arguments. 
     Iter (pred_obj),
     Iter (noun_amod),  % identify nouns with an amod. Add the :mod role. 
