@@ -19,6 +19,7 @@ strat simpler {
 
 strat simple {
   Seq (
+    Iter (remove_root_rel), %delete root relation
     Iter (add_concept), %add a concept to each node
     Iter (pred_nsubj_obj),  % identify a predicate and its arguments. 
     Iter (pred_obj),
@@ -43,6 +44,7 @@ strat simple {
   	Iter (verb_nominal_nummod_obj), % identify nummod relations following verbs as part of obj
  
     %Iter (remove_root_rel), %delete root relation
+    %Iter (add_concept)
 
 
     )

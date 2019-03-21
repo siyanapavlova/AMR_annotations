@@ -1,0 +1,6 @@
+1	And	and	CCONJ	CC	concept=dummyConcept|	-	-	-	-
+2	then	then	ADV	RB	concept=dummyConcept|PronType=Dem|	-	-	-	-
+3	you	you	PRON	PRP	concept=dummyConcept|Person=2|PronType=Prs|Case=Nom|	-	-	-	-
+4	laughed	laugh	VERB	VBD	concept=dummyConcept|VerbForm=Fin|Mood=Ind|Tense=Past|	-	-	-	-
+5	to	to	ADP	IN	concept=dummyConcept|	-	-	-	-
+6	yourself	yourself	PRON	PRP	concept=dummyConcept|Person=2|PronType=Prs|Case=Acc|Reflex=Yes|Number=Sing|	-	-	-	-

@@ -183,14 +183,15 @@ rule remove_punct{
 	}
 }
 
-%rule remove_root_rel{
-%	pattern{
-%		root_rel: X -[root]-> Y;
-%	}
-%	commands{
-%		del_edge root_rel;
-%	}
-%}
+rule remove_root_rel{
+	pattern{
+		root_rel: X -[root]-> Y;
+	}
+	commands{
+		del_edge root_rel;
+		del_node X;
+	}
+}
 
 % Transform nmod or nmod:poss relation to a poss relation
 rule nmod{
@@ -232,5 +233,16 @@ rule cc_to_op{
 		add_edge AND -[op]-> FIRST;
 		del_edge cc_rel;
 		add_edge AND -[op]-> LAST;
+	}
+}
+
+%Add a concept to each word
+rule add_concept{
+	pattern{
+		N [];
+	}
+	commands{
+		%N.concept = "dummyConcept";
+		N.concept = N.form;
 	}
 }

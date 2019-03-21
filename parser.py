@@ -1,6 +1,7 @@
 from ufal.udpipe import Model, OutputFormat, Sentence, ProcessingError
 import re
 import os
+import pprint
 
 def load_data(file):
 	"""Loads a sentence and its ID from a text file.
@@ -34,6 +35,7 @@ def parse(text, sentence_id):
 	model = Model.load('./models/udpipe/english-ewt-ud-2.3-181115.udpipe')
 
 	tokenizer = model.newTokenizer(model.DEFAULT)
+	# tokenizer = model.TOKENIZER_PRESEGMENTED(model.DEFAULT)
 
 	conlluOutput = OutputFormat.newOutputFormat("conllu")
 
@@ -101,4 +103,7 @@ def parse_files_in_folder(read_folder, write_folder):
 
 if __name__== "__main__":
 	#Parse the sentences from the amr bank (The Little Prince)
-	parse_files_in_folder('./data/amr_bank_data/sentences/', './data/amr_bank_data/ud/')
+	# parse_files_in_folder('./data/amr_bank_data/sentences/', './data/amr_bank_data/ud/')
+
+	sentence_id, sentence = load_data('./data/amr_bank_data/sentences/sentence0130.txt')
+	parse(sentence, sentence_id)

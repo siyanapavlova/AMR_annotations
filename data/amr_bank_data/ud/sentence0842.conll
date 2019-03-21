@@ -1,6 +1,16 @@
 # newdoc
 # newpar
 # sent_id = lpp_1943.842
-# text = "
-1	"	"	PUNCT	``	_	0	root	_	_
+# text = " Your planet is very beautiful , " he said .
+1	"	"	PUNCT	``	_	10	punct	_	_
+2	Your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	3	nmod:poss	_	_
+3	planet	planet	NOUN	NN	Number=Sing	6	nsubj	_	_
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	very	very	ADV	RB	_	6	advmod	_	_
+6	beautiful	beautiful	ADJ	JJ	Degree=Pos	10	ccomp	_	_
+7	,	,	PUNCT	,	_	10	punct	_	_
+8	"	"	PUNCT	''	_	10	punct	_	_
+9	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
+10	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+11	.	.	PUNCT	.	_	10	punct	_	SpacesAfter=\s\n
 
