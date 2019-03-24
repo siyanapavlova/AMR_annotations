@@ -31,8 +31,7 @@ if __name__=="__main__":
 
 	seed(1)
 	# sentence_nums = sample(range(1,1562,1),20)
-	sentence_nums = [276]
-	sentence_nums = [4,5,6]
+	sentence_nums = [5]
 	print(sentence_nums)
 	for num in sentence_nums:
 		run_pipeline('./data/amr_bank_data/ud/sentence'+"{:04d}".format(num)+'.conll', './data/evaluation/sentence'+"{:04d}".format(num)+'.conll')

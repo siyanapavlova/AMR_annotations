@@ -10,7 +10,7 @@ rule obl_temporal{
 	}
 }
 
-% The obl relationship has a agent subtag
+% The obl relationship has an agent subtag
 rule obl_agent(lex from "lexicons/subcat/verb_nsubj_obj.lp"){
 	pattern {
 		V[upos=VERB, lemma=lex.lemma];
@@ -19,18 +19,6 @@ rule obl_agent(lex from "lexicons/subcat/verb_nsubj_obj.lp"){
 	commands {
 		del_edge obl_rel;
 		add_edge V -[lex.doer]-> Nominal;
-	}
-}
-
-% The obl relationship does not have a subtag
-rule obl_nosubtag{
-	pattern {
-		V[upos=VERB];
-		obl_rel: V -[obl]-> Nominal;
-	}
-	commands {
-		del_edge obl_rel;
-		add_edge V -[ARG2]-> Nominal;
 	}
 }
 
@@ -117,3 +105,68 @@ rule verb_nominal_nummod_obj(lex1 from "lexicons/subcat/verb_nominal_nummod.lp",
 		del_edge verb_nom_rel;
 	}
 }
+
+% K-to-investigate: whether EUD case tagging (either adding the preposition/case to the parent nmod, obl, acl and advcl relation helps)
+% The obl relationship does not have a subtag, it captures a temporal modification. The dependent of the obl relation has an outgoing 
+% case dependency relation towards a temporal preposition word.  
+%rule obl_nosubtag_temporal{
+%	pattern {
+%		obl_rel: GOV -[obl]-> Nominal;
+%		Nominal -[case]-> Preposition;
+%		Preposition[lemma=lex.temporal];
+%	}
+%	commands {
+%		del_edge obl_rel;
+%		add_edge GOV -[time]-> Nominal;
+%	}
+%}
+
+%#BEGIN lex
+%temporal	
+%%--------------
+% list of time prepositions in The Preposition Project, based on set of senses in Quirk et al 1985, and drawn from 
+% sentences in FrameNet http://www.clres.com/db/classes/ClassTemporal.php
+%about
+%across
+%before
+%to
+%#END
+
+
+% K-to-investigate: whether EUD case tagging (either adding the preposition/case to the parent nmod, obl, acl and advcl relation helps)
+%% The obl relationship does not have a subtag, it captures a locational modification. The dependent of the obl relation has an outgoing 
+%% case dependency relation towards a locational preposition word.  
+%rule obl_nosubtag_locational{
+%	pattern {
+%		obl_rel: GOV -[obl]-> Nominal;
+%		Nominal -[case]-> Preposition;
+%		Preposition[lemma=lex.locational];
+%	}
+%	commands {
+%		del_edge obl_rel;
+%		add_edge GOV-[location]-> Nominal;
+%	}
+%}
+%#BEGIN lex
+%locational	
+%%--------------
+% list of spatial prepositions in The Preposition Project, based on set of senses in Quirk et al 1985, and drawn from 
+% sentences in FrameNet http://www.clres.com/db/classes/ClassSpatial.php
+%across
+%before
+%to
+%#END
+
+%% K-to-investigate: distinguishing features of adjuncts vs obliques in English sentences 
+%% The obl relationship does not have a subtag, it captures an oblique i.e. an argument of a predicate that is encoded with a 
+%% preposition (i.e. dative alternation). See http://aclweb.org/anthology/W17-6532 
+%rule obl_nosubtag_obliquearg{
+%	pattern {
+%		V[upos=VERB];
+%		obl_rel: GOV -[obl]-> Nominal;
+%	}
+%	commands {
+%		del_edge obl_rel;
+%		add_edge GOV -[mod]-> Nominal;
+%	}
+%}

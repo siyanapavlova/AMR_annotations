@@ -241,8 +241,11 @@ rule add_concept{
 	pattern{
 		N [];
 	}
+	without{
+		N.concept=re".+";
+	}
 	commands{
 		%N.concept = "dummyConcept";
-		N.concept = N.form;
+		N.concept = N.lemma;
 	}
 }
