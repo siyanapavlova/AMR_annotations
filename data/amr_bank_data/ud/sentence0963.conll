@@ -1,6 +1,13 @@
 # newdoc
 # newpar
 # sent_id = lpp_1943.963
-# text = "
-1	"	"	PUNCT	``	_	0	root	_	_
+# text = " What has brought you here ? "
+1	"	"	PUNCT	``	_	4	punct	_	_
+2	What	what	PRON	WP	PronType=Int	4	nsubj	_	_
+3	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	brought	bring	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+5	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	4	obj	_	_
+6	here	here	ADV	RB	PronType=Dem	4	advmod	_	_
+7	?	?	PUNCT	.	_	4	punct	_	_
+8	"	"	PUNCT	''	_	4	punct	_	SpacesAfter=\s\n
 

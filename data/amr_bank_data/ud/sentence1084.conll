@@ -1,6 +1,17 @@
 # newdoc
 # newpar
 # sent_id = lpp_1943.1084
-# text = "
-1	"	"	PUNCT	``	_	0	root	_	_
+# text = " On the Earth one sees all sorts of things . "
+1	"	"	PUNCT	``	_	6	punct	_	_
+2	On	on	ADP	IN	_	4	case	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	Earth	earth	PROPN	NNP	Number=Sing	6	obl	_	_
+5	one	one	NUM	CD	NumType=Card	6	nsubj	_	_
+6	sees	see	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	all	all	DET	DT	_	8	det	_	_
+8	sorts	sort	NOUN	NNS	Number=Plur	6	obj	_	_
+9	of	of	ADP	IN	_	10	case	_	_
+10	things	thing	NOUN	NNS	Number=Plur	8	nmod	_	_
+11	.	.	PUNCT	.	_	6	punct	_	_
+12	"	"	PUNCT	''	_	6	punct	_	SpacesAfter=\s\n
 

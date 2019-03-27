@@ -1,6 +1,24 @@
 # newdoc
 # newpar
 # sent_id = lpp_1943.893
-# text = "
-1	"	"	PUNCT	``	_	0	root	_	_
+# text = " We do not record them , " said the geographer , " because they are ephemeral . "
+1	"	"	PUNCT	``	_	9	punct	_	_
+2	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	_
+3	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	not	not	PART	RB	_	5	advmod	_	_
+5	record	record	VERB	VB	VerbForm=Inf	9	ccomp	_	_
+6	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	5	obj	_	_
+7	,	,	PUNCT	,	_	9	punct	_	_
+8	"	"	PUNCT	''	_	9	punct	_	_
+9	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	geographer	geographer	NOUN	NN	Number=Sing	9	nsubj	_	_
+12	,	,	PUNCT	,	_	9	punct	_	_
+13	"	"	PUNCT	''	_	9	punct	_	_
+14	because	because	SCONJ	IN	_	17	mark	_	_
+15	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	17	nsubj	_	_
+16	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	17	cop	_	_
+17	ephemeral	ephemeral	ADJ	JJ	Degree=Pos	9	advcl	_	_
+18	.	.	PUNCT	.	_	9	punct	_	_
+19	"	"	PUNCT	''	_	9	punct	_	SpacesAfter=\s\n
 

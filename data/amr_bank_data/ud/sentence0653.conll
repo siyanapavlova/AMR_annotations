@@ -1,6 +1,12 @@
 # newdoc
 # newpar
 # sent_id = lpp_1943.653
-# text = "
-1	"	"	PUNCT	``	_	0	root	_	_
+# text = " Three and two make five .
+1	"	"	PUNCT	``	_	2	punct	_	_
+2	Three	three	NUM	CD	NumType=Card	0	root	_	_
+3	and	and	CCONJ	CC	_	5	cc	_	_
+4	two	two	NUM	CD	NumType=Card	5	nsubj	_	_
+5	make	make	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	conj	_	_
+6	five	five	NUM	CD	NumType=Card	5	obj	_	_
+7	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\s\n
 

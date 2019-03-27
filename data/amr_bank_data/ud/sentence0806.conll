@@ -1,6 +1,29 @@
 # newdoc
 # newpar
 # sent_id = lpp_1943.806
-# text = "
-1	"	"	PUNCT	``	_	0	root	_	_
+# text = " You know , " he said , " I can tell you a way you can rest whenever you want to ... "
+1	"	"	PUNCT	``	_	7	punct	_	_
+2	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	_
+3	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	7	ccomp	_	_
+4	,	,	PUNCT	,	_	7	punct	_	_
+5	"	"	PUNCT	''	_	7	punct	_	_
+6	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+7	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+8	,	,	PUNCT	,	_	7	punct	_	_
+9	"	"	PUNCT	``	_	7	punct	_	_
+10	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	_
+11	can	can	AUX	MD	VerbForm=Fin	12	aux	_	_
+12	tell	tell	VERB	VB	VerbForm=Inf	7	ccomp	_	_
+13	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	12	iobj	_	_
+14	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	_	_
+15	way	way	NOUN	NN	Number=Sing	12	obj	_	_
+16	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	18	nsubj	_	_
+17	can	can	AUX	MD	VerbForm=Fin	18	aux	_	_
+18	rest	rest	VERB	VB	VerbForm=Inf	15	acl:relcl	_	_
+19	whenever	whenever	ADV	WRB	PronType=Int	21	advmod	_	_
+20	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	21	nsubj	_	_
+21	want	want	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	18	advcl	_	_
+22	to	to	PART	TO	_	21	xcomp	_	_
+23	...	...	PUNCT	.	_	7	punct	_	_
+24	"	"	PUNCT	''	_	7	punct	_	SpacesAfter=\s\n
 

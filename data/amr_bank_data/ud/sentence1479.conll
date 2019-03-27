@@ -1,6 +1,13 @@
 # newdoc
 # newpar
 # sent_id = lpp_1943.1479
-# text = "
-1	"	"	PUNCT	``	_	0	root	_	_
+# text = " I shall not leave you . "
+1	"	"	PUNCT	``	_	5	punct	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+3	shall	shall	AUX	MD	VerbForm=Fin	5	aux	_	_
+4	not	not	PART	RB	_	5	advmod	_	_
+5	leave	leave	VERB	VB	VerbForm=Inf	0	root	_	_
+6	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	5	obj	_	_
+7	.	.	PUNCT	.	_	5	punct	_	_
+8	"	"	PUNCT	''	_	5	punct	_	SpacesAfter=\s\n
 

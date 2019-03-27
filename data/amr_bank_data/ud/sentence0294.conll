@@ -1,6 +1,13 @@
 # newdoc
 # newpar
 # sent_id = lpp_1943.294
-# text = "
-1	"	"	PUNCT	``	_	0	root	_	_
+# text = " Even flowers that have thorns ? "
+1	"	"	PUNCT	``	_	3	punct	_	_
+2	Even	Eve	VERB	VBN	Tense=Past|VerbForm=Part	3	amod	_	_
+3	flowers	flower	NOUN	NNS	Number=Plur	0	root	_	_
+4	that	that	PRON	WDT	PronType=Rel	5	nsubj	_	_
+5	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+6	thorns	thorn	NOUN	NNS	Number=Plur	5	obj	_	_
+7	?	?	PUNCT	.	_	3	punct	_	_
+8	"	"	PUNCT	''	_	3	punct	_	SpacesAfter=\s\n
 

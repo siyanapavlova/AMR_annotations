@@ -1,7 +1,7 @@
 # newdoc
 # newpar
 # sent_id = lpp_1943.350
-# text = He can say to himself , ' Somewhere , my flower is there ... '
+# text = He can say to himself , ' Somewhere , my flower is there ... ' But if the sheep eats the flower , in one moment all his stars will be darkened ...
 1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
 2	can	can	AUX	MD	VerbForm=Fin	3	aux	_	_
 3	say	say	VERB	VB	VerbForm=Inf	0	root	_	_
@@ -17,4 +17,22 @@
 13	there	there	ADV	RB	PronType=Dem	12	advmod	_	_
 14	...	...	PUNCT	,	_	3	punct	_	_
 15	'	'	PUNCT	''	_	3	punct	_	_
+16	But	but	CCONJ	CC	_	32	cc	_	_
+17	if	if	SCONJ	IN	_	20	mark	_	_
+18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+19	sheep	sheep	NOUN	NNS	Number=Plur	20	nsubj	_	_
+20	eats	eat	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	advcl	_	_
+21	the	the	DET	DT	Definite=Def|PronType=Art	22	det	_	_
+22	flower	flower	NOUN	NN	Number=Sing	20	obj	_	_
+23	,	,	PUNCT	,	_	32	punct	_	_
+24	in	in	ADP	IN	_	26	case	_	_
+25	one	one	NUM	CD	NumType=Card	26	nummod	_	_
+26	moment	moment	NOUN	NN	Number=Sing	32	obl	_	_
+27	all	all	DET	DT	_	29	det:predet	_	_
+28	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	29	nmod:poss	_	_
+29	stars	star	NOUN	NNS	Number=Plur	32	nsubj:pass	_	_
+30	will	will	AUX	MD	VerbForm=Fin	32	aux	_	_
+31	be	be	AUX	VB	VerbForm=Inf	32	aux:pass	_	_
+32	darkened	darken	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	conj	_	_
+33	...	...	PUNCT	,	_	32	punct	_	SpacesAfter=\s\n
 

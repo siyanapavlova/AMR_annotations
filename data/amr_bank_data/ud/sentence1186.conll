@@ -1,6 +1,22 @@
 # newdoc
 # newpar
 # sent_id = lpp_1943.1186
-# text = "
-1	"	"	PUNCT	``	_	0	root	_	_
+# text = " I sort out travelers , in bundles of a thousand , " said the switchman .
+1	"	"	PUNCT	``	_	3	punct	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	sort	sort	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	14	ccomp	_	_
+4	out	out	ADP	RP	_	3	compound:prt	_	_
+5	travelers	traveler	NOUN	NNS	Number=Plur	3	obj	_	_
+6	,	,	PUNCT	,	_	3	punct	_	_
+7	in	in	ADP	IN	_	8	case	_	_
+8	bundles	bundle	NOUN	NNS	Number=Plur	3	obl	_	_
+9	of	of	ADP	IN	_	11	case	_	_
+10	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	_
+11	thousand	thousand	NUM	CD	NumType=Card	8	nmod	_	_
+12	,	,	PUNCT	,	_	14	punct	_	_
+13	"	"	PUNCT	''	_	14	punct	_	_
+14	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	switchman	switchman	NOUN	NN	Number=Sing	14	nsubj	_	_
+17	.	.	PUNCT	.	_	14	punct	_	SpacesAfter=\s\n
 

@@ -1,6 +1,18 @@
 # newdoc
 # newpar
 # sent_id = lpp_1943.1185
-# text = "
-1	"	"	PUNCT	``	_	0	root	_	_
+# text = " What do you do here ? " the little prince asked .
+1	"	"	PUNCT	``	_	5	punct	_	_
+2	What	what	PRON	WP	PronType=Int	5	obj	_	_
+3	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	nsubj	_	_
+5	do	do	VERB	VB	VerbForm=Inf	0	root	_	_
+6	here	here	ADV	RB	PronType=Dem	5	advmod	_	_
+7	?	?	PUNCT	.	_	5	punct	_	_
+8	"	"	PUNCT	''	_	5	punct	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+10	little	little	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	prince	prince	NOUN	NN	Number=Sing	5	obj	_	_
+12	asked	ask	VERB	VBN	Tense=Past|VerbForm=Part	11	acl	_	_
+13	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\s\n
 

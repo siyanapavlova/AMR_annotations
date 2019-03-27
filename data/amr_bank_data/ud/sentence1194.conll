@@ -1,6 +1,18 @@
 # newdoc
 # newpar
 # sent_id = lpp_1943.1194
-# text = "
-1	"	"	PUNCT	``	_	0	root	_	_
+# text = " These are not the same ones , " said the switchman .
+1	"	"	PUNCT	``	_	7	punct	_	_
+2	These	these	PRON	DT	Number=Plur|PronType=Dem	7	nsubj	_	_
+3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	7	cop	_	_
+4	not	not	PART	RB	_	7	advmod	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+6	same	same	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	ones	one	NOUN	NNS	Number=Plur	10	ccomp	_	_
+8	,	,	PUNCT	,	_	10	punct	_	_
+9	"	"	PUNCT	''	_	10	punct	_	_
+10	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	switchman	switchman	NOUN	NN	Number=Sing	10	nsubj	_	_
+13	.	.	PUNCT	.	_	10	punct	_	SpacesAfter=\s\n
 

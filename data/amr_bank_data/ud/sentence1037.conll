@@ -1,6 +1,47 @@
 # newdoc
 # newpar
 # sent_id = lpp_1943.1037
-# text = "
-1	"	"	PUNCT	``	_	0	root	_	_
+# text = " She would be very much annoyed , " he said to himself , " if she should see that ... she would cough most dreadfully , and she would pretend that she was dying , to avoid being laughed at .
+1	"	"	PUNCT	``	_	7	punct	_	_
+2	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+3	would	would	AUX	MD	VerbForm=Fin	7	aux	_	_
+4	be	be	AUX	VB	VerbForm=Inf	7	cop	_	_
+5	very	very	ADV	RB	_	6	advmod	_	_
+6	much	much	ADV	RB	_	7	advmod	_	_
+7	annoyed	annoyed	ADJ	JJ	Degree=Pos	11	ccomp	_	_
+8	,	,	PUNCT	,	_	11	punct	_	_
+9	"	"	PUNCT	''	_	11	punct	_	_
+10	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
+11	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+12	to	to	ADP	IN	_	13	case	_	_
+13	himself	himself	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	11	obl	_	_
+14	,	,	PUNCT	,	_	11	punct	_	_
+15	"	"	PUNCT	``	_	11	punct	_	_
+16	if	if	SCONJ	IN	_	19	mark	_	_
+17	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	_
+18	should	should	AUX	MD	VerbForm=Fin	19	aux	_	_
+19	see	see	VERB	VB	VerbForm=Inf	24	advcl	_	_
+20	that	that	ADV	RB	_	19	advmod	_	_
+21	...	...	PUNCT	,	_	24	punct	_	_
+22	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	24	nsubj	_	_
+23	would	would	AUX	MD	VerbForm=Fin	24	aux	_	_
+24	cough	cough	VERB	VB	VerbForm=Inf	11	ccomp	_	_
+25	most	most	ADV	RBS	_	26	advmod	_	_
+26	dreadfully	dreadfully	ADV	RB	_	24	advmod	_	_
+27	,	,	PUNCT	,	_	31	punct	_	_
+28	and	and	CCONJ	CC	_	31	cc	_	_
+29	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	31	nsubj	_	_
+30	would	would	AUX	MD	VerbForm=Fin	31	aux	_	_
+31	pretend	pretend	VERB	VB	VerbForm=Inf	11	conj	_	_
+32	that	that	SCONJ	IN	_	35	mark	_	_
+33	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	35	nsubj	_	_
+34	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	35	aux	_	_
+35	dying	die	VERB	VBG	Tense=Pres|VerbForm=Part	31	ccomp	_	_
+36	,	,	PUNCT	,	_	35	punct	_	_
+37	to	to	PART	TO	_	38	mark	_	_
+38	avoid	avoid	VERB	VB	VerbForm=Inf	35	advcl	_	_
+39	being	be	AUX	VBG	VerbForm=Ger	40	aux:pass	_	_
+40	laughed	laugh	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	38	xcomp	_	_
+41	at	at	ADP	IN	_	40	obl	_	_
+42	.	.	PUNCT	.	_	11	punct	_	SpacesAfter=\s\n
 

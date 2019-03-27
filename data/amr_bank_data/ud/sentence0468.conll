@@ -1,6 +1,12 @@
 # newdoc
 # newpar
 # sent_id = lpp_1943.468
-# text = "
-1	"	"	PUNCT	``	_	0	root	_	_
+# text = " But the animals - - "
+1	"	"	PUNCT	``	_	4	punct	_	_
+2	But	but	CCONJ	CC	_	4	cc	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	animals	animal	NOUN	NNS	Number=Plur	0	root	_	_
+5	-	-	PUNCT	,	_	4	punct	_	_
+6	-	-	PUNCT	NFP	_	4	punct	_	_
+7	"	"	PUNCT	''	_	4	punct	_	SpacesAfter=\s\n
 

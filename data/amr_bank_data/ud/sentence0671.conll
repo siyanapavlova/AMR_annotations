@@ -1,6 +1,39 @@
 # newdoc
 # newpar
 # sent_id = lpp_1943.671
-# text = "
-1	"	"	PUNCT	``	_	0	root	_	_
+# text = " Five - hundred - and - one million what ? " repeated the little prince , who never in his life had let go of a question once he had asked it .
+1	"	"	PUNCT	``	_	4	punct	_	_
+2	Five	five	NUM	CD	NumType=Card	4	nummod	_	_
+3	-	-	PUNCT	HYPH	_	4	punct	_	_
+4	hundred	hundr	VERB	VBN	Tense=Past|VerbForm=Part	13	csubj	_	_
+5	-	-	PUNCT	HYPH	_	4	punct	_	_
+6	and	and	CCONJ	CC	_	9	cc	_	_
+7	-	-	PUNCT	HYPH	_	9	punct	_	_
+8	one	one	NUM	CD	NumType=Card	9	compound	_	_
+9	million	million	NUM	CD	NumType=Card	4	conj	_	_
+10	what	what	PRON	WP	PronType=Int	4	obj	_	_
+11	?	?	PUNCT	.	_	4	punct	_	_
+12	"	"	PUNCT	''	_	4	punct	_	_
+13	repeated	repeate	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+15	little	little	ADJ	JJ	Degree=Pos	16	amod	_	_
+16	prince	prince	NOUN	NN	Number=Sing	13	obj	_	_
+17	,	,	PUNCT	,	_	13	punct	_	_
+18	who	who	PRON	WP	PronType=Rel	24	nsubj	_	_
+19	never	never	ADV	RB	_	22	advmod	_	_
+20	in	in	ADP	IN	_	22	case	_	_
+21	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	22	nmod:poss	_	_
+22	life	life	NOUN	NN	Number=Sing	24	obl	_	_
+23	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	24	aux	_	_
+24	let	let	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	13	parataxis	_	_
+25	go	go	NOUN	NN	Number=Sing	24	obj	_	_
+26	of	of	ADP	IN	_	28	case	_	_
+27	a	a	DET	DT	Definite=Ind|PronType=Art	28	det	_	_
+28	question	question	NOUN	NN	Number=Sing	25	nmod	_	_
+29	once	once	SCONJ	IN	_	32	mark	_	_
+30	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	32	nsubj	_	_
+31	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	32	aux	_	_
+32	asked	ask	VERB	VBN	Tense=Past|VerbForm=Part	24	advcl	_	_
+33	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	32	obj	_	_
+34	.	.	PUNCT	.	_	13	punct	_	SpacesAfter=\s\n
 

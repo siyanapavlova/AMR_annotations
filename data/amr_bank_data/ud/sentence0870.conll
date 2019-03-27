@@ -1,6 +1,13 @@
 # newdoc
 # newpar
 # sent_id = lpp_1943.870
-# text = "
-1	"	"	PUNCT	``	_	0	root	_	_
+# text = " One goes to see it ? "
+1	"	"	PUNCT	``	_	3	punct	_	_
+2	One	one	PRON	PRP	_	3	nsubj	_	_
+3	goes	go	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	to	to	PART	TO	_	5	mark	_	_
+5	see	see	VERB	VB	VerbForm=Inf	3	advcl	_	_
+6	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+7	?	?	PUNCT	.	_	3	punct	_	_
+8	"	"	PUNCT	''	_	3	punct	_	SpacesAfter=\s\n
 

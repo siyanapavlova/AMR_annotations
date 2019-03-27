@@ -1,6 +1,8 @@
 # newdoc
 # newpar
 # sent_id = lpp_1943.664
-# text = "
-1	"	"	PUNCT	``	_	0	root	_	_
+# text = " Eh ?
+1	"	"	PUNCT	``	_	2	punct	_	_
+2	Eh	Eh	INTJ	UH	_	0	root	_	_
+3	?	?	PUNCT	.	_	2	punct	_	SpacesAfter=\s\n
 

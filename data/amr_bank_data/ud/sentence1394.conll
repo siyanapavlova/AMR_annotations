@@ -1,6 +1,14 @@
 # newdoc
 # newpar
 # sent_id = lpp_1943.1394
-# text = "
-1	"	"	PUNCT	``	_	0	root	_	_
+# text = " How do you know about that ? "
+1	"	"	PUNCT	``	_	5	punct	_	_
+2	How	how	ADV	WRB	PronType=Int	5	advmod	_	_
+3	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	nsubj	_	_
+5	know	know	VERB	VB	VerbForm=Inf	0	root	_	_
+6	about	about	ADP	IN	_	7	case	_	_
+7	that	that	PRON	DT	Number=Sing|PronType=Dem	5	obl	_	_
+8	?	?	PUNCT	.	_	5	punct	_	_
+9	"	"	PUNCT	''	_	5	punct	_	SpacesAfter=\s\n
 

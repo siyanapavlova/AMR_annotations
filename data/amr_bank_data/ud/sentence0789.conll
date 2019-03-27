@@ -1,6 +1,11 @@
 # newdoc
 # newpar
 # sent_id = lpp_1943.789
-# text = "
-1	"	"	PUNCT	``	_	0	root	_	_
+# text = " That is the tragedy !
+1	"	"	PUNCT	``	_	5	punct	_	_
+2	That	that	PRON	DT	Number=Sing|PronType=Dem	5	nsubj	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	tragedy	tragedy	NOUN	NN	Number=Sing	0	root	_	_
+6	!	!	PUNCT	.	_	5	punct	_	SpacesAfter=\s\n
 

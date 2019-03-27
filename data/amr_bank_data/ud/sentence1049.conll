@@ -1,6 +1,18 @@
 # newdoc
 # newpar
 # sent_id = lpp_1943.1049
-# text = "
-1	"	"	PUNCT	``	_	0	root	_	_
+# text = " Come and play with me , " proposed the little prince .
+1	"	"	PUNCT	``	_	2	punct	_	_
+2	Come	come	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+3	and	and	CCONJ	CC	_	4	cc	_	_
+4	play	play	VERB	VB	Mood=Imp|VerbForm=Fin	2	conj	_	_
+5	with	with	ADP	IN	_	6	case	_	_
+6	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	4	obl	_	_
+7	,	,	PUNCT	,	_	9	punct	_	_
+8	"	"	PUNCT	''	_	9	punct	_	_
+9	proposed	propose	VERB	VBN	Tense=Past|VerbForm=Part	2	conj	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+11	little	little	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	prince	prince	NOUN	NN	Number=Sing	9	obj	_	_
+13	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\s\n
 

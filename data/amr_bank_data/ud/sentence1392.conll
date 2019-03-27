@@ -1,6 +1,25 @@
 # newdoc
 # newpar
 # sent_id = lpp_1943.1392
-# text = "
-1	"	"	PUNCT	``	_	0	root	_	_
+# text = " I am glad that you have found what was the matter with your engine , " he said .
+1	"	"	PUNCT	``	_	19	punct	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+3	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	glad	glad	ADJ	JJ	Degree=Pos	19	ccomp	_	_
+5	that	that	SCONJ	IN	_	8	mark	_	_
+6	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	8	nsubj	_	_
+7	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	found	find	VERB	VBN	Tense=Past|VerbForm=Part	4	ccomp	_	_
+9	what	what	PRON	WP	PronType=Int	12	nsubj	_	_
+10	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	cop	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	matter	matter	NOUN	NN	Number=Sing	8	ccomp	_	_
+13	with	with	ADP	IN	_	15	case	_	_
+14	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	15	nmod:poss	_	_
+15	engine	engine	NOUN	NN	Number=Sing	12	nmod	_	_
+16	,	,	PUNCT	,	_	19	punct	_	_
+17	"	"	PUNCT	''	_	19	punct	_	_
+18	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	_
+19	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+20	.	.	PUNCT	.	_	19	punct	_	SpacesAfter=\s\n
 

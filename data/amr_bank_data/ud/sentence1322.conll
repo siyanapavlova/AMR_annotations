@@ -1,6 +1,16 @@
 # newdoc
 # newpar
 # sent_id = lpp_1943.1322
-# text = "
-1	"	"	PUNCT	``	_	0	root	_	_
+# text = " You know - - a muzzle for my sheep ...
+1	"	"	PUNCT	``	_	3	punct	_	_
+2	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	_
+3	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	-	-	PUNCT	,	_	3	punct	_	_
+5	-	-	PUNCT	,	_	3	punct	_	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+7	muzzle	muzzle	NOUN	NN	Number=Sing	3	obj	_	_
+8	for	for	ADP	IN	_	10	case	_	_
+9	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
+10	sheep	sheep	NOUN	NN	Number=Sing	7	nmod	_	_
+11	...	...	PUNCT	.	_	3	punct	_	SpacesAfter=\s\n
 

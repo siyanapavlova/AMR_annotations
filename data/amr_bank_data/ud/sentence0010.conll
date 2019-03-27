@@ -1,10 +1,29 @@
 # newdoc
 # newpar
 # sent_id = lpp_1943.10
-# text = It looked like this :
+# text = It looked like this : I showed my masterpiece to the grown - ups , and asked them whether the drawing frightened them .
 1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	looked	look	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 3	like	like	ADP	IN	_	4	case	_	_
 4	this	this	PRON	DT	Number=Sing|PronType=Dem	2	obl	_	_
 5	:	:	PUNCT	:	_	2	punct	_	_
+6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+7	showed	show	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	parataxis	_	_
+8	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	9	nmod:poss	_	_
+9	masterpiece	masterpiece	NOUN	NN	Number=Sing	7	obj	_	_
+10	to	to	ADP	IN	_	14	case	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+12	grown	grow	VERB	VBN	Tense=Past|VerbForm=Part	14	amod	_	_
+13	-	-	PUNCT	HYPH	_	14	punct	_	_
+14	ups	up	NOUN	NNS	Number=Plur	7	obl	_	_
+15	,	,	PUNCT	,	_	17	punct	_	_
+16	and	and	CCONJ	CC	_	17	cc	_	_
+17	asked	ask	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+18	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	17	obj	_	_
+19	whether	whether	SCONJ	IN	_	22	mark	_	_
+20	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	_
+21	drawing	drawing	NOUN	NN	Number=Sing	22	nsubj	_	_
+22	frightened	frighten	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	17	ccomp	_	_
+23	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	22	obj	_	_
+24	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\s\n
 

@@ -1,6 +1,28 @@
 # newdoc
 # newpar
 # sent_id = lpp_1943.1332
-# text = "
-1	"	"	PUNCT	``	_	0	root	_	_
+# text = " I do n't know how to draw anything except boa constrictors from the outside and boa constrictors from the inside . "
+1	"	"	PUNCT	``	_	5	punct	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+3	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	n't	not	PART	RB	_	5	advmod	_	_
+5	know	know	VERB	VB	VerbForm=Inf	0	root	_	_
+6	how	how	ADV	WRB	PronType=Int	8	advmod	_	_
+7	to	to	PART	TO	_	8	mark	_	_
+8	draw	draw	VERB	VB	VerbForm=Inf	5	ccomp	_	_
+9	anything	anything	PRON	NN	Number=Sing	8	obj	_	_
+10	except	except	ADP	IN	_	12	case	_	_
+11	boa	boa	NOUN	NN	Number=Sing	12	compound	_	_
+12	constrictors	constrictor	NOUN	NNS	Number=Plur	9	nmod	_	_
+13	from	from	ADP	IN	_	18	case	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
+15	outside	outside	ADJ	JJ	Degree=Pos	18	amod	_	_
+16	and	and	CCONJ	CC	_	17	cc	_	_
+17	boa	boa	ADJ	JJ	Degree=Pos	15	conj	_	_
+18	constrictors	constrictor	NOUN	NNS	Number=Plur	8	obl	_	_
+19	from	from	ADP	IN	_	21	case	_	_
+20	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	_
+21	inside	inside	NOUN	NN	Number=Sing	8	obl	_	_
+22	.	.	PUNCT	.	_	5	punct	_	_
+23	"	"	PUNCT	''	_	5	punct	_	SpacesAfter=\s\n
 

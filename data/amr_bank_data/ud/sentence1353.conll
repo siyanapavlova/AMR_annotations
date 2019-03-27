@@ -1,6 +1,11 @@
 # newdoc
 # newpar
 # sent_id = lpp_1943.1353
-# text = "
-1	"	"	PUNCT	``	_	0	root	_	_
+# text = " Now you must work .
+1	"	"	PUNCT	``	_	5	punct	_	_
+2	Now	now	ADV	RB	_	5	advmod	_	_
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	nsubj	_	_
+4	must	must	AUX	MD	VerbForm=Fin	5	aux	_	_
+5	work	work	VERB	VB	VerbForm=Inf	0	root	_	_
+6	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\s\n
 

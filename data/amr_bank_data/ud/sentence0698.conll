@@ -1,7 +1,7 @@
 # newdoc
 # newpar
 # sent_id = lpp_1943.698
-# text = I am concerned with matters of consequence :
+# text = I am concerned with matters of consequence : I am accurate . "
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
 2	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	cop	_	_
 3	concerned	concerned	ADJ	JJ	Degree=Pos	0	root	_	_
@@ -10,4 +10,9 @@
 6	of	of	ADP	IN	_	7	case	_	_
 7	consequence	consequence	NOUN	NN	Number=Sing	5	nmod	_	_
 8	:	:	PUNCT	:	_	3	punct	_	_
+9	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
+10	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	cop	_	_
+11	accurate	accurate	ADJ	JJ	Degree=Pos	3	parataxis	_	_
+12	.	.	PUNCT	.	_	3	punct	_	_
+13	"	"	PUNCT	''	_	3	punct	_	SpacesAfter=\s\n
 

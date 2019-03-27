@@ -1,6 +1,11 @@
 # newdoc
 # newpar
 # sent_id = lpp_1943.1401
-# text = "
-1	"	"	PUNCT	``	_	0	root	_	_
+# text = " I have your sheep .
+1	"	"	PUNCT	``	_	3	punct	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+5	sheep	sheep	NOUN	NNS	Number=Plur	3	obj	_	_
+6	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\s\n
 

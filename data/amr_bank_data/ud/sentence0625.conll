@@ -1,6 +1,22 @@
 # newdoc
 # newpar
 # sent_id = lpp_1943.625
-# text = "
-1	"	"	PUNCT	``	_	0	root	_	_
+# text = " Do you really admire me very much ? " he demanded of the little prince .
+1	"	"	PUNCT	``	_	5	punct	_	_
+2	Do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	_
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	nsubj	_	_
+4	really	really	ADV	RB	_	5	advmod	_	_
+5	admire	admire	VERB	VB	VerbForm=Inf	12	ccomp	_	_
+6	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	5	obj	_	_
+7	very	very	ADV	RB	_	8	advmod	_	_
+8	much	much	ADV	RB	_	5	advmod	_	_
+9	?	?	PUNCT	.	_	5	punct	_	_
+10	"	"	PUNCT	''	_	5	punct	_	_
+11	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
+12	demanded	demand	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+13	of	of	ADP	IN	_	16	case	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+15	little	little	ADJ	JJ	Degree=Pos	16	amod	_	_
+16	prince	prince	NOUN	NN	Number=Sing	12	obl	_	_
+17	.	.	PUNCT	.	_	12	punct	_	SpacesAfter=\s\n
 

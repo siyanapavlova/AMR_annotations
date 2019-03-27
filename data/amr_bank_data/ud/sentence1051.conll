@@ -1,6 +1,18 @@
 # newdoc
 # newpar
 # sent_id = lpp_1943.1051
-# text = "
-1	"	"	PUNCT	``	_	0	root	_	_
+# text = " I can not play with you , " the fox said .
+1	"	"	PUNCT	``	_	12	punct	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+3	can	can	AUX	MD	VerbForm=Fin	5	aux	_	_
+4	not	not	PART	RB	_	5	advmod	_	_
+5	play	play	VERB	VB	VerbForm=Inf	12	ccomp	_	_
+6	with	with	ADP	IN	_	7	case	_	_
+7	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	5	obl	_	_
+8	,	,	PUNCT	,	_	12	punct	_	_
+9	"	"	PUNCT	``	_	12	punct	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	fox	fox	NOUN	NN	Number=Sing	12	nsubj	_	_
+12	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+13	.	.	PUNCT	.	_	12	punct	_	SpacesAfter=\s\n
 

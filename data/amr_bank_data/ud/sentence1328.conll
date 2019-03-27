@@ -1,6 +1,25 @@
 # newdoc
 # newpar
 # sent_id = lpp_1943.1328
-# text = "
-1	"	"	PUNCT	``	_	0	root	_	_
+# text = " Your fox - - his ears look a little like horns ; and they are too long . "
+1	"	"	PUNCT	``	_	3	punct	_	_
+2	Your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	3	nmod:poss	_	_
+3	fox	fox	NOUN	NN	Number=Sing	8	nsubj	_	_
+4	-	-	PUNCT	,	_	3	punct	_	_
+5	-	-	PUNCT	,	_	3	punct	_	_
+6	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+7	ears	ear	NOUN	NNS	Number=Plur	3	nsubj	_	_
+8	look	look	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+10	little	little	NOUN	NN	Number=Sing	8	obj	_	_
+11	like	like	ADP	IN	_	12	case	_	_
+12	horns	horn	NOUN	NNS	Number=Plur	10	nmod	_	_
+13	;	;	PUNCT	,	_	8	punct	_	_
+14	and	and	CCONJ	CC	_	18	cc	_	_
+15	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	18	nsubj	_	_
+16	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	18	cop	_	_
+17	too	too	ADV	RB	_	18	advmod	_	_
+18	long	long	ADJ	JJ	Degree=Pos	8	conj	_	_
+19	.	.	PUNCT	.	_	8	punct	_	_
+20	"	"	PUNCT	''	_	8	punct	_	SpacesAfter=\s\n
 

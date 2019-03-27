@@ -1,6 +1,11 @@
 # newdoc
 # newpar
 # sent_id = lpp_1943.1407
-# text = "
-1	"	"	PUNCT	``	_	0	root	_	_
+# text = " Dear little man , "
+1	"	"	PUNCT	``	_	4	punct	_	_
+2	Dear	dear	ADJ	JJ	Degree=Pos	4	amod	_	_
+3	little	little	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	man	man	NOUN	NN	Number=Sing	0	root	_	_
+5	,	,	PUNCT	,	_	4	punct	_	_
+6	"	"	PUNCT	''	_	4	punct	_	SpacesAfter=\s\n
 

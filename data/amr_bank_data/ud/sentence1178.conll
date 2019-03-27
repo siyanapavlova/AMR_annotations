@@ -1,6 +1,13 @@
 # newdoc
 # newpar
 # sent_id = lpp_1943.1178
-# text = "
-1	"	"	PUNCT	``	_	0	root	_	_
+# text = " But you must not forget it .
+1	"	"	PUNCT	``	_	6	punct	_	_
+2	But	but	CCONJ	CC	_	6	cc	_	_
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	6	nsubj	_	_
+4	must	must	AUX	MD	VerbForm=Fin	6	aux	_	_
+5	not	not	PART	RB	_	6	advmod	_	_
+6	forget	forget	VERB	VB	VerbForm=Inf	0	root	_	_
+7	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	obj	_	_
+8	.	.	PUNCT	.	_	6	punct	_	SpacesAfter=\s\n
 

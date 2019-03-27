@@ -1,6 +1,15 @@
 # newdoc
 # newpar
 # sent_id = lpp_1943.1517
-# text = "
-1	"	"	PUNCT	``	_	0	root	_	_
+# text = " There now - - that is all ... "
+1	"	"	PUNCT	``	_	2	punct	_	_
+2	There	there	PRON	EX	_	0	root	_	_
+3	now	now	ADV	RB	_	2	advmod	_	_
+4	-	-	PUNCT	,	_	3	punct	_	_
+5	-	-	PUNCT	,	_	2	punct	_	_
+6	that	that	PRON	DT	Number=Sing|PronType=Dem	8	nsubj	_	_
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+8	all	all	ADV	RB	_	2	parataxis	_	_
+9	...	...	PUNCT	.	_	2	punct	_	_
+10	"	"	PUNCT	''	_	2	punct	_	SpacesAfter=\s\n
 

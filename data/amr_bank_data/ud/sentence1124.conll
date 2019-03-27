@@ -1,6 +1,17 @@
 # newdoc
 # newpar
 # sent_id = lpp_1943.1124
-# text = "
-1	"	"	PUNCT	``	_	0	root	_	_
+# text = " You must be very patient , " replied the fox .
+1	"	"	PUNCT	``	_	6	punct	_	_
+2	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	6	nsubj	_	_
+3	must	must	AUX	MD	VerbForm=Fin	6	aux	_	_
+4	be	be	AUX	VB	VerbForm=Inf	6	cop	_	_
+5	very	very	ADV	RB	_	6	advmod	_	_
+6	patient	patient	ADJ	JJ	Degree=Pos	9	ccomp	_	_
+7	,	,	PUNCT	,	_	9	punct	_	_
+8	"	"	PUNCT	''	_	9	punct	_	_
+9	replied	reply	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	fox	fox	NOUN	NN	Number=Sing	9	nsubj	_	_
+12	.	.	PUNCT	.	_	9	punct	_	SpacesAfter=\s\n
 

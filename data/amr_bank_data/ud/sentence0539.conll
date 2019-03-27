@@ -1,6 +1,68 @@
 # newdoc
 # newpar
 # sent_id = lpp_1943.539
-# text = "
-1	"	"	PUNCT	``	_	0	root	_	_
+# text = " If I ordered a general to fly from one flower to another like a butterfly , or to write a tragic drama , or to change himself into a sea bird , and if the general did not carry out the order that he had received , which one of us would be in the wrong ? " the king demanded .
+1	"	"	PUNCT	``	_	4	punct	_	_
+2	If	if	SCONJ	IN	_	4	mark	_	_
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+4	ordered	order	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+6	general	general	NOUN	NN	Number=Sing	4	obj	_	_
+7	to	to	PART	TO	_	8	mark	_	_
+8	fly	fly	VERB	VB	VerbForm=Inf	4	xcomp	_	_
+9	from	from	ADP	IN	_	11	case	_	_
+10	one	one	NUM	CD	NumType=Card	11	nummod	_	_
+11	flower	flower	NOUN	NN	Number=Sing	8	obl	_	_
+12	to	to	ADP	IN	_	13	case	_	_
+13	another	another	DET	DT	_	8	obl	_	_
+14	like	like	ADP	IN	_	16	case	_	_
+15	a	a	DET	DT	Definite=Ind|PronType=Art	16	det	_	_
+16	butterfly	butterfly	NOUN	NN	Number=Sing	8	obl	_	_
+17	,	,	PUNCT	,	_	20	punct	_	_
+18	or	or	CCONJ	CC	_	20	cc	_	_
+19	to	to	PART	TO	_	20	mark	_	_
+20	write	write	VERB	VB	VerbForm=Inf	4	conj	_	_
+21	a	a	DET	DT	Definite=Ind|PronType=Art	23	det	_	_
+22	tragic	tragic	ADJ	JJ	Degree=Pos	23	amod	_	_
+23	drama	drama	NOUN	NN	Number=Sing	20	obj	_	_
+24	,	,	PUNCT	,	_	27	punct	_	_
+25	or	or	CCONJ	CC	_	27	cc	_	_
+26	to	to	PART	TO	_	27	mark	_	_
+27	change	change	VERB	VB	VerbForm=Inf	4	conj	_	_
+28	himself	himself	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	27	obj	_	_
+29	into	into	ADP	IN	_	32	case	_	_
+30	a	a	DET	DT	Definite=Ind|PronType=Art	32	det	_	_
+31	sea	sea	NOUN	NN	Number=Sing	32	compound	_	_
+32	bird	bird	NOUN	NN	Number=Sing	27	obl	_	_
+33	,	,	PUNCT	,	_	47	punct	_	_
+34	and	and	CCONJ	CC	_	47	cc	_	_
+35	if	if	SCONJ	IN	_	40	mark	_	_
+36	the	the	DET	DT	Definite=Def|PronType=Art	37	det	_	_
+37	general	general	ADJ	JJ	Degree=Pos	40	nsubj	_	_
+38	did	do	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	40	aux	_	_
+39	not	not	PART	RB	_	40	advmod	_	_
+40	carry	carry	VERB	VB	VerbForm=Inf	47	advcl	_	_
+41	out	out	ADP	RP	_	40	compound:prt	_	_
+42	the	the	DET	DT	Definite=Def|PronType=Art	43	det	_	_
+43	order	order	NOUN	NN	Number=Sing	40	obj	_	_
+44	that	that	SCONJ	IN	_	47	mark	_	_
+45	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	47	nsubj	_	_
+46	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	47	aux	_	_
+47	received	receive	VERB	VBN	Tense=Past|VerbForm=Part	4	conj	_	_
+48	,	,	PUNCT	,	_	47	punct	_	_
+49	which	which	PRON	WDT	PronType=Rel	57	nsubj	_	_
+50	one	one	NUM	CD	NumType=Card	57	nsubj	_	_
+51	of	of	ADP	IN	_	52	case	_	_
+52	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	50	nmod	_	_
+53	would	would	AUX	MD	VerbForm=Fin	57	aux	_	_
+54	be	be	AUX	VB	VerbForm=Inf	57	cop	_	_
+55	in	in	ADP	IN	_	57	case	_	_
+56	the	the	DET	DT	Definite=Def|PronType=Art	57	det	_	_
+57	wrong	wrong	NOUN	NN	Number=Sing	47	acl:relcl	_	_
+58	?	?	PUNCT	.	_	61	punct	_	_
+59	"	"	PUNCT	''	_	61	punct	_	_
+60	the	the	DET	DT	Definite=Def|PronType=Art	61	det	_	_
+61	king	king	NOUN	NN	Number=Sing	4	obj	_	_
+62	demanded	demand	VERB	VBN	Tense=Past|VerbForm=Part	61	acl	_	_
+63	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\s\n
 

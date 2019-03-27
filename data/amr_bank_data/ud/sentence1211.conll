@@ -1,6 +1,18 @@
 # newdoc
 # newpar
 # sent_id = lpp_1943.1211
-# text = "
-1	"	"	PUNCT	``	_	0	root	_	_
+# text = " Why are you selling those ? " asked the little prince .
+1	"	"	PUNCT	``	_	5	punct	_	_
+2	Why	why	ADV	WRB	PronType=Int	5	advmod	_	_
+3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	nsubj	_	_
+5	selling	sell	VERB	VBG	Tense=Pres|VerbForm=Part	9	ccomp	_	_
+6	those	those	PRON	DT	Number=Plur|PronType=Dem	5	obj	_	_
+7	?	?	PUNCT	.	_	5	punct	_	_
+8	"	"	PUNCT	''	_	5	punct	_	_
+9	asked	ask	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+11	little	little	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	prince	prince	NOUN	NN	Number=Sing	9	obj	_	_
+13	.	.	PUNCT	.	_	9	punct	_	SpacesAfter=\s\n
 

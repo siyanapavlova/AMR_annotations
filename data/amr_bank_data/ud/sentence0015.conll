@@ -1,7 +1,7 @@
 # newdoc
 # newpar
 # sent_id = lpp_1943.15
-# text = But since the grown - ups were not able to understand it , I made another drawing :
+# text = But since the grown - ups were not able to understand it , I made another drawing : I drew the inside of the boa constrictor , so that the grown - ups could see it clearly .
 1	But	but	CCONJ	CC	_	9	cc	_	_
 2	since	since	SCONJ	IN	_	9	mark	_	_
 3	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
@@ -20,4 +20,24 @@
 16	another	another	DET	DT	_	17	det	_	_
 17	drawing	draw	NOUN	NN	Number=Sing	15	obj	_	_
 18	:	:	PUNCT	:	_	15	punct	_	_
+19	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	20	nsubj	_	_
+20	drew	draw	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	15	parataxis	_	_
+21	the	the	DET	DT	Definite=Def|PronType=Art	22	det	_	_
+22	inside	inside	NOUN	NN	Number=Sing	20	obj	_	_
+23	of	of	ADP	IN	_	26	case	_	_
+24	the	the	DET	DT	Definite=Def|PronType=Art	26	det	_	_
+25	boa	boa	NOUN	NN	Number=Sing	26	compound	_	_
+26	constrictor	constrictor	NOUN	NN	Number=Sing	22	nmod	_	_
+27	,	,	PUNCT	,	_	20	punct	_	_
+28	so	so	SCONJ	IN	_	35	mark	_	_
+29	that	that	SCONJ	IN	_	28	fixed	_	_
+30	the	the	DET	DT	Definite=Def|PronType=Art	33	det	_	_
+31	grown	grown	VERB	VBN	Tense=Past|VerbForm=Part	33	amod	_	_
+32	-	-	PUNCT	HYPH	_	33	punct	_	_
+33	ups	up	NOUN	NNS	Number=Plur	35	nsubj	_	_
+34	could	could	AUX	MD	VerbForm=Fin	35	aux	_	_
+35	see	see	VERB	VB	VerbForm=Inf	20	advcl	_	_
+36	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	35	obj	_	_
+37	clearly	clearly	ADV	RB	_	35	advmod	_	_
+38	.	.	PUNCT	.	_	15	punct	_	SpacesAfter=\s\n
 

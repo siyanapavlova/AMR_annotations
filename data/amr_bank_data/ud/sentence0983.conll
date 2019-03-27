@@ -1,6 +1,29 @@
 # newdoc
 # newpar
 # sent_id = lpp_1943.983
-# text = "
-1	"	"	PUNCT	``	_	0	root	_	_
+# text = " You move me to pity - - you are so weak on this Earth made of granite , " the snake said .
+1	"	"	PUNCT	``	_	3	punct	_	_
+2	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	_
+3	move	move	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	23	ccomp	_	_
+4	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	3	obj	_	_
+5	to	to	ADP	IN	_	6	case	_	_
+6	pity	pity	NOUN	NN	Number=Sing	3	obl	_	_
+7	-	-	PUNCT	,	_	3	punct	_	_
+8	-	-	PUNCT	,	_	3	punct	_	_
+9	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	12	nsubj	_	_
+10	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	12	cop	_	_
+11	so	so	ADV	RB	_	12	advmod	_	_
+12	weak	weak	ADJ	JJ	Degree=Pos	3	parataxis	_	_
+13	on	on	ADP	IN	_	15	case	_	_
+14	this	this	DET	DT	Number=Sing|PronType=Dem	15	det	_	_
+15	Earth	Earth	NOUN	NN	Number=Sing	12	obl	_	_
+16	made	make	VERB	VBN	Tense=Past|VerbForm=Part	15	acl	_	_
+17	of	of	ADP	IN	_	18	case	_	_
+18	granite	granite	NOUN	NN	Number=Sing	16	obl	_	_
+19	,	,	PUNCT	,	_	23	punct	_	_
+20	"	"	PUNCT	``	_	23	punct	_	_
+21	the	the	DET	DT	Definite=Def|PronType=Art	22	det	_	_
+22	snake	snake	NOUN	NN	Number=Sing	23	nsubj	_	_
+23	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+24	.	.	PUNCT	.	_	23	punct	_	SpacesAfter=\s\n
 

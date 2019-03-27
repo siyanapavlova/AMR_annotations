@@ -1,6 +1,11 @@
 # newdoc
 # newpar
 # sent_id = lpp_1943.403
-# text = "
-1	"	"	PUNCT	``	_	0	root	_	_
+# text = " Please excuse me ... "
+1	"	"	PUNCT	``	_	3	punct	_	_
+2	Please	please	INTJ	UH	_	3	discourse	_	_
+3	excuse	excuse	VERB	VB	VerbForm=Inf	0	root	_	_
+4	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	3	obj	_	_
+5	...	...	PUNCT	.	_	3	punct	_	_
+6	"	"	PUNCT	''	_	3	punct	_	SpacesAfter=\s\n
 

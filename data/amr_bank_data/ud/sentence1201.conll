@@ -1,6 +1,22 @@
 # newdoc
 # newpar
 # sent_id = lpp_1943.1201
-# text = "
-1	"	"	PUNCT	``	_	0	root	_	_
+# text = " They are asleep in there , or if they are not asleep they are yawning .
+1	"	"	PUNCT	``	_	4	punct	_	_
+2	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj:pass	_	_
+3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
+4	asleep	asleep	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+5	in	in	ADP	IN	_	6	case	_	_
+6	there	there	ADV	RB	PronType=Dem	4	obl	_	_
+7	,	,	PUNCT	,	_	13	punct	_	_
+8	or	or	CCONJ	CC	_	13	cc	_	_
+9	if	if	SCONJ	IN	_	13	mark	_	_
+10	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	13	nsubj	_	_
+11	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	13	aux	_	_
+12	not	not	PART	RB	_	13	advmod	_	_
+13	asleep	asleep	VERB	VB	VerbForm=Inf	4	conj	_	_
+14	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	16	nsubj	_	_
+15	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	yawning	yawn	VERB	VBG	Tense=Pres|VerbForm=Part	13	ccomp	_	_
+17	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\s\n
 

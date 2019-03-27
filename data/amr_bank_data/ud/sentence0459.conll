@@ -1,6 +1,19 @@
 # newdoc
 # newpar
 # sent_id = lpp_1943.459
-# text = "
-1	"	"	PUNCT	``	_	0	root	_	_
+# text = " Of course I love you , " the flower said to him .
+1	"	"	PUNCT	``	_	11	punct	_	_
+2	Of	of	ADV	RB	_	5	advmod	_	_
+3	course	course	ADV	RB	_	2	fixed	_	_
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+5	love	love	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	11	ccomp	_	_
+6	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	5	obj	_	_
+7	,	,	PUNCT	,	_	11	punct	_	_
+8	"	"	PUNCT	``	_	11	punct	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	flower	flower	NOUN	NN	Number=Sing	11	nsubj	_	_
+11	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+12	to	to	ADP	IN	_	13	case	_	_
+13	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	obl	_	_
+14	.	.	PUNCT	.	_	11	punct	_	SpacesAfter=\s\n
 

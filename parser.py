@@ -20,6 +20,8 @@ def load_data(file):
 	pattern = re.compile(r'\(.*\)$')
 	sentence_id = pattern.search(sentence)
 	#return the sentence_id and the sentence itself
+
+	# return (sentence_id.group()[1:-1], re.sub(r'^\" ', r'"', sentence.replace(sentence_id.group(), '')))
 	return (sentence_id.group()[1:-1], sentence.replace(sentence_id.group(), ''))
 	
 
@@ -34,7 +36,7 @@ def parse(text, sentence_id):
 	"""
 	model = Model.load('./models/udpipe/english-ewt-ud-2.3-181115.udpipe')
 
-	tokenizer = model.newTokenizer(model.DEFAULT)
+	tokenizer = model.newTokenizer(model.TOKENIZER_PRESEGMENTED)
 	# tokenizer = model.TOKENIZER_PRESEGMENTED(model.DEFAULT)
 
 	conlluOutput = OutputFormat.newOutputFormat("conllu")
@@ -94,16 +96,19 @@ def parse_files_in_folder(read_folder, write_folder):
 
 	Output: none
 	"""
+	counter = 0
 	for filename in os.listdir(read_folder):
 		if filename.endswith('.txt'):
-			print(filename)
+			counter += 1
+			print(counter, filename)
 			sentence_id, sentence = load_data('./data/amr_bank_data/sentences/'+filename)
 			parsed_data = parse(sentence, sentence_id)
 			save_data(parsed_data, write_folder, filename[:-3]+'conll')
 
 if __name__== "__main__":
 	#Parse the sentences from the amr bank (The Little Prince)
-	# parse_files_in_folder('./data/amr_bank_data/sentences/', './data/amr_bank_data/ud/')
+	parse_files_in_folder('./data/amr_bank_data/sentences/', './data/amr_bank_data/ud/')
 
-	sentence_id, sentence = load_data('./data/amr_bank_data/sentences/sentence0130.txt')
-	parse(sentence, sentence_id)
+	# sentence_id, sentence = load_data('./data/amr_bank_data/sentences/sentence0130.txt')
+	# print(sentence)
+	# print(parse(sentence, sentence_id))

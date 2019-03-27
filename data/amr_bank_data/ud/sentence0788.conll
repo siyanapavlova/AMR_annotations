@@ -1,6 +1,18 @@
 # newdoc
 # newpar
 # sent_id = lpp_1943.788
-# text = "
-1	"	"	PUNCT	``	_	0	root	_	_
+# text = " The orders have not been changed , " said the lamplighter .
+1	"	"	PUNCT	``	_	10	punct	_	_
+2	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	orders	order	NOUN	NNS	Number=Plur	7	nsubj:pass	_	_
+4	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	7	aux	_	_
+5	not	not	PART	RB	_	7	advmod	_	_
+6	been	be	AUX	VBN	Tense=Past|VerbForm=Part	7	aux:pass	_	_
+7	changed	change	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	10	ccomp	_	_
+8	,	,	PUNCT	,	_	10	punct	_	_
+9	"	"	PUNCT	''	_	10	punct	_	_
+10	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	lamplighter	lamplighter	NOUN	NN	Number=Sing	10	nsubj	_	_
+13	.	.	PUNCT	.	_	10	punct	_	SpacesAfter=\s\n
 

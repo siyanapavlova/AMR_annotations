@@ -1,6 +1,17 @@
 # newdoc
 # newpar
 # sent_id = lpp_1943.562
-# text = "
-1	"	"	PUNCT	``	_	0	root	_	_
+# text = " So I shall set out on my way again . "
+1	"	"	PUNCT	``	_	5	punct	_	_
+2	So	so	ADV	RB	_	5	advmod	_	_
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+4	shall	shall	AUX	MD	VerbForm=Fin	5	aux	_	_
+5	set	set	VERB	VB	VerbForm=Inf	0	root	_	_
+6	out	out	ADP	RP	_	5	compound:prt	_	_
+7	on	on	ADP	IN	_	9	case	_	_
+8	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	9	nmod:poss	_	_
+9	way	way	NOUN	NN	Number=Sing	5	obl	_	_
+10	again	again	ADV	RB	_	5	advmod	_	_
+11	.	.	PUNCT	.	_	5	punct	_	_
+12	"	"	PUNCT	''	_	5	punct	_	SpacesAfter=\s\n
 

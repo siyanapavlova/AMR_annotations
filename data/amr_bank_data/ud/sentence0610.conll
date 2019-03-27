@@ -1,6 +1,16 @@
 # newdoc
 # newpar
 # sent_id = lpp_1943.610
-# text = "
-1	"	"	PUNCT	``	_	0	root	_	_
+# text = " That is a queer hat you are wearing . "
+1	"	"	PUNCT	``	_	5	punct	_	_
+2	That	that	PRON	DT	Number=Sing|PronType=Dem	5	nsubj	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+5	queer	queer	NOUN	NN	Number=Sing	0	root	_	_
+6	hat	hat	PRON	WDT	PronType=Rel	9	obj	_	_
+7	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	9	nsubj	_	_
+8	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	wearing	wear	VERB	VBG	Tense=Pres|VerbForm=Part	5	acl:relcl	_	_
+10	.	.	PUNCT	.	_	5	punct	_	_
+11	"	"	PUNCT	''	_	5	punct	_	SpacesAfter=\s\n
 

@@ -1,6 +1,14 @@
 # newdoc
 # newpar
 # sent_id = lpp_1943.494
-# text = "
-1	"	"	PUNCT	``	_	0	root	_	_
+# text = " I forbid you to do so . "
+1	"	"	PUNCT	``	_	3	punct	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	forbid	forbid	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	3	obj	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	do	do	VERB	VB	VerbForm=Inf	3	xcomp	_	_
+7	so	so	ADV	RB	_	6	advmod	_	_
+8	.	.	PUNCT	.	_	3	punct	_	_
+9	"	"	PUNCT	''	_	3	punct	_	SpacesAfter=\s\n
 

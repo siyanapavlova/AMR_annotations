@@ -1,6 +1,10 @@
 # newdoc
 # newpar
 # sent_id = lpp_1943.798
-# text = "
-1	"	"	PUNCT	``	_	0	root	_	_
+# text = " A month ? "
+1	"	"	PUNCT	``	_	3	punct	_	_
+2	A	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	_
+3	month	month	NOUN	NN	Number=Sing	0	root	_	_
+4	?	?	PUNCT	.	_	3	punct	_	_
+5	"	"	PUNCT	''	_	3	punct	_	SpacesAfter=\s\n
 

@@ -1,6 +1,18 @@
 # newdoc
 # newpar
 # sent_id = lpp_1943.1290
-# text = "
-1	"	"	PUNCT	``	_	0	root	_	_
+# text = " We have wakened the well , and it is singing ... "
+1	"	"	PUNCT	``	_	4	punct	_	_
+2	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	_
+3	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	wakened	waken	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	well	well	ADV	RB	Degree=Pos	4	advmod	_	_
+7	,	,	PUNCT	,	_	11	punct	_	_
+8	and	and	CCONJ	CC	_	11	cc	_	_
+9	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
+10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	singing	singe	VERB	VBG	Tense=Pres|VerbForm=Part	4	conj	_	_
+12	...	...	PUNCT	.	_	4	punct	_	_
+13	"	"	PUNCT	''	_	4	punct	_	SpacesAfter=\s\n
 

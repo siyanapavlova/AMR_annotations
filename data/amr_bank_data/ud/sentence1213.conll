@@ -1,6 +1,13 @@
 # newdoc
 # newpar
 # sent_id = lpp_1943.1213
-# text = "
-1	"	"	PUNCT	``	_	0	root	_	_
+# text = " Computations have been made by experts .
+1	"	"	PUNCT	``	_	5	punct	_	_
+2	Computations	Computation	NOUN	NNS	Number=Plur	5	nsubj:pass	_	_
+3	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	been	be	AUX	VBN	Tense=Past|VerbForm=Part	5	aux:pass	_	_
+5	made	make	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+6	by	by	ADP	IN	_	7	case	_	_
+7	experts	expert	NOUN	NNS	Number=Plur	5	obl	_	_
+8	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\s\n
 

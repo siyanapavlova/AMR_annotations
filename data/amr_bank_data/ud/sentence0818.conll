@@ -1,6 +1,53 @@
 # newdoc
 # newpar
 # sent_id = lpp_1943.818
-# text = "
-1	"	"	PUNCT	``	_	0	root	_	_
+# text = " That man , " said the little prince to himself , as he continued farther on his journey , " that man would be scorned by all the others : by the king , by the conceited man , by the tippler , by the businessman .
+1	"	"	PUNCT	``	_	6	punct	_	_
+2	That	that	DET	DT	Number=Sing|PronType=Dem	3	det	_	_
+3	man	man	NOUN	NN	Number=Sing	6	nsubj	_	_
+4	,	,	PUNCT	,	_	6	punct	_	_
+5	"	"	PUNCT	''	_	6	punct	_	_
+6	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+8	little	little	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	prince	prince	NOUN	NN	Number=Sing	6	obj	_	_
+10	to	to	ADP	IN	_	11	case	_	_
+11	himself	himself	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	9	nmod	_	_
+12	,	,	PUNCT	,	_	6	punct	_	_
+13	as	as	SCONJ	IN	_	15	mark	_	_
+14	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
+15	continued	continue	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	26	advcl	_	_
+16	farther	farther	ADJ	JJR	Degree=Cmp	15	xcomp	_	_
+17	on	on	ADP	IN	_	19	case	_	_
+18	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	19	nmod:poss	_	_
+19	journey	journey	NOUN	NN	Number=Sing	16	obl	_	_
+20	,	,	PUNCT	,	_	26	punct	_	_
+21	"	"	PUNCT	``	_	26	punct	_	_
+22	that	that	DET	DT	Number=Sing|PronType=Dem	23	det	_	_
+23	man	man	NOUN	NN	Number=Sing	26	nsubj:pass	_	_
+24	would	would	AUX	MD	VerbForm=Fin	26	aux	_	_
+25	be	be	AUX	VB	VerbForm=Inf	26	aux:pass	_	_
+26	scorned	scorn	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	6	parataxis	_	_
+27	by	by	ADP	IN	_	30	case	_	_
+28	all	all	DET	PDT	_	30	det:predet	_	_
+29	the	the	DET	DT	Definite=Def|PronType=Art	30	det	_	_
+30	others	other	NOUN	NNS	Number=Plur	26	obl	_	_
+31	:	:	PUNCT	:	_	6	punct	_	_
+32	by	by	ADP	IN	_	34	case	_	_
+33	the	the	DET	DT	Definite=Def|PronType=Art	34	det	_	_
+34	king	king	NOUN	NN	Number=Sing	6	obl	_	_
+35	,	,	PUNCT	,	_	6	punct	_	_
+36	by	by	ADP	IN	_	39	case	_	_
+37	the	the	DET	DT	Definite=Def|PronType=Art	39	det	_	_
+38	conceited	conceit	VERB	VBN	Tense=Past|VerbForm=Part	39	amod	_	_
+39	man	man	NOUN	NN	Number=Sing	6	obl	_	_
+40	,	,	PUNCT	,	_	6	punct	_	_
+41	by	by	ADP	IN	_	43	case	_	_
+42	the	the	DET	DT	Definite=Def|PronType=Art	43	det	_	_
+43	tippler	tippler	NOUN	NN	Number=Sing	6	obl	_	_
+44	,	,	PUNCT	,	_	6	punct	_	_
+45	by	by	ADP	IN	_	47	case	_	_
+46	the	the	DET	DT	Definite=Def|PronType=Art	47	det	_	_
+47	businessman	businessman	NOUN	NN	Number=Sing	6	obl	_	_
+48	.	.	PUNCT	.	_	6	punct	_	SpacesAfter=\s\n
 

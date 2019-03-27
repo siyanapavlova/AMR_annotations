@@ -1,6 +1,10 @@
 # newdoc
 # newpar
 # sent_id = lpp_1943.1016
-# text = "
-1	"	"	PUNCT	``	_	0	root	_	_
+# text = " Be my friends .
+1	"	"	PUNCT	``	_	4	punct	_	_
+2	Be	be	AUX	VB	Mood=Imp|VerbForm=Fin	4	cop	_	_
+3	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
+4	friends	friend	NOUN	NNS	Number=Plur	0	root	_	_
+5	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\s\n
 

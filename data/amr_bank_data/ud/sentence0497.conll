@@ -1,6 +1,22 @@
 # newdoc
 # newpar
 # sent_id = lpp_1943.497
-# text = "
-1	"	"	PUNCT	``	_	0	root	_	_
+# text = " I have come on a long journey , and I have had no sleep ... "
+1	"	"	PUNCT	``	_	4	punct	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+3	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	come	come	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+5	on	on	ADP	IN	_	8	case	_	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+7	long	long	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	journey	journey	NOUN	NN	Number=Sing	4	obl	_	_
+9	,	,	PUNCT	,	_	13	punct	_	_
+10	and	and	CCONJ	CC	_	13	cc	_	_
+11	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	_
+12	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	had	have	VERB	VBN	Tense=Past|VerbForm=Part	4	conj	_	_
+14	no	no	DET	DT	_	15	det	_	_
+15	sleep	sleep	NOUN	NN	Number=Sing	13	obj	_	_
+16	...	...	PUNCT	.	_	4	punct	_	_
+17	"	"	PUNCT	''	_	4	punct	_	SpacesAfter=\s\n
 

@@ -1,6 +1,19 @@
 # newdoc
 # newpar
 # sent_id = lpp_1943.835
-# text = "
-1	"	"	PUNCT	``	_	0	root	_	_
+# text = " I am a geographer , " the old gentleman said to him .
+1	"	"	PUNCT	``	_	5	punct	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+3	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+5	geographer	geographer	NOUN	NN	Number=Sing	11	ccomp	_	_
+6	,	,	PUNCT	,	_	5	punct	_	_
+7	"	"	PUNCT	``	_	5	punct	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+9	old	old	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	gentleman	gentleman	NOUN	NN	Number=Sing	11	nsubj	_	_
+11	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+12	to	to	ADP	IN	_	13	case	_	_
+13	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	obl	_	_
+14	.	.	PUNCT	.	_	11	punct	_	SpacesAfter=\s\n
 

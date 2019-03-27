@@ -1,6 +1,12 @@
 # newdoc
 # newpar
 # sent_id = lpp_1943.1292
-# text = "
-1	"	"	PUNCT	``	_	0	root	_	_
+# text = " Leave it to me , "
+1	"	"	PUNCT	``	_	2	punct	_	_
+2	Leave	leave	VERB	VB	VerbForm=Inf	0	root	_	_
+3	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
+4	to	to	ADP	IN	_	5	case	_	_
+5	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	2	obl	_	_
+6	,	,	PUNCT	,	_	2	punct	_	_
+7	"	"	PUNCT	''	_	2	punct	_	SpacesAfter=\s\n
 

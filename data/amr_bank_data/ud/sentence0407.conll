@@ -1,6 +1,19 @@
 # newdoc
 # newpar
 # sent_id = lpp_1943.407
-# text = "
-1	"	"	PUNCT	``	_	0	root	_	_
+# text = " At night I want you to put me under a glass globe .
+1	"	"	PUNCT	``	_	5	punct	_	_
+2	At	at	ADP	IN	_	3	case	_	_
+3	night	night	NOUN	NN	Number=Sing	5	obl	_	_
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+5	want	want	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	5	obj	_	_
+7	to	to	PART	TO	_	8	mark	_	_
+8	put	put	VERB	VB	VerbForm=Inf	5	xcomp	_	_
+9	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	8	obj	_	_
+10	under	under	ADP	IN	_	13	case	_	_
+11	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	_
+12	glass	glass	NOUN	NN	Number=Sing	13	compound	_	_
+13	globe	globe	NOUN	NN	Number=Sing	8	obl	_	_
+14	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\s\n
 

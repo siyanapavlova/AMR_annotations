@@ -1,6 +1,16 @@
 # newdoc
 # newpar
 # sent_id = lpp_1943.968
-# text = "
-1	"	"	PUNCT	``	_	0	root	_	_
+# text = " It is a little lonely in the desert ... "
+1	"	"	PUNCT	``	_	6	punct	_	_
+2	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+5	little	little	ADJ	JJ	Degree=Pos	6	obl:npmod	_	_
+6	lonely	lonely	ADJ	JJ	Degree=Pos	0	root	_	_
+7	in	in	ADP	IN	_	9	case	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	desert	desert	NOUN	NN	Number=Sing	6	obl	_	_
+10	...	...	PUNCT	.	_	6	punct	_	_
+11	"	"	PUNCT	''	_	6	punct	_	SpacesAfter=\s\n
 

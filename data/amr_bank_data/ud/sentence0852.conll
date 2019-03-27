@@ -1,6 +1,13 @@
 # newdoc
 # newpar
 # sent_id = lpp_1943.852
-# text = "
-1	"	"	PUNCT	``	_	0	root	_	_
+# text = " Exactly , " the geographer said .
+1	"	"	PUNCT	``	_	7	punct	_	_
+2	Exactly	exactly	ADV	RB	_	7	advmod	_	_
+3	,	,	PUNCT	,	_	7	punct	_	_
+4	"	"	PUNCT	``	_	7	punct	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	geographer	geographer	NOUN	NN	Number=Sing	7	nsubj	_	_
+7	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+8	.	.	PUNCT	.	_	7	punct	_	SpacesAfter=\s\n
 

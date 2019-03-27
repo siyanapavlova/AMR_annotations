@@ -1,6 +1,13 @@
 # newdoc
 # newpar
 # sent_id = lpp_1943.853
-# text = "
-1	"	"	PUNCT	``	_	0	root	_	_
+# text = " But I am not an explorer .
+1	"	"	PUNCT	``	_	7	punct	_	_
+2	But	but	CCONJ	CC	_	7	cc	_	_
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+4	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	cop	_	_
+5	not	not	PART	RB	_	7	advmod	_	_
+6	an	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+7	explorer	explorer	NOUN	NN	Number=Sing	0	root	_	_
+8	.	.	PUNCT	.	_	7	punct	_	SpacesAfter=\s\n
 

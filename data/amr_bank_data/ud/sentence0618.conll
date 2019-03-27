@@ -1,6 +1,25 @@
 # newdoc
 # newpar
 # sent_id = lpp_1943.618
-# text = "
-1	"	"	PUNCT	``	_	0	root	_	_
+# text = " This is more entertaining than the visit to the king , " the little prince said to himself .
+1	"	"	PUNCT	``	_	5	punct	_	_
+2	This	this	PRON	DT	Number=Sing|PronType=Dem	5	nsubj	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	more	more	ADV	RBR	_	5	advmod	_	_
+5	entertaining	entertaining	ADJ	JJ	Degree=Pos	17	ccomp	_	_
+6	than	than	ADP	IN	_	8	case	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	visit	visit	NOUN	NN	Number=Sing	5	obl	_	_
+9	to	to	ADP	IN	_	11	case	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	king	king	NOUN	NN	Number=Sing	8	nmod	_	_
+12	,	,	PUNCT	,	_	5	punct	_	_
+13	"	"	PUNCT	``	_	5	punct	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+15	little	little	ADJ	JJ	Degree=Pos	16	amod	_	_
+16	prince	prince	NOUN	NN	Number=Sing	17	nsubj	_	_
+17	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+18	to	to	ADP	IN	_	19	case	_	_
+19	himself	himself	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	17	obl	_	_
+20	.	.	PUNCT	.	_	17	punct	_	SpacesAfter=\s\n
 

@@ -1,6 +1,43 @@
 # newdoc
 # newpar
 # sent_id = lpp_1943.1307
-# text = "
-1	"	"	PUNCT	``	_	0	root	_	_
+# text = " The men where you live , " said the little prince , " raise five thousand roses in the same garden - - and they do not find in it what they are looking for . "
+1	"	"	PUNCT	``	_	9	punct	_	_
+2	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	men	man	NOUN	NNS	Number=Plur	9	nsubj	_	_
+4	where	where	ADV	WRB	PronType=Int	6	advmod	_	_
+5	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	6	nsubj	_	_
+6	live	live	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+7	,	,	PUNCT	,	_	9	punct	_	_
+8	"	"	PUNCT	''	_	9	punct	_	_
+9	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+11	little	little	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	prince	prince	NOUN	NN	Number=Sing	15	nsubj	_	_
+13	,	,	PUNCT	,	_	12	punct	_	_
+14	"	"	PUNCT	``	_	12	punct	_	_
+15	raise	raise	VERB	VB	VerbForm=Inf	9	ccomp	_	_
+16	five	five	NUM	CD	NumType=Card	17	nummod	_	_
+17	thousand	thousand	NUM	CD	NumType=Card	18	nummod	_	_
+18	roses	ros	NOUN	NNS	Number=Plur	15	obj	_	_
+19	in	in	ADP	IN	_	22	case	_	_
+20	the	the	DET	DT	Definite=Def|PronType=Art	22	det	_	_
+21	same	same	ADJ	JJ	Degree=Pos	22	amod	_	_
+22	garden	garden	NOUN	NN	Number=Sing	15	obl	_	_
+23	-	-	PUNCT	,	_	9	punct	_	_
+24	-	-	PUNCT	,	_	9	punct	_	_
+25	and	and	CCONJ	CC	_	29	cc	_	_
+26	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	29	nsubj	_	_
+27	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	29	aux	_	_
+28	not	not	PART	RB	_	29	advmod	_	_
+29	find	find	VERB	VB	VerbForm=Inf	9	conj	_	_
+30	in	in	ADP	IN	_	31	case	_	_
+31	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	29	obl	_	_
+32	what	what	PRON	WP	PronType=Int	29	obj	_	_
+33	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	35	nsubj	_	_
+34	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	35	aux	_	_
+35	looking	look	VERB	VBG	Tense=Pres|VerbForm=Part	32	acl:relcl	_	_
+36	for	for	ADP	IN	_	35	obl	_	_
+37	.	.	PUNCT	.	_	9	punct	_	_
+38	"	"	PUNCT	''	_	9	punct	_	SpacesAfter=\s\n
 

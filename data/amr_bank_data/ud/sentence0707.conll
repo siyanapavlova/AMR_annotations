@@ -1,6 +1,15 @@
 # newdoc
 # newpar
 # sent_id = lpp_1943.707
-# text = "
-1	"	"	PUNCT	``	_	0	root	_	_
+# text = " Kings do not own , they reign over .
+1	"	"	PUNCT	``	_	5	punct	_	_
+2	Kings	king	NOUN	NNS	Number=Plur	5	nsubj	_	_
+3	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	not	not	PART	RB	_	5	advmod	_	_
+5	own	own	ADJ	JJ	Degree=Pos	8	advcl	_	_
+6	,	,	PUNCT	,	_	8	punct	_	_
+7	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	8	nsubj	_	_
+8	reign	reign	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	over	over	ADV	RB	_	8	advmod	_	_
+10	.	.	PUNCT	.	_	8	punct	_	SpacesAfter=\s\n
 

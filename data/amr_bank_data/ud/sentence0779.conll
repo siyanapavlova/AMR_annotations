@@ -1,6 +1,10 @@
 # newdoc
 # newpar
 # sent_id = lpp_1943.779
-# text = "
-1	"	"	PUNCT	``	_	0	root	_	_
+# text = " Orders are orders .
+1	"	"	PUNCT	``	_	4	punct	_	_
+2	Orders	order	NOUN	NNS	Number=Plur	4	nsubj	_	_
+3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	orders	order	NOUN	NNS	Number=Plur	0	root	_	_
+5	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\s\n
 

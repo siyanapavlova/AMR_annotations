@@ -1,6 +1,13 @@
 # newdoc
 # newpar
 # sent_id = lpp_1943.531
-# text = "
-1	"	"	PUNCT	``	_	0	root	_	_
+# text = " And the stars obey you ? "
+1	"	"	PUNCT	``	_	4	punct	_	_
+2	And	and	CCONJ	CC	_	4	cc	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	stars	star	NOUN	NNS	Number=Plur	6	nsubj	_	_
+5	obey	obey	INTJ	UH	_	4	discourse	_	_
+6	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	root	_	_
+7	?	?	PUNCT	.	_	6	punct	_	_
+8	"	"	PUNCT	''	_	6	punct	_	SpacesAfter=\s\n
 

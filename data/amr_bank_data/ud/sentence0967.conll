@@ -1,6 +1,23 @@
 # newdoc
 # newpar
 # sent_id = lpp_1943.967
-# text = "
-1	"	"	PUNCT	``	_	0	root	_	_
+# text = " Where are the men ? " the little prince at last took up the conversation again .
+1	"	"	PUNCT	``	_	2	punct	_	_
+2	Where	where	ADV	WRB	PronType=Int	13	advmod	_	_
+3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	cop	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	men	man	NOUN	NNS	Number=Plur	2	nsubj	_	_
+6	?	?	PUNCT	.	_	2	punct	_	_
+7	"	"	PUNCT	''	_	2	punct	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+9	little	little	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	prince	prince	NOUN	NN	Number=Sing	13	nsubj	_	_
+11	at	at	ADP	IN	_	12	case	_	_
+12	last	last	ADJ	JJ	Degree=Pos	10	nmod	_	_
+13	took	take	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+14	up	up	ADP	RP	_	13	compound:prt	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	conversation	conversation	NOUN	NN	Number=Sing	13	obj	_	_
+17	again	again	ADV	RB	_	13	advmod	_	_
+18	.	.	PUNCT	.	_	13	punct	_	SpacesAfter=\s\n
 

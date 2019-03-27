@@ -1,6 +1,8 @@
 # newdoc
 # newpar
 # sent_id = lpp_1943.721
-# text = "
-1	"	"	PUNCT	``	_	0	root	_	_
+# text = " Certainly .
+1	"	"	PUNCT	``	_	2	punct	_	_
+2	Certainly	certainly	ADV	RB	_	0	root	_	_
+3	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\s\n
 

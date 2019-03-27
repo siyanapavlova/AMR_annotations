@@ -1,6 +1,11 @@
 # newdoc
 # newpar
 # sent_id = lpp_1943.629
-# text = "
-1	"	"	PUNCT	``	_	0	root	_	_
+# text = " Do me this kindness .
+1	"	"	PUNCT	``	_	2	punct	_	_
+2	Do	do	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+3	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	2	iobj	_	_
+4	this	this	DET	DT	Number=Sing|PronType=Dem	5	det	_	_
+5	kindness	kindness	NOUN	NN	Number=Sing	2	obj	_	_
+6	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\s\n
 

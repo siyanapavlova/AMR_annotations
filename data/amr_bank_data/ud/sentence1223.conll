@@ -1,6 +1,27 @@
 # newdoc
 # newpar
 # sent_id = lpp_1943.1223
-# text = "
-1	"	"	PUNCT	``	_	0	root	_	_
+# text = " My dear little man , this is no longer a matter that has anything to do with the fox ! "
+1	"	"	PUNCT	``	_	12	punct	_	_
+2	My	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+3	dear	dear	ADJ	JJ	Degree=Pos	5	amod	_	_
+4	little	little	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	man	man	NOUN	NN	Number=Sing	12	compound	_	_
+6	,	,	PUNCT	,	_	12	punct	_	_
+7	this	this	PRON	DT	Number=Sing|PronType=Dem	12	nsubj	_	_
+8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+9	no	no	ADV	RB	_	10	advmod	_	_
+10	longer	longer	ADV	RBR	Degree=Cmp	12	advmod	_	_
+11	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	_
+12	matter	matter	NOUN	NN	Number=Sing	0	root	_	_
+13	that	that	PRON	WDT	PronType=Rel	14	nsubj	_	_
+14	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	_
+15	anything	anything	PRON	NN	Number=Sing	14	obj	_	_
+16	to	to	PART	TO	_	17	mark	_	_
+17	do	do	VERB	VB	VerbForm=Inf	15	acl	_	_
+18	with	with	ADP	IN	_	20	case	_	_
+19	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	_
+20	fox	fox	NOUN	NN	Number=Sing	17	obl	_	_
+21	!	!	PUNCT	.	_	12	punct	_	_
+22	"	"	PUNCT	''	_	12	punct	_	SpacesAfter=\s\n
 

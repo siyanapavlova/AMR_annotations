@@ -1,6 +1,8 @@
 # newdoc
 # newpar
 # sent_id = lpp_1943.542
-# text = "
-1	"	"	PUNCT	``	_	0	root	_	_
+# text = " Exactly .
+1	"	"	PUNCT	``	_	2	punct	_	_
+2	Exactly	exactly	ADV	RB	_	0	root	_	_
+3	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\s\n
 

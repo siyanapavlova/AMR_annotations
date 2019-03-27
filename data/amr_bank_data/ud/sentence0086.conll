@@ -1,6 +1,12 @@
 # newdoc
 # newpar
 # sent_id = lpp_1943.86
-# text = "
-1	"	"	PUNCT	``	_	0	root	_	_
+# text = " This one is too old .
+1	"	"	PUNCT	``	_	6	punct	_	_
+2	This	this	DET	DT	Number=Sing|PronType=Dem	3	det	_	_
+3	one	one	NOUN	NN	Number=Sing	6	nsubj	_	_
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	too	too	ADV	RB	_	6	advmod	_	_
+6	old	old	ADJ	JJ	Degree=Pos	0	root	_	_
+7	.	.	PUNCT	.	_	6	punct	_	SpacesAfter=\s\n
 

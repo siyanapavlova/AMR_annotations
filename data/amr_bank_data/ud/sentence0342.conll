@@ -1,6 +1,17 @@
 # newdoc
 # newpar
 # sent_id = lpp_1943.342
-# text = "
-1	"	"	PUNCT	``	_	0	root	_	_
+# text = " The flowers have been growing thorns for millions of years .
+1	"	"	PUNCT	``	_	6	punct	_	_
+2	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	flowers	flower	NOUN	NNS	Number=Plur	6	nsubj	_	_
+4	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	_
+5	been	be	AUX	VBN	Tense=Past|VerbForm=Part	6	aux	_	_
+6	growing	grow	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+7	thorns	thorn	NOUN	NNS	Number=Plur	6	obj	_	_
+8	for	for	ADP	IN	_	9	case	_	_
+9	millions	million	NOUN	NNS	Number=Plur	7	nmod	_	_
+10	of	of	ADP	IN	_	11	case	_	_
+11	years	year	NOUN	NNS	Number=Plur	9	nmod	_	_
+12	.	.	PUNCT	.	_	6	punct	_	SpacesAfter=\s\n
 

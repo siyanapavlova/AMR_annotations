@@ -1,6 +1,14 @@
 # newdoc
 # newpar
 # sent_id = lpp_1943.720
-# text = "
-1	"	"	PUNCT	``	_	0	root	_	_
+# text = " Is that all that is necessary ? "
+1	"	"	PUNCT	``	_	2	punct	_	_
+2	Is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	that	that	SCONJ	IN	_	4	mark	_	_
+4	all	all	DET	DT	_	2	nsubj	_	_
+5	that	that	PRON	WDT	PronType=Rel	7	nsubj	_	_
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+7	necessary	necessary	ADJ	JJ	Degree=Pos	4	acl:relcl	_	_
+8	?	?	PUNCT	.	_	2	punct	_	_
+9	"	"	PUNCT	''	_	2	punct	_	SpacesAfter=\s\n
 

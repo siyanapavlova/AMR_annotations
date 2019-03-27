@@ -1,6 +1,17 @@
 # newdoc
 # newpar
 # sent_id = lpp_1943.1336
-# text = "
-1	"	"	PUNCT	``	_	0	root	_	_
+# text = " You have plans that I do not know about , "
+1	"	"	PUNCT	``	_	3	punct	_	_
+2	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	_
+3	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	plans	plan	NOUN	NNS	Number=Plur	3	obj	_	_
+5	that	that	PRON	WDT	PronType=Rel	9	obj	_	_
+6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
+7	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	9	aux	_	_
+8	not	not	PART	RB	_	9	advmod	_	_
+9	know	know	VERB	VB	VerbForm=Inf	4	acl:relcl	_	_
+10	about	about	ADV	RB	_	9	advmod	_	_
+11	,	,	PUNCT	,	_	3	punct	_	_
+12	"	"	PUNCT	''	_	3	punct	_	SpacesAfter=\s\n
 

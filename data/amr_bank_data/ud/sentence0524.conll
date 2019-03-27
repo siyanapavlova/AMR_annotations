@@ -1,6 +1,16 @@
 # newdoc
 # newpar
 # sent_id = lpp_1943.524
-# text = "
-1	"	"	PUNCT	``	_	0	root	_	_
+# text = " Sire - - over what do you rule ? "
+1	"	"	PUNCT	``	_	2	punct	_	_
+2	Sire	Sire	PROPN	NNP	Number=Sing	0	root	_	_
+3	-	-	PUNCT	,	_	2	punct	_	_
+4	-	-	PUNCT	,	_	2	punct	_	_
+5	over	over	ADV	RB	_	6	advmod	_	_
+6	what	what	PRON	WP	PronType=Int	9	obj	_	_
+7	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	9	aux	_	_
+8	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	9	nsubj	_	_
+9	rule	rule	VERB	VB	VerbForm=Inf	2	parataxis	_	_
+10	?	?	PUNCT	.	_	2	punct	_	_
+11	"	"	PUNCT	''	_	2	punct	_	SpacesAfter=\s\n
 

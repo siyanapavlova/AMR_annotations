@@ -1,6 +1,42 @@
 # newdoc
 # newpar
 # sent_id = lpp_1943.406
-# text = "
-1	"	"	PUNCT	``	_	0	root	_	_
+# text = " A horror of drafts - - that is bad luck , for a plant , " remarked the little prince , and added to himself , " This flower is a very complex creature ... "
+1	"	"	PUNCT	``	_	18	punct	_	_
+2	A	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	_
+3	horror	horror	NOUN	NN	Number=Sing	18	nsubj	_	_
+4	of	of	ADP	IN	_	5	case	_	_
+5	drafts	draft	NOUN	NNS	Number=Plur	3	nmod	_	_
+6	-	-	PUNCT	,	_	3	punct	_	_
+7	-	-	PUNCT	,	_	3	punct	_	_
+8	that	that	PRON	DT	Number=Sing|PronType=Dem	11	nsubj	_	_
+9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+10	bad	bad	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	luck	luck	NOUN	NN	Number=Sing	3	parataxis	_	_
+12	,	,	PUNCT	,	_	3	punct	_	_
+13	for	for	ADP	IN	_	15	case	_	_
+14	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	_	_
+15	plant	plant	NOUN	NN	Number=Sing	3	nmod	_	_
+16	,	,	PUNCT	,	_	18	punct	_	_
+17	"	"	PUNCT	''	_	18	punct	_	_
+18	remarked	remark	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+19	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	_
+20	little	little	ADJ	JJ	Degree=Pos	21	amod	_	_
+21	prince	prince	NOUN	NN	Number=Sing	18	obj	_	_
+22	,	,	PUNCT	,	_	24	punct	_	_
+23	and	and	CCONJ	CC	_	24	cc	_	_
+24	added	add	VERB	VBN	Tense=Past|VerbForm=Part	18	conj	_	_
+25	to	to	ADP	IN	_	26	case	_	_
+26	himself	himself	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	24	obl	_	_
+27	,	,	PUNCT	,	_	35	punct	_	_
+28	"	"	PUNCT	``	_	35	punct	_	_
+29	This	this	DET	DT	Number=Sing|PronType=Dem	30	det	_	_
+30	flower	flower	NOUN	NN	Number=Sing	35	nsubj	_	_
+31	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	35	cop	_	_
+32	a	a	DET	DT	Definite=Ind|PronType=Art	35	det	_	_
+33	very	very	ADV	RB	_	34	advmod	_	_
+34	complex	complex	ADJ	JJ	Degree=Pos	35	amod	_	_
+35	creature	creature	NOUN	NN	Number=Sing	18	conj	_	_
+36	...	...	PUNCT	.	_	18	punct	_	_
+37	"	"	PUNCT	''	_	18	punct	_	SpacesAfter=\s\n
 

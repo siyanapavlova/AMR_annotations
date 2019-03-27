@@ -1,7 +1,7 @@
 # newdoc
 # newpar
 # sent_id = lpp_1943.174
-# text = Just so , you might say to them : "
+# text = Just so , you might say to them : " The proof that the little prince existed is that he was charming , that he laughed , and that he was looking for a sheep .
 1	Just	just	ADV	RB	_	2	advmod	_	_
 2	so	so	ADV	RB	_	6	advmod	_	_
 3	,	,	PUNCT	,	_	6	punct	_	_
@@ -12,4 +12,30 @@
 8	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	6	obl	_	_
 9	:	:	PUNCT	:	_	6	punct	_	_
 10	"	"	PUNCT	``	_	6	punct	_	_
+11	The	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	proof	proof	NOUN	NN	Number=Sing	6	nsubj	_	_
+13	that	that	SCONJ	IN	_	18	mark	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+15	little	little	ADJ	JJ	Degree=Pos	16	amod	_	_
+16	prince	prince	NOUN	NN	Number=Sing	18	nsubj	_	_
+17	existed	exist	VERB	VBN	Tense=Past|VerbForm=Part	16	acl	_	_
+18	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	acl	_	_
+19	that	that	SCONJ	IN	_	22	mark	_	_
+20	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	nsubj	_	_
+21	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	22	aux	_	_
+22	charming	charming	VERB	VBG	Tense=Pres|VerbForm=Part	18	ccomp	_	_
+23	,	,	PUNCT	,	_	18	punct	_	_
+24	that	that	SCONJ	IN	_	26	mark	_	_
+25	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	26	nsubj	_	_
+26	laughed	laugh	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	18	ccomp	_	_
+27	,	,	PUNCT	,	_	32	punct	_	_
+28	and	and	CCONJ	CC	_	32	cc	_	_
+29	that	that	SCONJ	IN	_	32	mark	_	_
+30	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	32	nsubj	_	_
+31	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	32	aux	_	_
+32	looking	look	VERB	VBG	Tense=Pres|VerbForm=Part	26	conj	_	_
+33	for	for	ADP	IN	_	35	case	_	_
+34	a	a	DET	DT	Definite=Ind|PronType=Art	35	det	_	_
+35	sheep	sheep	NOUN	NN	Number=Sing	32	obl	_	_
+36	.	.	PUNCT	.	_	6	punct	_	SpacesAfter=\s\n
 

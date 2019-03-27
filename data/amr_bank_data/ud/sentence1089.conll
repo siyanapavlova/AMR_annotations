@@ -1,6 +1,14 @@
 # newdoc
 # newpar
 # sent_id = lpp_1943.1089
-# text = "
-1	"	"	PUNCT	``	_	0	root	_	_
+# text = " Are there hunters on this planet ? "
+1	"	"	PUNCT	``	_	2	punct	_	_
+2	Are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	there	there	PRON	EX	_	4	nmod:poss	_	_
+4	hunters	hunter	NOUN	NNS	Number=Plur	2	nsubj	_	_
+5	on	on	ADP	IN	_	7	case	_	_
+6	this	this	DET	DT	Number=Sing|PronType=Dem	7	det	_	_
+7	planet	planet	NOUN	NN	Number=Sing	2	obl	_	_
+8	?	?	PUNCT	.	_	2	punct	_	_
+9	"	"	PUNCT	''	_	2	punct	_	SpacesAfter=\s\n
 

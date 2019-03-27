@@ -1,6 +1,28 @@
 # newdoc
 # newpar
 # sent_id = lpp_1943.469
-# text = "
-1	"	"	PUNCT	``	_	0	root	_	_
+# text = " Well , I must endure the presence of two or three caterpillars if I wish to become acquainted with the butterflies .
+1	"	"	PUNCT	``	_	6	punct	_	_
+2	Well	well	INTJ	UH	_	6	discourse	_	_
+3	,	,	PUNCT	,	_	6	punct	_	_
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+5	must	must	AUX	MD	VerbForm=Fin	6	aux	_	_
+6	endure	endure	VERB	VB	VerbForm=Inf	0	root	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	presence	presence	NOUN	NN	Number=Sing	6	obj	_	_
+9	of	of	ADP	IN	_	13	case	_	_
+10	two	two	NUM	CD	NumType=Card	13	nummod	_	_
+11	or	or	CCONJ	CC	_	12	cc	_	_
+12	three	three	NUM	CD	NumType=Card	10	conj	_	_
+13	caterpillars	caterpillar	NOUN	NNS	Number=Plur	8	nmod	_	_
+14	if	if	SCONJ	IN	_	16	mark	_	_
+15	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	nsubj	_	_
+16	wish	wish	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	advcl	_	_
+17	to	to	PART	TO	_	18	mark	_	_
+18	become	become	VERB	VB	VerbForm=Inf	16	xcomp	_	_
+19	acquainted	acquainted	ADJ	JJ	Degree=Pos	18	xcomp	_	_
+20	with	with	ADP	IN	_	22	case	_	_
+21	the	the	DET	DT	Definite=Def|PronType=Art	22	det	_	_
+22	butterflies	butterfly	NOUN	NNS	Number=Plur	19	obl	_	_
+23	.	.	PUNCT	.	_	6	punct	_	SpacesAfter=\s\n
 

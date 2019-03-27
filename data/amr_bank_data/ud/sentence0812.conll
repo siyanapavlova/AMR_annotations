@@ -1,6 +1,19 @@
 # newdoc
 # newpar
 # sent_id = lpp_1943.812
-# text = "
-1	"	"	PUNCT	``	_	0	root	_	_
+# text = " That does n't do me much good , " said the lamplighter .
+1	"	"	PUNCT	``	_	5	punct	_	_
+2	That	that	PRON	DT	Number=Sing|PronType=Dem	5	nsubj	_	_
+3	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	n't	not	PART	RB	_	5	advmod	_	_
+5	do	do	VERB	VB	VerbForm=Inf	11	ccomp	_	_
+6	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	5	obj	_	_
+7	much	much	ADV	RB	_	8	advmod	_	_
+8	good	good	ADJ	JJ	Degree=Pos	5	xcomp	_	_
+9	,	,	PUNCT	,	_	11	punct	_	_
+10	"	"	PUNCT	''	_	11	punct	_	_
+11	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	lamplighter	lamplighter	NOUN	NN	Number=Sing	11	nsubj	_	_
+14	.	.	PUNCT	.	_	11	punct	_	SpacesAfter=\s\n
 

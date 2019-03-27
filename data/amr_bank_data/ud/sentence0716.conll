@@ -1,6 +1,19 @@
 # newdoc
 # newpar
 # sent_id = lpp_1943.716
-# text = "
-1	"	"	PUNCT	``	_	0	root	_	_
+# text = " To whom do they belong ? " the businessman retorted , peevishly .
+1	"	"	PUNCT	``	_	6	punct	_	_
+2	To	to	ADP	IN	_	3	case	_	_
+3	whom	whom	PRON	WP	PronType=Int	6	obl	_	_
+4	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	_
+5	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	_
+6	belong	belong	VERB	VB	VerbForm=Inf	11	ccomp	_	_
+7	?	?	PUNCT	.	_	6	punct	_	_
+8	"	"	PUNCT	''	_	6	punct	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	businessman	businessman	NOUN	NN	Number=Sing	11	nsubj	_	_
+11	retorted	retort	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+12	,	,	PUNCT	,	_	11	punct	_	_
+13	peevishly	peevishly	ADV	RB	_	11	advmod	_	_
+14	.	.	PUNCT	.	_	11	punct	_	SpacesAfter=\s\n
 

@@ -1,6 +1,19 @@
 # newdoc
 # newpar
 # sent_id = lpp_1943.1191
-# text = "
-1	"	"	PUNCT	``	_	0	root	_	_
+# text = " Not even the locomotive engineer knows that , " said the switchman .
+1	"	"	PUNCT	``	_	11	punct	_	_
+2	Not	not	PART	RB	_	7	advmod	_	_
+3	even	even	ADV	RB	_	7	advmod	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+5	locomotive	locomotive	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	engineer	engineer	NOUN	NN	Number=Sing	7	nsubj	_	_
+7	knows	know	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	ccomp	_	_
+8	that	that	PRON	DT	Number=Sing|PronType=Dem	7	obj	_	_
+9	,	,	PUNCT	,	_	11	punct	_	_
+10	"	"	PUNCT	''	_	11	punct	_	_
+11	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	switchman	switchman	NOUN	NN	Number=Sing	11	nsubj	_	_
+14	.	.	PUNCT	.	_	11	punct	_	SpacesAfter=\s\n
 

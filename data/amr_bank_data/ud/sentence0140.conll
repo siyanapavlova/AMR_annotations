@@ -1,7 +1,7 @@
 # newdoc
 # newpar
 # sent_id = lpp_1943.140
-# text = My friend broke into another peal of laughter : "
+# text = My friend broke into another peal of laughter : " But where do you think he would go ? "
 1	My	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
 2	friend	friend	NOUN	NN	Number=Sing	3	nsubj	_	_
 3	broke	break	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -12,4 +12,14 @@
 8	laughter	laughter	NOUN	NN	Number=Sing	6	nmod	_	_
 9	:	:	PUNCT	:	_	3	punct	_	_
 10	"	"	PUNCT	``	_	3	punct	_	_
+11	But	but	CCONJ	CC	_	15	cc	_	_
+12	where	where	ADV	WRB	PronType=Int	15	advmod	_	_
+13	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	15	aux	_	_
+14	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	15	nsubj	_	_
+15	think	think	VERB	VB	VerbForm=Inf	3	conj	_	_
+16	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	_
+17	would	would	AUX	MD	VerbForm=Fin	18	aux	_	_
+18	go	go	VERB	VB	VerbForm=Inf	15	ccomp	_	_
+19	?	?	PUNCT	.	_	3	punct	_	_
+20	"	"	PUNCT	''	_	3	punct	_	SpacesAfter=\s\n
 

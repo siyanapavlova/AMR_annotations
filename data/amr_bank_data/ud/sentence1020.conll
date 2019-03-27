@@ -1,6 +1,21 @@
 # newdoc
 # newpar
 # sent_id = lpp_1943.1020
-# text = "
-1	"	"	PUNCT	``	_	0	root	_	_
+# text = " It is altogether dry , and altogether pointed , and altogether harsh and forbidding .
+1	"	"	PUNCT	``	_	5	punct	_	_
+2	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	altogether	altogether	ADV	RB	_	5	advmod	_	_
+5	dry	dry	ADJ	JJ	Degree=Pos	0	root	_	_
+6	,	,	PUNCT	,	_	9	punct	_	_
+7	and	and	CCONJ	CC	_	9	cc	_	_
+8	altogether	altogether	ADV	RB	_	9	advmod	_	_
+9	pointed	point	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	conj	_	_
+10	,	,	PUNCT	,	_	9	punct	_	_
+11	and	and	CCONJ	CC	_	13	cc	_	_
+12	altogether	altogether	ADV	RB	_	13	advmod	_	_
+13	harsh	harsh	ADJ	JJ	Degree=Pos	9	conj	_	_
+14	and	and	CCONJ	CC	_	15	cc	_	_
+15	forbidding	forbidding	VERB	VBG	Tense=Pres|VerbForm=Part	9	conj	_	_
+16	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\s\n
 

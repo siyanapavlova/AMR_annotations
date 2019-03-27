@@ -1,6 +1,35 @@
 # newdoc
 # newpar
 # sent_id = lpp_1943.631
-# text = "
-1	"	"	PUNCT	``	_	0	root	_	_
+# text = " I admire you , " said the little prince , shrugging his shoulders slightly , " but what is there in that to interest you so much ? "
+1	"	"	PUNCT	``	_	7	punct	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	admire	admire	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	7	ccomp	_	_
+4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	obj	_	_
+5	,	,	PUNCT	,	_	7	punct	_	_
+6	"	"	PUNCT	''	_	7	punct	_	_
+7	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+9	little	little	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	prince	prince	NOUN	NN	Number=Sing	7	nsubj	_	_
+11	,	,	PUNCT	,	_	10	punct	_	_
+12	shrugging	shrugge	VERB	VBG	VerbForm=Ger	10	acl	_	_
+13	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	14	nmod:poss	_	_
+14	shoulders	shoulder	NOUN	NNS	Number=Plur	12	obj	_	_
+15	slightly	slightly	ADV	RB	_	12	advmod	_	_
+16	,	,	PUNCT	,	_	7	punct	_	_
+17	"	"	PUNCT	''	_	7	punct	_	_
+18	but	but	CCONJ	CC	_	20	cc	_	_
+19	what	what	PRON	WP	PronType=Int	20	nsubj	_	_
+20	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	conj	_	_
+21	there	there	PRON	EX	_	20	expl	_	_
+22	in	in	ADP	IN	_	23	case	_	_
+23	that	that	PRON	DT	Number=Sing|PronType=Dem	20	obl	_	_
+24	to	to	PART	TO	_	25	mark	_	_
+25	interest	interest	VERB	VB	VerbForm=Inf	20	advcl	_	_
+26	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	25	obj	_	_
+27	so	so	ADV	RB	_	28	advmod	_	_
+28	much	much	ADJ	JJ	Degree=Pos	25	advmod	_	_
+29	?	?	PUNCT	.	_	7	punct	_	_
+30	"	"	PUNCT	''	_	7	punct	_	SpacesAfter=\s\n
 

@@ -1,6 +1,12 @@
 # newdoc
 # newpar
 # sent_id = lpp_1943.783
-# text = "
-1	"	"	PUNCT	``	_	0	root	_	_
+# text = " I follow a terrible profession .
+1	"	"	PUNCT	``	_	3	punct	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	follow	follow	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+5	terrible	terrible	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	profession	profession	NOUN	NN	Number=Sing	3	obj	_	_
+7	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\s\n
 

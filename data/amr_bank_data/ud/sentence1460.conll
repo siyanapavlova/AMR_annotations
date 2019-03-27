@@ -1,7 +1,7 @@
 # newdoc
 # newpar
 # sent_id = lpp_1943.1460
-# text = Then you will say to them , ' Yes , the stars always make me laugh ! '
+# text = Then you will say to them , ' Yes , the stars always make me laugh ! ' And they will think you are crazy .
 1	Then	then	ADV	RB	PronType=Dem	4	advmod	_	_
 2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	_
 3	will	will	AUX	MD	VerbForm=Fin	4	aux	_	_
@@ -20,4 +20,12 @@
 16	laugh	laugh	VERB	VB	VerbForm=Inf	14	xcomp	_	_
 17	!	!	PUNCT	.	_	4	punct	_	_
 18	'	'	PUNCT	''	_	4	punct	_	_
+19	And	and	CCONJ	CC	_	22	cc	_	_
+20	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	22	nsubj	_	_
+21	will	will	AUX	MD	VerbForm=Fin	22	aux	_	_
+22	think	think	VERB	VB	VerbForm=Inf	4	conj	_	_
+23	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	25	nsubj	_	_
+24	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	25	cop	_	_
+25	crazy	crazy	ADJ	JJ	Degree=Pos	22	ccomp	_	_
+26	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\s\n
 

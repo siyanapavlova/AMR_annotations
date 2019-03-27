@@ -1,6 +1,19 @@
 # newdoc
 # newpar
 # sent_id = lpp_1943.1215
-# text = "
-1	"	"	PUNCT	``	_	0	root	_	_
+# text = " And what do I do with those fifty - three minutes ? "
+1	"	"	PUNCT	``	_	6	punct	_	_
+2	And	and	CCONJ	CC	_	6	cc	_	_
+3	what	what	PRON	WP	PronType=Int	6	obj	_	_
+4	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	_
+5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+6	do	do	VERB	VB	VerbForm=Inf	0	root	_	_
+7	with	with	ADP	IN	_	12	case	_	_
+8	those	those	DET	DT	Number=Plur|PronType=Dem	12	det	_	_
+9	fifty	fifty	NUM	CD	NumType=Card	12	compound	_	_
+10	-	-	SYM	SYM	_	11	case	_	_
+11	three	three	NUM	CD	NumType=Card	9	nmod	_	_
+12	minutes	minute	NOUN	NNS	Number=Plur	6	obl	_	_
+13	?	?	PUNCT	.	_	6	punct	_	_
+14	"	"	PUNCT	''	_	6	punct	_	SpacesAfter=\s\n
 

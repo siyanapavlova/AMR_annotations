@@ -1,6 +1,19 @@
 # newdoc
 # newpar
 # sent_id = lpp_1943.569
-# text = "
-1	"	"	PUNCT	``	_	0	root	_	_
+# text = " We do not know that , " the king said to him .
+1	"	"	PUNCT	``	_	5	punct	_	_
+2	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	_
+3	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	not	not	PART	RB	_	5	advmod	_	_
+5	know	know	VERB	VB	VerbForm=Inf	0	root	_	_
+6	that	that	SCONJ	IN	_	11	mark	_	_
+7	,	,	PUNCT	,	_	11	punct	_	_
+8	"	"	PUNCT	``	_	11	punct	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	king	king	NOUN	NN	Number=Sing	11	nsubj	_	_
+11	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	ccomp	_	_
+12	to	to	ADP	IN	_	13	case	_	_
+13	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	obl	_	_
+14	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\s\n
 

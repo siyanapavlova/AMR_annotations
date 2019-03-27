@@ -1,6 +1,12 @@
 # newdoc
 # newpar
 # sent_id = lpp_1943.1052
-# text = "
-1	"	"	PUNCT	``	_	0	root	_	_
+# text = " I am not tamed . "
+1	"	"	PUNCT	``	_	5	punct	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj:pass	_	_
+3	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
+4	not	not	PART	RB	_	5	advmod	_	_
+5	tamed	tame	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+6	.	.	PUNCT	.	_	5	punct	_	_
+7	"	"	PUNCT	''	_	5	punct	_	SpacesAfter=\s\n
 

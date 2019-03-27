@@ -1,6 +1,11 @@
 # newdoc
 # newpar
 # sent_id = lpp_1943.799
-# text = "
-1	"	"	PUNCT	``	_	0	root	_	_
+# text = " Yes , a month .
+1	"	"	PUNCT	``	_	5	punct	_	_
+2	Yes	yes	INTJ	UH	_	5	discourse	_	_
+3	,	,	PUNCT	,	_	5	punct	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+5	month	month	NOUN	NN	Number=Sing	0	root	_	_
+6	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\s\n
 

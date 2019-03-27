@@ -1,6 +1,12 @@
 # newdoc
 # newpar
 # sent_id = lpp_1943.1050
-# text = "
-1	"	"	PUNCT	``	_	0	root	_	_
+# text = " I am so unhappy . "
+1	"	"	PUNCT	``	_	5	punct	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+3	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	so	so	ADV	RB	_	5	advmod	_	_
+5	unhappy	unhappy	ADJ	JJ	Degree=Pos	0	root	_	_
+6	.	.	PUNCT	.	_	5	punct	_	_
+7	"	"	PUNCT	''	_	5	punct	_	SpacesAfter=\s\n
 

@@ -1,6 +1,17 @@
 # newdoc
 # newpar
 # sent_id = lpp_1943.551
-# text = "
-1	"	"	PUNCT	``	_	0	root	_	_
+# text = " When will that be ? " inquired the little prince .
+1	"	"	PUNCT	``	_	5	punct	_	_
+2	When	when	ADV	WRB	PronType=Int	5	mark	_	_
+3	will	will	AUX	MD	VerbForm=Fin	5	aux	_	_
+4	that	that	PRON	DT	Number=Sing|PronType=Dem	5	nsubj	_	_
+5	be	be	VERB	VB	VerbForm=Inf	8	csubj	_	_
+6	?	?	PUNCT	.	_	5	punct	_	_
+7	"	"	PUNCT	''	_	5	punct	_	_
+8	inquired	inquire	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+10	little	little	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	prince	prince	NOUN	NN	Number=Sing	8	obj	_	_
+12	.	.	PUNCT	.	_	8	punct	_	SpacesAfter=\s\n
 

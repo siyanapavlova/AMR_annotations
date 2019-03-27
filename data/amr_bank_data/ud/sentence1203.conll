@@ -1,6 +1,22 @@
 # newdoc
 # newpar
 # sent_id = lpp_1943.1203
-# text = "
-1	"	"	PUNCT	``	_	0	root	_	_
+# text = " Only the children know what they are looking for , " said the little prince .
+1	"	"	PUNCT	``	_	13	punct	_	_
+2	Only	only	ADV	RB	_	5	advmod	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	children	child	NOUN	NNS	Number=Plur	5	nsubj	_	_
+5	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	13	ccomp	_	_
+6	what	what	PRON	WP	PronType=Int	5	obj	_	_
+7	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	9	nsubj	_	_
+8	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	looking	look	VERB	VBG	Tense=Pres|VerbForm=Part	6	acl:relcl	_	_
+10	for	for	ADP	IN	_	9	obl	_	_
+11	,	,	PUNCT	,	_	13	punct	_	_
+12	"	"	PUNCT	''	_	13	punct	_	_
+13	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+15	little	little	ADJ	JJ	Degree=Pos	16	amod	_	_
+16	prince	prince	NOUN	NN	Number=Sing	13	nsubj	_	_
+17	.	.	PUNCT	.	_	13	punct	_	SpacesAfter=\s\n
 

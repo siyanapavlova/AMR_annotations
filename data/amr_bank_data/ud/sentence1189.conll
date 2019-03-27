@@ -1,6 +1,19 @@
 # newdoc
 # newpar
 # sent_id = lpp_1943.1189
-# text = "
-1	"	"	PUNCT	``	_	0	root	_	_
+# text = " They are in a great hurry , " said the little prince .
+1	"	"	PUNCT	``	_	7	punct	_	_
+2	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	7	nsubj	_	_
+3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	7	cop	_	_
+4	in	in	ADP	IN	_	7	case	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+6	great	great	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	hurry	hurry	NOUN	NN	Number=Sing	10	ccomp	_	_
+8	,	,	PUNCT	,	_	10	punct	_	_
+9	"	"	PUNCT	''	_	10	punct	_	_
+10	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+12	little	little	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	prince	prince	NOUN	NN	Number=Sing	10	nsubj	_	_
+14	.	.	PUNCT	.	_	10	punct	_	SpacesAfter=\s\n
 

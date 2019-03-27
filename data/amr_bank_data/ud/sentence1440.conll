@@ -1,6 +1,11 @@
 # newdoc
 # newpar
 # sent_id = lpp_1943.1440
-# text = "
-1	"	"	PUNCT	``	_	0	root	_	_
+# text = " That is my present .
+1	"	"	PUNCT	``	_	5	punct	_	_
+2	That	that	PRON	DT	Number=Sing|PronType=Dem	5	nsubj	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+5	present	present	ADJ	JJ	Degree=Pos	0	root	_	_
+6	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\s\n
 

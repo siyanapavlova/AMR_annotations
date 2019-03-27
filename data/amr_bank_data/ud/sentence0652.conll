@@ -1,6 +1,13 @@
 # newdoc
 # newpar
 # sent_id = lpp_1943.652
-# text = "
-1	"	"	PUNCT	``	_	0	root	_	_
+# text = " Your cigarette has gone out . "
+1	"	"	PUNCT	``	_	5	punct	_	_
+2	Your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	3	nmod:poss	_	_
+3	cigarette	cigarette	NOUN	NN	Number=Sing	5	nsubj	_	_
+4	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	gone	go	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+6	out	out	ADP	RP	_	5	compound:prt	_	_
+7	.	.	PUNCT	.	_	5	punct	_	_
+8	"	"	PUNCT	''	_	5	punct	_	SpacesAfter=\s\n
 

@@ -1,6 +1,10 @@
 # newdoc
 # newpar
 # sent_id = lpp_1943.770
-# text = "
-1	"	"	PUNCT	``	_	0	root	_	_
+# text = " Good morning . "
+1	"	"	PUNCT	``	_	3	punct	_	_
+2	Good	good	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	morning	morning	NOUN	NN	Number=Sing	0	root	_	_
+4	.	.	PUNCT	.	_	3	punct	_	_
+5	"	"	PUNCT	''	_	3	punct	_	SpacesAfter=\s\n
 

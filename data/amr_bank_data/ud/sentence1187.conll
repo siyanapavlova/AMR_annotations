@@ -1,6 +1,26 @@
 # newdoc
 # newpar
 # sent_id = lpp_1943.1187
-# text = "
-1	"	"	PUNCT	``	_	0	root	_	_
+# text = " I send off the trains that carry them ; now to the right , now to the left . "
+1	"	"	PUNCT	``	_	3	punct	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	send	send	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	off	off	ADP	RP	_	3	compound:prt	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	trains	train	NOUN	NNS	Number=Plur	3	obj	_	_
+7	that	that	PRON	WDT	PronType=Rel	8	nsubj	_	_
+8	carry	carry	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
+9	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	8	obj	_	_
+10	;	;	PUNCT	,	_	3	punct	_	_
+11	now	now	ADV	RB	_	3	advmod	_	_
+12	to	to	ADP	IN	_	14	case	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+14	right	right	NOUN	NN	Number=Sing	3	obl	_	_
+15	,	,	PUNCT	,	_	3	punct	_	_
+16	now	now	ADV	RB	_	3	advmod	_	_
+17	to	to	ADP	IN	_	19	case	_	_
+18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+19	left	left	NOUN	NN	Number=Sing	3	obl	_	_
+20	.	.	PUNCT	.	_	3	punct	_	_
+21	"	"	PUNCT	''	_	3	punct	_	SpacesAfter=\s\n
 

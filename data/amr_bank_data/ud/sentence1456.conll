@@ -1,6 +1,12 @@
 # newdoc
 # newpar
 # sent_id =  time soothes all sorrows ) you will be content that you have known me . (lpp_1943.1456
-# text = "
-1	"	"	PUNCT	``	_	0	root	_	_
+# text = " And when your sorrow is comforted
+1	"	"	PUNCT	``	_	7	punct	_	_
+2	And	and	CCONJ	CC	_	7	cc	_	_
+3	when	when	ADV	WRB	PronType=Int	7	mark	_	_
+4	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+5	sorrow	sorrow	NOUN	NN	Number=Sing	7	nsubj:pass	_	_
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux:pass	_	_
+7	comforted	comfort	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	SpacesAfter=\s\n
 

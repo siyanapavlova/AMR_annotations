@@ -1,6 +1,20 @@
 # newdoc
 # newpar
 # sent_id = lpp_1943.1222
-# text = "
-1	"	"	PUNCT	``	_	0	root	_	_
+# text = " My friend the fox - - " the little prince said to me .
+1	"	"	PUNCT	``	_	3	punct	_	_
+2	My	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	3	nmod:poss	_	_
+3	friend	friend	NOUN	NN	Number=Sing	12	nsubj	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	fox	fox	NOUN	NN	Number=Sing	3	appos	_	_
+6	-	-	PUNCT	,	_	3	punct	_	_
+7	-	-	PUNCT	,	_	3	punct	_	_
+8	"	"	PUNCT	``	_	3	punct	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+10	little	little	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	prince	prince	NOUN	NN	Number=Sing	3	appos	_	_
+12	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+13	to	to	ADP	IN	_	14	case	_	_
+14	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	12	obl	_	_
+15	.	.	PUNCT	.	_	12	punct	_	SpacesAfter=\s\n
 

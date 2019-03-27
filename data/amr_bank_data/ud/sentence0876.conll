@@ -1,6 +1,16 @@
 # newdoc
 # newpar
 # sent_id = lpp_1943.876
-# text = "
-1	"	"	PUNCT	``	_	0	root	_	_
+# text = " But you - - you come from far away !
+1	"	"	PUNCT	``	_	7	punct	_	_
+2	But	but	CCONJ	CC	_	7	cc	_	_
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	7	nsubj	_	_
+4	-	-	PUNCT	,	_	3	punct	_	_
+5	-	-	PUNCT	,	_	7	punct	_	_
+6	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	7	nsubj	_	_
+7	come	come	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	from	from	ADP	IN	_	9	case	_	_
+9	far	far	ADV	RB	Degree=Pos	10	advmod	_	_
+10	away	away	ADV	RB	_	7	advmod	_	_
+11	!	!	PUNCT	.	_	7	punct	_	SpacesAfter=\s\n
 

@@ -1,6 +1,24 @@
 # newdoc
 # newpar
 # sent_id = lpp_1943.563
-# text = "
-1	"	"	PUNCT	``	_	0	root	_	_
+# text = " Do not go , " said the king , who was very proud of having a subject .
+1	"	"	PUNCT	``	_	4	punct	_	_
+2	Do	do	AUX	VB	Mood=Imp|VerbForm=Fin	4	aux	_	_
+3	not	not	PART	RB	_	4	advmod	_	_
+4	go	go	VERB	VB	Mood=Imp|VerbForm=Fin	7	ccomp	_	_
+5	,	,	PUNCT	,	_	7	punct	_	_
+6	"	"	PUNCT	''	_	7	punct	_	_
+7	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	king	king	NOUN	NN	Number=Sing	7	nsubj	_	_
+10	,	,	PUNCT	,	_	9	punct	_	_
+11	who	who	PRON	WP	PronType=Rel	14	nsubj	_	_
+12	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	cop	_	_
+13	very	very	ADV	RB	_	14	advmod	_	_
+14	proud	proud	ADJ	JJ	Degree=Pos	9	acl:relcl	_	_
+15	of	of	SCONJ	IN	_	16	mark	_	_
+16	having	have	VERB	VBG	VerbForm=Ger	14	advcl	_	_
+17	a	a	DET	DT	Definite=Ind|PronType=Art	18	det	_	_
+18	subject	subject	NOUN	NN	Number=Sing	16	obj	_	_
+19	.	.	PUNCT	.	_	7	punct	_	SpacesAfter=\s\n
 

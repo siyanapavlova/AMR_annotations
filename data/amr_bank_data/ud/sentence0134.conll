@@ -1,6 +1,10 @@
 # newdoc
 # newpar
 # sent_id = lpp_1943.134
-# text = "
-1	"	"	PUNCT	``	_	0	root	_	_
+# text = " That is so .
+1	"	"	PUNCT	``	_	4	punct	_	_
+2	That	that	PRON	DT	Number=Sing|PronType=Dem	4	nsubj	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	so	so	ADV	RB	_	0	root	_	_
+5	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\s\n
 

@@ -1,6 +1,27 @@
 # newdoc
 # newpar
 # sent_id = lpp_1943.673
-# text = "
-1	"	"	PUNCT	``	_	0	root	_	_
+# text = " During the fifty - four years that I have inhabited this planet , I have been disturbed only three times .
+1	"	"	PUNCT	``	_	18	punct	_	_
+2	During	during	ADP	IN	_	7	case	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+4	fifty	fifty	NUM	CD	NumType=Card	6	compound	_	_
+5	-	-	SYM	SYM	_	6	case	_	_
+6	four	four	NUM	CD	NumType=Card	7	nummod	_	_
+7	years	year	NOUN	NNS	Number=Plur	18	obl	_	_
+8	that	that	PRON	WDT	PronType=Rel	11	obj	_	_
+9	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
+10	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	inhabited	inhabit	VERB	VBN	Tense=Past|VerbForm=Part	7	acl:relcl	_	_
+12	this	this	DET	DT	Number=Sing|PronType=Dem	13	det	_	_
+13	planet	planet	NOUN	NN	Number=Sing	11	obj	_	_
+14	,	,	PUNCT	,	_	18	punct	_	_
+15	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	18	nsubj:pass	_	_
+16	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	18	aux	_	_
+17	been	be	AUX	VBN	Tense=Past|VerbForm=Part	18	aux:pass	_	_
+18	disturbed	distur	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+19	only	only	ADV	RB	_	20	advmod	_	_
+20	three	three	NUM	CD	NumType=Card	21	nummod	_	_
+21	times	time	NOUN	NNS	Number=Plur	18	obl:tmod	_	_
+22	.	.	PUNCT	.	_	18	punct	_	SpacesAfter=\s\n
 

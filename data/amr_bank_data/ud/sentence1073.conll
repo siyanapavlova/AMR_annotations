@@ -1,6 +1,29 @@
 # newdoc
 # newpar
 # sent_id = lpp_1943.1073
-# text = "
-1	"	"	PUNCT	``	_	0	root	_	_
+# text = " To me , you are still nothing more than a little boy who is just like a hundred thousand other little boys .
+1	"	"	PUNCT	``	_	8	punct	_	_
+2	To	to	ADP	IN	_	3	case	_	_
+3	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	8	obl	_	_
+4	,	,	PUNCT	,	_	8	punct	_	_
+5	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	8	nsubj	_	_
+6	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	8	cop	_	_
+7	still	still	ADV	RB	_	8	advmod	_	_
+8	nothing	nothing	PRON	NN	Number=Sing	0	root	_	_
+9	more	more	ADJ	JJR	Degree=Cmp	8	amod	_	_
+10	than	than	ADP	IN	_	13	case	_	_
+11	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	_
+12	little	little	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	boy	boy	NOUN	NN	Number=Sing	9	obl	_	_
+14	who	who	PRON	WP	PronType=Rel	23	nsubj	_	_
+15	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	cop	_	_
+16	just	just	ADV	RB	_	23	advmod	_	_
+17	like	like	ADP	IN	_	23	case	_	_
+18	a	a	DET	DT	Definite=Ind|PronType=Art	23	det	_	_
+19	hundred	hundred	NUM	CD	NumType=Card	20	nummod	_	_
+20	thousand	thousand	NUM	CD	NumType=Card	23	nummod	_	_
+21	other	other	ADJ	JJ	Degree=Pos	23	amod	_	_
+22	little	little	ADJ	JJ	Degree=Pos	23	amod	_	_
+23	boys	boy	NOUN	NNS	Number=Plur	8	acl:relcl	_	_
+24	.	.	PUNCT	.	_	8	punct	_	SpacesAfter=\s\n
 

@@ -1,6 +1,16 @@
 # newdoc
 # newpar
 # sent_id = lpp_1943.326
-# text = "
-1	"	"	PUNCT	``	_	0	root	_	_
+# text = " You talk just like the grown - ups ! "
+1	"	"	PUNCT	``	_	3	punct	_	_
+2	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	_
+3	talk	talk	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	just	just	ADV	RB	_	9	advmod	_	_
+5	like	like	ADP	IN	_	9	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+7	grown	grow	VERB	VBN	Tense=Past|VerbForm=Part	9	amod	_	_
+8	-	-	PUNCT	HYPH	_	9	punct	_	_
+9	ups	up	NOUN	NNS	Number=Plur	3	obl	_	_
+10	!	!	PUNCT	.	_	3	punct	_	_
+11	"	"	PUNCT	''	_	3	punct	_	SpacesAfter=\s\n
 

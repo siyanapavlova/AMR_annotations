@@ -1,6 +1,16 @@
 # newdoc
 # newpar
 # sent_id = lpp_1943.1452
-# text = "
-1	"	"	PUNCT	``	_	0	root	_	_
+# text = " In one of the stars I shall be living .
+1	"	"	PUNCT	``	_	10	punct	_	_
+2	In	in	ADP	IN	_	3	case	_	_
+3	one	one	NUM	CD	NumType=Card	10	obl	_	_
+4	of	of	ADP	IN	_	6	case	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	stars	star	NOUN	NNS	Number=Plur	3	nmod	_	_
+7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+8	shall	shall	AUX	MD	VerbForm=Fin	10	aux	_	_
+9	be	be	AUX	VB	VerbForm=Inf	10	aux	_	_
+10	living	live	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+11	.	.	PUNCT	.	_	10	punct	_	SpacesAfter=\s\n
 

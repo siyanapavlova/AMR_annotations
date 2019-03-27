@@ -1,6 +1,13 @@
 # newdoc
 # newpar
 # sent_id = lpp_1943.889
-# text = "
-1	"	"	PUNCT	``	_	0	root	_	_
+# text = " I have also a flower . "
+1	"	"	PUNCT	``	_	3	punct	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	also	also	ADV	RB	_	6	advmod	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+6	flower	flower	NOUN	NN	Number=Sing	3	obj	_	_
+7	.	.	PUNCT	.	_	3	punct	_	_
+8	"	"	PUNCT	''	_	3	punct	_	SpacesAfter=\s\n
 

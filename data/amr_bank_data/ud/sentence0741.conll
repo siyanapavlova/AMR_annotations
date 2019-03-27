@@ -1,6 +1,12 @@
 # newdoc
 # newpar
 # sent_id = lpp_1943.741
-# text = "
-1	"	"	PUNCT	``	_	0	root	_	_
+# text = " And that is all ? "
+1	"	"	PUNCT	``	_	5	punct	_	_
+2	And	and	CCONJ	CC	_	5	cc	_	_
+3	that	that	PRON	DT	Number=Sing|PronType=Dem	5	nsubj	_	_
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	all	all	DET	DT	_	0	root	_	_
+6	?	?	PUNCT	.	_	5	punct	_	_
+7	"	"	PUNCT	''	_	5	punct	_	SpacesAfter=\s\n
 

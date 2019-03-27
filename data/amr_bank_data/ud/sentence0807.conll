@@ -1,6 +1,17 @@
 # newdoc
 # newpar
 # sent_id = lpp_1943.807
-# text = "
-1	"	"	PUNCT	``	_	0	root	_	_
+# text = " I always want to rest , " said the lamplighter .
+1	"	"	PUNCT	``	_	4	punct	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+3	always	always	ADV	RB	_	4	advmod	_	_
+4	want	want	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	9	ccomp	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	rest	rest	VERB	VB	VerbForm=Inf	4	xcomp	_	_
+7	,	,	PUNCT	,	_	9	punct	_	_
+8	"	"	PUNCT	''	_	9	punct	_	_
+9	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	lamplighter	lamplighter	NOUN	NN	Number=Sing	9	nsubj	_	_
+12	.	.	PUNCT	.	_	9	punct	_	SpacesAfter=\s\n
 

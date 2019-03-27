@@ -1,6 +1,10 @@
 # newdoc
 # newpar
 # sent_id = lpp_1943.533
-# text = "
-1	"	"	PUNCT	``	_	0	root	_	_
+# text = " They obey instantly .
+1	"	"	PUNCT	``	_	4	punct	_	_
+2	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	_
+3	obey	obey	ADV	RB	_	4	advmod	_	_
+4	instantly	instantly	ADV	RB	_	0	root	_	_
+5	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\s\n
 

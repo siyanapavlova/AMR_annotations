@@ -1,6 +1,22 @@
 # newdoc
 # newpar
 # sent_id = lpp_1943.622
-# text = "
-1	"	"	PUNCT	``	_	0	root	_	_
+# text = " And what should one do to make the hat come down ? " he asked .
+1	"	"	PUNCT	``	_	6	punct	_	_
+2	And	and	CCONJ	CC	_	6	cc	_	_
+3	what	what	PRON	WP	PronType=Int	6	obj	_	_
+4	should	should	AUX	MD	VerbForm=Fin	6	aux	_	_
+5	one	one	NUM	CD	NumType=Card	6	nsubj	_	_
+6	do	do	VERB	VB	VerbForm=Inf	16	ccomp	_	_
+7	to	to	PART	TO	_	8	mark	_	_
+8	make	make	VERB	VB	VerbForm=Inf	6	advcl	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	hat	hat	NOUN	NN	Number=Sing	8	obj	_	_
+11	come	come	VERB	VB	VerbForm=Inf	8	xcomp	_	_
+12	down	down	ADV	RB	_	11	advmod	_	_
+13	?	?	PUNCT	.	_	6	punct	_	_
+14	"	"	PUNCT	''	_	6	punct	_	_
+15	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	_
+16	asked	ask	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+17	.	.	PUNCT	.	_	16	punct	_	SpacesAfter=\s\n
 

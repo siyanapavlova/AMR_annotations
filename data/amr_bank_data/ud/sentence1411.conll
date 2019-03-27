@@ -1,6 +1,16 @@
 # newdoc
 # newpar
 # sent_id = lpp_1943.1411
-# text = "
-1	"	"	PUNCT	``	_	0	root	_	_
+# text = " I shall be much more afraid this evening ... "
+1	"	"	PUNCT	``	_	7	punct	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+3	shall	shall	AUX	MD	VerbForm=Fin	7	aux	_	_
+4	be	be	AUX	VB	VerbForm=Inf	7	cop	_	_
+5	much	much	ADV	RB	_	6	advmod	_	_
+6	more	more	ADV	RBR	_	7	advmod	_	_
+7	afraid	afraid	ADJ	JJ	Degree=Pos	0	root	_	_
+8	this	this	DET	DT	Number=Sing|PronType=Dem	9	det	_	_
+9	evening	evening	NOUN	NN	Number=Sing	7	obl:tmod	_	_
+10	...	...	PUNCT	.	_	7	punct	_	_
+11	"	"	PUNCT	''	_	7	punct	_	SpacesAfter=\s\n
 

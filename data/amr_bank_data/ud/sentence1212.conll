@@ -1,6 +1,20 @@
 # newdoc
 # newpar
 # sent_id = lpp_1943.1212
-# text = "
-1	"	"	PUNCT	``	_	0	root	_	_
+# text = " Because they save a tremendous amount of time , " said the merchant .
+1	"	"	PUNCT	``	_	12	punct	_	_
+2	Because	because	SCONJ	IN	_	4	mark	_	_
+3	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	_
+4	save	save	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	12	ccomp	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+6	tremendous	tremendous	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	amount	amount	NOUN	NN	Number=Sing	4	obj	_	_
+8	of	of	ADP	IN	_	9	case	_	_
+9	time	time	NOUN	NN	Number=Sing	7	nmod	_	_
+10	,	,	PUNCT	,	_	12	punct	_	_
+11	"	"	PUNCT	''	_	12	punct	_	_
+12	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+14	merchant	merchant	NOUN	NN	Number=Sing	12	nsubj	_	_
+15	.	.	PUNCT	.	_	12	punct	_	SpacesAfter=\s\n
 

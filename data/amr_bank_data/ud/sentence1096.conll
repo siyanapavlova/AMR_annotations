@@ -1,6 +1,17 @@
 # newdoc
 # newpar
 # sent_id = lpp_1943.1096
-# text = "
-1	"	"	PUNCT	``	_	0	root	_	_
+# text = " My life is very monotonous , " the fox said .
+1	"	"	PUNCT	``	_	11	punct	_	_
+2	My	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	3	nmod:poss	_	_
+3	life	life	NOUN	NN	Number=Sing	6	nsubj	_	_
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	very	very	ADV	RB	_	6	advmod	_	_
+6	monotonous	monotonous	ADJ	JJ	Degree=Pos	11	ccomp	_	_
+7	,	,	PUNCT	,	_	11	punct	_	_
+8	"	"	PUNCT	''	_	11	punct	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	fox	fox	NOUN	NN	Number=Sing	11	nsubj	_	_
+11	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+12	.	.	PUNCT	.	_	11	punct	_	SpacesAfter=\s\n
 

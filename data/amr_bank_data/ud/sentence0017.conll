@@ -1,8 +1,57 @@
 # newdoc
 # newpar
 # sent_id = lpp_1943.17
-# text = My Drawing Number
+# text = My Drawing Number Two looked like this : The grown - ups ' response , this time , was to advise me to lay aside my drawings of boa constrictors , whether from the inside or the outside , and devote myself instead to geography , history , arithmetic and grammar .
 1	My	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
-2	Drawing	Drawing	PROPN	NNP	Number=Sing	0	root	_	_
-3	Number	number	PROPN	NNP	Number=Sing	2	flat	_	_
+2	Drawing	Drawing	PROPN	NNP	Number=Sing	5	nsubj	_	_
+3	Number	Number	PROPN	NNP	Number=Sing	2	flat	_	_
+4	Two	two	PROPN	NNP	Number=Sing	2	flat	_	_
+5	looked	look	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+6	like	like	ADP	IN	_	7	case	_	_
+7	this	this	PRON	DT	Number=Sing|PronType=Dem	5	obl	_	_
+8	:	:	PUNCT	:	_	5	punct	_	_
+9	The	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+10	grown	grow	VERB	VBN	Tense=Past|VerbForm=Part	12	amod	_	_
+11	-	-	PUNCT	HYPH	_	12	punct	_	_
+12	ups	up	NOUN	NNS	Number=Plur	14	nmod:poss	_	_
+13	'	's	PART	POS	_	12	case	_	_
+14	response	response	NOUN	NN	Number=Sing	5	appos	_	_
+15	,	,	PUNCT	,	_	14	punct	_	_
+16	this	this	DET	DT	Number=Sing|PronType=Dem	17	det	_	_
+17	time	time	NOUN	NN	Number=Sing	5	obj	_	_
+18	,	,	PUNCT	,	_	19	punct	_	_
+19	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	parataxis	_	_
+20	to	to	PART	TO	_	21	mark	_	_
+21	advise	advise	VERB	VB	VerbForm=Inf	19	advcl	_	_
+22	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	21	obj	_	_
+23	to	to	PART	TO	_	24	mark	_	_
+24	lay	lay	VERB	VB	VerbForm=Inf	21	xcomp	_	_
+25	aside	aside	ADP	RP	_	27	case	_	_
+26	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	27	nmod:poss	_	_
+27	drawings	drawing	NOUN	NNS	Number=Plur	24	obl	_	_
+28	of	of	ADP	IN	_	30	case	_	_
+29	boa	boa	NOUN	NN	Number=Sing	30	compound	_	_
+30	constrictors	constrictor	NOUN	NNS	Number=Plur	27	nmod	_	_
+31	,	,	PUNCT	,	_	5	punct	_	_
+32	whether	whether	SCONJ	IN	_	35	mark	_	_
+33	from	from	ADP	IN	_	35	case	_	_
+34	the	the	DET	DT	Definite=Def|PronType=Art	35	det	_	_
+35	inside	inside	NOUN	NN	Number=Sing	5	advcl	_	_
+36	or	or	CCONJ	CC	_	38	cc	_	_
+37	the	the	DET	DT	Definite=Def|PronType=Art	38	det	_	_
+38	outside	outside	ADJ	JJ	Degree=Pos	35	conj	_	_
+39	,	,	PUNCT	,	_	41	punct	_	_
+40	and	and	CCONJ	CC	_	41	cc	_	_
+41	devote	devote	VERB	VB	VerbForm=Inf	5	conj	_	_
+42	myself	myself	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	41	obj	_	_
+43	instead	instead	ADV	RB	_	45	case	_	_
+44	to	to	ADP	IN	_	43	fixed	_	_
+45	geography	geography	NOUN	NN	Number=Sing	41	obl	_	_
+46	,	,	PUNCT	,	_	47	punct	_	_
+47	history	history	NOUN	NN	Number=Sing	5	conj	_	_
+48	,	,	PUNCT	,	_	49	punct	_	_
+49	arithmetic	arithmetic	NOUN	NN	Number=Sing	5	conj	_	_
+50	and	and	CCONJ	CC	_	51	cc	_	_
+51	grammar	grammar	NOUN	NN	Number=Sing	5	conj	_	_
+52	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\s\n
 

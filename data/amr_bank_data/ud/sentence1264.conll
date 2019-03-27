@@ -1,6 +1,28 @@
 # newdoc
 # newpar
 # sent_id = lpp_1943.1264
-# text = "
-1	"	"	PUNCT	``	_	0	root	_	_
+# text = " The house , the stars , the desert - - what gives them their beauty is something that is invisible ! "
+1	"	"	PUNCT	``	_	3	punct	_	_
+2	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	house	house	NOUN	NN	Number=Sing	18	nsubj	_	_
+4	,	,	PUNCT	,	_	3	punct	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	stars	star	NOUN	NNS	Number=Plur	3	appos	_	_
+7	,	,	PUNCT	,	_	3	punct	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	desert	desert	NOUN	NN	Number=Sing	3	appos	_	_
+10	-	-	PUNCT	,	_	9	punct	_	_
+11	-	-	PUNCT	,	_	3	punct	_	_
+12	what	what	PRON	WP	PronType=Int	13	nsubj	_	_
+13	gives	give	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+14	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	13	iobj	_	_
+15	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	16	nmod:poss	_	_
+16	beauty	beauty	NOUN	NN	Number=Sing	13	obj	_	_
+17	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
+18	something	something	PRON	NN	Number=Sing	0	root	_	_
+19	that	that	PRON	WDT	PronType=Rel	21	nsubj	_	_
+20	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	cop	_	_
+21	invisible	invisible	ADJ	JJ	Degree=Pos	18	acl:relcl	_	_
+22	!	!	PUNCT	.	_	18	punct	_	_
+23	"	"	PUNCT	''	_	18	punct	_	SpacesAfter=\s\n
 

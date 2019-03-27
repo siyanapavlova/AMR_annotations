@@ -1,6 +1,19 @@
 # newdoc
 # newpar
 # sent_id = lpp_1943.1138
-# text = "
-1	"	"	PUNCT	``	_	0	root	_	_
+# text = " Those also are actions too often neglected , " said the fox .
+1	"	"	PUNCT	``	_	5	punct	_	_
+2	Those	those	PRON	DT	Number=Plur|PronType=Dem	5	nsubj	_	_
+3	also	also	ADV	RB	_	5	advmod	_	_
+4	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	actions	action	NOUN	NNS	Number=Plur	11	ccomp	_	_
+6	too	too	ADV	RB	_	8	advmod	_	_
+7	often	often	ADV	RB	_	8	advmod	_	_
+8	neglected	neglect	VERB	VBN	Tense=Past|VerbForm=Part	5	acl	_	_
+9	,	,	PUNCT	,	_	11	punct	_	_
+10	"	"	PUNCT	''	_	11	punct	_	_
+11	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	fox	fox	NOUN	NN	Number=Sing	11	nsubj	_	_
+14	.	.	PUNCT	.	_	11	punct	_	SpacesAfter=\s\n
 

@@ -1,6 +1,11 @@
 # newdoc
 # newpar
 # sent_id = lpp_1943.1087
-# text = "
-1	"	"	PUNCT	``	_	0	root	_	_
+# text = " On another planet ? "
+1	"	"	PUNCT	``	_	4	punct	_	_
+2	On	on	ADP	IN	_	4	case	_	_
+3	another	another	DET	DT	_	4	det	_	_
+4	planet	planet	NOUN	NN	Number=Sing	0	root	_	_
+5	?	?	PUNCT	.	_	4	punct	_	_
+6	"	"	PUNCT	''	_	4	punct	_	SpacesAfter=\s\n
 

@@ -1,6 +1,11 @@
 # newdoc
 # newpar
 # sent_id = lpp_1943.794
-# text = "
-1	"	"	PUNCT	``	_	0	root	_	_
+# text = " That is very funny !
+1	"	"	PUNCT	``	_	5	punct	_	_
+2	That	that	PRON	DT	Number=Sing|PronType=Dem	5	nsubj	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	very	very	ADV	RB	_	5	advmod	_	_
+5	funny	funny	ADJ	JJ	Degree=Pos	0	root	_	_
+6	!	!	PUNCT	.	_	5	punct	_	SpacesAfter=\s\n
 

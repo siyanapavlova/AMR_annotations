@@ -1,6 +1,41 @@
 # newdoc
 # newpar
 # sent_id = lpp_1943.905
-# text = "
-1	"	"	PUNCT	``	_	0	root	_	_
+# text = " But what does that mean - - ' ephemeral ' ? " repeated the little prince , who never in his life had let go of a question , once he had asked it .
+1	"	"	PUNCT	``	_	6	punct	_	_
+2	But	but	CCONJ	CC	_	6	cc	_	_
+3	what	what	PRON	WP	PronType=Int	6	obj	_	_
+4	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+5	that	that	PRON	DT	Number=Sing|PronType=Dem	6	nsubj	_	_
+6	mean	mean	VERB	VB	VerbForm=Inf	0	root	_	_
+7	-	-	PUNCT	HYPH	_	6	punct	_	_
+8	-	-	PUNCT	HYPH	_	10	punct	_	_
+9	'	'	PUNCT	``	_	10	punct	_	_
+10	ephemeral	ephemeral	NOUN	NN	Number=Sing	6	parataxis	_	_
+11	'	'	PUNCT	''	_	10	punct	_	_
+12	?	?	PUNCT	.	_	6	punct	_	_
+13	"	"	PUNCT	''	_	6	punct	_	_
+14	repeated	repeate	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	6	ccomp	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+16	little	little	ADJ	JJ	Degree=Pos	17	amod	_	_
+17	prince	prince	NOUN	NN	Number=Sing	14	obj	_	_
+18	,	,	PUNCT	,	_	17	punct	_	_
+19	who	who	PRON	WP	PronType=Rel	25	nsubj:pass	_	_
+20	never	never	ADV	RB	_	23	advmod	_	_
+21	in	in	ADP	IN	_	23	case	_	_
+22	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	23	nmod:poss	_	_
+23	life	life	NOUN	NN	Number=Sing	25	obl	_	_
+24	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	25	aux	_	_
+25	let	let	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	17	acl:relcl	_	_
+26	go	go	NOUN	NN	Number=Sing	25	obj	_	_
+27	of	of	ADP	IN	_	29	case	_	_
+28	a	a	DET	DT	Definite=Ind|PronType=Art	29	det	_	_
+29	question	question	NOUN	NN	Number=Sing	25	obl	_	_
+30	,	,	PUNCT	,	_	25	punct	_	_
+31	once	once	SCONJ	IN	_	34	mark	_	_
+32	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	34	nsubj	_	_
+33	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	34	aux	_	_
+34	asked	ask	VERB	VBN	Tense=Past|VerbForm=Part	25	advcl	_	_
+35	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	34	obj	_	_
+36	.	.	PUNCT	.	_	6	punct	_	SpacesAfter=\s\n
 

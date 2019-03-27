@@ -1,6 +1,13 @@
 # newdoc
 # newpar
 # sent_id = lpp_1943.1166
-# text = "
-1	"	"	PUNCT	``	_	0	root	_	_
+# text = " One could not die for you .
+1	"	"	PUNCT	``	_	5	punct	_	_
+2	One	one	PRON	PRP	_	5	nsubj	_	_
+3	could	could	AUX	MD	VerbForm=Fin	5	aux	_	_
+4	not	not	PART	RB	_	5	advmod	_	_
+5	die	die	VERB	VB	VerbForm=Inf	0	root	_	_
+6	for	for	ADP	IN	_	7	case	_	_
+7	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	5	obl	_	_
+8	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\s\n
 

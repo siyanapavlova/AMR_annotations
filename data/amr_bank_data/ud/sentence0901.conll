@@ -1,6 +1,17 @@
 # newdoc
 # newpar
 # sent_id = lpp_1943.901
-# text = "
-1	"	"	PUNCT	``	_	0	root	_	_
+# text = " What does that mean - - ' ephemeral ' ? "
+1	"	"	PUNCT	``	_	5	punct	_	_
+2	What	what	PRON	WP	PronType=Int	5	obj	_	_
+3	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	that	that	PRON	DT	Number=Sing|PronType=Dem	5	nsubj	_	_
+5	mean	mean	VERB	VB	VerbForm=Inf	0	root	_	_
+6	-	-	PUNCT	HYPH	_	5	punct	_	_
+7	-	-	PUNCT	HYPH	_	5	punct	_	_
+8	'	'	PUNCT	``	_	5	punct	_	_
+9	ephemeral	ephemeral	NOUN	NN	Number=Sing	5	parataxis	_	_
+10	'	'	PUNCT	''	_	9	punct	_	_
+11	?	?	PUNCT	.	_	5	punct	_	_
+12	"	"	PUNCT	''	_	5	punct	_	SpacesAfter=\s\n
 

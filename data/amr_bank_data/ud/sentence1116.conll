@@ -1,6 +1,13 @@
 # newdoc
 # newpar
 # sent_id = lpp_1943.1116
-# text = "
-1	"	"	PUNCT	``	_	0	root	_	_
+# text = " But I have not much time .
+1	"	"	PUNCT	``	_	4	punct	_	_
+2	But	but	CCONJ	CC	_	4	cc	_	_
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+4	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	not	not	ADV	RB	_	6	advmod	_	_
+6	much	much	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	time	time	NOUN	NN	Number=Sing	4	obj	_	_
+8	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\s\n
 

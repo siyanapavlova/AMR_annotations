@@ -1,6 +1,23 @@
 # newdoc
 # newpar
 # sent_id = lpp_1943.973
-# text = "
-1	"	"	PUNCT	``	_	0	root	_	_
+# text = " But I am more powerful than the finger of a king , " said the snake .
+1	"	"	PUNCT	``	_	6	punct	_	_
+2	But	but	CCONJ	CC	_	6	cc	_	_
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+4	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	more	more	ADV	RBR	_	6	advmod	_	_
+6	powerful	powerful	ADJ	JJ	Degree=Pos	15	ccomp	_	_
+7	than	than	ADP	IN	_	9	case	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	finger	finger	NOUN	NN	Number=Sing	6	obl	_	_
+10	of	of	ADP	IN	_	12	case	_	_
+11	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	_
+12	king	king	NOUN	NN	Number=Sing	9	nmod	_	_
+13	,	,	PUNCT	,	_	15	punct	_	_
+14	"	"	PUNCT	''	_	15	punct	_	_
+15	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+17	snake	snake	NOUN	NN	Number=Sing	15	nsubj	_	_
+18	.	.	PUNCT	.	_	15	punct	_	SpacesAfter=\s\n
 

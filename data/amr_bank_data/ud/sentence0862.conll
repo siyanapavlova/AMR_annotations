@@ -1,6 +1,22 @@
 # newdoc
 # newpar
 # sent_id = lpp_1943.862
-# text = "
-1	"	"	PUNCT	``	_	0	root	_	_
+# text = " Because an explorer who told lies would bring disaster on the books of the geographer .
+1	"	"	PUNCT	``	_	9	punct	_	_
+2	Because	because	SCONJ	IN	_	9	mark	_	_
+3	an	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
+4	explorer	explorer	NOUN	NN	Number=Sing	9	nsubj	_	_
+5	who	who	PRON	WP	PronType=Rel	6	nsubj	_	_
+6	told	tell	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	acl:relcl	_	_
+7	lies	lie	NOUN	NNS	Number=Plur	6	obj	_	_
+8	would	would	AUX	MD	VerbForm=Fin	9	aux	_	_
+9	bring	bring	VERB	VB	VerbForm=Inf	0	root	_	_
+10	disaster	disaster	NOUN	NN	Number=Sing	9	obj	_	_
+11	on	on	ADP	IN	_	13	case	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	books	book	NOUN	NNS	Number=Plur	9	obl	_	_
+14	of	of	ADP	IN	_	16	case	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	geographer	geographer	NOUN	NN	Number=Sing	13	nmod	_	_
+17	.	.	PUNCT	.	_	9	punct	_	SpacesAfter=\s\n
 
