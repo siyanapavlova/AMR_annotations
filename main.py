@@ -9,8 +9,8 @@ def run_pipeline(load_path, save_path):
 	print(load_path)
 	# load the UD graph 
 	ud_graph = ud_to_amr.load_data(load_path)
-	pp.pprint(ud_graph)
-	print("Grew graph loaded \n")
+	#pp.pprint(ud_graph)
+	#print("Grew graph loaded \n")
 	# print(ud_graph)
 
 	# run a simple GRS 
@@ -21,7 +21,7 @@ def run_pipeline(load_path, save_path):
 	# print(new_graphs[0])
 	# print(len(new_graphs))
 	# ud_to_amr.save_data(new_graphs[0],save_path)
-	pp.pprint(new_graphs[0])
+	#pp.pprint(new_graphs[0])
 	print(amr_graph_to_text.amr_grew_to_text(new_graphs))
 
 if __name__=="__main__":
@@ -31,7 +31,7 @@ if __name__=="__main__":
 
 	seed(1)
 	# sentence_nums = sample(range(1,1562,1),20)
-	sentence_nums = [5]
+	sentence_nums = [2]
 	print(sentence_nums)
 	for num in sentence_nums:
 		run_pipeline('./data/amr_bank_data/ud/sentence'+"{:04d}".format(num)+'.conll', './data/evaluation/sentence'+"{:04d}".format(num)+'.conll')

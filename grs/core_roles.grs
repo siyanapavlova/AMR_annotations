@@ -30,6 +30,20 @@ rule pred_obj(lex from "lexicons/subcat/verb_nsubj_obj.lp"){
 	}
 }
 
+% The predicate has a subject and an object
+rule pred_nsubj(lex from "lexicons/subcat/verb_nsubj_obj.lp"){
+	pattern {
+		V[cat=VERB, lemma=lex.lemma];
+		nsubj_rel: V -[nsubj]-> NSUBJ;
+	}
+	commands {
+		del_edge nsubj_rel;
+		add_edge V -[lex.doer]-> NSUBJ;
+		V.concept = lex.concept;
+		NSUBJ.concept = NSUBJ.form;
+	}
+}
+
 %% Noun which has an amod and has not been changed by noun_amod_arg_of
 %rule noun_amod2{
 %	pattern{
@@ -239,10 +253,10 @@ rule cc_to_op{
 %Add a concept to each word
 rule add_concept{
 	pattern{
-		N [];
+		N [lemma];
 	}
 	without{
-		N.concept=re".+";
+		N [concept];
 	}
 	commands{
 		%N.concept = "dummyConcept";

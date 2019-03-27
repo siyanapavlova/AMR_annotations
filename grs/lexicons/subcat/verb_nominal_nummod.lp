@@ -7,6 +7,8 @@ km	distance-quantity
 sqm	area-quantity
 litre	volume-quantity
 hour	temporal-quantity
+year	temporal-quantity
+month	temporal-quantity
 weekly	frequency-quantity
 kmh	speed-quantity
 m/s2	acceleration-quantity
