@@ -170,3 +170,15 @@ rule verb_nominal_nummod_obj(lex1 from "lexicons/subcat/verb_nominal_nummod.lp",
 %		add_edge GOV -[mod]-> Nominal;
 %	}
 %}
+
+% there is an advcl tag. advcl relations in UD can denote temporal consequence, conditional clause, purpose clause. 
+rule advcl_general{
+	pattern{
+		advcl_rel: GOV -[advcl]-> DEP;
+	}
+	commands{
+		add_edge GOV -[alert_ADVCL]-> DEP; 
+		del_edge advcl_rel;
+	}
+}
+

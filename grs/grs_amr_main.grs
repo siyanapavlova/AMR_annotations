@@ -25,6 +25,7 @@ strat simple {
     Iter (pred_nsubj),
     %Iter (noun_amod),  % identify nouns with an amod. Add the :mod role. 
     Iter (ccomp_verbadv_notcop),  % delete determiners
+	Iter (advcl_general),
     %Iter (iobj_nom_lex), % delete punctuation
   	%Iter (iobj_nom_notlex), % identify temporal or locational ARG2 roles
   	Iter (remove_det), 
@@ -33,17 +34,17 @@ strat simple {
   	Iter (remove_punct),
   	Iter (nmod),
   	%Iter (cc_to_op_morethan2),
-  	%Iter (cc_to_op), % identify nummod relations following verbs as part of obj
-  	%Iter (obl_temporal), % identify nummod relations following verbs as part of obj	
-	  %Iter (obl_agent), % identify nummod relations following verbs as part of obj
-  	%Iter (obl_nosubtag), % identify nummod relations following verbs as part of obj
-  	%Iter (compound_find_join), % identify nummod relations following verbs as part of obj
-  	%Iter (compoundpart_find_join), % identify nummod relations following verbs as part of obj
-  	%Iter (advmod_lemmapred_polarity), % identify nummod relations following verbs as part of obj
-  	Iter (verb_nominal_nummod_nsubj), % identify nummod relations following verbs as part of obj
-  	Iter (verb_nominal_nummod_obj), % identify nummod relations following verbs as part of obj
+  	%Iter (cc_to_op), 
+  	%Iter (obl_temporal), 	
+	%Iter (obl_agent), 
+  	%Iter (obl_nosubtag), 
+  	%Iter (compound_find_join), 
+  	%Iter (compoundpart_find_join), 
+  	%Iter (advmod_lemmapred_polarity), 
+  	Iter (verb_nominal_nummod_nsubj), 
+  	Iter (verb_nominal_nummod_obj), 
     
-	  %Iter (remove_root_rel), %delete root relation
+	%Iter (remove_root_rel), %delete root relation
     %Pick (Iter (add_concept))
     Onf (add_concept)
     %add_concept
