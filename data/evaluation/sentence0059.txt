@@ -1,0 +1,17 @@
+(s2 / say-01
+	:advcl (a2 / able
+		:xcomp (s / speak
+			:mark (t2 / to))
+		:cop (b2 / be)
+		:obl (l / last
+			:case (a / at))
+		:nsubj (i2 / i)
+		:mark (w / when))
+	:obl (h / he
+		:case (t / to))
+	:lex.doer (i / i)
+	:lex.patient (d / do
+		:obj (w2 / what)
+		:nsubj (y / you)
+		:advmod (h2 / here)
+		:aux (b / be)))

@@ -1,0 +1,11 @@
+(t / torn
+	:nsubj:pass (h / heart
+		:poss (m / my))
+	:advcl (g / give
+		:obj (i2 / it)
+		:nsubj (i / i)
+		:mark (a2 / as)
+		:obl (h2 / he
+			:case (t2 / to)))
+	:cc (a / and)
+	:aux:pass (b / be))

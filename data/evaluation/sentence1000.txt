@@ -1,0 +1,6 @@
+(s2 / see-01
+	:advmod (a / ago
+		:obl:npmod (y / year
+			:amod (s / several)))
+	:lex.patient (t / them)
+	:lex.doer (i / i))
