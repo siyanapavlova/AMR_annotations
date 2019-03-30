@@ -1,16 +1,16 @@
-(p2 / purpose
+(p / purpose
+	:nsubj (i / it)
+	:cop (b / be)
 	:case (f / for)
+	:det (t / that)
+	:advmod (a / again)
 	:acl (b2 / buy
+		:mark (t2 / that)
+		:nsubj (i2 / i)
+		:aux (h / have)
 		:obj (b2 / box
 			:poss (p2 / paint
 				:case (o / of))
-			:conj (p / pencil
-				:cc (a / and)
-				:det (s / some)))
-		:mark (t2 / that)
-		:aux (h / have)
-		:nsubj (i / i))
-	:cop (b / be)
-	:advmod (a2 / again)
-	:det (t / that)
-	:nsubj (i2 / it))
+			:conj (p2 / pencil
+				:cc (a2 / and)
+				:det (s / some)))))

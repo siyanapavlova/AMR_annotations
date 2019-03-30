@@ -1,35 +1,35 @@
 (t2 / tell
-	:advcl (g / give
+	:alert_ADVCL (g / give
+		:mark (t / to)
 		:iobj (y / you)
-		:obj (i2 / idea
-			:poss (s2 / size
+		:obj (i / idea
+			:poss (s / size
+				:case (o / of)
 				:poss (e / earth
-					:case (o2 / of))
-				:case (o2 / of)))
-		:mark (t / to))
+					:case (o2 / of)))))
+	:nsubj (i2 / i)
+	:aux (w / will)
+	:iobj (y2 / you)
 	:ccomp (n / necessary
-		:mark (b2 / before)
 		:mark (t2 / that)
+		:mark (b / before)
+		:nsubj (i2 / invention
+			:poss (e2 / electricity
+				:case (o2 / of)))
+		:expl (i2 / it)
+		:cop (b2 / be)
 		:csubj (m / maintain
 			:mark (t2 / to)
-			:obl (w / whole
+			:obl (w2 / whole
+				:case (o2 / over)
 				:obl (c / continent
-					:nummod (s / six)
+					:case (o2 / of)
+					:nummod (s2 / six)
 					:appos (a / army
+						:amod (v / veritable)
 						:poss (l / lamplighter
 							:case (o2 / of)
 							:nummod (4 / 462,511)
 							:poss (l2 / lamp
 								:case (f / for)
-								:compound (s2 / street)))
-						:amod (v / veritable))
-					:case (o2 / of))
-				:case (o2 / over)))
-		:cop (b / be)
-		:nsubj (i2 / invention
-			:poss (e2 / electricity
-				:case (o / of)))
-		:expl (i / it))
-	:iobj (y2 / you)
-	:nsubj (i2 / i)
-	:aux (w2 / will))
+								:compound (s2 / street)))))))))
