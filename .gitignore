@@ -14,3 +14,5 @@ grs/lexicons/.DS_Store
 models/.DS_Store
 models/.DS_Store
 UD-Corpora-Analysis/.DS_Store
+data/dev_data/eatTomApples.txt
+data/dev_data/eatApplesTom.txt
