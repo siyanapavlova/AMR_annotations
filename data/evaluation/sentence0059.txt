@@ -1,17 +1,17 @@
-(s2 / say-01
-	:advcl (a2 / able
-		:xcomp (s / speak
-			:mark (t2 / to))
-		:cop (b2 / be)
+(s / say-01
+	:lex.doer (i2 / i)
+	:alert_ADVCL (a / able
+		:xcomp (s2 / speak
+			:mark (t / to))
+		:cop (b / be)
+		:nsubj (i / i)
 		:obl (l / last
-			:case (a / at))
-		:nsubj (i2 / i)
+			:case (a2 / at))
 		:mark (w / when))
-	:obl (h / he
-		:case (t / to))
-	:lex.doer (i / i)
+	:obl (h2 / he
+		:case (t2 / to))
 	:lex.patient (d / do
-		:obj (w2 / what)
 		:nsubj (y / you)
-		:advmod (h2 / here)
-		:aux (b / be)))
+		:aux (b2 / be)
+		:obj (w2 / what)
+		:advmod (h / here)))

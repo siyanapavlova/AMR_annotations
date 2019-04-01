@@ -1,13 +1,13 @@
-(s2 / say-01
-	:obl (b2 / book
-		:case (i / in))
-	:lex.doer (i2 / it)
-	:lex.patient (s / swallow-01
-		:advcl (c2 / chew-01
-			:lex.patient (i2 / it)
-			:mark (w2 / without))
-		:lex.doer (c / constrictors
-			:compound (b / boa))
+(s / say-01
+	:lex.patient (s2 / swallow-01
+		:xcomp (w2 / whole)
 		:lex.patient (p / prey
 			:poss (t / they))
-		:xcomp (w / whole)))
+		:alert_ADVCL (c2 / chew-01
+			:lex.patient (i2 / it)
+			:mark (w / without))
+		:lex.doer (c / constrictors
+			:compound (b / boa)))
+	:lex.doer (i3 / it)
+	:obl (b2 / book
+		:case (i / in)))

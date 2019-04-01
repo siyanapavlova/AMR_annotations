@@ -20,7 +20,10 @@ def run_pipeline(load_path, save_path, filename, gold_amr):
 	text_amr = amr_graph_to_text.amr_grew_to_text(new_graphs)
 	parser.save_data(text_amr, save_path, filename)
 
-	score = smatcher.get_smatch_score(gold_amr,save_path+filename)
+	print(text_amr)
+	print("="*10)
+
+	score = smatcher.get_smatch_score(save_path+filename, gold_amr) #gold goes second - we are not sure why though
 	# print(save_path+filename, gold_amr)
 	return score
 
@@ -32,7 +35,9 @@ if __name__=="__main__":
 
 	seed(1)
 	sentence_nums = sorted(sample(range(1,1562,1),20))
-	# sentence_nums = [2]
+	# sentence_nums = [59, 276, 430, 523, 778, 799, 887, 1166, 1245, 1426]
+	# sentence_nums = [4]
+	# sentence_nums = [130]
 	scores = []
 	print(sentence_nums)
 	for num in sentence_nums:

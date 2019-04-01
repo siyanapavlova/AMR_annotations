@@ -17,8 +17,13 @@ def get_text_format(graph, current_node, visited, text_format, tabs):
 
 	Output: the visited nodes and text format of the graph so far
 	"""
+	# pp.pprint(graph)
 	if current_node not in visited:
 		text_format += '(' + graph[0][current_node][0]['abbreviation'] +' / ' + graph[0][current_node][0]['concept'].lower()
+
+		# print(text_format)
+		# print(graph[0][current_node][1])
+		# print("="*10)
 		if graph[0][current_node][1] == []:
 			text_format += ')'
 			visited.append(current_node)
@@ -57,6 +62,22 @@ def amr_grew_to_text(graph):
 		else:
 			previous = [x for x in abbreviations if x.startswith(abbr)]
 			graph[0][node][0]['abbreviation'] = abbr + str(len(previous)+1)
+			abbreviations.append(abbr)
+
+	
+	# for node in graph[0]:
+	# 	abbr = (graph[0][node][0]['concept'][0].lower(),node)
+	# 	print(abbr)
+	# 	# print(node)
+	# 	#if first letter is not in the abbreviations, the first letter becomes the abbreviation
+	# 	if abbr not in abbreviations:
+	# 		graph[0][node][0]['abbreviation'] = abbr[0]
+	# 		abbreviations.append(abbr)
+	# 	else:
+	# 		previous = [x for x in abbreviations if x.startswith(abbr[0])]
+	# 		graph[0][node][0]['abbreviation'] = abbr[0] + str(len(previous)+1)
+	# 		abbreviations.append(abbr)
+	
 
 	#Make a list in each node where the incoming relations will be kept
 	for node in graph[0]:

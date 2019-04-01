@@ -1,6 +1,6 @@
 (d / die
+	:advmod (n / not)
 	:nsubj (o / one)
 	:obl (y / you
 		:case (f / for))
-	:aux (c / could)
-	:advmod (n / not))
+	:aux (c / could))

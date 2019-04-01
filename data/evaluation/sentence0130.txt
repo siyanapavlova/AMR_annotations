@@ -1,8 +1,8 @@
 (m / man
-	:acl:relcl (c / come
-		:advmod (w / where)
-		:aux (d / do)
-		:nsubj (y / you)
-		:compound:prt (f / from))
 	:amod (l / little)
+	:acl:relcl (c / come
+		:aux (d / do)
+		:compound:prt (f / from)
+		:nsubj (y / you)
+		:advmod (w / where))
 	:poss (m2 / my))

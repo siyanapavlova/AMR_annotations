@@ -1,35 +1,35 @@
 (t2 / tell
-	:advcl (g / give
+	:aux (w / will)
+	:alert_ADVCL (g / give
 		:iobj (y / you)
 		:obj (i2 / idea
-			:poss (s2 / size
-				:poss (e / earth
-					:case (o2 / of))
-				:case (o2 / of)))
+			:poss (s3 / size
+				:case (o3 / of)
+				:poss (e2 / earth
+					:case (o6 / of))))
 		:mark (t / to))
+	:nsubj (i3 / i)
+	:iobj (y2 / you)
 	:ccomp (n / necessary
-		:mark (b2 / before)
-		:mark (t2 / that)
+		:mark (t4 / that)
+		:cop (b2 / be)
 		:csubj (m / maintain
-			:mark (t2 / to)
-			:obl (w / whole
+			:mark (t3 / to)
+			:obl (w2 / whole
+				:case (o5 / over)
 				:obl (c / continent
 					:nummod (s / six)
 					:appos (a / army
-						:poss (l / lamplighter
-							:case (o2 / of)
-							:nummod (4 / 462,511)
-							:poss (l2 / lamp
+						:poss (l2 / lamplighter
+							:poss (l / lamp
 								:case (f / for)
-								:compound (s2 / street)))
+								:compound (s2 / street))
+							:nummod (4 / 462,511)
+							:case (o2 / of))
 						:amod (v / veritable))
-					:case (o2 / of))
-				:case (o2 / over)))
-		:cop (b / be)
-		:nsubj (i2 / invention
-			:poss (e2 / electricity
+					:case (o4 / of))))
+		:expl (i4 / it)
+		:nsubj (i / invention
+			:poss (e / electricity
 				:case (o / of)))
-		:expl (i / it))
-	:iobj (y2 / you)
-	:nsubj (i2 / i)
-	:aux (w2 / will))
+		:mark (b / before)))

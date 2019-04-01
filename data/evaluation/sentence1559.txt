@@ -1,6 +1,6 @@
 (w / wait
+	:obl (t / time
+		:case (f / for))
 	:obl (s / star
 		:case (u / under)
-		:advmod (e / exactly))
-	:obl (t / time
-		:case (f / for)))
+		:advmod (e / exactly)))

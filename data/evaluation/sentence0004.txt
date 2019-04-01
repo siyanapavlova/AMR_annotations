@@ -1,0 +1,5 @@
+(h / here
+	:nsubj (c / copy
+		:poss (d / drawing
+			:case (o / of)))
+	:cop (b / be))
