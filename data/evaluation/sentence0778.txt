@@ -1,7 +1,7 @@
 (s / say-01
-	:lex.patient (b / be
+	:ARG1 (b / be
+		:expl (t / there)
 		:nsubj (n / nothing
 			:acl (u / understand
-				:mark (t / to)))
-		:expl (t2 / there))
-	:lex.doer (l / lamplighter))
+				:mark (t2 / to))))
+	:ARG0 (l / lamplighter))

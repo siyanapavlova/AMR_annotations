@@ -45,8 +45,16 @@ strat simple {
   	Iter (verb_nominal_nummod_obj), 
     
 	%Iter (remove_root_rel), %delete root relation
-    %Pick (Iter (add_concept))
-    Onf (add_concept)
+    %Pick (Iter (add_concept)),
+	Iter (add_doerARG0),
+	Iter (add_doerARG1),
+	Iter (add_doerARG2),
+	Iter (add_doerARG3),
+	Iter (add_patientARG0),
+	Iter (add_patientARG1),
+	Iter (add_patientARG2),
+	Iter (add_patientARG3),
+    Onf (add_concept),
     %add_concept
     %without_concept_add_concept
 

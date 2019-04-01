@@ -1,4 +1,4 @@
 (k / know
+	:cc (b / but)
 	:nsubj (o / one)
-	:advmod (n / never)
-	:cc (b / but))
+	:advmod (n / never))

@@ -3,3 +3,16 @@ __pycache__/
 *.pyc
 .ipynb_checkpoints/smatcher-checkpoint.py
 IMG_1185.jpg
+data/.DS_Store
+.DS_Store
+.DS_Store
+.DS_Store
+data/.DS_Store
+data/amr_bank_data/.DS_Store
+grs/.DS_Store
+grs/lexicons/.DS_Store
+models/.DS_Store
+models/.DS_Store
+UD-Corpora-Analysis/.DS_Store
+data/dev_data/eatTomApples.txt
+data/dev_data/eatApplesTom.txt

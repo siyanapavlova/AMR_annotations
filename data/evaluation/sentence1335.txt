@@ -1,11 +1,11 @@
-(t / torn
-	:aux:pass (b / be)
+(t2 / torn
+	:cc (a / and)
 	:alert_ADVCL (g / give
-		:obl (h2 / he
-			:case (t2 / to))
+		:mark (a2 / as)
 		:nsubj (i / i)
 		:obj (i2 / it)
-		:mark (a2 / as))
-	:nsubj:pass (h / heart
+		:obl (h / he
+			:case (t / to)))
+	:nsubj:pass (h2 / heart
 		:poss (m / my))
-	:cc (a / and))
+	:aux:pass (b / be))

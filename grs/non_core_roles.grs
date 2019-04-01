@@ -19,6 +19,7 @@ rule obl_agent(lex from "lexicons/subcat/verb_nsubj_obj.lp"){
 	commands {
 		del_edge obl_rel;
 		add_edge V -[lex.doer]-> Nominal;
+		V.doer = lex.doer;
 	}
 }
 
@@ -80,6 +81,7 @@ rule verb_nominal_nummod_nsubj(lex1 from "lexicons/subcat/verb_nominal_nummod.lp
 		del_edge nummod_rel;
 
 		add_edge V -[lex2.patient]-> Nominal2; 				% AMR takes the quantified element as the concept; see entry on milk in https://github.com/amrisi/amr-guidelines/blob/master/amr.md#quantities (same as AMR1.2)
+		V.patient = lex2.patient;
 		del_edge verb_nom_rel;
 	}
 }
@@ -101,7 +103,8 @@ rule verb_nominal_nummod_obj(lex1 from "lexicons/subcat/verb_nominal_nummod.lp",
 		del_edge nmod_rel;
 		del_edge nummod_rel;
 
-		add_edge V -[lex2.doer]-> Nominal2; 				
+		add_edge V -[lex2.doer]-> Nominal2;
+		V.doer = lex2.doer; 				
 		del_edge verb_nom_rel;
 	}
 }

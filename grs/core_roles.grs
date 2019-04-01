@@ -9,6 +9,8 @@ rule pred_nsubj_obj(lex from "lexicons/subcat/verb_nsubj_obj.lp"){
 		del_edge nsubj_rel;
 		del_edge obj_rel;
 		add_edge V -[lex.doer]-> NSUBJ;
+		V.doer = lex.doer;
+		V.patient = lex.patient;
 		add_edge V -[lex.patient]-> OBJ;
 		V.concept = lex.concept;
 		NSUBJ.concept = NSUBJ.form;
@@ -25,6 +27,7 @@ rule pred_obj(lex from "lexicons/subcat/verb_nsubj_obj.lp"){
 	commands {
 		del_edge obj_rel;
 		add_edge V -[lex.patient]-> OBJ;
+		V.patient = lex.patient;
 		V.concept = lex.concept;
 		OBJ.concept = OBJ.form;
 	}
@@ -39,6 +42,7 @@ rule pred_nsubj(lex from "lexicons/subcat/verb_nsubj_obj.lp"){
 	commands {
 		del_edge nsubj_rel;
 		add_edge V -[lex.doer]-> NSUBJ;
+		V.doer = lex.doer;
 		V.concept = lex.concept;
 		NSUBJ.concept = NSUBJ.form;
 	}
@@ -80,6 +84,7 @@ rule ccomp_verbadv_notcop(lex from "lexicons/subcat/verb_nsubj_obj.lp"){
 		} %exclude all copula constructions
 	commands{
 		add_edge GOV -[lex.patient]-> DEP;
+		GOV.patient = lex.patient;
 		del_edge ccomp_rel;
 	}
 }
@@ -104,6 +109,7 @@ rule ccomp_verbadv_notcop(lex from "lexicons/subcat/verb_nsubj_obj.lp"){
 %	}
 %	commands{
 %		add_edge DEP -[lex.doer]-> GOV;
+%		DEP.doer = lex.doer;
 %		del_edge ccomp_rel;
 %
 %	}
@@ -118,6 +124,7 @@ rule iobj_nom_lex(lex from "lexicons/subcat/verb_nsubj_obj.lp"){
 	  }
     commands{ 
 		add_edge GOV -[lex.patient]-> DEP;
+		GOV.patient = lex.patient;
 		del_edge iobj_rel; 
 	}
 }
@@ -261,5 +268,126 @@ rule add_concept{
 	commands{
 		%N.concept = "dummyConcept";
 		N.concept = N.lemma;
+	}
+}
+
+
+% Add the doer role for nodes with such an attribute.  
+rule add_doerARG0(lex from "lexicons/subcat/verb_nsubj_obj.lp"){
+	pattern {
+		doer_rel: GOV -[lex.doer]-> DEP;
+		GOV[doer="ARG0"];
+	}
+	commands {
+		add_edge GOV -[ARG0]-> DEP;
+		del_edge doer_rel;
+	}
+}
+
+% Add the doer role for nodes with such an attribute. 
+rule add_doerARG1(lex from "lexicons/subcat/verb_nsubj_obj.lp"){
+	pattern {
+		doer_rel: GOV -[lex.doer]-> DEP;
+		GOV[doer="ARG1"];
+	}
+	commands {
+		add_edge GOV -[ARG1]-> DEP;
+		del_edge doer_rel;
+	}
+}
+
+% Add the doer role for nodes with such an attribute. 
+rule add_doerARG2(lex from "lexicons/subcat/verb_nsubj_obj.lp"){
+	pattern {
+		doer_rel: GOV -[lex.doer]-> DEP;
+		GOV[doer="ARG2"];
+	}
+	commands {
+		add_edge GOV -[ARG2]-> DEP;
+		del_edge doer_rel;
+	}
+}
+
+% Add the doer role for nodes with such an attribute. 
+rule add_doerARG3(lex from "lexicons/subcat/verb_nsubj_obj.lp"){
+	pattern {
+		doer_rel: GOV -[lex.doer]-> DEP;
+		GOV[doer="ARG3"];
+	}
+	commands {
+		add_edge GOV -[ARG3]-> DEP;
+		del_edge doer_rel;
+	}
+}
+
+% Add the doer role for nodes with such an attribute. 
+rule add_doerARG4(lex from "lexicons/subcat/verb_nsubj_obj.lp"){
+	pattern {
+		doer_rel: GOV -[lex.doer]-> DEP;
+		GOV[doer="ARG4"];
+	}
+	commands {
+		add_edge GOV -[ARG4]-> DEP;
+		del_edge doer_rel;
+	}
+}
+
+% Add the patient role for nodes with such an attribute. 
+rule add_patientARG0(lex from "lexicons/subcat/verb_nsubj_obj.lp"){
+	pattern {
+		patient_rel: GOV -[lex.patient]-> DEP;
+		GOV[patient="ARG0"];
+	}
+	commands {
+		add_edge GOV -[ARG0]-> DEP;
+		del_edge patient_rel;
+	}
+}
+
+% Add the patient role for nodes with such an attribute. 
+rule add_patientARG1(lex from "lexicons/subcat/verb_nsubj_obj.lp"){
+	pattern {
+		patient_rel: GOV -[lex.patient]-> DEP;
+		GOV[patient="ARG1"];
+	}
+	commands {
+		add_edge GOV -[ARG1]-> DEP;
+		del_edge patient_rel;
+	}
+}
+
+% Add the patient role for nodes with such an attribute. 
+rule add_patientARG2(lex from "lexicons/subcat/verb_nsubj_obj.lp"){
+	pattern {
+		patient_rel: GOV -[lex.patient]-> DEP;
+		GOV[patient="ARG2"];
+	}
+	commands {
+		add_edge GOV -[ARG2]-> DEP;
+		del_edge patient_rel;
+	}
+}
+
+% Add the patient role for nodes with such an attribute. 
+rule add_patientARG3(lex from "lexicons/subcat/verb_nsubj_obj.lp"){
+	pattern {
+		patient_rel: GOV -[lex.patient]-> DEP;
+		GOV[patient="ARG3"];
+	}
+	commands {
+		add_edge GOV -[ARG3]-> DEP;
+		del_edge patient_rel;
+	}
+}
+
+% Add the patient role for nodes with such an attribute. 
+rule add_patientARG4(lex from "lexicons/subcat/verb_nsubj_obj.lp"){
+	pattern {
+		patient_rel: GOV -[lex.patient]-> DEP;
+		GOV[patient="ARG4"];
+	}
+	commands {
+		add_edge GOV -[ARG4]-> DEP;
+		del_edge patient_rel;
 	}
 }
