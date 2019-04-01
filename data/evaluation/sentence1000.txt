@@ -1,6 +1,1 @@
-(s / see-01
-	:ARG0 (i / i)
-	:ARG1 (t / them)
-	:advmod (a / ago
-		:obl:npmod (y / year
-			:amod (s2 / several))))
+(i / i)

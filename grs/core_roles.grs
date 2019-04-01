@@ -8,10 +8,8 @@ rule pred_nsubj_obj(lex from "lexicons/subcat/verb_nsubj_obj.lp"){
 	commands {
 		del_edge nsubj_rel;
 		del_edge obj_rel;
-		add_edge V -[lex.doer]-> NSUBJ;
 		V.doer = lex.doer;
 		V.patient = lex.patient;
-		add_edge V -[lex.patient]-> OBJ;
 		V.concept = lex.concept;
 		NSUBJ.concept = NSUBJ.form;
 		OBJ.concept = OBJ.form;
@@ -26,7 +24,6 @@ rule pred_obj(lex from "lexicons/subcat/verb_nsubj_obj.lp"){
 	}
 	commands {
 		del_edge obj_rel;
-		add_edge V -[lex.patient]-> OBJ;
 		V.patient = lex.patient;
 		V.concept = lex.concept;
 		OBJ.concept = OBJ.form;
@@ -41,7 +38,6 @@ rule pred_nsubj(lex from "lexicons/subcat/verb_nsubj_obj.lp"){
 	}
 	commands {
 		del_edge nsubj_rel;
-		add_edge V -[lex.doer]-> NSUBJ;
 		V.doer = lex.doer;
 		V.concept = lex.concept;
 		NSUBJ.concept = NSUBJ.form;
@@ -83,7 +79,6 @@ rule ccomp_verbadv_notcop(lex from "lexicons/subcat/verb_nsubj_obj.lp"){
 		GOV[lemma="be"];
 		} %exclude all copula constructions
 	commands{
-		add_edge GOV -[lex.patient]-> DEP;
 		GOV.patient = lex.patient;
 		del_edge ccomp_rel;
 	}
@@ -123,7 +118,6 @@ rule iobj_nom_lex(lex from "lexicons/subcat/verb_nsubj_obj.lp"){
       	iobj_rel: GOV -[iobj]-> DEP;
 	  }
     commands{ 
-		add_edge GOV -[lex.patient]-> DEP;
 		GOV.patient = lex.patient;
 		del_edge iobj_rel; 
 	}
@@ -389,5 +383,37 @@ rule add_patientARG4(lex from "lexicons/subcat/verb_nsubj_obj.lp"){
 	commands {
 		add_edge GOV -[ARG4]-> DEP;
 		del_edge patient_rel;
+	}
+}
+
+% The predicate has a nsubj relation with a :pass subtag
+rule pred_nsubjpass(lex from "lexicons/subcat/verb_nsubj_obj.lp"){
+	pattern {
+		GOV[lemma=lex.lemma];
+		nsubj_rel: GOV -[nsubj:pass]-> NSUBJPASS;
+	}
+	commands {
+		del_edge nsubj_rel;
+		GOV.doer = lex.doer;
+		GOV.concept = lex.concept;
+		NSUBJPASS.concept = NSUBJPASS.form;
+	}
+}
+
+% The predicate has a nsubj relation with a :pass subtag as well as a obj relation
+rule pred_nsubjpass_obj(lex from "lexicons/subcat/verb_nsubj_obj.lp"){
+	pattern {
+		GOV[lemma=lex.lemma];
+		nsubj_rel: GOV -[nsubj:pass]-> NSUBJPASS;
+		obj_rel: GOV -[obj]-> OBJ;
+	}
+	commands {
+		del_edge nsubj_rel;
+		del_edge obj_rel;
+		GOV.doer = lex.doer;
+		GOV.patient = lex.patient;
+		GOV.concept = lex.concept;
+		NSUBJPASS.concept = NSUBJPASS.form;
+		OBJ.concept = OBJ.form;
 	}
 }

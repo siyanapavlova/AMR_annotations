@@ -1,13 +1,1 @@
-(s / say-01
-	:obl (b / book
-		:case (i / in))
-	:ARG0 (i2 / it)
-	:ARG1 (s2 / swallow-01
-		:ARG0 (c / constrictors
-			:compound (b2 / boa))
-		:ARG1 (p / prey
-			:poss (t / they))
-		:xcomp (w / whole)
-		:alert_ADVCL (c2 / chew-01
-			:mark (w2 / without)
-			:ARG1 (i2 / it))))
+(i2 / it)

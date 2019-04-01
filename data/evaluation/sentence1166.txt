@@ -1,5 +1,4 @@
 (d / die
-	:advmod (n / not)
 	:nsubj (o / one)
 	:aux (c / could)
 	:advmod (n / not)

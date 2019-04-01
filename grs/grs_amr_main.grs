@@ -21,31 +21,21 @@ strat simple {
   Seq (
     Iter (remove_root_rel), %delete root relation
     Iter (pred_nsubj_obj),  % identify a predicate and its arguments. 
+	Iter (pred_nsubjpass_obj),
+	Iter (pred_nsubjpass),
     Iter (pred_obj),
     Iter (pred_nsubj),
-    %Iter (noun_amod),  % identify nouns with an amod. Add the :mod role. 
     Iter (ccomp_verbadv_notcop),  % delete determiners
-	Iter (advcl_general),
-    %Iter (iobj_nom_lex), % delete punctuation
-  	%Iter (iobj_nom_notlex), % identify temporal or locational ARG2 roles
+	Iter (advcl_manner),
   	Iter (remove_det), 
-  	%Iter (det_as_all), 
-  	%Iter (det_as_pers_pron),
-  	Iter (remove_punct),
+	Iter (remove_punct),
   	Iter (nmod),
-  	%Iter (cc_to_op_morethan2),
-  	%Iter (cc_to_op), 
-  	%Iter (obl_temporal), 	
-	%Iter (obl_agent), 
-  	%Iter (obl_nosubtag), 
-  	%Iter (compound_find_join), 
-  	%Iter (compoundpart_find_join), 
-  	%Iter (advmod_lemmapred_polarity), 
-  	Iter (verb_nominal_nummod_nsubj), 
+  	Iter (obl_nosubtag_temporal), 	
+  	Iter (obl_nosubtag_locational), 
+	Iter (obl_npmod),
+	Iter (obl_agent), 
+	Iter (verb_nominal_nummod_nsubj), 
   	Iter (verb_nominal_nummod_obj), 
-    
-	%Iter (remove_root_rel), %delete root relation
-    %Pick (Iter (add_concept)),
 	Iter (add_doerARG0),
 	Iter (add_doerARG1),
 	Iter (add_doerARG2),
@@ -55,8 +45,19 @@ strat simple {
 	Iter (add_patientARG2),
 	Iter (add_patientARG3),
     Onf (add_concept),
-    %add_concept
-    %without_concept_add_concept
+
+    %Iter (noun_amod),  % identify nouns with an amod. Add the :mod role. 
+    %Iter (iobj_nom_lex), % delete punctuation
+  	%Iter (iobj_nom_notlex), % identify temporal or locational ARG2 roles
+  	%Iter (det_as_all), 
+  	%Iter (det_as_pers_pron),
+  	%Iter (cc_to_op_morethan2),
+  	%Iter (cc_to_op), 
+  	%Iter (compound_find_join), 
+  	%Iter (compoundpart_find_join), 
+  	%Iter (advmod_lemmapred_polarity), 
+	%Iter (remove_root_rel), %delete root relation
+    %Pick (Iter (add_concept)),
 
     )
   }

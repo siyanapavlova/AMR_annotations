@@ -8,9 +8,9 @@
 		:mark (t2 / that)
 		:nsubj (i2 / i)
 		:aux (h / have)
-		:obj (b2 / box
+		:obj (b3 / box
 			:poss (p2 / paint
 				:case (o / of))
-			:conj (p2 / pencil
+			:conj (p3 / pencil
 				:cc (a2 / and)
 				:det (s / some)))))

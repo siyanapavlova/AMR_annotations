@@ -2,5 +2,5 @@
 	:cc (a / and)
 	:advmod (t / then)
 	:nsubj (y / you)
-	:obl (y2 / yourself
+	:time (y2 / yourself
 		:case (t2 / to)))

@@ -1,5 +1,5 @@
-(t2 / time
-	:alert_ADVCL (f / finish
+(t3 / time
+	:manner (f / finish
 		:mark (w / when)
 		:nsubj (y / you)
 		:aux (h / have)
@@ -12,12 +12,12 @@
 	:nsubj (i2 / it)
 	:cop (b / be)
 	:acl (a / attend
-		:mark (t2 / to)
-		:obl (t2 / toilet
-			:case (t2 / to)
+		:mark (t4 / to)
+		:time (t6 / toilet
+			:case (t5 / to)
 			:poss (p / planet
 				:case (o2 / of)
-				:poss (y2 / you))))
+				:poss (y3 / you))))
 	:obj (c / care
 		:advmod (s / so
 			:advmod (j / just))

@@ -112,53 +112,66 @@ rule verb_nominal_nummod_obj(lex1 from "lexicons/subcat/verb_nominal_nummod.lp",
 % K-to-investigate: whether EUD case tagging (either adding the preposition/case to the parent nmod, obl, acl and advcl relation helps)
 % The obl relationship does not have a subtag, it captures a temporal modification. The dependent of the obl relation has an outgoing 
 % case dependency relation towards a temporal preposition word.  
-%rule obl_nosubtag_temporal{
-%	pattern {
-%		obl_rel: GOV -[obl]-> Nominal;
-%		Nominal -[case]-> Preposition;
-%		Preposition[lemma=lex.temporal];
-%	}
-%	commands {
-%		del_edge obl_rel;
-%		add_edge GOV -[time]-> Nominal;
-%	}
-%}
+rule obl_nosubtag_temporal{
+	pattern {
+		obl_rel: GOV -[obl]-> Nominal;
+		Nominal -[case]-> Preposition;
+		Preposition[lemma=lex.temporal];
+	}
+	commands {
+		del_edge obl_rel;
+		add_edge GOV -[time]-> Nominal;
+	}
+}
 
-%#BEGIN lex
-%temporal	
-%%--------------
+#BEGIN lex
+temporal	
+%--------------
 % list of time prepositions in The Preposition Project, based on set of senses in Quirk et al 1985, and drawn from 
 % sentences in FrameNet http://www.clres.com/db/classes/ClassTemporal.php
-%about
-%across
-%before
-%to
-%#END
+about
+across
+before
+to
+#END
 
 
 % K-to-investigate: whether EUD case tagging (either adding the preposition/case to the parent nmod, obl, acl and advcl relation helps)
 %% The obl relationship does not have a subtag, it captures a locational modification. The dependent of the obl relation has an outgoing 
 %% case dependency relation towards a locational preposition word.  
-%rule obl_nosubtag_locational{
-%	pattern {
-%		obl_rel: GOV -[obl]-> Nominal;
-%		Nominal -[case]-> Preposition;
-%		Preposition[lemma=lex.locational];
-%	}
-%	commands {
-%		del_edge obl_rel;
-%		add_edge GOV-[location]-> Nominal;
-%	}
-%}
-%#BEGIN lex
-%locational	
-%%--------------
+rule obl_nosubtag_locational{
+	pattern {
+		obl_rel: GOV -[obl]-> Nominal;
+		Nominal -[case]-> Preposition;
+		Preposition[lemma=lex.locational];
+	}
+	commands {
+		del_edge obl_rel;
+		add_edge GOV-[location]-> Nominal;
+	}
+}
+#BEGIN lex
+locational	
+%--------------
 % list of spatial prepositions in The Preposition Project, based on set of senses in Quirk et al 1985, and drawn from 
 % sentences in FrameNet http://www.clres.com/db/classes/ClassSpatial.php
-%across
-%before
-%to
-%#END
+across
+before
+to
+#END
+
+% K-to-investigate: more complex structures/rewrites involving obl:npmod. For instance, "The plane crashed 50 miles east of Moscow" 
+% in the AMR Guidelines v1.25. 
+% The obl relation has an nmod subtag. Appears obsolete/rare in English UD. https://github.com/UniversalDependencies/docs/issues/478 
+rule obl_npmod{
+	pattern {
+		obl_rel: GOV -[obl:npmod]-> DEP;
+	}
+	commands {
+		del_edge obl_rel;
+		add_edge GOV -[quant]-> DEP;
+	}
+}
 
 %% K-to-investigate: distinguishing features of adjuncts vs obliques in English sentences 
 %% The obl relationship does not have a subtag, it captures an oblique i.e. an argument of a predicate that is encoded with a 
@@ -174,13 +187,14 @@ rule verb_nominal_nummod_obj(lex1 from "lexicons/subcat/verb_nominal_nummod.lp",
 %	}
 %}
 
-% there is an advcl tag. advcl relations in UD can denote temporal consequence, conditional clause, purpose clause. 
-rule advcl_general{
+% there is an advcl tag. it relates closely with AMR's :manner non-core role. 
+% advcl relations in UD can denote "temporal, consequence, conditional clause, purpose clause" as per UDv2.0.
+rule advcl_manner{
 	pattern{
 		advcl_rel: GOV -[advcl]-> DEP;
 	}
 	commands{
-		add_edge GOV -[alert_ADVCL]-> DEP; 
+		add_edge GOV -[manner]-> DEP; 
 		del_edge advcl_rel;
 	}
 }

@@ -1,10 +1,10 @@
 (t2 / torn
 	:cc (a / and)
-	:alert_ADVCL (g / give
+	:manner (g / give
 		:mark (a2 / as)
 		:nsubj (i / i)
 		:obj (i2 / it)
-		:obl (h / he
+		:time (h / he
 			:case (t / to)))
 	:nsubj:pass (h2 / heart
 		:poss (m / my))
