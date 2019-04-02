@@ -24,12 +24,12 @@
 				:case (o4 / over)
 				:obl (c / continent
 					:case (o5 / of)
-					:nummod (s2 / six)
-					:appos (a / army
-						:amod (v / veritable)
-						:poss (l / lamplighter
-							:case (o6 / of)
-							:nummod (4 / 462,511)
-							:poss (l2 / lamp
-								:case (f / for)
-								:compound (s3 / street)))))))))
+					:nummod (s2 / six)))
+			:obj (a / army
+				:amod (v / veritable)
+				:poss (l / lamplighter
+					:case (o6 / of)
+					:nummod (4 / 462,511)
+					:poss (l2 / lamp
+						:case (f / for)
+						:compound (s3 / street)))))))
