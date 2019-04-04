@@ -11,6 +11,6 @@
 7	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	9	aux	_	_
 8	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	9	nsubj	_	_
 9	come	come	VERB	VB	VerbForm=Inf	0	root	_	_
-10	from	from	ADP	IN	_	9	compound:prt	_	_
+10	from	from	ADP	IN	_	9	advmod	_	_
 11	?	?	PUNCT	.	_	4	punct	_	SpacesAfter=\s\n
 

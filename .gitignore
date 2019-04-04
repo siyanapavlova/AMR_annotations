@@ -17,3 +17,5 @@ UD-Corpora-Analysis/.DS_Store
 data/dev_data/eatTomApples.txt
 data/dev_data/eatApplesTom.txt
 data/amr_bank_data/.DS_Store
+data/evaluation/sentence0130.txt
+data/evaluation/sentence1335.txt

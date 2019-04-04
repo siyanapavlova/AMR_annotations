@@ -5,4 +5,4 @@
 	:advmod (w / where)
 	:aux (d / do)
 	:nsubj (y / you)
-	:compound:prt (f / from))
+	:advmod (f / from))

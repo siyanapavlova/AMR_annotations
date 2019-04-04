@@ -1,11 +1,2 @@
-(t2 / torn
-	:cc (a / and)
-	:manner (g / give
-		:mark (a2 / as)
-		:nsubj (i / i)
-		:obj (i2 / it)
-		:time (h / he
-			:case (t / to)))
-	:nsubj:pass (h2 / heart
-		:poss (m / my))
-	:aux:pass (b / be))
+(h2 / heart
+	:poss (m / my))
