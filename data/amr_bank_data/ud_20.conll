@@ -1,0 +1,388 @@
+# newdoc
+# newpar
+# sent_id = lpp_1943.5
+# text = In the book it said : " Boa constrictors swallow their prey whole , without chewing it .
+1	In	in	ADP	IN	_	3	case	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	book	book	NOUN	NN	Number=Sing	5	obl	_	_
+4	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+5	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+6	:	:	PUNCT	:	_	5	punct	_	_
+7	"	"	PUNCT	``	_	5	punct	_	_
+8	Boa	Boa	PROPN	NNP	Number=Sing	9	compound	_	_
+9	constrictors	constrictor	NOUN	NNS	Number=Plur	10	nsubj	_	_
+10	swallow	swallow	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	ccomp	_	_
+11	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	12	nmod:poss	_	_
+12	prey	prey	NOUN	NN	Number=Sing	10	obj	_	_
+13	whole	whole	ADJ	JJ	Degree=Pos	10	xcomp	_	_
+14	,	,	PUNCT	,	_	10	punct	_	_
+15	without	without	SCONJ	IN	_	16	mark	_	_
+16	chewing	chew	VERB	VBG	VerbForm=Ger	10	advcl	_	_
+17	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	16	obj	_	_
+18	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\s\n
+
+# newdoc
+# newpar
+# sent_id = lpp_1943.59
+# text = When at last I was able to speak , I said to him : " But -- what are you doing here ? "
+1	When	when	ADV	WRB	PronType=Int	6	mark	_	_
+2	at	at	ADP	IN	_	3	case	_	_
+3	last	last	ADJ	JJ	Degree=Pos	6	obl	_	_
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+5	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	cop	_	_
+6	able	able	ADJ	JJ	Degree=Pos	11	advcl	_	_
+7	to	to	PART	TO	_	8	mark	_	_
+8	speak	speak	VERB	VB	VerbForm=Inf	6	xcomp	_	_
+9	,	,	PUNCT	,	_	11	punct	_	_
+10	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
+11	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+12	to	to	ADP	IN	_	13	case	_	_
+13	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	obl	_	_
+14	:	:	PUNCT	:	_	11	punct	_	_
+15	"	"	PUNCT	``	_	21	punct	_	_
+16	But	but	CCONJ	CC	_	21	cc	_	_
+17	--	--	PUNCT	,	_	21	punct	_	_
+18	what	what	PRON	WP	PronType=Int	21	obj	_	_
+19	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	21	aux	_	_
+20	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	21	nsubj	_	_
+21	doing	do	VERB	VBG	Tense=Pres|VerbForm=Part	11	parataxis	_	_
+22	here	here	ADV	RB	PronType=Dem	21	advmod	_	_
+23	?	?	PUNCT	.	_	21	punct	_	_
+24	"	"	PUNCT	''	_	21	punct	_	SpacesAfter=\s\n
+
+# newdoc
+# newpar
+# sent_id = lpp_1943.130
+# text = " My little man , where do you come from ?
+1	"	"	PUNCT	``	_	4	punct	_	_
+2	My	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
+3	little	little	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	man	man	NOUN	NN	Number=Sing	9	nsubj	_	_
+5	,	,	PUNCT	,	_	4	punct	_	_
+6	where	where	ADV	WRB	PronType=Rel	9	advmod	_	_
+7	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	9	aux	_	_
+8	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	9	nsubj	_	_
+9	come	come	VERB	VB	VerbForm=Inf	0	root	_	_
+10	from	from	ADP	IN	_	9	advmod	_	_
+11	?	?	PUNCT	.	_	4	punct	_	SpacesAfter=\s\n
+
+# newdoc
+# newpar
+# sent_id = lpp_1943.193
+# text = It is for that purpose , again , that I have bought a box of paints and some pencils .
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	for	for	ADP	IN	_	5	case	_	_
+4	that	that	DET	DT	Number=Sing|PronType=Dem	5	det	_	_
+5	purpose	purpose	NOUN	NN	Number=Sing	0	root	_	_
+6	,	,	PUNCT	,	_	5	punct	_	_
+7	again	again	ADV	RB	_	5	advmod	_	_
+8	,	,	PUNCT	,	_	5	punct	_	_
+9	that	that	SCONJ	IN	_	12	mark	_	_
+10	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	_
+11	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	bought	buy	VERB	VBN	Tense=Past|VerbForm=Part	5	acl	_	_
+13	a	a	DET	DT	Definite=Ind|PronType=Art	14	det	_	_
+14	box	box	NOUN	NN	Number=Sing	12	obj	_	_
+15	of	of	ADP	IN	_	16	case	_	_
+16	paints	paint	NOUN	NNS	Number=Plur	14	nmod	_	_
+17	and	and	CCONJ	CC	_	19	cc	_	_
+18	some	some	DET	DT	_	19	det	_	_
+19	pencils	pencil	NOUN	NNS	Number=Plur	14	conj	_	_
+20	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\s\n
+
+# newdoc
+# newpar
+# sent_id = lpp_1943.242
+# text = " When you 've finished your own toilet in the morning , then it is time to attend to the toilet of your planet , just so , with the greatest care .
+1	"	"	PUNCT	``	_	17	punct	_	_
+2	When	when	ADV	WRB	PronType=Int	6	mark	_	_
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	6	nsubj	_	_
+4	'	'	PUNCT	``	_	6	punct	_	SpaceAfter=No
+5	ve	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	finished	finish	VERB	VBN	Tense=Past|VerbForm=Part	17	advcl	_	_
+7	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	9	nmod:poss	_	_
+8	own	own	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	toilet	toilet	NOUN	NN	Number=Sing	6	obj	_	_
+10	in	in	ADP	IN	_	12	case	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	morning	morning	NOUN	NN	Number=Sing	6	obl	_	_
+13	,	,	PUNCT	,	_	17	punct	_	_
+14	then	then	ADV	RB	PronType=Dem	17	advmod	_	_
+15	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	_
+16	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+17	time	time	NOUN	NN	Number=Sing	0	root	_	_
+18	to	to	PART	TO	_	19	mark	_	_
+19	attend	attend	VERB	VB	VerbForm=Inf	17	acl	_	_
+20	to	to	ADP	IN	_	22	case	_	_
+21	the	the	DET	DT	Definite=Def|PronType=Art	22	det	_	_
+22	toilet	toilet	NOUN	NN	Number=Sing	19	obl	_	_
+23	of	of	ADP	IN	_	25	case	_	_
+24	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	25	nmod:poss	_	_
+25	planet	planet	NOUN	NN	Number=Sing	22	nmod	_	_
+26	,	,	PUNCT	,	_	33	punct	_	_
+27	just	just	ADV	RB	_	28	advmod	_	_
+28	so	so	ADV	RB	_	33	advmod	_	_
+29	,	,	PUNCT	,	_	33	punct	_	_
+30	with	with	ADP	IN	_	33	case	_	_
+31	the	the	DET	DT	Definite=Def|PronType=Art	33	det	_	_
+32	greatest	greatest	ADJ	JJS	Degree=Sup	33	amod	_	_
+33	care	care	NOUN	NN	Number=Sing	17	obj	_	_
+34	.	.	PUNCT	.	_	17	punct	_	SpacesAfter=\s\n
+
+# newdoc
+# newpar
+# sent_id = lpp_1943.276
+# text = And then you laughed to yourself .
+1	And	and	CCONJ	CC	_	4	cc	_	_
+2	then	then	ADV	RB	PronType=Dem	4	advmod	_	_
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	_
+4	laughed	laugh	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+5	to	to	ADP	IN	_	6	case	_	_
+6	yourself	yourself	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs|Reflex=Yes	4	obl	_	_
+7	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\s\n
+
+# newdoc
+# newpar
+# sent_id = lpp_1943.430
+# text = Flowers are so inconsistent !
+1	Flowers	flower	NOUN	NNS	Number=Plur	4	nsubj	_	_
+2	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	so	so	ADV	RB	_	4	advmod	_	_
+4	inconsistent	inconsistent	ADJ	JJ	Degree=Pos	0	root	_	_
+5	!	!	PUNCT	.	_	4	punct	_	SpacesAfter=\s\n
+
+# newdoc
+# newpar
+# sent_id = lpp_1943.523
+# text = " I order you to ask me a question , " the king hastened to assure him .
+1	"	"	PUNCT	``	_	3	punct	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	order	order	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	3	obj	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	ask	ask	VERB	VB	VerbForm=Inf	3	xcomp	_	_
+7	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	6	iobj	_	_
+8	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+9	question	question	NOUN	NN	Number=Sing	6	obj	_	_
+10	,	,	PUNCT	,	_	3	punct	_	_
+11	"	"	PUNCT	``	_	3	punct	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	king	king	NOUN	NN	Number=Sing	14	nsubj	_	_
+14	hastened	hasten	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	parataxis	_	_
+15	to	to	PART	TO	_	16	mark	_	_
+16	assure	assure	VERB	VB	VerbForm=Inf	14	xcomp	_	_
+17	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	obj	_	_
+18	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\s\n
+
+# newdoc
+# newpar
+# sent_id = lpp_1943.778
+# text = " There is nothing to understand , " said the lamplighter .
+1	"	"	PUNCT	``	_	3	punct	_	_
+2	There	there	PRON	EX	_	3	expl	_	_
+3	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	nothing	nothing	PRON	NN	Number=Sing	3	nsubj	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	understand	understand	VERB	VB	VerbForm=Inf	4	acl	_	_
+7	,	,	PUNCT	,	_	3	punct	_	_
+8	"	"	PUNCT	''	_	3	punct	_	_
+9	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	parataxis	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	lamplighter	lamplighter	NOUN	NN	Number=Sing	9	nsubj	_	_
+12	.	.	PUNCT	.	_	9	punct	_	SpacesAfter=\s\n
+
+# newdoc
+# newpar
+# sent_id = lpp_1943.799
+# text = " Yes , a month .
+1	"	"	PUNCT	``	_	5	punct	_	_
+2	Yes	yes	INTJ	UH	_	5	discourse	_	_
+3	,	,	PUNCT	,	_	5	punct	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+5	month	month	NOUN	NN	Number=Sing	0	root	_	_
+6	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\s\n
+
+# newdoc
+# newpar
+# sent_id = lpp_1943.887
+# text = But one never knows . "
+1	But	but	CCONJ	CC	_	4	cc	_	_
+2	one	one	PRON	PRP	_	4	nsubj	_	_
+3	never	never	ADV	RB	_	4	advmod	_	_
+4	knows	know	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	.	.	PUNCT	.	_	4	punct	_	_
+6	"	"	PUNCT	''	_	4	punct	_	SpacesAfter=\s\n
+
+# newdoc
+# newpar
+# sent_id = lpp_1943.921
+# text = To give you an idea of the size of the Earth , I will tell you that before the invention of electricity it was necessary to maintain , over the whole of the six continents , a veritable army of 462,511 lamplighters for the street lamps .
+1	To	to	PART	TO	_	2	mark	_	_
+2	give	give	VERB	VB	VerbForm=Inf	15	advcl	_	_
+3	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	2	iobj	_	_
+4	an	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+5	idea	idea	NOUN	NN	Number=Sing	2	obj	_	_
+6	of	of	ADP	IN	_	8	case	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	size	size	NOUN	NN	Number=Sing	5	nmod	_	_
+9	of	of	ADP	IN	_	11	case	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	Earth	earth	PROPN	NNP	Number=Sing	8	nmod	_	_
+12	,	,	PUNCT	,	_	15	punct	_	_
+13	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj	_	_
+14	will	will	AUX	MD	VerbForm=Fin	15	aux	_	_
+15	tell	tell	VERB	VB	VerbForm=Inf	0	root	_	_
+16	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	15	iobj	_	_
+17	that	that	SCONJ	IN	_	25	mark	_	_
+18	before	before	SCONJ	IN	_	25	mark	_	_
+19	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	_
+20	invention	invention	NOUN	NN	Number=Sing	25	nsubj	_	_
+21	of	of	ADP	IN	_	22	case	_	_
+22	electricity	electricity	NOUN	NN	Number=Sing	20	nmod	_	_
+23	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	25	expl	_	_
+24	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	25	cop	_	_
+25	necessary	necessary	ADJ	JJ	Degree=Pos	15	ccomp	_	_
+26	to	to	PART	TO	_	27	mark	_	_
+27	maintain	maintain	VERB	VB	VerbForm=Inf	25	csubj	_	_
+28	,	,	PUNCT	,	_	27	punct	_	_
+29	over	over	ADP	IN	_	31	case	_	_
+30	the	the	DET	DT	Definite=Def|PronType=Art	31	det	_	_
+31	whole	whole	ADJ	JJ	Degree=Pos	27	obl	_	_
+32	of	of	ADP	IN	_	35	case	_	_
+33	the	the	DET	DT	Definite=Def|PronType=Art	35	det	_	_
+34	six	six	NUM	CD	NumType=Card	35	nummod	_	_
+35	continents	continent	NOUN	NNS	Number=Plur	31	obl	_	_
+36	,	,	PUNCT	,	_	35	punct	_	_
+37	a	a	DET	DT	Definite=Ind|PronType=Art	39	det	_	_
+38	veritable	veritable	ADJ	JJ	Degree=Pos	39	amod	_	_
+39	army	army	NOUN	NN	Number=Sing	27	obj	_	_
+40	of	of	ADP	IN	_	42	case	_	_
+41	462,511	462,511	NUM	CD	NumType=Card	42	nummod	_	_
+42	lamplighters	lamplighter	NOUN	NNS	Number=Plur	39	nmod	_	_
+43	for	for	ADP	IN	_	46	case	_	_
+44	the	the	DET	DT	Definite=Def|PronType=Art	46	det	_	_
+45	street	street	NOUN	NN	Number=Sing	46	compound	_	_
+46	lamps	lamp	NOUN	NNS	Number=Plur	42	nmod	_	_
+47	.	.	PUNCT	.	_	15	punct	_	SpacesAfter=\s\n
+
+# newdoc
+# newpar
+# sent_id = lpp_1943.968
+# text = " It is a little lonely in the desert ... "
+1	"	"	PUNCT	``	_	6	punct	_	_
+2	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+5	little	little	ADJ	JJ	Degree=Pos	6	obl:npmod	_	_
+6	lonely	lonely	ADJ	JJ	Degree=Pos	0	root	_	_
+7	in	in	ADP	IN	_	9	case	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	desert	desert	NOUN	NN	Number=Sing	6	obl	_	_
+10	...	...	PUNCT	.	_	6	punct	_	_
+11	"	"	PUNCT	''	_	6	punct	_	SpacesAfter=\s\n
+
+# newdoc
+# newpar
+# sent_id = lpp_1943.1000
+# text = I saw them , several years ago .
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	saw	see	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	2	obj	_	_
+4	,	,	PUNCT	,	_	2	punct	_	_
+5	several	several	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	years	year	NOUN	NNS	Number=Plur	7	obl:npmod	_	_
+7	ago	ago	ADV	RB	_	2	advmod	_	_
+8	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\s\n
+
+# newdoc
+# newpar
+# sent_id = lpp_1943.1015
+# text = " Who are you - - Who are you - - Who are you ? " answered the echo .
+1	"	"	PUNCT	``	_	2	punct	_	_
+2	Who	who	PRON	WP	PronType=Int	7	nsubj	_	_
+3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	cop	_	_
+4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	nsubj	_	_
+5	-	-	PUNCT	,	_	2	punct	_	_
+6	-	-	PUNCT	,	_	2	punct	_	_
+7	Who	who	PRON	WP	PronType=Int	17	nsubj	_	_
+8	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	7	cop	_	_
+9	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	7	nsubj	_	_
+10	-	-	PUNCT	,	_	7	punct	_	_
+11	-	-	PUNCT	,	_	7	punct	_	_
+12	Who	who	PRON	WP	PronType=Int	7	nsubj	_	_
+13	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	7	cop	_	_
+14	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	7	nsubj	_	_
+15	?	?	PUNCT	.	_	7	punct	_	_
+16	"	"	PUNCT	''	_	7	punct	_	_
+17	answered	answer	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+19	echo	echo	NOUN	NN	Number=Sing	17	obj	_	_
+20	.	.	PUNCT	.	_	17	punct	_	SpacesAfter=\s\n
+
+# newdoc
+# newpar
+# sent_id = lpp_1943.1166
+# text = " One could not die for you .
+1	"	"	PUNCT	``	_	5	punct	_	_
+2	One	one	PRON	PRP	_	5	nsubj	_	_
+3	could	could	AUX	MD	VerbForm=Fin	5	aux	_	_
+4	not	not	PART	RB	_	5	advmod	_	_
+5	die	die	VERB	VB	VerbForm=Inf	0	root	_	_
+6	for	for	ADP	IN	_	7	case	_	_
+7	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	5	obl	_	_
+8	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\s\n
+
+# newdoc
+# newpar
+# sent_id = lpp_1943.1245
+# text = He was tired .
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cop	_	_
+3	tired	tired	ADJ	JJ	Degree=Pos	0	root	_	_
+4	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\s\n
+
+# newdoc
+# newpar
+# sent_id = lpp_1943.1335
+# text = And as I gave it to him my heart was torn .
+1	And	and	CCONJ	CC	_	11	cc	_	_
+2	as	as	SCONJ	IN	_	4	mark	_	_
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+4	gave	give	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	11	advcl	_	_
+5	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
+6	to	to	ADP	IN	_	7	case	_	_
+7	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obl	_	_
+8	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	9	nmod:poss	_	_
+9	heart	heart	NOUN	NN	Number=Sing	11	nsubj:pass	_	_
+10	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	aux:pass	_	_
+11	torn	tear	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+12	.	.	PUNCT	.	_	11	punct	_	SpacesAfter=\s\n
+
+# newdoc
+# newpar
+# sent_id = lpp_1943.1426
+# text = " Yes , I know ... "
+1	"	"	PUNCT	``	_	5	punct	_	_
+2	Yes	yes	INTJ	UH	_	5	discourse	_	_
+3	,	,	PUNCT	,	_	5	punct	_	_
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+5	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	...	...	PUNCT	.	_	5	punct	_	_
+7	"	"	PUNCT	''	_	5	punct	_	SpacesAfter=\s\n
+
+# newdoc
+# newpar
+# sent_id = lpp_1943.1559
+# text = Wait for a time , exactly under the star .
+1	Wait	wait	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	for	for	ADP	IN	_	4	case	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
+4	time	time	NOUN	NN	Number=Sing	1	obl	_	_
+5	,	,	PUNCT	,	_	1	punct	_	_
+6	exactly	exactly	ADV	RB	_	9	advmod	_	_
+7	under	under	ADP	IN	_	9	case	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	star	star	NOUN	NN	Number=Sing	1	obl	_	_
+10	.	.	PUNCT	.	_	1	punct	_	SpacesAfter=\s\n
+
