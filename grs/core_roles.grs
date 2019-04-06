@@ -8,6 +8,8 @@ rule pred_nsubj_obj(lex from "lexicons/subcat/verb_nsubj_obj.lp"){
 	commands {
 		del_edge nsubj_rel;
 		del_edge obj_rel;
+		add_edge V -[lex.doer]-> NSUBJ;
+		add_edge V -[lex.patient]-> OBJ;
 		V.doer = lex.doer;
 		V.patient = lex.patient;
 		V.concept = lex.concept;
@@ -24,6 +26,7 @@ rule pred_obj(lex from "lexicons/subcat/verb_nsubj_obj.lp"){
 	}
 	commands {
 		del_edge obj_rel;
+		add_edge V -[lex.patient]-> OBJ;
 		V.patient = lex.patient;
 		V.concept = lex.concept;
 		OBJ.concept = OBJ.form;
@@ -38,6 +41,7 @@ rule pred_nsubj(lex from "lexicons/subcat/verb_nsubj_obj.lp"){
 	}
 	commands {
 		del_edge nsubj_rel;
+		add_edge V -[lex.doer]-> NSUBJ;
 		V.doer = lex.doer;
 		V.concept = lex.concept;
 		NSUBJ.concept = NSUBJ.form;
