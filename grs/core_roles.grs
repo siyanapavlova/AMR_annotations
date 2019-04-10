@@ -398,7 +398,8 @@ rule pred_nsubjpass(lex from "lexicons/subcat/verb_nsubj_obj.lp"){
 	}
 	commands {
 		del_edge nsubj_rel;
-		GOV.doer = lex.doer;
+		add_edge GOV -[lex.patient]-> NSUBJPASS;
+		GOV.patient = lex.patient;
 		GOV.concept = lex.concept;
 		NSUBJPASS.concept = NSUBJPASS.form;
 	}
@@ -419,5 +420,16 @@ rule pred_nsubjpass_obj(lex from "lexicons/subcat/verb_nsubj_obj.lp"){
 		GOV.concept = lex.concept;
 		NSUBJPASS.concept = NSUBJPASS.form;
 		OBJ.concept = OBJ.form;
+	}
+}
+
+%remove aux:pass relation when the predicate has an nsubj:pass relation too
+rule remove_aux_pass {
+	pattern {
+		aux_pass_rel: GOV -[aux:pass]-> DEP;
+		nsubj_pass_rel: GOV -[nsubj:pass]-> DEP2;
+	}
+	commands {
+		del_node DEP;
 	}
 }
