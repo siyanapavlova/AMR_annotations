@@ -60,6 +60,29 @@ def split_by_relations(sentences, relations1, relations2):
 	'''
 	pass
 
+def map_lemma_amr_ud(amrgraph, udgraph, amr_relation):
+    '''
+    given an AMR graph and its associated UD graph, searches for all nodes in the AMR GREW graph that has the 
+    amr_relation that is passed into the function. The resulting list of token_num-lemma pairs are searched for
+    in the UD GREW graph. The resulting token_num-lemma pairs are for nodes in the UD graph whose token_num and lemmas
+    match match those of the amrgraph
+    '''
+    # list comprehension. checks every node in the amrgraph to identify those that has the amr_relation. obtains 
+    # a set of token_num-lemma pairs for the node (the parent) with the amr_relation. 
+    amr_lemmaset = [(i, amrgraph[i][0]["lemma"]) for i in amrgraph for i2 in amrgraph[i][1] if i2[0] == amr_relation]
+    # The set of pairs are checked for in the (corresponding) UD GREW is searched for the 
+    ud_lemmaset = [pair for pair in amr_lemmaset for i in udgraph if pair[1]==udgraph[i][0]["lemma"]]
+    
+    return ud_lemmaset
+
+def get_childrencount(graph):   
+    '''
+    takes a UD GREW graph. iterates through all its tokens and for each, counts the number of dependents it has and 
+    writes it as a new attribute within the UD graph. 
+    '''
+    for token_num in graph:
+        graph[token_num][0]["num_child"] = len(graph[token_num][1])
+
 if __name__ == "__main__":
 	grew.init()
 	ud_graph = grew.graph("./data/dev_data/sentence0002.conll")
