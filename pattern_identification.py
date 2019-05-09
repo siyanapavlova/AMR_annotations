@@ -83,6 +83,114 @@ def get_childrencount(graph):
     for token_num in graph:
         graph[token_num][0]["num_child"] = len(graph[token_num][1])
 
+
+def get_graphcuts(matrix, rootnode_num, stepsize):
+    '''
+    for a given graph adjacency matrix and the root node number as well as specified step size, return the subgraph
+    '''
+    pass
+
+
+def _find_max_subgraph():
+    '''
+    given each subset of graphcuts of a certain size (corresponding to instances from one cluster), find the maximal 
+    subgraph shared between all of them. This will be the relation pattern for 1x rewriting rule for the AMR relation. 
+    A linguistic analysis of this pattern (to remove potentially unnecessary UD relations - e.g. determiners etc)
+    '''
+    pass
+
+def get_best_stepnclust(model_scores, eval_metric="silhouette"):
+    '''
+    '''
+    if eval_metric == "silhouette" or "calinski_harabaz": # higher scores better 
+        # for each stepsize, retain only the results for the cluster size setting with the 
+        
+        step, cluster, score, labels = 0, 0, float("-inf"), 0 # negative infinity to handle negative silhouette scores
+        for step_size in model_scores:
+            for cluster_size in model_scores[step_size]: 
+                if model_scores[step_size][cluster_size][eval_metric] >= score:
+                    score=model_scores[step_size][cluster_size][eval_metric]
+                    cluster=cluster_size
+                    step=step_size
+                    labels = model_scores[step_size][cluster_size]["labels"]
+    
+        
+    elif eval_metric == "davies_bouldin": # db_scores closer to zero better
+        step, cluster, score, labels = 0, 0, float("inf"), 0
+        for step_size in model_scores:
+            for cluster_size in model_scores[step_size]: 
+                if model_scores[step_size][cluster_size][eval_metric] < score:
+                    score=model_scores[step_size][cluster_size][eval_metric]
+                    cluster=cluster_size
+                    step=step_size
+                    labels = model_scores[step_size][cluster_size]["labels"]
+                    
+    return step, cluster, score, labels
+
+
+def iterate_graphcuts(X_sets, n_range, _fit_cluster, cluster_algo="spectral", 
+                          affinity="cosine", agglo_link="complete"):
+    '''
+    given different sets of X (each set of X being a collection of subgraphs of a certain step size), iterate through sets,
+    as well as for each step size through n_range different cluster size. returns a collection of labels and evaluation 
+    scores for each X_set-n_cluster. 
+    inputs | X_sets is a collection of sets. Each set is a collection of flattened matrices obtained from get_graphcuts
+    '''
+    model_scores = dict()
+    for X_set_index in range(len(X_sets)): 
+        model_scores[str(X_set_index+1)+"steps"] = _iterate_ncluster(n_range, X, _fit_cluster, cluster_algo=cluster_algo, 
+                          affinity=affinity, agglo_link=agglo_link)
+    return model_scores
+
+
+def _iterate_ncluster(n_range, X, _fit_cluster, cluster_algo="spectral", 
+                          affinity="cosine", agglo_link="complete"): 
+    '''
+    
+    '''
+    model_scores = dict()
+    for n_clusters in n_range:
+        model_scores[str(n_clusters+1)+"clusters"] = _fit_cluster(X, n_clusters=n_clusters, cluster_algo=cluster_algo, 
+                          affinity=affinity, agglo_link=agglo_link)
+    
+    return model_scores
+
+def _fit_cluster(X, n_clusters, cluster_algo="spectral", affinity="cosine", agglo_link="complete"):
+    '''
+    
+    '''
+    if cluster_algo=="spectral":
+        spec_clust = SpectralClustering(n_clusters = n_clusters, assign_labels="discretize", 
+                                n_neighbors =int(len(X)/n_clusters)/2 , n_init=100,
+                                    affinity=affinity, n_jobs=-1)
+    
+        # run fit to partition the graph into clusters 
+        spec_clust.fit(X)
+        # extract cluster labels 
+        labels = spec_clust.labels_
+        # extract the computed affinity matrix to pass into scorers
+        affinity_matrix = spec_clust.affinity_matrix_
+
+        sil_score = silhouette_score(affinity_matrix, labels, metric="precomputed")
+        ch_score = calinski_harabaz_score(affinity_matrix, labels)
+        db_score =  davies_bouldin_score(affinity_matrix, labels)
+        
+    elif cluster_algo=="agglomerative": 
+        agglo_clust = AgglomerativeClustering(n_clusters = n_clusters,
+                                    affinity=affinity, linkage="complete")
+    
+        # run fit to partition the graph into clusters 
+        agglo_clust.fit(X)
+        # extract cluster labels 
+        labels = agglo_clust.labels_
+        
+        sil_score = silhouette_score(X, labels, metric="cosine")
+        ch_score = calinski_harabaz_score(X, labels)
+        db_score =  davies_bouldin_score(X, labels)
+    
+    return {"labels": labels, "silhouette":sil_score, "calinski_harabaz":ch_score, "davies_bouldin":db_score}
+
+
 if __name__ == "__main__":
 	grew.init()
 	ud_graph = grew.graph("./data/dev_data/sentence0002.conll")
