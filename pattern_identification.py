@@ -1,5 +1,8 @@
 import grew
 import pprint
+import numpy as np
+from sklearn.cluster import SpectralClustering, AgglomerativeClustering
+from sklearn.metrics import silhouette_score, calinski_harabaz_score, davies_bouldin_score
 
 pp = pprint.PrettyPrinter(indent = 4)
 
@@ -138,8 +141,8 @@ def iterate_graphcuts(X_sets, n_range, _fit_cluster, cluster_algo="spectral",
     '''
     model_scores = dict()
     for X_set_index in range(len(X_sets)): 
-        model_scores[str(X_set_index+1)+"steps"] = _iterate_ncluster(n_range, X, _fit_cluster, cluster_algo=cluster_algo, 
-                          affinity=affinity, agglo_link=agglo_link)
+        model_scores[str(X_set_index+1)+"steps"] = _iterate_ncluster(n_range, X_sets[X_set_index], 
+		_fit_cluster, cluster_algo=cluster_algo, affinity=affinity, agglo_link=agglo_link)
     return model_scores
 
 
@@ -195,3 +198,14 @@ if __name__ == "__main__":
 	grew.init()
 	ud_graph = grew.graph("./data/dev_data/sentence0002.conll")
 	print(group_by_relation([ud_graph], amr_rels))
+
+	X1_testset = [np.random.rand(10,10).ravel()+0.01 for i in range(10)]
+	X2_testset = [np.random.rand(10,10).ravel()+0.01 for i in range(10)]
+	X3_testset = [np.random.rand(10,10).ravel()+0.01 for i in range(10)]
+	X4_testset = [np.random.rand(10,10).ravel()+0.01 for i in range(10)]
+	X5_testset = [np.random.rand(10,10).ravel()+0.01 for i in range(10)]
+	X_sets = [X1_testset, X2_testset, X3_testset, X4_testset, X5_testset]
+
+	test_results = iterate_graphcuts(X_sets, range(2,5), _fit_cluster, cluster_algo="spectral", 
+                          affinity="cosine", agglo_link="complete")
+	print(get_best_stepnclust(test_results, eval_metric="davies_bouldin"))
