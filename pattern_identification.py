@@ -1,6 +1,8 @@
 import grew
 import pprint
 import numpy as np
+from itertools import combinations 
+import networkx as nx
 from sklearn.cluster import SpectralClustering, AgglomerativeClustering
 from sklearn.metrics import silhouette_score, calinski_harabaz_score, davies_bouldin_score
 
@@ -78,13 +80,73 @@ def map_lemma_amr_ud(amrgraph, udgraph, amr_relation):
     
     return ud_lemmaset
 
-def get_childrencount(graph):   
+def get_nxgraphs(graphs_by_relation):
     '''
-    takes a UD GREW graph. iterates through all its tokens and for each, counts the number of dependents it has and 
-    writes it as a new attribute within the UD graph. 
+    given a list of index numbers for UD Graph files, together with the AMR relation that they are associated with, 
+    1. open and load each file using GREW Python
+    2. extract node, node attribute, edge, edge attribute relation for all graphs on networkx (nx)
+    3. store each nx graph object 
+
     '''
-    for token_num in graph:
-        graph[token_num][0]["num_child"] = len(graph[token_num][1])
+    
+    return nxgraphs_dict 
+
+def _make_nxgraph(udgraph):
+    '''
+    takes a UD graph in GREW format. extracts node, node attribute, edge, edge attribute relation 
+    '''
+    nxgraph = nx.DiGraph() # directed graph 
+    for node_num in udgraph:
+        try:
+            nxgraph.add_node(node_num, upos = udgraph[node_num][0]['upos']) # add "upos" attribute as node attribute
+        except: 
+            nxgraph.add_node(node_num, weight = "root") # for root node
+        if len(udgraph[node_num][1])>1: # only add edges for nodes that have children 
+            for edge in udgraph[node_num][1]: 
+                nxgraph.add_edge(node_num, edge[1], UDrel=edge[0]) # add "UDrel" attribute as edge attribute
+    return nxgraph
+
+def get_nxsubgraphs(nxgraphs_dict, stepsize):
+    '''
+    4. for every graph, 
+        a. get list of node_num-lemma pair using map_lemma_amr_ud
+        b. use graph to 
+    '''
+    nxsubgraphs_dict = dict() # init an empty dictionary to store the SGs
+    for nxgraph_key in nxgraphs_dict: # iterate through the keys of the nx_graphs
+        ud_lemmaset = map_lemma_amr_ud(nxgraph_key)
+        subgraph_nodes = []
+        for set_ in ud_lemmaset: 
+            subgraph_nodes.extend(nxgraphs_dict[nxgraph_key].successors(set_[0])) # get its children
+            subgraph_nodes.append(nxgraph_key) # add the parent to the list too
+            
+        nxsubgraphs_dict[set_[0]] = nxgraphs_dict[nxgraph_key].subgraph(subgraph_nodes) # get the SG
+    
+    return nxsubgraphs_dict
+
+def get_nexsubgraphs_steps(nxsubgraphs_dict, stepsize):
+    '''
+    
+    '''
+    
+    
+    return 
+
+def compute_GED(nxsubgraphs_set, node_match, edge_match):
+    '''
+    given a set of subgraphs generated with the same stepsize, return an affinity matrix computed with 
+    nx's graph edit distance, pairwise between each node.  
+    '''
+    
+    # create a zeros np matrix to store the GED scores 
+    affinity_matrix = np.zeros(len[nxsubgraphs_set], len(nxsubgraphs_set))
+    
+    # generate unordered pairwise combi between subgraphs 
+    index_pairs = [i for i in combinations(range(len(nxsubgraphs_set)),2)]
+    for index_pair in index_pairs:
+        ged = nx.graph_edit_distance(nxsubgraphs_set[index_pair[0]], nxsubgraphs_set[index_pair[1]],
+                               node_match=node_matchnm, edge_match=edge_match) # compute the ged
+        affinity_matrix[index_pair[0]][index_pair[0]] = ged # add the score to the affinity matrix
 
 
 def get_graphcuts(matrix, rootnode_num, stepsize):

@@ -28,11 +28,11 @@ def ud_graph_search(ud_graph, pattern):
 	result = grew.corpus_search(pattern, ud_graph)
 	return result 
 	
-def ud_to_amr(grs_filename, ud_graph, strat): #it was grs insted of grs_filename, so the module gave errors when called from other modules
+def ud_to_amr(grs_filename, ud_graph, strat): 
 	"""
 	Takes a UD graph in CoNNL-U format and transforms it into an AMR graph by applying a set of rules
 	
-	input | ud_graph: dict - the UD graph to be transformed; grs: str - the filepath of the file containing 
+	input | ud_graph: dict - the UD graph to be transformed; grs_filename: str - the filepath of the file containing 
 	the GREW string representation of a grs
 	output| list - containing one, or more (if there is more than 1 solution), AMR graph in GREW dictionary form. 
 	"""
@@ -56,7 +56,7 @@ if __name__== "__main__":
 	print("Grew initiated \n") 
 
 	# load the UD graph 
-	ud_graph = load_data("./data/dev_data/sentence0005.conll")
+	ud_graph = load_data("./data/amr_bank_data/ud/sentence0005.conll")
 	print("Grew graph loaded \n")
 	print(ud_graph)
 
