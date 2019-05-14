@@ -1,1 +1,4 @@
-(i2 / it)
+(s / say-01
+	:obl (b / book
+		:case (i / in))
+	:ARG0 (i2 / it))

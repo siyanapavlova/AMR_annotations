@@ -16,7 +16,6 @@ def run_pipeline(load_path, save_path, filename, gold_amr):
 
 	# generate the graph(s) from the application of the grs in grs_filename
 	new_graphs = ud_to_amr.ud_to_amr(grs_filename, ud_graph, strat="simple")
-	
 	text_amr = amr_graph_to_text.amr_grew_to_text(new_graphs)
 	parser.save_data(text_amr, save_path, filename)
 

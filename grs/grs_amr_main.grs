@@ -19,33 +19,33 @@ strat simpler {
 
 strat simple {
   Seq (
-    Onf (remove_root_rel), %delete root relation
-    Onf (pred_nsubj_obj),  % identify a predicate and its arguments. 
-  Onf (remove_aux_pass), %may be removed later, this is mainly for testing; remove aux:pass relation when the predicate has an nsubj:pass relation too
-	Onf (pred_nsubjpass_obj),
-	Onf (pred_nsubjpass),
-    Onf (pred_obj),
-    Onf (pred_nsubj),
-    Onf (ccomp_verbadv_notcop),  % delete determiners
-	Onf (advcl_manner),
-  	Onf (remove_det), 
-	Onf (remove_punct),
-  	Onf (nmod),
-  	Onf (obl_nosubtag_temporal), 	
-  	Onf (obl_nosubtag_locational), 
-	Onf (obl_npmod),
-	Onf (obl_agent), 
-	Onf (verb_nominal_nummod_nsubj), 
-  	Onf (verb_nominal_nummod_obj), 
-	Onf (add_doerARG0),
-	Onf (add_doerARG1),
-	Onf (add_doerARG2),
-	Onf (add_doerARG3),
-	Onf (add_patientARG0),
-	Onf (add_patientARG1),
-	Onf (add_patientARG2),
-	Onf (add_patientARG3),
-    Onf (add_concept),
+	Iter (remove_root_rel), % delete root relation, which is not necessary 
+	Onf (add_concept), % add an empty concept to every node, to have consistency across the board
+    Iter (pred_nsubj_obj),  % identify a predicate and its arguments. 
+  	Iter (remove_aux_pass), %may be removed later, this is mainly for testing; remove aux:pass relation when the predicate has an nsubj:pass relation too
+	Iter (pred_nsubjpass_obj),
+	Iter (pred_nsubjpass),
+    Iter (pred_obj),
+    Iter (pred_nsubj),
+    Iter (ccomp_verbadv_notcop), 
+	Iter (advcl_manner),
+  	Iter (obl_nosubtag_temporal), 	
+  	Iter (obl_nosubtag_locational), 
+	Iter (obl_npmod),
+	Iter (obl_agent), 
+	Iter (verb_nominal_nummod_nsubj), 
+  	Iter (verb_nominal_nummod_obj), 
+	Iter (add_doerARG0),
+	Iter (add_doerARG1),
+	Iter (add_doerARG2),
+	Iter (add_doerARG3),
+	Iter (add_patientARG0),
+	Iter (add_patientARG1),
+	Iter (add_patientARG2),
+	Iter (add_patientARG3),
+  	Iter (remove_det), 
+	Iter (remove_punct),
+  	Iter (nmod),
 
     %Iter (noun_amod),  % identify nouns with an amod. Add the :mod role. 
     %Iter (iobj_nom_lex), % delete punctuation

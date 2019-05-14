@@ -1,8 +1,8 @@
 (t2 / tell
-	:manner (g / give
+	:manner (g / give-01
 		:mark (t / to)
 		:iobj (y / you)
-		:obj (i / idea
+		:ARG1 (i / idea
 			:poss (s / size
 				:case (o / of)
 				:poss (e / earth
