@@ -1,5 +1,5 @@
 import grew
-import pprint
+import pprint, ud_to_amr
 import numpy as np
 from itertools import combinations 
 import networkx as nx
@@ -68,9 +68,9 @@ def split_by_relations(sentences, relations1, relations2):
 def map_lemma_amr_ud(amrgraph, udgraph, amr_relation):
     '''
     given an AMR graph and its associated UD graph, searches for all nodes in the AMR GREW graph that has the 
-    amr_relation that is passed into the function. The resulting list of token_num-lemma pairs are searched for
+    amr_relation that is passed into the function. This list of token_num-lemma pairs is searched for
     in the UD GREW graph. The resulting token_num-lemma pairs are for nodes in the UD graph whose token_num and lemmas
-    match match those of the amrgraph
+    match those of the AMR graph. 
     '''
     # list comprehension. checks every node in the amrgraph to identify those that has the amr_relation. obtains 
     # a set of token_num-lemma pairs for the node (the parent) with the amr_relation. 
@@ -88,7 +88,13 @@ def get_nxgraphs(graphs_by_relation):
     3. store each nx graph object 
 
     '''
-    
+    nxgraphs_dict=dict()
+
+	for graph_indexnum in graphs_by_relation:
+		load_path= "'./data/amr_bank_data/ud/sentence'"+graph_indexnum
+		ud_grewgraph = ud_to_amr.load_data(load_path) 
+		nxgraph = make_nxgraph(ud_grewgraph) # see make_nxgraph below 
+		graph_indexnum[graph_indexnum] = nxgraph
     return nxgraphs_dict 
 
 def _make_nxgraph(udgraph):
@@ -104,13 +110,17 @@ def _make_nxgraph(udgraph):
         if len(udgraph[node_num][1])>1: # only add edges for nodes that have children 
             for edge in udgraph[node_num][1]: 
                 nxgraph.add_edge(node_num, edge[1], UDrel=edge[0]) # add "UDrel" attribute as edge attribute
-    return nxgraph
+    
+	return nxgraph
 
-def get_nxsubgraphs(nxgraphs_dict, stepsize):
+def _get_nxsubgraphs(nxgraphs_dict, stepsize):
     '''
-    4. for every graph, 
-        a. get list of node_num-lemma pair using map_lemma_amr_ud
-        b. use graph to 
+    given a dictionary of nxgraph objects (keys are sentence numbers, values the nx graph object), for every graph, 
+	1. get list of node_num-lemma pair using map_lemma_amr_ud
+    2. iterate through that list (either 1 or more pairs) to:
+		a. find the children for a particular node_num
+		b. find the subgraph containing node_num and children
+		c. add to nxsubgraphs_dict
     '''
     nxsubgraphs_dict = dict() # init an empty dictionary to store the SGs
     for nxgraph_key in nxgraphs_dict: # iterate through the keys of the nx_graphs
@@ -124,34 +134,39 @@ def get_nxsubgraphs(nxgraphs_dict, stepsize):
     
     return nxsubgraphs_dict
 
-def get_nexsubgraphs_steps(nxsubgraphs_dict, stepsize):
+def get_nxsubgraphs_bysteps(nxgraphs_dict, stepsizerange):
     '''
-    
+    given a set of a dictionary of nxgraph objects and the stepsizerange, for each graph: 
+	1. get the largest stepsize subgraph 
+	2. subsequently, working on this "largest" stepsize subgraph, get successively smaller step-sized 
+	subgraphs by removing leaf nodes at each layer. (this approach saves a little time by not having to search the 
+	original graph and building out the different stepsize SGs each time)
     '''
+    nxsubgraphs_bysteps_dict = dict()
     
-    
-    return 
+    return nxsubgraphs_bysteps_dict
 
-def compute_GED(nxsubgraphs_set, node_match, edge_match):
+def compute_affinity(nxsubgraphs_set, node_match, edge_match):
     '''
     given a set of subgraphs generated with the same stepsize, return an affinity matrix computed with 
     nx's graph edit distance, pairwise between each node.  
     '''
     
-    # create a zeros np matrix to store the GED scores 
+    # create a zeros np matrix for storing the GED scores 
     affinity_matrix = np.zeros(len[nxsubgraphs_set], len(nxsubgraphs_set))
     
     # generate unordered pairwise combi between subgraphs 
     index_pairs = [i for i in combinations(range(len(nxsubgraphs_set)),2)]
     for index_pair in index_pairs:
         ged = nx.graph_edit_distance(nxsubgraphs_set[index_pair[0]], nxsubgraphs_set[index_pair[1]],
-                               node_match=node_matchnm, edge_match=edge_match) # compute the ged
+                               node_match=node_match, edge_match=edge_match) # compute the ged
         affinity_matrix[index_pair[0]][index_pair[0]] = ged # add the score to the affinity matrix
 
+	return affinity_matrix
 
-def get_graphcuts(matrix, rootnode_num, stepsize):
+def get_graphcuts(nxgraph, rootnode_num, stepsize):
     '''
-    for a given graph adjacency matrix and the root node number as well as specified step size, return the subgraph
+    for a given nxgraph, selected stepsize and the root node number as well as specified step size, return the subgraph
     '''
     pass
 
@@ -193,7 +208,7 @@ def get_best_stepnclust(model_scores, eval_metric="silhouette"):
     return step, cluster, score, labels
 
 
-def iterate_graphcuts(X_sets, n_range, _fit_cluster, cluster_algo="spectral", 
+def iterate_graphcuts(X_sets, n_range, _fit_cluster, affinity=False, cluster_algo="spectral", 
                           affinity="cosine", agglo_link="complete"):
     '''
     given different sets of X (each set of X being a collection of subgraphs of a certain step size), iterate through sets,
@@ -271,3 +286,7 @@ if __name__ == "__main__":
 	test_results = iterate_graphcuts(X_sets, range(2,5), _fit_cluster, cluster_algo="spectral", 
                           affinity="cosine", agglo_link="complete")
 	print(get_best_stepnclust(test_results, eval_metric="davies_bouldin"))
+
+
+if __name__=="__main__":
+	grew.init()
