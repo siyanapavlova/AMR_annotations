@@ -103,5 +103,6 @@ if __name__ == "__main__":
 					'./grs/lexicons/subcat/common_predicates_anno2.lp',
 					'./grs/lexicons/original_amr_lexicons/common-in-progress.txt')
 	sort_file('./grs/lexicons/subcat/common_predicates_anno2.lp')
+	
 
 
