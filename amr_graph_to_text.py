@@ -19,23 +19,26 @@ def get_text_format(graph, current_node, visited, text_format, tabs):
 	"""
 	# pp.pprint(graph)
 	if current_node not in visited:
-		text_format += '(' + graph[0][current_node][0]['abbreviation'] +' / ' + graph[0][current_node][0]['concept'].lower()
+		text_format += '(' + graph[current_node][0]['abbreviation'] +' / ' + graph[current_node][0]['concept'].lower()
 
 		# print(text_format)
 		# print(graph[0][current_node][1])
 		# print("="*10)
-		if graph[0][current_node][1] == []:
+		if graph[current_node][1] == []:
 			text_format += ')'
 			visited.append(current_node)
 		else:
-			for child_node in graph[0][current_node][1]:
+			for child_node in graph[current_node][1]:
 				text_format = text_format + '\n' + tabs*'\t' + ':' + child_node[0] + ' '
 				visited, text_format = get_text_format(graph, child_node[1], visited, text_format, tabs + 1)
 			text_format += ')'
 			visited.append(current_node)
 	else:
-		text_format += '(' + graph[0][current_node][0]['abbreviation'] + ')'
+		text_format += '(' + graph[current_node][0]['abbreviation'] + ')'
 	return visited, text_format
+
+
+    
 
 def amr_grew_to_text(graph):
 	"""Takes a graph in GREW format and produces its textual representation
@@ -53,15 +56,15 @@ def amr_grew_to_text(graph):
 	abbreviations = []
 
 	#Create abbreviations for each node
-	for node in graph[0]:
-		abbr = graph[0][node][0]['concept'][0].lower()
+	for node in graph:
+		abbr = graph[node][0]['concept'][0].lower()
 		#if first letter is not in the abbreviations, the first letter becomes the abbreviation
 		if abbr not in abbreviations:
-			graph[0][node][0]['abbreviation'] = abbr
+			graph[node][0]['abbreviation'] = abbr
 			abbreviations.append(abbr)
 		else:
 			previous = [x for x in abbreviations if x.startswith(abbr)]
-			graph[0][node][0]['abbreviation'] = abbr + str(len(previous)+1)
+			graph[node][0]['abbreviation'] = abbr + str(len(previous)+1)
 			abbreviations.append(abbr)
 
 	
@@ -80,17 +83,17 @@ def amr_grew_to_text(graph):
 	
 
 	#Make a list in each node where the incoming relations will be kept
-	for node in graph[0]:
-		graph[0][node].append([])
+	for node in graph:
+		graph[node].append([])
 
 	#Fill the incoming relations list
-	for node in graph[0]:
-		for relation in graph[0][node][1]:
-			graph[0][relation[1]][2] = [relation[0],node]
+	for node in graph:
+		for relation in graph[node][1]:
+			graph[relation[1]][2] = [relation[0],node]
 
 	#Find the starting node (root)
-	for node in graph[0]:
-		if graph[0][node][2] == []:
+	for node in graph:
+		if graph[node][2] == []:
 			starting_node = node
 			break
 
@@ -113,5 +116,5 @@ def conllu_for_smatcher(graphs):
 		text_format = amr_grew_to_text(graph)
 
 if __name__== "__main__":
-	new_graph = [{'2': [{'xpos': 'VBD', 'upos': 'VERB', 'lemma': 'see', 'form': 'saw', 'concept': 'see-01', 'Mood': 'Ind', 'VerbForm': 'Fin', 'Tense': 'Past'}, [['lex.doer', '1'], ['lex.patient', '5']]], '5': [{'xpos': 'NN', 'upos': 'NOUN', '_MISC_SpaceAfter': 'No', 'lemma': 'picture', 'form': 'picture', 'concept': 'picture', 'Number': 'Sing'}, [['ARG0-of', '4']]], '4': [{'concept': 'magnificent', 'lemma': 'magnificent', 'form': 'magnificent', 'Degree': 'Pos', 'xpos': 'JJ', 'upos': 'ADJ'}, []], '1': [{'xpos': 'PRP', 'Person': '1', 'lemma': 'I', 'form': 'I', 'PronType': 'Prs', 'Case': 'Nom', 'Number': 'Sing', 'upos': 'PRON', 'concept': 'I'}, []]}]
+	new_graph = {'2': [{'xpos': 'VBD', 'upos': 'VERB', 'lemma': 'see', 'form': 'saw', 'concept': 'see-01', 'Mood': 'Ind', 'VerbForm': 'Fin', 'Tense': 'Past'}, [['lex.doer', '1'], ['lex.patient', '5']]], '5': [{'xpos': 'NN', 'upos': 'NOUN', '_MISC_SpaceAfter': 'No', 'lemma': 'picture', 'form': 'picture', 'concept': 'picture', 'Number': 'Sing'}, [['ARG0-of', '4']]], '4': [{'concept': 'magnificent', 'lemma': 'magnificent', 'form': 'magnificent', 'Degree': 'Pos', 'xpos': 'JJ', 'upos': 'ADJ'}, []], '1': [{'xpos': 'PRP', 'Person': '1', 'lemma': 'I', 'form': 'I', 'PronType': 'Prs', 'Case': 'Nom', 'Number': 'Sing', 'upos': 'PRON', 'concept': 'I'}, []]}
 	print(amr_grew_to_text(new_graph))
