@@ -7,7 +7,7 @@ roles = ['actor1', 'actor2', 'actor', 'agent', 'asset',
 		 'material', 'patient', 'patient1', 'patient2',
 		 'predicate', 'product', 'recipient', 'source',
 		 'stimulus', 'theme', 'theme1', 'theme2', 'time',
-		 'topic', 'proposition']
+		 'topic', 'proposition', "-"]
 
 class Predicate:
 	def __init__(self,pred,concept):
@@ -100,9 +100,9 @@ def create_lexicon(load_path, save_path, unprocessed_path):
 
 if __name__ == "__main__":
 	create_lexicon('./grs/lexicons/original_amr_lexicons/common-in-progress.txt',
-					'./grs/lexicons/subcat/common_predicates_anno2.lp',
+					'./grs/lexicons/subcat/common_predicates_anno1.lp',
 					'./grs/lexicons/original_amr_lexicons/common-in-progress.txt')
-	sort_file('./grs/lexicons/subcat/common_predicates_anno2.lp')
+	sort_file('./grs/lexicons/subcat/common_predicates_anno1.lp')
 	
 
 

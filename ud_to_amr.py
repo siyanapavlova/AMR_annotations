@@ -56,7 +56,7 @@ if __name__== "__main__":
 	print("Grew initiated \n") 
 
 	# load the UD graph 
-	ud_graph = load_data("./data/amr_bank_data/ud/sentence0005.conll")
+	ud_graph = load_data("./data/amr_bank_data/ud/sentence0059.conll")
 	print("Grew graph loaded \n")
 	print(ud_graph)
 

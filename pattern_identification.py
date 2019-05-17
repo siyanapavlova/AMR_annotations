@@ -107,13 +107,13 @@ def _make_nxgraph(udgraph):
 			nxgraph.add_node(node_num, upos = udgraph[node_num][0]['upos']) # add "upos" attribute as node attribute
 		except: 
 			nxgraph.add_node(node_num, weight = "root") # for root node
-		if len(udgraph[node_num][1])>1: # only add edges for nodes that have children 
+		if len(udgraph[node_num][1])>=1: # only add edges for nodes that have children 
 			for edge in udgraph[node_num][1]: 
 				nxgraph.add_edge(node_num, edge[1], UDrel=edge[0]) # add "UDrel" attribute as edge attribute
     
 	return nxgraph
 
-def _get_nxsubgraphs(nxgraphs_dict, stepsize):
+def _get_nxsubgraphs(nxgraphs_dict):
 	'''
 	given a dictionary of nxgraph objects (keys are sentence numbers, values the nx graph object), for every graph, 
 	1. get list of node_num-lemma pair using map_lemma_amr_ud
@@ -160,7 +160,7 @@ def compute_affinity(nxsubgraphs_set, node_match, edge_match):
 	for index_pair in index_pairs:
 		ged = nx.graph_edit_distance(nxsubgraphs_set[index_pair[0]], nxsubgraphs_set[index_pair[1]],
 									node_match=node_match, edge_match=edge_match) # compute the ged
-		affinity_matrix[index_pair[0]][index_pair[0]] = ged # add the score to the affinity matrix
+		affinity_matrix[index_pair[0]][index_pair[1]] = ged # add the score to the affinity matrix
 
 	return affinity_matrix
 
