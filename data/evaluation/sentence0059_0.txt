@@ -1,12 +1,12 @@
-(s2 / say-01
+(s / say-01
+	:time (h / he
+		:case (t / to))
+	:ARG0 (i / i)
 	:manner (a2 / able
+		:nsubj (i2 / i)
 		:mark (w / when)
 		:obl (l / last
 			:case (a / at))
-		:nsubj (i / i)
-		:cop (b / be)
-		:xcomp (s / speak
-			:mark (t / to)))
-	:ARG0 (i2 / i)
-	:time (h / he
-		:case (t2 / to)))
+		:xcomp (s2 / speak
+			:mark (t2 / to))
+		:cop (b2 / be)))

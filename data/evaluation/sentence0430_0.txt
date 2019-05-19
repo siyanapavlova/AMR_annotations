@@ -1,4 +1,4 @@
 (i / inconsistent
 	:nsubj (f / flower)
-	:cop (b / be)
-	:advmod (s / so))
+	:advmod (s / so)
+	:cop (b / be))

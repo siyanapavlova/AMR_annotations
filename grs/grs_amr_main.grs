@@ -31,7 +31,7 @@ strat prepare {
 strat test_new_lex {
   Seq (
     Onf(add_concept),
-    Iter(prepare_verb), %add argument attributes to verbs that are in the lexicon
+    prepare_verb, %add argument attributes to verbs that are in the lexicon
     %Iter(prepare_verb_arg1),
     prepare,
     Iter(pred_nsubj_new_lex),

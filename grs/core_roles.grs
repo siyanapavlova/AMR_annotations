@@ -18,6 +18,8 @@ rule prepare_verb(lex from "lexicons/subcat/test_lexicon.lp"){
 	}
 	without {
 		V[arg0];
+		%V[concept=lex.concept];
+		%V[arg0];
 	}
 	commands {
 		V.arg0 = lex.arg0;

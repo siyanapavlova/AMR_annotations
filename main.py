@@ -15,11 +15,14 @@ def run_pipeline(load_path, save_path, filename, gold_amr):
 	grs_filename = './grs/grs_amr_main.grs' 
 
 	# generate the graph(s) from the application of the grs in grs_filename
-	new_graphs = ud_to_amr.ud_to_amr(grs_filename, ud_graph, strat="simple")
+	new_graphs = ud_to_amr.ud_to_amr(grs_filename, ud_graph, strat="test_new_lex")
 	score_dict = {}
+	print(len(new_graphs))
 	for new_graph_num in range(len(new_graphs)):
 		new_graph = new_graphs[new_graph_num]
 		text_amr = amr_graph_to_text.amr_grew_to_text(new_graph)
+		pp.pprint(new_graph)
+		print(text_amr)
 		parser.save_data(text_amr, save_path, filename.format("_"+str(new_graph_num)))  # add a numerical extension  to 
 																			# to distinguish between alternative results
 		_score = smatcher.get_smatch_score(save_path+filename.format("_"+str(new_graph_num)), gold_amr) #gold goes second
@@ -45,6 +48,7 @@ if __name__=="__main__":
 	# sentence_nums = [59, 276, 430, 523, 778, 799, 887, 1166, 1245, 1426]
 	# sentence_nums = [4]
 	# sentence_nums = [130]
+	sentence_nums = [5]
 	scores = []
 	print(sentence_nums)
 	for num in sentence_nums:

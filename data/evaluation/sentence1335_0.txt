@@ -1,10 +1,10 @@
-(t2 / tear-01
-	:cc (a / and)
-	:manner (g / give-01
-		:mark (a2 / as)
-		:ARG0 (i / i)
-		:ARG1 (i2 / it)
-		:time (h / he
-			:case (t / to)))
+(t / tear-01
+	:cc (a2 / and)
 	:ARG1 (h2 / heart
-		:poss (m / my)))
+		:poss (m / my))
+	:manner (g / give-01
+		:ARG1 (i / it)
+		:time (h / he
+			:case (t2 / to))
+		:ARG0 (i2 / i)
+		:mark (a / as)))
