@@ -22,6 +22,11 @@ strat prepare {
     Iter(add_root_concept), %add a concept to the root
     Iter(remove_root_rel), %delete the root relation
     %Iter(remove_punct_safe),
+  )
+}
+
+strat clean {
+  Seq (
     Iter(remove_punct),
     Iter(remove_det),
   )
@@ -41,9 +46,10 @@ strat test_new_lex {
     Iter(prepare_verb_arg7),
     Iter(prepare_verb_arg8),
     Iter(prepare_verb_arg9),
-    prepare,
+	prepare,
     Iter(pred_nsubj_new_lex),
     Iter (nmod),
+	clean,
   )
 }
 

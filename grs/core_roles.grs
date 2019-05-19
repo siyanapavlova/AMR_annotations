@@ -7,7 +7,6 @@ rule pred_nsubj_new_lex(lex from "lexicons/subcat/test_lexicon.lp"){
 	commands {
 		del_edge nsubj_rel;
 		add_edge V -[ARG0]-> NSUBJ;
-		V.concept = lex.concept;
 		NSUBJ.concept = NSUBJ.form;
 	}
 }
