@@ -1,5 +1,5 @@
 import grew
-import pprint, ud_to_amr
+import pprint, ud_to_amr, glob
 import numpy as np
 from itertools import combinations 
 from random import seed, sample
@@ -9,8 +9,9 @@ from sklearn.metrics import silhouette_score, calinski_harabaz_score, davies_bou
 
 pp = pprint.PrettyPrinter(indent = 4)
 
+
 #TODO: add more relations to this list
-amr_rels = ['ARG0', 'ARG1', 'ARG2', 'ARG3', 'ARG4', 'ARG5', 'ARG6', 'ARG7', 'ARG8', 'ARG9',
+AMR_RELS = ['ARG0', 'ARG1', 'ARG2', 'ARG3', 'ARG4', 'ARG5', 'ARG6', 'ARG7', 'ARG8', 'ARG9',
 			'accompanier', 'age', 'beneficiary', 'concession', 'condition', 'consist-of',
 			'degree', 'destination', 'direction', 'domain', 'duration', 'example', 'extent',
 			'frequency', 'instrument', 'li', 'location', 'manner', 'medium', 'mod', 'mode',
@@ -19,6 +20,15 @@ amr_rels = ['ARG0', 'ARG1', 'ARG2', 'ARG3', 'ARG4', 'ARG5', 'ARG6', 'ARG7', 'ARG
 			':calendar', ':century', ':day', ':dayperiod', ':decade', ':era', ':month',
 			':quarter', ':season', ':timezone', ':weekday', ':year', ':year2',
 			'op1', 'op2', 'op3', 'op4']
+
+
+class Sentence:
+	def __init__(self, sentence_num):
+		self.sentence_num = sentence_num
+		self.amr_grewgraph = None
+		self.ud_grewgraph = None
+		self.ud_nxgraph = None 
+
 
 def amr_text_to_grew(amr_text):
 	'''
@@ -29,17 +39,37 @@ def amr_text_to_grew(amr_text):
 	'''
 	pass
 
-def group_by_relation(graphs, relations):
+
+def loadmake_allgraphs(form1_filepath="./data/amr_bank_data/ud/", 
+						form2_filepath="./data/amr_bank_data/amrs_gold/"):
+	'''
+	Given the filepaths where CONLL-U files for sentences are stored, return a dictionary of all
+	the sentences (e.g. of a corpus) containing GREW and Networkx objects. 
+	form1 and form2 relate to different annotations or representations of the same sentence. 
+	For instance a sentence could be annotated in AMR representation and UD representation. 
+	'''
+	allsentences_graphs = dict()
+	amrfiles = glob.glob(amr_filepath)
+	sentence_nums = [file.split("\\")[-1].lstrip("sentence").rstrip(".conll") for file in amrfiles]
+	allsentences_graphs = {sentence_num: Sentence(sentence_num) for sentence_num in sentence_nums}
+	for sentence_num in sentence_nums:
+		allsentences_graphs[sentence_num].amr_grewgraph = grew.graph(amr_filepath)	# load amr
+		allsentences_graphs[sentence_num].ud_grewgraph = grew.graph(amr_filepath) 	# load ud 
+		allsentences_graphs[sentence_num].ud_nxgraph = _make_nxgraph(allsentences_graphs[sentence_num].ud_grewgraph)# create nxgraph 
+
+	return allsentences_graphs
+
+def group_by_relations(graphs, relations):
 	'''
 	Give a list of GREW graphs and a list of relations, for each relation
-	return a the list of the indeces of the graphs containing that relation
+	return a the list of the indices of the graphs containing that relation
 	Inputs:
 	sentences - a list of GREW graphs
 	relations  - a list of relations
 	Output: a dictionary where the keys are the relations and the values are
 			lists of graphs containing the corresponding relation
 	'''
-	graphs_by_relation = {key: [] for key in relations}
+	graphs_by_relations = {key: [] for key in relations}
 	#For each graph
 	for ind, g in enumerate(graphs):
 		#Make a set of all the relations contained in that graph
@@ -50,56 +80,26 @@ def group_by_relation(graphs, relations):
 		#For each of the relations contained in the graph,
 		#append the graph index to the list of graphs associated with that relation
 		for rel in graph_rels:
-			if rel in graphs_by_relation:
-				graphs_by_relation[rel].append(ind)
+			if rel in group_by_relation:
+				group_by_relation[rel].append(ind)
 
-	return graphs_by_relation
+	return graphs_by_relations
 
-def split_by_relations(sentences, relations1, relations2):
-	'''
-	Given a list of GREW graph and two lists of relations,
-	split the first list into 4 categories:
-	1. graphs not containing any of the relations from any of the lists
-	2. graphs containing only relations from the first list
-	3. graphs containing only relations from the second list
-	4. graphs conitaning relations from both lists
-	'''
-	pass
-
-def map_lemma_amr_ud(amrgraph, udgraph, amr_relation):
-	'''
-	given an AMR graph and its associated UD graph, searches for all nodes in the AMR GREW graph that has the 
-	amr_relation that is passed into the function. This list of token_num-lemma pairs is searched for
-	in the UD GREW graph. The resulting token_num-lemma pairs are for nodes in the UD graph whose token_num and lemmas
-	match those of the AMR graph. 
-	'''
-	# list comprehension. checks every node in the amrgraph to identify those that has the amr_relation. obtains 
-	# a set of token_num-lemma pairs for the node (the parent) with the amr_relation. 
-	amr_lemmaset = [(i, amrgraph[i][0]["lemma"]) for i in amrgraph for i2 in amrgraph[i][1] if i2[0] == amr_relation]
-	# The set of pairs are checked for in the (corresponding) UD GREW is searched for the 
-	ud_lemmaset = [pair for pair in amr_lemmaset for i in udgraph if pair[1]==udgraph[i][0]["lemma"]]
-    
-	return ud_lemmaset
-
-def get_nxgraphs(graphs_by_relation):
-	'''
-	given a list of index numbers for UD Graph files, together with the AMR relation that they are associated with, 
-	1. open and load each file using GREW Python
-	2. extract node, node attribute, edge, edge attribute relation for all graphs on networkx (nx)
-	3. store each nx graph object 
-	'''
-	nxgraphs_dict=dict()
-
-	for graph_indexnum in graphs_by_relation:
-		load_path= "./data/amr_bank_data/ud/sentence{:04d}.conll".format(graph_indexnum)
-		ud_grewgraph = ud_to_amr.load_data(load_path) 
-		nxgraph = make_nxgraph(ud_grewgraph) # see make_nxgraph below 
-		graph_indexnum[graph_indexnum] = nxgraph
-	return nxgraphs_dict 
+# def split_by_relations(sentences, relations1, relations2):
+# 	'''
+# 	Given a list of GREW graph and two lists of relations,
+# 	split the first list into 4 categories:
+# 	1. graphs not containing any of the relations from any of the lists
+# 	2. graphs containing only relations from the first list
+# 	3. graphs containing only relations from the second list
+# 	4. graphs conitaning relations from both lists
+# 	'''
+# 	pass
 
 def _make_nxgraph(udgraph):
 	'''
-	takes a UD graph in GREW format. extracts node, node attribute, edge, edge attribute relation 
+	takes a UD graph in GREW format. extracts node, node attribute, edge, edge attribute relation. 
+	used in loadmake_allgraphs
 	'''
 	nxgraph = nx.DiGraph() # directed graph 
 	for node_num in udgraph:
@@ -107,36 +107,60 @@ def _make_nxgraph(udgraph):
 			nxgraph.add_node(node_num, upos = udgraph[node_num][0]['upos']) # add "upos" attribute as node attribute
 		except: 
 			nxgraph.add_node(node_num, weight = "root") # for root node
-		if len(udgraph[node_num][1])>=1: # only add edges for nodes that have children 
+		if len(udgraph[node_num][1]) >= 1: # only add edges for nodes that have children 
 			for edge in udgraph[node_num][1]: 
 				nxgraph.add_edge(node_num, edge[1], UDrel=edge[0]) # add "UDrel" attribute as edge attribute
-    
+
 	return nxgraph
 
-def _get_nxsubgraphs(nxgraphs_dict):
+def map_lemma_form1_form2(form1_graph, form2_graph, relation):
 	'''
-	given a dictionary of nxgraph objects (keys are sentence numbers, values the nx graph object), for every graph, 
-	1. get list of node_num-lemma pair using map_lemma_amr_ud
+	given a form1 (e.g. UD) graph and its associated form2 (e.g. AMR) graph, searches for all nodes in the form2 
+	(e.g. AMR) GREW graph that has the relation that is passed into the function. This list of token_num-lemma pairs 
+	is searched for in the form1 (e.g. UD) GREW graph. The resulting token_num-lemma pairs are for nodes in the form1 
+	graph where both token_num and lemmas match those of the form2 graph. 
+	'''
+	# list comprehension. checks every node in the form1_graph to identify those that has the relation. obtains 
+	# a set of token_num-lemma pairs for the node (the parent) with the relation. 
+	form1_lemmaset = [(i, form1_graph[i][0]["lemma"]) for i in form1_graph for i2 in form1_graph[i][1] if i2[0] == relation]
+	# The set of pairs are checked for in the (corresponding) UD GREW is searched for the 
+	form2_lemmaset = [pair for pair in form1_lemmaset for i in form2_graph if pair[1]==form2_graph[i][0]["lemma"]]
+    
+	return form2_lemmaset # equivalent to ud_lemmaset for our project
+
+
+def get_nxsubgraphs(allsentences_graphs, sentence_nums, relation, stepsizerange,
+					form1_filepath="./data/amr_bank_data/ud/",
+					form2_filepath="./data/amr_bank_data/amrs_gold/"):
+	'''
+	given a dictionary (of one relation and its associated sentence numbers), do the following: 
+	1. get list of node_num-lemma pair using map_lemma_form1_form2
 	2. iterate through that list (either 1 or more pairs) to:
 		a. find the children for a particular node_num
 		b. find the subgraph containing node_num and children
 		c. add to nxsubgraphs_dict
 	'''
-	nxsubgraphs_dict = dict() # init an empty dictionary to store the SGs
-	for nxgraph_key in nxgraphs_dict: # iterate through the keys of the nx_graphs
-		ud_lemmaset = map_lemma_amr_ud(nxgraph_key)
-		subgraph_nodes = []
+	#init an empty dictionary to store the SGs
+	nxsubgraphs_dict = dict(sentence_nums: [] for sentence_num in sentence_nums) 
+
+	for sentence_num in sentence_nums: #iterate through the keys of the nx_graphs
+		sent_nxgraph = allsentences_graphs[sentence_num].ud_nxgraph
+		ud_lemmaset = map_lemma_form1_form2(allsentences_graphs[sentence_num].amr_grewgraph,
+											 allsentences_graphs[sentence_num].ud_grewgraph, relation)
 		for set_ in ud_lemmaset: 
-			subgraph_nodes.extend(nxgraphs_dict[nxgraph_key].successors(set_[0])) # get its children
-			subgraph_nodes.append(nxgraph_key) # add the parent to the list too
+			subgraph_nodes = []
+			subgraph_nodes.extend(sent_nxgraph.successors(set_[0])) #get its children
+			subgraph_nodes.append(sentence_num) #add the parent to the list too
             
-		nxsubgraphs_dict[set_[0]] = nxgraphs_dict[nxgraph_key].subgraph(subgraph_nodes) # get the SG
+			#get the SG and append it to the list for the sentence
+			nxsubgraphs_dict[sentence_num].append(sent_nxgraph.subgraph(subgraph_nodes)) 
     
 	return nxsubgraphs_dict
 
-def get_nxsubgraphs_bysteps(nxgraphs_dict, stepsizerange):
+def get_nxsubgraphs_largeststep(nxgraphs_dict, stepsizerange):
 	'''
-	given a set of a dictionary of nxgraph objects and the stepsizerange, for each graph: 
+	given a dictionary of nxgraph objects (nested in lists that are values of a dictionary), and the stepsizerange, 
+	do the following for each nxgraph: 
 	1. get the largest stepsize subgraph 
 	2. subsequently, working on this "largest" stepsize subgraph, get successively smaller step-sized 
 	subgraphs by removing leaf nodes at each layer. (this approach saves a little time by not having to search the 
