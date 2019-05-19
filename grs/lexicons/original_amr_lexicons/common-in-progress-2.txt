@@ -1,5 +1,27 @@
 accrete-01  ARG0: accreting entity  ARG1: stuff gained
+challenge-01  ARG0: challenger  ARG1: challenged (champion?)  ARG2: challenged-to, heroic task
+champion-01  ARG0: helper  ARG1: person or project being supported
+championship-02  ARG0: champion/winner  ARG1: topic of contest  ARG2: loser(s)
+chase-01  ARG0: follower  ARG1: thing followed
+chasten-01  ARG0: admonisher, agent  ARG1: entity become chaste (really)
+chastise-01  ARG0: chastiser, agent  ARG1: entity being chastised  ARG2: cause
+chat-01  ARG0: talker  ARG1: subject  ARG2: hearer
+chatter-01  ARG0: emitter of noise, speaker  ARG1: topic, if arg0 is speaker
+chill-03  ARG1: acceptable thing (may require concatenation)
+chilly-04  ARG0: agent/causer of chilliness  ARG1: chilly entity
+chime-01  ARG0: maker of sounds
+chime-02  ARG0: speaker  ARG1: utterance  ARG2: listener
 chink-01  ARG0: agent  ARG1: container  ARG2: subtance
+choose-01  ARG0: picker  ARG1: thing picked  ARG2: group or source  ARG3: benefactive  ARG4: secondary attribute on arg1
+chop-01  ARG0: chopper  ARG1: chopped  ARG2: instrument
+chop-down-02  ARG0: chopper  ARG1: chopped  ARG2: instrument
+chop-up-03  ARG0: chopper  ARG1: chopped  ARG2: instrument
+choreograph-01  ARG0: creator  ARG1: dance  ARG2: created for, beneficiary
+clout-01  ARG0: hitter  ARG1: victim or ball
+clown-01  ARG0: clown  ARG1: other party clowning, clown with  ARG2: subject, joke, clowning about what
+clown-around-02  ARG0: first joker  ARG1: other joker, clowned-around-with  ARG2: clowning around about what? subject, joke
+cloy-01  ARG0: causer of cloying sensation  ARG1: experiencer of cloying sensation  ARG2: instrument, when separate from arg0
+club-01  ARG0: striker, agent  ARG1: entity clubbed
 collapse-01  ARG0: agent, outside causer of collapse  ARG1: thing collapsing  ARG2: extent of collapse  ARG3: starting point  ARG4: ending point
 collapse-02  ARG0: agent, outside causer of collapse  ARG1: thing collapsing  ARG2: extent of collapse  ARG3: starting point  ARG4: ending point
 collar-01  ARG0: entity doing the apprehending  ARG1: person nabbed  ARG2: accusations, crimes, for what

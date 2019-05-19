@@ -17,6 +17,28 @@ strat simpler {
     )
   }
 
+strat prepare {
+  Seq (
+    Iter(add_root_concept), %add a concept to the root
+    Iter(remove_root_rel), %delete the root relation
+    Onf(add_concept), %add a concept to each node
+    %Iter(remove_punct_safe),
+    Iter(remove_punct),
+    Iter(remove_det),
+  )
+}
+
+strat test_new_lex {
+  Seq (
+    Onf(add_concept),
+    Iter(prepare_verb), %add argument attributes to verbs that are in the lexicon
+    %Iter(prepare_verb_arg1),
+    prepare,
+    Iter(pred_nsubj_new_lex),
+    Iter (nmod),
+  )
+}
+
 strat simple {
   Seq (
 	Iter (remove_root_rel), % delete root relation, which is not necessary 

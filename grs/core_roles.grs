@@ -1,3 +1,53 @@
+%test the new lexicon structure
+rule pred_nsubj_new_lex(lex from "lexicons/subcat/test_lexicon.lp"){
+	pattern {
+		V[cat=VERB, lemma=lex.lemma, arg0="agent"];
+		nsubj_rel: V -[nsubj]-> NSUBJ;
+	}
+	commands {
+		del_edge nsubj_rel;
+		add_edge V -[ARG0]-> NSUBJ;
+		V.concept = lex.concept;
+		NSUBJ.concept = NSUBJ.form;
+	}
+}
+
+rule prepare_verb(lex from "lexicons/subcat/test_lexicon.lp"){
+	pattern {
+		V[cat=VERB, lemma=lex.lemma];
+	}
+	without {
+		V[arg0];
+	}
+	commands {
+		V.arg0 = lex.arg0;
+		V.concept = lex.concept;
+		%V.arg1 = lex.arg1;
+		%V.arg2 = lex.arg2;
+		%V.arg3 = lex.arg3;
+		%V.arg4 = lex.arg4;
+		%V.arg5 = lex.arg5;
+	}
+}
+
+rule prepare_verb_arg1(lex from "lexicons/subcat/test_lexicon.lp"){
+	pattern {
+		V[cat=VERB, concept=lex.concept];
+	}
+	without {
+		V[arg1];
+		%V.concept = 
+	}
+	commands {
+		%V.arg0 = lex.arg0;
+		V.arg1 = lex.arg1;
+		%V.arg2 = lex.arg2;
+		%V.arg3 = lex.arg3;
+		%V.arg4 = lex.arg4;
+		%V.arg5 = lex.arg5;
+	}
+}
+
 % The predicate has a subject and an object
 rule pred_nsubj_obj(lex from "lexicons/subcat/verb_nsubj_obj.lp"){
 	pattern {
@@ -193,6 +243,30 @@ rule det_as_pers_pron{
 	}
 }
 
+rule remove_punct_safe{
+	pattern{
+		P[cat=PUNCT];
+		rel_name: P -[^punct]-> CHILD;
+		p: PARENT -[punct]-> P;
+	}
+	commands{
+		%shift CHILD ==> P;
+
+		%P.concept = "hellooooooo";
+		%CHILD.concept = "byeeeeeeeeeee";
+		%PARENT.concept = "esjtgohsrutshrkg";
+
+		%del_edge p;
+		shift_out P =[^punct]=> PARENT;
+		%del_node P;
+		%del_edge p;
+
+		%del_node P;
+		%add_edge PARENT -[rel_name]-> CHILD;
+		%del_node P;
+	}
+}
+
 rule remove_punct{
 	pattern{
 		P[cat=PUNCT];
@@ -207,7 +281,6 @@ rule remove_root_rel{
 		root_rel: X -[root]-> Y;
 	}
 	commands{
-		del_edge root_rel;
 		del_node X;
 	}
 }
@@ -252,6 +325,15 @@ rule cc_to_op{
 		add_edge AND -[op]-> FIRST;
 		del_edge cc_rel;
 		add_edge AND -[op]-> LAST;
+	}
+}
+
+rule add_root_concept{
+	pattern{
+		R -[root]-> DEP;
+	}
+	commands{
+		R.concept = "root";
 	}
 }
 
