@@ -12,23 +12,24 @@ rule pred_nsubj_new_lex(lex from "lexicons/subcat/test_lexicon.lp"){
 	}
 }
 
-rule prepare_verb(lex from "lexicons/subcat/test_lexicon.lp"){
+rule prepare1_verb(lex from "lexicons/subcat/test_lexicon.lp"){
 	pattern {
 		V[cat=VERB, lemma=lex.lemma];
 	}
 	without {
 		V[arg0];
-		%V[concept=lex.concept];
-		%V[arg0];
 	}
 	commands {
 		V.arg0 = lex.arg0;
+	}
+}
+
+rule prepare2_concept(lex from "lexicons/subcat/test_lexicon.lp"){
+	pattern {
+		V[cat=VERB, arg0=lex.arg0, lemma=lex.lemma];
+	}
+	commands {
 		V.concept = lex.concept;
-		%V.arg1 = lex.arg1;
-		%V.arg2 = lex.arg2;
-		%V.arg3 = lex.arg3;
-		%V.arg4 = lex.arg4;
-		%V.arg5 = lex.arg5;
 	}
 }
 
@@ -38,17 +39,110 @@ rule prepare_verb_arg1(lex from "lexicons/subcat/test_lexicon.lp"){
 	}
 	without {
 		V[arg1];
-		%V.concept = 
 	}
 	commands {
-		%V.arg0 = lex.arg0;
 		V.arg1 = lex.arg1;
-		%V.arg2 = lex.arg2;
-		%V.arg3 = lex.arg3;
-		%V.arg4 = lex.arg4;
-		%V.arg5 = lex.arg5;
 	}
 }
+
+rule prepare_verb_arg2(lex from "lexicons/subcat/test_lexicon.lp"){
+	pattern {
+		V[cat=VERB, concept=lex.concept];
+	}
+	without {
+		V[arg2];
+	}
+	commands {
+		V.arg2 = lex.arg2;
+	}
+}
+
+
+rule prepare_verb_arg3(lex from "lexicons/subcat/test_lexicon.lp"){
+	pattern {
+		V[cat=VERB, concept=lex.concept];
+	}
+	without {
+		V[arg3];
+	}
+	commands {
+		V.arg3 = lex.arg3;
+	}
+}
+
+rule prepare_verb_arg4(lex from "lexicons/subcat/test_lexicon.lp"){
+	pattern {
+		V[cat=VERB, concept=lex.concept];
+	}
+	without {
+		V[arg4];
+	}
+	commands {
+		V.arg4 = lex.arg4;
+	}
+}
+
+rule prepare_verb_arg5(lex from "lexicons/subcat/test_lexicon.lp"){
+	pattern {
+		V[cat=VERB, concept=lex.concept];
+	}
+	without {
+		V[arg5];
+	}
+	commands {
+		V.arg5 = lex.arg5;
+	}
+}
+
+rule prepare_verb_arg6(lex from "lexicons/subcat/test_lexicon.lp"){
+	pattern {
+		V[cat=VERB, concept=lex.concept];
+	}
+	without {
+		V[arg6];
+	}
+	commands {
+		V.arg6 = lex.arg6;
+	}
+}
+
+rule prepare_verb_arg7(lex from "lexicons/subcat/test_lexicon.lp"){
+	pattern {
+		V[cat=VERB, concept=lex.concept];
+	}
+	without {
+		V[arg7];
+	}
+	commands {
+		V.arg7 = lex.arg7;
+	}
+}
+
+
+rule prepare_verb_arg8(lex from "lexicons/subcat/test_lexicon.lp"){
+	pattern {
+		V[cat=VERB, concept=lex.concept];
+	}
+	without {
+		V[arg8];
+	}
+	commands {
+		V.arg8 = lex.arg8;
+	}
+}
+
+rule prepare_verb_arg9(lex from "lexicons/subcat/test_lexicon.lp"){
+	pattern {
+		V[cat=VERB, concept=lex.concept];
+	}
+	without {
+		V[arg9];
+	}
+	commands {
+		V.arg9 = lex.arg9;
+	}
+}
+
 
 % The predicate has a subject and an object
 rule pred_nsubj_obj(lex from "lexicons/subcat/verb_nsubj_obj.lp"){
