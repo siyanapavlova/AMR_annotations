@@ -1,0 +1,5 @@
+
+(e / eat-01
+  :ARG0 (T / Tom)
+  :ARG1 (a / apples))
+
