@@ -1,7 +1,7 @@
 %test the new lexicon structure
 rule pred_nsubj_new_lex(lex from "lexicons/subcat/test_lexicon.lp"){
 	pattern {
-		V[cat=VERB, lemma=lex.lemma, arg0="agent"];
+		V[cat=VERB, lemma=lex.lemma, arg0=agent|actor|cause|stimulus];
 		nsubj_rel: V -[nsubj]-> NSUBJ;
 	}
 	commands {
@@ -11,9 +11,9 @@ rule pred_nsubj_new_lex(lex from "lexicons/subcat/test_lexicon.lp"){
 	}
 }
 
-rule prepare1_verb(lex from "lexicons/subcat/test_lexicon.lp"){
+rule prepare_verb_arg0(lex from "lexicons/subcat/test_lexicon.lp"){
 	pattern {
-		V[cat=VERB, lemma=lex.lemma];
+		V[cat=VERB, concept=lex.concept];
 	}
 	without {
 		V[arg0];
@@ -23,9 +23,12 @@ rule prepare1_verb(lex from "lexicons/subcat/test_lexicon.lp"){
 	}
 }
 
-rule prepare2_concept(lex from "lexicons/subcat/test_lexicon.lp"){
+rule prepare_concept(lex from "lexicons/subcat/test_lexicon.lp"){
 	pattern {
-		V[cat=VERB, arg0=lex.arg0, lemma=lex.lemma];
+		V[cat=VERB, lemma=lex.lemma];
+	}
+	without {
+		V[concept=lex.concept];
 	}
 	commands {
 		V.concept = lex.concept;
@@ -144,22 +147,17 @@ rule prepare_verb_arg9(lex from "lexicons/subcat/test_lexicon.lp"){
 
 
 % The predicate has a subject and an object
-rule pred_nsubj_obj(lex from "lexicons/subcat/verb_nsubj_obj.lp"){
+rule pred_nsubj_obj(lex from "lexicons/subcat/test_lexicon.lp"){
 	pattern {
-		V[cat=VERB, lemma=lex.lemma];
+		V[cat=VERB, lemma=lex.lemma, arg0=agent|actor|stimulus|cause, arg1=patient|theme|experiencer];
 		nsubj_rel: V -[nsubj]-> NSUBJ;
 		obj_rel: V -[obj]-> OBJ;
 	}
 	commands {
 		del_edge nsubj_rel;
 		del_edge obj_rel;
-		add_edge V -[lex.doer]-> NSUBJ;
-		add_edge V -[lex.patient]-> OBJ;
-		V.doer = lex.doer;
-		V.patient = lex.patient;
-		V.concept = lex.concept;
-		NSUBJ.concept = NSUBJ.form;
-		OBJ.concept = OBJ.form;
+		add_edge V -[ARG0]-> NSUBJ;
+		add_edge V -[ARG1]-> OBJ;
 	}
 }
 
