@@ -187,17 +187,6 @@ rule pred_obj_arg2(lex from "lexicons/subcat/test_lexicon.lp"){
 	}
 }
 
-%% Noun which has an amod and has not been changed by noun_amod_arg_of
-%rule noun_amod2{
-%	pattern{
-%		N[cat=NOUN];
-%		amod_rel: N -[amod]-> A;
-%	}
-%	commands{
-%
-%	}
-%}
-
 % Noun which has an amod and has not been changed by noun_amod_arg_of
 rule noun_amod{
 	pattern{
@@ -207,13 +196,11 @@ rule noun_amod{
 	commands{
 		del_edge amod_rel;
 		add_edge N -[mod]-> A;
-		N.concept = N.form;
-		A.concept = A.form;
 	}
 }
 
 %subj, obj and iobj present
-rule pred_subj_obj_iobj(lex from "lexicons/subcat/test_lexicon.lp"){
+rule pred_nsubj_obj_iobj(lex from "lexicons/subcat/test_lexicon.lp"){
 	pattern{
 		GOV[lemma=lex.lemma, arg0=agent, arg1=patient, arg2=recipient];
 		nsubj_rel: GOV -[nsubj]-> NSUBJ;

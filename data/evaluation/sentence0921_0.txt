@@ -1,35 +1,35 @@
 (t4 / tell
-	:advcl (g / give-01
-		:iobj (y2 / you)
-		:mark (t2 / to)
-		:obj (i4 / idea
-			:poss (s2 / size
-				:case (o5 / of)
-				:poss (e2 / earth
-					:case (o3 / of)))))
 	:aux (w2 / will)
-	:nsubj (i / i)
 	:iobj (y / you)
+	:nsubj (i2 / i)
+	:manner (g / give-01
+		:iobj (y2 / you)
+		:mark (t3 / to)
+		:ARG1 (i / idea
+			:poss (s2 / size
+				:case (o6 / of)
+				:poss (e / earth
+					:case (o3 / of)))))
 	:ccomp (n / necessary
 		:cop (b2 / be)
-		:mark (t3 / that)
-		:expl (i3 / it)
-		:nsubj (i2 / invention
-			:poss (e / electricity
-				:case (o4 / of)))
-		:mark (b / before)
 		:csubj (m / maintain
-			:obj (a / army
-				:poss (l2 / lamplighter
-					:case (o2 / of)
-					:nummod (4 / 462,511)
-					:poss (l / lamp
-						:compound (s3 / street)
-						:case (f / for)))
-				:amod (v / veritable))
-			:mark (t / to)
 			:obl (w / whole
+				:case (o2 / over)
 				:obl (c / continent
 					:case (o / of)
-					:nummod (s / six))
-				:case (o6 / over)))))
+					:nummod (s / six)))
+			:obj (a / army
+				:mod (v / veritable)
+				:poss (l2 / lamplighter
+					:poss (l / lamp
+						:case (f / for)
+						:compound (s3 / street))
+					:nummod (4 / 462,511)
+					:case (o5 / of)))
+			:mark (t2 / to))
+		:nsubj (i4 / invention
+			:poss (e2 / electricity
+				:case (o4 / of)))
+		:expl (i3 / it)
+		:mark (b / before)
+		:mark (t / that)))

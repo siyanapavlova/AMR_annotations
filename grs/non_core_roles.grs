@@ -124,15 +124,15 @@ to
 % K-to-investigate: more complex structures/rewrites involving obl:npmod. For instance, "The plane crashed 50 miles east of Moscow" 
 % in the AMR Guidelines v1.25. 
 % The obl relation has an nmod subtag. Appears obsolete/rare in English UD. https://github.com/UniversalDependencies/docs/issues/478 
-rule obl_npmod{
-	pattern {
-		obl_rel: GOV -[obl:npmod]-> DEP;
-	}
-	commands {
-		del_edge obl_rel;
-		add_edge GOV -[quant]-> DEP;
-	}
-}
+%rule obl_npmod{
+%	pattern {
+%		obl_rel: GOV -[obl:npmod]-> DEP;
+%	}
+%	commands {
+%		del_edge obl_rel;
+%		add_edge GOV -[quant]-> DEP;
+%	}
+%}
 
 %% K-to-investigate: distinguishing features of adjuncts vs obliques in English sentences 
 %% The obl relationship does not have a subtag, it captures an oblique i.e. an argument of a predicate that is encoded with a 
@@ -159,4 +159,18 @@ rule advcl_manner{
 		del_edge advcl_rel;
 	}
 }
+
+% Rewriting just to deal with exceptions for now
+
+rule obl_npmod_to_obl{
+	pattern{
+		obl_npmod_rel: GOV -[obl:npmod]-> DEP;
+	}
+	commands {
+		del_edge obl_npmod_rel;
+		add_edge GOV -[obl]-> DEP;
+	}
+}
+
+% End of rewriting for exceptions
 

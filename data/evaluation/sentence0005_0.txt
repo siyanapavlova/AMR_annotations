@@ -1,13 +1,13 @@
-(s / say-02
-	:obl (b / book
-		:case (i3 / in))
-	:ccomp (s2 / swallow-01
-		:ARG1 (p / prey
-			:poss (t / they))
-		:advcl (c2 / chew-01
+(s2 / say-01
+	:ARG0 (i3 / it)
+	:obl (b2 / book
+		:case (i2 / in))
+	:ARG1 (s / swallow-01
+		:manner (c / chew-01
 			:mark (w2 / without)
-			:obj (i2 / it))
-		:ARG0 (c / constrictor
-			:compound (b2 / boa))
-		:xcomp (w / whole))
-	:ARG0 (i / it))
+			:ARG1 (i / it))
+		:ARG0 (c2 / constrictor
+			:compound (b / boa))
+		:xcomp (w / whole)
+		:ARG1 (p / prey
+			:poss (t / they))))

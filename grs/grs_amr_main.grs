@@ -50,12 +50,48 @@ strat prepare_predicates {
   )
 }
 
+strat non_core_new_lex{
+  Seq(
+    Iter(verb_nominal_nummod_nsubj),
+    Iter(verb_nominal_nummod_obj),
+    Iter(advcl_manner),
+    Iter(obl_npmod_to_obl),
+
+    %Iter(compound_find_join),
+    %Iter(compoundpart_find_join),
+
+    Iter(obl_nosubtag_temporal),
+    Iter(obl_nosubtag_locational),
+  )
+}
+
 strat test_new_lex {
   Seq (
     prepare_predicates,
+    Iter(det_as_pers_pron),
+    Iter(det_as_all),
+    
+    Iter(pred_nsubj_obj_iobj),
     Iter(pred_nsubj_obj),
     Iter(pred_nsubj_new_lex),
+    Iter(pred_obj_arg1),
+    Iter(pred_obj_arg2),
+
+    Iter(remove_aux_pass),
+    Iter(pred_nsubjpass_obj),
+    Iter(pred_nsubjpass),
+
+    Iter(ccomp_verbadv_notcop),
+
+    Iter(noun_amod),
+
+    Iter(cc_to_op_morethan2),
+    Iter(cc_to_op),
+
     Iter (nmod),
+
+    non_core_new_lex,
+
     clean,
     Iter(remove_root_rel), %delete the root relation
   )

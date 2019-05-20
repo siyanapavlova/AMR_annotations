@@ -1,6 +1,6 @@
-(s2 / see-01
-	:ARG1 (t / them)
+(s / see
+	:nsubj (i / i)
+	:obj (t / they)
 	:advmod (a / ago
-		:quant (y / year
-			:amod (s / several)))
-	:ARG0 (i / i))
+		:obl (y / year
+			:mod (s2 / several))))

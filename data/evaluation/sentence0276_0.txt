@@ -1,6 +1,6 @@
 (l / laugh
 	:cc (a / and)
-	:advmod (t2 / then)
-	:nsubj (y2 / you)
-	:obl (y / yourself
-		:case (t / to)))
+	:time (y2 / yourself
+		:case (t2 / to))
+	:nsubj (y / you)
+	:advmod (t / then))
