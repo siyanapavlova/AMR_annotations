@@ -2,6 +2,7 @@ import ud_to_amr, amr_graph_to_text, smatcher, parser
 import grew
 from random import seed, sample
 import pprint
+import operator
 
 pp = pprint.PrettyPrinter(indent=4)
 
@@ -49,7 +50,8 @@ if __name__=="__main__":
 	# sentence_nums = [4]
 	# sentence_nums = [130]
 	# sentence_nums = [5]
-	sentence_nums = range(1,1563)
+	# sentence_nums = range(1,1563)
+	sentence_nums = range(1,120)
 	scores = []
 	print(sentence_nums)
 
@@ -69,3 +71,6 @@ if __name__=="__main__":
 		print ("Max score:", max(score_val))
 		print ("Avg score:", sum(score_val)/len(score_val))
 		print("======================")
+		index, value = max(enumerate(score_val), key=operator.itemgetter(1))
+		print(index, value)
+		print(score_val)

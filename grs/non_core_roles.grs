@@ -164,7 +164,7 @@ rule advcl_manner{
 
 rule obl_npmod_to_obl{
 	pattern{
-		obl_npmod_rel: GOV -[obl:npmod]-> DEP;
+		obl_npmod_rel: GOV -[obl:npmod|obl:tmod]-> DEP;
 	}
 	commands {
 		del_edge obl_npmod_rel;
@@ -174,21 +174,51 @@ rule obl_npmod_to_obl{
 
 rule acl_relcl_to_acl{
 	pattern{
-		obl_npmod_rel: GOV -[acl:relcl]-> DEP;
+		acl_relcl_rel: GOV -[acl:relcl]-> DEP;
 	}
 	commands {
-		del_edge obl_npmod_rel;
+		del_edge acl_relcl_rel;
 		add_edge GOV -[acl]-> DEP;
 	}
 }
 
 rule nsubj_pass_to_nsubj{
 	pattern{
-		obl_npmod_rel: GOV -[nsubj:pass]-> DEP;
+		nsubj_pass_rel: GOV -[nsubj:pass]-> DEP;
 	}
 	commands {
-		del_edge obl_npmod_rel;
+		del_edge nsubj_pass_rel;
 		add_edge GOV -[nsubj]-> DEP;
+	}
+}
+
+rule compound_part_to_compound{
+	pattern{
+		nsubj_pass_rel: GOV -[compound:prt]-> DEP;
+	}
+	commands {
+		del_edge nsubj_pass_rel;
+		add_edge GOV -[compound]-> DEP;
+	}
+}
+
+rule det_predet_to_det{
+	pattern{
+		nsubj_pass_rel: GOV -[det:predet]-> DEP;
+	}
+	commands {
+		del_edge nsubj_pass_rel;
+		add_edge GOV -[det]-> DEP;
+	}
+}
+
+rule cc_preconj_to_cc{
+	pattern{
+		nsubj_pass_rel: GOV -[cc:preconj]-> DEP;
+	}
+	commands {
+		del_edge nsubj_pass_rel;
+		add_edge GOV -[cc]-> DEP;
 	}
 }
 

@@ -329,8 +329,8 @@ rule nmod{
 % This rule needs to be applied once for each middle element
 rule cc_to_op_morethan2{
 	pattern{
-		LAST -[cc]-> AND;
-		FIRST -[conj]-> LAST;
+		FIRST -[cc]-> AND;
+		LAST -[conj]-> FIRST;
 		conj_rel: FIRST -[conj]-> MID;
 	}
 	commands{
@@ -343,11 +343,11 @@ rule cc_to_op_morethan2{
 % then transform both the first and last element in :op
 rule cc_to_op{
 	pattern{
-		cc_rel: LAST -[cc]-> AND;
-		conj_rel: FIRST -[conj]-> LAST;
+		cc_rel: FIRST -[cc]-> AND;
+		conj_rel: LAST -[conj]-> FIRST;
 	}
 	without{
-		FIRST -[conj]-> MID;
+		LAST -[conj]-> MID;
 	}
 	commands{
 		del_edge conj_rel;

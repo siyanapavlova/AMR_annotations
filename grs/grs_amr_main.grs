@@ -60,6 +60,9 @@ strat non_core_new_lex{
     Iter(obl_npmod_to_obl),
     Iter(acl_relcl_to_acl),
     Iter(nsubj_pass_to_nsubj),
+    Iter(compound_part_to_compound),
+    Iter(det_predet_to_det),
+    Iter(cc_preconj_to_cc),
 
     %Iter(compound_find_join),
     %Iter(compoundpart_find_join),
