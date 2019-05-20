@@ -48,7 +48,7 @@ if __name__=="__main__":
 	# sentence_nums = [59, 276, 430, 523, 778, 799, 887, 1166, 1245, 1426]
 	# sentence_nums = [4]
 	# sentence_nums = [130]
-	sentence_nums = [5]
+	# sentence_nums = [5]
 	scores = []
 	print(sentence_nums)
 	for num in sentence_nums:

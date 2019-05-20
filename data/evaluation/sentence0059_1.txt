@@ -1,1 +1,17 @@
-(b / but)
+(s / say-01
+	:advcl (a / able
+		:nsubj (i / i)
+		:xcomp (s2 / speak
+			:mark (t2 / to))
+		:mark (w / when)
+		:obl (l / last
+			:case (a2 / at))
+		:cop (b / be))
+	:ARG0 (i2 / i)
+	:ccomp (d / do
+		:obj (w2 / what)
+		:aux (b3 / be)
+		:advmod (h / here)
+		:nsubj (y / you))
+	:obl (h2 / he
+		:case (t / to)))

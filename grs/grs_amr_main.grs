@@ -57,6 +57,7 @@ strat test_new_lex {
     Iter(pred_nsubj_new_lex),
     Iter (nmod),
     clean,
+    Iter(remove_root_rel), %delete the root relation
   )
 }
 

@@ -1,35 +1,35 @@
 (t4 / tell
-	:nsubj (i3 / i)
-	:manner (g / give-01
-		:ARG1 (i / idea
+	:advcl (g / give-01
+		:iobj (y2 / you)
+		:mark (t2 / to)
+		:obj (i4 / idea
 			:poss (s2 / size
-				:poss (e / earth
-					:case (o3 / of))
-				:case (o / of)))
-		:mark (t / to)
-		:iobj (y2 / you))
+				:case (o5 / of)
+				:poss (e2 / earth
+					:case (o3 / of)))))
+	:aux (w2 / will)
+	:nsubj (i / i)
 	:iobj (y / you)
 	:ccomp (n / necessary
-		:csubj (m / maintain
-			:obl (w / whole
-				:case (o2 / over)
-				:obl (c / continent
-					:nummod (s / six)
-					:case (o6 / of)))
-			:mark (t2 / to)
-			:obj (a / army
-				:poss (l / lamplighter
-					:case (o5 / of)
-					:poss (l2 / lamp
-						:compound (s3 / street)
-						:case (f / for))
-					:nummod (4 / 462,511))
-				:amod (v / veritable)))
-		:nsubj (i4 / invention
-			:poss (e2 / electricity
-				:case (o4 / of)))
-		:mark (b2 / before)
+		:cop (b2 / be)
 		:mark (t3 / that)
-		:expl (i2 / it)
-		:cop (b / be))
-	:aux (w2 / will))
+		:expl (i3 / it)
+		:nsubj (i2 / invention
+			:poss (e / electricity
+				:case (o4 / of)))
+		:mark (b / before)
+		:csubj (m / maintain
+			:obj (a / army
+				:poss (l2 / lamplighter
+					:case (o2 / of)
+					:nummod (4 / 462,511)
+					:poss (l / lamp
+						:compound (s3 / street)
+						:case (f / for)))
+				:amod (v / veritable))
+			:mark (t / to)
+			:obl (w / whole
+				:obl (c / continent
+					:case (o / of)
+					:nummod (s / six))
+				:case (o6 / over)))))

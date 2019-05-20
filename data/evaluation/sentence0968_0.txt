@@ -1,6 +1,6 @@
 (l2 / lonely
 	:cop (b / be)
+	:nsubj (i2 / it)
 	:obl (d / desert
-		:case (i2 / in))
-	:quant (l / little)
-	:nsubj (i / it))
+		:case (i / in))
+	:obl:npmod (l / little))

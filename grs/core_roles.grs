@@ -162,32 +162,28 @@ rule pred_nsubj_obj(lex from "lexicons/subcat/test_lexicon.lp"){
 }
 
 % The predicate has an object
-rule pred_obj(lex from "lexicons/subcat/verb_nsubj_obj.lp"){
+rule pred_obj_arg1(lex from "lexicons/subcat/test_lexicon.lp"){
 	pattern {
-		V[cat=VERB, lemma=lex.lemma];
+		V[cat=VERB, lemma=lex.lemma, arg1=patient|theme|experiencer];
 		obj_rel: V -[obj]-> OBJ;
 	}
 	commands {
 		del_edge obj_rel;
-		add_edge V -[lex.patient]-> OBJ;
-		V.patient = lex.patient;
-		V.concept = lex.concept;
+		add_edge V -[ARG1]-> OBJ;
 		OBJ.concept = OBJ.form;
 	}
 }
 
-% The predicate has a subject and an object
-rule pred_nsubj(lex from "lexicons/subcat/verb_nsubj_obj.lp"){
+% The predicate has an object
+rule pred_obj_arg2(lex from "lexicons/subcat/test_lexicon.lp"){
 	pattern {
-		V[cat=VERB, lemma=lex.lemma];
-		nsubj_rel: V -[nsubj]-> NSUBJ;
+		V[cat=VERB, lemma=lex.lemma, arg2=patient|theme|experiencer];
+		obj_rel: V -[obj]-> OBJ;
 	}
 	commands {
-		del_edge nsubj_rel;
-		add_edge V -[lex.doer]-> NSUBJ;
-		V.doer = lex.doer;
-		V.concept = lex.concept;
-		NSUBJ.concept = NSUBJ.form;
+		del_edge obj_rel;
+		add_edge V -[ARG2]-> OBJ;
+		OBJ.concept = OBJ.form;
 	}
 }
 
@@ -216,84 +212,37 @@ rule noun_amod{
 	}
 }
 
-% A clausal complement of a verb/adverb (i.e. predicate) that is not a copula construction. 
-rule ccomp_verbadv_notcop(lex from "lexicons/subcat/verb_nsubj_obj.lp"){
+%subj, obj and iobj present
+rule pred_subj_obj_iobj(lex from "lexicons/subcat/test_lexicon.lp"){
 	pattern{
-		GOV[lemma=lex.lemma, upos=VERB|ADV];
+		GOV[lemma=lex.lemma, arg0=agent, arg1=patient, arg2=recipient];
+		nsubj_rel: GOV -[nsubj]-> NSUBJ;
+		obj_rel: GOV -[obj]-> OBJ;
+		iobj_rel: GOV -[iobj]-> IOBJ;
+	}
+	commands{
+		del_edge nsubj_rel; del_edge obj_rel; del_edge iobj_rel;
+		add_edge GOV -[ARG0]-> NSUBJ;
+		add_edge GOV -[ARG1]-> OBJ;
+		add_edge GOV -[ARG2]-> IOBJ;
+	}
+}
+
+% A clausal complement of a verb/adverb (i.e. predicate) that is not a copula construction. 
+rule ccomp_verbadv_notcop(lex from "lexicons/subcat/test_lexicon.lp"){
+	pattern{
+		GOV[lemma=lex.lemma, upos=VERB|ADV, arg1=theme|topic];
 		ccomp_rel: GOV -[ccomp]-> DEP;
 	}
 	without{
 		GOV[lemma="be"];
 		} %exclude all copula constructions
 	commands{
-		GOV.patient = lex.patient;
 		del_edge ccomp_rel;
+		add_edge GOV -[ARG1]-> DEP;
 	}
 }
 
-%% K-to-complete | A clausal complement involving an equational copula construction. !to figure out how to assign have-degree-91 ARG0 to ARG6
-%rule ccomp_copula_equational(lex from "lexicons/subcat/verb_nsubj_obj.lp"){
-%	pattern{
-%		
-%	}
-%	commands{
-%		add_node X; X.concept = "have-degree-91";
-%		add_edge GOV-[]->DEP;
-%		del_edge ccomp_rel;
-%
-%	}
-%}
-
-%% K-to-double check | A clausal complement with a copula construction that is not equational. !to figure out how to assign have-degree-91 ARG0 to ARG6
-%rule ccomp_copula_nonequational(lex from "lexicons/subcat/verb_nsubj_obj.lp"){
-%	pattern{
-%		
-%	}
-%	commands{
-%		add_edge DEP -[lex.doer]-> GOV;
-%		DEP.doer = lex.doer;
-%		del_edge ccomp_rel;
-%
-%	}
-%}
-
-% An iobj relation whose dependent is a nominal and whose governor is in the predicate lexicon. 
-rule iobj_nom_lex(lex from "lexicons/subcat/verb_nsubj_obj.lp"){
-    pattern{
-		GOV [lemma = lex.lemma];
-      	DEP [upos=NOUN|PROPN|PRON];
-      	iobj_rel: GOV -[iobj]-> DEP;
-	  }
-    commands{ 
-		GOV.patient = lex.patient;
-		del_edge iobj_rel; 
-	}
-}
-
-% An iobj relation whose dependent is a nominal and whose governor is in not the predicate lexicon. 
-rule iobj_nom_notlex{
-    pattern{
-      	DEP [upos=NOUN|PROPN|PRON];
-      	iobj_rel: GOV -[iobj]-> DEP;
-	  }
-    commands{ 
-		add_edge GOV -[beneficiary]-> DEP;
-		del_edge iobj_rel; 
-	}
-}
-
-%% K-to-complete | An iobj relation whose dependent is a not nominal and whose governor is/is not in the predicate lexicon. 
-%% [This means that the dependent should be the head of another AMR subgraph...]
-%rule iobj_notnom_notlex{
-%    pattern{
-%      	DEP [upos=NOUN|PROPN|PRON];
-%      	iobj_rel: GOV -[iobj]-> DEP;
-%	  }
-%    commands{ 
-%		add_edge GOV -[beneficiary]-> DEP;
-%		del_edge iobj_rel; 
-%	}
-%}
 
 % Remove DET tags with a lemma "a", "an" or "the"
 rule remove_det{
@@ -439,162 +388,33 @@ rule add_concept{
 		N [concept];
 	}
 	commands{
-		%N.concept = "dummyConcept";
 		N.concept = N.lemma;
 	}
 }
 
-
-% Add the doer role for nodes with such an attribute.  
-rule add_doerARG0(lex from "lexicons/subcat/verb_nsubj_obj.lp"){
+%when we have a passive subject, e.g. "the cat was chased"
+rule pred_nsubjpass(lex from "lexicons/subcat/test_lexicon.lp"){
 	pattern {
-		doer_rel: GOV -[lex.doer]-> DEP;
-		GOV[doer="ARG0"];
+		GOV[lemma=lex.lemma, arg1=patient|theme];
+		nsubjpass_rel: GOV -[nsubj:pass]-> NSUBJPASS;
 	}
 	commands {
-		add_edge GOV -[ARG0]-> DEP;
-		del_edge doer_rel;
+		del_edge nsubjpass_rel;
+		add_edge GOV -[ARG1]-> NSUBJPASS;
 	}
 }
 
-% Add the doer role for nodes with such an attribute. 
-rule add_doerARG1(lex from "lexicons/subcat/verb_nsubj_obj.lp"){
+%when we have a passive subject and an object or obl:agent, e.g. "the cat was chased by the dog"
+rule pred_nsubjpass_obj(lex from "lexicons/subcat/test_lexicon.lp"){
 	pattern {
-		doer_rel: GOV -[lex.doer]-> DEP;
-		GOV[doer="ARG1"];
+		GOV[lemma=lex.lemma, arg0=agent|actor|cause|stimulus, arg1=patient|theme];
+		nsubjpass_rel: GOV -[nsubj:pass]-> NSUBJPASS;
+		obj_or_obl_rel: GOV -[obj|obl:agent]-> OBJ
 	}
 	commands {
-		add_edge GOV -[ARG1]-> DEP;
-		del_edge doer_rel;
-	}
-}
-
-% Add the doer role for nodes with such an attribute. 
-rule add_doerARG2(lex from "lexicons/subcat/verb_nsubj_obj.lp"){
-	pattern {
-		doer_rel: GOV -[lex.doer]-> DEP;
-		GOV[doer="ARG2"];
-	}
-	commands {
-		add_edge GOV -[ARG2]-> DEP;
-		del_edge doer_rel;
-	}
-}
-
-% Add the doer role for nodes with such an attribute. 
-rule add_doerARG3(lex from "lexicons/subcat/verb_nsubj_obj.lp"){
-	pattern {
-		doer_rel: GOV -[lex.doer]-> DEP;
-		GOV[doer="ARG3"];
-	}
-	commands {
-		add_edge GOV -[ARG3]-> DEP;
-		del_edge doer_rel;
-	}
-}
-
-% Add the doer role for nodes with such an attribute. 
-rule add_doerARG4(lex from "lexicons/subcat/verb_nsubj_obj.lp"){
-	pattern {
-		doer_rel: GOV -[lex.doer]-> DEP;
-		GOV[doer="ARG4"];
-	}
-	commands {
-		add_edge GOV -[ARG4]-> DEP;
-		del_edge doer_rel;
-	}
-}
-
-% Add the patient role for nodes with such an attribute. 
-rule add_patientARG0(lex from "lexicons/subcat/verb_nsubj_obj.lp"){
-	pattern {
-		patient_rel: GOV -[lex.patient]-> DEP;
-		GOV[patient="ARG0"];
-	}
-	commands {
-		add_edge GOV -[ARG0]-> DEP;
-		del_edge patient_rel;
-	}
-}
-
-% Add the patient role for nodes with such an attribute. 
-rule add_patientARG1(lex from "lexicons/subcat/verb_nsubj_obj.lp"){
-	pattern {
-		patient_rel: GOV -[lex.patient]-> DEP;
-		GOV[patient="ARG1"];
-	}
-	commands {
-		add_edge GOV -[ARG1]-> DEP;
-		del_edge patient_rel;
-	}
-}
-
-% Add the patient role for nodes with such an attribute. 
-rule add_patientARG2(lex from "lexicons/subcat/verb_nsubj_obj.lp"){
-	pattern {
-		patient_rel: GOV -[lex.patient]-> DEP;
-		GOV[patient="ARG2"];
-	}
-	commands {
-		add_edge GOV -[ARG2]-> DEP;
-		del_edge patient_rel;
-	}
-}
-
-% Add the patient role for nodes with such an attribute. 
-rule add_patientARG3(lex from "lexicons/subcat/verb_nsubj_obj.lp"){
-	pattern {
-		patient_rel: GOV -[lex.patient]-> DEP;
-		GOV[patient="ARG3"];
-	}
-	commands {
-		add_edge GOV -[ARG3]-> DEP;
-		del_edge patient_rel;
-	}
-}
-
-% Add the patient role for nodes with such an attribute. 
-rule add_patientARG4(lex from "lexicons/subcat/verb_nsubj_obj.lp"){
-	pattern {
-		patient_rel: GOV -[lex.patient]-> DEP;
-		GOV[patient="ARG4"];
-	}
-	commands {
-		add_edge GOV -[ARG4]-> DEP;
-		del_edge patient_rel;
-	}
-}
-
-% The predicate has a nsubj relation with a :pass subtag
-rule pred_nsubjpass(lex from "lexicons/subcat/verb_nsubj_obj.lp"){
-	pattern {
-		GOV[lemma=lex.lemma];
-		nsubj_rel: GOV -[nsubj:pass]-> NSUBJPASS;
-	}
-	commands {
-		del_edge nsubj_rel;
-		add_edge GOV -[lex.patient]-> NSUBJPASS;
-		GOV.patient = lex.patient;
-		GOV.concept = lex.concept;
-		NSUBJPASS.concept = NSUBJPASS.form;
-	}
-}
-
-% The predicate has a nsubj relation with a :pass subtag as well as a obj relation
-rule pred_nsubjpass_obj(lex from "lexicons/subcat/verb_nsubj_obj.lp"){
-	pattern {
-		GOV[lemma=lex.lemma];
-		nsubj_rel: GOV -[nsubj:pass]-> NSUBJPASS;
-		obj_rel: GOV -[obj]-> OBJ;
-	}
-	commands {
-		del_edge nsubj_rel;
-		del_edge obj_rel;
-		GOV.doer = lex.doer;
-		GOV.patient = lex.patient;
-		GOV.concept = lex.concept;
-		NSUBJPASS.concept = NSUBJPASS.form;
-		OBJ.concept = OBJ.form;
+		del_edge nsubjpass_rel;
+		add_edge GOV -[ARG0]-> OBJ;
+		add_edge GOV -[ARG1]-> NSUBJPASS;
 	}
 }
 
