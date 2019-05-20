@@ -172,5 +172,25 @@ rule obl_npmod_to_obl{
 	}
 }
 
+rule acl_relcl_to_acl{
+	pattern{
+		obl_npmod_rel: GOV -[acl:relcl]-> DEP;
+	}
+	commands {
+		del_edge obl_npmod_rel;
+		add_edge GOV -[acl]-> DEP;
+	}
+}
+
+rule nsubj_pass_to_nsubj{
+	pattern{
+		obl_npmod_rel: GOV -[nsubj:pass]-> DEP;
+	}
+	commands {
+		del_edge obl_npmod_rel;
+		add_edge GOV -[nsubj]-> DEP;
+	}
+}
+
 % End of rewriting for exceptions
 

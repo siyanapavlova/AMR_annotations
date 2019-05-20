@@ -55,7 +55,11 @@ strat non_core_new_lex{
     Iter(verb_nominal_nummod_nsubj),
     Iter(verb_nominal_nummod_obj),
     Iter(advcl_manner),
+
+
     Iter(obl_npmod_to_obl),
+    Iter(acl_relcl_to_acl),
+    Iter(nsubj_pass_to_nsubj),
 
     %Iter(compound_find_join),
     %Iter(compoundpart_find_join),
