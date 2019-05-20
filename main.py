@@ -44,16 +44,28 @@ if __name__=="__main__":
 	print("Grew initiated \n")
 
 	seed(1)
-	sentence_nums = sorted(sample(range(1,1562,1),20))
+	# sentence_nums = sorted(sample(range(1,1562,1),20))
 	# sentence_nums = [59, 276, 430, 523, 778, 799, 887, 1166, 1245, 1426]
 	# sentence_nums = [4]
 	# sentence_nums = [130]
 	# sentence_nums = [5]
+	sentence_nums = range(1,1563)
 	scores = []
 	print(sentence_nums)
+
 	for num in sentence_nums:
 		scores.append(('{:04d}'.format(num), run_pipeline('./data/amr_bank_data/ud/sentence'+'{:04d}'.format(num)+'.conll',
 							'./data/evaluation/',
 							'sentence'+'{:04d}{}'.format(num, '{}')+'.txt',
 							'./data/amr_bank_data/amrs/amr'+'{:04d}'.format(num)+'.txt')))
-	pp.pprint(scores)
+	# pp.pprint(scores)
+	# scores_split = [scores.split(i) for score in scores for i in [b"Precision: ", b"Recall: ", "F-score: "] ]
+	precision = [float(score[1].split(b"Precision: ")[1].split(b"\n")[0]) for score in scores]
+	recall = [float(score[1].split(b"Recall: ")[1].split(b"\n")[0]) for score in scores]
+	f1 = [float(score[1].split(b"F-score: ")[1].split(b"\n")[0]) for score in scores]
+	for score_val in [precision, recall, f1]:
+		print("======================")
+		print ("Min score:", min(score_val))
+		print ("Max score:", max(score_val))
+		print ("Avg score:", sum(score_val)/len(score_val))
+		print("======================")
