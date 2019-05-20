@@ -1,28 +1,3 @@
-% The obl relationship has a tmod subtag
-rule obl_temporal{
-	pattern {
-		V[upos=VERB];
-		obl_rel: V -[obl:tmod]-> Nominal;
-	}
-	commands {
-		del_edge obl_rel;
-		add_edge V -[time]-> Nominal;
-	}
-}
-
-% The obl relationship has an agent subtag
-rule obl_agent(lex from "lexicons/subcat/verb_nsubj_obj.lp"){
-	pattern {
-		V[upos=VERB, lemma=lex.lemma];
-		obl_rel: V -[obl:agent]-> Nominal;
-	}
-	commands {
-		del_edge obl_rel;
-		add_edge V -[lex.doer]-> Nominal;
-		V.doer = lex.doer;
-	}
-}
-
 % The compound relationship does not have a subtag; find and join the governor and dependent of a compound relationship. There may be
 % of a sequence of more than two words joined sequentially with the compound relationship, i.e. this rule is expected to be applied
 % in an iter manner. 
@@ -46,20 +21,6 @@ rule compoundpart_find_join{
 	commands {
 		Nominal1.concept = Nominal2.form + Nominal1.form; 
 		del_edge compound_rel
-	}
-}
-
-% The advmod relationship has a governor whose lemma is in the AMR predicate list. The dependent is a particle (i.e. lemma = "not" or 
-% "n't".)
-rule advmod_lemmapred_polarity(lex from "lexicons/subcat/amr_predicates.lp"){
-	pattern {
-		GOV[lemma=lex.lemma];
-		DEP[upos=PART];
-		advmod_lemmapred_polarity_rel: GOV -[advmod]-> DEP;
-	}
-	commands {
-		del_edge advmod_lemmapred_polarity_rel;
-		GOV.concept = "-";
 	}
 }
 
