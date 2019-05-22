@@ -1,0 +1,12 @@
+(s / see
+	:aux (d / do)
+	:advmod (n / not)
+	:nsubj (y / you)
+	:parataxis (b2 / busy
+		:nsubj (i / i)
+		:cop (b / be)
+		:advmod (v / very)
+		:obl (m / matter
+			:case (w / with)
+			:poss (c / consequence
+				:case (o / of)))))

@@ -1,0 +1,15 @@
+(w / word
+	:nsubj (i / it)
+	:cop (b / be)
+	:case (f / from)
+	:acl (d / drop
+		:obl (c / chance
+			:case (b2 / by)
+			:acl (r / reveal
+				:nsubj (t / that)
+				:advmod (l / little
+					:obl (l2 / little
+						:case (b3 / by)))
+				:nsubj (e / everything)
+				:time (i2 / i
+					:case (t2 / to))))))

@@ -1,0 +1,14 @@
+(h / have
+	:nsubj (y / you)
+	:aux (w / would)
+	:xcomp (s / say-01
+		:mark (t / to)
+		:time (t3 / they
+			:case (t2 / to)))
+	:ccomp (s2 / see
+		:nsubj (i / i)
+		:obj (h2 / house
+			:acl (c / cost
+				:nsubj (t4 / that)
+				:obj ($ / $
+					:nummod (2 / 20,000))))))

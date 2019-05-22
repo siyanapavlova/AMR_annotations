@@ -1,0 +1,18 @@
+(s / stare
+	:advmod (n / now)
+	:nsubj (i / i)
+	:obl (a2 / apparition
+		:case (a / at)
+		:det (t / this)
+		:mod (s2 / sudden)
+		:poss (e / eyes
+			:case (w / with)
+			:poss (m / my)))
+	:manner (s3 / start
+		:advmod (f / fairly)
+		:obl (h / head
+			:case (o / out)
+			:case (o2 / of)
+			:poss (m2 / my))
+		:obl (a3 / astonishment
+			:case (i2 / in))))

@@ -1,0 +1,18 @@
+(b / be
+	:advmod (i / indeed)
+	:manner (l / learn
+		:mark (a / as)
+		:nsubj (i2 / i))
+	:expl (t / there)
+	:nsubj (p / planet
+		:case (o / on)
+		:acl (l3 / live
+			:advmod (w / were)
+			:nsubj (p2 / prince
+				:mod (l2 / little))
+			:manner (p4 / plant
+				:mark (a2 / as)
+				:poss (p3 / planet
+					:case (o2 / on)
+					:mod (a3 / all))
+				:mod (g / good)))))

@@ -1,0 +1,11 @@
+(a4 / and
+	:op (m2 / mile
+		:nummod (t2 / thousand)
+		:poss (h2 / habitation
+			:case (f / from)
+			:det (a3 / any)
+			:mod (h / human)))
+	:op (d / danger
+		:case (i3 / in)
+		:poss (d2 / death
+			:case (o / of))))

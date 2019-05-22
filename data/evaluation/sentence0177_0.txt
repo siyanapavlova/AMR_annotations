@@ -1,0 +1,10 @@
+(a / and
+	:op (s / shrug
+		:nsubj (t / they)
+		:aux (w / would)
+		:obj (s2 / shoulder
+			:poss (t2 / they)))
+	:op (t3 / treat
+		:obl (c / child
+			:obj (y / you)
+			:case (l / like))))

@@ -1,0 +1,19 @@
+(a / answer
+	:nsubj (h / he)
+	:obj (i / i)
+	:obl (o / once
+		:case (a2 / at))
+	:discourse (o2 / oh)
+	:conj (c / come)
+	:conj (c2 / come)
+	:manner (s / speak
+		:mark (a3 / as)
+		:mark (i2 / if)
+		:nsubj (h2 / he)
+		:aux (b / be)
+		:obl (s2 / something
+			:case (o3 / of)
+			:acl (e / evident
+				:nsubj (t / that)
+				:cop (b2 / be)
+				:obl (s3 / self)))))

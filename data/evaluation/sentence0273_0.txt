@@ -1,0 +1,2 @@
+(s / sunset
+	:case (f / for))

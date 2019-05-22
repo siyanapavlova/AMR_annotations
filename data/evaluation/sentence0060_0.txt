@@ -1,0 +1,23 @@
+(r / repeate
+	:cc (a / and)
+	:obl (a2 / answer
+		:case (i / in))
+	:nsubj (h / he)
+	:advmod (s / slowly
+		:advmod (v / very))
+	:manner (s2 / speak
+		:mark (a3 / as)
+		:mark (i2 / if)
+		:nsubj (h2 / he)
+		:aux (b / be)
+		:obl (m / matter
+			:case (o / of)
+			:poss (c / consequence
+				:case (o2 / of)
+				:mod (g / great))))
+	:manner (p / please
+		:mark (i3 / if)
+		:nsubj (y / you))
+	:parataxis (d / draw
+		:iobj (i4 / i)
+		:obj (s3 / sheep)))

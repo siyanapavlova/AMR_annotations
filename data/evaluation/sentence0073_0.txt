@@ -1,0 +1,5 @@
+(s / sheep
+	:nsubj (w / what
+		:acl (n / need
+			:nsubj (i / i)))
+	:cop (b / be))

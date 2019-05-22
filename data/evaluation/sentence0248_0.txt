@@ -1,0 +1,11 @@
+(m2 / mean
+	:cc (b / but)
+	:manner (m / matter
+		:mark (w / when)
+		:nsubj (i / it)
+		:cop (b2 / be)
+		:poss (b3 / baobab
+			:case (o / of)))
+	:mark (t / that)
+	:advmod (a / always)
+	:obj (c / catastrophe))

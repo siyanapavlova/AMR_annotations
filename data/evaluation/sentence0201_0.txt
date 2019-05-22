@@ -1,0 +1,10 @@
+(m2 / make
+	:obl (d / detail
+		:case (i / in)
+		:mod (c / certain)
+		:mod (i2 / important
+			:advmod (m / more)))
+	:nsubj (i3 / i)
+	:aux (s / shall)
+	:obj (m3 / mistake)
+	:advmod (a / also))

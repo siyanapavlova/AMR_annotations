@@ -1,0 +1,12 @@
+(r / remember
+	:ccomp (c / crash
+		:nsubj (i / i)
+		:aux (h / have)
+		:obl (d / desert
+			:case (i2 / in))
+		:obj (m / mile
+			:nummod (t / thousand))
+		:obl (r2 / region
+			:case (f / from)
+			:det (a / any)
+			:mod (i3 / inhabit))))

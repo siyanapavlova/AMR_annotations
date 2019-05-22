@@ -1,0 +1,6 @@
+(d / draw
+	:cc (b / but)
+	:nsubj (i / i)
+	:aux (h / have)
+	:advmod (n / never)
+	:obj (s / sheep))

@@ -47,6 +47,21 @@ pp = pprint.PrettyPrinter(indent=4)
 
 
 def built_dict(text, dictionary):
+	'''
+	1. flattens the text 
+		Case 1: no bo  children: closing brackets on 1 line  - no children and no splitter 
+			add a lemma attribute as well as a concept attribute 
+			return the text, as the 
+			use try accept to add nodes 
+
+		Case 2: has children, closing missing and : appearing before 
+	2. 
+	3. no need to restore token order because we are extracting the subgraph(s) from the node of interest
+
+	input: dictionary is an empty global dictionary 
+
+
+	'''
 	print(text)
 	if '(' not in text and '/' not in text and ':' not in text:
 		return [], text, {} #text here is the node ID
@@ -61,17 +76,6 @@ def built_dict(text, dictionary):
 
 	print('='*15)
 
-def build_adj_matrix(graph, start, step, size):
-	'''Given a UD graph, a starting node, a step size and a matrix size,
-	return an adjacency matrix for that graph, but only starting from the start node
-	and spanning step number of steps
-	Parameters: graph - a graph in UD format
-				start - string? starting node in the graph
-				step - integer, the number of steps to span from that node
-				size - integer, the height and width of the required matrix
-	Outputs: an adjacency matrix
-	'''
-	pass
 
 if __name__ == "__main__":
 	# text = load_file('./data/amr_bank_data/amrs/amr0005.txt')

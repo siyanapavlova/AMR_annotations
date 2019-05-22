@@ -1,0 +1,6 @@
+(f / flower
+	:discourse (y / yes)
+	:advmod (e / even)
+	:acl (h / have
+		:nsubj (t / that)
+		:obj (t2 / thorn)))

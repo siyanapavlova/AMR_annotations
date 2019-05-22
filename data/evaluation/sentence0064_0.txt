@@ -1,0 +1,7 @@
+(a / answer
+	:nsubj (h / he)
+	:obj (i / i)
+	:ccomp (m / matter
+		:nsubj (t / that)
+		:aux (d / do)
+		:advmod (n / not)))

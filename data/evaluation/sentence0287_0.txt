@@ -1,0 +1,9 @@
+(a / ask
+	:nsubj (i / i)
+	:obl (d / day
+		:case (o / on)
+		:poss (s / sunset
+			:case (o2 / of)
+			:compound (f / forty)
+			:case (- / -)
+			:nummod (f2 / four))))

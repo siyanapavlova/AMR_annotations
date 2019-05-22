@@ -1,0 +1,4 @@
+(w2 / wait
+	:cc (b / but)
+	:nsubj (w / we)
+	:aux (m / must))

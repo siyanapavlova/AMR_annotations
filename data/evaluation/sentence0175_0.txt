@@ -1,0 +1,10 @@
+(p / proof
+	:manner (w / want
+		:mark (i / if)
+		:nsubj (a / anybody)
+		:obj (s / sheep))
+	:nsubj (t / that)
+	:cop (b / be)
+	:acl (e / exist
+		:mark (t2 / that)
+		:nsubj (h / he)))

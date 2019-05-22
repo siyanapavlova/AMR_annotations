@@ -1,0 +1,23 @@
+(a3 / and
+	:op (a / ask
+		:advmod (p / perhaps)
+		:nsubj (y / you)
+		:aux (w / will)
+		:obj (i / i)
+		:advmod (t / there
+			:advmod (w2 / why)
+			:cop (b / be))
+		:obj (d / drawing
+			:det (n / no)
+			:mod (o / other)
+			:poss (b2 / book
+				:case (i2 / in)
+				:det (t2 / this)))
+		:obl (m / magnificent
+			:case (a2 / as)))
+	:op (i3 / impressive
+		:obl (d2 / drawing
+			:case (a4 / as)
+			:det (t3 / this)
+			:poss (b3 / baobab
+				:case (o2 / of)))))

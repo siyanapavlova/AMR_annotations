@@ -1,0 +1,19 @@
+(f / fumble
+	:advmod (s / so)
+	:nsubj (i / i)
+	:advmod (a / along)
+	:advmod (a2 / as
+		:acl (c / can
+			:advmod (b / best)
+			:nsubj (i2 / i)))
+	:xcomp (g / good
+		:advmod (n / now))
+	:conj (b2 / bad
+		:advmod (n2 / now))
+	:conj (h / hope
+		:cc (a3 / and)
+		:nsubj (i3 / i)
+		:xcomp (f2 / fair
+			:advmod (g2 / generally)
+			:time (m / middling
+				:case (t / to)))))

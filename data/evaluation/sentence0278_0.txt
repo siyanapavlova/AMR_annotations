@@ -1,0 +1,2 @@
+(s / so
+	:advmod (j / just))

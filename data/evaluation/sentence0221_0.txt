@@ -1,0 +1,13 @@
+(s / say-01
+	:ARG1 (h / have
+		:nsubj (w / we)
+		:aux (w2 / would)
+		:xcomp (p / put
+			:mark (t / to)
+			:obj (t2 / they)
+			:obl (t3 / top
+				:obj (o / one)
+				:case (o2 / on)
+				:poss (o4 / other
+					:case (o3 / of)))))
+	:ARG0 (h2 / he))

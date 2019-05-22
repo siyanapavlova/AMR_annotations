@@ -1,0 +1,8 @@
+(t / that
+	:nsubj (i / it)
+	:cop (b / be)
+	:poss (c / constrictor
+		:case (o / of)
+		:compound (b2 / boa)
+		:poss (o2 / outside
+			:case (f / from))))

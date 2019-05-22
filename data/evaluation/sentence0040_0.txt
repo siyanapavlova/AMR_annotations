@@ -1,0 +1,16 @@
+(q / question
+	:nsubj (i / it)
+	:cop (b / be)
+	:poss (l / life
+		:case (o / of))
+	:poss (i2 / i
+		:case (f / for))
+	:parataxis (h / have
+		:nsubj (i3 / i)
+		:advmod (e / enough
+			:advmod (s / scarcely))
+		:xcomp (d2 / drink
+			:obj (w / water)
+			:manner (l2 / last
+				:mark (t / to)
+				:obl (w2 / week)))))

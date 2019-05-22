@@ -1,0 +1,4 @@
+(w / which
+	:cop (b / be)
+	:nsubj (p / planet
+		:poss (y / you)))

@@ -1,0 +1,11 @@
+(p / picture
+	:nsubj (i / it)
+	:cop (b / be)
+	:poss (c / constrictor
+		:case (o / of)
+		:compound (b2 / boa)
+		:poss (a / act
+			:case (i2 / in)
+			:acl (s / swallow-01
+				:mark (o2 / of)
+				:ARG1 (a2 / animal)))))

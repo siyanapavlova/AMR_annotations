@@ -1,0 +1,5 @@
+(t / that
+	:nsubj (u / up
+		:mod (g / grow))
+	:cop (b / be)
+	:case (l / like))

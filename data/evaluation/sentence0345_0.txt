@@ -1,0 +1,4 @@
+(w / warfare
+	:cop (b / be)
+	:poss (s / sheep
+		:case (b2 / between)))

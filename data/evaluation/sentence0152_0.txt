@@ -1,0 +1,19 @@
+(h / have
+	:nsubj (i / i)
+	:obj (r / reason
+		:mod (s / serious)
+		:acl (b / believe
+			:mark (t / to)
+			:ccomp (a / asteroid
+				:mark (t2 / that)
+				:nsubj (p / planet
+					:acl (c / come
+						:obl (w / which
+							:case (f / from))
+						:nsubj (p2 / prince
+							:mod (l / little))))
+				:cop (b2 / be)
+				:acl (k / know
+					:obl (b3 / b
+						:case (a2 / as)
+						:nummod (6 / 612)))))))

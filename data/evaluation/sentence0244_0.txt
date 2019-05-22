@@ -1,0 +1,11 @@
+(b2 / but
+	:op (w / work
+		:nsubj (i / it)
+		:cop (b / be)
+		:mod (t / tedious
+			:advmod (v / very))
+		:appos (p / prince
+			:mod (l / little)
+			:acl (a / add)))
+	:op (e / easy
+		:advmod (v2 / very)))

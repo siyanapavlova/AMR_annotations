@@ -1,0 +1,6 @@
+(h / have
+	:nsubj (f / flower)
+	:obj (t / thorn)
+	:obl (s / spite
+		:advmod (j / just)
+		:case (f2 / for)))

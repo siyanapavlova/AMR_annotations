@@ -1,0 +1,7 @@
+(a2 / accept
+	:cc (a / and)
+	:obl (t2 / time
+		:det (t / this))
+	:nsubj (e / everybody)
+	:obj (r / report
+		:poss (h / he)))

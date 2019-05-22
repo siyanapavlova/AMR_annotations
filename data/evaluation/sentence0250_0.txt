@@ -1,0 +1,5 @@
+(n / neglect
+	:nsubj (h / he)
+	:obj (b / bushe
+		:nummod (t / three)
+		:mod (l / little)))

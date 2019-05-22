@@ -1,0 +1,5 @@
+(s / see
+	:nsubj (y / you)
+	:aux (c / can)
+	:obj (e / end
+		:compound (d / day)))

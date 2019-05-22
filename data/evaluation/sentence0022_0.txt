@@ -1,0 +1,21 @@
+(a2 / and
+	:op (f / flow
+		:nsubj (i / i)
+		:aux (h / have)
+		:advmod (o / over
+			:obl (l / little))
+		:obj (p / part
+			:mod (a / all)
+			:poss (w / world
+				:case (o2 / of))))
+	:op (t / true
+		:expl (i2 / it)
+		:cop (b / be)
+		:ccomp (u / useful
+			:mark (t2 / that)
+			:nsubj (g / geography)
+			:aux (h2 / have)
+			:cop (b2 / be)
+			:advmod (v / very)
+			:time (i3 / i
+				:case (t3 / to)))))

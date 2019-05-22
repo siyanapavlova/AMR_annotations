@@ -1,0 +1,21 @@
+(s2 / see
+	:manner (o2 / old
+		:mark (o / once)
+		:advmod (w / when)
+		:nsubj (i / i)
+		:cop (b / be)
+		:obl (y / year
+			:nummod (s / six)))
+	:nsubj (i2 / i)
+	:obj (p / picture
+		:mod (m / magnificent)
+		:poss (b2 / book
+			:case (i3 / in))
+		:acl (c / call
+			:obj (s3 / stories
+				:mod (t / true))
+			:obl (n / nature
+				:case (f / from))))
+	:time (f2 / forest
+		:case (a / about)
+		:mod (p2 / primeval)))

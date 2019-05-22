@@ -1,0 +1,13 @@
+(p / pleased
+	:cc (a / and)
+	:nsubj (u / up
+		:mod (g / grow))
+	:aux (w / would)
+	:cop (b / be)
+	:advmod (g2 / greatly)
+	:manner (m / meet
+		:mark (t / to)
+		:aux (h / have)
+		:obj (m2 / man
+			:det (s / such)
+			:mod (s2 / sensible))))

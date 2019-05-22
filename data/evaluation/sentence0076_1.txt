@@ -1,0 +1,9 @@
+(s / say-02
+	:ccomp (l / look
+		:nsubj (h / he)
+		:obl (i / it
+			:case (a / at))
+		:advmod (c / carefully))
+	:advmod (t / then)
+	:ARG0 (h2 / he)
+	:discourse (n / no))

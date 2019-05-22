@@ -1,0 +1,27 @@
+(a2 / answer
+	:obl (s / silence
+		:case (a / after)
+		:mod (r / reflective))
+	:nsubj (h / he)
+	:parataxis (b3 / be
+		:nsubj (t / thing
+			:acl (g / good
+				:nsubj (t2 / that)
+				:cop (b / be)
+				:advmod (s2 / so)
+				:time (b2 / box
+					:case (a3 / about)
+					:acl (g2 / give-01
+						:ARG0 (y / you)
+						:aux (h2 / have)
+						:iobj (i / i)))))
+		:ccomp (u / use
+			:mark (t3 / that)
+			:obl (n / night
+				:case (a4 / at))
+			:nsubj (h3 / he)
+			:aux (c / can)
+			:obj (i2 / it)
+			:obl (h5 / house
+				:case (a5 / as)
+				:poss (h4 / he)))))

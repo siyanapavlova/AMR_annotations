@@ -1,0 +1,3 @@
+(c / confuse
+	:nsubj (y / you)
+	:obj (e / everything))

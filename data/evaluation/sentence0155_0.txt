@@ -1,0 +1,15 @@
+(p / present
+	:manner (m / make
+		:mark (o / on)
+		:obj (d / discovery
+			:poss (h / he)))
+	:nsubj (a / astronomer)
+	:aux (h2 / have)
+	:obj (i / it)
+	:time (c / congress
+		:case (t / to)
+		:compound (i2 / international)
+		:compound (a2 / astronomical))
+	:obl (d2 / demonstration
+		:case (i3 / in)
+		:mod (g / great)))

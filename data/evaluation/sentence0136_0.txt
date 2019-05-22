@@ -1,0 +1,10 @@
+(s / seem
+	:cc (b / but)
+	:nsubj (p / prince
+		:mod (l / little))
+	:xcomp (s2 / shocked
+		:obl (o / offer
+			:case (b2 / by)
+			:det (t / this))
+		:ccomp (t2 / tie
+			:obj (h / he))))

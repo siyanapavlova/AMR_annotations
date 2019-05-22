@@ -1,0 +1,8 @@
+(w / want
+	:nsubj (i / i)
+	:aux (d / do)
+	:advmod (n / not)
+	:obj (e / elephant
+		:poss (c / constrictor
+			:case (i2 / inside)
+			:compound (b / boa))))

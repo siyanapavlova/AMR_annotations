@@ -1,0 +1,11 @@
+(a / and
+	:op (c2 / creature
+		:nsubj (c / constrictor
+			:compound (b / boa))
+		:cop (b2 / be)
+		:mod (d / dangerous
+			:advmod (v / very)))
+	:op (c3 / cumbersome
+		:nsubj (e / elephant)
+		:cop (b3 / be)
+		:advmod (v2 / very)))

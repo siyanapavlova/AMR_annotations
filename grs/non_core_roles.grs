@@ -222,5 +222,15 @@ rule cc_preconj_to_cc{
 	}
 }
 
+rule aux_pass_to_aux{
+	pattern{
+		nsubj_pass_rel: GOV -[aux:pass]-> DEP;
+	}
+	commands {
+		del_edge nsubj_pass_rel;
+		add_edge GOV -[aux]-> DEP;
+	}
+}
+
 % End of rewriting for exceptions
 

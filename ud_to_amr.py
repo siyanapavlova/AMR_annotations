@@ -56,7 +56,7 @@ if __name__== "__main__":
 	print("Grew initiated \n") 
 
 	# load the UD graph 
-	ud_graph = load_data("./data/amr_bank_data/ud/sentence0059.conll")
+	ud_graph = load_data("./data/amr_bank_data/ud/sentence0347.conll")
 	print("Grew graph loaded \n")
 	print(ud_graph)
 
@@ -64,5 +64,5 @@ if __name__== "__main__":
 	grs_filename = './grs/grs_amr_main.grs' 
 
 	# generate the graph(s) from the application of the grs in grs_filename
-	new_graphs = ud_to_amr(grs_filename, ud_graph, strat="simple")
+	new_graphs = ud_to_amr(grs_filename, ud_graph, strat="test_new_lex")
 	print(new_graphs[0])

@@ -1,0 +1,12 @@
+(b / but
+	:op (d / do
+		:nsubj (h / he)
+		:aux (h2 / have)
+		:advmod (n / never)
+		:obj (a / anything
+			:poss (l / life
+				:case (i / in)
+				:poss (h3 / he))))
+	:op (a2 / add
+		:compound (u / up)
+		:obj (f / figure)))

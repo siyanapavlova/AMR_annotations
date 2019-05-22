@@ -1,0 +1,11 @@
+(a / answer
+	:nsubj (i / i)
+	:obj (y / you)
+	:obl (t / thing
+		:case (w / with)
+		:mod (f / first)
+		:acl (c / come
+			:nsubj (t2 / that)
+			:obl (h / head
+				:case (i2 / into)
+				:poss (m / my)))))

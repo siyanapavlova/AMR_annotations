@@ -1,0 +1,14 @@
+(a3 / and
+	:op (g / go
+		:nsubj (d / drawing
+			:nummod (o / one))
+		:advmod (a / along)
+		:advmod (r / right
+			:advmod (a2 / all)))
+	:op (h / have
+		:nsubj (a4 / another)
+		:obj (r2 / resemblance
+			:det (n / no)
+			:poss (s / subject
+				:case (t / to)
+				:poss (i / its)))))

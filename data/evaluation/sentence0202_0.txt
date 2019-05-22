@@ -1,0 +1,10 @@
+(s / something
+	:cc (b / but)
+	:nsubj (t / that)
+	:cop (b2 / be)
+	:acl (f / fault
+		:nsubj (t2 / that)
+		:aux (w / will)
+		:advmod (n / not)
+		:cop (b3 / be)
+		:poss (m / my)))

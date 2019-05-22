@@ -1,0 +1,13 @@
+(s / say-02
+	:ARG0 (y / you)
+	:time (i / i
+		:case (t / to))
+	:ccomp (t2 / think
+		:nsubj (i2 / i)
+		:aux (b / be)
+		:advmod (a / always)
+		:ccomp (h / home
+			:mark (t3 / that)
+			:nsubj (i3 / i)
+			:cop (b2 / be)
+			:case (a2 / at))))

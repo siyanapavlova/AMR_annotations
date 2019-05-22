@@ -1,0 +1,7 @@
+(i / infest
+	:nsubj (s / soil
+		:poss (p / planet
+			:case (o / of)
+			:det (t / that)))
+	:obl (t2 / they
+		:case (w / with)))

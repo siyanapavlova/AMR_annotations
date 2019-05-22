@@ -1,0 +1,18 @@
+(b2 / busy
+	:obl (m / moment
+		:case (a / at)
+		:det (t / that))
+	:nsubj (i / i)
+	:cop (b / be)
+	:advmod (v / very)
+	:manner (t2 / try
+		:xcomp (u / unscrew
+			:mark (t3 / to)
+			:obj (b3 / bolt
+				:acl (g / get
+					:nsubj (t4 / that)
+					:aux (h / have)
+					:obj (s / stick)
+					:obl (e / engine
+						:case (i2 / in)
+						:poss (m2 / my)))))))

@@ -1,0 +1,15 @@
+(m / make
+	:advmod (s / so)
+	:manner (d / describe
+		:mark (a / as)
+		:nsubj (p / prince
+			:mod (l / little))
+		:obj (i / it)
+		:time (i2 / i
+			:case (t / to)))
+	:nsubj (i3 / i)
+	:aux (h / have)
+	:obj (d2 / drawing
+		:poss (p2 / planet
+			:case (o / of)
+			:det (t2 / that))))

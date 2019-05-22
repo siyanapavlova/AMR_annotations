@@ -1,0 +1,10 @@
+(w / what
+	:cc (a / and)
+	:acl (d / do
+		:amod (g / good)
+		:aux (w2 / would)
+		:nsubj (i / it)
+		:csubj (t2 / tell
+			:mark (t / to)
+			:obj (t3 / they)
+			:obj (t4 / that))))

@@ -1,0 +1,14 @@
+(i / imagine
+	:nsubj (y / you)
+	:aux (c / can)
+	:ccomp (a / arouse
+		:advmod (h / how)
+		:nsubj (c2 / curiosity
+			:poss (m / my))
+		:obl (h2 / half
+			:case (b / by)
+			:det (t / this))
+		:obj (c3 / confidence
+			:poss (p / planet
+				:case (a2 / about)
+				:mod (o / other)))))

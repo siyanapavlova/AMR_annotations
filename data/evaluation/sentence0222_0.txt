@@ -1,0 +1,16 @@
+(m / make
+	:cc (b / but)
+	:nsubj (h / he)
+	:obj (c / comment
+		:mod (w / wise))
+	:ccomp (s2 / start
+		:manner (g / grow
+			:mark (b2 / before)
+			:nsubj (t / they)
+			:advmod (s / so)
+			:advmod (b3 / big))
+		:nsubj (b4 / baobab)
+		:compound (o / out)
+		:manner (l / little
+			:mark (b5 / by)
+			:cop (b6 / be))))

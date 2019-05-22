@@ -1,25 +1,25 @@
-(t / time
-	:nsubj (i2 / it)
+(t3 / time
 	:manner (f / finish
-		:nsubj (y / you)
 		:mark (w / when)
+		:nsubj (y / you)
+		:aux (h / have)
+		:obj (t / toilet
+			:poss (y2 / you)
+			:mod (o / own))
 		:obl (m / morning
-			:case (i / in))
-		:obj (t3 / toilet
-			:mod (o / own)
-			:poss (y2 / you))
-		:aux (h / have))
-	:advmod (t5 / then)
-	:acl (a / attend
-		:time (t4 / toilet
-			:case (t6 / to)
-			:poss (p / planet
-				:poss (y3 / you)
-				:case (o2 / of)))
-		:mark (t2 / to))
+			:case (i / in)))
+	:advmod (t2 / then)
+	:nsubj (i2 / it)
 	:cop (b / be)
+	:acl (a / attend
+		:mark (t4 / to)
+		:time (t6 / toilet
+			:case (t5 / to)
+			:poss (p / planet
+				:case (o2 / of)
+				:poss (y3 / you))))
 	:obj (c / care
-		:case (w2 / with)
-		:mod (g / greatest)
 		:advmod (s / so
-			:advmod (j / just))))
+			:advmod (j / just))
+		:case (w2 / with)
+		:mod (g / greatest)))

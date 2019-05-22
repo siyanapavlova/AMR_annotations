@@ -1,0 +1,3 @@
+(d / day
+	:case (o / on)
+	:mod (f / fifth))

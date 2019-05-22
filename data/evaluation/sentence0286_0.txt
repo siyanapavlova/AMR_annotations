@@ -1,0 +1,5 @@
+(b / be
+	:nsubj (y / you)
+	:xcomp (s2 / sad
+		:advmod (s / so))
+	:advmod (t / then))

@@ -1,0 +1,6 @@
+(t / toss
+	:advmod (s / so)
+	:nsubj (i / i)
+	:compound (o / off)
+	:obj (d / drawing
+		:det (t2 / this)))

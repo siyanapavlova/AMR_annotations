@@ -1,0 +1,6 @@
+(o / or
+	:op (c / constrictor
+		:case (a / about)
+		:compound (b / boa))
+	:op (f / forest
+		:mod (p2 / primeval)))

@@ -1,0 +1,4 @@
+(a / airplane
+	:nsubj (i / it)
+	:cop (b / be)
+	:poss (m / my))

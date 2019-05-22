@@ -1,0 +1,12 @@
+(o3 / or
+	:op (s / sprout
+		:mark (i / if)
+		:nsubj (i2 / it)
+		:cop (b / be)
+		:advmod (o / only)
+		:poss (r / radish
+			:case (o2 / of)))
+	:op (s2 / sprig
+		:poss (b2 / bush
+			:case (o4 / of)
+			:compound (r2 / rose))))

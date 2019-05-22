@@ -1,0 +1,12 @@
+(a / add
+	:cc (b / but)
+	:nsubj (p / prince
+		:mod (l / little))
+	:ccomp (f / follow
+		:advmod (t / then)
+		:nsubj (i / it)
+		:ccomp (e / eat
+			:mark (t2 / that)
+			:nsubj (t3 / they)
+			:advmod (a2 / also)
+			:obj (b2 / baobab))))

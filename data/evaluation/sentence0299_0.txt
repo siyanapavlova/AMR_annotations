@@ -1,0 +1,20 @@
+(w / worry
+	:nsubj (i / i)
+	:cop (b / be)
+	:advmod (m / much
+		:advmod (v / very))
+	:manner (b3 / become
+		:mark (f / for)
+		:nsubj (i2 / it)
+		:aux (b2 / be)
+		:xcomp (c / clear)
+		:time (i3 / i
+			:case (t / to))
+		:ccomp (s / serious
+			:mark (t2 / that)
+			:nsubj (b4 / breakdown
+				:poss (p / plane
+					:case (o / of)
+					:poss (m2 / my)))
+			:cop (b5 / be)
+			:advmod (e / extremely))))

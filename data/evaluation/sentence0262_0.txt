@@ -1,0 +1,16 @@
+(c / carry
+	:manner (m / make
+		:mark (w / when)
+		:nsubj (i / i)
+		:obj (d / drawing
+			:poss (b / baobab
+				:case (o / of))))
+	:nsubj (i2 / i)
+	:obl (m2 / myself
+		:case (b2 / beyond))
+	:obl (f / force
+		:case (b3 / by)
+		:mod (i3 / inspiring)
+		:poss (n / necessity
+			:case (o2 / of)
+			:mod (u / urgent))))

@@ -1,17 +1,17 @@
 (s2 / say-02
 	:manner (a2 / able
-		:mark (w2 / when)
-		:xcomp (s / speak
-			:mark (t / to))
-		:nsubj (i2 / i)
+		:mark (w / when)
 		:obl (l / last
 			:case (a / at))
-		:cop (b / be))
-	:ccomp (d / do
-		:nsubj (y / you)
-		:aux (b2 / be)
-		:advmod (h / here)
-		:obj (w / what))
-	:time (h2 / he
+		:nsubj (i / i)
+		:cop (b / be)
+		:xcomp (s / speak
+			:mark (t / to)))
+	:ARG0 (i2 / i)
+	:time (h / he
 		:case (t2 / to))
-	:ARG0 (i / i))
+	:ccomp (d / do
+		:obj (w2 / what)
+		:aux (b3 / be)
+		:nsubj (y / you)
+		:advmod (h2 / here)))

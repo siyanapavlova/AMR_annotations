@@ -1,0 +1,6 @@
+(h2 / have
+	:advmod (n / not)
+	:nsubj (o / one
+		:det (e / every))
+	:aux (h / have)
+	:obj (f / friend))

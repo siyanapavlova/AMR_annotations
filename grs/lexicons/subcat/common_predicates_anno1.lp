@@ -103,7 +103,7 @@ defecate	defecate-01	agent	-	-	-	-	-	-	-	-	-
 defect	defect-01	agent	source	destination	-	-	-	-	-	-	-
 defend	defend-01	agent	theme	instrument	patient	-	-	-	-	-	-
 deign	deign-01	agent	theme	-	-	-	-	-	-	-	-
-deink	deink-01	agent	location	theme	-	-	-	-	-	-	-
+deink	deink-01	agent	patient	theme	-	-	-	-	-	-	-
 deject	deject-01	stimulus	experiencer	-	-	-	-	-	-	-	-
 delay	delay-01	actor	patient	time	-	-	-	-	-	-	-
 delegate	delegate-01	agent	theme	recipient	-	-	-	-	-	-	-
@@ -157,7 +157,7 @@ expunge	expunge-01	agent	theme	patient	-	-	-	-	-	-	-
 expurgate	expurgate-01	agent	theme	source	-	-	-	-	-	-	-
 extend	extend-01	agent	patient	extent	source	destination	-	-	-	-	-
 extend	extend-02	agent	theme	recipient	-	-	-	-	-	-	-
-farm	farm-01	agent	location	product	-	-	-	-	-	-	-
+farm	farm-01	agent	patient	product	-	-	-	-	-	-	-
 farm-out	farm-out-02	agent	theme	theme	-	-	-	-	-	-	-
 farnesylate	farnesylate-01	agent	material	instrument	product	-	-	-	-	-	-
 fart	fart-01	cause	material	-	-	-	-	-	-	-	-
@@ -202,7 +202,7 @@ hit	hit-01	agent	patient	instrument	-	-	-	-	-	-	-
 hit	hit-02	agent	patient	-	-	-	-	-	-	-	-
 hit	hit-03	agent	theme	-	-	-	-	-	-	-	-
 hold	hold-13	location	location	-	-	-	-	-	-	-	-
-hold	hold-14	agent	location	-	-	-	-	-	-	-	-
+hold	hold-14	agent	theme	-	-	-	-	-	-	-	-
 hold-back	hold-back-07	agent	patient	location	-	-	-	-	-	-	-
 hold-off	hold-off-08	agent	theme	-	-	-	-	-	-	-	-
 hold-on	hold-on-05	-	patient	-	-	-	-	-	-	-	-

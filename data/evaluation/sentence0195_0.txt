@@ -1,0 +1,14 @@
+(t / try
+	:nsubj (i / i)
+	:aux (s / shall)
+	:advmod (c / certainly)
+	:xcomp (m / make
+		:mark (t2 / to)
+		:obj (p / portrait
+			:poss (m2 / my))
+		:xcomp (t3 / true
+			:advmod (a / as)
+			:time (l / life
+				:case (t4 / to)))
+		:manner (p2 / possible
+			:mark (a2 / as))))

@@ -1,0 +1,12 @@
+(m / make
+	:nsubj (i / i)
+	:obj (e / effort
+		:mod (g / great))
+	:parataxis (f / find
+		:advmod (t / therefore)
+		:mark (t2 / to)
+		:compound (o / out)
+		:obj (m2 / more)
+		:obl (s / subject
+			:case (o2 / on)
+			:det (t3 / this))))

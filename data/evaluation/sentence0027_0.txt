@@ -1,0 +1,8 @@
+(s / see
+	:nsubj (i / i)
+	:aux (h / have)
+	:obj (t / they)
+	:advmod (i2 / intimately)
+	:conj (c / close
+		:obl (h2 / hand
+			:case (a / at))))

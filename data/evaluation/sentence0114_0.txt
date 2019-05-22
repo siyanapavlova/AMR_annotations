@@ -1,0 +1,5 @@
+(d / drop
+	:nsubj (y / you)
+	:advmod (d2 / down)
+	:obl (s / sky
+		:case (f / from)))

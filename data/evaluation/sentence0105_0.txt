@@ -1,0 +1,16 @@
+(s2 / seem
+	:nsubj (p / prince
+		:mod (l / little)
+		:acl (a / ask
+			:nsubj (w / who)
+			:iobj (i / i)
+			:obj (q / question
+				:mod (m / many
+					:advmod (s / so)))))
+	:advmod (n / never)
+	:xcomp (h / hear
+		:mark (t / to)
+		:obj (o / one
+			:acl (a2 / ask
+				:nsubj (i2 / i)
+				:obj (h2 / he)))))

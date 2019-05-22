@@ -1,0 +1,12 @@
+(l2 / let
+	:nsubj (p / prince
+		:mod (l / little))
+	:advmod (n / never)
+	:obj (g / go
+		:poss (q / question
+			:case (o / of)))
+	:manner (a / ask
+		:mark (o2 / once)
+		:nsubj (h / he)
+		:aux (h2 / have)
+		:obj (i / it)))

@@ -1,0 +1,19 @@
+(a / ask
+	:manner (t / tell
+		:mark (w / when)
+		:nsubj (y / you)
+		:obj (t2 / they)
+		:ccomp (m / make
+			:mark (t3 / that)
+			:nsubj (y2 / you)
+			:aux (h / have)
+			:obj (f / friend
+				:mod (n / new))))
+	:nsubj (t4 / they)
+	:advmod (n2 / never)
+	:iobj (y3 / you)
+	:obj (q / question
+		:det (a2 / any)
+		:poss (m2 / matter
+			:case (a3 / about)
+			:mod (e / essential))))

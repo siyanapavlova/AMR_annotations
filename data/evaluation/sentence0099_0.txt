@@ -1,0 +1,10 @@
+(s2 / sheep
+	:nsubj (i / it)
+	:cop (b / be)
+	:mod (s / small
+		:advmod (v / very))
+	:acl (g / give-01
+		:ARG1 (t / that)
+		:ARG0 (i2 / i)
+		:aux (h / have)
+		:ARG1 (y / you)))

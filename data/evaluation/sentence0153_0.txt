@@ -1,0 +1,8 @@
+(s / see
+	:nsubj (a / asteroid
+		:det (t / this))
+	:aux (h / have)
+	:advmod (o / only)
+	:advmod (o2 / once)
+	:obl (t3 / telescope
+		:case (t2 / through)))

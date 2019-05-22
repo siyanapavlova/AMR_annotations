@@ -1,0 +1,19 @@
+(s / sleep
+	:nsubj (t / they)
+	:xcomp (d / deep
+		:obl (h / heart
+			:case (i / in)
+			:poss (d2 / darkness
+				:case (o / of)
+				:poss (e / earth
+					:case (' / 's)))))
+	:manner (s3 / seize
+		:mark (u / until)
+		:nsubj (o2 / one
+			:det (s2 / some)
+			:poss (t2 / they
+				:case (a / among)))
+		:obl (d3 / desire
+			:case (w / with)
+			:acl (a2 / awaken
+				:mark (t3 / to)))))

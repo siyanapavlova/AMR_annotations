@@ -1,0 +1,14 @@
+(b / break
+	:cc (a / and)
+	:nsubj (p / prince
+		:mod (l / little))
+	:obl (p2 / peal
+		:case (i / into)
+		:mod (l2 / lovely)
+		:poss (l3 / laughter
+			:case (o / of))
+		:acl (i2 / irritate
+			:nsubj (w / which)
+			:obj (i3 / i)
+			:advmod (m / much
+				:advmod (v / very)))))

@@ -1,0 +1,15 @@
+(b / but
+	:op (g / give-01
+		:manner (o / one
+			:mark (w / when)
+			:nsubj (d / discover
+				:compound (a / astronomer))
+			:poss (t / these
+				:case (o2 / of)))
+		:ARG0 (h / he)
+		:aux (d2 / do)
+		:advmod (n / not)
+		:iobj (i / it)
+		:ARG1 (n2 / name))
+	:op (n3 / number
+		:advmod (o3 / only)))

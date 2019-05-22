@@ -1,0 +1,7 @@
+(s / say-01
+	:ARG0 (i / i)
+	:ARG1 (w2 / wander
+		:nsubj (h / he)
+		:aux (w / will)
+		:compound (o / off)
+		:advmod (s2 / somewhere)))

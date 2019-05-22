@@ -1,0 +1,9 @@
+(a / add
+	:advmod (t / then)
+	:nsubj (h / he)
+	:ccomp (s / so
+		:obj (y / you)
+		:advmod (t2 / too)
+		:conj (c / come
+			:obl (s2 / sky
+				:case (f / from)))))

@@ -1,0 +1,10 @@
+(h / how
+	:cc (a / and)
+	:nsubj (t / that)
+	:cop (b / be)
+	:acl (m / make
+		:nsubj (i / i)
+		:obj (a2 / acquaintance
+			:poss (p / prince
+				:case (o / of)
+				:mod (l / little)))))

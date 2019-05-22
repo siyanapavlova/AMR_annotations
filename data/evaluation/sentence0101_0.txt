@@ -1,0 +1,5 @@
+(g / go
+	:nsubj (h / he)
+	:aux (h2 / have)
+	:time (s / sleep
+		:case (t / to)))

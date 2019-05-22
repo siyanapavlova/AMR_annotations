@@ -1,0 +1,17 @@
+(e / exhaust
+	:obl (t2 / time
+		:case (b / by)
+		:det (t / this))
+	:nsubj (p / patience
+		:poss (m / my))
+	:manner (h / hurry
+		:mark (b2 / because)
+		:nsubj (i / i)
+		:cop (b3 / be)
+		:case (i2 / in)
+		:acl (s / start
+			:mark (t3 / to)
+			:xcomp (t4 / take
+				:obj (e2 / engine
+					:poss (m2 / my))
+				:advmod (a / apart)))))

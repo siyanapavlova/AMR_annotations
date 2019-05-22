@@ -1,0 +1,12 @@
+(m / matter
+	:advmod (c / certainly
+		:cc (b / but))
+	:obl (w / we
+		:case (f / for)
+		:acl (u / understand
+			:nsubj (w2 / who)
+			:xcomp (l / life)))
+	:nsubj (f2 / figure)
+	:cop (b2 / be)
+	:poss (i / indifference
+		:case (o / of)))

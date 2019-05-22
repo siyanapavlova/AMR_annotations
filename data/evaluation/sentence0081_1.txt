@@ -1,0 +1,10 @@
+(s2 / say-02
+	:ccomp (s / see
+		:nsubj (y / you)
+		:obj (y2 / yourself))
+	:ARG0 (h / he)
+	:ccomp (s3 / sheep
+		:mark (t / that)
+		:nsubj (t2 / this)
+		:cop (b / be)
+		:advmod (n / not)))

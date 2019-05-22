@@ -1,0 +1,27 @@
+(a2 / and
+	:op (c2 / convince
+		:manner (s / say-01
+			:cc (b / but)
+			:mark (i / if)
+			:ARG0 (y / you)
+			:time (t2 / they
+				:case (t / to))
+			:ARG0 (p / planet
+				:acl (c / come
+					:nsubj (h / he)
+					:obl (b3 / b
+						:case (f / from)
+						:cop (b2 / be)
+						:compound (a / asteroid)
+						:nummod (6 / 612)))))
+		:advmod (t3 / then)
+		:nsubj (t4 / they)
+		:aux (w / would)
+		:cop (b4 / be))
+	:op (l / leave
+		:obj (y2 / you)
+		:obl (p2 / peace
+			:case (i2 / in)
+			:poss (q / question
+				:case (f2 / from)
+				:poss (t5 / they)))))

@@ -1,0 +1,14 @@
+(t / think
+	:aux (d / do)
+	:nsubj (y / you)
+	:ccomp (h / have
+		:mark (t2 / that)
+		:nsubj (s / sheep
+			:det (t3 / this))
+		:aux (w / will)
+		:xcomp (h2 / have
+			:mark (t4 / to)
+			:obj (d2 / deal
+				:mod (g / great)
+				:poss (g2 / grass
+					:case (o / of))))))

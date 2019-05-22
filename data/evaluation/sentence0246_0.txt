@@ -1,0 +1,14 @@
+(u / useful
+	:nsubj (t / that)
+	:aux (w / would)
+	:cop (b / be)
+	:advmod (v / very)
+	:time (t3 / they
+		:case (t2 / to))
+	:manner (b2 / be
+		:mark (i / if)
+		:nsubj (t4 / they)
+		:xcomp (t6 / travel
+			:mark (t5 / to)
+			:obl (d / day
+				:det (s / some)))))

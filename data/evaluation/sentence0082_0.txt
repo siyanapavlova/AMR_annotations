@@ -1,0 +1,3 @@
+(r / ram
+	:nsubj (t / this)
+	:cop (b / be))

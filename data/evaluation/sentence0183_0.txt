@@ -1,0 +1,13 @@
+(l / like
+	:nsubj (i / i)
+	:aux (s / should)
+	:aux (h / have)
+	:xcomp (b / begin
+		:mark (t / to)
+		:obj (s2 / story
+			:det (t2 / this))
+		:obl (f / fashion
+			:case (i2 / in)
+			:poss (t3 / tale
+				:case (o / of)
+				:compound (f2 / fairy)))))

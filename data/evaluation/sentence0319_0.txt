@@ -1,0 +1,3 @@
+(n / no
+	:discourse (n2 / no)
+	:discourse (n3 / no))

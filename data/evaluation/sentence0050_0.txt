@@ -1,0 +1,15 @@
+(s / see
+	:cc (a / and)
+	:nsubj (i / i)
+	:obj (p / person
+		:mod (e / extraordinary
+			:advmod (m / most))
+		:mod (s2 / small)
+		:acl (s3 / stand
+			:nsubj (w / who)
+			:advmod (t / there)
+			:manner (e2 / examine
+				:obj (i2 / i)
+				:obl (s4 / seriousness
+					:case (w2 / with)
+					:mod (g / great))))))

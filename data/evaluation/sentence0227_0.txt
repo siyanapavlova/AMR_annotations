@@ -1,0 +1,15 @@
+(o / oblige
+	:cc (a / and)
+	:nsubj (i / i)
+	:xcomp (m / make
+		:mark (t / to)
+		:obj (e / effort
+			:mod (g / great)
+			:mod (m2 / mental)
+			:acl (s / solve
+				:mark (t2 / to)
+				:obj (p / problem
+					:det (t3 / this))))
+		:obl (a3 / assistance
+			:case (w / without)
+			:det (a2 / any))))

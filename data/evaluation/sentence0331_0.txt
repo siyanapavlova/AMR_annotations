@@ -1,0 +1,7 @@
+(t / toss
+	:nsubj (h / he)
+	:obj (c / curl
+		:poss (h2 / he)
+		:mod (g / golden))
+	:obl (b / breeze
+		:case (i / in)))

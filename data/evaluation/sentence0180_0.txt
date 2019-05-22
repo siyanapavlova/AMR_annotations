@@ -1,0 +1,7 @@
+(h / hold
+	:nsubj (o / one)
+	:aux (m / must)
+	:advmod (n / not)
+	:obj (i / it)
+	:obl (t / they
+		:case (a / against)))

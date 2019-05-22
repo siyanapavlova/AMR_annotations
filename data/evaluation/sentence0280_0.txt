@@ -1,0 +1,18 @@
+(g / go
+	:manner (f / fly
+		:mark (i / if)
+		:nsubj (y / you)
+		:aux (c / could)
+		:time (f2 / france
+			:case (t / to))
+		:obl (m / minute
+			:case (i2 / in)
+			:nummod (o / one)))
+	:nsubj (y2 / you)
+	:aux (c2 / could)
+	:advmod (s / straight)
+	:obl (s2 / sunset
+		:case (i3 / into))
+	:obl (n / noon
+		:advmod (r / right)
+		:case (f3 / from)))

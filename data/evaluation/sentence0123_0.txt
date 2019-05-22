@@ -1,0 +1,24 @@
+(a2 / and
+	:op (c / catch
+		:obl (m / moment
+			:case (a / at)
+			:det (t / that))
+		:nsubj (i / i)
+		:obj (g / gleam
+			:poss (l / light
+				:case (o / of)))
+		:obl (m2 / mystery
+			:case (i2 / in)
+			:mod (i3 / impenetrable)
+			:poss (p / presence
+				:case (o2 / of)
+				:poss (h / he))))
+	:op (d / demand
+		:nsubj (i4 / i)
+		:advmod (a3 / abruptly)
+		:ccomp (c2 / come
+			:aux (d2 / do)
+			:nsubj (y / you)
+			:obl (p2 / planet
+				:case (f / from)
+				:det (a4 / another)))))

@@ -1,0 +1,8 @@
+(l / like
+	:nsubj (i / i)
+	:obj (m2 / misfortune
+		:poss (m / my))
+	:xcomp (t2 / take
+		:mark (t / to)
+		:aux (b / be)
+		:advmod (s / seriously)))

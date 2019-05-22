@@ -1,0 +1,7 @@
+(w2 / wait
+	:nsubj (w / we)
+	:aux (m / must)
+	:manner (t / time
+		:mark (u / until)
+		:nsubj (i / it)
+		:cop (b / be)))

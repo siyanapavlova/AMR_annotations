@@ -1,0 +1,6 @@
+(s / sheep
+	:acl (a / ask
+		:nsubj (y / you)
+		:advmod (i / inside
+			:mark (f / for)
+			:cop (b / be))))

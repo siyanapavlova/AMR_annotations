@@ -1,0 +1,13 @@
+(c / come
+	:obl (b3 / bit
+		:advmod (b / bit)
+		:case (b2 / by))
+	:nsubj (i / i)
+	:xcomp (u / understand
+		:mark (t / to)
+		:obj (s / secret
+			:poss (l2 / life
+				:case (o / of)
+				:poss (y / you)
+				:compound (s2 / sad)
+				:mod (l / little)))))

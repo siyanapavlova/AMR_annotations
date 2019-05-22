@@ -51,7 +51,7 @@ if __name__=="__main__":
 	# sentence_nums = [130]
 	# sentence_nums = [5]
 	# sentence_nums = range(1,1563)
-	sentence_nums = range(1,120)
+	sentence_nums = range(1,1562)
 	scores = []
 	print(sentence_nums)
 

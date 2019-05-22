@@ -1,0 +1,10 @@
+(w2 / want
+	:cc (b / but)
+	:advmod (w / why)
+	:aux (d / do)
+	:nsubj (y / you)
+	:obj (s / sheep
+		:acl (e / eat
+			:mark (t / to)
+			:obj (b2 / baobab
+				:mod (l / little)))))

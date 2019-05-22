@@ -1,0 +1,4 @@
+(a / answer
+	:cc (b / but)
+	:nsubj (t / they)
+	:obj (f / frighten))

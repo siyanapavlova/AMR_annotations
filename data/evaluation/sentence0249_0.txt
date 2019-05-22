@@ -1,0 +1,8 @@
+(k / know
+	:nsubj (i / i)
+	:obj (p / planet
+		:acl (i2 / inhabit
+			:nsubj (t / that)
+			:obl (m / man
+				:case (b / by)
+				:mod (l / lazy)))))

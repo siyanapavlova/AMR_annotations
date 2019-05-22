@@ -1,0 +1,27 @@
+(l / look
+	:nsubj (h / he)
+	:obl (i / i
+		:case (a / at))
+	:advmod (t / there)
+	:obl (h2 / hammer
+		:case (w / with)
+		:poss (m / my)
+		:poss (h3 / hand
+			:case (i2 / in)
+			:poss (m2 / my)))
+	:obj (f / finger
+		:poss (m3 / my)
+		:mod (b / black
+			:obl (g / grease
+				:case (w2 / with)
+				:compound (e / engine))))
+	:manner (b2 / bend
+		:advmod (d / down)
+		:obl (o2 / object
+			:case (o / over)
+			:acl (s / seem
+				:nsubj (w3 / which)
+				:time (h4 / he
+					:case (t2 / to))
+				:advmod (u / ugly
+					:advmod (e2 / extremely))))))

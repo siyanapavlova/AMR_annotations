@@ -1,0 +1,4 @@
+(o / object
+	:nsubj (t / that)
+	:cop (b / be)
+	:advmod (n / not))

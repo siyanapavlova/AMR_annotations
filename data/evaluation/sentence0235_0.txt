@@ -1,0 +1,20 @@
+(a / and
+	:op (b / be
+		:advmod (n / now)
+		:expl (t / there)
+		:nsubj (s2 / seed
+			:det (s / some)
+			:mod (t2 / terrible)
+			:poss (p / planet
+				:case (o / on))
+			:acl (h / home
+				:nsubj (t3 / that)
+				:cop (b2 / be)
+				:poss (p2 / prince
+					:case (o2 / of)
+					:mod (l / little)))))
+	:op (s3 / seed
+		:nsubj (t4 / these)
+		:cop (b3 / be)
+		:poss (b4 / baobab
+			:case (o3 / of))))

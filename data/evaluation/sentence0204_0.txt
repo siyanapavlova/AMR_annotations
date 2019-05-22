@@ -1,0 +1,8 @@
+(t / think
+	:nsubj (h / he)
+	:advmod (p / perhaps)
+	:ccomp (h2 / himself
+		:mark (t2 / that)
+		:nsubj (i / i)
+		:cop (b / be)
+		:case (l / like)))

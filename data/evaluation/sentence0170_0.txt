@@ -1,0 +1,13 @@
+(t3 / think
+	:advmod (o / only
+		:obl (f2 / figure
+			:case (f / from)
+			:det (t / these)))
+	:aux (d / do)
+	:nsubj (t2 / they)
+	:ccomp (l / learn
+		:nsubj (t4 / they)
+		:aux (h / have)
+		:obj (a / anything
+			:poss (h2 / he
+				:case (a2 / about)))))

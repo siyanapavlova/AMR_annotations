@@ -1,0 +1,23 @@
+(h / have
+	:nsubj (i / i)
+	:ccomp (l / learn
+		:advmod (t / thus)
+		:obj (f / fact
+			:mod (s / second)
+			:poss (i2 / importance
+				:case (o / of)
+				:mod (g / great))))
+	:parataxis (b / be
+		:nsubj (t2 / this)
+		:ccomp (c / come
+			:mark (t3 / that)
+			:nsubj (p / planet)
+			:nsubj (p2 / prince
+				:mod (l2 / little))
+			:manner (l3 / larger
+				:nsubj (f2 / from)
+				:cop (b2 / be)
+				:advmod (a / any
+					:advmod (s2 / scarcely))
+				:obl (h2 / house
+					:case (t4 / than))))))

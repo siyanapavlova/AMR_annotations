@@ -1,0 +1,10 @@
+(a2 / and
+	:op (s / small
+		:mark (i / if)
+		:nsubj (p / planet)
+		:cop (b / be)
+		:advmod (t / too))
+	:op (m / many
+		:nsubj (b2 / baobab)
+		:cop (b3 / be)
+		:advmod (t2 / too)))

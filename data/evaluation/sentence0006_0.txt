@@ -1,0 +1,19 @@
+(s / sleep
+	:manner (a2 / able
+		:mark (a / after)
+		:mark (t / that)
+		:nsubj (t2 / they)
+		:cop (b / be)
+		:advmod (n / not)
+		:xcomp (m / move
+			:mark (t3 / to)))
+	:cc (a3 / and)
+	:nsubj (t4 / they)
+	:obl (m2 / month
+		:case (t5 / through)
+		:nummod (s2 / six))
+	:ccomp (n2 / need
+		:mark (t6 / that)
+		:nsubj (t7 / they)
+		:obl (d / digestion
+			:case (f / for))))

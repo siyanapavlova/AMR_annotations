@@ -1,0 +1,25 @@
+(a2 / and
+	:op (g2 / give-01
+		:cc (a / and)
+		:manner (g / good
+			:mark (i / if)
+			:nsubj (y / you)
+			:cop (b / be))
+		:ARG0 (i2 / i)
+		:aux (w / will)
+		:iobj (y2 / you)
+		:ARG1 (s / string)
+		:advmod (t / too)
+		:manner (t3 / tie
+			:mark (s2 / so
+				:fixed (t2 / that))
+			:nsubj (y3 / you)
+			:aux (c / can)
+			:obj (h / he)
+			:obl (d2 / day
+				:case (d / during))))
+	:op (p / post
+		:acl (t5 / tie
+			:mark (t4 / to)
+			:obj (h2 / he)
+			:obl (t6 / to))))

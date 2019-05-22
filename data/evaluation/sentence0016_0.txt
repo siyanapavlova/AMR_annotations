@@ -1,0 +1,7 @@
+(n / need
+	:nsubj (t / they)
+	:advmod (a / always)
+	:xcomp (h / have
+		:mark (t2 / to)
+		:obj (t3 / thing))
+	:conj (e / explain))

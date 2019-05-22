@@ -1,0 +1,21 @@
+(i3 / instant
+	:manner (d / destroy
+		:cc (b / but)
+		:manner (p / plant
+			:mark (w / when)
+			:nsubj (i / it)
+			:cop (b2 / be)
+			:mod (b3 / bad))
+		:nsubj (o / one)
+		:aux (m / must)
+		:obj (i2 / it)
+		:advmod (s / soon
+			:advmod (a / as)
+			:manner (p2 / possible
+				:mark (a2 / as))))
+	:advmod (f / first
+		:advmod (v / very))
+	:ccomp (r / recognize
+		:mark (t / that)
+		:nsubj (o2 / one)
+		:obj (i4 / it)))

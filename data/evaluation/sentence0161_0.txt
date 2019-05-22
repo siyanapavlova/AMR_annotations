@@ -1,0 +1,17 @@
+(a3 / and
+	:op (t / tell
+		:mark (i / if)
+		:nsubj (i2 / i)
+		:aux (h / have)
+		:iobj (y / you)
+		:obj (d / detail
+			:det (t2 / these))
+		:time (a2 / asteroid
+			:case (a / about)))
+	:op (m / make
+		:obj (n / note
+			:poss (n2 / number
+				:case (o / of)
+				:poss (i3 / its)
+				:poss (y2 / you
+					:case (f / for))))))

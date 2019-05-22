@@ -1,6 +1,13 @@
-(a2 / and
-	:op (b2 / box
-		:poss (p3 / paint
-			:case (o / of)))
-	:op (p2 / pencil
-		:det (s / some)))
+(p / purpose
+	:nsubj (i / it)
+	:cop (b / be)
+	:case (f / for)
+	:det (t / that)
+	:advmod (a / again)
+	:acl (b2 / buy
+		:mark (t2 / that)
+		:nsubj (i2 / i)
+		:aux (h / have)
+		:obj (b3 / box
+			:poss (p2 / paint
+				:case (o / of)))))

@@ -1,0 +1,8 @@
+(s / see
+	:obl (t / time
+		:mod (f / first))
+	:nsubj (h / he)
+	:obj (a / airplane
+		:poss (m / my))
+	:obl (i / instance
+		:case (f2 / for)))

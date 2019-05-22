@@ -1,0 +1,5 @@
+(s / spread
+	:nsubj (i / it)
+	:obl (p / planet
+		:case (o / over)
+		:mod (e / entire)))

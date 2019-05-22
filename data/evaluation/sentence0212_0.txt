@@ -1,0 +1,11 @@
+(h / have
+	:obl (t2 / time
+		:det (t / this))
+	:advmod (m / more
+		:advmod (o / once))
+	:nsubj (i / i)
+	:obj (s / sheep)
+	:xcomp (t4 / thank
+		:mark (t3 / to)
+		:obl (i2 / it
+			:case (f / for))))

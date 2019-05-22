@@ -1,0 +1,27 @@
+(t / toss
+	:nsubj (h / he)
+	:obj (h3 / head
+		:poss (h2 / he))
+	:advmod (g / gently)
+	:manner (t2 / take
+		:mark (w / without)
+		:obj (e / eye
+			:poss (h4 / he))
+		:obl (p / plane
+			:case (f / from)
+			:poss (m / my)))
+	:ccomp (t3 / true
+		:expl (i / it)
+		:cop (b / be)
+		:ccomp (c2 / come
+			:mark (t4 / that)
+			:case (o / on)
+			:mark (t5 / that)
+			:nsubj (y / you)
+			:aux (c / can)
+			:advmod (n / not)
+			:aux (h5 / have)
+			:advmod (a / away
+				:case (f2 / from)
+				:advmod (f3 / far
+					:advmod (v / very))))))

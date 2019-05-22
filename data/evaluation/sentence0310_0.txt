@@ -1,0 +1,3 @@
+(n / naïve
+	:nsubj (t / they)
+	:cop (b / be))

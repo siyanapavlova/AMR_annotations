@@ -1,0 +1,19 @@
+(a3 / and
+	:op (a2 / anything
+		:case (w / without)
+		:acl (l / lead
+			:mark (t / to)
+			:compound (u / up)
+			:time (i / it
+				:case (t2 / to))))
+	:op (b / bear
+		:mark (a4 / as)
+		:mark (i2 / if)
+		:nsubj (q / question)
+		:aux (h / have)
+		:obl (m / meditation
+			:case (o / of)
+			:mod (l2 / long)
+			:poss (p / problem
+				:case (o2 / on)
+				:poss (h2 / he)))))

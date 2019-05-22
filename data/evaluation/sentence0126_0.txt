@@ -1,0 +1,9 @@
+(s / sank
+	:cc (a / and)
+	:nsubj (h / he)
+	:obl (r / reverie
+		:case (i / into)
+		:acl (l / last
+			:nsubj (w / which)
+			:obj (t / time
+				:mod (l2 / long)))))

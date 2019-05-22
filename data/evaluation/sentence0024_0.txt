@@ -1,0 +1,9 @@
+(v / valuable
+	:manner (l / lost
+		:mark (i / if)
+		:nsubj (o / one)
+		:obl (n / night
+			:case (i2 / in)))
+	:nsubj (k / knowledge
+		:mod (s / such))
+	:cop (b / be))
