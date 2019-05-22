@@ -100,9 +100,9 @@ def create_lexicon(load_path, save_path, unprocessed_path):
 
 if __name__ == "__main__":
 	create_lexicon('./grs/lexicons/original_amr_lexicons/common-in-progress.txt',
-					'./grs/lexicons/subcat/common_predicates_anno1.lp',
+					'./grs/lexicons/subcat/common_predicates_anno2.lp',
 					'./grs/lexicons/original_amr_lexicons/common-in-progress.txt')
-	sort_file('./grs/lexicons/subcat/common_predicates_anno1.lp')
+	sort_file('./grs/lexicons/subcat/common_predicates_anno2.lp')
 	
 
 
