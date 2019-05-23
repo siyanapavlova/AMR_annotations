@@ -193,7 +193,7 @@ hail	hail-04	theme	source	-	-	-	-	-	-	-	-
 hail	hail-05	agent	theme	destination	-	-	-	-	-	-	-
 hard	hard-02	-	theme	-	-	-	-	-	-	-	-
 hard	hard-03	patient	attribute	-	-	-	-	-	-	-	-
-hard	hard-04	agent	patient	destination	-	-	-	-	-	-	-
+hard	hard-04	agent	patient	theme	-	-	-	-	-	-	-
 hard-put	hard-put-04	stimulus	experiencer	-	-	-	-	-	-	-	-
 hardboil	hardboil-01	agent	patient	-	-	-	-	-	-	-	-
 hire	hire-01	agent	patient	theme	-	-	-	-	-	-	-
