@@ -1,5 +1,5 @@
 import grew
-import pprint, ud_to_amr, glob
+import pprint, ud_to_amr, text_to_grew, glob
 import numpy as np
 from itertools import combinations 
 import networkx as nx

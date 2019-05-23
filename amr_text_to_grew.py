@@ -1,9 +1,10 @@
 import pprint
+import grew
 
 def load_file(file):
 	with open(file) as f:
-		text = f.readlines()
-	return ''.join(text)
+		text = [i for i in f.readlines()]
+	return text
 
 pp = pprint.PrettyPrinter(indent=4)
 
@@ -49,7 +50,7 @@ pp = pprint.PrettyPrinter(indent=4)
 def built_dict(text, dictionary):
 	'''
 	1. flattens the text 
-		Case 1: no bo  children: closing brackets on 1 line  - no children and no splitter 
+		Case 1: no children: closing brackets on 1 line  - no children and no splitter 
 			add a lemma attribute as well as a concept attribute 
 			return the text, as the 
 			use try accept to add nodes 
@@ -62,7 +63,45 @@ def built_dict(text, dictionary):
 
 
 	'''
-	print(text)
+	lines = load_file('./data/amr_bank_data/amrs/amr0002.txt')
+	lines = [i.strip('\n') for i in lines if i !='\n'] # remove the newlines-only lines 
+	lines = [line.lstrip(re.match(r"^[\s]+", line).group()) if re.match(r"^[\s]+", line) != None else line for line in lines ]
+	# strip preceding whitespaces 
+	
+	graph = dict()
+
+	bracket_counter = 0
+	while bracket_counter > -1:  
+		line = lines.pop(0) # pop the first line 
+		bracket_counter += len(re.findall("\(",line)) # check and track the number of starting brackets
+		
+		# process the line 
+		# the first line will always be the root. there will always be the concept node and its variable
+
+
+		# 1. find roles: 
+		roles = re.findall(":[a-zA-Z]+", line)
+		# 2. find variables:
+		variables = re.findall("\([a-z][1-9]* /", line)
+		# 3. find concepts: 
+		concepts = []
+		while len(roles) >0 or len(variables) >0:
+			if len(roles) > 0: _role = roles.pop(0)
+			if len(variables) > 0: _variable = variables.pop(0)
+				# splits with a string results in a list 
+				line = [i for i in line.split(_role) if i !='']
+				line = [i for i in line.split(_variable) if i !='']
+				_concept = re.match(r'\s*[a-z]+\-*[0-9]*', line")
+				line = line.split(_concept)[1]
+
+				# to do: check that concept not already in the dict
+				# if not, then add concept to the dict
+		 		graph[str(len(graph)+1)] = [{"concept": _concept, 
+				 							"variable": _variable},
+											 [(_role:)]]
+		bracket_counter -= len(re.findall("\)",line)) 
+
+
 	if '(' not in text and '/' not in text and ':' not in text:
 		return [], text, {} #text here is the node ID
 	if '(' in text and '/' in text and ':' not in text:
