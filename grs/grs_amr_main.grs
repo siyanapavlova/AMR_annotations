@@ -63,7 +63,8 @@ strat non_core_new_lex{
     Iter(compound_part_to_compound),
     Iter(det_predet_to_det),
     Iter(cc_preconj_to_cc),
-	Iter(aux_pass_to_aux),
+    Iter(aux_pass_to_aux),
+    Iter(nmod_npmod_to_nmod),
 
     %Iter(compound_find_join),
     %Iter(compoundpart_find_join),
@@ -79,9 +80,9 @@ strat test_new_lex {
     Iter(det_as_pers_pron),
     Iter(det_as_all),
     
-    %Iter(pred_nsubj_obj_iobj),
-    %Iter(pred_nsubj_obj),
-    %Iter(pred_nsubj_new_lex),
+    Iter(pred_nsubj_obj_iobj),
+    Iter(pred_nsubj_obj),
+    Iter(pred_nsubj_new_lex),
     Iter(pred_obj_arg1),
     Iter(pred_obj_arg2),
 

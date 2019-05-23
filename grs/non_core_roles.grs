@@ -232,5 +232,15 @@ rule aux_pass_to_aux{
 	}
 }
 
+rule nmod_npmod_to_nmod{
+	pattern{
+		nsubj_pass_rel: GOV -[nmod:npmod]-> DEP;
+	}
+	commands {
+		del_edge nsubj_pass_rel;
+		add_edge GOV -[nmod]-> DEP;
+	}
+}
+
 % End of rewriting for exceptions
 

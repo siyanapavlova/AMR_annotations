@@ -1,0 +1,368 @@
+act-01  ARG0: player  ARG1: role
+act-02  ARG0: actor  ARG1: grounds for action
+advise-01  ARG0: entity giving advice  ARG1: entity getting advice, impelled agent  ARG2: advice, impelled action
+age-01  ARG0: causer of aging, agent  ARG1: entity getting old  ARG2: attribute (how old)
+answer-01  ARG0: replier  ARG1: in response to  ARG2: answer
+ask-01  ARG0: asker  ARG1: question  ARG2: hearer  ARG3: attributive
+ask-02  ARG0: asker  ARG1: favor  ARG2: hearer
+ask-03  ARG0: seller  ARG1: commodity  ARG2: buyer  ARG3: asking price
+astound-01  ARG0: causer  ARG1: experiencer
+attempt-01  ARG0: Agent/Entity Trying  ARG1: thing tried
+be-02  ARG1: thing that is
+bent-03  ARG1: corrput entity/action
+bent-04  ARG1: intoxicated entity  ARG2: drug
+bent-05  ARG0: stimulus of anger  ARG1: angry one
+bent-06  ARG0: entity who is determined  ARG1: to what (bent on what)
+best-11  ARG0: winner  ARG1: loser  ARG2: contest
+blink-01  ARG0: blinker  ARG1: eyes, usually unstated
+book-01  ARG0: officer, agent doing booking  ARG1: criminal, person or value being booked  ARG2: crime, what you are booked for or as  ARG3: prison, place booked into
+book-03  ARG0: person buying/scheduling the activity/appointment  ARG1: activity/room booked; tickets  ARG2: schedule owner  ARG3: the schedule itself  ARG4: booking agent, if different from arg0  ARG5: itinerary, time of activity
+box-01  ARG0: storer  ARG1: thing stored  ARG2: box
+box-02  ARG0: cause  ARG1: entity forming a box  ARG2: enclosed area
+box-03  ARG0: First fighter  ARG1: Second fighter
+break-01  ARG0: breaker  ARG1: thing broken  ARG2: instrument  ARG3: pieces  ARG4: arg1 broken away from what?
+break-02  ARG0: enterer  ARG1: place/domain broken into
+break-13  ARG0: causal agent  ARG1: thing coming to light
+break-16  ARG0: entity in motion  ARG1: movement away from what  ARG2: secondary predication on arg0 (free, loose, etc)
+break-18  ARG0: scofflaw, violator  ARG1: law, oath, trust, thing violated  ARG2: violation committed
+break-19  ARG0: Person taking/causing break/pause  ARG1: activity interrupted  ARG2: purpose of pause, interrupted for or with what
+bridge-01  ARG0: connector, agent  ARG1: entity connected  ARG2: entity connected with
+bridge-02  ARG0: doctor; entity replacing something  ARG1: patient  ARG2: long-term medicine  ARG3: short-term medicine to bridge a gap in treatment with long-term medicine (e.g. due to surgery)
+bring-01  ARG0: bringer  ARG1: thing brought  ARG2: benefactive or destination brought-for, brought-to,  ARG3: attribute, state after bringing, secondary action  ARG4: ablative, brought-from
+call-01  ARG0: caller  ARG1: item being labelled  ARG2: name itself, attribute of arg1
+call-02  ARG0: caller  ARG1: entity summoned  ARG2: benefactive
+call-03  ARG0: demander  ARG1: thing being demanded  ARG2: demandee, of whom is arg1 being demanded?
+call-07  ARG0: speaker  ARG1: utterance  ARG2: distant listener
+call-10  ARG0: predictor/decider  ARG1: domain, topic of the prediction/decision  ARG2: the actual prediction/decision itself
+call-11  ARG0: entity in charge, official decision maker  ARG1: \'the shots\' (or related)
+call-13  ARG0: caller  ARG1: accusation, thing called out (bluff, foul, bullshit, etc)  ARG2: entity called out (accusee)
+call-14  ARG0: claimer  ARG1: thing claimed (e.g. dibs, shotgun)  ARG2: opponent/competitor
+call-16  ARG0: visitor  ARG1: recipient of visit  ARG2: location visited
+can-01  ARG0: canner, agent  ARG1: substance
+can-02  ARG0: employer  ARG1: ex-employee (thing thrown away)  ARG2: job
+chance-01  ARG0: taker of risk, agent  ARG1: risk taken
+chance-02  ARG0: entity having an opportunity  ARG1: the opportunity or event  ARG2: likelihood
+chew-01  ARG0: chewer  ARG1: food
+choose-01  ARG0: picker  ARG1: thing picked  ARG2: group or source  ARG3: benefactive  ARG4: secondary attribute on arg1
+clear-01  ARG0: cleaner  ARG1: thing made clean  ARG2: dirt
+clear-02  ARG0: agent, approver  ARG1: thing approved  ARG2: semi-idiomatic: \'the way\'  ARG3: entity given permission for arg1
+clear-03  ARG0: escaper  ARG1: thing escaped
+clear-06  ARG0: Cause of clarification, evidence/facts  ARG1: Thing that is clear, obvious  ARG2: whom it is obvious to
+clear-07  ARG1: thing that is translucent
+clear-08  ARG1: thing that is clear, open  ARG2: dirt, obstructions
+clear-09  ARG0: thing avoiding something else  ARG1: thing avoided
+close-01  ARG0: person doing the closing  ARG1: thing closing  ARG2: anti-beneficiary
+close-02  ARG1: thing closing  ARGM-MNR: up, down, or unchanged  ARGM-EXT: end point
+close-03  ARG0: entity making the deal  ARG1: the deal
+close-06  ARG1: entity in motion  ARG2: target
+close-10  ARG1: entity located near something, close thing  ARG2: location, close to what?
+close-11  ARG1: copy, thing that is similar  ARG2: original, what arg1 is similar-to
+close-12  ARG1: case, vote, decision
+close-13  ARG1: affectionate entity/ies  ARG2: affectionate with whom?
+color-01  ARG0: causer of coloration  ARG1: thing with color  ARG2: the color itself
+come-01  ARG1: entity in motion / \'comer\'  ARG2: extent -- rare  ARG3: start point  ARG4: end point
+come-02  ARG0: pursuer  ARG1: goal
+come-03  ARG1: thing (often state) arising  ARG2: source, basis on which arg1 comes to be  (not start point of motion!)
+come-04  ARG1: object  ARG2: attribute on arg1
+come-05  ARG1: commodity  ARG2: buyer  ARG3: price
+come-12  ARG1: topic
+come-16  ARG1: thing(s) being counted  ARG2: sum, total, amount
+concentrate-01  ARG0: agent, contrentrater  ARG1: contrentrated-on  ARG2: thing contrentrated, if separate from agent
+concentrate-02  ARG0: causer  ARG1: liquid
+consequence-02  ARG0: punisher  ARG1: punished  ARG2: punishment  ARG3: crime
+consequence-03  ARG1: cause  ARG2: effect  ARG3: affected entity
+copy-01  ARG0: copyist, agent  ARG1: original  ARG2: copy
+copy-03  ARG0: sender  ARG1: thing sent  ARG2: recipient
+course-01  ARG0: liquid  ARG1: channel
+crash-01  ARG0: causer of damage, agent  ARG1: entity crashed
+crash-02  ARG0: entity entering  ARG1: party
+crash-04  ARG0: sleeper  ARG1: location
+cry-01  ARG0: speaker  ARG1: utterance, demand  ARG2: hearer
+cry-02  ARG0: cryer  ARG1: cognate object
+dare-01  ARG0: urger  ARG1: impelled agent  ARG2: impelled action
+deal-01  ARG0: dealer (or all dealers)  ARG1: co-dealer  ARG2: subject/type of transaction  ARG3: value of transaction
+deal-02  ARG0: dealer, distributor  ARG1: cards, thing distributed  ARG2: other player(s), distributed-to
+deal-03  ARG1: the situation, occurance, or event
+desert-01  ARG0: entity leaving  ARG1: entity deserted
+devote-01  ARG0: causer of devotion  ARG1: thing devoted  ARG2: devoted to
+digest-01  ARG0: eater  ARG1: nutrients
+discourage-01  ARG0: entity removing confidence, agent  ARG1: entity discouraged  ARG2: discouraged from
+dishearten-01  ARG0: entity removing confidence, cause  ARG1: entity disheartened
+disobey-01  ARG0: disobeyer  ARG1: rule or rule-giver
+distinguish-01  ARG0: entity causing separation  ARG1: thing(s) being divided  ARG2: source, separated from, if separate from arg1
+do-02  ARG0: agent, doer  ARG1: thing done  ARG2: benefactive, done for or about  ARG3: instrumental  ARG4: comitative, companion while doing
+down-01  ARG0: causer  ARG1: faller
+down-02  ARG0: eater  ARG1: eaten
+down-03  ARG0: causer  ARG1: faller  ARG2: start state  ARG3: end state
+draw-01  ARG0: artist  ARG1: art  ARG2: benefactive
+draw-02  ARG0: puller  ARG1: thing pulled  ARG2: source
+draw-05  ARG0: armed one  ARG1: weapon  ARG2: adversary
+drink-01  ARG0: drinker  ARG1: liquid  ARG2: source of liquid
+drink-02  ARG0: drinker  ARG1: thing saluted
+drop-01  ARG0: entity doing the dropping  ARG1: Logical subject, patient, thing falling  ARG2: EXT, amount fallen  ARG3: start point  ARG4: end point, end state of arg1
+drop-05  ARG0: remover  ARG1: removed  ARG2: source
+drop-06  ARG0: sycophant, giver  ARG1: names, thing given
+drop-07  ARG0: big spender  ARG1: amount of money  ARG2: commodity
+encounter-01  ARG0: entity encountering something  ARG1: entity encountered
+examine-01  ARG0: examiner  ARG1: thing examined  ARG2: in search of what
+except-01  ARG0: Entity causing/making exception  ARG1: Entity excepted, excluded  ARG2: Excluded/excepted from what?
+except-02  ARG0: Lawyer, entity objecting  ARG1: Thing objected-to
+exhaust-01  ARG0: agent/cause of depletion  ARG1: entity exhausted, depleted
+experiment-01  ARG0: scientist, agent  ARG1: experimental subject  ARG2: experimental method
+explain-01  ARG0: explainer  ARG1: thing explained  ARG2: explained to
+eye-01  ARG0: watcher  ARG1: entity eyed
+face-01  ARG0: looker, facer  ARG1: looked at, faced
+faint-01  ARG0: fainter
+fatigue-01  ARG0: causer of tiredness  ARG1: thing becoming exhausted
+fault-01  ARG0: blamer  ARG1: entity blamed  ARG2: blamed for what?
+fault-02  ARG1: flawed thing  ARG2: specific aspect of arg1 that is flawed
+fear-01  ARG0: scaredy cat  ARG1: afraid of  ARG2: afraid for
+find-01  ARG0: finder  ARG1: thing found  ARG2: benefactive, found for
+find-02  ARG0: finder  ARG1: thing found
+flow-01  ARG1: substance (ie, water)  ARGM-DIR: direction
+fly-01  ARG0: pilot, agentive entity capable of flight (like a bird)  ARG1: passenger, cargo  ARG2: aircraft flown, flight number, steed, non-agentive thing in motion  ARG3: type of flight plan, mission, cognate object (like \'a flight\' or \'sorties\')  ARG4: airline
+fly-02  ARG0: flouter  ARG1: &quot;in the face of __&quot;
+fly-03  ARG0: hitter  ARG1: bases  ARG2: where player moves to after hitting fly ball
+fly-06  ARG0: causal agent  ARG1: thing suspended in the air
+foot-01  ARG0: payer  ARG1: some variation on \'the bill\'
+forest-01  ARG0: Gardener, cause of forestation  ARG1: area covered in forest  ARG2: trees, forest itself, type of forest
+frighten-01  ARG0: cause of fear  ARG1: frightened entity  ARG2: instrument, if separate from arg0  ARG3: intensifier
+funny-02  ARG0: experiencer  ARG1: amusing thing (concatenate if necessary)
+funny-03  ARG0: experiencer  ARG1: strange/suspicious thing
+get-01  ARG0: receiver  ARG1: thing gotten  ARG2: giver  ARG3: price paid, in-exchange-for  ARG4: benefactive
+get-02  ARG0: haver, possessor  ARG1: thing had, possessed
+get-03  ARG1: thing  ARG2: attribute of arg1 (not a VP node)
+get-04  ARG0: instigator  ARG1: a clause -- action done or descriptive small clause
+get-05  ARG0: causer of motion  ARG1: thing in motion  ARG2: destination
+get-06  ARG0: Subject  ARG1: Complement
+give-01  ARG0: giver  ARG1: thing given  ARG2: entity given to
+give-14  ARG1: Person entity likely to do/be a certain way  ARG2: Thing which arg1 is likely to do/be
+give-16  ARG0: giver/carer  ARG1: crap/shit/poopoo, ect  ARG2: about what
+give-17  ARG1: thing yielding  ARG2: to what
+glance-01  ARG0: looker  ARG1: looked-at
+go-01  ARG1: entity in motion/goer  ARG2: extent  ARG3: start point  ARG4: end point, end state of arg1
+go-02  ARG0: goer  ARG1: journey  ARG3: start point  ARG4: end point
+go-03  ARG0: pursuer  ARG1: goal
+go-05  ARG0: subject  ARG1: subsequent action
+go-06  ARG0: entity proceeding  ARG1: project  ARG2: direction, usually a particle
+go-07  ARG1: commodity  ARG2: buyer  ARG3: price
+go-08  ARG1: object  ARG2: attribute of arg1  ARG3: with reference to what
+go-09  ARG1: thing going
+go-10  ARG1: thing going  ARG2: receiver
+go-11  ARG1: thing going  ARG2: purpose
+go-12  ARG1: experiencer  ARG2: experienced
+go-14  ARG1: thing left
+golf-01  ARG0: golfer
+grass-01  ARG0: grass-layer  ARG1: area covered with grass  ARG2: grass itself, type of grass
+greet-01  ARG0: greeter  ARG1: thing greeted  ARG2: secondary attribute, greeted as  ARG3: specific reaction
+grow-01  ARG0: [causer of growth - should be possible]  ARG1: thing grown  ARG2: amount increased by, EXT or MNR  ARG3: start point  ARG4: end point, end state of arg1
+grow-02  ARG1: thing becoming  ARG2: thing become = end state of arg1  ARG3: source, start point
+grow-03  ARG0: grower  ARG1: crop  ARG2: source
+grown-05  ARG1: person aged
+hand-01  ARG0: giver  ARG1: thing given  ARG2: entity given to
+hard-02  ARG1: difficult thing (may require concatenation)
+hard-03  ARG0: entity who has a hard time with arg1  ARG1: hearing, or other domain of difficulty
+hard-04  ARG0: causer of hardness  ARG1: hard thing  ARG2: hardened towards what/whom
+hat-01  ARG0: entity placing the hat  ARG1: destination of the hat  ARG2: the hat
+have-03  ARG0: owner  ARG1: possession
+have-04  ARG0: causer  ARG1: action
+have-05  ARG0: entity giving birth to something  ARG1: entity birthed
+have-06  ARG0: true subject  ARG1: true predicate
+have-08  ARG0: agent, tackler  ARG1: thing tackled (\'at\' what)
+have-09  ARG0: agent, agressor  ARG1: fixed: (arg0\'s) way  ARG2: victim/patient
+have-10  ARG0: agent  ARG1: action attempted. &quot;a go at __&quot;
+have-11  ARG0: subject, entity having not yet done arg2  ARG1: fixed: \'yet\'  ARG2: have yet to what (infinitival S-node complement)
+head-01  ARG0: leader  ARG1: organization
+head-02  ARG0: mover  ARG1: destination
+hear-01  ARG0: hearer  ARG1: utterance, sound  ARG2: speaker, source of sound
+hunger-01  ARG0: hungry entity  ARG1: hungry for
+hurry-01  ARG0: causer  ARG1: entity in motion  ARG2: secondary predicate, purpose
+imagine-01  ARG0: thinker  ARG1: object, thing under consideration  ARG2: attribute
+improve-01  ARG0: improver  ARG1: thing improving
+improve-02  ARG1: Logical subject, patient, thing rising  ARG2: EXT, amount risen  ARG3: start point  ARG4: end point  ARGM-LOC: medium
+inhabit-01  ARG0: resident  ARG1: place of residence
+irritate-01  ARG0: Stimulus  ARG1: experiencer
+judge-01  ARG0: judge  ARG1: judged  ARG2: judgement, attribute of arg1  ARG3: on what grounds
+jump-01  ARG1: thing jumping  ARG2: EXT, amount jumped by  ARG3: start point  ARG4: end point or end state of arg1
+jump-02  ARG0: jumper  ARG1: opportunity
+jump-03  ARG0: agent of motion  ARG1: entity in motion, if in addition to arg0  ARG2: thing jumped over
+jump-06  ARG0: entity escaping  ARG1: entity escaped from (e.g. bail/trail); or idiomatically     \'jump ship\'
+jump-07  ARG0: jumper  ARG1: idiomatic expression
+jump-08  ARG0: thug  ARG1: victim
+just-02  ARG0: agent of fair actions  ARG1: fair actions  ARG2: target of fair behavior, beneficiary
+keep-01  ARG0: Keeper  ARG1: thing kept
+keep-02  ARG0: causer of continued action  ARG1: continued entity
+keep-03  ARG0: agenty thing  ARG1: noun  ARG2: prepositional object
+keep-04  ARG0: causer of separation  ARG1: one noun  ARG2: other noun
+keep-06  ARG1: thing conforming  ARG2: conformed-to
+last-01  ARG1: thing that lasts  ARG2: period of time
+last-03  ARG1: supplies, resources  ARG2: how long the supplies/resources will last  ARG3: consumers of supplies/resources  ARG4: consumption rate
+last-04  ARG1: product, person  ARG2: how long the product/person will function/survive  ARG3: attribute of product/person that has a duration  ARG4: beneficiary
+lay-01  ARG0: layer  ARG1: thing laid  ARG2: location
+lay-04  ARG0: sexual partner, entity laying arg1  ARG1: entity getting laid (most common arg)
+learn-01  ARG0: student  ARG1: subject  ARG2: teacher
+level-01  ARG0: cause, agent  ARG1: thing becoming level  ARG2: instrument, if separate from agent
+level-03  ARG0: director, agent  ARG1: us. charges or accusations  ARG2: target
+level-04  ARG0: agent/causer of levelness  ARG1: level thing
+light-04  ARG0: setter of fire, increaser of illumination, agent  ARG1: entity lit  ARG2: the light itself
+light-05  ARG1: light-hearted entity  ARG2: aspect of arg1 that is particularly light-hearted (if in addition)
+light-06  ARG1: non-heavy entity  ARG2: aspect of arg1 that isn\'t heavy (if in addition)
+light-07  ARG1: thing reflecting more light  ARG2: aspect of arg1 that is bright/pale (if in addition)
+like-01  ARG0: liker  ARG1: object of affection
+like-02  ARG0: wanter  ARG1: thing wanted
+live-01  ARG0: alive entity  ARG1: life
+live-02  ARG0: endurer, sufferer  ARG1: malady
+long-02  ARG0: wanter  ARG1: wanted
+long-03  ARG1: long thing  ARG2: length measurement
+look-01  ARG0: looker  ARG1: thing looked at or for or on  ARG2: attribute of arg1
+look-02  ARG0: seemer  ARG1: seemed like, attribute of arg0  ARG2: seemed to
+look-04  ARG0: expecter  ARG1: thing expected
+look-09  ARG0: you
+lose-01  ARG1: logical subject, patient, thing falling  ARG2: EXT, amount fallen  ARG3: start point  ARG4: end point  ARGM-LOC: medium
+lose-02  ARG0: entity losing something  ARG1: thing lost  ARG2: benefactive, entity gaining thing lost  ARG3: source of loss
+lose-03  ARG0: loser  ARG1: battle  ARG2: winner
+lose-04  ARG0: loser  ARG1: touch  ARG2: with ...
+lose-07  ARG1: what you\'re not aware of  ARG2: unaware entity
+make-01  ARG0: creator  ARG1: creation  ARG2: created-from, thing changed  ARG3: benefactive
+make-02  ARG0: impeller to action  ARG1: impelled action/ predication
+make-05  ARG0: earner  ARG1: wages  ARG2: job
+make-06  ARG1: thing seeming  ARG2: attribute of arg1
+make-18  ARG0: achiever, agent  ARG1: goal
+make-19  ARG0: traveler  ARG1: his/her/their/etc way  ARG2: to where? destination
+man-01  ARG0: worker  ARG1: job or place
+matter-01  ARG1: thing that matters  ARG2: matters to whom
+meet-01  ARG0: achiever, agent  ARG1: goal
+meet-02  ARG0: meeter  ARG1: person / entity / object being met
+meet-03  ARG0: one party  ARG1: other party
+meet-05  ARG0: agentive answerer  ARG1: thing met/answered  ARG2: with what
+model-01  ARG0: agent, causer  ARG1: entity modelled  ARG2: source
+model-02  ARG0: fashion model  ARG1: garment, thing being modeled.
+move-01  ARG0: mover  ARG1: moved  ARG2: destination
+move-02  ARG0: mover  ARG1: measures
+move-03  ARG0: causal agent  ARG1: impelled agent  ARG2: impelled action
+move-04  ARG0: attacker  ARG1: attacked
+move-05  ARG0: causer of emotion  ARG1: experiencer of the emotion  ARG2: instrument
+need-01  ARG0: needer  ARG1: thing needed
+number-01  ARG1: thing being counted  ARG2: count, number, quantity
+object-01  ARG0: complainer  ARG1: thing objected to
+on-01  ARG1: functioning thing
+out-01  ARG0: outter, exposer, revealer  ARG1: person, thing being outted  ARG2: entity outted to  ARG3: attribute of arg 1
+out-02  ARG1: thing formerly receiving power, fuel
+out-03  ARG1: former player  ARG2: game, play, competition
+out-04  ARG1: sleeping beauty
+out-05  ARG1: entity who doesn\'t have any left  ARG2: what there isn\'t any left of
+out-06  ARG1: entity that is no longer in (state/location)  ARG2: state or location not occupied
+over-01  ARG1: thing that is no longer occurring
+over-02  ARG1: entity done dealing with a trauma  ARG2: the trauma
+over-03  ARG1: too much of what?
+overpower-01  ARG0: entity with more power  ARG1: entity with less
+paper-01  ARG0: Agent, wrapper  ARG1: Entity, object covered with paper  ARG2: Paper itself, type of paper
+part-01  ARG0: agent, causer  ARG1: entity/entities parted
+peal-01  ARG0: bellringer  ARG1: bell
+pen-01  ARG0: writer  ARG1: thing written  ARG2: written-to
+pen-02  ARG0: penner  ARG1: penned
+pencil-01  ARG0: writer  ARG1: thing penciled  ARG2: destination
+people-01  ARG1: area  ARG2: population
+picture-01  ARG0: displayer, agent  ARG1: thing pictured
+pilot-01  ARG0: pilot; tester  ARG1: plane; program
+plane-01  ARG0: one who planes, agent  ARG1: thing worked on  ARG2: end state, if different from arg1
+please-01  ARG0: agent, pleaser  ARG1: patient, entity pleased  ARG2: instrumental
+pocket-01  ARG0: taker, agent  ARG1: thing taken
+ponder-01  ARG0: thinker  ARG1: thought
+prey-01  ARG0: hunter, agent  ARG1: entity  preyed on
+question-01  ARG0: asker  ARG1: question  ARG2: entity asked, hearer
+question-02  ARG1: thing that is out of the question  ARG2: for whom/what
+question-03  ARG0: entity having doubts  ARG1: dubious thing
+raft-01  ARG0: agent, driver (transitive subject)  ARG1: thing moved (intransitive subject, transitive object)  ARG2: locations, or start point  ARG3: destination
+ram-01  ARG0: hitter, agent or instrument  ARG1: entity hit  ARG2: entity rammed into/against
+reject-01  ARG0: rejecter  ARG1: thing rejected  ARG3: attribute
+remember-01  ARG0: rememberer  ARG1: memory  ARG2: secondary attribute
+repair-01  ARG0: repairer, agent  ARG1: entity repaired
+reveal-01  ARG0: speaker, revealer  ARG1: utterance, truth condition  ARG2: hearer  ARG3: attribute of arg1
+sand-01  ARG0: handyman, agent  ARG1: location/entity made smooth  ARG2: sandpaper, entity used to sand arg1
+say-01  ARG0: Sayer  ARG1: Utterance  ARG2: Hearer  ARG3: Attributive
+see-01  ARG0: viewer  ARG1: thing viewed  ARG2: attribute of arg1, further description
+see-02  ARG0: accompanier  ARG1: entity in motion  ARG2: destination
+see-03  ARG0: you
+see-04  ARG0: ensurer  ARG1: fixed: \'to it\'  ARG2: proposition, event
+see-05  ARG0: first entity  ARG1: second entity, or \'each other\' (or variant)
+seem-01  ARG1: thing seeming  ARG2: perceiver
+set-01  ARG0: agent, setter  ARG1: thing set  ARG2: location or position
+set-02  ARG0: agent, setter  ARG1: thing set  ARG2: attribute of arg1
+set-08  ARG0: cause, agent  ARG1: prepared entity  ARG2: ready for what, proposition
+set-11  ARG1: sun
+set-14  ARG0: Agent, preparer  ARG1: Thing set, prepared  ARG2: Beneficiary, set for who/what?
+set-16  ARG1: entity fixed on something  ARG2: what arg1 is decided/fixed on
+show-01  ARG0: shower  ARG1: thing seen/shown  ARG2: seer
+show-04  ARG0: Show creator  ARG1: Type of show, title, or message  ARG2: Audience  ARG3: Source (TV/channel/venue to watch at)
+sight-01  ARG0: viewer  ARG1: thing viewed
+sleep-01  ARG0: sleeper  ARG1: cognate object  ARG2: expected terminus of sleep
+sleep-02  ARG0: agentive partner  ARG1: prepositional partner
+speak-01  ARG0: talker  ARG1: subject  ARG2: hearer  ARG3: language
+stand-01  ARG0: causal agent  ARG1: thing standing  ARG2: location
+stand-02  ARG1: entity poised  ARG2: action
+stand-03  ARG0: tolerator  ARG1: thing tolerated
+stand-04  ARG1: focus  ARG2: attribute
+stand-08  ARG0: representative entity  ARG1: represented, stand for what?
+stand-11  ARG0: entity having a strong stance  ARG1: description of the stance  ARG2: stance directed at or regarding
+stand-12  ARG0: balancer  ARG1: balanced on; type of stand (hand, head)
+star-01  ARG1: actor  ARG2: production  ARG3: attribute
+stare-01  ARG0: looker  ARG1: looked at
+start-01  ARG0: Agent  ARG1: Theme(-Creation)  ARG2: Subevent or thing that Arg1 starts with
+start-03  ARG0: startled entity  ARG1: cause of startlement
+start-06  ARG0: traveler  ARG1: path  ARG2: destination
+start-09  ARG1: theme  ARG2: value
+start-101  ARG0: Doctor  ARG1: Patient  ARG2: medicine/diet/course of treatment
+stray-01  ARG0: entity in motion  ARG1: source
+study-01  ARG0: student  ARG1: subject  ARG2: teacher
+succeed-01  ARG0: entity succeeding  ARG1: task, goal met
+succeed-02  ARG0: successor  ARG1: entity being replaced  ARG2: attributive, role, function
+succeed-03  ARG1: thing coming after  ARG2: thing going before
+swallow-01  ARG0: swallower  ARG1: thing swallowed
+take-01  ARG0: Taker  ARG1: thing taken  ARG2: taken FROM, SOURCE of thing taken  ARG3: destination
+take-02  ARG0: tolerator  ARG1: thing tolerated
+take-03  ARG0: impeller to action  ARG1: impelled agent, topic  ARG2: impelled action, attribute of arg1
+take-04  ARG0: understander  ARG1: thing  ARG2: attribute
+take-10  ARG0: requirer  ARG1: thing required  ARG2: required-of, required-from (\'ablative\')
+take-14  ARG1: thing occuring  ARG2: fixed: place
+take-15  ARG0: corporation, etc  ARG1: loss  ARG2: current financial holdings?
+take-16  ARG0: causer of surprise  ARG1: experiencer of surprise  ARG2: surprise
+take-17  ARG0: entity becoming fond of something  ARG1: thing fond of
+talk-01  ARG0: talker  ARG1: subject  ARG2: hearer
+talk-02  ARG0: talker  ARG1: talked to  ARG2: secondary action
+tell-01  ARG0: Speaker  ARG1: Utterance  ARG2: Hearer
+tell-02  ARG0: entity causing separation  ARG1: thing(s) being divided  ARG2: source, separated from, if separate from arg1
+think-01  ARG0: Thinker  ARG1: Thought  ARG2: Attributive (please look at the examples-- this is tricky)
+thirst-01  ARG0: thirsty thing  ARG1: thirsted for what
+throw-01  ARG0: thrower  ARG1: thing thrown  ARG2: thrown at, to, over, etc
+throw-03  ARG0: holder  ARG1: thing held
+time-01  ARG0: measurer  ARG1: action  ARG2: time required
+time-02  ARG0: agent  ARG1: first thing synchronized  ARG2: second thing, if separate
+toss-01  ARG0: tosser(s)  ARG1: thing tossed
+true-01  ARG1: truthful thing  ARG2: attributive; pertaining to what
+true-02  ARG1: consistent, on target thing  ARG2: consistent with what, target
+true-03  ARG1: loyal one  ARG2: target of loyalty
+try-01  ARG0: Agent/Entity Trying  ARG1: thing tried
+try-02  ARG0: litigant  ARG1: entity tried (defendant/case)  ARG2: adjudicator  ARG3: tried for: crime/accusation
+try-04  ARG0: tryer  ARG1: thing tried (hand, patience)  ARG2: attribute of Arg 1
+understand-01  ARG0: understander  ARG1: thing understood  ARG2: attribute of arg1
+up-01  ARG0: causer  ARG1: ante
+up-02  ARG1: increased entity  ARG2: EXT  ARG3: start point  ARG4: end point
+up-03  ARG1: entity that is up high  ARG2: high place, upper end of what spatial body
+up-04  ARG1: awake and mobile entity  ARG2: former state/location of repose
+useful-05  ARG0: beneficiary  ARG1: thing offering benefit  ARG2: for what purpose
+voice-01  ARG0: speaker  ARG1: utterance  ARG2: hearer
+want-01  ARG0: Wanter  ARG1: thing wanted  ARG2: beneficiary  ARG3: in-exchange-for  ARG4: from
+water-01  ARG0: provider of water, agent  ARG1: entity watered
+will-01  ARG0: bequeather, giver  ARG1: inheritance, gift  ARG2: beneficiary
+will-02  ARG0: desirer  ARG1: state/action desired
+word-01  ARG0: expresser, agent  ARG1: text
+work-01  ARG0: worker  ARG1: job, project  ARG2: employer, benefactive  ARG3: coworker  ARG4: instrumental
+work-06  ARG0: entity in motion  ARG1: description of path  ARG3: start point  ARG4: end point
+work-07  ARG0: manipulator  ARG1: thing manipulated  ARG2: destination, end state
+work-08  ARG0: worker  ARG1: damage, havoc  ARG2: upon what
+work-09  ARG0: causer  ARG1: thing functioning  ARG2: beneficiary
+work-10  ARG0: Person/Entity working something1  ARG1: Thing undergoing change of state, unselected object of work  ARG2: End result of thing worked, arg1
+work-11  ARG1: thing getting underway
+work-12  ARG0: artist  ARG1: art work or subject area
+work-13  ARG1: thing existing  ARG2: secondary attribute
