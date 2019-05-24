@@ -1,0 +1,3 @@
+(a2 / and
+	:op (h2 / happier)
+	:op (h3 / happier))

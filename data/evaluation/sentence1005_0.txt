@@ -1,0 +1,3 @@
+(s / say-02
+	:discourse (g / goodbye)
+	:ARG0 (f / flower))

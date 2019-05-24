@@ -1,0 +1,11 @@
+(b4 / begin
+	:advmod (a / already)
+	:advmod (t3 / too)
+	:nsubj (h / he)
+	:aux (b3 / be)
+	:cc (a2 / and)
+	:advmod (t / then)
+	:xcomp (b / bored
+		:mod (l / little)
+		:mark (t2 / to)
+		:cop (b2 / be)))

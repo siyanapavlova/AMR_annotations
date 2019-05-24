@@ -1,21 +1,21 @@
-(a / and
-	:op (s2 / stretch
-		:advmod (t / then)
+(a2 / and
+	:op (s4 / stretch
+		:advmod (t5 / then)
+		:advmod (f / first
+			:advmod (a / at)
+			:advmod (t2 / timidly))
+		:obj (i2 / itself)
 		:nsubj (s / seed
-			:det (t2 / this)
+			:det (t3 / this)
 			:mod (l / little))
 		:aux (w / will)
-		:obj (i / itself)
-		:advmod (f / first
-			:advmod (t3 / timidly)
-			:advmod (a2 / at))
 		:manner (p / push
+			:obj (s2 / sprig
+				:mod (l2 / little)
+				:compound (c / charming))
 			:mark (t4 / to)
-			:obj (s3 / sprig
-				:compound (c / charming)
-				:mod (l2 / little))
 			:advmod (u / upward
-				:advmod (i2 / inoffensively)
-				:obl (s4 / sun
-					:case (t5 / toward)))))
+				:obl (s3 / sun
+					:case (t / toward))
+				:advmod (i / inoffensively))))
 	:op (b / begin))

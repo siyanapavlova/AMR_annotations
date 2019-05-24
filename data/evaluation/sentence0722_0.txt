@@ -1,0 +1,11 @@
+(y / yours
+	:manner (f / find
+		:mark (w / when)
+		:nsubj (y2 / you)
+		:obj (d / diamond
+			:acl (b / belong
+				:nsubj (t / that)
+				:time (n / nobody
+					:case (t2 / to)))))
+	:nsubj (i / it)
+	:cop (b2 / be))

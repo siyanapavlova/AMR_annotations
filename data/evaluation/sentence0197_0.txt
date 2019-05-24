@@ -2,13 +2,13 @@
 	:op (g / go
 		:nsubj (d / drawing
 			:nummod (o / one))
-		:advmod (a / along)
-		:advmod (r / right
-			:advmod (a2 / all)))
+		:advmod (a4 / along)
+		:advmod (r2 / right
+			:advmod (a / all)))
 	:op (h / have
-		:nsubj (a4 / another)
-		:obj (r2 / resemblance
-			:det (n / no)
+		:nsubj (a2 / another)
+		:obj (r / resemblance
 			:poss (s / subject
 				:case (t / to)
-				:poss (i / its)))))
+				:poss (i / its))
+			:det (n / no))))

@@ -1,0 +1,6 @@
+(g / get
+	:nsubj (i / i)
+	:advmod (n / not)
+	:obj (e2 / exercise
+		:mod (e / enough))
+	:aux (d / do))

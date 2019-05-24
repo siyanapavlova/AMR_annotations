@@ -1,8 +1,8 @@
 (c / come
-	:nsubj (m2 / man
-		:poss (m / my)
-		:mod (l / little))
-	:advmod (w / where)
 	:aux (d / do)
-	:nsubj (y / you)
-	:advmod (f / from))
+	:nsubj (m2 / man
+		:mod (l / little)
+		:poss (m / my))
+	:advmod (f / from)
+	:advmod (w / where)
+	:nsubj (y / you))

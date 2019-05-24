@@ -1,0 +1,5 @@
+(a / ask
+	:nsubj (w / what
+		:advmod (t / then))
+	:obj (p / prince
+		:mod (l / little)))

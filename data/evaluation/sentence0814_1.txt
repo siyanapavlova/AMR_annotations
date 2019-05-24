@@ -1,0 +1,7 @@
+(s / say-02
+	:ARG0 (p / prince
+		:mod (l / little))
+	:ccomp (u / unlucky
+		:nsubj (y / you)
+		:cop (b / be)
+		:advmod (t / then)))

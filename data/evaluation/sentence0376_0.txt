@@ -1,0 +1,17 @@
+(s4 / satisfy
+	:manner (c2 / complete
+		:obj (p / preparation)
+		:obl (b3 / beauty
+			:poss (s / she)
+			:case (f / for))
+		:mark (t / to)
+		:obl (s2 / shelter
+			:poss (c / chamber
+				:mod (g / green)
+				:poss (s3 / she)
+				:case (o / of))
+			:case (i / in)))
+	:advmod (n / not)
+	:cc (b2 / but)
+	:nsubj (f2 / flower)
+	:cop (b / be))

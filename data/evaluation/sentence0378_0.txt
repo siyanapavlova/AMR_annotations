@@ -1,0 +1,7 @@
+(a / adjust
+	:obj (p / petal
+		:poss (s / she))
+	:obl (o2 / one
+		:case (b / by))
+	:obj (o / one)
+	:nsubj (s2 / she))

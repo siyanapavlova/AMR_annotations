@@ -1,0 +1,11 @@
+(s / say-01
+	:ARG1 (g / glad
+		:nsubj (i / i)
+		:cop (b / be))
+	:ARG1 (a / agree
+		:obl (f / fox
+			:poss (m / my)
+			:case (w / with))
+		:mark (t / that)
+		:nsubj (y / you))
+	:ARG0 (h / he))

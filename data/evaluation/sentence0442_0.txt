@@ -1,0 +1,14 @@
+(m / much
+	:obl (e / earth
+		:case (o3 / on)
+		:poss (w / we))
+	:nsubj (w3 / we)
+	:advmod (o2 / obviously)
+	:amod (s / small
+		:advmod (t / too)
+		:manner (c / clean
+			:mark (t2 / to)
+			:obj (v / volcanoe
+				:poss (w2 / we))
+			:compound (o / out)))
+	:cop (b / be))

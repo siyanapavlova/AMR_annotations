@@ -1,4 +1,4 @@
-(a / answer
+(a / answer-01
 	:cc (b / but)
-	:nsubj (t / they)
-	:obj (f / frighten))
+	:ARG2 (f / frighten)
+	:ARG0 (t / they))

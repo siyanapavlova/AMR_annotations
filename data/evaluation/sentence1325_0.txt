@@ -1,0 +1,17 @@
+(a2 / and
+	:op (l3 / laugh
+		:manner (s / say-02
+			:mark (a / as)
+			:ARG0 (b / baobabs
+				:parataxis (l5 / look
+					:nsubj (t2 / they)
+					:obj (l4 / little
+						:poss (c / cabbage
+							:case (l / like))))
+				:poss (y / you))
+			:ARG0 (h / he)))
+	:op (l6 / look
+		:advmod (o / over)
+		:nsubj (p / prince
+			:mod (l2 / little))
+		:obj (t / they)))

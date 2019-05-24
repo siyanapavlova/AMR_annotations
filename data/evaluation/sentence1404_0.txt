@@ -1,0 +1,6 @@
+(g / give-01
+	:iobj (i / i)
+	:ARG0 (h / he)
+	:ARG1 (s / smile
+		:mod (s2 / sad))
+	:cc (a / and))

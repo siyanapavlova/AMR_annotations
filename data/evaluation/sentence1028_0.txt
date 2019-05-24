@@ -1,0 +1,9 @@
+(s / stand
+	:time (g / garden
+		:case (b3 / before))
+	:nsubj (h / he)
+	:aux (b / be)
+	:obj (b2 / bloom
+		:det (a / all)
+		:poss (r / ros
+			:case (w / with))))

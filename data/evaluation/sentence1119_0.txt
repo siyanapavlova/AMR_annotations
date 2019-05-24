@@ -1,0 +1,8 @@
+(h / have
+	:obj (t / time
+		:acl (u / understand
+			:obj (a / anything)
+			:mark (t2 / to))
+		:det (n / no)
+		:mod (m / more))
+	:nsubj (m2 / man))

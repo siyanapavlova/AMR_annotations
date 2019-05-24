@@ -1,0 +1,6 @@
+(a / and
+	:op (m / make
+		:nsubj (s / seven)
+		:obj (t2 / two
+			:compound (t / twenty)))
+	:op (f / fifteen))

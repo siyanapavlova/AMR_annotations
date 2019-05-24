@@ -1,6 +1,6 @@
 (p / prince
-	:cc (b / but)
 	:mod (l / little)
 	:acl (m / make
 		:obj (r / reply
-			:det (n / no))))
+			:det (n / no)))
+	:cc (b / but))

@@ -1,0 +1,11 @@
+(s / say-02
+	:ccomp (h / have
+		:nsubj (i / i)
+		:aux (h2 / have)
+		:aux (b / be)
+		:obj (t / trouble
+			:det (s2 / some)
+			:poss (f / flower
+				:case (w / with))))
+	:ARG0 (p / prince
+		:mod (l / little)))

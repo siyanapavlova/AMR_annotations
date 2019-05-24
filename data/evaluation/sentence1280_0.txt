@@ -1,0 +1,12 @@
+(w / well
+	:nsubj (w2 / well
+		:acl (c / come
+			:obj (t2 / that)
+			:nsubj (w3 / we)
+			:obl (t / to)
+			:aux (h / have)))
+	:cop (b / be)
+	:poss (s / sahara
+		:case (o / of))
+	:case (l / like)
+	:advmod (n / not))

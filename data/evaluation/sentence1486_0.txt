@@ -1,0 +1,6 @@
+(t / take
+	:obj (i / i)
+	:nsubj (h2 / he)
+	:obl (h / hand
+		:case (b / by))
+	:cc (a / and))

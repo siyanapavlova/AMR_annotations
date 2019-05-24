@@ -1,14 +1,14 @@
-(a2 / astound
-	:cc (a / and)
-	:nsubj (i / i)
+(a / astound
+	:cc (a2 / and)
 	:cop (b / be)
+	:discourse (n2 / no)
+	:discourse (n / no)
+	:discourse (n3 / no)
+	:nsubj (i / i)
 	:xcomp (h / hear
-		:mark (t / to)
 		:obj (f / fellow
 			:amod (l / little)
 			:manner (g / greet
-				:obj (i2 / it)
-				:obl (w / with))))
-	:discourse (n / no)
-	:discourse (n2 / no)
-	:discourse (n3 / no))
+				:obl (w / with)
+				:obj (i2 / it)))
+		:mark (t / to)))

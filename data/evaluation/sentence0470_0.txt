@@ -1,0 +1,7 @@
+(s / seem
+	:ccomp (b2 / beautiful
+		:nsubj (t / they)
+		:mark (t2 / that)
+		:advmod (v / very)
+		:cop (b / be))
+	:nsubj (i / it))

@@ -1,0 +1,8 @@
+(s / say-01
+	:ARG1 (b3 / be
+		:nsubj (b2 / book
+			:mark (t / that)
+			:mod (b / big))
+		:nsubj (w / what))
+	:ARG0 (p / prince
+		:mod (l / little)))

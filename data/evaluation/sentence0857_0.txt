@@ -1,0 +1,6 @@
+(l / leave
+	:nsubj (h2 / he)
+	:advmod (n / not)
+	:obj (d2 / desk
+		:poss (h / he))
+	:aux (d / do))

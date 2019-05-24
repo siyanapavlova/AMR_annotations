@@ -1,0 +1,12 @@
+(m / moan
+	:nsubj (p / pulley)
+	:cc (a / and)
+	:obl (w2 / weathervane
+		:mod (o / old)
+		:case (l2 / like)
+		:acl (h / have
+			:obj (w3 / which)
+			:manner (f / forgotten
+				:mark (s / since))
+			:advmod (l / long)
+			:nsubj (w / wind))))

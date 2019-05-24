@@ -1,0 +1,16 @@
+(c2 / continue
+	:nsubj (h / he)
+	:cc (a2 / and)
+	:parataxis (b / be
+		:ccomp (k / know
+			:aux (d / do)
+			:ccomp (u / understand
+				:obj (a / anything)
+				:advmod (h2 / how)
+				:mark (t2 / to))
+			:mark (t / that)
+			:advmod (n / not)
+			:nsubj (i / i))
+		:nsubj (f / fact))
+	:obj (c / confidence
+		:poss (h3 / he)))

@@ -1,7 +1,7 @@
 (e / explain
+	:advmod (n / never)
 	:nsubj (f / friend
 		:poss (m / my))
-	:advmod (n / never)
-	:obj (a / anything)
 	:time (i / i
-		:case (t / to)))
+		:case (t / to))
+	:obj (a / anything))

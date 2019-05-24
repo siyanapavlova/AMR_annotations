@@ -1,19 +1,19 @@
 (s / sleep
-	:manner (a2 / able
-		:mark (a / after)
-		:mark (t / that)
-		:nsubj (t2 / they)
+	:cc (a / and)
+	:manner (a3 / able
 		:cop (b / be)
-		:advmod (n / not)
-		:xcomp (m / move
-			:mark (t3 / to)))
-	:cc (a3 / and)
-	:nsubj (t4 / they)
-	:obl (m2 / month
-		:case (t5 / through)
-		:nummod (s2 / six))
-	:ccomp (n2 / need
-		:mark (t6 / that)
-		:nsubj (t7 / they)
+		:xcomp (m2 / move-01
+			:mark (t4 / to))
+		:mark (a2 / after)
+		:advmod (n2 / not)
+		:mark (t7 / that)
+		:nsubj (t / they))
+	:nsubj (t5 / they)
+	:obl (m / month
+		:nummod (s2 / six)
+		:case (t3 / through))
+	:ccomp (n / need-01
 		:obl (d / digestion
-			:case (f / for))))
+			:case (f / for))
+		:mark (t6 / that)
+		:ARG0 (t2 / they)))

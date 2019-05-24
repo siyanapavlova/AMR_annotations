@@ -1,0 +1,10 @@
+(a / and
+	:op (l / look
+		:nsubj (o / one)
+		:advmod (s2 / simply)
+		:obl (t2 / they
+			:case (a2 / at))
+		:aux (s / should))
+	:op (b / breathe
+		:obj (f / fragrance
+			:poss (t / they))))

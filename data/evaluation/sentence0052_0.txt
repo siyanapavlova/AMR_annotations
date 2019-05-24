@@ -1,12 +1,12 @@
-(c2 / charme
-	:cc (b / but)
-	:nsubj (d / drawing
-		:poss (m / my))
-	:aux (b2 / be)
-	:advmod (m2 / much
-		:advmod (c / certainly)
-		:advmod (v / very))
-	:advmod (l / less)
+(c / charme
+	:cc (b2 / but)
 	:obl (m3 / model
 		:case (t / than)
-		:poss (i / its)))
+		:poss (i / its))
+	:nsubj (d / drawing
+		:poss (m / my))
+	:advmod (l / less)
+	:aux (b / be)
+	:advmod (m2 / much
+		:advmod (c2 / certainly)
+		:advmod (v / very)))

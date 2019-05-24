@@ -1,0 +1,11 @@
+(f2 / feel
+	:nsubj (i2 / i)
+	:xcomp (f / freeze
+		:obl (s2 / sense
+			:case (b / by)
+			:poss (s / something
+				:case (o2 / of)
+				:amod (i / irreparable))))
+	:mark (o / once)
+	:advmod (a / again)
+	:obj (m / myself))

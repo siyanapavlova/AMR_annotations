@@ -1,5 +1,5 @@
 (s / smell
-	:nsubj (h / he)
-	:aux (h2 / have)
+	:nsubj (h2 / he)
 	:advmod (n / never)
-	:obj (f / flower))
+	:obj (f / flower)
+	:aux (h / have))

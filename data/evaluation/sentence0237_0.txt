@@ -1,20 +1,20 @@
 (s / something
 	:nsubj (b / baobab)
-	:cop (b2 / be)
+	:cop (b3 / be)
 	:acl (a / able
-		:nsubj (y / you)
 		:aux (w / will)
+		:cop (b2 / be)
 		:advmod (n / never)
-		:advmod (n2 / never)
-		:cop (b3 / be)
+		:nsubj (y / you)
 		:xcomp (g / get
-			:mark (t / to)
-			:obj (r / rid)
 			:manner (a2 / attend
+				:time (i / it
+					:case (t3 / to))
 				:mark (o / of)
-				:mark (i / if)
-				:nsubj (y2 / you)
-				:time (i2 / it
-					:case (t2 / to))
 				:advmod (l / late
-					:advmod (t3 / too))))))
+					:advmod (t2 / too))
+				:mark (i2 / if)
+				:nsubj (y2 / you))
+			:obj (r / rid)
+			:mark (t / to))
+		:advmod (n2 / never)))

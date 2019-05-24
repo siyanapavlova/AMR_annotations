@@ -1,8 +1,8 @@
-(d / distinguish
-	:obl (g / glance
-		:case (a / at))
-	:nsubj (i / i)
+(d / distinguish-01
+	:ARG0 (i / i)
+	:ARG1 (c2 / china)
 	:aux (c / can)
-	:obj (c2 / china)
-	:obl (a2 / arizona
-		:case (f / from)))
+	:obl (a / arizona
+		:case (f / from))
+	:obl (g / glance
+		:case (a2 / at)))

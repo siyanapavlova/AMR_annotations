@@ -1,0 +1,14 @@
+(f / find
+	:obl (n / neighborhood
+		:poss (a / asteroid
+			:conj (35 / 329)
+			:nummod (34 / 325)
+			:conj (33 / 327)
+			:conj (3 / 326)
+			:case (o / of)
+			:conj (36 / 328)
+			:conj (32 / 330
+				:cc (a2 / and)))
+		:case (i / in))
+	:nsubj (h2 / he)
+	:obj (h / himself))

@@ -1,0 +1,8 @@
+(b / bear
+	:nsubj (i / i)
+	:obl (m / moment
+		:mod (s2 / same)
+		:case (a2 / at))
+	:cc (a / and)
+	:obl (s / sun
+		:case (a3 / as)))

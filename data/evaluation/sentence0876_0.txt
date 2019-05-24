@@ -1,0 +1,7 @@
+(c / come
+	:nsubj (y2 / you)
+	:advmod (a / away
+		:advmod (f / far
+			:case (f2 / from)))
+	:nsubj (y / you)
+	:cc (b / but))

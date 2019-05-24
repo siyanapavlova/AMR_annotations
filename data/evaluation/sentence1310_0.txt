@@ -1,0 +1,13 @@
+(f / find
+	:aux (c / could)
+	:cc (a / and)
+	:obl (r / rose
+		:mod (s / single)
+		:case (i / in)
+		:nummod (o2 / one))
+	:nsubj (w2 / what
+		:advmod (y / yet)
+		:acl (l2 / look
+			:aux (b / be)
+			:nsubj (t / they)
+			:obl (f2 / for))))

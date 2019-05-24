@@ -1,0 +1,13 @@
+(a / and
+	:op (m / moisten
+		:nsubj (i / i)
+		:aux (h / have)
+		:obj (t / temple
+			:poss (h3 / he)))
+	:op (g / give-01
+		:aux (h4 / have)
+		:iobj (h2 / he)
+		:ARG1 (w / water
+			:det (s / some)
+			:acl (d / drink
+				:mark (t2 / to)))))

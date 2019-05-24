@@ -1,5 +1,5 @@
 (b2 / box
-	:nsubj (t / this)
-	:cop (b / be)
 	:advmod (o / only)
-	:poss (h / he))
+	:poss (h / he)
+	:cop (b / be)
+	:nsubj (t / this))

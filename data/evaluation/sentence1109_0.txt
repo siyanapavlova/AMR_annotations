@@ -1,0 +1,9 @@
+(h / have
+	:cc (b2 / but)
+	:obj (h2 / hair
+		:acl (c / colour
+			:poss (g / gold
+				:case (o / of))
+			:cop (b / be)
+			:nsubj (t / that)))
+	:nsubj (y / you))

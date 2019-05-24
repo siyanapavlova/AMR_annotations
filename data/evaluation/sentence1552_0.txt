@@ -1,0 +1,7 @@
+(s / see
+	:aux (w / will)
+	:nsubj (y / you)
+	:ccomp (c / change
+		:nsubj (e / everything)
+		:advmod (h / how))
+	:cc (a / and))

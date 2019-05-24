@@ -1,0 +1,15 @@
+(h / have
+	:nsubj (i / i)
+	:obj (r / reason
+		:mod (g / good)
+		:acl (b2 / believe
+			:mark (t2 / to)
+			:ccomp (b / be
+				:mark (t3 / that)
+				:expl (t / there)
+				:advmod (s / somewhere
+					:obl (p / planet
+						:case (o2 / on)
+						:poss (m / my)))
+				:nsubj (r2 / rat
+					:mod (o / old))))))

@@ -1,0 +1,6 @@
+(t / think
+	:obj (p / prince
+		:mod (l / little))
+	:ccomp (e / entertaining
+		:cop (b / be)
+		:nsubj (i / it)))

@@ -1,0 +1,9 @@
+(b / be
+	:expl (t2 / there)
+	:nsubj (r / room
+		:det (n / no)
+		:poss (i / it
+			:case (o / on)))
+	:obl (p / people
+		:case (f / for)
+		:nummod (t / two)))

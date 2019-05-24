@@ -1,0 +1,7 @@
+(v / village
+	:cop (b / be)
+	:case (l / like)
+	:advmod (w / well)
+	:nsubj (o / one
+		:det (t / this))
+	:case (i / in))

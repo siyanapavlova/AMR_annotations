@@ -1,0 +1,17 @@
+(a / and
+	:op (h / have
+		:advmod (l / longer
+			:advmod (n / no))
+		:obj (s2 / second
+			:poss (r / repose
+				:case (f / for))
+			:mod (s / single))
+		:nsubj (i / i))
+	:op (m2 / make
+		:nsubj (p / planet)
+		:advmod (t2 / then)
+		:obl (m / minute
+			:det (e / every))
+		:advmod (n2 / now)
+		:obj (t / turn
+			:mod (c / complete))))

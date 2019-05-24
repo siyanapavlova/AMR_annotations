@@ -1,0 +1,9 @@
+(b / be
+	:nsubj (s2 / sound
+		:advmod (n / not)
+		:advmod (e / even)
+		:det (a / any))
+	:expl (t / there)
+	:obl (s / sand
+		:case (b2 / because
+			:fixed (o / of))))

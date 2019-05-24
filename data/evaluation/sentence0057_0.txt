@@ -1,25 +1,25 @@
 (n2 / nor
-	:op (s / seem
-		:advmod (y / yet
-			:cc (a / and))
-		:nsubj (m2 / man
-			:poss (m / my)
-			:mod (l / little))
-		:xcomp (s2 / stray
-			:advmod (n / neither)
-			:mark (t / to)
-			:aux (b / be)
-			:advmod (u / uncertainly)
-			:obl (s3 / sand
-				:case (a2 / among))))
-	:op (f / faint
-		:mark (t2 / to)
-		:aux (b2 / be)
+	:op (f2 / faint-01
 		:obl (f3 / fatigue
-			:case (f2 / from)
 			:conj (h / hunger
 				:cc (o / or))
 			:conj (t3 / thirst
 				:cc (o2 / or))
-			:conj (f4 / fear
-				:cc (o3 / or)))))
+			:case (f4 / from)
+			:conj (f / fear
+				:cc (o3 / or)))
+		:aux (b / be)
+		:mark (t / to))
+	:op (s3 / seem
+		:xcomp (s2 / stray
+			:mark (t2 / to)
+			:advmod (n / neither)
+			:aux (b2 / be)
+			:advmod (u / uncertainly)
+			:obl (s / sand
+				:case (a / among)))
+		:nsubj (m / man
+			:poss (m2 / my)
+			:mod (l / little))
+		:advmod (y / yet
+			:cc (a2 / and))))

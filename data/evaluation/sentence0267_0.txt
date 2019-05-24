@@ -1,21 +1,21 @@
 (l / learn
-	:nsubj (i / i)
-	:obj (d / detail
-		:det (t / that)
-		:mod (n / new))
-	:obl (m / morning
-		:case (o / on)
-		:poss (d2 / day
-			:case (o2 / of)
-			:mod (f / fourth)))
 	:parataxis (f2 / fond
-		:manner (s / say-02
-			:mark (w / when)
-			:ARG0 (y / you)
-			:time (i2 / i
-				:case (t2 / to)))
-		:nsubj (i3 / i)
-		:cop (b / be)
+		:obl (s / sunset
+			:case (o2 / of))
 		:advmod (v / very)
-		:obl (s2 / sunset
-			:case (o3 / of))))
+		:cop (b / be)
+		:manner (s2 / say-02
+			:time (i2 / i
+				:case (t / to))
+			:mark (w / when)
+			:ARG0 (y / you))
+		:nsubj (i / i))
+	:nsubj (i3 / i)
+	:obl (m / morning
+		:case (o3 / on)
+		:poss (d / day
+			:case (o / of)
+			:mod (f / fourth)))
+	:obj (d2 / detail
+		:det (t2 / that)
+		:mod (n / new)))

@@ -1,0 +1,7 @@
+(c / cold
+	:advmod (v / very)
+	:cop (b / be)
+	:parataxis (l / live
+		:nsubj (y / you)
+		:advmod (w / where))
+	:nsubj (i / it))

@@ -1,0 +1,9 @@
+(k2 / know
+	:advmod (n / not)
+	:nsubj (h2 / he)
+	:ccomp (s / simplify
+		:nsubj (w / world)
+		:obl (k / king
+			:case (f / for))
+		:advmod (h / how))
+	:aux (d / do))

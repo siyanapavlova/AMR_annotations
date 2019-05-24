@@ -1,0 +1,9 @@
+(p / possible
+	:cop (b / be)
+	:expl (i / it)
+	:csubj (o2 / own
+		:mark (t / to)
+		:mark (f / for)
+		:nsubj (o / one)
+		:obj (s / star))
+	:advmod (h / how))

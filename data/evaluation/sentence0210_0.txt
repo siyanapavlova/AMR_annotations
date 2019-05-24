@@ -1,14 +1,14 @@
-(c / come
+(c2 / come
 	:nsubj (i / information)
 	:aux (w / would)
 	:advmod (s / slowly
 		:advmod (v / very))
-	:manner (c2 / chance
+	:manner (c / chance
 		:mark (a / as)
-		:nsubj (i2 / it)
-		:aux (m / might)
-		:acl (f / fall
-			:mark (t / to)
+		:acl (f2 / fall
 			:obl (t2 / thought
-				:case (f2 / from)
-				:poss (h / he)))))
+				:poss (h / he)
+				:case (f / from))
+			:mark (t / to))
+		:aux (m / might)
+		:nsubj (i2 / it)))

@@ -1,0 +1,4 @@
+(s / say-02
+	:ARG0 (s2 / snake)
+	:ccomp (e / evening
+		:mod (g / good)))

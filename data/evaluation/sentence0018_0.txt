@@ -1,18 +1,18 @@
 (c / career
-	:acl (g / give-01
-		:advmod (w / why
-			:nsubj (t / that)
-			:cop (b / be))
-		:obl (a2 / age
-			:case (a / at)
-			:poss (s / six
-				:case (o / of)))
-		:ARG0 (i / i)
-		:compound (u / up)
-		:ARG1 (w2 / what))
-	:aux (m / might)
 	:aux (h / have)
-	:cop (b2 / be)
-	:mod (m2 / magnificent)
 	:poss (p / painter
-		:case (a3 / as)))
+		:case (a3 / as))
+	:mod (m / magnificent)
+	:acl (g / give
+		:obl (a2 / age
+			:poss (s / six
+				:case (o / of))
+			:case (a / at))
+		:nsubj (i / i)
+		:compound (u / up)
+		:advmod (w2 / why
+			:nsubj (t / that)
+			:cop (b2 / be))
+		:obj (w / what))
+	:cop (b / be)
+	:aux (m2 / might))

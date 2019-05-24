@@ -1,0 +1,2 @@
+(c / cough
+	:nsubj (f / flower))

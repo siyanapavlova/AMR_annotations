@@ -1,18 +1,18 @@
-(a2 / answer
-	:cc (a / and)
+(a4 / answer
+	:cc (a3 / and)
+	:ccomp (u / use
+		:det (n / no)
+		:case (o / of)
+		:poss (a2 / all
+			:case (a / at))
+		:nsubj (t / thorn)
+		:cop (b / be))
 	:nsubj (i / i)
-	:obl (t / thing
-		:case (w / with)
+	:obl (t3 / thing
 		:mod (f / first)
 		:acl (c / come
-			:nsubj (t2 / that)
 			:obl (h / head
 				:case (i2 / into)
-				:poss (m / my))))
-	:ccomp (u / use
-		:nsubj (t3 / thorn)
-		:cop (b / be)
-		:case (o / of)
-		:det (n / no)
-		:poss (a4 / all
-			:case (a3 / at))))
+				:poss (m / my))
+			:nsubj (t2 / that))
+		:case (w / with)))

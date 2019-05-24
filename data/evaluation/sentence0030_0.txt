@@ -1,14 +1,14 @@
-(t / try
-	:nsubj (i / i)
-	:aux (w / would)
-	:xcomp (f / find
-		:mark (t2 / to)
-		:compound (o / out))
+(t4 / try
+	:nsubj (i2 / i)
 	:advmod (s / so)
 	:manner (p / person
-		:mark (i2 / if)
-		:nsubj (t3 / this)
+		:nsubj (t / this)
 		:cop (b / be)
+		:mark (i / if)
 		:poss (u / understanding
-			:case (o2 / of)
-			:mod (t4 / true))))
+			:mod (t2 / true)
+			:case (o2 / of)))
+	:xcomp (f / find-02
+		:mark (t3 / to)
+		:compound (o / out))
+	:aux (w / would))

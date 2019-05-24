@@ -1,0 +1,9 @@
+(i2 / inhabit
+	:obl (g / gentleman
+		:mod (o / old)
+		:case (b2 / by)
+		:acl (w / write
+			:nsubj (w2 / who)
+			:obj (b / book
+				:mod (v / voluminous))))
+	:nsubj (i / it))

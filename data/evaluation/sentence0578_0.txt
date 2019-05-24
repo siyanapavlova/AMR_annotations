@@ -1,0 +1,12 @@
+(d / difficult
+	:csubj (j2 / judge
+		:obj (o2 / oneself)
+		:mark (t2 / to)
+		:manner (j / judge
+			:mark (t3 / to)
+			:mark (t / than)
+			:obj (o / other)))
+	:expl (i / it)
+	:advmod (m / more
+		:advmod (m2 / much))
+	:cop (b / be))

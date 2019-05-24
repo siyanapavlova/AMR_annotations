@@ -1,0 +1,10 @@
+(b2 / back
+	:case (o / on)
+	:nsubj (y3 / you)
+	:time (p / place
+		:case (t / to)
+		:acl (l / land
+			:advmod (w / where)
+			:nsubj (y / you)))
+	:cop (b / be)
+	:poss (y2 / you))

@@ -1,0 +1,7 @@
+(m2 / mountain
+	:nsubj (t2 / thing
+		:acl (m / matter
+			:time (w / we
+				:case (t / to))
+			:nsubj (t3 / that)))
+	:cop (b / be))

@@ -1,12 +1,12 @@
 (s / say-01
+	:time (i2 / i
+		:case (t / to))
 	:ARG1 (q / question
 		:nsubj (i / it)
 		:cop (b / be)
 		:poss (d / discipline
-			:case (o / of)))
+			:case (o2 / of)))
 	:ARG0 (p / prince
 		:mod (l / little))
-	:time (i2 / i
-		:case (t / to))
-	:advmod (o2 / on
+	:advmod (o / on
 		:advmod (l2 / later)))

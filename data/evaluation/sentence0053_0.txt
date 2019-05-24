@@ -1,6 +1,6 @@
 (f / fault
-	:nsubj (t / that)
-	:advmod (h / however)
-	:cop (b / be)
 	:advmod (n / not)
-	:poss (m / my))
+	:poss (m / my)
+	:cop (b / be)
+	:nsubj (t / that)
+	:advmod (h / however))

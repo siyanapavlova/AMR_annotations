@@ -1,0 +1,8 @@
+(a / and
+	:op (p / please
+		:nsubj (t3 / that)
+		:obj (t2 / they)
+		:aux (w / will))
+	:op (f / figure
+		:case (a2 / adore)
+		:nsubj (t / they)))

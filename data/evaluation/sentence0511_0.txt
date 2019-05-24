@@ -1,0 +1,5 @@
+(r / respect
+	:mark (t / that)
+	:nsubj (a / authority
+		:poss (h / he))
+	:aux (s / should))

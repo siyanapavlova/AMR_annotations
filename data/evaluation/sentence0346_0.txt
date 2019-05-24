@@ -1,13 +1,13 @@
 (c / consequence
-	:cop (b / be)
 	:nsubj (t / this)
 	:advmod (n / not)
 	:case (o / of)
-	:mod (m / more)
 	:poss (s / sum
 		:case (t2 / than)
-		:mod (f / fat)
-		:mod (f2 / face
-			:amod (r / red))
 		:poss (g / gentleman
-			:case (' / 's))))
+			:case (' / 's))
+		:mod (f2 / fat)
+		:mod (f / face
+			:amod (r / red)))
+	:cop (b / be)
+	:mod (m / more))

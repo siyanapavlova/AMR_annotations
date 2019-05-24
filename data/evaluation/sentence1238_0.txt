@@ -1,0 +1,17 @@
+(a3 / and
+	:op (m / make
+		:aux (h / have)
+		:advmod (t2 / thirst)
+		:obj (f / feverish
+			:mod (l2 / little))
+		:iobj (i3 / i))
+	:op (l / look
+		:manner (d / dream
+			:case (i2 / in)
+			:mark (a2 / as)
+			:mark (i5 / if)
+			:nsubj (i4 / i)
+			:cop (b / be))
+		:nsubj (i / i)
+		:obl (t / they
+			:case (a / at))))

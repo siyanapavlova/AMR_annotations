@@ -1,0 +1,21 @@
+(a / and
+	:op (u / use
+		:nsubj (i3 / it)
+		:cop (b2 / be)
+		:poss (v / volcanoe
+			:case (t4 / to)
+			:poss (m2 / my))
+		:case (o2 / of)
+		:det (s2 / some)
+		:parataxis (o / own
+			:mark (t3 / that)
+			:obj (t / they)
+			:nsubj (i2 / i)))
+	:op (u2 / use
+		:poss (f / flower
+			:case (t2 / to)
+			:poss (m / my))
+		:det (s / some)
+		:cop (b / be)
+		:case (o3 / of)
+		:nsubj (i / it)))

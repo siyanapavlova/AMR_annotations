@@ -1,0 +1,5 @@
+(w / wonder
+	:nsubj (p / prince
+		:mod (l / little))
+	:cc (b2 / but)
+	:aux (b / be))

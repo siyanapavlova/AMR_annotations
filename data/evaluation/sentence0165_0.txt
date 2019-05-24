@@ -1,4 +1,4 @@
 (c / collect
+	:obj (b / butterfly)
 	:aux (d / do)
-	:nsubj (h / he)
-	:obj (b / butterfly))
+	:nsubj (h / he))

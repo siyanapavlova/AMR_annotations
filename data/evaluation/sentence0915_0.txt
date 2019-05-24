@@ -1,0 +1,4 @@
+(h / have
+	:obj (r / reputation
+		:mod (g / good))
+	:nsubj (i / it))

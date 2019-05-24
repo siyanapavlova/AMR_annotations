@@ -1,21 +1,21 @@
-(s / surprised
-	:nsubj (i / i)
-	:cop (b / be)
-	:advmod (v / very)
-	:manner (s2 / see
-		:mark (t / to)
+(s2 / surprised
+	:parataxis (w2 / way
+		:acl (w / want
+			:obj (i / it)
+			:nsubj (i2 / i))
+		:advmod (e / exactly)
+		:nsubj (t2 / that)
+		:cop (b3 / be))
+	:nsubj (i3 / i)
+	:manner (s / see
 		:obj (b2 / break
 			:compound (l / light))
 		:obl (f / face
-			:case (o / over)
 			:poss (j / judge
-				:case (o2 / of)
+				:case (o / of)
 				:poss (m / my)
-				:mod (y / young))))
-	:parataxis (w / way
-		:nsubj (t2 / that)
-		:cop (b3 / be)
-		:advmod (e / exactly)
-		:acl (w2 / want
-			:nsubj (i2 / i)
-			:obj (i3 / it))))
+				:mod (y / young))
+			:case (o2 / over))
+		:mark (t / to))
+	:advmod (v / very)
+	:cop (b / be))

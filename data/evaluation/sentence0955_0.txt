@@ -1,0 +1,6 @@
+(b / be
+	:nsubj (p / people
+		:det (n / no)
+		:poss (d / desert
+			:case (i / in)))
+	:expl (t / there))

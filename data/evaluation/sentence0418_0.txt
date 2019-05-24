@@ -1,0 +1,15 @@
+(a / and
+	:op (t / take
+		:aux (h / have)
+		:advmod (s / seriously)
+		:nsubj (h3 / he)
+		:obj (w / word
+			:acl (i2 / importance
+				:case (w2 / without)
+				:nsubj (w3 / which)
+				:cop (b / be))))
+	:op (m / make
+		:xcomp (u / unhappy
+			:advmod (v / very))
+		:obj (h2 / he)
+		:nsubj (i / it)))

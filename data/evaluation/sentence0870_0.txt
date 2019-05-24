@@ -1,0 +1,5 @@
+(g / go
+	:nsubj (o / one)
+	:manner (s / see
+		:mark (t / to)
+		:obj (i / it)))

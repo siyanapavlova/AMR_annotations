@@ -1,0 +1,10 @@
+(b / be
+	:expl (i / it)
+	:xcomp (r / raise
+		:manner (a / acclaim
+			:mark (w / when)
+			:nsubj (p / people)
+			:obj (i2 / i))
+		:obl (s / salute
+			:case (i3 / in))
+		:mark (t / to)))

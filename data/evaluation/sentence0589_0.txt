@@ -1,0 +1,13 @@
+(p / pardon
+	:nsubj (y / you)
+	:obl (o / occasion
+		:case (o2 / on)
+		:det (e / each))
+	:aux (w / will)
+	:cc (b / but)
+	:manner (t / treat
+		:advmod (t2 / thriftily)
+		:mark (f / for)
+		:nsubj (h2 / he)
+		:aux (m / must))
+	:obj (h / he))

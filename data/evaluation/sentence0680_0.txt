@@ -1,0 +1,11 @@
+(s / say-02
+	:aux (b / be)
+	:ARG0 (i / i)
+	:ARG1 (m / million
+		:nummod (o / one
+			:cc (a / and))
+		:acl (h / hundred
+			:nummod (f / five)
+			:advmod (t / then))
+		:poss (- / -
+			:case (-2 / -))))

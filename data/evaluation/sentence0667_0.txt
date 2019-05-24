@@ -1,0 +1,6 @@
+(h / have
+	:obj (m / much
+		:advmod (s / so)
+		:manner (d / do
+			:mark (t / to)))
+	:nsubj (i / i))

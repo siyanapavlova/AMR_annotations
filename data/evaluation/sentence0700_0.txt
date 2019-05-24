@@ -1,0 +1,6 @@
+(d / do
+	:nsubj (i / i)
+	:aux (d2 / do)
+	:obj (w2 / what)
+	:obl (t / they
+		:case (w / with)))

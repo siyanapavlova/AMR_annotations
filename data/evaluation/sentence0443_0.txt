@@ -1,0 +1,11 @@
+(w2 / why
+	:nsubj (t / that)
+	:cop (b / be)
+	:acl (b2 / bring
+		:obj (e / end
+			:det (n / no)
+			:poss (t2 / trouble
+				:case (o / of)))
+		:nsubj (t3 / they)
+		:obl (w / we
+			:case (u / upon))))

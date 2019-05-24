@@ -1,0 +1,15 @@
+(b2 / but
+	:op (t2 / thing
+		:mod (s / same)
+		:nsubj (t / they)
+		:cop (b / be)
+		:poss (p / people
+			:case (f / for)
+			:mod (d / different))
+		:advmod (n / not))
+	:op (a2 / answer
+		:nsubj (h / he)
+		:ccomp (h2 / have
+			:obj (s2 / star)
+			:nsubj (m / man
+				:mod (a / all)))))

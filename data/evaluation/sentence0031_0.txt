@@ -1,2 +1,2 @@
 (o / or
-	:op (s / she))
+	:op (s2 / she))

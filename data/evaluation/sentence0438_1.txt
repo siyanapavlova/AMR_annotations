@@ -1,0 +1,7 @@
+(k / know
+	:nsubj (o / one)
+	:cc (b / but)
+	:advmod (n / never)
+	:manner (s / say-01
+		:mark (a / as)
+		:ARG0 (h / he)))

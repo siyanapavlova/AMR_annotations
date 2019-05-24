@@ -1,0 +1,13 @@
+(a / ask
+	:nsubj (t / this
+		:nsubj (p2 / planet
+			:det (w / what))
+		:cop (b / be)
+		:acl (c / come
+			:nsubj (i / i)
+			:obl (w2 / which
+				:case (o / on))
+			:aux (h / have)
+			:advmod (d / down)))
+	:obj (p / prince
+		:mod (l / little)))

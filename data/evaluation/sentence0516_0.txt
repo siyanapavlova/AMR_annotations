@@ -1,0 +1,5 @@
+(f / fault
+	:poss (m / my)
+	:nsubj (i / it)
+	:cop (b / be)
+	:aux (w / would))

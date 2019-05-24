@@ -1,0 +1,5 @@
+(a / and
+	:op (t / three)
+	:op (m / make
+		:nsubj (t2 / two)
+		:obj (f / five)))

@@ -1,0 +1,6 @@
+(a / and
+	:op (s2 / sputter
+		:obj (l / little)
+		:nsubj (h / he))
+	:op (s / seem
+		:advmod (v / vex)))

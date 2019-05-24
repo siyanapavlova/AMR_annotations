@@ -1,0 +1,10 @@
+(s / sit
+	:aux (w / will)
+	:obj (c / closer
+		:mod (l / little))
+	:cc (b / but)
+	:time (i / i
+		:case (t / to))
+	:nsubj (y / you)
+	:obl (d / day
+		:det (e / every)))

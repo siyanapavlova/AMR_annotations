@@ -1,0 +1,10 @@
+(k / know
+	:nsubj (s / she)
+	:advmod (n / not)
+	:obj (a / anything
+		:poss (w / world
+			:case (o / of)
+			:det (a2 / any)
+			:mod (o2 / other)))
+	:aux (h / have)
+	:aux (c / could))

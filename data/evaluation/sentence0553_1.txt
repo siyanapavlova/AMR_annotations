@@ -1,0 +1,12 @@
+(a3 / and
+	:op (r / reply
+		:obj (k / king)
+		:discourse (h2 / hum))
+	:op (s / say-01
+		:mark (b / before)
+		:obj (a2 / anything
+			:acl (c / consult
+				:nsubj (h / he)
+				:obj (a / almanac
+					:mod (b2 / bulky)))
+			:amod (e / else))))

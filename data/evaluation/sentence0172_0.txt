@@ -1,14 +1,14 @@
-(h / have
-	:nsubj (y / you)
+(h2 / have
 	:aux (w / would)
+	:nsubj (y / you)
 	:xcomp (s / say-02
-		:mark (t / to)
-		:time (t3 / they
-			:case (t2 / to)))
+		:mark (t4 / to)
+		:time (t2 / they
+			:case (t3 / to)))
 	:ccomp (s2 / see
-		:nsubj (i / i)
-		:obj (h2 / house
+		:obj (h / house
 			:acl (c / cost
-				:nsubj (t4 / that)
 				:obj ($ / $
-					:nummod (2 / 20,000))))))
+					:nummod (2 / 20,000))
+				:nsubj (t / that)))
+		:nsubj (i / i)))

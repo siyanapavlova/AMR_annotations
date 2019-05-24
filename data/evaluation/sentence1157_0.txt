@@ -1,0 +1,9 @@
+(g / go
+	:manner (l2 / look
+		:mark (t / to)
+		:advmod (a / again)
+		:obl (r / ros
+			:case (a3 / at)))
+	:nsubj (p / prince
+		:mod (l / little))
+	:advmod (a2 / away))

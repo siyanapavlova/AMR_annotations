@@ -1,0 +1,15 @@
+(a / and
+	:op (a2 / add
+		:ccomp (l2 / look
+			:advmod (p / pretty
+				:advmod (v / very)
+				:nsubj (y / you)
+				:cop (b / be))
+			:mark (t / to)
+			:obl (a3 / at)))
+	:op (a4 / ask
+		:obj (p2 / prince
+			:mod (l / little))
+		:nsubj (y2 / you
+			:nsubj (w / who)
+			:cop (b2 / be))))

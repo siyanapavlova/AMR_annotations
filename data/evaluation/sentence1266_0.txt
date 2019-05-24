@@ -1,0 +1,19 @@
+(a / and
+	:op (t / take
+		:nsubj (i / i)
+		:manner (d / drop
+			:compound (o3 / off)
+			:mark (a2 / as)
+			:time (s2 / sleep
+				:case (t2 / to))
+			:nsubj (p / prince
+				:mod (l / little)))
+		:obj (h / he)
+		:obl (a3 / arm
+			:poss (m / my)
+			:case (i2 / in)))
+	:op (s / set
+		:xcomp (w / walk
+			:obj (m2 / more
+				:advmod (o2 / once)))
+		:compound (o / out)))

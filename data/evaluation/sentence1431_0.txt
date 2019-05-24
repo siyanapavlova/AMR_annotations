@@ -1,0 +1,9 @@
+(l / look
+	:compound (u / up)
+	:aux (w / will)
+	:obl (n / night
+		:case (a3 / at))
+	:cc (a / and)
+	:obl (s / star
+		:case (a2 / at))
+	:nsubj (y / you))

@@ -1,0 +1,4 @@
+(h / happy
+	:advmod (t / then)
+	:cop (b / be)
+	:nsubj (i / i))

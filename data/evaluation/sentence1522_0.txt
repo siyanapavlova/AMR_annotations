@@ -1,0 +1,5 @@
+(r / remain
+	:nsubj (h / he)
+	:advmod (m / motionless)
+	:obl (i / instant
+		:case (f / for)))

@@ -1,0 +1,10 @@
+(b / but
+	:op (s / say-01
+		:ARG0 (i / i)
+		:obj (n / nothing))
+	:op (u / understand
+		:advmod (n2 / not)
+		:obj (a / answer
+			:det (t / this))
+		:nsubj (i2 / i)
+		:aux (d / do)))

@@ -1,16 +1,16 @@
-(b2 / but
-	:op (b / break
+(b / but
+	:op (b2 / break
 		:nsubj (f / friend
 			:poss (m / my))
 		:obl (p / peal
-			:case (i / into)
 			:det (a / another)
+			:case (i / into)
 			:poss (l / laughter
 				:case (o / of))))
 	:op (t / think
-		:advmod (w / where)
-		:aux (d / do)
 		:nsubj (y / you)
+		:advmod (w / where)
 		:ccomp (g / go
 			:nsubj (h / he)
-			:aux (w2 / would))))
+			:aux (w2 / would))
+		:aux (d / do)))

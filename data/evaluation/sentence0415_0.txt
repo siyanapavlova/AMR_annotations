@@ -1,0 +1,13 @@
+(g / go
+	:nsubj (i2 / i)
+	:aux (b / be)
+	:advmod (j / just)
+	:xcomp (l / look
+		:mark (t2 / to)
+		:obl (i3 / it
+			:case (f / for))
+		:manner (s / speak
+			:mark (w / when)
+			:nsubj (y / you)
+			:time (i / i
+				:case (t / to)))))

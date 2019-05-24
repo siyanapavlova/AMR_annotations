@@ -1,0 +1,3 @@
+(a2 / and
+	:op (r2 / round)
+	:op (r / round))

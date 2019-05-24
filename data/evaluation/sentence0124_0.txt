@@ -1,5 +1,5 @@
 (r / reply
 	:cc (b / but)
-	:nsubj (h / he)
 	:aux (d / do)
-	:advmod (n / not))
+	:advmod (n / not)
+	:nsubj (h / he))

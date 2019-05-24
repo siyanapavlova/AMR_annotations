@@ -1,10 +1,10 @@
 (s2 / say-02
-	:ccomp (s / see
-		:nsubj (y / you)
-		:obj (y2 / yourself))
-	:ARG0 (h / he)
-	:ccomp (s3 / sheep
-		:mark (t / that)
-		:nsubj (t2 / this)
+	:ccomp (s / sheep
+		:advmod (n / not)
 		:cop (b / be)
-		:advmod (n / not)))
+		:nsubj (t / this)
+		:mark (t2 / that))
+	:ccomp (s3 / see
+		:obj (y2 / yourself)
+		:nsubj (y / you))
+	:ARG0 (h / he))

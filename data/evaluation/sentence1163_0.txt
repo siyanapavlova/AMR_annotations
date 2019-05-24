@@ -1,0 +1,15 @@
+(a / and
+	:op (m2 / make
+		:nsubj (i2 / i)
+		:xcomp (f / friend
+			:poss (m / my))
+		:cc (b2 / but)
+		:aux (h3 / have)
+		:obj (h / he))
+	:op (u / unique
+		:advmod (n / now)
+		:nsubj (h2 / he)
+		:cop (b / be)
+		:obl (w / world
+			:det (a2 / all)
+			:case (i / in))))

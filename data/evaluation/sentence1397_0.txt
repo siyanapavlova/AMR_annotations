@@ -1,0 +1,11 @@
+(f / farther
+	:cop (b2 / be)
+	:advmod (s / sadly)
+	:nsubj (i2 / it)
+	:advmod (t / then)
+	:advmod (m2 / much)
+	:ccomp (d / difficult
+		:cop (b / be)
+		:advmod (m / more
+			:advmod (m3 / much))
+		:nsubj (i / it)))

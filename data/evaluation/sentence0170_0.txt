@@ -1,13 +1,13 @@
-(t3 / think
+(t2 / think
+	:ccomp (l / learn
+		:nsubj (t / they)
+		:aux (h / have)
+		:obj (a2 / anything
+			:poss (h2 / he
+				:case (a / about))))
+	:nsubj (t3 / they)
 	:advmod (o / only
 		:obl (f2 / figure
-			:case (f / from)
-			:det (t / these)))
-	:aux (d / do)
-	:nsubj (t2 / they)
-	:ccomp (l / learn
-		:nsubj (t4 / they)
-		:aux (h / have)
-		:obj (a / anything
-			:poss (h2 / he
-				:case (a2 / about)))))
+			:det (t4 / these)
+			:case (f / from)))
+	:aux (d / do))

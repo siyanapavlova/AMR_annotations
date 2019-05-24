@@ -1,6 +1,6 @@
-(t2 / thorn
-	:advmod (t / then)
+(t3 / thorn
 	:acl (u / use
 		:nsubj (w / what))
-	:nsubj (t3 / they
-		:cop (b / be)))
+	:nsubj (t2 / they
+		:cop (b / be))
+	:advmod (t / then))

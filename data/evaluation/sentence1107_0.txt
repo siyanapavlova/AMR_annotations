@@ -1,0 +1,8 @@
+(h / have
+	:nsubj (f / field
+		:mod (w / wheat))
+	:obj (n / nothing
+		:acl (s / say-02
+			:mark (t / to)
+			:time (i / i
+				:case (t2 / to)))))

@@ -1,0 +1,5 @@
+(m / make-05
+	:advmod (s / so)
+	:advmod (t / then)
+	:ARG2 (d / drawing)
+	:ARG0 (i / i))

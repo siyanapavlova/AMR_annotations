@@ -1,0 +1,15 @@
+(o / order
+	:advmod (t2 / then)
+	:obl (d / discovery
+		:case (i2 / into)
+		:poss (h / he))
+	:manner (s / show
+		:nsubj (c / character
+			:poss (e / explorer
+				:case (o2 / of))
+			:mod (m / moral))
+		:xcomp (g / good
+			:mark (t / to)
+			:cop (b / be))
+		:mark (w / when))
+	:nsubj (i / inquiry))

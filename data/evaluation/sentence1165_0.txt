@@ -1,0 +1,10 @@
+(b4 / beautiful
+	:cop (b2 / be)
+	:conj (g / go
+		:advmod (o / on)
+		:nsubj (h / he))
+	:conj (e / empty
+		:cop (b3 / be)
+		:cc (b / but)
+		:nsubj (y2 / you))
+	:nsubj (y / you))

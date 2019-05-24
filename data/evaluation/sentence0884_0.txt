@@ -1,0 +1,5 @@
+(s / small
+	:advmod (s2 / so)
+	:advmod (a / all
+		:nsubj (i / it)
+		:cop (b / be)))

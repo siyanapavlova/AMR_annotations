@@ -1,8 +1,8 @@
 (c / come
-	:parataxis (l / let
+	:parataxis (l2 / let
 		:obj (w / we)
 		:xcomp (g / go
-			:manner (l2 / look
+			:manner (l / look
+				:advmod (n / now)
 				:obl (s / sunset
-					:case (a / at))
-				:advmod (n / now)))))
+					:case (a / at))))))

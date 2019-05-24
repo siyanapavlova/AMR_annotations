@@ -1,0 +1,8 @@
+(a2 / and
+	:op (l / lay
+		:compound (d / down)
+		:nsubj (h / he)
+		:obl (g / grass
+			:case (i / in))
+		:cc (a / and))
+	:op (c / cry))

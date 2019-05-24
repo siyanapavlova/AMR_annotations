@@ -1,10 +1,10 @@
-(s2 / sheep
-	:nsubj (i / it)
+(s / sheep
 	:cop (b / be)
-	:mod (s / small
-		:advmod (v / very))
-	:acl (g / give-01
-		:ARG1 (t / that)
-		:ARG0 (i2 / i)
+	:acl (g / give
+		:obj (y / you)
+		:obj (t / that)
 		:aux (h / have)
-		:ARG1 (y / you)))
+		:nsubj (i2 / i))
+	:nsubj (i / it)
+	:mod (s2 / small
+		:advmod (v / very)))

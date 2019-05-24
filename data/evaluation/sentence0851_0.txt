@@ -1,0 +1,4 @@
+(g / geographer
+	:cop (b2 / be)
+	:nsubj (y / you)
+	:cc (b / but))

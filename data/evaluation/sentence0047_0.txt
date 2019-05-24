@@ -1,7 +1,7 @@
 (j / jump
-	:nsubj (i / i)
 	:time (f / foot
-		:case (t / to)
-		:poss (m / my))
-	:advmod (t2 / thunderstruck
+		:poss (m / my)
+		:case (t2 / to))
+	:nsubj (i / i)
+	:advmod (t / thunderstruck
 		:advmod (c / completely)))

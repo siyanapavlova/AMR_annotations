@@ -1,14 +1,14 @@
 (u / useful
-	:nsubj (t / that)
-	:aux (w / would)
-	:cop (b / be)
+	:cop (b2 / be)
 	:advmod (v / very)
-	:time (t3 / they
-		:case (t2 / to))
-	:manner (b2 / be
+	:time (t4 / they
+		:case (t5 / to))
+	:nsubj (t6 / that)
+	:manner (b / be
 		:mark (i / if)
-		:nsubj (t4 / they)
-		:xcomp (t6 / travel
-			:mark (t5 / to)
+		:nsubj (t3 / they)
+		:xcomp (t / travel
+			:mark (t2 / to)
 			:obl (d / day
-				:det (s / some)))))
+				:det (s / some))))
+	:aux (w / would))

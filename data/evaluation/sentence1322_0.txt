@@ -1,0 +1,6 @@
+(k / know
+	:obj (m / muzzle
+		:poss (s / sheep
+			:case (f / for)
+			:poss (m2 / my)))
+	:nsubj (y / you))

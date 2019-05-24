@@ -1,0 +1,3 @@
+(e / excuse
+	:obj (i / i)
+	:discourse (p / please))

@@ -1,0 +1,8 @@
+(d / do
+	:obj (w2 / what)
+	:aux (d2 / do)
+	:obl (s / star
+		:case (w / with)
+		:det (t / these))
+	:cc (a / and)
+	:nsubj (y / you))

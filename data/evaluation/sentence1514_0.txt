@@ -1,0 +1,4 @@
+(n / naïve
+	:nsubj (s2 / she)
+	:advmod (s / so)
+	:cop (b / be))

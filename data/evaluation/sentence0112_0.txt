@@ -1,12 +1,12 @@
 (p / proud
 	:cc (a / and)
-	:nsubj (i / i)
 	:cop (b / be)
+	:nsubj (i / i)
 	:manner (h / have
-		:mark (t / to)
-		:obj (h2 / he)
 		:xcomp (l / learn
-			:ccomp (f / fly
-				:mark (t2 / that)
-				:nsubj (i2 / i)
-				:aux (c / could)))))
+			:ccomp (f / fly-02
+				:ARG0 (i2 / i)
+				:aux (c / could)
+				:mark (t / that)))
+		:obj (h2 / he)
+		:mark (t2 / to)))

@@ -1,0 +1,7 @@
+(a / ask
+	:nsubj (p2 / prince
+		:mod (l / little))
+	:advmod (p / politely)
+	:advmod (w / where
+		:cop (b / be)
+		:nsubj (m / man)))

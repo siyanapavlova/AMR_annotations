@@ -1,0 +1,5 @@
+(a / and
+	:op (m / make
+		:nsubj (s / seven)
+		:obj (t / twelve))
+	:op (f / five))

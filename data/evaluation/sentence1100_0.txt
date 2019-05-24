@@ -1,0 +1,17 @@
+(b / be
+	:aux (w / will)
+	:nsubj (i4 / it)
+	:manner (t / tame
+		:mark (i2 / if)
+		:nsubj (y / you)
+		:obj (i3 / i))
+	:cc (b2 / but)
+	:manner (c / come
+		:nsubj (s2 / sun)
+		:advmod (a / as)
+		:xcomp (s / shine
+			:obl (l / life
+				:poss (m / my)
+				:case (o / on))
+			:mark (t2 / to))
+		:mark (i / if)))

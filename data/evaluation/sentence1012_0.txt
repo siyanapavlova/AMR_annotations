@@ -1,0 +1,5 @@
+(s / say-01
+	:advmod (c / courteously)
+	:ARG1 (m / morning
+		:mod (g / good))
+	:ARG0 (h / he))

@@ -1,0 +1,5 @@
+(h / have
+	:cc (a / and)
+	:nsubj (p / people)
+	:obj (i / imagination
+		:det (n / no)))

@@ -1,0 +1,12 @@
+(a / and
+	:op (r / remain
+		:nsubj (h2 / he)
+		:advmod (s3 / so)
+		:obj (u / upright
+			:mod (s2 / stand)))
+	:op (y / yawn
+		:nsubj (h / he)
+		:manner (t / tired
+			:nsubj (h3 / he)
+			:mark (s / since)
+			:cop (b / be))))

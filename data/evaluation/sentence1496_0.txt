@@ -1,0 +1,8 @@
+(s / shell
+	:nsubj (i / it)
+	:case (l / like)
+	:aux (w / will)
+	:mod (o / old)
+	:mod (a / abandoned)
+	:cc (b2 / but)
+	:cop (b / be))

@@ -1,0 +1,5 @@
+(s / say-01
+	:ARG0 (s2 / switchman)
+	:ARG1 (l / lucky
+		:cop (b / be)
+		:nsubj (t / they)))

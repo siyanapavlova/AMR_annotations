@@ -1,0 +1,3 @@
+(t / tiny
+	:cop (b / be)
+	:nsubj (p / planet))

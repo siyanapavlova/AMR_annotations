@@ -1,0 +1,8 @@
+(a / ask
+	:ccomp (s / sell
+		:aux (b / be)
+		:obj (t / those)
+		:nsubj (y / you)
+		:advmod (w / why))
+	:obj (p / prince
+		:mod (l / little)))

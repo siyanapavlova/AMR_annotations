@@ -1,24 +1,24 @@
 (m / make
-	:advmod (f / fortunately)
-	:advmod (h / however)
-	:obl (r / reputation
-		:case (f2 / for)
-		:poss (b / b
-			:case (o / of)
-			:compound (a / asteroid)
-			:nummod (6 / 612)))
-	:nsubj (d / dictator
-		:mod (t / turkish))
 	:obj (l / law
 		:acl (c / change
-			:mark (t2 / that)
+			:aux (s2 / should)
+			:mark (t3 / that)
+			:time (c2 / costume
+				:mod (e / european)
+				:case (t / to))
 			:nsubj (s / subject
-				:poss (h2 / he)
 				:poss (p / pain
 					:case (u / under)
-					:poss (d2 / death
-						:case (o2 / of))))
-			:aux (s2 / should)
-			:time (c2 / costume
-				:case (t3 / to)
-				:mod (e / european)))))
+					:poss (d / death
+						:case (o2 / of)))
+				:poss (h / he))))
+	:advmod (f2 / fortunately)
+	:advmod (h2 / however)
+	:obl (r / reputation
+		:poss (b / b
+			:compound (a / asteroid)
+			:nummod (6 / 612)
+			:case (o / of))
+		:case (f / for))
+	:nsubj (d2 / dictator
+		:mod (t2 / turkish)))

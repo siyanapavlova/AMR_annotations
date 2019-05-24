@@ -1,0 +1,13 @@
+(a2 / and
+	:op (s / say-02)
+	:op (y / yawn
+		:manner (w2 / work
+			:mark (a4 / after)
+			:obl (p / precision
+				:compound (p2 / painstaking)
+				:det (a3 / all)
+				:det (t / this)
+				:case (w / with)))
+		:cc (a5 / and)
+		:nsubj (s2 / she)
+		:discourse (a / ah)))

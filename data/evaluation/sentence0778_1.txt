@@ -1,7 +1,7 @@
 (s / say-02
-	:ARG0 (l / lamplighter)
 	:ccomp (b / be
 		:nsubj (n / nothing
 			:acl (u / understand
-				:mark (t2 / to)))
-		:expl (t / there)))
+				:mark (t / to)))
+		:expl (t2 / there))
+	:ARG0 (l / lamplighter))

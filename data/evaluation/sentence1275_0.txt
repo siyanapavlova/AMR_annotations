@@ -1,0 +1,11 @@
+(f / find
+	:obl (d / daybreak
+		:case (a / at))
+	:cc (a3 / and)
+	:nsubj (i / i)
+	:manner (w2 / walk
+		:mark (a2 / as)
+		:nsubj (i2 / i)
+		:compound (o / on)
+		:advmod (s / so))
+	:xcomp (w / well))

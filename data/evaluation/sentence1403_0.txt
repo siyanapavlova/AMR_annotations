@@ -1,0 +1,4 @@
+(h / have
+	:cc (a / and)
+	:nsubj (i / i)
+	:obj (m / muzzle))

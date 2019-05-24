@@ -1,0 +1,6 @@
+(h2 / have
+	:obj (a / air
+		:mod (m / magnificent)
+		:poss (a2 / authority
+			:case (o / of)))
+	:nsubj (h / he))

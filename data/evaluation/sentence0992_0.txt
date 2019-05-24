@@ -1,0 +1,10 @@
+(a / and
+	:op (m / meet
+		:obl (f / flower
+			:advmod (o2 / only)
+			:case (w / with)
+			:nummod (o / one)))
+	:op (p / prince
+		:acl (c / cross
+			:obj (d / desert))
+		:mod (l / little)))

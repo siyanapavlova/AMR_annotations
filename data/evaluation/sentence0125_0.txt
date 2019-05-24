@@ -1,27 +1,27 @@
-(t / toss
-	:nsubj (h / he)
-	:obj (h3 / head
+(t2 / toss
+	:obj (h5 / head
 		:poss (h2 / he))
-	:advmod (g / gently)
-	:manner (t2 / take
+	:manner (t / take
 		:mark (w / without)
 		:obj (e / eye
-			:poss (h4 / he))
+			:poss (h3 / he))
 		:obl (p / plane
-			:case (f / from)
+			:case (f3 / from)
 			:poss (m / my)))
-	:ccomp (t3 / true
+	:nsubj (h4 / he)
+	:advmod (g / gently)
+	:ccomp (t4 / true
 		:expl (i / it)
-		:cop (b / be)
-		:ccomp (c2 / come
-			:mark (t4 / that)
+		:ccomp (c / come
 			:case (o / on)
 			:mark (t5 / that)
-			:nsubj (y / you)
-			:aux (c / can)
 			:advmod (n / not)
-			:aux (h5 / have)
+			:aux (c2 / can)
+			:mark (t3 / that)
 			:advmod (a / away
-				:case (f2 / from)
-				:advmod (f3 / far
-					:advmod (v / very))))))
+				:advmod (f2 / far
+					:advmod (v / very))
+				:case (f / from))
+			:nsubj (y / you)
+			:aux (h / have))
+		:cop (b / be)))

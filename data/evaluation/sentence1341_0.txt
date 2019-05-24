@@ -1,0 +1,12 @@
+(g / go
+	:parataxis (c / come
+		:advmod (n / near
+			:advmod (v / very))
+		:advmod (d / down)
+		:nsubj (i / i)
+		:advmod (h / here))
+	:nsubj (h2 / he)
+	:advmod (t / then)
+	:obl (s / silence
+		:case (a / after))
+	:compound (o / on))

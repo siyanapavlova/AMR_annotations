@@ -1,0 +1,17 @@
+(b / but
+	:op (m / make
+		:nsubj (h3 / he)
+		:time (q / question
+			:poss (m2 / my)
+			:case (t / to))
+		:obj (a2 / answer
+			:det (n / no)))
+	:op (a / add
+		:ccomp (g / go
+			:advmod (b3 / back)
+			:aux (b2 / be)
+			:nsubj (i / i)
+			:obl (t2 / today)
+			:advmod (t3 / too)
+			:advmod (h / home))
+		:nsubj (h2 / he)))

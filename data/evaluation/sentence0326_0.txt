@@ -1,6 +1,6 @@
 (t / talk
-	:nsubj (y / you)
 	:obl (u / up
+		:mod (g / grow)
 		:advmod (j / just)
-		:case (l / like)
-		:mod (g / grow)))
+		:case (l / like))
+	:nsubj (y / you))

@@ -1,0 +1,8 @@
+(p / proud
+	:advmod (s / so)
+	:obl (b2 / baobab
+		:case (o / of)
+		:poss (m / my))
+	:cop (b / be)
+	:aux (h / have)
+	:nsubj (i / i))

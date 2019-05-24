@@ -1,0 +1,4 @@
+(a / and
+	:op (t3 / tenderness
+		:case (w / with))
+	:op (p / pity))

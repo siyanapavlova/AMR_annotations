@@ -1,15 +1,15 @@
-(a2 / add
-	:cc (a / and)
-	:advmod (l2 / later
-		:obl (l / little))
-	:nsubj (y / you)
+(a / add
+	:cc (a2 / and)
 	:ccomp (k / know
 		:nsubj (y2 / you))
-	:parataxis (l3 / love
+	:nsubj (y / you)
+	:parataxis (l2 / love
 		:nsubj (o / one)
-		:obj (s / sunset)
-		:manner (s3 / sad
-			:mark (w / when)
-			:nsubj (o2 / one)
+		:obj (s3 / sunset)
+		:manner (s / sad
 			:cop (b / be)
-			:advmod (s2 / so))))
+			:advmod (s2 / so)
+			:nsubj (o2 / one)
+			:mark (w / when)))
+	:advmod (l / later
+		:obl (l3 / little)))

@@ -1,28 +1,28 @@
 (m / make
+	:parataxis (d2 / draw-05
+		:ARG0 (i4 / i)
+		:manner (s3 / see
+			:aux (c / could)
+			:advmod (c3 / clearly)
+			:obj (i5 / it)
+			:mark (s2 / so
+				:fixed (t / that))
+			:nsubj (u / up
+				:mod (g2 / grown)))
+		:ARG1 (i / inside
+			:poss (c2 / constrictor
+				:case (o / of)
+				:compound (b2 / boa))))
 	:manner (a / able
-		:cc (b / but)
-		:mark (s / since)
-		:nsubj (u / up
-			:mod (g / grow))
-		:cop (b2 / be)
+		:cc (b3 / but)
+		:cop (b / be)
 		:advmod (n / not)
 		:xcomp (u2 / understand
-			:mark (t / to)
-			:obj (i / it)))
+			:obj (i3 / it)
+			:mark (t2 / to))
+		:nsubj (u3 / up
+			:mod (g / grow))
+		:mark (s / since))
 	:nsubj (i2 / i)
 	:obj (d / draw
-		:det (a2 / another))
-	:parataxis (d2 / draw
-		:nsubj (i3 / i)
-		:obj (i4 / inside
-			:poss (c / constrictor
-				:case (o / of)
-				:compound (b3 / boa)))
-		:manner (s3 / see
-			:mark (s2 / so
-				:fixed (t2 / that))
-			:nsubj (u3 / up
-				:mod (g2 / grown))
-			:aux (c2 / could)
-			:obj (i5 / it)
-			:advmod (c3 / clearly))))
+		:det (a2 / another)))

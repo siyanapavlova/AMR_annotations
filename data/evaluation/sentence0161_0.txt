@@ -1,17 +1,19 @@
-(a3 / and
-	:op (t / tell
-		:mark (i / if)
-		:nsubj (i2 / i)
-		:aux (h / have)
-		:iobj (y / you)
-		:obj (d / detail
-			:det (t2 / these))
-		:time (a2 / asteroid
-			:case (a / about)))
-	:op (m / make
-		:obj (n / note
-			:poss (n2 / number
-				:case (o / of)
-				:poss (i3 / its)
-				:poss (y2 / you
-					:case (f / for))))))
+(a / and
+	:op (a5 / account
+		:case (o3 / on)
+		:poss (u / up
+			:mod (g / grown)
+			:case (o2 / of))
+		:cop (b / be)
+		:manner (t / tell
+			:mark (i4 / if)
+			:aux (h / have)
+			:nsubj (i3 / i)
+			:time (a4 / asteroid
+				:case (a2 / about))
+			:obj (d / detail
+				:det (t3 / these))
+			:iobj (y2 / you))
+		:nsubj (i2 / it))
+	:op (w / way
+		:poss (t2 / they)))

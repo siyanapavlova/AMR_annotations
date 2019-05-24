@@ -1,0 +1,5 @@
+(s / stir
+	:advmod (s2 / suddenly)
+	:nsubj (g / geographer)
+	:time (e / excitement
+		:case (t / to)))

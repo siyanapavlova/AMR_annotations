@@ -1,0 +1,10 @@
+(m2 / make
+	:aux (h / have)
+	:advmod (n / not)
+	:obj (t / tour
+		:mod (c / complete)
+		:poss (k / kingdom
+			:case (o / of)
+			:poss (m / my)))
+	:nsubj (i / i)
+	:advmod (y / yet))

@@ -1,11 +1,11 @@
 (e / eat
+	:aux (b / be)
+	:obj (t / they)
+	:nsubj (s2 / sheep)
+	:aux (h / have)
+	:xcomp (s / same
+		:advmod (j / just))
 	:obl (m / million
 		:case (f / for)
 		:poss (y / year
-			:case (o / of)))
-	:nsubj (s / sheep)
-	:aux (h / have)
-	:aux (b / be)
-	:obj (t / they)
-	:xcomp (s2 / same
-		:advmod (j / just)))
+			:case (o / of))))

@@ -1,0 +1,12 @@
+(m / man
+	:cop (b3 / be)
+	:cc (b / but)
+	:acl (i2 / interested
+		:advmod (n / naturally)
+		:nsubj (w / who)
+		:cop (b2 / be)
+		:obl (m2 / matter
+			:poss (c / consequence
+				:case (o / of))
+			:case (i3 / in)))
+	:nsubj (i / i))

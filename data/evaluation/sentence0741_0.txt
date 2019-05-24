@@ -1,0 +1,4 @@
+(a / all
+	:cop (b / be)
+	:nsubj (t / that)
+	:cc (a2 / and))

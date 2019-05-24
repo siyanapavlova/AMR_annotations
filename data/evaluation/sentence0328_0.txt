@@ -1,10 +1,10 @@
 (g / go
-	:cc (b / but)
-	:nsubj (h / he)
-	:advmod (o / on)
-	:advmod (r / relentlessly)
 	:ccomp (m / mix
+		:advmod (t / together)
 		:nsubj (y / you)
 		:obj (e / everything)
-		:compound (u / up)
-		:advmod (t / together)))
+		:compound (u / up))
+	:advmod (r / relentlessly)
+	:cc (b / but)
+	:advmod (o / on)
+	:nsubj (h / he))

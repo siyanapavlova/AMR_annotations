@@ -1,0 +1,5 @@
+(s / say-01
+	:ARG1 (u / unlucky
+		:cop (b / be)
+		:nsubj (i / i))
+	:ARG0 (l / lamplighter))

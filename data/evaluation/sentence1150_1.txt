@@ -1,0 +1,10 @@
+(s / say-02
+	:ccomp (g / go
+		:xcomp (c / cry
+			:mark (t / to))
+		:advmod (n / now)
+		:nsubj (y / you)
+		:cc (b / but)
+		:aux (b2 / be))
+	:ARG0 (p / prince
+		:mod (l / little)))

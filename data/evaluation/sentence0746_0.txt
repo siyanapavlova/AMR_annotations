@@ -1,0 +1,17 @@
+(i / idea
+	:mod (h / have)
+	:obl (m / matter
+		:case (o2 / on)
+		:poss (c / consequence
+			:case (o3 / of)))
+	:acl (d / different
+		:cop (b / be)
+		:advmod (v / very)
+		:obl (t / those
+			:case (f / from)
+			:poss (u / up
+				:mod (g / grown)
+				:case (o / of)))
+		:nsubj (w / which))
+	:compound (p / prince
+		:mod (l / little)))

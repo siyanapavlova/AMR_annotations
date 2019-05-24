@@ -1,0 +1,6 @@
+(a / ask
+	:nsubj (w / what
+		:cop (b / be)
+		:nsubj (r / rite))
+	:obj (p / prince
+		:mod (l / little)))

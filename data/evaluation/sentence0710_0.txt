@@ -1,0 +1,8 @@
+(d / do
+	:obj (g / good
+		:acl (m / make
+			:xcomp (r / rich)
+			:mark (o / of)
+			:obj (i2 / i)))
+	:iobj (i3 / i)
+	:nsubj (i / it))

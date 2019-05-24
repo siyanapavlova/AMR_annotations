@@ -1,0 +1,12 @@
+(m / music
+	:obl (p / pulley
+		:case (b2 / because
+			:fixed (o / of)))
+	:manner (d / drink
+		:mark (t / to))
+	:nsubj (w / what)
+	:cop (b / be)
+	:acl (g / give-01
+		:iobj (i / i)
+		:ARG0 (y / you))
+	:case (l / like))

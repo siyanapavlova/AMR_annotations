@@ -1,0 +1,11 @@
+(s / say-02
+	:time (i2 / i
+		:case (t2 / to))
+	:advmod (i / instead)
+	:ARG0 (h / he)
+	:ccomp (k / know
+		:nsubj (y / you)
+		:obj (d / descent
+			:poss (m / my)
+			:poss (e / earth
+				:case (t / to)))))

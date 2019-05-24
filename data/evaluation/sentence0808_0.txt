@@ -1,0 +1,8 @@
+(a / and
+	:op (f2 / faithful
+		:mark (t2 / to)
+		:cop (b / be)
+		:obl (t / time
+			:mod (s / same)
+			:case (a2 / at)))
+	:op (l / lazy))

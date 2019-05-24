@@ -5,6 +5,6 @@
 			:advmod (w / where)
 			:expl (t / there)
 			:nsubj (g / gentleman
-				:mod (c / certain)
 				:mod (f / face
-					:amod (r / red))))))
+					:amod (r / red))
+				:mod (c / certain)))))

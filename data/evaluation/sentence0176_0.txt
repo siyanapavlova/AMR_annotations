@@ -3,8 +3,8 @@
 	:acl (d / do
 		:amod (g / good)
 		:aux (w2 / would)
-		:nsubj (i / it)
-		:csubj (t2 / tell
+		:csubj (t3 / tell
+			:obj (t4 / that)
 			:mark (t / to)
-			:obj (t3 / they)
-			:obj (t4 / that))))
+			:obj (t2 / they))
+		:nsubj (i / it)))

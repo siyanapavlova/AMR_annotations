@@ -1,0 +1,4 @@
+(l / look
+	:obl (p / planet
+		:poss (m / my)
+		:case (a / at)))

@@ -1,0 +1,3 @@
+(l / laugh
+	:nsubj (h / he)
+	:advmod (a / again))

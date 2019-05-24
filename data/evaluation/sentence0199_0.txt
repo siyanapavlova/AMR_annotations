@@ -1,10 +1,10 @@
 (f / feel
-	:cc (a / and)
+	:cc (a2 / and)
 	:nsubj (i / i)
 	:obj (d / doubt
-		:det (s / some)
-		:poss (c / color
-			:case (a2 / about)
-			:poss (c2 / costume
-				:case (o / of)
-				:poss (h / he)))))
+		:poss (c2 / color
+			:case (a / about)
+			:poss (c / costume
+				:poss (h / he)
+				:case (o / of)))
+		:det (s / some)))

@@ -1,3 +1,16 @@
-(d / day
-	:case (o / on)
-	:mod (f / fifth))
+(t / thanks
+	:obl (a / always
+		:case (a2 / as))
+	:cop (b / be)
+	:parataxis (r / reveal
+		:time (i2 / i
+			:case (t3 / to))
+		:nsubj (s2 / secret
+			:poss (l / life
+				:case (o / of)
+				:poss (p / prince
+					:case (' / 's)
+					:mod (l2 / little)))))
+	:poss (s / sheep
+		:case (t2 / to))
+	:nsubj (i / it))

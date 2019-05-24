@@ -1,0 +1,10 @@
+(w / waste
+	:cc (b / but)
+	:advmod (n / not)
+	:obl (t3 / task
+		:case (o / on)
+		:det (t2 / this)
+		:mod (e / extra))
+	:obj (t / time
+		:poss (y / you))
+	:aux (d / do))

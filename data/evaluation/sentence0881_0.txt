@@ -1,0 +1,13 @@
+(f / furnish
+	:nsubj (w / wait
+		:nummod (o / one)
+		:poss (e / explorer
+			:case (u / until)))
+	:obj (p2 / proof)
+	:aux (h / have)
+	:manner (p / put
+		:obl (i2 / ink
+			:case (i / in))
+		:compound (d / down)
+		:mark (b / before)
+		:obj (t / they)))

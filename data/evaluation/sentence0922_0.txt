@@ -1,0 +1,9 @@
+(m / make
+	:aux (w / would)
+	:nsubj (t / that)
+	:obl (d / distance
+		:aux (s3 / see)
+		:mod (s4 / slight)
+		:case (f / from))
+	:obj (s / spectacle
+		:mod (s2 / splendid)))

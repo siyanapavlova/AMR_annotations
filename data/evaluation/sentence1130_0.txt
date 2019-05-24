@@ -1,0 +1,13 @@
+(s2 / say-01
+	:ARG1 (b3 / better
+		:nsubj (i / it)
+		:xcomp (c / come
+			:obl (h / hour
+				:case (a / at)
+				:mod (s / same))
+			:mark (t / to)
+			:advmod (b / back))
+		:aux (h2 / have)
+		:aux (w / would)
+		:cop (b2 / be))
+	:ARG0 (f / fox))

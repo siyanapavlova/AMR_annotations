@@ -1,0 +1,12 @@
+(h2 / have
+	:aux (w / will)
+	:nsubj (y2 / you
+		:acl (a2 / alone
+			:nsubj (y / you)))
+	:acl (h / have
+		:nsubj (o / one
+			:mod (e / else)
+			:det (n / no)
+			:case (a / as))
+		:obj (t / they))
+	:obj (s / star))

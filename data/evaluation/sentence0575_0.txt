@@ -1,0 +1,11 @@
+(b / be
+	:obl (s / side
+		:case (o2 / on)
+		:det (t / that))
+	:obl (t2 / this
+		:case (o / on)
+		:mark (a2 / as))
+	:obl (a / all
+		:case (a3 / at))
+	:expl (t3 / there)
+	:nsubj (n / nobody))

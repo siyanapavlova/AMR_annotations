@@ -1,0 +1,23 @@
+(b / but
+	:op (d / darken
+		:nsubj (s4 / star
+			:poss (h / he)
+			:det (a / all))
+		:manner (e / eat
+			:nsubj (s3 / sheep)
+			:obj (f2 / flower)
+			:mark (i / if))
+		:obl (m / moment
+			:case (i2 / in)
+			:nummod (o / one))
+		:aux (w / will))
+	:op (s2 / say-01
+		:ARG0 (h3 / he)
+		:ARG1 (b2 / be
+			:advmod (t2 / there)
+			:advmod (s / somewhere)
+			:nsubj (f / flower
+				:poss (m2 / my)))
+		:aux (c / can)
+		:time (h2 / himself
+			:case (t / to))))

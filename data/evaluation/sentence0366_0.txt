@@ -1,0 +1,8 @@
+(p / place
+	:det (s2 / such)
+	:nsubj (i / it)
+	:appos (l / land
+		:poss (t / tear
+			:case (o / of)))
+	:cop (b / be)
+	:mod (s / secret))

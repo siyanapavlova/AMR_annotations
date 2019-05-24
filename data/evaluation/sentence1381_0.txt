@@ -1,0 +1,18 @@
+(d / digge
+	:mark (a / as)
+	:obl (p / pocked
+		:case (i3 / into)
+		:poss (m3 / my))
+	:aux (b / be)
+	:advmod (e / even)
+	:manner (g / get
+		:obj (r2 / revolver
+			:acl (m2 / make
+				:nsubj (i / i)
+				:xcomp (r / run
+					:advmod (b2 / back)
+					:obj (s / step)))
+			:poss (m / my))
+		:mark (t / to)
+		:compound (o / out))
+	:nsubj (i2 / i))

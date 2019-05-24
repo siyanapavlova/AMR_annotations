@@ -1,7 +1,7 @@
 (s / seem
-	:cc (b / but)
 	:nsubj (p / prince
 		:mod (l / little))
+	:cc (b / but)
 	:xcomp (s2 / shocked
 		:obl (o / offer
 			:case (b2 / by)

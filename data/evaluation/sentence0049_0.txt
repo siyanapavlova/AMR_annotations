@@ -1,6 +1,6 @@
 (l / look
-	:nsubj (i / i)
-	:obl (i2 / i
-		:advmod (a / all
+	:nsubj (i2 / i)
+	:obl (i / i
+		:advmod (a2 / all
 			:advmod (c / carefully))
-		:case (a2 / around)))
+		:case (a / around)))

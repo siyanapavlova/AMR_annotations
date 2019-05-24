@@ -1,0 +1,4 @@
+(s / say-02
+	:ARG0 (p / prince
+		:mod (l / little))
+	:ccomp (g / goodbye))

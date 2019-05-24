@@ -1,0 +1,5 @@
+(a / and
+	:op (f / fragrance
+		:poss (s3 / she))
+	:op (r / radiance
+		:poss (s2 / she)))

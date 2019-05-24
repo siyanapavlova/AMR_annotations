@@ -1,0 +1,15 @@
+(s / say-01
+	:ARG0 (h / he)
+	:ARG1 (b2 / be
+		:ccomp (a / absurd
+			:nsubj (m2 / man
+				:det (t3 / this))
+			:mark (t / that)
+			:cop (b / be))
+		:expl (i / it)
+		:aux (m / may)
+		:advmod (w / well))
+	:advmod (n / nevertheless)
+	:cc (b3 / but)
+	:time (h2 / himself
+		:case (t2 / to)))

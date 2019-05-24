@@ -1,0 +1,3 @@
+(o / own
+	:nsubj (y / you)
+	:obj (s / star))

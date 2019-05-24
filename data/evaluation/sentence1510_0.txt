@@ -1,0 +1,8 @@
+(s / sit
+	:advmod (d / down)
+	:nsubj (h / he)
+	:manner (a2 / afraid
+		:cop (b2 / be)
+		:mark (b / because)
+		:nsubj (h2 / he))
+	:cc (a / and))

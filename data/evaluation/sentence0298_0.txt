@@ -1,18 +1,18 @@
-(b2 / busy
-	:obl (m / moment
-		:case (a / at)
-		:det (t / that))
-	:nsubj (i / i)
-	:cop (b / be)
-	:advmod (v / very)
-	:manner (t2 / try
+(b3 / busy
+	:manner (t4 / try
 		:xcomp (u / unscrew
 			:mark (t3 / to)
-			:obj (b3 / bolt
+			:obj (b / bolt
 				:acl (g / get
-					:nsubj (t4 / that)
-					:aux (h / have)
-					:obj (s / stick)
 					:obl (e / engine
-						:case (i2 / in)
-						:poss (m2 / my)))))))
+						:poss (m / my)
+						:case (i / in))
+					:nsubj (t2 / that)
+					:obj (s / stick)
+					:aux (h / have)))))
+	:advmod (v / very)
+	:nsubj (i2 / i)
+	:obl (m2 / moment
+		:det (t / that)
+		:case (a / at))
+	:cop (b2 / be))

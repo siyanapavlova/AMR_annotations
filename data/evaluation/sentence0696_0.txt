@@ -1,0 +1,11 @@
+(d / do
+	:obj (w2 / what)
+	:aux (d2 / do)
+	:cc (a / and)
+	:obl (m / million
+		:case (w / with)
+		:poss (s / star
+			:case (o / of))
+		:mod (h / hundr
+			:obl (f / five)))
+	:nsubj (y / you))

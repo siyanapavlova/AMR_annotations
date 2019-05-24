@@ -1,0 +1,16 @@
+(g / geographer
+	:conj (o2 / ocean)
+	:conj (m / mountain
+		:appos (s / seas))
+	:nsubj (i / it)
+	:conj (d / desert
+		:cc (a / and))
+	:advmod (n / not)
+	:cop (b / be)
+	:acl (g2 / go
+		:nsubj (w / who)
+		:manner (c / count
+			:mark (t2 / to)
+			:obj (t / town))
+		:advmod (o / out))
+	:conj (r / river))

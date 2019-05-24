@@ -1,0 +1,6 @@
+(s / say-01
+	:ARG1 (g / go
+		:advmod (a / away)
+		:advmod (n / now))
+	:ARG0 (p / prince
+		:mod (l / little)))

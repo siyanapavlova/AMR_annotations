@@ -2,6 +2,6 @@
 	:advmod (w / where)
 	:nsubj (i / i)
 	:parataxis (s / small
-		:nsubj (e / everything)
 		:cop (b / be)
-		:advmod (v / very)))
+		:advmod (v / very)
+		:nsubj (e / everything)))

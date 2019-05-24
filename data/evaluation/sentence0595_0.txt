@@ -1,0 +1,19 @@
+(s / say-01
+	:ARG1 (a / able
+		:cop (b / be)
+		:nsubj (h2 / he)
+		:xcomp (g / give-01
+			:ARG1 (o2 / order
+				:mod (r / reasonable))
+			:mark (t / to)
+			:iobj (i2 / i))
+		:aux (s2 / should))
+	:ARG0 (h / he)
+	:manner (w / wish
+		:xcomp (o / obeyed
+			:mark (t2 / to)
+			:advmod (p / promptly)
+			:cop (b2 / be))
+		:mark (i / if)
+		:nsubj (m / majesty
+			:poss (y / you))))

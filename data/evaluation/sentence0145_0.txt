@@ -1,17 +1,17 @@
 (a2 / add
-	:cc (a / and)
-	:obl (h / hint
-		:case (w / with)
-		:advmod (p / perhaps)
-		:poss (s / sadness
-			:case (o / of)))
-	:nsubj (h2 / he)
 	:ccomp (g / go
-		:nsubj (a3 / ahead
-			:mod (s2 / straight)
-			:poss (h3 / he
-				:case (o2 / of))
-			:nsubj (n / nobody))
 		:aux (c / can)
 		:advmod (f / far
-			:advmod (v / very))))
+			:advmod (v / very))
+		:nsubj (a / ahead
+			:nsubj (n / nobody)
+			:poss (h / he
+				:case (o / of))
+			:mod (s2 / straight)))
+	:obl (h2 / hint
+		:advmod (p / perhaps)
+		:case (w / with)
+		:poss (s / sadness
+			:case (o2 / of)))
+	:cc (a3 / and)
+	:nsubj (h3 / he))

@@ -1,0 +1,12 @@
+(r / run
+	:obj (r2 / risk
+		:acl (w / weep
+			:obj (l2 / little)
+			:mark (o / of)))
+	:nsubj (o3 / one)
+	:manner (t / tame
+		:mark (i / if)
+		:nsubj (h / himself
+			:nummod (o2 / one)
+			:poss (l / let
+				:case (' / 's)))))

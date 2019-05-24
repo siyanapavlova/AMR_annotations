@@ -1,0 +1,26 @@
+(h / here
+	:parataxis (h2 / heart
+		:cop (b / be)
+		:nsubj (i2 / it)
+		:acl (s4 / see
+			:advmod (r / rightly)
+			:mark (t2 / that)
+			:aux (c / can)
+			:nsubj (o / one))
+		:advmod (o2 / only)
+		:case (w / with))
+	:cop (b3 / be)
+	:parataxis (e / essential
+		:cop (b4 / be)
+		:nsubj (w2 / what)
+		:cop (b2 / be)
+		:advmod (i / invisible
+			:time (e2 / eye
+				:case (t / to))))
+	:conj (s3 / secret
+		:mod (s / simple
+			:advmod (v / very)))
+	:cc (a / and)
+	:nsubj (s2 / secret
+		:poss (m / my))
+	:advmod (n / now))

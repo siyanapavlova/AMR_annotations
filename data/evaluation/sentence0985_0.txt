@@ -1,0 +1,4 @@
+(-2 / -
+	:nsubj (i / i)
+	:case (- / -)
+	:aux (c / can))

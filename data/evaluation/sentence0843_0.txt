@@ -1,0 +1,4 @@
+(o / ocean
+	:det (a / any)
+	:nsubj (i / it)
+	:cop (h / have))

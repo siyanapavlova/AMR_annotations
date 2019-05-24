@@ -1,0 +1,6 @@
+(b / be
+	:ccomp (s / say-02
+		:mark (t2 / to))
+	:advmod (e / entirely
+		:advmod (n / not))
+	:nsubj (t / that))

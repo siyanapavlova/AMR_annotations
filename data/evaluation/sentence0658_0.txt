@@ -1,0 +1,8 @@
+(m / make
+	:nsubj (t2 / two
+		:case (- / -)
+		:compound (t3 / twenty))
+	:cc (a / and)
+	:obj (e / eight
+		:nummod (t / twenty))
+	:nsubj (s / six))

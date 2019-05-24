@@ -1,0 +1,15 @@
+(m / man
+	:nsubj (y / you)
+	:manner (s / succeed
+		:nsubj (y3 / you)
+		:mark (i3 / if)
+		:manner (j / judge
+			:mark (i2 / in)
+			:obj (y2 / yourself)
+			:advmod (r / rightly)))
+	:advmod (t / then)
+	:cop (b / be)
+	:advmod (i / indeed)
+	:poss (w / wisdom
+		:case (o / of)
+		:mod (t2 / true)))

@@ -1,0 +1,3 @@
+(d / difficult
+	:nsubj (i / it)
+	:cop (b / be))

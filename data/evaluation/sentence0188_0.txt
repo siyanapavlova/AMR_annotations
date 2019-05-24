@@ -1,15 +1,15 @@
 (p / pass
 	:nsubj (y / year
-		:nummod (s / six))
-	:aux (h / have)
-	:advmod (a / already)
-	:obl (f / friend
+		:nummod (s3 / six))
+	:obl (f2 / friend
 		:case (s2 / since)
 		:poss (m / my))
+	:aux (h2 / have)
+	:advmod (a2 / already)
 	:conj (g / go
-		:advmod (a2 / away)
+		:advmod (a / away)
+		:obl (s / sheep
+			:poss (h / he)
+			:case (w / with))
 		:obl (i / i
-			:case (f2 / from))
-		:obl (s3 / sheep
-			:case (w / with)
-			:poss (h2 / he))))
+			:case (f / from))))

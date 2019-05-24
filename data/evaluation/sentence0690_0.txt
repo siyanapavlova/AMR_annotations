@@ -1,0 +1,10 @@
+(c2 / concerned
+	:obl (i2 / i
+		:case (a / as
+			:fixed (f / for)))
+	:cop (b / be)
+	:obl (m / matter
+		:case (w / with)
+		:poss (c / consequence
+			:case (o / of)))
+	:nsubj (i / i))

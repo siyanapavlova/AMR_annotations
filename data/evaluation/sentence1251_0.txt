@@ -1,0 +1,6 @@
+(a / add
+	:nsubj (p / prince
+		:mod (l / little))
+	:ccomp (b / beautiful
+		:nsubj (d / desert)
+		:cop (b2 / be)))

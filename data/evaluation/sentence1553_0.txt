@@ -1,0 +1,15 @@
+(u2 / understand
+	:ccomp (m2 / matter
+		:nsubj (t2 / this)
+		:mark (t / that)
+		:cop (b / be)
+		:poss (i / importance
+			:mod (m / much
+				:advmod (s / so))
+			:case (o / of)))
+	:aux (w / will)
+	:advmod (e / ever)
+	:cc (a / and)
+	:nsubj (u / up
+		:det (n / no)
+		:mod (g / grow)))

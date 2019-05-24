@@ -1,9 +1,9 @@
-(d / do
-	:advmod (s / so)
-	:advmod (t / then)
-	:nsubj (i / i)
-	:manner (d2 / draw
-		:poss (m / my)
+(d2 / do
+	:manner (d / draw-05
 		:advmod (o / over)
-		:obj (m2 / more
-			:advmod (o2 / once))))
+		:poss (m2 / my)
+		:ARG1 (m / more
+			:advmod (o2 / once)))
+	:advmod (s / so)
+	:nsubj (i / i)
+	:advmod (t / then))

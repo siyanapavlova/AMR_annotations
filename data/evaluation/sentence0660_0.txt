@@ -1,0 +1,8 @@
+(m / make
+	:nsubj (s / six
+		:case (- / -)
+		:compound (t2 / twenty))
+	:cc (a / and)
+	:obj (o / one
+		:compound (t / thirty))
+	:nsubj (f / five))

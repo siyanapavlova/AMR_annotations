@@ -1,6 +1,6 @@
-(h2 / have
-	:advmod (n / not)
+(h / have
+	:aux (h2 / have)
 	:nsubj (o / one
 		:det (e / every))
-	:aux (h / have)
-	:obj (f / friend))
+	:obj (f / friend)
+	:advmod (n / not))

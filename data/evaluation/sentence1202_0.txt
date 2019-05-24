@@ -1,0 +1,8 @@
+(f / flatten
+	:nsubj (c / child)
+	:obl (w / windowpane
+		:case (a / against))
+	:obj (n / nose
+		:poss (t / they))
+	:advmod (o / only)
+	:aux (b / be))

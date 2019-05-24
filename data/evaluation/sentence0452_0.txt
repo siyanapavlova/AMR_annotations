@@ -1,0 +1,8 @@
+(h / have
+	:cop (b2 / be)
+	:advmod (n / not)
+	:nsubj (s / she)
+	:nsubj (i / it)
+	:xcomp (c / cold)
+	:mark (b / because)
+	:cc (b3 / but))

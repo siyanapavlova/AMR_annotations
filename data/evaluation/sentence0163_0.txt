@@ -1,11 +1,11 @@
-(s / say-01
-	:ARG0 (t / they)
-	:advmod (n / never)
-	:time (y / you
-		:case (t2 / to))
+(s2 / say-01
+	:ARG0 (t2 / they)
+	:discourse (l / like)
 	:ARG1 (d / do
 		:nsubj (w / what)
-		:obj (s2 / sound
+		:obj (s / sound
 			:poss (h / he)
 			:compound (v / voice)))
-	:discourse (l / like))
+	:advmod (n / never)
+	:time (y / you
+		:case (t / to)))

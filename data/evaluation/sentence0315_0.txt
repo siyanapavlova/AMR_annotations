@@ -1,6 +1,6 @@
 (d / distur
-	:advmod (a / again)
 	:nsubj (p / prince
 		:mod (l / little))
 	:obj (t / thought
-		:poss (m / my)))
+		:poss (m / my))
+	:advmod (a / again))

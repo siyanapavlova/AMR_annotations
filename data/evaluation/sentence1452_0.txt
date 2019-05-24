@@ -1,0 +1,8 @@
+(l / live
+	:obl (o / one
+		:poss (s / star
+			:case (o2 / of))
+		:case (i / in))
+	:nsubj (i2 / i)
+	:aux (s2 / shall)
+	:aux (b / be))

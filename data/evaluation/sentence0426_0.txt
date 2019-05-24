@@ -1,0 +1,11 @@
+(a / and
+	:op (o / ought
+		:nsubj (i / i)
+		:xcomp (j / judge
+			:mark (t / to)
+			:obl (d / deed
+				:case (b / by))
+			:aux (h / have)))
+	:op (w / word
+		:case (b2 / by)
+		:advmod (n / not)))

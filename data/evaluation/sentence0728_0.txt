@@ -1,0 +1,5 @@
+(r / reply
+	:ccomp (a / administer
+		:obj (t / they)
+		:nsubj (i / i))
+	:obj (b / businessman))

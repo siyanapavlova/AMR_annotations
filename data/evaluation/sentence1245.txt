@@ -1,3 +1,0 @@
-(t / tired
-	:nsubj (h / he)
-	:cop (b / be))

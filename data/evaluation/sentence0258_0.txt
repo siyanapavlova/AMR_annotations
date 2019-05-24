@@ -1,23 +1,23 @@
-(a3 / and
-	:op (a / ask
-		:advmod (p / perhaps)
-		:nsubj (y / you)
-		:aux (w / will)
-		:obj (i / i)
-		:advmod (t / there
-			:advmod (w2 / why)
-			:cop (b / be))
-		:obj (d / drawing
-			:det (n / no)
-			:mod (o / other)
-			:poss (b2 / book
-				:case (i2 / in)
-				:det (t2 / this)))
-		:obl (m / magnificent
-			:case (a2 / as)))
+(a4 / and
 	:op (i3 / impressive
-		:obl (d2 / drawing
-			:case (a4 / as)
-			:det (t3 / this)
+		:obl (d / drawing
 			:poss (b3 / baobab
-				:case (o2 / of)))))
+				:case (o2 / of))
+			:det (t / this)
+			:case (a2 / as)))
+	:op (a3 / ask
+		:obl (m / magnificent
+			:case (a / as))
+		:advmod (p / perhaps)
+		:advmod (t3 / there
+			:cop (b2 / be)
+			:advmod (w2 / why))
+		:aux (w / will)
+		:nsubj (y / you)
+		:obj (d2 / drawing
+			:mod (o / other)
+			:poss (b / book
+				:case (i2 / in)
+				:det (t2 / this))
+			:det (n / no))
+		:obj (i / i)))

@@ -1,0 +1,17 @@
+(a / able
+	:xcomp (o2 / order
+		:mark (t2 / to)
+		:xcomp (g / go
+			:mark (t / to)
+			:aux (b / be)
+			:obl (e / end
+				:poss (m / minute
+					:nummod (o / one)
+					:case (o3 / of))
+				:case (b2 / by)))
+		:obj (i / i))
+	:aux (s / should)
+	:nsubj (h / he)
+	:cop (b3 / be)
+	:obl (e2 / example
+		:case (f / for)))

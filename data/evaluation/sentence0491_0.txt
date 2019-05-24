@@ -1,0 +1,22 @@
+(b2 / but
+	:op (c / cram
+		:nsubj (p / planet
+			:mod (e / entire)))
+	:op (l / look
+		:nsubj (p3 / prince
+			:mod (l2 / little))
+		:xcomp (f / find
+			:mark (t2 / to)
+			:obj (p2 / place
+				:acl (s / sit
+					:mark (t / to)
+					:advmod (d / down))))
+		:advmod (e3 / everywhere))
+	:op (o / obstruct
+		:cc (a / and)
+		:obl (r / robe
+			:poss (k / king
+				:case (' / 's))
+			:mod (m / magnificent)
+			:compound (e2 / ermine)
+			:case (b / by))))

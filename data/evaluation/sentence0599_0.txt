@@ -1,0 +1,7 @@
+(t2 / take
+	:advmod (t / then)
+	:obj (l / leave
+		:poss (h2 / he))
+	:nsubj (h / he)
+	:obl (s / sigh
+		:case (w / with)))

@@ -1,0 +1,16 @@
+(a / and
+	:op (l / look
+		:aux (s / shall)
+		:nsubj (i / i)
+		:obl (y / you
+			:case (a2 / at))
+		:obl (c / corner
+			:case (o3 / out)
+			:case (o2 / of)
+			:poss (e / eye
+				:case (o / of)
+				:poss (m / my))))
+	:op (s2 / say-01
+		:ARG0 (y2 / you)
+		:obj (n / nothing)
+		:aux (w / will)))

@@ -1,0 +1,10 @@
+(s / say-01
+	:ARG0 (e / earth
+		:discourse (o2 / oh)
+		:case (o / on)
+		:cc (b2 / but)
+		:cop (b / be)
+		:advmod (n / not)
+		:nsubj (t / this))
+	:obj (p / prince
+		:mod (l / little)))

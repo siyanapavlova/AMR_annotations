@@ -1,0 +1,3 @@
+(f / friend
+	:poss (m / my)
+	:cop (b / be))

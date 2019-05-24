@@ -1,0 +1,4 @@
+(i / interrupt
+	:obj (i2 / i)
+	:cc (b / but)
+	:nsubj (h / he))

@@ -1,0 +1,7 @@
+(s / say-01
+	:ARG1 (f2 / forget
+		:aux (h / have)
+		:obj (t2 / truth
+			:det (t / this))
+		:nsubj (m / man))
+	:ARG0 (f / fox))

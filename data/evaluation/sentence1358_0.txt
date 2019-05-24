@@ -1,0 +1,3 @@
+(r / remember
+	:obj (f / fox)
+	:nsubj (i / i))

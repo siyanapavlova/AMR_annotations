@@ -1,0 +1,3 @@
+(s / say-01
+	:ARG0 (h / hum)
+	:obj (k / king))

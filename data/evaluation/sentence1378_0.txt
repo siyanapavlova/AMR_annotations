@@ -1,0 +1,7 @@
+(w2 / want
+	:nsubj (i / i)
+	:xcomp (g / get
+		:advmod (d / down)
+		:mark (t / to)
+		:obl (w / wall
+			:case (f / from))))

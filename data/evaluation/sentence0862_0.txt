@@ -1,0 +1,12 @@
+(b / bring
+	:mark (b3 / because)
+	:aux (w2 / would)
+	:nsubj (e / explorer
+		:acl (t / tell
+			:obj (l / lie)
+			:nsubj (w / who)))
+	:obl (b2 / book
+		:poss (g / geographer
+			:case (o / of))
+		:case (o2 / on))
+	:obj (d / disaster))

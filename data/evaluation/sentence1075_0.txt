@@ -1,0 +1,10 @@
+(h / have
+	:obj (n2 / need
+		:det (n / no)
+		:poss (i / i
+			:case (o / of)))
+	:nsubj (y / you
+		:poss (p / part
+			:case (o2 / on)
+			:poss (y2 / you))
+		:cc (a / and)))

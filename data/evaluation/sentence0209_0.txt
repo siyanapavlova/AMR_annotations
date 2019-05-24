@@ -1,22 +1,22 @@
-(p / pass
-	:obl (d / day
+(p2 / pass
+	:obl (i3 / it
+		:case (f / from))
+	:obl (d2 / day
 		:case (a / as)
 		:det (e / each))
-	:parataxis (l / learn
-		:nsubj (i / i)
-		:aux (w / would))
-	:obl (t / talk
-		:case (i2 / in)
-		:poss (w2 / we))
 	:obj (s / something
 		:poss (p3 / planet
 			:case (a2 / about)
-			:poss (p2 / prince
-				:mod (l2 / little)
-				:case (' / 's))))
-	:obj (d2 / departure
-		:poss (h / he))
-	:obl (i3 / it
-		:case (f / from))
+			:poss (p / prince
+				:case (' / 's)
+				:mod (l / little))))
 	:obj (j / journey
-		:poss (h2 / he)))
+		:poss (h2 / he))
+	:parataxis (l2 / learn
+		:aux (w2 / would)
+		:nsubj (i / i))
+	:obj (d / departure
+		:poss (h / he))
+	:obl (t / talk
+		:poss (w / we)
+		:case (i2 / in)))

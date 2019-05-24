@@ -1,0 +1,12 @@
+(s / say-02
+	:ccomp (i3 / interesting
+		:nsubj (i2 / it)
+		:advmod (v / very)
+		:cop (b / be)
+		:advmod (n / not))
+	:ccomp (l2 / live
+		:discourse (o / oh)
+		:advmod (w / where)
+		:nsubj (i / i))
+	:ARG0 (p / prince
+		:mod (l / little)))

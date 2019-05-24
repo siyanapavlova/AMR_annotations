@@ -1,0 +1,10 @@
+(d / draw
+	:manner (p / put
+		:mark (t / to)
+		:obl (f / flower
+			:poss (y2 / you)
+			:case (a / around)))
+	:obj (r / railing)
+	:nsubj (i / i)
+	:iobj (y / you)
+	:aux (w / will))

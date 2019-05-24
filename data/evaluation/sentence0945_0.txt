@@ -1,0 +1,7 @@
+(h / have
+	:parataxis (k / know
+		:nsubj (i2 / i)
+		:ccomp (c / confidence
+			:obl (i / i
+				:case (i3 / in))))
+	:nsubj (y / you))

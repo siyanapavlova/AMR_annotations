@@ -1,0 +1,7 @@
+(b2 / be
+	:ccomp (j / judge
+		:mark (t / to))
+	:expl (t2 / there)
+	:advmod (h / here)
+	:cc (b / but)
+	:nsubj (n / nobody))

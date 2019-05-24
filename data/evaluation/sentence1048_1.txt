@@ -1,0 +1,5 @@
+(s / say-02
+	:ARG0 (f2 / fox)
+	:ccomp (f / fox
+		:cop (b / be)
+		:nsubj (i / i)))

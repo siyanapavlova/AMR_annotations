@@ -1,0 +1,8 @@
+(l / look
+	:aux (s2 / shall)
+	:nsubj (i / i)
+	:manner (s / suffer
+		:aux (b / be)
+		:mark (i2 / if)
+		:nsubj (i3 / i)
+		:mark (a / as)))

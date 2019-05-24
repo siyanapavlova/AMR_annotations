@@ -1,0 +1,9 @@
+(s / say-02
+	:ccomp (u / understand
+		:advmod (o2 / only)
+		:obj (t3 / thing
+			:acl (t2 / tame
+				:nummod (o3 / one)
+				:nsubj (t / that)))
+		:nsubj (o / one))
+	:ARG0 (f / fox))

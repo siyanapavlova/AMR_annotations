@@ -1,8 +1,8 @@
 (w / want
-	:nsubj (i / i)
-	:aux (d / do)
+	:nsubj (i2 / i)
 	:advmod (n / not)
+	:aux (d / do)
 	:obj (e / elephant
 		:poss (c / constrictor
-			:case (i2 / inside)
+			:case (i / inside)
 			:compound (b / boa))))

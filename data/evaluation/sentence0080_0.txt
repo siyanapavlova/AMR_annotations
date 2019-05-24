@@ -1,6 +1,6 @@
 (a / and
 	:op (s / smil
+		:advmod (g / gently)
 		:nsubj (f / friend
-			:poss (m / my))
-		:advmod (g / gently))
+			:poss (m / my)))
 	:op (i / indulgently))

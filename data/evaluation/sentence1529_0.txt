@@ -1,0 +1,14 @@
+(c / content
+	:nsubj (c2 / companion
+		:acl (m2 / meet
+			:obl (r / return
+				:case (o / on)
+				:poss (m / my))
+			:nsubj (w2 / who)
+			:obj (i / i)))
+	:manner (s / see
+		:xcomp (a / alive)
+		:obj (i2 / i)
+		:mark (t / to))
+	:advmod (w / well)
+	:cop (b / be))

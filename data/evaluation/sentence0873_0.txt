@@ -1,0 +1,7 @@
+(r / require
+	:nsubj (o / one)
+	:obj (e / explorer
+		:acl (f / furnish
+			:obj (p / proof)
+			:mark (t / to)))
+	:cc (b / but))

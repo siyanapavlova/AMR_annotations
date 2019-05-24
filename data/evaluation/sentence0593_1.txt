@@ -1,0 +1,3 @@
+(s / say-01
+	:discourse (n / no)
+	:ARG0 (k / king))

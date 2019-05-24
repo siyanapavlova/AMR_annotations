@@ -1,0 +1,6 @@
+(i / inhabit
+	:nsubj (p / planet
+		:mod (s / second))
+	:obl (m / man
+		:mod (c / conceit)
+		:case (b / by)))

@@ -1,7 +1,7 @@
 (w / white
+	:cop (b / be)
+	:obl (r / rage
+		:case (w2 / with))
 	:nsubj (p / prince
 		:mod (l / little))
-	:cop (b / be)
-	:advmod (n / now)
-	:obl (r / rage
-		:case (w2 / with)))
+	:advmod (n / now))

@@ -1,0 +1,12 @@
+(a / and
+	:op (c / come
+		:nsubj (i2 / i)
+		:obl (j / journey
+			:mod (l / long)
+			:case (o / on))
+		:aux (h3 / have))
+	:op (h2 / have
+		:obj (s / sleep
+			:det (n / no))
+		:nsubj (i / i)
+		:aux (h / have)))

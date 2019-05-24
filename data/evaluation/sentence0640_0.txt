@@ -1,0 +1,7 @@
+(r / reply
+	:ccomp (f / forget
+		:mark (t2 / that)
+		:nsubj (i / i)
+		:advmod (s / so)
+		:aux (m / may))
+	:obj (t / tippler))

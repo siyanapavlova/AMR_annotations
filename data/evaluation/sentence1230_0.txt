@@ -1,0 +1,8 @@
+(o / or
+	:op (t / thirsty)
+	:op (h2 / hungry
+		:aux (h3 / have)
+		:advmod (n / never)
+		:advmod (e / either)
+		:nsubj (h / he)
+		:cop (b / be)))

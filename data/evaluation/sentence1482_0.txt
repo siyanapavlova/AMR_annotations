@@ -1,0 +1,8 @@
+(g / get
+	:advmod (a / away)
+	:manner (m / make
+		:mark (w / without)
+		:obj (s / sound))
+	:obl (i / i
+		:case (f / from))
+	:nsubj (h / he))

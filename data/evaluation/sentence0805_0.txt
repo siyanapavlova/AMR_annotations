@@ -1,0 +1,26 @@
+(a / and
+	:op (w2 / want
+		:nsubj (h6 / he)
+		:xcomp (h4 / help
+			:mark (t / to)
+			:obj (f / friend
+				:poss (h8 / he))))
+	:op (r / remember
+		:nsubj (h5 / he)
+		:obj (s2 / sunset
+			:acl (h7 / he
+				:manner (g / go
+					:manner (p / pull
+						:mark (b / by)
+						:compound (u / up)
+						:obj (c / chair
+							:poss (h / he)))
+					:aux (h3 / have)
+					:nsubj (h2 / himself)
+					:xcomp (s / seek
+						:obl (d / day
+							:mod (o / other)
+							:case (i / in))
+						:mark (t2 / to))
+					:advmod (m / merely))
+				:nsubj (w / which)))))

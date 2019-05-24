@@ -1,0 +1,10 @@
+(c / call
+	:obl (m2 / music
+		:case (l / like)
+		:poss (b / burrow
+			:case (o2 / of)
+			:case (o / out)
+			:poss (m / my)))
+	:nsubj (y / yours)
+	:obj (i / i)
+	:aux (w / will))

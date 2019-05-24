@@ -1,0 +1,4 @@
+(d / discouraged
+	:mod (l / little)
+	:nsubj (h / he)
+	:cop (b / be))

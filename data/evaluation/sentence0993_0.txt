@@ -1,0 +1,12 @@
+(f2 / flower
+	:cop (b / be)
+	:poss (p / petal
+		:nummod (t / three)
+		:case (w / with))
+	:nsubj (i / it)
+	:appos (f / flower
+		:poss (a3 / all
+			:case (a / at))
+		:poss (a2 / account
+			:case (o / of)
+			:det (n / no))))

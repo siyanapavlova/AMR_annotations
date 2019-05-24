@@ -1,0 +1,9 @@
+(a / admirer
+	:cop (b / be)
+	:nsubj (m2 / man
+		:mod (o / other)
+		:mod (a2 / all))
+	:time (m / man
+		:case (t / to)
+		:case (f / for)
+		:mod (c / conceit)))

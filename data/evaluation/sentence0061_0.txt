@@ -1,9 +1,9 @@
 (d2 / disobey
-	:manner (o / overpower
+	:advmod (n / not)
+	:nsubj (d / dare
+		:nummod (o / one))
+	:manner (o2 / overpower
 		:mark (w / when)
 		:nsubj (m / mystery)
 		:cop (b / be)
-		:advmod (t / too))
-	:nsubj (d / dare
-		:nummod (o2 / one))
-	:advmod (n / not))
+		:advmod (t / too)))

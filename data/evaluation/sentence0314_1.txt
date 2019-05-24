@@ -1,24 +1,24 @@
-(s / say-02
-	:obl (i / instant
+(s2 / say-02
+	:obl (i3 / instant
 		:case (a / at)
-		:det (t / that))
+		:det (t5 / that))
+	:time (m / myself
+		:case (t3 / to))
 	:ARG0 (i2 / i)
 	:aux (b / be)
-	:time (m / myself
-		:case (t2 / to))
 	:ccomp (g / go
-		:manner (t4 / turn
-			:mark (i3 / if)
-			:nsubj (b2 / bolt
-				:det (t3 / this))
-			:advmod (s2 / still)
-			:aux (w / will)
-			:advmod (n / not))
 		:nsubj (i4 / i)
 		:aux (b3 / be)
 		:xcomp (k / knock
-			:mark (t5 / to)
 			:obj (i5 / it)
 			:compound (o / out)
 			:obl (h / hammer
-				:case (w2 / with)))))
+				:case (w2 / with))
+			:mark (t2 / to))
+		:manner (t / turn
+			:aux (w / will)
+			:advmod (s / still)
+			:nsubj (b2 / bolt
+				:det (t4 / this))
+			:advmod (n / not)
+			:mark (i / if))))

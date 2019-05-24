@@ -1,13 +1,13 @@
 (s / say-02
-	:ccomp (h / have
+	:ccomp (h2 / have
 		:nsubj (w / we)
 		:aux (w2 / would)
 		:xcomp (p / put
-			:mark (t / to)
-			:obj (t2 / they)
-			:obl (t3 / top
-				:obj (o / one)
-				:case (o2 / on)
-				:poss (o4 / other
-					:case (o3 / of)))))
-	:ARG0 (h2 / he))
+			:obj (t3 / they)
+			:obl (t2 / top
+				:obj (o4 / one)
+				:poss (o2 / other
+					:case (o / of))
+				:case (o3 / on))
+			:mark (t / to)))
+	:ARG0 (h / he))

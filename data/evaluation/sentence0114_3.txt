@@ -1,0 +1,5 @@
+(d / drop-05
+	:obl (s / sky
+		:case (f / from))
+	:ARG0 (y / you)
+	:advmod (d2 / down))

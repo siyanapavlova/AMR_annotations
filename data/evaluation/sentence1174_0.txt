@@ -1,0 +1,18 @@
+(e2 / essential
+	:conj (i / invisible
+		:time (e / eye
+			:case (t3 / to)))
+	:nsubj (w / what)
+	:conj (p / prince
+		:mod (l / little)
+		:acl (r / repeat))
+	:cop (b / be)
+	:cop (b3 / be)
+	:manner (s / sure
+		:xcomp (r2 / remember
+			:mark (t / to))
+		:nsubj (h / he)
+		:aux (w2 / would)
+		:cop (b2 / be)
+		:mark (s2 / so
+			:fixed (t2 / that))))

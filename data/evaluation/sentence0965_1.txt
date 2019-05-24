@@ -1,0 +1,3 @@
+(s / say-02
+	:ccomp (a / ah)
+	:ARG0 (s2 / snake))

@@ -1,0 +1,9 @@
+(s / say-02
+	:ccomp (h / here
+		:nsubj (i / i)
+		:cop (b / be)
+		:advmod (r / right))
+	:ARG0 (v / voice)
+	:obl (t / tree
+		:case (u / under)
+		:compound (a / apple)))

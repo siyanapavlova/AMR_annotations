@@ -1,0 +1,7 @@
+(i / interrupt
+	:obj (h / herself)
+	:nsubj (s / she)
+	:obl (p / point
+		:det (t / that)
+		:case (a / at))
+	:cc (b / but))

@@ -1,9 +1,9 @@
-(s / sure
-	:cc (b / but)
-	:nsubj (i / i)
+(s2 / sure
 	:cop (b2 / be)
 	:advmod (n / not)
-	:advmod (a / at)
 	:advmod (a2 / all)
-	:obl (s2 / success
-		:case (o / of)))
+	:nsubj (i / i)
+	:obl (s / success
+		:case (o / of))
+	:advmod (a / at)
+	:cc (b / but))

@@ -1,0 +1,13 @@
+(s / something
+	:nsubj (h / house
+		:appos (s2 / star)
+		:appos (d / desert)
+		:acl (g / give-01
+			:iobj (t / they)
+			:ARG0 (w / what)
+			:ARG1 (b / beauty
+				:poss (t3 / they))))
+	:acl (i / invisible
+		:nsubj (t2 / that)
+		:cop (b3 / be))
+	:cop (b2 / be))

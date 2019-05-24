@@ -1,0 +1,5 @@
+(e / explorer
+	:cop (b2 / be)
+	:nsubj (i / i)
+	:cc (b / but)
+	:advmod (n / not))

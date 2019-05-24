@@ -1,0 +1,5 @@
+(p / prince
+	:acl (m / make
+		:obj (r / reply
+			:det (n / no)))
+	:mod (l / little))

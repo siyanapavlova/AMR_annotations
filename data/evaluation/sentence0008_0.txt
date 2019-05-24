@@ -1,14 +1,14 @@
-(w / work
-	:cc (a / and)
+(w2 / work
 	:case (a2 / after)
-	:det (s / some)
 	:poss (p / pencil
-		:case (w2 / with)
-		:mod (c / color)
+		:case (w / with)
+		:mod (c / color-01)
 		:acl (s2 / succeed
-			:nsubj (i / i)
-			:manner (m / make
-				:mark (i2 / in)
+			:manner (m2 / make-18
 				:obj (d / drawing
-					:poss (m2 / my)
-					:mod (f / first))))))
+					:poss (m / my)
+					:mod (f / first))
+				:mark (i2 / in))
+			:nsubj (i / i)))
+	:cc (a / and)
+	:det (s / some))

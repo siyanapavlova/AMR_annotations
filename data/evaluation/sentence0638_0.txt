@@ -1,0 +1,8 @@
+(r / reply
+	:ccomp (d / drink
+		:aux (b / be)
+		:nsubj (i / i))
+	:nsubj (t / tippler)
+	:obl (a / air
+		:mod (l / lugubrious)
+		:case (w / with)))

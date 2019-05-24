@@ -1,0 +1,7 @@
+(g / good
+	:nsubj (i / it)
+	:obl (p / present
+		:case (l / like))
+	:obl (h / heart
+		:case (f / for))
+	:cop (b / be))

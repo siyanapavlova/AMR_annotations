@@ -1,0 +1,5 @@
+(l / look
+	:aux (b / be)
+	:nsubj (y / you)
+	:obl (c / chicken
+		:case (f / for)))

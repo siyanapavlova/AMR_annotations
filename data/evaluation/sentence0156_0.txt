@@ -1,14 +1,14 @@
 (a / and
 	:op (c / costume
-		:cc (b / but)
-		:nsubj (h / he)
+		:nsubj (h2 / he)
 		:cop (b2 / be)
 		:case (i / in)
+		:cc (b3 / but)
 		:mod (t / turkish))
-	:op (b3 / believe
-		:advmod (s / so)
-		:nsubj (n / nobody)
-		:aux (w / would)
+	:op (b / believe
 		:obj (w2 / what
 			:acl (s2 / say-02
-				:ARG0 (h2 / he)))))
+				:ARG0 (h / he)))
+		:nsubj (n / nobody)
+		:advmod (s / so)
+		:aux (w / would)))

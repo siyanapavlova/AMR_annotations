@@ -1,0 +1,6 @@
+(i / inhabit
+	:nsubj (f / first
+		:poss (t / they
+			:case (o / of)))
+	:obl (k / king
+		:case (b / by)))

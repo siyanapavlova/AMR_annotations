@@ -1,0 +1,11 @@
+(a2 / add
+	:parataxis (t / tame)
+	:ccomp (m / mean
+		:aux (d / do)
+		:nsubj (t3 / that)
+		:obj (w / what))
+	:obl (t2 / think
+		:case (a / after)
+		:det (s / some))
+	:cc (b / but)
+	:nsubj (h / he))

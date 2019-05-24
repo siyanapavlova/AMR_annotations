@@ -1,0 +1,2 @@
+(p / promise
+	:det (w / what))

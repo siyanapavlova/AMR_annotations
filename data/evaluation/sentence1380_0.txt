@@ -1,0 +1,23 @@
+(o / one
+	:nsubj (t5 / there
+		:poss (i / i
+			:case (b2 / before))
+		:acl (f / face
+			:obj (p / prince
+				:mod (l / little))))
+	:cop (b3 / be)
+	:poss (s / snake
+		:mod (y / yellow)
+		:det (t4 / those)
+		:case (o2 / of)
+		:acl (t / take
+			:obj (s2 / seconds
+				:nummod (t7 / thirty
+					:advmod (j / just)))
+			:manner (b / bring
+				:obj (l2 / life
+					:poss (y2 / you))
+				:time (e / end
+					:case (t6 / to))
+				:mark (t3 / to))
+			:nsubj (t2 / that))))

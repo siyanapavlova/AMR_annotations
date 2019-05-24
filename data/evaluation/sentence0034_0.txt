@@ -1,13 +1,13 @@
-(t / talk
+(t2 / talk
 	:nsubj (i / i)
-	:aux (w / would)
-	:time (h / he
-		:case (t2 / to))
-	:time (b / bridge
-		:case (a / about))
 	:conj (g / golf
-		:cc (a2 / and))
-	:conj (p / politics
 		:cc (a3 / and))
 	:conj (n / neckty
+		:cc (a2 / and))
+	:time (b / bridge
+		:case (a / about))
+	:time (h / he
+		:case (t / to))
+	:aux (w / would)
+	:conj (p / politics
 		:cc (a4 / and)))

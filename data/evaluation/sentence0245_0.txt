@@ -1,26 +1,26 @@
-(s / say-01
+(s3 / say-01
 	:cc (a / and)
-	:obl (d / day
-		:nummod (o / one))
-	:ARG0 (h / he)
-	:time (i / i
-		:case (t / to))
+	:obl (d2 / day
+		:nummod (o2 / one))
 	:ARG1 (m / make
-		:nsubj (y / you)
-		:aux (o2 / ought)
-		:mark (t2 / to)
-		:obj (d2 / drawing
-			:mod (b / beautiful))
-		:manner (s3 / see
-			:mark (s2 / so
-				:fixed (t3 / that))
-			:nsubj (c / child
-				:acl (l / live
-					:advmod (w / where)
-					:nsubj (y2 / you)))
+		:nsubj (y2 / you)
+		:manner (s2 / see
+			:mark (s / so
+				:fixed (t4 / that))
 			:aux (c2 / can)
 			:ccomp (h2 / how
-				:advmod (e / exactly)
-				:cop (b2 / be
-					:nsubj (t4 / this
-						:advmod (a2 / all)))))))
+				:cop (b / be
+					:nsubj (t / this
+						:advmod (a2 / all)))
+				:advmod (e / exactly))
+			:nsubj (c / child
+				:acl (l / live
+					:nsubj (y / you)
+					:advmod (w / where))))
+		:mark (t2 / to)
+		:obj (d / drawing
+			:mod (b2 / beautiful))
+		:aux (o / ought))
+	:time (i / i
+		:case (t3 / to))
+	:ARG0 (h / he))

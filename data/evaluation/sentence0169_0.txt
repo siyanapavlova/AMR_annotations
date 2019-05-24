@@ -1,7 +1,7 @@
-(m3 / make
-	:obj (m2 / money
-		:mod (m / much
-			:advmod (h / how)))
+(m / make
 	:aux (d / do)
+	:obj (m2 / money
+		:mod (m3 / much
+			:advmod (h2 / how)))
 	:nsubj (f / father
-		:poss (h2 / he)))
+		:poss (h / he)))

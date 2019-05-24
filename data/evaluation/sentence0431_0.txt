@@ -1,0 +1,11 @@
+(y / young
+	:cop (b2 / be)
+	:manner (k / know
+		:ccomp (l / love
+			:advmod (h / how)
+			:mark (t / to)
+			:obj (s / she))
+		:mark (t2 / to))
+	:cc (b / but)
+	:advmod (t3 / too)
+	:nsubj (i / i))

@@ -1,27 +1,27 @@
 (l / look
-	:nsubj (h / he)
-	:obl (i / i
-		:case (a / at))
-	:advmod (t / there)
-	:obl (h2 / hammer
-		:case (w / with)
-		:poss (m / my)
-		:poss (h3 / hand
-			:case (i2 / in)
-			:poss (m2 / my)))
 	:obj (f / finger
 		:poss (m3 / my)
-		:mod (b / black
+		:mod (b2 / black
 			:obl (g / grease
-				:case (w2 / with)
-				:compound (e / engine))))
-	:manner (b2 / bend
-		:advmod (d / down)
-		:obl (o2 / object
-			:case (o / over)
+				:compound (e2 / engine)
+				:case (w / with))))
+	:nsubj (h4 / he)
+	:obl (h3 / hammer
+		:poss (h2 / hand
+			:case (i2 / in)
+			:poss (m / my))
+		:poss (m2 / my)
+		:case (w2 / with))
+	:obl (i / i
+		:case (a / at))
+	:manner (b / bend
+		:obl (o / object
+			:case (o2 / over)
 			:acl (s / seem
-				:nsubj (w3 / which)
-				:time (h4 / he
-					:case (t2 / to))
 				:advmod (u / ugly
-					:advmod (e2 / extremely))))))
+					:advmod (e / extremely))
+				:nsubj (w3 / which)
+				:time (h / he
+					:case (t2 / to))))
+		:advmod (d / down))
+	:advmod (t / there))

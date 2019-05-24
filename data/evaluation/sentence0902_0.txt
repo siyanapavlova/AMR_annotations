@@ -1,0 +1,13 @@
+(s / say-01
+	:ARG1 (c / come
+		:nsubj (i / it)
+		:time (t / thing
+			:mod (s2 / same)
+			:case (t2 / to))
+		:ccomp (e / extinct
+			:mark (w / whether)
+			:nsubj (v / volcanoe)
+			:cop (b / be))
+		:obl (w2 / we
+			:case (f / for)))
+	:ARG0 (g / geographer))

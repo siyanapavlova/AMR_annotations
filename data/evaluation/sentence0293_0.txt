@@ -1,9 +1,9 @@
 (a / answer
-	:nsubj (i / i)
+	:nsubj (i3 / i)
 	:ccomp (e / eat
 		:obj (a2 / anything
 			:acl (f / find
-				:nsubj (i2 / it)
+				:nsubj (i / it)
 				:obl (r / reach
-					:case (i3 / in)
-					:poss (i4 / its))))))
+					:poss (i4 / its)
+					:case (i2 / in))))))

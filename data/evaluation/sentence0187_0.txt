@@ -1,11 +1,11 @@
 (s / suffer
-	:nsubj (i / i)
-	:aux (h / have)
-	:obj (g / grief
-		:mod (m / much
-			:advmod (t / too)))
 	:manner (s2 / set
 		:mark (i2 / in)
 		:compound (d / down)
-		:obj (m2 / memory
-			:det (t2 / these))))
+		:obj (m / memory
+			:det (t2 / these)))
+	:obj (g / grief
+		:mod (m2 / much
+			:advmod (t / too)))
+	:nsubj (i / i)
+	:aux (h / have))

@@ -1,0 +1,24 @@
+(f / feel
+	:nsubj (p2 / prince
+		:mod (l / little)
+		:acl (p / present
+			:cop (b2 / be)
+			:nsubj (w / who)
+			:obl (a / appearance
+				:poss (b / bud
+					:mod (h / huge)
+					:case (o / of))
+				:mod (f2 / first)
+				:case (a2 / at))))
+	:manner (e / emerge
+		:obl (i / it
+			:case (f3 / from))
+		:mark (o3 / once)
+		:mark (a3 / at)
+		:mark (t / that)
+		:aux (m / must)
+		:nsubj (s2 / sort
+			:poss (a4 / apparition
+				:mod (m2 / miraculous)
+				:case (o2 / of))
+			:det (s / some))))

@@ -1,0 +1,18 @@
+(a / and
+	:op (l3 / live
+		:manner (b2 / boy
+			:mark (w2 / when)
+			:nsubj (i / i)
+			:mod (l / little)
+			:cop (b3 / be))
+		:obl (h / house
+			:case (i2 / in)
+			:mod (o / old))
+		:nsubj (i3 / i))
+	:op (t4 / tell
+		:nsubj (l2 / legend)
+		:ccomp (b / bury
+			:nsubj (t3 / treasure)
+			:mark (t2 / that)
+			:advmod (t / there))
+		:obj (w / we)))

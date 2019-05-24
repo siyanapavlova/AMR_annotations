@@ -1,0 +1,11 @@
+(s / say-02
+	:ccomp (r / record
+		:nsubj (w / we)
+		:advmod (n / not)
+		:obj (t2 / they)
+		:aux (d / do))
+	:ARG0 (g / geographer)
+	:manner (e / ephemeral
+		:nsubj (t / they)
+		:cop (b / be)
+		:mark (b2 / because)))

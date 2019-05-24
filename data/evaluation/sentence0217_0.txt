@@ -1,15 +1,15 @@
 (u / understand
-	:nsubj (i / i)
 	:aux (d / do)
 	:advmod (n / not)
-	:ccomp (i3 / important
-		:advmod (w / why)
+	:nsubj (i3 / i)
+	:ccomp (i / important
+		:advmod (s3 / so)
 		:expl (i2 / it)
-		:cop (b / be)
-		:advmod (s / so)
+		:cop (b2 / be)
 		:csubj (e / eat
+			:obj (b / bushe
+				:mod (l / little))
 			:mark (t / that)
 			:nsubj (s2 / sheep)
-			:aux (s3 / should)
-			:obj (b2 / bushe
-				:mod (l / little)))))
+			:aux (s / should))
+		:advmod (w / why)))

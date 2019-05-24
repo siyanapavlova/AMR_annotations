@@ -1,0 +1,11 @@
+(n / need
+	:nsubj (w / we)
+	:advmod (t / then)
+	:cc (b / but)
+	:manner (t2 / tame
+		:nsubj (y / you)
+		:mark (i / if)
+		:obj (i2 / i))
+	:aux (s / shall)
+	:obj (o / other
+		:det (e / each)))

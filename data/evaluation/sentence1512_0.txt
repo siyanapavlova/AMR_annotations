@@ -1,0 +1,5 @@
+(r / responsible
+	:nsubj (i / i)
+	:cop (b / be)
+	:obl (s / she
+		:case (f / for)))

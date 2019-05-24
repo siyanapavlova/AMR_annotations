@@ -1,8 +1,8 @@
-(s / say-01
-	:ARG0 (i / it)
-	:ARG1 (p / please
+(s / say
+	:nsubj (i3 / it)
+	:ccomp (p / please
 		:mark (i2 / if)
 		:nsubj (y / you))
-	:ARG1 (d / draw
-		:iobj (i3 / i)
-		:obj (s2 / sheep)))
+	:ccomp (d / draw-01
+		:obj (s2 / sheep)
+		:iobj (i / i)))

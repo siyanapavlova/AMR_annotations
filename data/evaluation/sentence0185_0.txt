@@ -1,17 +1,17 @@
-(g / give-01
-	:time (t2 / those
-		:case (t / to)
+(g2 / give-01
+	:time (t / those
 		:acl (u / understand
-			:nsubj (w / who)
-			:obj (l / life)))
-	:ARG0 (t3 / that)
-	:aux (w2 / would)
+			:nsubj (w2 / who)
+			:obj (l / life))
+		:case (t4 / to))
+	:aux (w / would)
+	:ARG0 (t5 / that)
 	:aux (h / have)
 	:ARG1 (a / air
-		:mod (m / much)
-		:compound (g2 / greater)
-		:poss (t4 / truth
-			:case (o / of)
+		:compound (g / greater)
+		:poss (t2 / truth
 			:poss (s / story
-				:case (t5 / to)
-				:poss (m2 / my)))))
+				:poss (m2 / my)
+				:case (t3 / to))
+			:case (o / of))
+		:mod (m / much)))

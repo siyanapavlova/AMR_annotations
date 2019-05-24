@@ -1,0 +1,6 @@
+(a / appear
+	:mark (t / that)
+	:advmod (t2 / then
+		:cop (b / be)
+		:nsubj (i / it))
+	:nsubj (f / fox))

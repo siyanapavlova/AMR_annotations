@@ -1,0 +1,16 @@
+(f2 / force
+	:nsubj (s3 / she)
+	:obj (s5 / she)
+	:manner (s6 / suffer
+		:obl (r / remorse
+			:case (f / from))
+		:obl (s2 / same
+			:advmod (j / just))
+		:mark (s4 / so
+			:fixed (t / that))
+		:nsubj (h / he)
+		:aux (s / should))
+	:advmod (t2 / then)
+	:xcomp (c / cough
+		:advmod (m / more)
+		:obj (l / little)))

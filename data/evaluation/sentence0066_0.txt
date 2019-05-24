@@ -1,6 +1,6 @@
-(d / draw
-	:cc (b / but)
-	:nsubj (i / i)
-	:aux (h / have)
+(d / draw-05
 	:advmod (n / never)
-	:obj (s / sheep))
+	:ARG1 (s / sheep)
+	:cc (b / but)
+	:aux (h / have)
+	:ARG0 (i / i))

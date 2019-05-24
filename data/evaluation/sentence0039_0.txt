@@ -2,4 +2,4 @@
 	:op (m / mechanic
 		:cc (n / neither))
 	:op (p / passenger
-		:det (a3 / any)))
+		:det (a2 / any)))

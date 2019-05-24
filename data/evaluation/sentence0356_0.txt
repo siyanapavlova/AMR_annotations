@@ -1,0 +1,4 @@
+(o / or
+	:op (t / thirst)
+	:op (b2 / bolt
+		:poss (m / my)))

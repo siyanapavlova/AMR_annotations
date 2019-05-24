@@ -1,0 +1,6 @@
+(t / take
+	:obj (c / courage)
+	:cc (b / but)
+	:advmod (m / more
+		:advmod (o / once))
+	:nsubj (h / he))

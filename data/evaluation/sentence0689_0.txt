@@ -1,0 +1,10 @@
+(o / object
+	:mod (l2 / little)
+	:mod (g / golden)
+	:acl (s / set
+		:time (d / dreaming
+			:case (t / to)
+			:mod (i / idle))
+		:obj (m / man
+			:mod (l / lazy))
+		:nsubj (t2 / that)))

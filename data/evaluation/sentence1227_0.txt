@@ -1,0 +1,12 @@
+(g / glad
+	:obl (i / instance
+		:case (f3 / for))
+	:cop (b / be)
+	:advmod (v / very)
+	:nsubj (i2 / i)
+	:manner (h / have
+		:obj (f2 / fox)
+		:aux (h2 / have)
+		:mark (t / to)
+		:obl (f / friend
+			:case (a / as))))

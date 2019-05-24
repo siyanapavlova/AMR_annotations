@@ -1,0 +1,7 @@
+(c / change
+	:advmod (t3 / then)
+	:time (t / tear
+		:case (t2 / to))
+	:nsubj (b / bell
+		:mod (l / little))
+	:cc (a / and))

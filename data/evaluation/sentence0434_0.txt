@@ -1,0 +1,12 @@
+(p2 / put
+	:obl (m / morning
+		:poss (d / departure
+			:case (o / of)
+			:poss (h / he))
+		:case (o3 / on))
+	:obj (p3 / planet
+		:poss (h2 / he))
+	:nsubj (h3 / he)
+	:obl (o2 / order
+		:case (i / in)
+		:mod (p / perfect)))

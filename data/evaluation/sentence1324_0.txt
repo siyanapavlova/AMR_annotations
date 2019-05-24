@@ -1,0 +1,11 @@
+(t / take
+	:nsubj (i / i)
+	:obl (p / pocket
+		:case (o3 / out)
+		:poss (m2 / my)
+		:case (o / of))
+	:obj (d2 / draft
+		:poss (m / my)
+		:poss (d / drawings
+			:case (o2 / of))
+		:mod (r / rough)))

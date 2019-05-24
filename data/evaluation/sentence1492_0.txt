@@ -1,0 +1,6 @@
+(u / understand
+	:parataxis (f / far
+		:cop (b / be)
+		:advmod (t / too)
+		:nsubj (i / it))
+	:nsubj (y / you))

@@ -1,0 +1,7 @@
+(o / object
+	:cop (b / be)
+	:poss (c / curiosity
+		:case (o2 / of))
+	:nsubj (y / yawn
+		:poss (i / i
+			:case (t / to))))

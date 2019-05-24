@@ -1,0 +1,5 @@
+(w / worrying
+	:advmod (s / still)
+	:cc (b2 / but)
+	:aux (b / be)
+	:nsubj (h / he))

@@ -1,0 +1,10 @@
+(s / say-02
+	:ccomp (r / right
+		:discourse (o / oh)
+		:nsubj (t / that)
+		:cop (b / be)
+		:advmod (a / all)
+		:aux (w / will))
+	:ccomp (u / understand
+		:nsubj (c / child))
+	:ARG0 (h / he))

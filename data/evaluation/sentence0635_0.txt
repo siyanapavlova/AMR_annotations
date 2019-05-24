@@ -1,0 +1,5 @@
+(i / inhabit
+	:obl (t / tippler
+		:case (b / by))
+	:nsubj (p / planet
+		:mod (n / next)))

@@ -1,0 +1,17 @@
+(s2 / speak
+	:obl (s4 / silence
+		:case (a2 / after)
+		:mod (l / little))
+	:cc (a3 / and)
+	:advmod (a / again)
+	:nsubj (h / he)
+	:ccomp (b / beautiful
+		:nsubj (s / star)
+		:cop (b3 / be)
+		:obl (f / flower
+			:case (b2 / because
+				:fixed (o / of))
+			:acl (s3 / see
+				:advmod (n / not)
+				:aux (c / can)
+				:nsubj (t / that)))))

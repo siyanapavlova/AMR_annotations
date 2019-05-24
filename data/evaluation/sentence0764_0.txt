@@ -1,0 +1,4 @@
+(o / occupation
+	:mod (b2 / beautiful)
+	:nsubj (t / that)
+	:cop (b / be))

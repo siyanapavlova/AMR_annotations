@@ -1,0 +1,10 @@
+(h / how
+	:acl (m / make-05
+		:ARG2 (a2 / acquaintance
+			:poss (p / prince
+				:case (o / of)
+				:mod (l / little)))
+		:ARG0 (i / i))
+	:cop (b / be)
+	:cc (a / and)
+	:nsubj (t / that))

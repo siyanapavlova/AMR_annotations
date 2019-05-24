@@ -1,0 +1,11 @@
+(t / think
+	:ccomp (w3 / wonderful
+		:cop (b / be)
+		:nsubj (t2 / that)
+		:advmod (h / how)
+		:aux (w2 / will))
+	:manner (t3 / tame
+		:nsubj (y / you)
+		:mark (w / when)
+		:aux (h2 / have)
+		:obj (i / i)))

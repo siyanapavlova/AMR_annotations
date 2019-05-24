@@ -1,0 +1,6 @@
+(o / one
+	:mod (o2 / only)
+	:cop (b / be)
+	:acl (h / have
+		:nsubj (w / we))
+	:nsubj (h2 / he))

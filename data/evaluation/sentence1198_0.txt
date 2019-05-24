@@ -1,0 +1,10 @@
+(h / hear
+	:obj (t3 / thunder
+		:mod (r / roaring)
+		:poss (e / express
+			:case (o / of)
+			:mod (t2 / third)
+			:mod (l / light
+				:advmod (b / brilliantly))))
+	:cc (a / and)
+	:nsubj (t / they))

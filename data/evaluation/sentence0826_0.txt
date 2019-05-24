@@ -1,0 +1,9 @@
+(l / larger
+	:nsubj (p / planet
+		:mod (s / sixth))
+	:obl (t2 / time
+		:nummod (t / ten))
+	:cop (b / be)
+	:obl (o / one
+		:case (t3 / than)
+		:mod (l2 / last)))

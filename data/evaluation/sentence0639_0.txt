@@ -1,0 +1,7 @@
+(d2 / demand
+	:obj (p / prince
+		:mod (l / little))
+	:csubj (d / drink
+		:aux (b / be)
+		:nsubj (y / you)
+		:advmod (w / why)))

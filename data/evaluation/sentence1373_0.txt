@@ -1,0 +1,12 @@
+(a / and
+	:op (s2 / see
+		:nsubj (i / i)
+		:obj (n / nothing)
+		:advmod (s / still))
+	:op (m / metre
+		:poss (w / wall
+			:case (f / from))
+		:advmod (o / only)
+		:nummod (t / twenty)
+		:nsubj (i2 / i)
+		:cop (b / be)))

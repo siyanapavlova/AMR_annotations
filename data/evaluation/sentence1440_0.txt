@@ -1,0 +1,4 @@
+(p / present
+	:poss (m / my)
+	:cop (b / be)
+	:nsubj (t / that))

@@ -1,18 +1,18 @@
 (b / be
-	:manner (t / try
-		:mark (i / if)
-		:nsubj (i2 / i)
+	:manner (t4 / try
+		:nsubj (i / i)
+		:mark (i4 / if)
 		:xcomp (d / describe
-			:mark (t2 / to)
-			:obj (h / he)
-			:advmod (h2 / here)))
+			:obj (h3 / he)
+			:advmod (h2 / here)
+			:mark (t3 / to)))
 	:nsubj (i3 / it)
 	:ccomp (m / make
-		:mark (t3 / to)
-		:xcomp (s / sure
+		:xcomp (s2 / sure
 			:ccomp (f / forget
-				:mark (t4 / that)
-				:nsubj (i4 / i)
-				:aux (s2 / shall)
-				:advmod (n / not)
-				:obj (h3 / he)))))
+				:obj (h / he)
+				:nsubj (i2 / i)
+				:aux (s / shall)
+				:mark (t / that)
+				:advmod (n / not)))
+		:mark (t2 / to)))

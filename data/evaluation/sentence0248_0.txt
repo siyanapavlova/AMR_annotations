@@ -1,11 +1,11 @@
-(m2 / mean
-	:cc (b / but)
-	:manner (m / matter
-		:mark (w / when)
+(m / mean
+	:manner (m2 / matter
+		:poss (b2 / baobab
+			:case (o / of))
 		:nsubj (i / it)
-		:cop (b2 / be)
-		:poss (b3 / baobab
-			:case (o / of)))
+		:cop (b3 / be)
+		:mark (w / when))
+	:cc (b / but)
 	:mark (t / that)
 	:advmod (a / always)
 	:obj (c / catastrophe))

@@ -1,15 +1,15 @@
 (i / imagine
-	:advmod (t / thus)
-	:nsubj (y / you)
-	:aux (c / can)
-	:obj (a / amazement
-		:poss (m / my))
 	:obl (s / sunrise
-		:case (a2 / at))
-	:manner (a3 / awaken
-		:mark (w / when)
+		:case (a3 / at))
+	:advmod (t / thus)
+	:aux (c / can)
+	:manner (a2 / awaken
 		:nsubj (i2 / i)
 		:obl (v / voice
-			:case (b / by)
+			:mod (l / little)
 			:mod (o / odd)
-			:mod (l / little))))
+			:case (b / by))
+		:mark (w / when))
+	:nsubj (y / you)
+	:obj (a / amazement
+		:poss (m / my)))

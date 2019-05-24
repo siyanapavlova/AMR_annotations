@@ -1,5 +1,5 @@
-(t2 / they
-	:nsubj (t / thorn
+(t / they
+	:nsubj (t2 / thorn
 		:acl (u / use
 			:nsubj (w / what)))
 	:cop (b / be))

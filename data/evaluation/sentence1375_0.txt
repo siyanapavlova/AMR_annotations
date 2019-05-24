@@ -1,0 +1,12 @@
+(s2 / sure
+	:ccomp (m / make
+		:xcomp (s / suffer
+			:xcomp (l / long
+				:advmod (t / too)))
+		:aux (w / will)
+		:advmod (n / not)
+		:mark (t2 / that)
+		:obj (i2 / i)
+		:nsubj (i / it))
+	:nsubj (y / you)
+	:cop (b / be))

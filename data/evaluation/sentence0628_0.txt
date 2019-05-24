@@ -1,0 +1,8 @@
+(m / man
+	:nsubj (y2 / you)
+	:poss (p / planet
+		:case (o2 / on)
+		:poss (y / you))
+	:mod (o / only)
+	:cop (b2 / be)
+	:cc (b / but))

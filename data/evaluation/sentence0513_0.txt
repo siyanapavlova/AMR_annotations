@@ -1,0 +1,4 @@
+(m / monarch
+	:mod (a / absolute)
+	:nsubj (h / he)
+	:cop (b / be))

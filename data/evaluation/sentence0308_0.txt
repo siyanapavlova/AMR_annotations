@@ -1,16 +1,16 @@
 (f / flash
-	:advmod (t / then)
-	:nsubj (p / prince
-		:mod (l / little))
-	:advmod (b / back
-		:obl (i / i
+	:advmod (b2 / back
+		:obl (i2 / i
 			:case (a / at)))
+	:advmod (t / then)
+	:parataxis (b / believe
+		:advmod (n / not)
+		:aux (d / do)
+		:obj (y / you)
+		:nsubj (i / i))
 	:obl (k / kind
 		:case (w / with)
 		:poss (r / resentfulness
 			:case (o / of)))
-	:parataxis (b2 / believe
-		:nsubj (i2 / i)
-		:aux (d / do)
-		:advmod (n / not)
-		:obj (y / you)))
+	:nsubj (p / prince
+		:mod (l / little)))

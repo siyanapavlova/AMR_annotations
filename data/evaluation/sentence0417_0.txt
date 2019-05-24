@@ -1,0 +1,21 @@
+(h2 / have
+	:advmod (s4 / so)
+	:nsubj (p / prince
+		:mod (l2 / little)
+		:poss (s3 / spite
+			:case (i / in)
+			:poss (w / will
+				:det (a / all)
+				:case (o / of)
+				:acl (i2 / inseparable
+					:obl (l / love
+						:case (f / from)
+						:poss (h / he))
+					:cop (b / be)
+					:nsubj (t / that))
+				:mod (g / good))))
+	:parataxis (c / come
+		:manner (d / doubt
+			:obj (s2 / she)
+			:mark (t2 / to))
+		:advmod (s / soon)))

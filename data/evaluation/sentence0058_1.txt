@@ -1,19 +1,19 @@
 (g / give-01
-	:ARG0 (n / nothing
-		:poss (h / he
-			:case (a / about)))
 	:ARG1 (s / suggestion
-		:det (a2 / any)
 		:poss (c / child
-			:case (o / of)
 			:acl (l / lose
-				:obl (m / middle
+				:obl (m2 / middle
 					:case (i / in)
 					:poss (d / desert
-						:case (o2 / of))))))
-	:ARG1 (m2 / miles
+						:case (o2 / of))))
+			:case (o / of))
+		:det (a / any))
+	:ARG1 (m / mile
 		:nummod (t / thousand)
-		:poss (h3 / habitation
+		:poss (h / habitation
 			:case (f / from)
-			:det (a3 / any)
-			:mod (h2 / human))))
+			:mod (h3 / human)
+			:det (a3 / any)))
+	:ARG0 (n / nothing
+		:poss (h2 / he
+			:case (a2 / about))))

@@ -1,0 +1,9 @@
+(f / feel
+	:xcomp (f2 / fragile
+		:cop (b / be)
+		:advmod (s / still)
+		:advmod (m / more)
+		:mark (t / to))
+	:obj (h / he)
+	:nsubj (i / i)
+	:cc (a / and))

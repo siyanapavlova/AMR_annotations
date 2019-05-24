@@ -1,15 +1,15 @@
 (k / know
-	:nsubj (e / everybody)
 	:ccomp (s3 / set
 		:mark (t / that)
+		:nsubj (s2 / sun)
 		:manner (n / noon
 			:mark (w / when)
+			:cop (b2 / be)
 			:nsubj (i / it)
-			:cop (b / be)
 			:poss (s / states
 				:case (i2 / in)
 				:compound (u / united)))
-		:nsubj (s2 / sun)
-		:aux (b2 / be)
+		:aux (b / be)
 		:obl (f / france
-			:case (o / over))))
+			:case (o / over)))
+	:nsubj (e / everybody))

@@ -1,0 +1,7 @@
+(b / be
+	:nsubj (n / nothing
+		:amod (s2 / sad
+			:time (s / shell
+				:mod (o / old)
+				:case (a / about))))
+	:expl (t / there))

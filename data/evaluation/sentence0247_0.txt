@@ -1,16 +1,16 @@
 (a / add
 	:advmod (s / sometimes)
-	:nsubj (h / he)
 	:ccomp (b / be
 		:expl (t / there)
-		:nsubj (h2 / harm
-			:det (n / no))
-		:manner (p / put
-			:mark (i / in)
+		:manner (p2 / put
 			:compound (o / off)
-			:obj (p2 / piece
+			:mark (i / in)
+			:obj (p / piece
 				:poss (w / work
 					:case (o2 / of)))
 			:obl (d / day
 				:case (u / until)
-				:det (a2 / another)))))
+				:det (a2 / another)))
+		:nsubj (h / harm
+			:det (n / no)))
+	:nsubj (h2 / he))

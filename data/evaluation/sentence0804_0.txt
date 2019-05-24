@@ -1,0 +1,19 @@
+(f / feel
+	:manner (w / watch
+		:obj (h3 / he)
+		:mark (a / as)
+		:nsubj (p / prince
+			:mod (l3 / little)))
+	:ccomp (l / love
+		:mark (t / that)
+		:obj (l2 / lamplighter
+			:acl (f2 / faithful
+				:nsubj (w2 / who)
+				:cop (b / be)
+				:time (o / order
+					:case (t2 / to)
+					:poss (h2 / he))
+				:advmod (s / so))
+			:det (t3 / this))
+		:nsubj (h / he))
+	:nsubj (h4 / he))

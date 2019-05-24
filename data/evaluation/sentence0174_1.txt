@@ -1,20 +1,10 @@
-(s2 / say-01
-	:advmod (s / so
-		:advmod (j / just))
-	:ARG0 (y / you)
-	:aux (m / might)
-	:time (t2 / they
-		:case (t / to))
-	:ARG0 (p / proof
-		:acl (b / be
-			:mark (t3 / that)
-			:nsubj (p2 / prince
-				:mod (l / little)
-				:acl (e / exist))
-			:ccomp (c / charming
-				:mark (t4 / that)
-				:nsubj (h / he)
-				:aux (b2 / be))
-			:ccomp (l2 / laugh
-				:mark (t5 / that)
-				:nsubj (h2 / he)))))
+(a / and
+	:op (l3 / laugh
+		:mark (t6 / that)
+		:nsubj (h3 / he))
+	:op (l2 / look
+		:mark (t5 / that)
+		:obl (s2 / sheep
+			:case (f / for))
+		:nsubj (h / he)
+		:aux (b2 / be)))

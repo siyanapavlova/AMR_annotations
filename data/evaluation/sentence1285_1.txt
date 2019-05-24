@@ -1,0 +1,5 @@
+(s / say-01
+	:ARG0 (i / i)
+	:time (p / prince
+		:case (t / to)
+		:mod (l / little)))

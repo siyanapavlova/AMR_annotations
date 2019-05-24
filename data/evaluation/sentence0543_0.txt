@@ -1,0 +1,15 @@
+(g / go
+	:advmod (o2 / on)
+	:nsubj (r / require
+		:mod (m / much)
+		:poss (d / duty
+			:acl (p / perform
+				:obj (w / which)
+				:nsubj (o / one
+					:det (e2 / each))
+				:aux (c / can))
+			:nummod (o3 / one)
+			:case (f / from)
+			:det (e / each))
+		:nummod (o4 / one))
+	:nsubj (k / king))

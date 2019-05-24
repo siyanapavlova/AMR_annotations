@@ -1,0 +1,4 @@
+(a / and
+	:op (m / move
+		:advmod (d / deeply))
+	:op (s / stir))

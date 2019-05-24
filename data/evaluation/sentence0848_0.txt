@@ -1,0 +1,7 @@
+(s / say-01
+	:ARG0 (g / geographer)
+	:ARG1 (t / tell
+		:aux (c / could)
+		:obj (y / you)
+		:advmod (n / not)
+		:nsubj (i / i)))

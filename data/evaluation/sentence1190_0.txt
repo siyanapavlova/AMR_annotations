@@ -1,0 +1,5 @@
+(l / look
+	:nsubj (t / they)
+	:aux (b / be)
+	:obl (f / for)
+	:obj (w / what))

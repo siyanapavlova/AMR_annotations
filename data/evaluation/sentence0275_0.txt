@@ -1,9 +1,9 @@
-(s / seem
+(s2 / seem
+	:nsubj (y / you)
 	:advmod (f / first
 		:case (a / at))
-	:nsubj (y / you)
-	:xcomp (s2 / surprised
-		:mark (t / to)
-		:cop (b / be)
+	:xcomp (s / surprised
 		:advmod (m / much
-			:advmod (v / very))))
+			:advmod (v / very))
+		:cop (b / be)
+		:mark (t / to)))

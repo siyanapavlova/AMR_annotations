@@ -1,0 +1,9 @@
+(h / have
+	:obl (m2 / minute
+		:det (e / every))
+	:nsubj (i2 / i)
+	:xcomp (l2 / light
+		:mark (t / to)
+		:obj (l / lamp
+			:poss (m / my)))
+	:mark (o2 / once))

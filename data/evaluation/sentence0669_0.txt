@@ -1,0 +1,7 @@
+(a / amuse
+	:advmod (n / not)
+	:aux (d / do)
+	:obl (b / balderdash
+		:case (w / with))
+	:obj (m / myself)
+	:nsubj (i / i))

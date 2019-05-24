@@ -1,0 +1,24 @@
+(k / know
+	:manner (b3 / be
+		:xcomp (r / ready
+			:xcomp (g / greet
+				:obj (y2 / you)
+				:mark (t2 / to))
+			:mark (t3 / to)
+			:cop (b / be)))
+	:cc (b2 / but)
+	:nsubj (i2 / i)
+	:advmod (n / never)
+	:obl (w / what
+		:case (a3 / at)
+		:acl (h2 / hour
+			:obj (h / heart
+				:poss (m / my))))
+	:manner (c / come
+		:mark (i / if)
+		:obl (t / time
+			:advmod (j / just)
+			:det (a / any)
+			:case (a2 / at))
+		:nsubj (y / you))
+	:aux (s / shall))

@@ -2,6 +2,6 @@
 	:nsubj (s / soil
 		:poss (p / planet
 			:case (o / of)
-			:det (t / that)))
-	:obl (t2 / they
+			:det (t2 / that)))
+	:obl (t / they
 		:case (w / with)))

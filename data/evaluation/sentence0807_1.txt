@@ -1,0 +1,7 @@
+(s / say-02
+	:ccomp (w / want
+		:advmod (a / always)
+		:xcomp (r / rest
+			:mark (t / to))
+		:nsubj (i / i))
+	:ARG0 (l / lamplighter))

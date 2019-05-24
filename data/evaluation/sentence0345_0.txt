@@ -1,4 +1,7 @@
-(w / warfare
-	:cop (b / be)
-	:poss (s / sheep
-		:case (b2 / between)))
+(a / and
+	:op (s / sheep
+		:case (b / between))
+	:op (i / important
+		:cop (b3 / be)
+		:nsubj (f / flower)
+		:advmod (n / not)))

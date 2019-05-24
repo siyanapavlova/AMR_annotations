@@ -1,0 +1,17 @@
+(l / let
+	:xcomp (f / flow
+		:advmod (e / easily)
+		:time (s / sand
+			:poss (s2 / spray
+				:poss (f2 / fountain
+					:case (o / of))
+				:mod (d / die)
+				:case (l3 / like))
+			:case (a / across)))
+	:obl (n / noise
+		:case (a2 / at)
+		:acl (m2 / make
+			:nsubj (i2 / i)))
+	:cc (b / but)
+	:nsubj (s5 / snake)
+	:obj (h2 / himself))

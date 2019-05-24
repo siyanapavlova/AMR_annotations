@@ -1,0 +1,8 @@
+(f / flower
+	:cop (b2 / be)
+	:nsubj (i2 / it)
+	:cop (b / be)
+	:advmod (j / just)
+	:case (w / with)
+	:nsubj (i / it)
+	:mark (a / as))

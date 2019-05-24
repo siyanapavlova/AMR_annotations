@@ -1,0 +1,20 @@
+(a / and
+	:op (w4 / wave
+		:advmod (t4 / then)
+		:advmod (b / back
+			:obl (w3 / wing
+				:case (i2 / into)))
+		:nsubj (t3 / they)
+		:aux (w / would)
+		:advmod (t / too))
+	:op (e / enter
+		:advmod (n / next)
+		:aux (w2 / would)
+		:obl (s2 / step
+			:poss (t2 / they)
+			:poss (d / dance
+				:case (i / in))
+			:case (f / for))
+		:nsubj (l / lamplighter
+			:poss (c / china
+				:case (o / of)))))

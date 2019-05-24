@@ -1,0 +1,11 @@
+(i / innocent
+	:cc (b2 / but)
+	:nsubj (y2 / you)
+	:cop (b / be)
+	:conj (t / true
+		:cc (a2 / and))
+	:conj (c / come
+		:nsubj (y / you)
+		:cc (a / and)
+		:obl (s / star
+			:case (f / from))))

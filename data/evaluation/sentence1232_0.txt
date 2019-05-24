@@ -1,0 +1,15 @@
+(a / and
+	:op (l / look
+		:nsubj (h / he)
+		:advmod (t2 / too)
+		:advmod (s / steadily)
+		:cc (b2 / but)
+		:obl (i / i
+			:case (a2 / at))
+		:ccomp (t3 / thirsty
+			:nsubj (i2 / i)
+			:cop (b / be)))
+	:op (r / reply
+		:time (t / thought
+			:case (t4 / to)
+			:poss (m / my))))

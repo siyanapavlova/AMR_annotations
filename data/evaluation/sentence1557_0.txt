@@ -1,0 +1,22 @@
+(l / look
+	:ccomp (s2 / sure
+		:mark (t4 / that)
+		:cop (b / be)
+		:xcomp (r / recognise
+			:obj (i / it)
+			:mark (t2 / to)
+			:manner (t / travel
+				:obl (d2 / day
+					:det (s3 / some))
+				:time (d / desert
+					:case (t3 / to)
+					:mod (a / african))
+				:mark (i3 / in
+					:fixed (c2 / case))
+				:nsubj (y / you)))
+		:aux (w / will)
+		:nsubj (y2 / you))
+	:advmod (s / so)
+	:obl (i2 / it
+		:case (a2 / at))
+	:advmod (c / carefully))

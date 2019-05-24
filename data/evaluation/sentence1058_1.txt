@@ -1,0 +1,8 @@
+(s / say-02
+	:ccomp (l2 / look
+		:aux (b / be)
+		:obl (m / man
+			:case (f / for))
+		:nsubj (i / i))
+	:ARG0 (p / prince
+		:mod (l / little)))

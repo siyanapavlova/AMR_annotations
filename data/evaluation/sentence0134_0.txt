@@ -1,3 +1,3 @@
 (s / so
-	:nsubj (t / that)
-	:cop (b / be))
+	:cop (b / be)
+	:nsubj (t / that))

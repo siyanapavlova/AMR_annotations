@@ -1,0 +1,21 @@
+(b / be
+	:parataxis (f2 / forget
+		:nsubj (i3 / i)
+		:manner (d / draw
+			:nsubj (i / i)
+			:obj (m / muzzle)
+			:mark (w / when)
+			:obl (p / prince
+				:case (f / for)
+				:mod (l2 / little)))
+		:xcomp (a / add
+			:obj (s / strap
+				:compound (l / leather))
+			:mark (t2 / to)
+			:time (i2 / it
+				:case (t3 / to))))
+	:nsubj (t4 / thing
+		:nummod (o / one)
+		:mod (e / extraordinary))
+	:cc (b2 / but)
+	:expl (t / there))

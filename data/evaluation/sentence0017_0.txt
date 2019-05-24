@@ -1,38 +1,38 @@
 (l / look
-	:nsubj (d / drawing
-		:poss (m / my)
-		:flat (n / number)
-		:flat (t / two))
-	:obl (t2 / this
+	:obl (t3 / this
 		:case (l2 / like))
+	:manner (i2 / inside
+		:mark (w / whether)
+		:case (f / from))
 	:appos (r / response
 		:poss (u / up
 			:mod (g / grow)
 			:case (' / 's)))
-	:obj (t4 / time
-		:det (t3 / this))
-	:parataxis (b / be
-		:manner (a / advise
-			:mark (t5 / to)
-			:obj (i / i)
+	:conj (d3 / devote-01
+		:obl (g3 / geography
+			:case (i / instead
+				:fixed (t5 / to)))
+		:cc (a2 / and)
+		:ARG1 (m2 / myself))
+	:nsubj (d / drawing
+		:poss (m4 / my)
+		:flat (t2 / two)
+		:flat (n / number))
+	:conj (a5 / arithmetic)
+	:parataxis (b2 / be-02
+		:manner (a3 / advise-01
+			:mark (t4 / to)
 			:xcomp (l3 / lay
-				:mark (t6 / to)
 				:obl (d2 / drawing
-					:case (a2 / aside)
-					:poss (m2 / my)
+					:case (a4 / aside)
+					:poss (m3 / my)
 					:poss (c / constrictor
-						:case (o / of)
-						:compound (b2 / boa))))))
-	:manner (i2 / inside
-		:mark (w / whether)
-		:case (f / from))
-	:conj (d3 / devote
-		:cc (a3 / and)
-		:obj (m3 / myself)
-		:obl (g2 / geography
-			:case (i3 / instead
-				:fixed (t7 / to))))
-	:conj (h / history)
-	:conj (a4 / arithmetic)
-	:conj (g3 / grammar
-		:cc (a5 / and)))
+						:case (o2 / of)
+						:compound (b / boa)))
+				:mark (t6 / to))
+			:ARG1 (m / me)))
+	:obj (t / time
+		:det (t7 / this))
+	:conj (g2 / grammar
+		:cc (a / and))
+	:conj (h / history))

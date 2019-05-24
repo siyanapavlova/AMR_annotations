@@ -1,0 +1,10 @@
+(b / but
+	:op (s / say-02
+		:discourse (y / yes)
+		:ARG0 (p / prince
+			:mod (l / little)))
+	:op (j / judge
+		:obj (m / myself)
+		:aux (c / can)
+		:advmod (a / anywhere)
+		:nsubj (i / i)))

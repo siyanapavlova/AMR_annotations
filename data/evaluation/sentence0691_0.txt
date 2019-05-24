@@ -1,0 +1,10 @@
+(b / be
+	:expl (t / there)
+	:nsubj (t2 / time
+		:det (n / no)
+		:poss (l / life
+			:case (i2 / in)
+			:poss (m / my))
+		:poss (d / dreaming
+			:mod (i / idle)
+			:case (f / for))))

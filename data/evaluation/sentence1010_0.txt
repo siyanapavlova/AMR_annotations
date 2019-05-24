@@ -1,0 +1,25 @@
+(a / and
+	:op (p2 / people
+		:det (a6 / all))
+	:op (s2 / say-01
+		:time (h / himself
+			:case (t3 / to))
+		:ARG0 (h2 / he)
+		:obl (m / mountain
+			:poss (h3 / high
+				:case (a5 / as))
+			:poss (o2 / one
+				:det (t2 / this)
+				:case (a3 / as))
+			:case (f / from))
+		:ARG1 (a2 / able
+			:aux (s3 / shall)
+			:nsubj (i / i)
+			:cop (b / be)
+			:xcomp (s / see
+				:obl (g / glance
+					:nummod (o / one)
+					:case (a4 / at))
+				:obj (p / planet
+					:mod (w / whole))
+				:mark (t / to)))))

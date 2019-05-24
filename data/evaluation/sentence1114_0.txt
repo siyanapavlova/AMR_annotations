@@ -1,0 +1,5 @@
+(s / say-01
+	:ARG0 (h / he)
+	:ARG1 (t / tame
+		:obj (i / i)
+		:discourse (p / please)))

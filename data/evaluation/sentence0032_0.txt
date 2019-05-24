@@ -1,6 +1,13 @@
 (o / or
-	:op (c / constrictor
-		:case (a / about)
-		:compound (b / boa))
-	:op (f / forest
-		:mod (p2 / primeval)))
+	:op (s / star)
+	:op (t2 / talk
+		:advmod (t4 / then)
+		:aux (w / would)
+		:time (p2 / person
+			:det (t3 / that)
+			:case (t / to))
+		:advmod (n / never)
+		:time (c / constrictor
+			:case (a / about)
+			:compound (b / boa))
+		:nsubj (i / i)))

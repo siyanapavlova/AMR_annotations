@@ -1,0 +1,4 @@
+(u / unhappy
+	:advmod (s / so)
+	:cop (b / be)
+	:nsubj (i / i))

@@ -1,0 +1,24 @@
+(c2 / cough
+	:manner (e / embarassed
+		:manner (h2 / have
+			:mark (o3 / over)
+			:xcomp (c / catch
+				:obl (v / verge
+					:poss (u / untruth
+						:compound (n / naïve)
+						:det (s2 / such)
+						:case (o / of))
+					:case (o2 / on))
+				:advmod (l / let)
+				:nsubj (h / herself))))
+	:manner (p / put
+		:mark (i2 / in
+			:fixed (o5 / order))
+		:obl (w / wrong
+			:case (i / in))
+		:mark (t3 / to)
+		:obj (p2 / prince
+			:mod (l2 / little)))
+	:obl (t2 / time
+		:nummod (t4 / two))
+	:nsubj (s / she))

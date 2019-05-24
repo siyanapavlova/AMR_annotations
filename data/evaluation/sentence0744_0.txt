@@ -1,0 +1,4 @@
+(p / poetic
+	:advmod (r / rather)
+	:cop (b / be)
+	:nsubj (i / it))

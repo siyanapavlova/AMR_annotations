@@ -1,0 +1,4 @@
+(w / worried
+	:cc (b2 / but)
+	:cop (b / be)
+	:nsubj (h / he))

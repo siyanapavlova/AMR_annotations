@@ -1,0 +1,3 @@
+(a / and
+	:op (l2 / loveliest)
+	:op (s / saddest))

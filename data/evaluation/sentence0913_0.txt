@@ -1,0 +1,11 @@
+(a / ask
+	:ccomp (a2 / advise
+		:obj (p / place
+			:det (w / what))
+		:aux (w2 / would)
+		:obj (i / i)
+		:xcomp (v / visit
+			:mark (t / to)
+			:advmod (n / now))
+		:nsubj (y / you))
+	:nsubj (h / he))

@@ -1,0 +1,21 @@
+(b2 / but
+	:op (b / be
+		:nsubj (w / what)
+		:manner (i2 / interest
+			:mark (t3 / to)
+			:advmod (m / much
+				:advmod (s3 / so))
+			:obj (y / you))
+		:obl (t / that
+			:case (i3 / in))
+		:expl (t2 / there))
+	:op (s5 / say-02
+		:ARG0 (p / prince
+			:mod (l / little)
+			:acl (s / shrugge
+				:advmod (s4 / slightly)
+				:obj (s2 / shoulder
+					:poss (h / he))))
+		:ccomp (a / admire
+			:nsubj (i / i)
+			:obj (y2 / you))))

@@ -1,10 +1,10 @@
 (l / like
+	:xcomp (t / take
+		:mark (t3 / to)
+		:obj (t2 / tone
+			:poss (m / moralist
+				:case (o / of))))
 	:nsubj (i / i)
-	:aux (d / do)
-	:advmod (m / much
+	:advmod (m2 / much
 		:advmod (n / not))
-	:xcomp (t2 / take
-		:mark (t / to)
-		:obj (t3 / tone
-			:poss (m2 / moralist
-				:case (o / of)))))
+	:aux (d / do))

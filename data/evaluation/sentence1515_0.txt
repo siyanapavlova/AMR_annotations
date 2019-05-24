@@ -1,0 +1,15 @@
+(h2 / have
+	:manner (p / protect
+		:obl (w / world
+			:case (a2 / against)
+			:det (a / all))
+		:obj (h / herself)
+		:mark (t / to))
+	:obj (t2 / thorn
+		:poss (u / use
+			:case (o / of)
+			:det (n / no)
+			:poss (a4 / all
+				:case (a3 / at)))
+		:nummod (f / four))
+	:nsubj (s / she))

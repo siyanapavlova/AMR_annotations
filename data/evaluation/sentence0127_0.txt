@@ -1,16 +1,16 @@
 (b / bury
-	:advmod (t / then)
-	:manner (t2 / take
-		:obj (s / sheep
-			:poss (m / my))
+	:manner (t3 / take
 		:obl (p / pocket
-			:case (o / out)
-			:case (o2 / of)
-			:poss (h / he)))
-	:nsubj (h2 / he)
-	:obj (h3 / himself)
+			:case (o3 / of)
+			:poss (h / he)
+			:case (o / out))
+		:obj (s / sheep
+			:poss (m / my)))
 	:obl (c / contemplation
 		:case (i / in)
-		:poss (t3 / treasure
-			:case (o3 / of)
-			:poss (h4 / he))))
+		:poss (t / treasure
+			:poss (h3 / he)
+			:case (o2 / of)))
+	:advmod (t2 / then)
+	:nsubj (h4 / he)
+	:obj (h2 / himself))

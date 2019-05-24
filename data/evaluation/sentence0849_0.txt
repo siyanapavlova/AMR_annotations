@@ -1,0 +1,6 @@
+(t / town
+	:conj (r / river
+		:cc (a / and))
+	:conj (d / desert
+		:cc (a3 / and))
+	:cc (a2 / and))

@@ -1,19 +1,19 @@
 (a / answer
-	:nsubj (h / he)
-	:obj (i / i)
-	:obl (o / once
-		:case (a2 / at))
-	:discourse (o2 / oh)
-	:conj (c / come)
-	:conj (c2 / come)
-	:manner (s / speak
-		:mark (a3 / as)
-		:mark (i2 / if)
-		:nsubj (h2 / he)
+	:nsubj (h2 / he)
+	:manner (s2 / speak
 		:aux (b / be)
-		:obl (s2 / something
-			:case (o3 / of)
+		:nsubj (h / he)
+		:obl (s / something
 			:acl (e / evident
-				:nsubj (t / that)
 				:cop (b2 / be)
-				:obl (s3 / self)))))
+				:obl (s3 / self)
+				:nsubj (t / that))
+			:case (o2 / of))
+		:mark (a2 / as)
+		:mark (i / if))
+	:conj (c2 / come)
+	:obj (i2 / i)
+	:conj (c / come)
+	:discourse (o3 / oh)
+	:obl (o / once
+		:case (a3 / at)))

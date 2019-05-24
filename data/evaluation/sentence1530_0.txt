@@ -1,0 +1,10 @@
+(b / but
+	:op (s / sad
+		:nsubj (i3 / i)
+		:cop (b3 / be))
+	:op (t2 / tell
+		:obj (t3 / they)
+		:nsubj (i2 / i)
+		:ccomp (t / tired
+			:nsubj (i / i)
+			:cop (b2 / be))))

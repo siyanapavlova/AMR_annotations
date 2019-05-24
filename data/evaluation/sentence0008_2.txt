@@ -1,0 +1,14 @@
+(w2 / work
+	:case (a2 / after)
+	:poss (p / pencil
+		:case (w / with)
+		:mod (c / color-01)
+		:acl (s2 / succeed
+			:manner (m2 / make-06
+				:ARG1 (d / drawing
+					:poss (m / my)
+					:mod (f / first))
+				:mark (i2 / in))
+			:nsubj (i / i)))
+	:cc (a / and)
+	:det (s / some))

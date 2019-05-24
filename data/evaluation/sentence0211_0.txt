@@ -1,15 +1,15 @@
 (w / way
-	:nsubj (i / it)
-	:cop (b / be)
-	:case (i2 / in)
-	:det (t / this)
 	:acl (h / hear
-		:obj (t2 / that)
-		:nsubj (i3 / i))
+		:obj (t3 / that)
+		:nsubj (i / i))
+	:cop (b / be)
+	:nsubj (i3 / it)
+	:case (i2 / in)
 	:obl (d / day
 		:case (o / on)
-		:mod (t3 / third))
+		:mod (t / third))
+	:det (t2 / this)
 	:poss (c / catastrophe
-		:case (a / about)
 		:poss (b2 / baobab
-			:case (o2 / of))))
+			:case (o2 / of))
+		:case (a / about)))

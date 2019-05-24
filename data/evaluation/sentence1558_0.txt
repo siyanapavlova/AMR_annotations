@@ -1,0 +1,13 @@
+(h / hurry
+	:manner (c / come
+		:mark (i / if)
+		:nsubj (y / you)
+		:obl (s2 / spot
+			:det (t / this)
+			:case (u / upon))
+		:aux (s / should))
+	:compound (o / on)
+	:cc (a / and)
+	:advmod (n / not)
+	:discourse (p / please)
+	:aux (d / do))

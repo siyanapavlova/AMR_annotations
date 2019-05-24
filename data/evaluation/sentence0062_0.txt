@@ -1,11 +1,11 @@
-(a4 / and
-	:op (m2 / mile
-		:nummod (t2 / thousand)
-		:poss (h2 / habitation
-			:case (f / from)
-			:det (a3 / any)
-			:mod (h / human)))
-	:op (d / danger
-		:case (i3 / in)
-		:poss (d2 / death
-			:case (o / of))))
+(a3 / and
+	:op (p / pocket
+		:case (o4 / of)
+		:poss (m4 / my)
+		:case (o / out)
+		:poss (s / sheet
+			:poss (p3 / paper
+				:case (o2 / of))))
+	:op (p2 / pen
+		:compound (f2 / fountain
+			:poss (m / my))))

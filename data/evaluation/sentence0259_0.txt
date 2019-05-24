@@ -1,3 +1,3 @@
 (s / simple
-	:nsubj (r / reply)
-	:cop (b / be))
+	:cop (b / be)
+	:nsubj (r / reply))

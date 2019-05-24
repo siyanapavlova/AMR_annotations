@@ -1,0 +1,5 @@
+(m / make
+	:cc (b / but)
+	:nsubj (s / she)
+	:obj (a / answer
+		:det (n / no)))

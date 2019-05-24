@@ -1,0 +1,11 @@
+(t / twin
+	:obj (h2 / himself)
+	:nsubj (h / he)
+	:obl (a / ankle
+		:case (a2 / around)
+		:poss (p / prince
+			:case (' / 's)
+			:mod (l2 / little)))
+	:obl (b / bracelet
+		:mod (g / golden)
+		:case (l / like)))

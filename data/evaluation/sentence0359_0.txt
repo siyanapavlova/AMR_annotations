@@ -1,0 +1,12 @@
+(s / say-01
+	:time (h / he
+		:case (t2 / to))
+	:ARG1 (d / danger
+		:nsubj (f / flower
+			:acl (l / love
+				:nsubj (y / you)
+				:obj (t / that)))
+		:advmod (n / not)
+		:case (i / in)
+		:cop (b / be))
+	:ARG0 (i2 / i))

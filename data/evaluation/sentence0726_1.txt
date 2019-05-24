@@ -1,0 +1,7 @@
+(s / say-02
+	:ccomp (t / true
+		:nsubj (t2 / that)
+		:discourse (y / yes)
+		:cop (b / be))
+	:ARG0 (p / prince
+		:mod (l / little)))

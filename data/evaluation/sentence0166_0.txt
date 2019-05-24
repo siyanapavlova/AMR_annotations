@@ -2,6 +2,6 @@
 	:advmod (i / instead)
 	:nsubj (t / they)
 	:ccomp (o / old
+		:nsubj (h2 / he)
 		:advmod (h / how)
-		:cop (b / be)
-		:nsubj (h2 / he)))
+		:cop (b / be)))

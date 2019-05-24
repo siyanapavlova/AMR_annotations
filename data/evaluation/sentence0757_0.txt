@@ -1,0 +1,5 @@
+(a / and
+	:op (l2 / lamp
+		:case (f / for)
+		:compound (s / street))
+	:op (l / lamplighter))

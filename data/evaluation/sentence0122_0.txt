@@ -1,4 +1,4 @@
 (w / which
-	:cop (b / be)
 	:nsubj (p / planet
-		:poss (y / you)))
+		:poss (y / you))
+	:cop (b / be))

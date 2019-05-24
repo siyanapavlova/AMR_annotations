@@ -1,0 +1,11 @@
+(c / come
+	:cc (b / but)
+	:time (l2 / life
+		:case (t / to))
+	:nsubj (v / volcanoe
+		:mod (e / extinct))
+	:advmod (a / again)
+	:obj (p / prince
+		:acl (i / interrupt)
+		:mod (l / little))
+	:aux (m / may))

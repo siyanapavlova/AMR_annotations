@@ -1,0 +1,17 @@
+(r2 / responsible
+	:manner (s / sure
+		:cop (b / be)
+		:aux (w / would)
+		:mark (s2 / so
+			:fixed (t / that))
+		:xcomp (r / remember
+			:mark (t2 / to))
+		:nsubj (h / he))
+	:nsubj (i / i)
+	:appos (p / prince
+		:acl (r4 / repeat)
+		:mod (l / little))
+	:cop (b2 / be)
+	:obl (r3 / rose
+		:poss (m / my)
+		:case (f / for)))

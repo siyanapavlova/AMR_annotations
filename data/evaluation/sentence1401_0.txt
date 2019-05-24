@@ -1,0 +1,4 @@
+(h / have
+	:nsubj (i / i)
+	:obj (s / sheep
+		:poss (y / you)))

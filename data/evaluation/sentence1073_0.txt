@@ -1,0 +1,19 @@
+(n / nothing
+	:cop (b3 / be)
+	:amod (m / more
+		:obl (b2 / boy
+			:case (t2 / than)
+			:mod (l / little)))
+	:acl (b / boy
+		:nummod (t3 / thousand
+			:nummod (h / hundred))
+		:nsubj (w / who)
+		:cop (b4 / be)
+		:mod (l2 / little)
+		:advmod (j / just)
+		:mod (o / other)
+		:case (l3 / like))
+	:nsubj (y / you)
+	:time (i / i
+		:case (t / to))
+	:advmod (s / still))

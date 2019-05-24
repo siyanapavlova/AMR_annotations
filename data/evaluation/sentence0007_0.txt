@@ -1,8 +1,8 @@
-(p / ponder
-	:nsubj (i / i)
-	:advmod (d / deeply)
-	:advmod (t / then)
+(p / ponder-01
 	:obl (a / adventure
-		:case (o / over)
 		:poss (j / jungle
-			:case (o2 / of))))
+			:case (o2 / of))
+		:case (o / over))
+	:ARG0 (i / i)
+	:advmod (t / then)
+	:advmod (d / deeply))

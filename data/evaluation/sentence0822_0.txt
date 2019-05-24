@@ -1,0 +1,7 @@
+(s / small
+	:cop (b / be)
+	:nsubj (p / planet
+		:poss (h / he))
+	:advmod (t / too)
+	:advmod (i / indeed)
+	:cc (b2 / but))

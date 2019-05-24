@@ -1,0 +1,13 @@
+(b2 / but
+	:op (v / visit
+		:cop (b / be)
+		:nsubj (t / this)
+		:mod (s / short
+			:advmod (v2 / very)))
+	:op (p / plunge
+		:obj (p2 / prince
+			:mod (l / little))
+		:nsubj (i / it)
+		:obl (d / dejection
+			:mod (d2 / deep)
+			:case (i2 / into))))

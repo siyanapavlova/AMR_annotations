@@ -1,18 +1,18 @@
 (b / become
-	:cc (a / and)
-	:manner (f / forget
-		:mark (i / if)
-		:nsubj (i2 / i)
-		:obj (h / he))
-	:nsubj (i3 / i)
-	:aux (m / may)
+	:cc (a2 / and)
 	:obl (u / up
-		:case (l / like)
-		:mod (g / grow)
 		:acl (i4 / interested
-			:nsubj (w / who)
-			:cop (b2 / be)
 			:advmod (l2 / longer
 				:advmod (n / no))
-			:obl (a2 / anything
-				:case (i5 / in)))))
+			:nsubj (w / who)
+			:cop (b3 / be)
+			:obl (a / anything
+				:case (i3 / in)))
+		:case (l / like)
+		:mod (g / grow))
+	:aux (m / may)
+	:nsubj (i5 / i)
+	:manner (f2 / forget
+		:mark (i / if)
+		:obj (h / he)
+		:nsubj (i2 / i)))

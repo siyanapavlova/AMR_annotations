@@ -1,7 +1,7 @@
 (l / little
 	:advmod (p / perhaps)
-	:nsubj (i / i)
 	:cop (b / be)
 	:poss (u / up
 		:case (l2 / like)
-		:mod (g / grow)))
+		:mod (g / grow))
+	:nsubj (i / i))

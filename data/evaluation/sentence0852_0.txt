@@ -1,0 +1,3 @@
+(s / say-02
+	:ARG0 (g / geographer)
+	:advmod (e / exactly))

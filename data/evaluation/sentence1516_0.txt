@@ -1,0 +1,14 @@
+(s2 / sit
+	:advmod (t2 / too)
+	:compound (d / down)
+	:nsubj (i2 / i)
+	:manner (a2 / able
+		:cop (b / be)
+		:mark (b2 / because)
+		:nsubj (i / i)
+		:advmod (n / not)
+		:xcomp (s / stand
+			:advmod (l / longer
+				:advmod (a / any))
+			:compound (u / up)
+			:mark (t / to))))

@@ -1,0 +1,7 @@
+(s / say-01
+	:ARG1 (b / beautiful
+		:nsubj (p / planet
+			:poss (y / you))
+		:cop (b2 / be)
+		:advmod (v / very))
+	:ARG0 (h / he))

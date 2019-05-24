@@ -1,0 +1,11 @@
+(a / and
+	:op (m / make
+		:obj (l / life
+			:poss (t3 / they))
+		:nsubj (t2 / that)
+		:xcomp (d / difficult
+			:advmod (v / very)))
+	:op (h / have
+		:nsubj (t / they)
+		:obj (r / root
+			:det (n / no))))

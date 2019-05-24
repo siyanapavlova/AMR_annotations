@@ -1,0 +1,8 @@
+(a / add
+	:advmod (t / then)
+	:parataxis (l2 / linger
+		:obl (t2 / this
+			:case (l / like))
+		:aux (d / do)
+		:advmod (n / not))
+	:nsubj (s / she))

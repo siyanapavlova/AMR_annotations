@@ -1,12 +1,12 @@
 (o / order
+	:nsubj (i / i)
 	:obj (y / you)
-	:nsubj (i2 / i)
+	:xcomp (a2 / ask
+		:iobj (i2 / i)
+		:mark (t / to)
+		:obj (q / question))
 	:ccomp (h2 / hasten
-		:xcomp (a2 / assure
+		:nsubj (k / king)
+		:xcomp (a / assure
 			:mark (t2 / to)
-			:obj (h / he))
-		:nsubj (k / king))
-	:xcomp (a / ask
-		:obj (q / question)
-		:iobj (i / i)
-		:mark (t / to)))
+			:obj (h / he))))

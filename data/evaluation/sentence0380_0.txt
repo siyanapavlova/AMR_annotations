@@ -1,0 +1,14 @@
+(r / radiance
+	:cop (b / be)
+	:advmod (o2 / only)
+	:case (i / in)
+	:mod (f / full)
+	:nsubj (i2 / it)
+	:manner (w / wish
+		:xcomp (a / appear
+			:mark (t / to))
+		:mark (t2 / that)
+		:nsubj (s / she))
+	:poss (b2 / beauty
+		:case (o / of)
+		:poss (s2 / she)))

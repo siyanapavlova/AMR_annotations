@@ -1,0 +1,19 @@
+(t3 / think
+	:obj (r2 / rose
+		:acl (b2 / belong
+			:time (i / i
+				:case (t2 / to))
+			:nsubj (t / that)))
+	:aux (w / would)
+	:manner (s / sure
+		:mark (t5 / to)
+		:cop (b / be))
+	:ccomp (l / look
+		:mark (t4 / that)
+		:nsubj (r / rose
+			:poss (m / my))
+		:obl (y / you
+			:advmod (j / just)
+			:case (l2 / like)))
+	:nsubj (p / passerby
+		:mod (o / ordinary)))

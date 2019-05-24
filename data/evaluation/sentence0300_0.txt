@@ -1,15 +1,15 @@
-(h / have
+(h2 / have
+	:nsubj (i2 / i)
 	:cc (a / and)
-	:nsubj (i / i)
 	:obj (l2 / left
+		:compound (w2 / water
+			:compound (d / drink))
 		:mod (l / little
 			:advmod (s / so))
-		:compound (w / water
-			:compound (d / drink))
-		:acl (h2 / have
+		:acl (h / have
 			:obj (t / that)
-			:nsubj (i2 / i)
+			:nsubj (i / i)
 			:xcomp (f / fear
 				:mark (t2 / to)
-				:obl (w2 / worst
+				:obl (w / worst
 					:case (f2 / for))))))

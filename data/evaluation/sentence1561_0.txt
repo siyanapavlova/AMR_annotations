@@ -1,0 +1,7 @@
+(c / comfort
+	:manner (h / happen
+		:aux (s / should)
+		:nsubj (t / this)
+		:mark (i / if))
+	:obj (i2 / i)
+	:discourse (p / please))

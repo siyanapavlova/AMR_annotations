@@ -1,0 +1,7 @@
+(a / ask
+	:nsubj (m / million
+		:compound (h / hundred)
+		:compound (f / five)
+		:obj (w / what))
+	:obj (p / prince
+		:mod (l / little)))

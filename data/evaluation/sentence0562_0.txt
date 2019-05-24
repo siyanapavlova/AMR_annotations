@@ -1,0 +1,9 @@
+(s2 / set
+	:nsubj (i / i)
+	:advmod (a / again)
+	:compound (o2 / out)
+	:aux (s3 / shall)
+	:obl (w / way
+		:poss (m / my)
+		:case (o / on))
+	:advmod (s / so))

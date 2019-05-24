@@ -1,0 +1,7 @@
+(a / and
+	:op (m2 / million
+		:det (a2 / all)
+		:case (i / in))
+	:op (m / million
+		:poss (s4 / star
+			:case (o4 / of))))

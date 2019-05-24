@@ -1,0 +1,15 @@
+(s / say-01
+	:ARG0 (m / monarch)
+	:ARG1 (c / contrary
+		:csubj (e / etiquette
+			:mark (t / to)
+			:xcomp (y / yawn
+				:mark (t3 / to)
+				:obl (p / presence
+					:case (i2 / in)
+					:poss (k / king
+						:case (o / of)))))
+		:expl (i / it)
+		:cop (b / be))
+	:time (h / he
+		:case (t2 / to)))

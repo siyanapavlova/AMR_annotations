@@ -1,0 +1,8 @@
+(d / depend
+	:aux (w / will)
+	:obl (j / justice
+		:case (o / on)
+		:poss (y / you))
+	:nsubj (l / life
+		:poss (h / he))
+	:advmod (t / thus))

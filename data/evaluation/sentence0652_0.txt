@@ -1,0 +1,5 @@
+(g / go
+	:aux (h / have)
+	:nsubj (c / cigarette
+		:poss (y / you))
+	:compound (o / out))

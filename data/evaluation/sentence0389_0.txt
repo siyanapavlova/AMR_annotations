@@ -1,0 +1,9 @@
+(r / restrain
+	:advmod (n / not)
+	:cc (b / but)
+	:nsubj (p / prince
+		:mod (l / little))
+	:obj (a / admiration
+		:poss (h / he))
+	:aux (c / could)
+	:discourse (o / oh))

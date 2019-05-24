@@ -1,0 +1,20 @@
+(a / and
+	:op (h / hoist
+		:parataxis (h2 / happy
+			:manner (t / tired
+				:manner (a3 / achievement
+					:case (o2 / over)
+					:poss (m / my)
+					:cop (b / be)
+					:nsubj (i2 / i)
+					:mark (a2 / as))))
+		:nsubj (i3 / i)
+		:obj (b2 / bucket)
+		:advmod (s2 / slowly
+			:time (e / edge
+				:case (t2 / to)
+				:poss (w / well
+					:case (o / of)))))
+	:op (s / set
+		:obj (i / it)
+		:advmod (t3 / there)))

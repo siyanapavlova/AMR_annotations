@@ -1,0 +1,4 @@
+(b / blow
+	:obj (t / they)
+	:nsubj (w / wind)
+	:advmod (a / away))

@@ -1,0 +1,18 @@
+(a / and
+	:op (l / look-01
+		:obl (t3 / this
+			:case (l2 / like))
+		:nsubj (i / it)
+		:parataxis (s / show
+			:nsubj (i2 / i)
+			:time (u / up
+				:mod (g / grow)
+				:case (t2 / to))
+			:obj (m2 / masterpiece
+				:poss (m / my))))
+	:op (a2 / ask-01
+		:ARG1 (f / frighten
+			:obj (t4 / they)
+			:nsubj (d / drawing)
+			:mark (w / whether))
+		:ARG1 (t / them)))

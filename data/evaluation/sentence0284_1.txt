@@ -1,13 +1,13 @@
-(s / say-02
+(s3 / say-02
+	:ARG0 (y / you)
+	:time (i2 / i
+		:case (t2 / to))
 	:ccomp (d / day
 		:nummod (o / one))
-	:ARG0 (y / you)
-	:time (i / i
-		:case (t / to))
-	:ccomp (s2 / see
-		:nsubj (i2 / i)
-		:obj (s3 / sunset
+	:ccomp (s / see
+		:nsubj (i / i)
+		:obj (s2 / sunset
 			:nummod (f / forty
-				:poss (t2 / time
-					:case (- / -)
-					:nummod (f2 / four))))))
+				:poss (t / time
+					:nummod (f2 / four)
+					:case (- / -))))))

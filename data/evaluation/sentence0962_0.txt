@@ -1,0 +1,5 @@
+(s / say-01
+	:ARG0 (s2 / snake)
+	:ARG1 (b2 / beautiful
+		:cop (b / be)
+		:nsubj (i / it)))

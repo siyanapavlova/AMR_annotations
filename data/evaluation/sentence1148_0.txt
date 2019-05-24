@@ -1,0 +1,15 @@
+(b / but
+	:op (w / wish
+		:nsubj (i2 / i)
+		:obj (s / sort
+			:det (a / any)
+			:poss (h / harm
+				:case (o / of)))
+		:advmod (n / never)
+		:iobj (y2 / you))
+	:op (w2 / want
+		:xcomp (t / tame
+			:mark (t2 / to)
+			:obj (y3 / you))
+		:obj (i / i)
+		:nsubj (y / you)))

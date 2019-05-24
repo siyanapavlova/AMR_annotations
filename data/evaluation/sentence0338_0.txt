@@ -1,8 +1,8 @@
-(m / man
-	:cc (b / but)
-	:nsubj (h / he)
+(m2 / man
 	:cop (b2 / be)
+	:cc (b3 / but)
 	:advmod (n / not)
-	:parataxis (m2 / mushroom
-		:nsubj (h2 / he)
-		:cop (b3 / be)))
+	:nsubj (h / he)
+	:parataxis (m / mushroom
+		:cop (b / be)
+		:nsubj (h2 / he)))

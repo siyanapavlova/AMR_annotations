@@ -1,16 +1,16 @@
-(a2 / and
-	:op (u2 / understand
-		:nsubj (u / up
-			:mod (g / grow))
-		:advmod (n / never)
-		:obj (a / anything
-			:poss (t / themselves
-				:case (b / by))))
-	:op (t2 / tiresome
+(a / and
+	:op (t3 / tiresome
 		:expl (i / it)
-		:cop (b2 / be)
-		:manner (a3 / always
+		:manner (a2 / always
+			:mark (t4 / to)
 			:mark (f / for)
-			:nsubj (c / child)
-			:mark (t3 / to)
-			:cop (b3 / be))))
+			:cop (b / be)
+			:nsubj (c / child))
+		:cop (b2 / be))
+	:op (u / understand
+		:obj (a3 / anything
+			:poss (t5 / themselves
+				:case (b3 / by)))
+		:nsubj (u2 / up
+			:mod (g / grow))
+		:advmod (n / never)))

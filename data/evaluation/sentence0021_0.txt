@@ -1,11 +1,11 @@
-(a2 / and
-	:op (c / choose
+(a / and
+	:op (c / choose-01
 		:advmod (s / so)
-		:advmod (t / then)
-		:nsubj (i / i)
-		:obj (p / profession
-			:det (a / another)))
+		:ARG0 (i / i)
+		:advmod (t2 / then)
+		:ARG1 (p2 / profession
+			:det (a3 / another)))
 	:op (l / learn
-		:xcomp (p2 / pilot
-			:mark (t2 / to)
-			:obj (a3 / airplane))))
+		:xcomp (p / pilot
+			:obj (a2 / airplane)
+			:mark (t / to))))

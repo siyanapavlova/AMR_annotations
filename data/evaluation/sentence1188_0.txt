@@ -1,0 +1,17 @@
+(s2 / shake
+	:nsubj (t2 / train
+		:mod (e / express)
+		:mod (l2 / light
+			:advmod (b2 / brilliantly)))
+	:manner (r / rush
+		:obl (r2 / roar
+			:poss (t / thunder
+				:case (l / like))
+			:case (b / by)
+			:case (w / with))
+		:mark (a / as)
+		:nsubj (i / it))
+	:cc (a2 / and)
+	:obj (c / cabin
+		:poss (s / switchman
+			:case (' / 's))))

@@ -1,7 +1,8 @@
-(s / say-02
-	:ARG0 (i / i)
-	:ccomp (w2 / wander
-		:nsubj (h / he)
-		:aux (w / will)
+(a / and
+	:op (w / wander
 		:compound (o / off)
-		:advmod (s2 / somewhere)))
+		:aux (w2 / will)
+		:advmod (s / somewhere)
+		:nsubj (h / he))
+	:op (g / get
+		:xcomp (l / lost)))

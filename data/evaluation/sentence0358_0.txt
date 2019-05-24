@@ -1,0 +1,9 @@
+(a / and
+	:op (r / rock
+		:obj (h / he))
+	:op (t / take
+		:nsubj (i / i)
+		:obj (h2 / he)
+		:obl (a2 / arm
+			:case (i2 / in)
+			:poss (m / my))))

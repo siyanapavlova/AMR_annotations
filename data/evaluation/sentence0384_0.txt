@@ -1,0 +1,10 @@
+(s / show
+	:obl (m / morning
+		:poss (s2 / sunrise
+			:case (a / at)
+			:advmod (e / exactly))
+		:advmod (t / then)
+		:nummod (o / one))
+	:advmod (s4 / suddenly)
+	:nsubj (s3 / she)
+	:obj (h / herself))

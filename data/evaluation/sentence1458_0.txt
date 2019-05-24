@@ -1,0 +1,7 @@
+(w2 / want
+	:aux (w3 / will)
+	:xcomp (l / laugh
+		:mark (t / to)
+		:obl (i / i
+			:case (w / with)))
+	:nsubj (y / you))

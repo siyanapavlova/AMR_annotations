@@ -1,0 +1,6 @@
+(l2 / let
+	:xcomp (l / look
+		:obl (a / a
+			:case (f / for)
+			:advmod (w2 / well)))
+	:obj (w / we))

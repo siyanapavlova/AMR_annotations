@@ -1,0 +1,13 @@
+(a / and
+	:op (l4 / look
+		:obj (l2 / little
+			:poss (h / horn
+				:case (l / like)))
+		:nsubj (f / fox
+			:poss (y / you)
+			:nsubj (e / ear
+				:poss (h2 / he))))
+	:op (l3 / long
+		:nsubj (t2 / they)
+		:cop (b / be)
+		:advmod (t / too)))

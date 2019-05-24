@@ -1,4 +1,4 @@
 (o / object
-	:nsubj (t / that)
+	:advmod (n / not)
 	:cop (b / be)
-	:advmod (n / not))
+	:nsubj (t / that))

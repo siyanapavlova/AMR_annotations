@@ -1,0 +1,5 @@
+(i / interest
+	:mod (o / only)
+	:nsubj (t2 / these)
+	:poss (t / they)
+	:cop (b / be))

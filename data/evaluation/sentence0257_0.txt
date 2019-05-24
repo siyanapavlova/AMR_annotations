@@ -1,16 +1,16 @@
-(w2 / worth
+(w / worth
 	:nsubj (l / lesson
 		:acl (p / pass
-			:obj (w / which)
-			:nsubj (i / i)
+			:nsubj (i3 / i)
 			:advmod (o / on)
+			:obj (w2 / which)
 			:obl (m / mean
-				:case (b / by)
-				:det (t / this))))
-	:cop (b2 / be)
-	:obj (t2 / trouble
+				:det (t2 / this)
+				:case (b2 / by))))
+	:cop (b / be)
+	:obj (t / trouble
 		:det (a / all))
 	:ccomp (c / cost
 		:nsubj (i2 / it)
-		:aux (h / have)
-		:obj (i3 / i)))
+		:obj (i / i)
+		:aux (h / have)))

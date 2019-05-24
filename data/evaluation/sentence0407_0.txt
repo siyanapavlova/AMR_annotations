@@ -1,0 +1,11 @@
+(w / want
+	:xcomp (p / put
+		:mark (t / to)
+		:obl (g / globe
+			:case (u / under)
+			:compound (g2 / glass))
+		:obj (i / i))
+	:obl (n / night
+		:case (a / at))
+	:obj (y / you)
+	:nsubj (i2 / i))

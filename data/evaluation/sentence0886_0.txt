@@ -1,0 +1,8 @@
+(a / and
+	:op (a2 / active
+		:cop (b / be)
+		:nsubj (v / volcanoe
+			:nummod (t / two)))
+	:op (e / extinct
+		:cop (b2 / be)
+		:nsubj (o / other)))

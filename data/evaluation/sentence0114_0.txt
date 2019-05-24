@@ -1,5 +1,5 @@
-(d / drop
-	:nsubj (y / you)
-	:advmod (d2 / down)
+(d / drop-07
 	:obl (s / sky
-		:case (f / from)))
+		:case (f / from))
+	:ARG0 (y / you)
+	:advmod (d2 / down))

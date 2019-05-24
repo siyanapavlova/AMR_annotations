@@ -1,0 +1,4 @@
+(s / say-02
+	:time (m / myself
+		:case (t / to))
+	:ARG0 (i / i))

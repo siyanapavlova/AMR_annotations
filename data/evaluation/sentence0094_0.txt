@@ -1,14 +1,14 @@
-(t / think
-	:aux (d / do)
-	:nsubj (y / you)
-	:ccomp (h / have
-		:mark (t2 / that)
-		:nsubj (s / sheep
-			:det (t3 / this))
+(t4 / think
+	:aux (d2 / do)
+	:ccomp (h2 / have
+		:xcomp (h / have
+			:mark (t / to)
+			:obj (d / deal
+				:mod (g2 / great)
+				:poss (g / grass
+					:case (o / of))))
+		:mark (t3 / that)
 		:aux (w / will)
-		:xcomp (h2 / have
-			:mark (t4 / to)
-			:obj (d2 / deal
-				:mod (g / great)
-				:poss (g2 / grass
-					:case (o / of))))))
+		:nsubj (s / sheep
+			:det (t2 / this)))
+	:nsubj (y / you))

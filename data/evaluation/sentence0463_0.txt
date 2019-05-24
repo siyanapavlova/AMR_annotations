@@ -1,0 +1,8 @@
+(t2 / try
+	:parataxis (l / let
+		:obj (b / be
+			:compound (g2 / globe
+				:compound (g / glass))))
+	:xcomp (h / happy
+		:cop (b2 / be)
+		:mark (t / to)))

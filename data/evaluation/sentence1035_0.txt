@@ -1,0 +1,16 @@
+(t2 / tell
+	:nsubj (f / flower
+		:poss (h3 / he))
+	:aux (h2 / have)
+	:obj (h / he)
+	:ccomp (o2 / one
+		:cop (b / be)
+		:mark (t / that)
+		:nsubj (s2 / she)
+		:poss (u / universe
+			:case (i / in)
+			:det (a / all))
+		:mod (o3 / only)
+		:poss (k / kind
+			:poss (s / she)
+			:case (o / of))))

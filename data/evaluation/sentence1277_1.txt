@@ -1,0 +1,22 @@
+(b2 / but
+	:op (k / know
+		:ccomp (l2 / look
+			:obl (f / for)
+			:obj (w2 / what)
+			:nsubj (t4 / they)
+			:aux (b / be))
+		:advmod (n / not)
+		:aux (d / do)
+		:nsubj (t / they))
+	:op (s2 / say-02
+		:ccomp (m / man)
+		:ccomp (s / set
+			:obl (w / way
+				:poss (t3 / they)
+				:case (o / on))
+			:obl (t2 / train
+				:case (i / in)
+				:mod (e / express))
+			:compound (o2 / out)
+			:nsubj (p / prince
+				:mod (l / little)))))

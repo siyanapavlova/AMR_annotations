@@ -1,5 +1,5 @@
 (s / sad
 	:csubj (f / forget
-		:mark (t / to)
-		:obj (f2 / friend))
+		:obj (f2 / friend)
+		:mark (t / to))
 	:cop (b / be))

@@ -1,0 +1,8 @@
+(s2 / say-02
+	:ccomp (p / pursue
+		:aux (b / be)
+		:obl (a / all
+			:case (a2 / at))
+		:nsubj (t / they)
+		:obj (n / nothing))
+	:ARG0 (s / switchman))

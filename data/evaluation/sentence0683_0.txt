@@ -1,0 +1,13 @@
+(s4 / say-01
+	:ARG0 (h / he)
+	:ARG1 (m / million
+		:poss (o2 / object
+			:mod (l / little)
+			:case (o3 / of)
+			:det (t / those)))
+	:acl (s3 / see
+		:obl (s / sky
+			:case (i / in))
+		:nsubj (o / one)
+		:nsubj (w / which)
+		:advmod (s2 / sometimes)))

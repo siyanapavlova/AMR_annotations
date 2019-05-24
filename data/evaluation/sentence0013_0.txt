@@ -1,7 +1,7 @@
 (p / picture
-	:nsubj (d / drawing
-		:poss (m / my))
-	:cop (b / be)
 	:advmod (n / not)
 	:poss (h / hat
-		:case (o / of)))
+		:case (o / of))
+	:cop (b / be)
+	:nsubj (d / drawing
+		:poss (m / my)))

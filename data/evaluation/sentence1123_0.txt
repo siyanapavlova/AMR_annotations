@@ -1,0 +1,10 @@
+(a / ask
+	:obj (p / prince
+		:mod (l / little))
+	:ccomp (d / do
+		:obj (w / what)
+		:manner (t2 / tame
+			:mark (t / to)
+			:obj (y / you))
+		:aux (m / must)
+		:nsubj (i / i)))

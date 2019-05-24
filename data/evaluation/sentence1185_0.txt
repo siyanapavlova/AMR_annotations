@@ -1,0 +1,8 @@
+(d / do
+	:aux (d2 / do)
+	:advmod (h / here)
+	:nsubj (y / you)
+	:obj (w / what)
+	:obj (p / prince
+		:mod (l / little)
+		:acl (a / ask)))

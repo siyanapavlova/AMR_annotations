@@ -1,10 +1,6 @@
-(d / dishearten
-	:nsubj (i / i)
-	:aux (h / have)
-	:obl (f / failure
-		:case (b / by)
-		:poss (n / number
-			:case (o / of)
-			:poss (m / my)
-			:compound (d2 / drawing)
-			:nummod (o2 / one))))
+(a / and
+	:op (o2 / one)
+	:op (d3 / drawing
+		:nsubj (m2 / my)
+		:obj (n2 / number
+			:flat (t / two))))

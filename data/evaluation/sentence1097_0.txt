@@ -1,0 +1,6 @@
+(h2 / hunt
+	:obj (c / chicken)
+	:nsubj (i / i)
+	:parataxis (h / hunt
+		:obj (i2 / i)
+		:nsubj (m / man)))

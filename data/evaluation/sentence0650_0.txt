@@ -1,0 +1,19 @@
+(o / occupy
+	:nsubj (m2 / man
+		:det (t / this))
+	:advmod (m / much
+		:advmod (s / so))
+	:ccomp (r / raise
+		:nsubj (h2 / he)
+		:obl (a / arrival
+			:poss (p / prince
+				:case (' / 's)
+				:mod (l / little))
+			:case (a2 / at))
+		:advmod (n / not)
+		:aux (d / do)
+		:obj (h / head
+			:poss (h3 / he))
+		:mark (t2 / that)
+		:advmod (e / even))
+	:cop (b / be))

@@ -1,7 +1,7 @@
 (t / tie
-	:cc (b / but)
 	:mark (i / if)
-	:nsubj (y / you)
-	:aux (d / do)
 	:advmod (n / not)
+	:aux (d / do)
+	:nsubj (y / you)
+	:cc (b / but)
 	:obj (h / he))

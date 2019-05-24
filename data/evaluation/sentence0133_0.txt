@@ -1,27 +1,27 @@
-(a2 / answer
-	:obl (s / silence
-		:case (a / after)
-		:mod (r / reflective))
-	:nsubj (h / he)
-	:parataxis (b3 / be
+(a5 / answer
+	:obl (s2 / silence
+		:mod (r / reflective)
+		:case (a4 / after))
+	:parataxis (b / be
 		:nsubj (t / thing
 			:acl (g / good
-				:nsubj (t2 / that)
-				:cop (b / be)
-				:advmod (s2 / so)
+				:nsubj (t3 / that)
+				:cop (b3 / be)
 				:time (b2 / box
-					:case (a3 / about)
-					:acl (g2 / give-01
-						:ARG0 (y / you)
-						:aux (h2 / have)
-						:iobj (i / i)))))
+					:acl (g2 / give
+						:iobj (i2 / i)
+						:aux (h4 / have)
+						:nsubj (y / you))
+					:case (a2 / about))
+				:advmod (s / so)))
 		:ccomp (u / use
-			:mark (t3 / that)
-			:obl (n / night
-				:case (a4 / at))
+			:obj (i / it)
+			:mark (t2 / that)
 			:nsubj (h3 / he)
-			:aux (c / can)
-			:obj (i2 / it)
-			:obl (h5 / house
-				:case (a5 / as)
-				:poss (h4 / he)))))
+			:obl (h2 / house
+				:case (a / as)
+				:poss (h5 / he))
+			:obl (n / night
+				:case (a3 / at))
+			:aux (c / can)))
+	:nsubj (h / he))

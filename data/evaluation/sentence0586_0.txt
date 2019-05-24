@@ -1,0 +1,6 @@
+(j / judge
+	:nsubj (y / you)
+	:obj (r / rat
+		:det (t / this)
+		:mod (o / old))
+	:aux (c / can))

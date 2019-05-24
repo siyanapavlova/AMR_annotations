@@ -1,0 +1,5 @@
+(c / comfort
+	:mark (w / when)
+	:cc (a / and)
+	:nsubj (s / sorrow
+		:poss (y / you)))

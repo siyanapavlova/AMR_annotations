@@ -1,0 +1,12 @@
+(s / say-01
+	:advmod (m / merely)
+	:ARG0 (h2 / he)
+	:time (i / i
+		:case (t / to))
+	:ARG1 (g / good
+		:nsubj (w / water)
+		:obl (h / heart
+			:case (f / for))
+		:advmod (a / also)
+		:aux (m2 / may)
+		:cop (b / be)))

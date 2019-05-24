@@ -1,0 +1,5 @@
+(a / and
+	:op (e / ermine)
+	:op (p / purple
+		:case (i / in)
+		:mod (r / royal)))

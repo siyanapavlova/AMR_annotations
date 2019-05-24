@@ -1,0 +1,12 @@
+(r / regulate
+	:nsubj (m / movement
+		:poss (a / army
+			:case (o3 / of)
+			:det (t2 / this)))
+	:aux (w / would)
+	:obl (t / those
+		:poss (b / ballet
+			:poss (o2 / opera
+				:case (i / in))
+			:case (o / of))
+		:case (l / like)))

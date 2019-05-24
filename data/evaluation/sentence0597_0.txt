@@ -1,0 +1,8 @@
+(s / seem
+	:ccomp (f / favorable
+		:nsubj (c / condition)
+		:cop (b / be)
+		:mark (t / that))
+	:time (i2 / i
+		:case (t2 / to))
+	:nsubj (i / it))

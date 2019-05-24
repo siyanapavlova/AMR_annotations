@@ -1,0 +1,13 @@
+(s / say-01
+	:ARG1 (d / do
+		:xcomp (g / good)
+		:nsubj (i2 / it)
+		:iobj (i / i)
+		:aux (h / have))
+	:ARG0 (f / fox)
+	:obl (c / color
+		:case (b / because
+			:fixed (o / of))
+		:poss (f2 / field
+			:mod (w / wheat)
+			:case (o2 / of))))

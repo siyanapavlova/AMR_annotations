@@ -1,0 +1,11 @@
+(s / seem
+	:ccomp (c / carry
+		:nsubj (i2 / i)
+		:aux (b / be)
+		:mark (t / that)
+		:obj (t2 / treasure
+			:mod (f / fragile
+				:advmod (v / very))))
+	:nsubj (i / it)
+	:time (i3 / i
+		:case (t3 / to)))

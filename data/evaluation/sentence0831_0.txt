@@ -1,0 +1,5 @@
+(a / and
+	:op (m / much
+		:advmod (s / so))
+	:op (f / far
+		:advmod (s2 / so)))

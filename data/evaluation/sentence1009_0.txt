@@ -1,0 +1,7 @@
+(u / use
+	:obj (v / volcano
+		:compound (e / extinct))
+	:nsubj (h / he)
+	:obl (f / footstool
+		:case (a2 / as))
+	:cc (a / and))

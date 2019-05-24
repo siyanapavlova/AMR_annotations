@@ -1,29 +1,29 @@
 (m / matter
-	:cc (a / and)
-	:cop (b / be)
-	:nsubj (i / it)
-	:advmod (n / not)
-	:poss (c / consequence
-		:case (o / of))
-	:acl (t2 / try
-		:mark (t / to)
+	:cc (a2 / and)
+	:acl (t8 / try
+		:mark (t7 / to)
 		:xcomp (u / understand
-			:mark (t3 / to)
-			:ccomp (g / go
-				:advmod (w / why)
+			:ccomp (g2 / go
 				:nsubj (f / flower)
-				:time (t5 / trouble
-					:case (t4 / to)
+				:time (t9 / trouble
 					:mod (m2 / much
-						:advmod (s / so)))
-				:manner (g2 / grow
-					:mark (t6 / to)
-					:obj (t7 / thorn
+						:advmod (s / so))
+					:case (t / to))
+				:advmod (w / why)
+				:manner (g / grow
+					:obj (t6 / thorn
 						:acl (u2 / use
 							:nsubj (w2 / which)
 							:cop (b2 / be)
+							:det (a / any)
 							:advmod (n2 / never)
-							:case (o2 / of)
-							:det (a2 / any)
-							:poss (t9 / they
-								:case (t8 / to)))))))))
+							:poss (t3 / they
+								:case (t4 / to))
+							:case (o2 / of)))
+					:mark (t5 / to)))
+			:mark (t2 / to)))
+	:nsubj (i / it)
+	:cop (b / be)
+	:poss (c / consequence
+		:case (o / of))
+	:advmod (n / not))

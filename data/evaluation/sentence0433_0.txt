@@ -1,0 +1,16 @@
+(b2 / believe
+	:ccomp (t / take
+		:obl (e / escape
+			:case (f2 / for)
+			:poss (h / he))
+		:nsubj (h2 / he)
+		:mark (t2 / that)
+		:obj (a / advantage)
+		:obl (m / migration
+			:poss (f / flock
+				:case (o3 / of)
+				:poss (b / bird
+					:case (o / of)
+					:mod (w / wild)))
+			:case (o2 / of)))
+	:nsubj (i / i))

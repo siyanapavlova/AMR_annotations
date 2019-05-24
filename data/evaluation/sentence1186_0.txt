@@ -1,0 +1,10 @@
+(s3 / say-01
+	:ARG1 (s2 / sort
+		:nsubj (i2 / i)
+		:obl (b / bundle
+			:case (i / in)
+			:poss (t2 / thousand
+				:case (o / of)))
+		:compound (o2 / out)
+		:obj (t / traveler))
+	:ARG0 (s / switchman))

@@ -1,0 +1,8 @@
+(a / answer
+	:obj (e / echo)
+	:obl (m / morning
+		:compound (m3 / morning
+			:mod (g / good))
+		:compound (m2 / morning
+			:mod (g2 / good))
+		:mod (g3 / good)))

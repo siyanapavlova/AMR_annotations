@@ -1,0 +1,3 @@
+(a / anything
+	:acl (l / like
+		:nsubj (y / you)))

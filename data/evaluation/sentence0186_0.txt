@@ -1,12 +1,12 @@
 (w / want
-	:cc (f / for)
-	:nsubj (i / i)
 	:aux (d / do)
-	:advmod (n / not)
 	:obj (o / one
 		:det (a / any)
 		:acl (r / read
 			:mark (t / to)
 			:obj (b / book
 				:poss (m / my))
-			:advmod (c / carelessly))))
+			:advmod (c / carelessly)))
+	:cc (f / for)
+	:advmod (n / not)
+	:nsubj (i / i))

@@ -1,21 +1,21 @@
-(a2 / and
+(a / and
+	:op (t / true
+		:expl (i / it)
+		:ccomp (u / useful
+			:advmod (v / very)
+			:aux (h2 / have)
+			:cop (b / be)
+			:time (i2 / i
+				:case (t3 / to))
+			:nsubj (g / geography)
+			:mark (t2 / that))
+		:cop (b2 / be))
 	:op (f / flow
-		:nsubj (i / i)
-		:aux (h / have)
+		:nsubj (i3 / i)
+		:obj (p / part
+			:mod (a2 / all)
+			:poss (w / world
+				:case (o2 / of)))
 		:advmod (o / over
 			:obl (l / little))
-		:obj (p / part
-			:mod (a / all)
-			:poss (w / world
-				:case (o2 / of))))
-	:op (t / true
-		:expl (i2 / it)
-		:cop (b / be)
-		:ccomp (u / useful
-			:mark (t2 / that)
-			:nsubj (g / geography)
-			:aux (h2 / have)
-			:cop (b2 / be)
-			:advmod (v / very)
-			:time (i3 / i
-				:case (t3 / to)))))
+		:aux (h / have)))

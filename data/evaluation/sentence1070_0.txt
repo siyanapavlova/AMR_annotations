@@ -1,0 +1,5 @@
+(m / mean
+	:xcomp (e / establish
+		:mark (t2 / to)
+		:obj (t / tie))
+	:nsubj (i / it))

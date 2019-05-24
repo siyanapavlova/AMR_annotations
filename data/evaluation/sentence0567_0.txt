@@ -1,0 +1,4 @@
+(m / minster
+	:poss (j / justice
+		:case (o2 / of)
+		:case (o / of)))

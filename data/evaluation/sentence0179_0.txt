@@ -1,4 +1,4 @@
 (t2 / that
 	:nsubj (t / they)
-	:cop (b / be)
-	:case (l / like))
+	:case (l / like)
+	:cop (b / be))

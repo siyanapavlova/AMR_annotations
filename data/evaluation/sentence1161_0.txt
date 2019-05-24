@@ -1,0 +1,10 @@
+(f / fox
+	:nsubj (y / you)
+	:case (l / like)
+	:poss (m / my)
+	:manner (k / know
+		:obj (h / he)
+		:mark (w / when)
+		:nsubj (i / i)
+		:advmod (f2 / first))
+	:cop (b / be))

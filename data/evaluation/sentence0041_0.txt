@@ -1,15 +1,15 @@
 (g / go
+	:nsubj (i / i)
 	:obl (n / night
 		:mod (f / first))
-	:advmod (t / then)
-	:nsubj (i / i)
-	:xcomp (s / sleep
-		:mark (t2 / to)
-		:obl (s2 / sand
+	:xcomp (s2 / sleep
+		:mark (t / to)
+		:obl (s / sand
 			:case (o / on)))
+	:advmod (t2 / then)
 	:obj (m / mile
 		:nummod (t3 / thousand)
-		:poss (h2 / habitation
-			:case (f2 / from)
+		:poss (h / habitation
 			:det (a / any)
-			:mod (h / human))))
+			:mod (h2 / human)
+			:case (f2 / from))))

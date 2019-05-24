@@ -1,0 +1,12 @@
+(w / wander
+	:nsubj (w3 / wish
+		:nummod (o / one)
+		:acl (p / play
+			:mark (t2 / to)
+			:obj (w2 / wit)))
+	:mark (w4 / when)
+	:obj (l / little)
+	:advmod (s / sometimes)
+	:nsubj (h / he)
+	:obl (t / truth
+		:case (f / from)))

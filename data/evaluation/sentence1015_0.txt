@@ -1,11 +1,11 @@
 (a / answer
-	:nsubj (w / who
-		:nsubj (y2 / you)
-		:nsubj (w3 / who
+	:obj (e / echo)
+	:nsubj (w3 / who
+		:nsubj (w2 / who
 			:nsubj (y3 / you)
-			:cop (b / be))
-		:cop (b2 / be)
+			:cop (b2 / be))
+		:cop (b3 / be)
+		:cop (b / be)
+		:nsubj (y2 / you)
 		:nsubj (y / you)
-		:nsubj (w2 / who)
-		:cop (b3 / be))
-	:obj (e / echo))
+		:nsubj (w / who)))

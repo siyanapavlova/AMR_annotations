@@ -1,18 +1,18 @@
-(b / be
-	:advmod (i / indeed)
-	:manner (l / learn
-		:mark (a / as)
-		:nsubj (i2 / i))
+(b2 / be
+	:advmod (i2 / indeed)
 	:expl (t / there)
+	:manner (l / learn
+		:mark (a4 / as)
+		:nsubj (i / i))
 	:nsubj (p / planet
 		:case (o / on)
 		:acl (l3 / live
-			:advmod (w / were)
-			:nsubj (p2 / prince
-				:mod (l2 / little))
-			:manner (p4 / plant
-				:mark (a2 / as)
-				:poss (p3 / planet
+			:manner (p5 / plant
+				:mark (a / as)
+				:mod (g / good)
+				:poss (p2 / planet
 					:case (o2 / on)
-					:mod (a3 / all))
-				:mod (g / good)))))
+					:mod (a2 / all)))
+			:advmod (w / were)
+			:nsubj (p4 / prince
+				:mod (l2 / little)))))

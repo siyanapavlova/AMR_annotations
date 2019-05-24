@@ -1,0 +1,8 @@
+(a / afraid
+	:aux (s / shall)
+	:advmod (m2 / more
+		:advmod (m / much))
+	:cop (b / be)
+	:obl (e / evening
+		:det (t / this))
+	:nsubj (i / i))

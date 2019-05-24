@@ -1,0 +1,6 @@
+(t / there
+	:nsubj (i / it)
+	:advmod (r / right)
+	:obl (w / we
+		:case (a / above))
+	:cop (b / be))

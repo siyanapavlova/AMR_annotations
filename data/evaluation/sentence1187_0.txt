@@ -1,0 +1,13 @@
+(s / send
+	:time (l / left
+		:case (t2 / to))
+	:obj (t5 / train
+		:acl (c / carry
+			:obj (t3 / they)
+			:nsubj (t4 / that)))
+	:nsubj (i / i)
+	:time (r / right
+		:case (t / to))
+	:compound (o / off)
+	:advmod (n2 / now)
+	:advmod (n / now))

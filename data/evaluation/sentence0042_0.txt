@@ -1,12 +1,12 @@
-(i2 / isolated
-	:nsubj (i / i)
-	:advmod (m / more)
+(i / isolated
+	:nsubj (i3 / i)
+	:advmod (m2 / more)
 	:obl (s2 / sailor
-		:case (t / than)
-		:mod (s / shipwrecked)
 		:poss (r / raft
-			:case (o / on)
-			:poss (m2 / middle
-				:case (i3 / in)
-				:poss (o3 / ocean
-					:case (o2 / of))))))
+			:case (o3 / on)
+			:poss (m / middle
+				:case (i2 / in)
+				:poss (o / ocean
+					:case (o2 / of))))
+		:mod (s / shipwrecked)
+		:case (t / than)))

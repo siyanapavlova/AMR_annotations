@@ -1,0 +1,20 @@
+(b / begin
+	:obl (o2 / o'clock
+		:nummod (t3 / three)
+		:case (a3 / at))
+	:xcomp (h / happy
+		:cop (b2 / be)
+		:mark (t / to))
+	:nsubj (i3 / i)
+	:manner (c / come
+		:mark (i2 / if)
+		:nsubj (y / you)
+		:obl (e / example
+			:case (f2 / for))
+		:obl (o / o'clock
+			:nummod (f / four)
+			:case (a2 / at)
+			:poss (a / afternoon
+				:case (i / in))))
+	:advmod (t2 / then)
+	:aux (s / shall))

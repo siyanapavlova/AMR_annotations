@@ -1,6 +1,6 @@
 (l / love
-	:obj (g / game
-		:det (w / what))
-	:aux (d / do)
 	:nsubj (h / he)
-	:xcomp (b / best))
+	:aux (d / do)
+	:xcomp (b / best)
+	:obj (g / game
+		:det (w / what)))

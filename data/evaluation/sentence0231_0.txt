@@ -1,19 +1,19 @@
-(s / sleep
-	:nsubj (t / they)
-	:xcomp (d / deep
-		:obl (h / heart
-			:case (i / in)
-			:poss (d2 / darkness
-				:case (o / of)
-				:poss (e / earth
-					:case (' / 's)))))
+(s2 / sleep
 	:manner (s3 / seize
 		:mark (u / until)
-		:nsubj (o2 / one
-			:det (s2 / some)
-			:poss (t2 / they
+		:nsubj (o / one
+			:det (s / some)
+			:poss (t / they
 				:case (a / among)))
-		:obl (d3 / desire
-			:case (w / with)
+		:obl (d2 / desire
 			:acl (a2 / awaken
-				:mark (t3 / to)))))
+				:mark (t2 / to))
+			:case (w / with)))
+	:nsubj (t3 / they)
+	:xcomp (d3 / deep
+		:obl (h / heart
+			:case (i / in)
+			:poss (d / darkness
+				:poss (e / earth
+					:case (' / 's))
+				:case (o2 / of)))))

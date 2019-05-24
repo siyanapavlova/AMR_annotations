@@ -1,0 +1,4 @@
+(y / you
+	:nsubj (s / star
+		:cc (a / and)
+		:discourse (o / obey)))

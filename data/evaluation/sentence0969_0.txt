@@ -1,0 +1,8 @@
+(s / say-01
+	:ARG0 (s2 / snake)
+	:ARG1 (l / lonely
+		:cop (b / be)
+		:obl (m / man
+			:case (a / among))
+		:advmod (a2 / also)
+		:nsubj (i / it)))

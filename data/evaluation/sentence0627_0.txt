@@ -1,0 +1,19 @@
+(m2 / mean
+	:parataxis (m3 / man
+		:mod (i2 / intelligent
+			:advmod (m / most))
+		:poss (p / planet
+			:case (o / on)
+			:det (t3 / this))
+		:mod (d / dress
+			:conj (r / richest)
+			:amod (b / best))
+		:cc (a2 / and))
+	:manner (a3 / admire
+		:mark (t2 / to))
+	:ccomp (r2 / regard
+		:nsubj (y / you)
+		:obj (i / i)
+		:mark (t / that)
+		:obl (h / handsomest
+			:case (a / as))))

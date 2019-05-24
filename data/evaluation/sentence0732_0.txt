@@ -1,0 +1,6 @@
+(s2 / satisfied
+	:cop (b / be)
+	:nsubj (p / prince
+		:mod (l / little))
+	:advmod (n / not)
+	:advmod (s / still))

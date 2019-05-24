@@ -1,0 +1,7 @@
+(s2 / say-02
+	:ARG0 (k / king
+		:poss (s / simplicity
+			:case (w / with)
+			:mod (m / magnificent)))
+	:ARG0 (e / everything
+		:goeswith (o / over)))

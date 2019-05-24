@@ -1,23 +1,23 @@
-(a / ask
+(a3 / ask
+	:iobj (i3 / i)
+	:ccomp (t2 / true
+		:conj (i4 / it
+			:advmod (n / not)
+			:cop (b2 / be))
+		:cop (b4 / be)
+		:nsubj (i / it)
+		:ccomp (e / eat
+			:mark (t / that)
+			:nsubj (s2 / sheep)
+			:obj (b / bushe
+				:mod (l2 / little))))
+	:advmod (a / abruptly)
 	:obl (p / prince
 		:case (f / for)
 		:mod (l / little))
-	:iobj (i / i)
-	:advmod (a2 / abruptly)
 	:manner (s / seize
-		:mark (a3 / as)
-		:mark (i2 / if)
 		:obl (d / doubt
-			:case (b / by)
-			:compound (g / grave)))
-	:ccomp (t / true
-		:nsubj (i3 / it)
-		:cop (b2 / be)
-		:conj (i4 / it
-			:cop (b3 / be)
-			:advmod (n / not))
-		:ccomp (e / eat
-			:mark (t2 / that)
-			:nsubj (s2 / sheep)
-			:obj (b4 / bushe
-				:mod (l2 / little)))))
+			:compound (g / grave)
+			:case (b3 / by))
+		:mark (i2 / if)
+		:mark (a2 / as)))

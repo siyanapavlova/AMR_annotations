@@ -1,0 +1,13 @@
+(o / or
+	:op (a2 / asleep
+		:nsubj (t2 / they)
+		:obl (t4 / there
+			:case (i / in)))
+	:op (a / asleep
+		:nsubj (t3 / they)
+		:mark (i2 / if)
+		:ccomp (y / yawn
+			:aux (b2 / be)
+			:nsubj (t / they))
+		:aux (b / be)
+		:advmod (n / not)))

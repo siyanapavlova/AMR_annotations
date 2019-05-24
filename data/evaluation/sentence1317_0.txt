@@ -1,0 +1,7 @@
+(c / color
+	:nsubj (s / sand)
+	:obl (s2 / sunrise
+		:case (a / at))
+	:poss (h / honey
+		:case (o / of))
+	:cop (b / be))

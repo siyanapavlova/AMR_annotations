@@ -1,0 +1,19 @@
+(b2 / be
+	:parataxis (a4 / afraid
+		:advmod (a6 / all)
+		:nsubj (i / i)
+		:cop (b / be)
+		:advmod (n / not)
+		:obl (a3 / any
+			:case (o2 / of)
+			:poss (t / they
+				:case (o / of)))
+		:advmod (a5 / at))
+	:nsubj (y / you)
+	:aux (w / will)
+	:advmod (a / away
+		:advmod (f / far))
+	:obl (a2 / animal
+		:mod (l / large)
+		:case (a7 / as
+			:fixed (f2 / for))))

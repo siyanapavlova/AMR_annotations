@@ -1,16 +1,16 @@
-(f2 / find
-	:obl (t / time
-		:case (f / for)
-		:mod (l / long))
-	:nsubj (y / you)
+(f / find
 	:aux (h / have)
+	:obl (t / time
+		:case (f2 / for)
+		:mod (l2 / long))
 	:obj (e / entertainment
 		:poss (y2 / you)
 		:mod (o / only))
+	:nsubj (y / you)
 	:obl (p / pleasure
-		:case (i / in)
 		:mod (q / quiet)
-		:acl (l2 / look
-			:mark (o2 / of)
+		:acl (l / look
 			:obl (s / sunset
-				:case (a / at)))))
+				:case (a / at))
+			:mark (o2 / of))
+		:case (i / in)))

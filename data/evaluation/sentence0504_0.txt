@@ -1,0 +1,3 @@
+(o / order
+	:nsubj (i / it)
+	:cop (b / be))

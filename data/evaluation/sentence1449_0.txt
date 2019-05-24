@@ -1,0 +1,6 @@
+(s / silent
+	:nsubj (s2 / star
+		:det (t / these)
+		:det (a / all))
+	:cc (b2 / but)
+	:cop (b / be))

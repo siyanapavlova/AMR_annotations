@@ -1,0 +1,9 @@
+(l / loosen
+	:nsubj (i / i)
+	:manner (w / wear
+		:mark (t / that)
+		:nsubj (h2 / he)
+		:advmod (a / always))
+	:obj (m / muffler
+		:mod (g / golden))
+	:aux (h / have))

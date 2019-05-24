@@ -1,8 +1,8 @@
-(f2 / far
-	:advmod (u / unfortunately)
-	:nsubj (f / france)
+(f / far
+	:nsubj (f2 / france)
 	:cop (b / be)
-	:advmod (t / too)
-	:advmod (a / away)
 	:obl (t2 / that
-		:case (f3 / for)))
+		:case (f3 / for))
+	:advmod (a / away)
+	:advmod (t / too)
+	:advmod (u / unfortunately))

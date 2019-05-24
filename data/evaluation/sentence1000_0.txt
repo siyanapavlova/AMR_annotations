@@ -1,6 +1,6 @@
-(s / see
-	:nsubj (i / i)
+(s2 / see
 	:obj (t / they)
 	:advmod (a / ago
 		:obl (y / year
-			:mod (s2 / several))))
+			:mod (s / several)))
+	:nsubj (i / i))

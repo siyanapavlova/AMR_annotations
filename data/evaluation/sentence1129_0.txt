@@ -1,0 +1,6 @@
+(c / come
+	:advmod (b / back)
+	:obl (d / day
+		:mod (n / next))
+	:nsubj (p / prince
+		:mod (l / little)))

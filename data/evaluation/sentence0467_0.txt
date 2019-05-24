@@ -1,0 +1,3 @@
+(f / flower
+	:nsubj (i / i)
+	:cop (b / be))

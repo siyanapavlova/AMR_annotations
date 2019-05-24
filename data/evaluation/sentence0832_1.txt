@@ -1,0 +1,10 @@
+(s / say-02
+	:ARG0 (g / gentleman
+		:mod (o / old))
+	:time (h / he
+		:case (t / to))
+	:ccomp (c / come
+		:aux (d / do)
+		:nsubj (y / you)
+		:compound (f / from)
+		:advmod (w / where)))

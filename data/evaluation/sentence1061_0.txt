@@ -1,0 +1,4 @@
+(a / and
+	:op (g / gun)
+	:op (h2 / hunt
+		:nsubj (t2 / they)))

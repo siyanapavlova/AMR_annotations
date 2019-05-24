@@ -1,0 +1,6 @@
+(a2 / and
+	:op (g / go)
+	:op (l / look
+		:advmod (a5 / again)
+		:obl (r / ros
+			:case (a / at))))

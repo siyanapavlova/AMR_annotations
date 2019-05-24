@@ -1,3 +1,0 @@
-(k / know
-	:discourse (y / yes)
-	:nsubj (i / i))

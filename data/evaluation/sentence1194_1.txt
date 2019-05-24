@@ -1,0 +1,7 @@
+(s3 / say-02
+	:ccomp (o / one
+		:cop (b / be)
+		:mod (s2 / same)
+		:advmod (n / not)
+		:nsubj (t / these))
+	:ARG0 (s / switchman))

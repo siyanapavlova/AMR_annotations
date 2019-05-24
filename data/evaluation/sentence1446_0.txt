@@ -1,0 +1,11 @@
+(m / more
+	:nsubj (t2 / they)
+	:cop (b / be)
+	:obl (l / light
+		:mod (l2 / little)
+		:case (t / than)
+		:poss (s / sky
+			:case (i / in)))
+	:obl (o / other
+		:case (f / for))
+	:advmod (n / no))

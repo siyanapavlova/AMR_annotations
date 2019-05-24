@@ -1,0 +1,11 @@
+(s / say-02
+	:ccomp (k / know
+		:advmod (o / only)
+		:nsubj (c / child)
+		:obj (w / what
+			:acl (l2 / look
+				:aux (b / be)
+				:nsubj (t / they)
+				:obl (f / for))))
+	:ARG0 (p / prince
+		:mod (l / little)))

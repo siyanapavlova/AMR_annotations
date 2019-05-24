@@ -1,0 +1,9 @@
+(n2 / need
+	:advmod (n / not)
+	:xcomp (l / live
+		:obl (p / planet
+			:det (t2 / this)
+			:case (o / on))
+		:mark (t / to))
+	:aux (d / do)
+	:nsubj (i / i))

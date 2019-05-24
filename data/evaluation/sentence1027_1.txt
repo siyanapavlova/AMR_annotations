@@ -1,0 +1,4 @@
+(s / say-02
+	:ccomp (m / morning
+		:mod (g / good))
+	:ARG0 (h / he))

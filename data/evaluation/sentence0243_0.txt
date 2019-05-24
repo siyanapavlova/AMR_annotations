@@ -1,31 +1,31 @@
-(s / see
-	:nsubj (y / you)
-	:aux (m / must)
+(s2 / see
 	:time (i / it
 		:case (t / to))
+	:nsubj (y3 / you)
+	:aux (m / must)
 	:ccomp (p / pull
-		:mark (t2 / that)
-		:nsubj (y2 / you)
-		:compound (u / up)
-		:advmod (r / regularly)
-		:obj (b / baobab
-			:det (a / all))
-		:obl (m2 / moment
-			:case (a2 / at)
-			:mod (f / first
-				:advmod (v / very)))
 		:manner (d / distinguish
-			:mark (w / when)
-			:nsubj (t3 / they)
-			:aux (c / can)
+			:mark (w2 / when)
 			:obl (r2 / rosebush
 				:case (f2 / from)
-				:acl (r3 / resemble
-					:obj (w2 / which)
+				:acl (r / resemble
 					:nsubj (t4 / they)
+					:obj (w / which)
 					:advmod (c2 / closely
-						:advmod (s2 / so))
-					:obl (y3 / youth
+						:advmod (s / so))
+					:obl (y2 / youth
 						:case (i2 / in)
 						:poss (t5 / they)
-						:mod (e / earliest)))))))
+						:mod (e / earliest))))
+			:aux (c / can)
+			:nsubj (t2 / they))
+		:obl (m2 / moment
+			:mod (f / first
+				:advmod (v / very))
+			:case (a2 / at))
+		:mark (t3 / that)
+		:advmod (r3 / regularly)
+		:compound (u / up)
+		:obj (b / baobab
+			:det (a / all))
+		:nsubj (y / you)))

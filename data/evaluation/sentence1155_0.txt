@@ -1,0 +1,11 @@
+(u / understand
+	:ccomp (u2 / unique
+		:nsubj (y2 / yours)
+		:cop (b / be)
+		:mark (t / that)
+		:obl (w2 / world
+			:det (a / all)
+			:case (i / in)))
+	:nsubj (y / you)
+	:advmod (n / now)
+	:aux (w / will))

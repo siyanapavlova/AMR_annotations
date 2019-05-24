@@ -1,0 +1,10 @@
+(t / think
+	:nsubj (i2 / i)
+	:ccomp (g / go
+		:obl (w2 / way
+			:case (o / on)
+			:poss (m / my))
+		:aux (w / will)
+		:nsubj (i / i))
+	:cc (a / and)
+	:advmod (n / now))

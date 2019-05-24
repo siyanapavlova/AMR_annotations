@@ -1,0 +1,11 @@
+(d / dare
+	:nsubj (i / i)
+	:ccomp (a2 / ask
+		:iobj (h / he)
+		:obj (q / question
+			:mod (m / more)
+			:det (a3 / any)))
+	:cc (a / and)
+	:aux (d2 / do)
+	:advmod (n / now)
+	:advmod (n2 / not))

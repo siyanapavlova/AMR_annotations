@@ -1,0 +1,13 @@
+(a / and
+	:op (b3 / be
+		:cc (b2 / but)
+		:expl (t / there)
+		:nsubj (v / village
+			:det (n / no)
+			:advmod (h / here)))
+	:op (t2 / think
+		:nsubj (i2 / i)
+		:ccomp (d / dreaming
+			:aux (b / be)
+			:nsubj (i / i)
+			:aux (m / must))))

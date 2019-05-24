@@ -1,0 +1,5 @@
+(a / ask
+	:parataxis (y / yes
+		:nsubj (i / it
+			:cop (b / be)))
+	:obj (y2 / yourselve))

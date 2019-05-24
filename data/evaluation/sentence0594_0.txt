@@ -1,0 +1,17 @@
+(h / have
+	:nsubj (p2 / prince
+		:acl (h3 / have
+			:xcomp (c / complete
+				:obj (p / preparation
+					:poss (h2 / he)
+					:poss (d / departure
+						:case (f / for)))
+				:advmod (n / now)))
+		:cc (b / but)
+		:mod (l / little))
+	:obj (w / wish
+		:acl (g / grieve
+			:obj (m / monarch
+				:mod (o / old))
+			:mark (t / to))
+		:det (n2 / no)))

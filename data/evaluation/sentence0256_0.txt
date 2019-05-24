@@ -1,31 +1,31 @@
 (a / and
-	:op (s / skirt
-		:nsubj (f / friend
-			:poss (m / my)
-			:poss (m2 / myself
-				:case (l / like)))
-		:aux (h / have)
-		:aux (b / be)
-		:obj (d / danger
-			:det (t / this))
-		:obl (t2 / time
-			:case (f2 / for)
-			:mod (l2 / long))
+	:op (s3 / skirt
 		:manner (k / know
-			:mark (w / without)
 			:advmod (e / ever)
-			:obj (i / it)))
+			:obj (i / it)
+			:mark (w / without))
+		:obl (t2 / time
+			:mod (l2 / long)
+			:case (f / for))
+		:nsubj (f2 / friend
+			:poss (m2 / myself
+				:case (l / like))
+			:poss (m / my))
+		:aux (b / be)
+		:aux (h2 / have)
+		:obj (d / danger
+			:det (t5 / this)))
 	:op (t3 / they
-		:advmod (s2 / so)
 		:nsubj (i2 / it)
 		:cop (b2 / be)
 		:case (f3 / for)
+		:advmod (s / so)
 		:acl (w2 / work
-			:mark (t4 / that)
 			:nsubj (i3 / i)
-			:aux (h2 / have)
 			:advmod (h3 / hard
-				:advmod (s3 / so))
+				:advmod (s2 / so))
+			:mark (t / that)
 			:obl (d2 / drawing
 				:case (o / over)
-				:det (t5 / this)))))
+				:det (t4 / this))
+			:aux (h / have))))

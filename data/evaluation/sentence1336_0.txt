@@ -1,0 +1,9 @@
+(h / have
+	:obj (p / plan
+		:acl (k / know
+			:advmod (n / not)
+			:advmod (a / about)
+			:nsubj (i / i)
+			:aux (d / do)
+			:obj (t / that)))
+	:nsubj (y / you))

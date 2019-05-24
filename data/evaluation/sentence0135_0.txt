@@ -1,25 +1,25 @@
-(a2 / and
-	:op (g2 / give-01
-		:cc (a / and)
-		:manner (g / good
-			:mark (i / if)
-			:nsubj (y / you)
-			:cop (b / be))
-		:ARG0 (i2 / i)
-		:aux (w / will)
-		:iobj (y2 / you)
-		:ARG1 (s / string)
-		:advmod (t / too)
-		:manner (t3 / tie
-			:mark (s2 / so
+(a / and
+	:op (g2 / give
+		:obj (s2 / string)
+		:manner (t6 / tie
+			:obj (h2 / he)
+			:obl (d / day
+				:case (d2 / during))
+			:mark (s / so
 				:fixed (t2 / that))
-			:nsubj (y3 / you)
-			:aux (c / can)
-			:obj (h / he)
-			:obl (d2 / day
-				:case (d / during))))
+			:nsubj (y / you)
+			:aux (c / can))
+		:aux (w / will)
+		:iobj (y3 / you)
+		:cc (a2 / and)
+		:manner (g / good
+			:nsubj (y2 / you)
+			:cop (b / be)
+			:mark (i2 / if))
+		:nsubj (i / i)
+		:advmod (t / too))
 	:op (p / post
 		:acl (t5 / tie
+			:obj (h / he)
 			:mark (t4 / to)
-			:obj (h2 / he)
-			:obl (t6 / to))))
+			:obl (t3 / to))))

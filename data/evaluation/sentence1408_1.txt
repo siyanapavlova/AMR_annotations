@@ -1,0 +1,7 @@
+(s / say-02
+	:ARG0 (i / i)
+	:time (h / he
+		:case (t / to))
+	:ccomp (a / afraid
+		:nsubj (y / you)
+		:cop (b / be)))

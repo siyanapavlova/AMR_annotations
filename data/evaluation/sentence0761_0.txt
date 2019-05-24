@@ -1,0 +1,8 @@
+(h / have
+	:obj (m / meaning
+		:det (s / some))
+	:nsubj (w / work
+		:poss (h2 / he)
+		:case (f / for
+			:fixed (l / least
+				:case (a / at)))))

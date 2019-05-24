@@ -1,0 +1,11 @@
+(a / astonish
+	:obl (u / understanding
+		:case (b / by)
+		:mod (s2 / sudden)
+		:poss (r / radiation
+			:case (o2 / of)
+			:mod (m / mysterious)
+			:det (t / that)
+			:poss (s / sand
+				:case (o / of))))
+	:nsubj (i / i))

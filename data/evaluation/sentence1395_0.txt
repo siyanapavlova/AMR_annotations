@@ -1,0 +1,21 @@
+(c / come
+	:manner (t4 / tell
+		:mark (t / to)
+		:ccomp (s / successful
+			:nsubj (w / work
+				:poss (m / my))
+			:cop (b / be)
+			:mark (t5 / that)
+			:obl (a / anything
+				:acl (d / dar
+					:aux (h4 / have)
+					:nsubj (i / i)
+					:xcomp (h2 / hope
+						:mark (t2 / to))
+					:obj (t3 / that))
+				:case (b3 / beyond))
+			:aux (h / have))
+		:obj (h3 / he))
+	:nsubj (i2 / i)
+	:aux (b2 / be)
+	:advmod (j / just))

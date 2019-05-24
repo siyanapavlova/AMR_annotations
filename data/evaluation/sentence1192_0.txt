@@ -1,0 +1,10 @@
+(e / express
+	:mod (s / second)
+	:acl (t / thunder
+		:obl (d / direction
+			:case (b2 / by)
+			:case (i / in)
+			:mod (o / opposite)))
+	:cc (a / and)
+	:mod (l / light
+		:advmod (b / brilliantly)))

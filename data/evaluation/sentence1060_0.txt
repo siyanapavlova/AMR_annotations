@@ -1,0 +1,3 @@
+(s / say-01
+	:ARG1 (m / man)
+	:ARG0 (f / fox))

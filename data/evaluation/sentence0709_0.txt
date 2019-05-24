@@ -1,0 +1,10 @@
+(g / good
+	:nsubj (w / what)
+	:parataxis (d / do
+		:obj (y / you)
+		:xcomp (o / own
+			:mark (t / to)
+			:obj (s / star))
+		:nsubj (i / it)
+		:aux (d2 / do))
+	:cc (a / and))

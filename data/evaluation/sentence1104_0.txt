@@ -1,0 +1,9 @@
+(l / look
+	:parataxis (s / see
+		:obj (f / field
+			:compound (g / grain)
+			:poss (y / yonder
+				:case (d / down)))
+		:nsubj (y2 / you))
+	:cc (a / and)
+	:advmod (t / then))

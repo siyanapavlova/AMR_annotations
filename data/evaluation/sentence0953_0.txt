@@ -1,0 +1,7 @@
+(b / be
+	:expl (t2 / there)
+	:nsubj (p / people
+		:poss (e / earth
+			:case (o / on))
+		:det (n / no))
+	:advmod (t / then))

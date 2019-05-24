@@ -1,0 +1,8 @@
+(l / live-02
+	:obj (d / deal
+		:mod (g / great)
+		:poss (u / up
+			:mod (g2 / grow)
+			:case (a / among)))
+	:nsubj (i / i)
+	:aux (h / have))

@@ -1,10 +1,10 @@
 (p / proof
+	:cop (b / be)
 	:manner (w / want
 		:mark (i / if)
 		:nsubj (a / anybody)
 		:obj (s / sheep))
-	:nsubj (t / that)
-	:cop (b / be)
+	:nsubj (t2 / that)
 	:acl (e / exist
-		:mark (t2 / that)
+		:mark (t / that)
 		:nsubj (h / he)))

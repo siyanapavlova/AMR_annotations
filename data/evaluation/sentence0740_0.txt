@@ -1,0 +1,13 @@
+(a / and
+	:op (p2 / put
+		:advmod (t2 / then)
+		:nsubj (i3 / i)
+		:obj (p / paper
+			:det (t / this))
+		:cc (a2 / and)
+		:obl (d / drawer
+			:case (i2 / in)))
+	:op (l / lock
+		:obl (k / key
+			:case (w / with))
+		:obj (i / it)))

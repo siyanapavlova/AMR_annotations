@@ -1,0 +1,3 @@
+(f / feel
+	:nsubj (i / i)
+	:advmod (a / awkward))

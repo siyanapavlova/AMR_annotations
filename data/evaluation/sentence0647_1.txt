@@ -1,0 +1,17 @@
+(s / say-02
+	:ARG0 (h / he)
+	:ccomp (o / odd
+		:cop (b / be)
+		:advmod (v / very)
+		:nsubj (u / up
+			:mod (g / grow))
+		:advmod (v2 / very
+			:advmod (c2 / certainly)))
+	:manner (c / continue
+		:obl (j / journey
+			:poss (h2 / he)
+			:case (o2 / on))
+		:mark (a / as)
+		:nsubj (h4 / he))
+	:time (h3 / himself
+		:case (t / to)))

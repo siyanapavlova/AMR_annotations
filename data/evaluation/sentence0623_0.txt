@@ -1,0 +1,7 @@
+(h / hear
+	:nsubj (m / man
+		:mod (c / conceit))
+	:obj (h2 / he)
+	:advmod (n / not)
+	:aux (d / do)
+	:cc (b / but))

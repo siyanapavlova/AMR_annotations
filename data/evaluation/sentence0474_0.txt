@@ -1,0 +1,7 @@
+(s3 / show
+	:advmod (n / naïvely)
+	:obj (t / thorn
+		:nummod (f / four)
+		:poss (s2 / she))
+	:nsubj (s / she)
+	:cc (a / and))

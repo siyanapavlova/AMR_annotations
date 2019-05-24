@@ -1,0 +1,5 @@
+(s / say-01
+	:ARG1 (k / know
+		:advmod (n / never)
+		:nsubj (o / one))
+	:ARG0 (g / geographer))

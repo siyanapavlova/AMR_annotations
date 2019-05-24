@@ -1,0 +1,5 @@
+(w / write
+	:nsubj (w2 / we)
+	:obl (t / thing
+		:mod (e / eternal)
+		:case (o / of)))

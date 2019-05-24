@@ -1,0 +1,5 @@
+(r / rose
+	:poss (m / my)
+	:mark (b2 / because)
+	:cop (b / be)
+	:nsubj (s / she))

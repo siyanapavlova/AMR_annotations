@@ -1,0 +1,15 @@
+(o2 / one
+	:nsubj (h / he)
+	:poss (t2 / they
+		:case (o3 / of))
+	:cop (b / be)
+	:advmod (n2 / nevertheless)
+	:acl (s / seem
+		:time (i / i
+			:case (t / to))
+		:nsubj (w / who)
+		:advmod (a / all)
+		:xcomp (r / ridiculous)
+		:aux (d / do)
+		:advmod (n / not))
+	:mod (o / only))

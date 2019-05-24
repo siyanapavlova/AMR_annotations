@@ -1,9 +1,9 @@
-(l2 / laugh
+(l / laugh
 	:nsubj (i / idea
 		:poss (h / herd
-			:case (o / of)
-			:poss (e / elephant
-				:case (o2 / of))
 			:acl (m / make
 				:obj (p / prince
-					:mod (l / little))))))
+					:mod (l2 / little)))
+			:case (o2 / of)
+			:poss (e / elephant
+				:case (o / of)))))

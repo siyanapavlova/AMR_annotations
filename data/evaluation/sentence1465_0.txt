@@ -1,0 +1,14 @@
+(s2 / say-01
+	:ARG1 (b / become
+		:advmod (t / then)
+		:nsubj (h / he)
+		:xcomp (s / serious)
+		:advmod (q / quickly))
+	:obj (p / prince
+		:mod (l / little))
+	:ARG1 (c / come
+		:aux (d / do)
+		:obl (t2 / tonight
+			:acl (k / know
+				:nsubj (y / you)))
+		:advmod (n / not)))

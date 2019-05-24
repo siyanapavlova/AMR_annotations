@@ -1,0 +1,9 @@
+(u / useful
+	:cop (b2 / be)
+	:nsubj (i / it)
+	:cc (a / and)
+	:advmod (t / truly)
+	:manner (b / beautiful
+		:nsubj (i2 / it)
+		:cop (b3 / be)
+		:mark (s / since)))

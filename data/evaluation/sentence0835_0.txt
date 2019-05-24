@@ -1,0 +1,8 @@
+(s / say-01
+	:ARG0 (g2 / gentleman
+		:mod (o / old))
+	:time (h / he
+		:case (t / to))
+	:ARG1 (g / geographer
+		:cop (b / be)
+		:nsubj (i / i)))

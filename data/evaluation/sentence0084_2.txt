@@ -1,0 +1,9 @@
+(d2 / do
+	:manner (d / draw-01
+		:advmod (o / over)
+		:poss (m2 / my)
+		:obj (m / more
+			:advmod (o2 / once)))
+	:advmod (s / so)
+	:nsubj (i / i)
+	:advmod (t / then))

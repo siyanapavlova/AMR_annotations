@@ -1,0 +1,13 @@
+(h / here
+	:cop (b / be)
+	:obl (g / garden
+		:nummod (o / one)
+		:mod (s / single)
+		:case (i / in))
+	:cc (a3 / and)
+	:advmod (a2 / alike
+		:advmod (a / all))
+	:nsubj (t / thousand
+		:nummod (f / five)
+		:poss (t2 / they
+			:case (o2 / of))))

@@ -1,11 +1,11 @@
 (t / take
-	:expl (i / it)
-	:iobj (i2 / i)
-	:obj (t2 / time
-		:mod (l / long)
-		:acl (l2 / learn
-			:mark (t3 / to)
-			:manner (c / come
-				:mark (w / where)
-				:nsubj (h / he)
-				:obl (f / from)))))
+	:expl (i2 / it)
+	:iobj (i / i)
+	:obj (t3 / time
+		:acl (l / learn
+			:mark (t2 / to)
+			:manner (c / come-02
+				:obl (f / from)
+				:ARG0 (h / he)
+				:mark (w / where)))
+		:mod (l2 / long)))

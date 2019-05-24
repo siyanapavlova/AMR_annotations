@@ -1,0 +1,5 @@
+(w / weak
+	:advmod (s2 / so)
+	:cc (a / and)
+	:cop (b / be)
+	:nsubj (s / she))

@@ -1,0 +1,9 @@
+(a / and
+	:op (p / pant
+		:obj (l / little))
+	:op (s / sit
+		:obl (t / table
+			:case (o / on))
+		:nsubj (p2 / prince
+			:mod (l2 / little))
+		:advmod (d / down)))

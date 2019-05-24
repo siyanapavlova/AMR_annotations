@@ -1,14 +1,5 @@
-(g / give-01
-	:advmod (s / so)
-	:obl (1 / 1920
-		:case (i / in))
-	:ARG0 (a / astronomer)
-	:ARG1 (d / demonstration
-		:poss (h / he))
-	:advmod (o / over
-		:advmod (a2 / all))
-	:advmod (a3 / again)
-	:conj (d2 / dress
-		:obl (s2 / style
-			:case (w / with)
-			:mod (i2 / impressive))))
+(a / and
+	:op (e / elegance)
+	:op (s / style
+		:mod (i2 / impressive)
+		:case (w / with)))

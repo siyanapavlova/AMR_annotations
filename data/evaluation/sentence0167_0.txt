@@ -1,5 +1,5 @@
-(h2 / have
-	:advmod (h / how)
+(h3 / have
+	:advmod (h2 / how)
 	:nsubj (b / brother
 		:mod (m / many))
-	:obj (h3 / he))
+	:obj (h / he))

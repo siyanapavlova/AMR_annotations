@@ -1,18 +1,18 @@
-(m2 / move
+(m / move
+	:obj (c / chair
+		:poss (y2 / you))
+	:advmod (d / do)
 	:obl (p / planet
 		:cc (b / but)
-		:case (o / on)
-		:poss (y / you)
-		:mod (t / tiny)
 		:appos (p2 / prince
-			:poss (m / my)
-			:mod (l / little)))
+			:mod (l / little)
+			:poss (m2 / my))
+		:case (o / on)
+		:poss (y3 / you)
+		:mod (t / tiny))
+	:cop (b2 / be)
 	:nsubj (a / all
 		:acl (n / need
-			:nsubj (y2 / you)))
-	:advmod (d / do)
-	:cop (b2 / be)
-	:obj (c / chair
-		:poss (y3 / you))
+			:nsubj (y / you)))
 	:obj (s / step
 		:mod (f / few)))

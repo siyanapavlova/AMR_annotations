@@ -1,4 +1,4 @@
 (i / invisible
+	:cop (b / be)
 	:nsubj (s / seed
-		:cc (b / but))
-	:cop (b2 / be))
+		:cc (b2 / but)))

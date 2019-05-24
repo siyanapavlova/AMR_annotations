@@ -1,0 +1,6 @@
+(d / decide
+	:nsubj (y / you)
+	:aux (h / have)
+	:xcomp (g / go
+		:mark (t / to)
+		:advmod (a / away)))

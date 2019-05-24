@@ -1,0 +1,9 @@
+(c / call
+	:ccomp (m2 / make
+		:obj (y / you)
+		:xcomp (a / ambassador
+			:poss (m / my))
+		:nsubj (i / i))
+	:nsubj (k / king)
+	:advmod (h / hastily)
+	:compound (o / out))

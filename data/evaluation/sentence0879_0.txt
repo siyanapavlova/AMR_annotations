@@ -1,0 +1,10 @@
+(s / sharpen
+	:manner (h3 / have
+		:xcomp (o / open
+			:obj (r / register
+				:mod (b / big)
+				:poss (h / he))))
+	:nsubj (g / geographer)
+	:cc (a / and)
+	:obj (p / pencil
+		:poss (h2 / he)))

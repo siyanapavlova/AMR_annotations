@@ -1,0 +1,9 @@
+(b / become
+	:xcomp (r / responsible
+		:obl (w / what
+			:case (f / for)
+			:acl (t / tame
+				:aux (h / have)
+				:nsubj (y / you)))
+		:advmod (f2 / forever))
+	:nsubj (y2 / you))

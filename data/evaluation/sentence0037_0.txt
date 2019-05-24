@@ -1,28 +1,28 @@
-(l / live
-	:advmod (s / so)
-	:nsubj (i / i)
-	:obj (l2 / life
-		:poss (m / my))
-	:advmod (a / alone)
-	:obl (a2 / anyone
-		:case (w / without)
-		:acl (t2 / talk
-			:obj (t / that)
-			:nsubj (i2 / i)
-			:aux (c / could)
-			:advmod (r / really)
-			:obl (t3 / to)))
+(l2 / live
+	:advmod (s3 / so)
 	:manner (h / have
-		:mark (u / until)
-		:nsubj (i3 / i)
-		:obj (a3 / accident
+		:obj (a4 / accident
 			:poss (p / plane
-				:case (w2 / with)
-				:poss (m2 / my)))
+				:poss (m2 / my)
+				:case (w / with)))
 		:obl (d / desert
 			:case (i4 / in)
-			:poss (s2 / sahara
-				:case (o / of))))
-	:advmod (a4 / ago
+			:poss (s / sahara
+				:case (o / of)))
+		:nsubj (i3 / i)
+		:mark (u / until))
+	:obl (a3 / anyone
+		:case (w2 / without)
+		:acl (t2 / talk
+			:nsubj (i2 / i)
+			:advmod (r / really)
+			:aux (c / could)
+			:obj (t3 / that)
+			:obl (t / to)))
+	:advmod (a2 / alone)
+	:obj (l / life
+		:poss (m / my))
+	:nsubj (i / i)
+	:advmod (a / ago
 		:obl (y / year
-			:nummod (s3 / six))))
+			:nummod (s2 / six))))

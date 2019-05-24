@@ -1,0 +1,6 @@
+(s / subject
+	:cop (b / be)
+	:time (t2 / they
+		:case (t / to))
+	:nsubj (m / man
+		:mod (a / all)))

@@ -1,0 +1,8 @@
+(r / reply
+	:advmod (n / not)
+	:time (q / question
+		:case (t / to)
+		:poss (m / my))
+	:aux (d / do)
+	:nsubj (h / he)
+	:cc (b / but))

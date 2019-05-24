@@ -1,0 +1,16 @@
+(a2 / and
+	:op (p / possess
+		:nsubj (h3 / he)
+		:obj (v / volcanoe
+			:mod (a / active)
+			:nummod (t2 / two)))
+	:op (c / convenient
+		:nsubj (t / they)
+		:manner (h2 / heat
+			:obj (b2 / breakfast
+				:poss (h / he))
+			:obl (m / morning
+				:case (i / in))
+			:mark (f / for))
+		:advmod (v2 / very)
+		:cop (b / be)))

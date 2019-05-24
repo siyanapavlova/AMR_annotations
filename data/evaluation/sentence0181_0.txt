@@ -1,10 +1,10 @@
 (s2 / show
-	:nsubj (c / child)
-	:aux (s / should)
 	:advmod (a / always)
 	:obj (f / forbearance
-		:mod (g / great)
 		:poss (p / people
-			:case (t / toward)
 			:mod (g2 / grow
-				:compound (u / up)))))
+				:compound (u / up))
+			:case (t / toward))
+		:mod (g / great))
+	:nsubj (c / child)
+	:aux (s / should))

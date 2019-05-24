@@ -1,10 +1,10 @@
 (e / exclaim
-	:advmod (t / then)
-	:nsubj (t2 / they)
-	:aux (w / would)
-	:obj (w2 / what
+	:nsubj (t3 / they)
+	:aux (w2 / would)
+	:advmod (t2 / then)
+	:obj (w / what
 		:discourse (o / oh)
 		:nsubj (h / house
 			:mod (p / pretty)
 			:acl (b / be
-				:nsubj (t3 / that)))))
+				:nsubj (t / that)))))

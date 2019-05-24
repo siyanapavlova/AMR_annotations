@@ -1,0 +1,9 @@
+(l / laugh
+	:nsubj (h / he)
+	:conj (t2 / touch
+		:obj (r / rope))
+	:conj (s / set
+		:cc (a / and)
+		:manner (w / work
+			:mark (t / to))
+		:obj (p / pulley)))

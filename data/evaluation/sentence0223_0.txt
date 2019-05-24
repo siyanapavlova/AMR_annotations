@@ -1,4 +1,4 @@
 (c / correct
-	:nsubj (t / that)
+	:advmod (s / strictly)
 	:cop (b / be)
-	:advmod (s / strictly))
+	:nsubj (t / that))

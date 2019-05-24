@@ -1,0 +1,13 @@
+(b / but
+	:op (a / answer
+		:advmod (n / never)
+		:obj (q / question)
+		:nsubj (h / he))
+	:op (d / do
+		:mark (w / when)
+		:nsubj (f / flush
+			:nummod (o / one))
+		:ccomp (m / mean
+			:advmod (n2 / not)
+			:discourse (y / yes)
+			:mark (t / that))))
