@@ -255,6 +255,8 @@ live	live-01	experiencer	stimulus	-	-	-	-	-	-	-	-
 live	live-02	experiencer	stimulus	-	-	-	-	-	-	-	-
 live-down	live-down-06	agent	stimulus	-	-	-	-	-	-	-	-
 live-on	live-on-03	-	patient	attribute	attribute	-	-	-	-	-	-
+live-out	live-out-05	agent	theme	-	-	-	-	-	-	-	-
+lose	lose-04	actor	theme1	theme2	-	-	-	-	-	-	-
 lose	lose-07	-	theme	patient	-	-	-	-	-	-	-
 lose-out	lose-out-06	patient	theme	beneficiary	-	-	-	-	-	-	-
 lounge	lounge-01	patient	-	-	-	-	-	-	-	-	-
@@ -323,6 +325,7 @@ pray	pray-01	agent	topic	recipient	-	-	-	-	-	-	-
 preach	preach-01	agent	topic	-	-	-	-	-	-	-	-
 prearrange	prearrange-01	agent	patient	-	-	-	-	-	-	-	-
 precaution	precaution-01	agent	topic	recipient	-	-	-	-	-	-	-
+precaution	precaution-02	agent	theme1	theme2	beneficiary	-	-	-	-	-	-
 prompt	prompt-01	actor	theme	-	-	-	-	-	-	-	-
 prompt	prompt-02	actor	patient	theme	-	-	-	-	-	-	-
 prompt	prompt-03	theme	agent	-	-	-	-	-	-	-	-
@@ -466,6 +469,7 @@ uniform	uniform-02	-	theme	-	-	-	-	-	-	-	-
 unify	unify-01	agent	patient1	patient2	location	product	-	-	-	-	-
 union	union-02	agent	patient1	patient2	product	theme	-	-	-	-	-
 unionize	unionize-01	agent	patient	-	-	-	-	-	-	-	-
+unique	unique-01	-	theme1	beneficiary	source	attribute	-	-	-	-	-
 unpeg	unpeg-01	agent	patient	source	-	-	-	-	-	-	-
 unpin	unpin-01	agent	patient	source	-	-	-	-	-	-	-
 unplug	unplug-01	agent	patient	-	-	-	-	-	-	-	-

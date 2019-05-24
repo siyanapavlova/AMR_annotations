@@ -1,0 +1,3 @@
+defeat-01  ARG0: entity victorious  ARG1: entity defeated  ARGM-LOC: domain of competition
+fare-01  ARG0: thing faring, managing  ARGM-MNR: how?
+return-01  ARG1: entity in motion  ARG2: (extent -- rare)  ARG3: start point  ARG4: end point  ARGM-LOC: medium
