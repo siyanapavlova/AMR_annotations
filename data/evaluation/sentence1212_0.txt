@@ -1,9 +1,0 @@
-(s / say-01
-	:ARG1 (s2 / save
-		:nsubj (t3 / they)
-		:obj (a / amount
-			:mod (t2 / tremendous)
-			:poss (t / time
-				:case (o / of)))
-		:mark (b / because))
-	:ARG0 (m / merchant))

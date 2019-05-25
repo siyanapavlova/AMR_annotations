@@ -1,8 +1,0 @@
-(d / die
-	:nsubj (i / i)
-	:mark (t2 / to)
-	:cop (b2 / be)
-	:obl (t / thirst
-		:case (o / of))
-	:mark (b / because)
-	:advmod (a / about))

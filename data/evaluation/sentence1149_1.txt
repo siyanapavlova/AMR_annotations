@@ -1,6 +1,0 @@
-(s / say-02
-	:ccomp (s2 / so
-		:nsubj (t / that)
-		:discourse (y / yes)
-		:cop (b / be))
-	:ARG0 (f / fox))

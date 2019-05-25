@@ -1,9 +1,0 @@
-(l / laugh
-	:nsubj (i / idea
-		:poss (h / herd
-			:acl (m / make
-				:obj (p / prince
-					:mod (l2 / little)))
-			:case (o2 / of)
-			:poss (e / elephant
-				:case (o / of)))))

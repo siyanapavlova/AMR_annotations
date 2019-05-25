@@ -1,5 +1,0 @@
-(a / answer
-	:nsubj (k / king)
-	:nsubj (t / that
-		:det (a2 / all
-			:goeswith (o / over))))

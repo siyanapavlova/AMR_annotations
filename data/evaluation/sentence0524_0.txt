@@ -1,6 +1,0 @@
-(s / sire
-	:parataxis (r / rule
-		:obj (w / what
-			:advmod (o / over))
-		:aux (d / do)
-		:nsubj (y / you)))

@@ -1,8 +1,0 @@
-(s / say-02
-	:ccomp (b2 / begin
-		:aux (b / be)
-		:xcomp (u / understand
-			:mark (t / to))
-		:nsubj (i / i))
-	:ARG0 (p / prince
-		:mod (l / little)))

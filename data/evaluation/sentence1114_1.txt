@@ -1,5 +1,0 @@
-(s / say-02
-	:ARG0 (h / he)
-	:ccomp (t / tame
-		:obj (i / i)
-		:discourse (p / please)))

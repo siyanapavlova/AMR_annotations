@@ -1,7 +1,0 @@
-(u / use
-	:det (n / no)
-	:case (o / of)
-	:cop (b / be)
-	:poss (i / i
-		:case (t / to))
-	:nsubj (w / wheat))

@@ -1,5 +1,0 @@
-(a / amusing
-	:cop (b / be)
-	:aux (w / will)
-	:nsubj (t / that)
-	:advmod (s / so))

@@ -1,5 +1,0 @@
-(b / become
-	:nsubj (t / they)
-	:xcomp (f / fashioned
-		:amod (o / old))
-	:advmod (n / never))

@@ -1,9 +1,0 @@
-(l / let
-	:xcomp (d / drop
-		:obl (h2 / hand
-			:poss (m / my)
-			:case (f / from)))
-	:aux (h / have)
-	:obj (t / tool
-		:poss (m2 / my))
-	:nsubj (i / i))

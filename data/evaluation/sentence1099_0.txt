@@ -1,7 +1,0 @@
-(b2 / bored
-	:cc (a / and)
-	:nsubj (i / i)
-	:cop (b / be)
-	:obl (c / consequence
-		:case (i2 / in))
-	:obl (l / little))

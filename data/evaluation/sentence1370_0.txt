@@ -1,9 +1,0 @@
-(s2 / see
-	:manner (b / begin
-		:nsubj (t / track
-			:poss (m / my))
-		:mark (w2 / where)
-		:obl (s / sand
-			:case (i / in)))
-	:nsubj (y / you)
-	:aux (w / will))

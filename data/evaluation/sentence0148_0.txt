@@ -1,8 +1,0 @@
-(s / surprise
-	:aux (d / do)
-	:obj (i / i)
-	:cc (b / but)
-	:nsubj (t / that)
-	:advmod (r / really)
-	:advmod (n / not)
-	:advmod (m / much))

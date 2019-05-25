@@ -1,6 +1,0 @@
-(e / embarassed
-	:cop (b / be)
-	:nsubj (r / ros)
-	:advmod (m / much
-		:advmod (v / very))
-	:cc (a / and))

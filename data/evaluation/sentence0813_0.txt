@@ -1,9 +1,0 @@
-(b / be
-	:nsubj (t / thing
-		:nummod (o / one)
-		:acl (l / love
-			:obl (l2 / life
-				:case (i2 / in))
-			:nsubj (i / i)))
-	:ccomp (s / sleep
-		:mark (t2 / to)))

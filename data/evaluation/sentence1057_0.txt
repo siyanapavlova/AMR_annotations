@@ -1,8 +1,0 @@
-(b2 / be
-	:expl (i / it)
-	:ccomp (l / look
-		:nsubj (y / you)
-		:aux (b / be)
-		:obl (f / for)
-		:mark (t / that))
-	:nsubj (w / what))

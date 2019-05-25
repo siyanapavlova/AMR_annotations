@@ -1,3 +1,0 @@
-(s / strange
-	:cop (b / be)
-	:nsubj (i / it))

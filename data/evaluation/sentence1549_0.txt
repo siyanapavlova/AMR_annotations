@@ -1,4 +1,0 @@
-(l / look
-	:compound (u / up)
-	:obl (s / sky
-		:case (a / at)))

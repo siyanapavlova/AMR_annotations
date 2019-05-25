@@ -1,3 +1,0 @@
-(e / explorer
-	:nsubj (y / you)
-	:cop (b / be))

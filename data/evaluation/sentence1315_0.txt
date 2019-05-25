@@ -1,4 +1,0 @@
-(d / drink
-	:nsubj (i / i)
-	:aux (h / have)
-	:obj (w / water))

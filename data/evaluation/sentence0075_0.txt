@@ -1,5 +1,0 @@
-(m / make
-	:advmod (s / so)
-	:nsubj (i / i)
-	:advmod (t / then)
-	:obj (d / drawing))

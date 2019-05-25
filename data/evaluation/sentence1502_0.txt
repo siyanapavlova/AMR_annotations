@@ -1,8 +1,0 @@
-(w2 / well
-	:nsubj (s / star
-		:det (a / all))
-	:poss (p / pulley
-		:case (w / with)
-		:mod (r / rusty))
-	:aux (w3 / will)
-	:cop (b / be))

@@ -1,3 +1,0 @@
-(m / mean
-	:obj (s / star)
-	:nsubj (y / you))

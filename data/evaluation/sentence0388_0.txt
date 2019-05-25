@@ -1,6 +1,0 @@
-(d / disarrang
-	:advmod (s / still)
-	:cop (b / be)
-	:nsubj (p / petal
-		:poss (m / my))
-	:mod (a / all))

@@ -1,3 +1,0 @@
-(w / what
-	:cop (b / be)
-	:nsubj (o / order))

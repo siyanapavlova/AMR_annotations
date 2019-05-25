@@ -1,3 +1,0 @@
-(a / and
-	:op (t2 / twelve)
-	:op (t / three))

@@ -1,8 +1,0 @@
-(t / that
-	:nsubj (i / it)
-	:poss (c / constrictor
-		:poss (o / outside
-			:case (f / from))
-		:case (o2 / of)
-		:compound (b2 / boa))
-	:cop (b / be))

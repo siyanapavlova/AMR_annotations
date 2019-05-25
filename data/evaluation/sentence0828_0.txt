@@ -1,2 +1,0 @@
-(l / look
-	:discourse (o / oh))

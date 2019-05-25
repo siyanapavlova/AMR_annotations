@@ -1,7 +1,0 @@
-(r / rule
-	:aux (c / could)
-	:advmod (r2 / really)
-	:nsubj (w / what)
-	:nsubj (k / king
-		:det (t / this))
-	:mark (o / over))

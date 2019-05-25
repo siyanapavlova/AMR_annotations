@@ -1,5 +1,0 @@
-(m / mean
-	:aux (d / do)
-	:nsubj (t2 / that)
-	:parataxis (t / tame)
-	:obj (w / what))

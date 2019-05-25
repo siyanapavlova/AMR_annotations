@@ -1,6 +1,0 @@
-(a2 / all
-	:acl (a / ask
-		:obj (p / prince
-			:mod (l / little))
-		:nsubj (t / that))
-	:goeswith (o / over))

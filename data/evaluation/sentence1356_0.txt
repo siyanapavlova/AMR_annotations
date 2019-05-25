@@ -1,4 +1,0 @@
-(c / come
-	:obl (e / evening
-		:compound (t / tomorrow))
-	:advmod (b / back))

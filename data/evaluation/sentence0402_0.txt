@@ -1,7 +1,0 @@
-(w / weed
-	:cop (b / be)
-	:advmod (n / not)
-	:nsubj (i / i)
-	:parataxis (r / reply
-		:nsubj (f / flower)
-		:advmod (s / sweetly)))

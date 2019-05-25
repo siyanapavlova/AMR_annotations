@@ -1,8 +1,0 @@
-(s / say-01
-	:ARG1 (f / fault
-		:cop (b / be)
-		:poss (y / you)
-		:nsubj (i / it)
-		:mod (o / own))
-	:ARG0 (p / prince
-		:mod (l / little)))

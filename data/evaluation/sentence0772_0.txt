@@ -1,8 +1,0 @@
-(p / put
-	:nsubj (o / order)
-	:obj (l / lamp
-		:poss (m / my))
-	:nsubj (i / i)
-	:cop (b / be)
-	:compound (o2 / out)
-	:mark (t / that))

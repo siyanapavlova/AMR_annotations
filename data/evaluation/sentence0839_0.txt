@@ -1,9 +1,0 @@
-(h / here
-	:nsubj (m / man
-		:acl (h2 / have
-			:nsubj (w / who)
-			:obj (p / profession
-				:mod (r / real))))
-	:poss (l / last
-		:case (a / at))
-	:cop (b / be))

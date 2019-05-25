@@ -1,8 +1,0 @@
-(s / say-01
-	:advmod (t / then)
-	:ARG1 (k / know
-		:nsubj (y / you)
-		:obj (f / flower
-			:poss (m / my)))
-	:ARG0 (h / he)
-	:advmod (a / again))

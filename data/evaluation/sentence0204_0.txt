@@ -1,8 +1,0 @@
-(t / think
-	:nsubj (h2 / he)
-	:ccomp (h / himself
-		:mark (t2 / that)
-		:nsubj (i / i)
-		:cop (b / be)
-		:case (l / like))
-	:advmod (p / perhaps))

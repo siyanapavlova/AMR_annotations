@@ -1,7 +1,0 @@
-(j / judge
-	:nsubj (y2 / you)
-	:obj (y / yourself)
-	:aux (s / shall)
-	:advmod (t / then)
-	:conj (a / answer
-		:nsubj (k / king)))

@@ -1,2 +1,0 @@
-(m / minute
-	:nummod (t / thirty))

@@ -1,9 +1,0 @@
-(r / rarely
-	:nsubj (i2 / it)
-	:advmod (v / very)
-	:ccomp (c / change
-		:obj (p / position
-			:poss (i / its))
-		:nsubj (m / mountain)
-		:mark (t / that))
-	:cop (b / be))

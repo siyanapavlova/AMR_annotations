@@ -1,6 +1,0 @@
-(r / reply
-	:nsubj (i / i)
-	:parataxis (s / so
-		:nsubj (t / that)
-		:cop (b / be)
-		:discourse (y / yes)))

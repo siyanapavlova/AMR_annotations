@@ -1,8 +1,0 @@
-(m / make
-	:advmod (s2 / so)
-	:nsubj (i / i)
-	:obj (s / sketch
-		:poss (m2 / muzzle
-			:case (o / of))
-		:compound (p / pencil))
-	:advmod (t / then))

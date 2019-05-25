@@ -1,7 +1,0 @@
-(m / make
-	:aux (d / do)
-	:obj (m2 / money
-		:mod (m3 / much
-			:advmod (h2 / how)))
-	:nsubj (f / father
-		:poss (h / he)))

@@ -1,6 +1,0 @@
-(a / away
-	:advmod (f / far
-		:advmod (h / how))
-	:cop (b / be
-		:nsubj (i / it))
-	:cc (b2 / but))

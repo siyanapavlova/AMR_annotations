@@ -1,5 +1,0 @@
-(g / go
-	:nsubj (p / prince
-		:mod (l / little))
-	:cc (a2 / and)
-	:advmod (a / away))

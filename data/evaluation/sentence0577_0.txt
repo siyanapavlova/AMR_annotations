@@ -1,7 +1,0 @@
-(t2 / thing
-	:cop (b / be)
-	:mod (d / difficult
-		:advmod (m / most))
-	:nsubj (t / that)
-	:poss (a / all
-		:case (o / of)))

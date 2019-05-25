@@ -1,4 +1,0 @@
-(i / interesting
-	:nsubj (t / that)
-	:discourse (a / ah)
-	:cop (b / be))

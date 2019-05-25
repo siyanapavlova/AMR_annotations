@@ -1,8 +1,0 @@
-(s / see
-	:obj (s2 / sort
-		:poss (t / thing
-			:case (o2 / of))
-		:mod (a / all))
-	:obl (e / earth
-		:case (o / on))
-	:nsubj (o3 / one))

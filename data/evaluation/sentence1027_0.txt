@@ -1,4 +1,0 @@
-(s / say-01
-	:ARG1 (m / morning
-		:mod (g / good))
-	:ARG0 (h / he))

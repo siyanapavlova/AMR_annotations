@@ -1,6 +1,0 @@
-(t / thicker
-	:obl (f / finger
-		:case (t2 / than))
-	:cop (b / be)
-	:advmod (n / no)
-	:nsubj (y / you))

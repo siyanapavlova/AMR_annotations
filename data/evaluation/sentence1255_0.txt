@@ -1,7 +1,0 @@
-(a / and
-	:op (t2 / throb
-		:compound (s2 / silence)
-		:case (t / through)
-		:compound (s / something)
-		:cc (y / yet))
-	:op (g / gleam))

@@ -1,8 +1,0 @@
-(l / laugh
-	:aux (s / shall)
-	:obl (o / one
-		:poss (t / they
-			:case (o2 / of))
-		:case (i / in))
-	:aux (b / be)
-	:nsubj (i2 / i))

@@ -1,8 +1,0 @@
-(s / speak
-	:advmod (w / why)
-	:advmod (a / always)
-	:aux (d / do)
-	:obl (r / riddle
-		:case (i / in))
-	:cc (b / but)
-	:nsubj (y / you))

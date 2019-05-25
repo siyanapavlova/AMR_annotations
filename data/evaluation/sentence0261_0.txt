@@ -1,8 +1,0 @@
-(s / successful
-	:cop (b2 / be)
-	:obl (o / other
-		:case (w / with))
-	:aux (h / have)
-	:advmod (n / not)
-	:nsubj (i / i)
-	:cc (b / but))

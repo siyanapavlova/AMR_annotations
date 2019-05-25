@@ -1,9 +1,0 @@
-(h / hole
-	:cop (b / be)
-	:mod (m / mere)
-	:acl (d / dug
-		:obl (s / sand
-			:case (i / in)))
-	:nsubj (w / well
-		:poss (s2 / sahara
-			:case (o / of))))

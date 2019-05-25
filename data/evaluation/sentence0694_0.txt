@@ -1,4 +1,0 @@
-(i / it
-	:nsubj (t / that)
-	:discourse (y / yes)
-	:cop (b / be))

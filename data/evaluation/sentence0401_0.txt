@@ -1,7 +1,0 @@
-(e / eat
-	:advmod (n / not)
-	:obj (w / weed)
-	:nsubj (t / tiger)
-	:aux (d / do)
-	:advmod (a2 / anyway)
-	:cc (a / and))

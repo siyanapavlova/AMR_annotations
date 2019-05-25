@@ -1,7 +1,0 @@
-(u / understand
-	:advmod (n / not)
-	:aux (d / do)
-	:obj (s / sweetness
-		:mod (q / quiet)
-		:det (t / this))
-	:nsubj (h / he))

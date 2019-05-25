@@ -1,3 +1,0 @@
-(b / be
-	:expl (t / there)
-	:nsubj (f / flower))

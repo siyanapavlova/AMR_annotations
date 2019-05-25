@@ -1,5 +1,0 @@
-(o / observe
-	:obj (r / rite
-		:mod (p / proper))
-	:aux (m / must)
-	:nsubj (o2 / one))

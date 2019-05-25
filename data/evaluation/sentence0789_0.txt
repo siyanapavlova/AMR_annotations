@@ -1,3 +1,0 @@
-(t / tragedy
-	:cop (b / be)
-	:nsubj (t2 / that))

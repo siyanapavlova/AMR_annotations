@@ -1,7 +1,0 @@
-(s / say-01
-	:ARG0 (p / prince
-		:mod (l / little))
-	:obl (m / morning
-		:mod (g / good))
-	:time (h / he
-		:case (t / to)))

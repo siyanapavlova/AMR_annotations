@@ -1,7 +1,0 @@
-(h2 / have
-	:nsubj (h / he)
-	:obj (w / way
-		:acl (g / guess
-			:mark (o / of)
-			:obj (d / danger))
-		:det (n / no)))

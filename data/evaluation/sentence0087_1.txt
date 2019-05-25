@@ -1,8 +1,0 @@
-(w2 / want
-	:obj (s / sheep
-		:acl (l2 / live-02
-			:nsubj (t / that)
-			:aux (w / will)
-			:obj (t2 / time
-				:mod (l / long))))
-	:nsubj (i / i))

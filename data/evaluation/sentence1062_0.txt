@@ -1,4 +1,0 @@
-(d / disturbing
-	:nsubj (i / it)
-	:advmod (v / very)
-	:cop (b / be))

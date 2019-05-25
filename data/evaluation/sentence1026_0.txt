@@ -1,8 +1,0 @@
-(l / lead
-	:nsubj (r / road
-		:mod (a2 / all))
-	:time (a3 / abode
-		:poss (m / man
-			:case (o / of))
-		:case (t / to))
-	:cc (a / and))

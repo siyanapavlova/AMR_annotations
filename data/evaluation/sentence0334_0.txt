@@ -1,6 +1,0 @@
-(l / look
-	:advmod (n / never)
-	:aux (h2 / have)
-	:obl (s / star
-		:case (a / at))
-	:nsubj (h / he))

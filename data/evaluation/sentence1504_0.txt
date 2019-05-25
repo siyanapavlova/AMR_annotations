@@ -1,3 +1,0 @@
-(s / say-02
-	:ARG0 (i / i)
-	:ARG1 (n / nothing))

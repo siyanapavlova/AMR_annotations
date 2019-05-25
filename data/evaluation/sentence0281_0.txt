@@ -1,8 +1,0 @@
-(f / far
-	:nsubj (f2 / france)
-	:cop (b / be)
-	:obl (t2 / that
-		:case (f3 / for))
-	:advmod (a / away)
-	:advmod (t / too)
-	:advmod (u / unfortunately))

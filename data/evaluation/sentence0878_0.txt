@@ -1,7 +1,0 @@
-(d / describe
-	:aux (s / shall)
-	:time (i / i
-		:case (t / to))
-	:obj (p / planet
-		:poss (y / you))
-	:nsubj (y2 / you))

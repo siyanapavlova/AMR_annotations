@@ -1,7 +1,0 @@
-(w / white
-	:cop (b / be)
-	:obl (r / rage
-		:case (w2 / with))
-	:nsubj (p / prince
-		:mod (l / little))
-	:advmod (n / now))

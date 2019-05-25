@@ -1,9 +1,0 @@
-(d / do
-	:xcomp (g / good
-		:advmod (a2 / all
-			:case (a / at))
-		:det (n / no))
-	:nsubj (i / it)
-	:iobj (y / you)
-	:aux (h / have)
-	:advmod (t / then))

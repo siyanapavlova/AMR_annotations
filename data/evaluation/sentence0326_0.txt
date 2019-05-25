@@ -1,6 +1,0 @@
-(t / talk
-	:obl (u / up
-		:mod (g / grow)
-		:advmod (j / just)
-		:case (l / like))
-	:nsubj (y / you))

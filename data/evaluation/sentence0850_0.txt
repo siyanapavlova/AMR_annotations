@@ -1,7 +1,0 @@
-(t2 / tell
-	:aux (c / could)
-	:iobj (y / you)
-	:obj (t / that)
-	:advmod (n / not)
-	:advmod (e / either)
-	:nsubj (i / i))

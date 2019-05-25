@@ -1,8 +1,0 @@
-(d / distinguish-01
-	:ARG0 (i / i)
-	:ARG1 (c2 / china)
-	:aux (c / can)
-	:obl (a / arizona
-		:case (f / from))
-	:obl (g / glance
-		:case (a2 / at)))

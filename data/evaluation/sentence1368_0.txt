@@ -1,9 +1,0 @@
-(o / or
-	:op (h / hear
-		:obj (a2 / anyone))
-	:op (s / see
-		:obl (t / time
-			:det (n / no)
-			:case (a / at))
-		:aux (d / do)
-		:nsubj (i / i)))

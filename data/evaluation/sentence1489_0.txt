@@ -1,3 +1,0 @@
-(s / suffer
-	:nsubj (y / you)
-	:aux (w / will))

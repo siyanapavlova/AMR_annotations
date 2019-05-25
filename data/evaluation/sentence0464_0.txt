@@ -1,7 +1,0 @@
-(w / want
-	:advmod (n / not)
-	:xcomp (a / any
-		:advmod (m / more))
-	:aux (d / do)
-	:obj (i / it)
-	:nsubj (i2 / i))

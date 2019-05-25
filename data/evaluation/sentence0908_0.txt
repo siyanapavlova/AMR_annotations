@@ -1,3 +1,0 @@
-(c / certainly
-	:cop (b / be
-		:nsubj (i / it)))

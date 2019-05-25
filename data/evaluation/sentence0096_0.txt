@@ -1,8 +1,0 @@
-(s / small
-	:advmod (v / very)
-	:cop (b2 / be)
-	:csubj (l / live
-		:advmod (w / where)
-		:nsubj (i / i)
-		:mark (b / because)
-		:nsubj (e / everything)))

@@ -1,5 +1,0 @@
-(b / blink-01
-	:ARG1 (e / eye
-		:poss (m / my))
-	:ARG0 (i / i)
-	:advmod (h / hard))

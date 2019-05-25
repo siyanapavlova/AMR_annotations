@@ -1,6 +1,0 @@
-(h / heavy
-	:advmod (t / too)
-	:cop (b / be)
-	:nsubj (i / it)
-	:obl (y / you
-		:case (f / for)))

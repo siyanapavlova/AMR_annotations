@@ -1,5 +1,0 @@
-(p / perfect
-	:cop (b / be)
-	:nsubj (n / nothing)
-	:conj (s / sigh
-		:obj (f / fox)))

@@ -16,7 +16,10 @@ def run_pipeline(load_path, save_path, filename, gold_amr):
 	grs_filename = './grs/grs_amr_main.grs' 
 
 	# generate the graph(s) from the application of the grs in grs_filename
-	new_graphs = ud_to_amr.ud_to_amr(grs_filename, ud_graph, strat="test_new_lex")
+	try: 
+		new_graphs = ud_to_amr.ud_to_amr(grs_filename, ud_graph, strat="test_new_lex")
+	except grew.utils.GrewError:
+		return None
 	score_dict = {}
 	# print(len(new_graphs))
 	for new_graph_num in range(len(new_graphs)):
@@ -49,7 +52,10 @@ if __name__=="__main__":
 	# sentence_nums = [59, 276, 430, 523, 778, 799, 887, 1166, 1245, 1426]
 	# sentence_nums = [347]
 
-	sentence_nums = list(range(1,120))
+	# sentence_nums = list(range(1,121))
+	# sentence_nums = list(range(1,15))
+	# sentence_nums = [59]
+	sentence_nums = [17]
 
 	# sentence_nums = list(range(1,1563))
 	# sentence_nums.remove(347)
@@ -63,21 +69,25 @@ if __name__=="__main__":
 	print(sentence_nums)
 
 	for num in sentence_nums:
-		scores.append(('{:04d}'.format(num), run_pipeline('./data/amr_bank_data/ud/sentence'+'{:04d}'.format(num)+'.conll',
+		result = run_pipeline('./data/amr_bank_data/ud/sentence'+'{:04d}'.format(num)+'.conll',
 							'./data/evaluation/',
 							'sentence'+'{:04d}{}'.format(num, '{}')+'.txt',
-							'./data/amr_bank_data/amrs/amr'+'{:04d}'.format(num)+'.txt')))
+							'./data/amr_bank_data/amrs/amr'+'{:04d}'.format(num)+'.txt')
+		if result != None:
+			scores.append(('{:04d}'.format(num), result))
 	# pp.pprint(scores)
 	# scores_split = [scores.split(i) for score in scores for i in [b"Precision: ", b"Recall: ", "F-score: "] ]
 	precision = [float(score[1].split(b"Precision: ")[1].split(b"\n")[0]) for score in scores]
 	recall = [float(score[1].split(b"Recall: ")[1].split(b"\n")[0]) for score in scores]
 	f1 = [float(score[1].split(b"F-score: ")[1].split(b"\n")[0]) for score in scores]
 	for score_val in [precision, recall, f1]:
-		print("======================")
-		print ("Min score:", min(score_val))
-		print ("Max score:", max(score_val))
-		print ("Avg score:", sum(score_val)/len(score_val))
-		print("======================")
-		index, value = max(enumerate(score_val), key=operator.itemgetter(1))
-		print(index, value)
-		print(score_val)
+		if score_val:
+			print("======================")
+			print ("Min score:", min(score_val))
+			print ("Max score:", max(score_val))
+			print ("Avg score:", sum(score_val)/len(score_val))
+			print("======================")
+			index, value = max(enumerate(score_val), key=operator.itemgetter(1))
+			print(index, value)
+			print(score_val)
+	print(len(precision))

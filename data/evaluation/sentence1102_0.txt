@@ -1,8 +1,0 @@
-(s2 / send
-	:obj (i / i)
-	:nsubj (s / step
-		:mod (o / other))
-	:xcomp (h / hurry
-		:advmod (b / back)
-		:obl (g / ground
-			:case (u / underneath))))

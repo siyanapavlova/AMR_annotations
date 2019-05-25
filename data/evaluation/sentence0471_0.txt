@@ -1,9 +1,0 @@
-(b / butterfly
-	:manner (n / not
-		:mark (i2 / if))
-	:parataxis (c / call
-		:nsubj (w / who)
-		:aux (w2 / will)
-		:obl (i / i
-			:case (u / upon)))
-	:cc (a / and))

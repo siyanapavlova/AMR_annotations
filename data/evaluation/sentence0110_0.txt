@@ -1,3 +1,0 @@
-(a / airplane
-	:nsubj (i / it)
-	:cop (b / be))

@@ -1,6 +1,0 @@
-(l / love
-	:nsubj (h2 / he)
-	:advmod (n / never)
-	:obj (o / one
-		:det (a / any))
-	:aux (h / have))

@@ -1,9 +1,0 @@
-(t / there
-	:advmod (w2 / well)
-	:nsubj (r / ruin
-		:poss (w / wall
-			:case (o / of)
-			:mod (o2 / old)
-			:compound (s / stone)))
-	:case (b2 / beside)
-	:cop (b / be))

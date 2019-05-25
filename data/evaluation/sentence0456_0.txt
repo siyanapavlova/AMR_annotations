@@ -1,7 +1,0 @@
-(s / surprise
-	:obl (a / absence
-		:case (b / by)
-		:poss (r / reproach
-			:case (o / of))
-		:det (t / this))
-	:nsubj (h / he))

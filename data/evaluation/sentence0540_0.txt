@@ -1,3 +1,0 @@
-(o / or
-	:op (g / general)
-	:op (m / myself))

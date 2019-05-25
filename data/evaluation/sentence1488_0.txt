@@ -1,7 +1,0 @@
-(w / wrong
-	:manner (c / come
-		:mark (t / to))
-	:cop (b / be)
-	:obl (y / you
-		:case (o / of))
-	:nsubj (i / it))

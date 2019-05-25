@@ -1,4 +1,0 @@
-(t2 / true
-	:cc (a / and)
-	:cop (b / be)
-	:nsubj (t / that))

@@ -1,7 +1,0 @@
-(a / astronomer
-	:case (b2 / by)
-	:cop (b / be)
-	:obl (1 / 1909
-		:case (i / in))
-	:mod (t2 / turkish)
-	:nsubj (t / that))

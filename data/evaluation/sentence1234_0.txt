@@ -1,5 +1,0 @@
-(m / make
-	:obj (g / gesture
-		:poss (w / weariness
-			:case (o / of)))
-	:nsubj (i / i))

@@ -1,5 +1,0 @@
-(c / chok
-	:obl (s / sobb
-		:case (b / by))
-	:nsubj (w / word
-		:poss (h / he)))

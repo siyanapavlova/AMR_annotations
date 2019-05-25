@@ -1,3 +1,0 @@
-(b / but
-	:op (p / praise)
-	:op (a / anything))

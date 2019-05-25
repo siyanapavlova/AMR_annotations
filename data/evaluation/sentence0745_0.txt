@@ -1,7 +1,0 @@
-(c / consequence
-	:case (o / of)
-	:cop (b / be)
-	:mod (g / great)
-	:nsubj (i / it)
-	:det (n / no)
-	:cc (b2 / but))

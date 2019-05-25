@@ -1,5 +1,6 @@
 include "core_roles.grs"
 include "non_core_roles.grs"
+include "remove_punct_safe.grs"
 
 strat simplest {
   Seq (
@@ -21,12 +22,52 @@ strat prepare {
   Seq (
     Iter(add_root_concept), %add a concept to the root
     Iter(remove_root_rel), %delete the root relation
-    %Iter(remove_punct_safe),
+  )
+}
+
+strat remove_punct_safe_strat {
+  Seq (
+    Iter(remove_punct_safe_nsubj),
+    Iter(remove_punct_safe_obj),
+    Iter(remove_punct_safe_iobj),
+    Iter(remove_punct_safe_obl),
+    Iter(remove_punct_safe_vocative),
+    Iter(remove_punct_safe_expl),
+    Iter(remove_punct_safe_dislocated),
+    Iter(remove_punct_safe_nmod),
+    Iter(remove_punct_safe_appos),
+    Iter(remove_punct_safe_nummod),
+    Iter(remove_punct_safe_csubj),
+    Iter(remove_punct_safe_ccomp),
+    Iter(remove_punct_safe_xcomp),
+    Iter(remove_punct_safe_advcl),
+    Iter(remove_punct_safe_acl),
+    Iter(remove_punct_safe_advmod),
+    Iter(remove_punct_safe_discourse),
+    Iter(remove_punct_safe_amod),
+    Iter(remove_punct_safe_aux),
+    Iter(remove_punct_safe_cop),
+    Iter(remove_punct_safe_mark),
+    Iter(remove_punct_safe_det),
+    Iter(remove_punct_safe_clf),
+    Iter(remove_punct_safe_case),
+    Iter(remove_punct_safe_conj),
+    Iter(remove_punct_safe_cc),
+    Iter(remove_punct_safe_fixed),
+    Iter(remove_punct_safe_flat),
+    Iter(remove_punct_safe_compound),
+    Iter(remove_punct_safe_list),
+    Iter(remove_punct_safe_parataxis),
+    Iter(remove_punct_safe_orphan),
+    Iter(remove_punct_safe_goeswith),
+    Iter(remove_punct_safe_reparandum),
+    Iter(remove_punct_safe_dep),
   )
 }
 
 strat clean {
   Seq (
+    %Iter(remove_punct_safe),
     Iter(remove_punct),
     Iter(remove_det),
   )
@@ -37,16 +78,7 @@ strat prepare_predicates {
     Iter(add_root_concept),
     Onf(add_concept),
     Iter(prepare_concept),
-    Iter(prepare_verb_arg0),
-    Iter(prepare_verb_arg1),
-    Iter(prepare_verb_arg2),
-    Iter(prepare_verb_arg3),
-    Iter(prepare_verb_arg4),
-    Iter(prepare_verb_arg5),
-    Iter(prepare_verb_arg6),
-    Iter(prepare_verb_arg7),
-    Iter(prepare_verb_arg8),
-    Iter(prepare_verb_arg9),
+    Iter(prepare_verb_arg),
   )
 }
 
@@ -76,6 +108,8 @@ strat non_core_new_lex{
 
 strat test_new_lex {
   Seq (
+    %clean,
+    remove_punct_safe_strat,
     prepare_predicates,
     Iter(det_as_pers_pron),
     Iter(det_as_all),

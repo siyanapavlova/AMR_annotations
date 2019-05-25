@@ -1,3 +1,0 @@
-(a / and
-	:op (s2 / slowly)
-	:op (s / steadily))

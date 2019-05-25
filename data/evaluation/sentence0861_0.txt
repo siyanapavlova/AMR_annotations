@@ -1,3 +1,0 @@
-(w / why
-	:nsubj (t / that)
-	:cop (b / be))

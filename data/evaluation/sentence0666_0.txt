@@ -1,9 +1,0 @@
-(a / and
-	:op (h / hundr
-		:obl (f / five))
-	:op (s / stop
-		:nummod (m / million
-			:nummod (o / one))
-		:advmod (n / not)
-		:nsubj (i / i)
-		:aux (c / can)))

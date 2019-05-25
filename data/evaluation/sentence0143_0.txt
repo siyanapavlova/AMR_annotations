@@ -1,9 +1,0 @@
-(s / say
-	:advmod (e / earnestly)
-	:nsubj (p / prince
-		:mod (l / little))
-	:advmod (t2 / then)
-	:ccomp (m / matter
-		:aux (d / do)
-		:advmod (n / not)
-		:nsubj (t / that)))

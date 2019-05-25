@@ -1,5 +1,0 @@
-(p / prince
-	:acl (g / gaze
-		:obl (t / they
-			:case (a / at)))
-	:mod (l / little))

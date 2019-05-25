@@ -1,7 +1,0 @@
-(p / picture
-	:advmod (n / not)
-	:poss (h / hat
-		:case (o / of))
-	:cop (b / be)
-	:nsubj (d / drawing
-		:poss (m / my)))

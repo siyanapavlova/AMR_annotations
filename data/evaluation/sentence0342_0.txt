@@ -1,9 +1,0 @@
-(g / grow
-	:nsubj (f / flower)
-	:obj (t / thorn
-		:poss (m / million
-			:case (f2 / for)
-			:poss (y / year
-				:case (o / of))))
-	:aux (h / have)
-	:aux (b / be))

@@ -1,7 +1,0 @@
-(d2 / do
-	:obj (t6 / that)
-	:mark (i4 / if)
-	:mark (f / for)
-	:nsubj (i3 / i)
-	:advmod (n2 / not)
-	:aux (d / do))

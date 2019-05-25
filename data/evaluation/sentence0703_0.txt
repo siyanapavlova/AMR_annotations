@@ -1,3 +1,0 @@
-(o / own
-	:nsubj (i / i)
-	:obj (t / they))

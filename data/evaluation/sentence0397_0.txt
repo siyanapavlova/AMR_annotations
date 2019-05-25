@@ -1,4 +1,0 @@
-(t / tend
-	:advmod (s / so)
-	:nsubj (h / he)
-	:obj (f / flower))

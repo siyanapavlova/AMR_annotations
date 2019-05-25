@@ -1,8 +1,0 @@
-(s2 / show
-	:obj (y / you)
-	:ccomp (h2 / happy
-		:cop (b / be)
-		:nsubj (i2 / i)
-		:advmod (h / how))
-	:aux (s / shall)
-	:nsubj (i / i))

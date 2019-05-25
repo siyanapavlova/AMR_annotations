@@ -1,4 +1,0 @@
-(l / laugh
-	:advmod (l2 / lightly)
-	:cc (b / but)
-	:nsubj (h / he))

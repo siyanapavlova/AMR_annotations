@@ -1,8 +1,0 @@
-(b / be
-	:obl (e / example
-		:case (f / for))
-	:expl (t / there)
-	:nsubj (r / rite)
-	:obl (h / hunter
-		:poss (m / my)
-		:case (a / among)))

@@ -1,4 +1,0 @@
-(b / beautiful
-	:cop (b2 / be
-		:nsubj (y / you))
-	:advmod (h / how))

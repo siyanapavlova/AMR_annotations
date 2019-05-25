@@ -1,9 +1,0 @@
-(f2 / fox
-	:advmod (o / only)
-	:nsubj (h2 / he)
-	:cop (b / be)
-	:poss (f / fox
-		:mod (o2 / other)
-		:case (l / like)
-		:nummod (t / thousand
-			:nummod (h / hundred))))

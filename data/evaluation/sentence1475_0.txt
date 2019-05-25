@@ -1,9 +1,0 @@
-(t / tell
-	:obj (y / you)
-	:ccomp (a / also
-		:cop (b / be)
-		:nsubj (i2 / it)
-		:obl (s / snake
-			:case (b2 / because
-				:fixed (o / of))))
-	:nsubj (i / i))

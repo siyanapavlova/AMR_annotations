@@ -1,9 +1,0 @@
-(s / say-01
-	:ARG1 (w / want
-		:xcomp (h / hear
-			:ccomp (l / laugh
-				:nsubj (y / you)
-				:advmod (a / again))
-			:mark (t / to))
-		:nsubj (i / i))
-	:ARG0 (i2 / i))

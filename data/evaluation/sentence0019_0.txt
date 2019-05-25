@@ -1,6 +1,0 @@
-(a / and
-	:op (o2 / one)
-	:op (d3 / drawing
-		:nsubj (m2 / my)
-		:obj (n2 / number
-			:flat (t / two))))

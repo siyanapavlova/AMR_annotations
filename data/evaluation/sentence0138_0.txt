@@ -1,7 +1,0 @@
-(t / tie
-	:mark (i / if)
-	:advmod (n / not)
-	:aux (d / do)
-	:nsubj (y / you)
-	:cc (b / but)
-	:obj (h / he))

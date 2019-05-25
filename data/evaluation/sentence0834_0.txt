@@ -1,4 +1,0 @@
-(d / do
-	:nsubj (y / you)
-	:aux (b / be)
-	:obj (w / what))

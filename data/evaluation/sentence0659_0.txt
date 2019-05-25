@@ -1,8 +1,0 @@
-(t2 / time
-	:advmod (n / not)
-	:manner (l / light
-		:advmod (a / again)
-		:obj (i2 / it)
-		:mark (t / to))
-	:aux (h / have)
-	:nsubj (i / i))

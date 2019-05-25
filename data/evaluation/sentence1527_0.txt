@@ -1,8 +1,0 @@
-(g / go
-	:nsubj (y / year
-		:nummod (s / six))
-	:advmod (b / by)
-	:advmod (a2 / already)
-	:advmod (n / now)
-	:aux (h / have)
-	:cc (a / and))

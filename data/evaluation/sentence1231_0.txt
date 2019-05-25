@@ -1,6 +1,0 @@
-(a / all
-	:cop (b / be)
-	:nsubj (s / sunshine
-		:mod (l / little))
-	:acl (n / need
-		:nsubj (h / he)))

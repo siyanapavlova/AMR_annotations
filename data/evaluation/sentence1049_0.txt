@@ -1,8 +1,0 @@
-(c / come
-	:conj (p3 / play
-		:cc (a / and)
-		:obl (i / i
-			:case (w / with)))
-	:conj (p2 / propose
-		:obj (p / prince
-			:mod (l / little))))

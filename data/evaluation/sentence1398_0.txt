@@ -1,8 +1,0 @@
-(r / realise
-	:ccomp (h / happen
-		:mark (t / that)
-		:aux (b / be)
-		:nsubj (s / something
-			:amod (e / extraordinary)))
-	:advmod (c / clearly)
-	:nsubj (i / i))

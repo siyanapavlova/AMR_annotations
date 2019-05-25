@@ -1,6 +1,0 @@
-(r2 / responsible
-	:obl (r / rose
-		:case (f / for)
-		:poss (y / you))
-	:cop (b / be)
-	:nsubj (y2 / you))

@@ -1,6 +1,0 @@
-(d / draw-01
-	:advmod (n / never)
-	:obj (s / sheep)
-	:cc (b / but)
-	:aux (h / have)
-	:ARG0 (i / i))

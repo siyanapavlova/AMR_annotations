@@ -1,8 +1,0 @@
-(p / ponder-01
-	:obl (a / adventure
-		:poss (j / jungle
-			:case (o2 / of))
-		:case (o / over))
-	:ARG0 (i / i)
-	:advmod (t / then)
-	:advmod (d / deeply))

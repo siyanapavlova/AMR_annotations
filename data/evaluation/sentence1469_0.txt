@@ -1,9 +1,0 @@
-(l2 / look
-	:nsubj (i3 / i)
-	:manner (d / die
-		:mark (a / as)
-		:mark (i / if)
-		:nsubj (i2 / i)
-		:aux (b / be))
-	:aux (s / shall)
-	:obj (l / little))

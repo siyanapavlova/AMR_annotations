@@ -1,4 +1,0 @@
-(a / admire
-	:obj (i / i)
-	:xcomp (s / same
-		:advmod (j / just)))

@@ -1,5 +1,0 @@
-(s / say-01
-	:obj (p / prince
-		:advmod (f / firmly)
-		:mod (l / little))
-	:ARG0 (y / you))

@@ -1,5 +1,0 @@
-(a / angry
-	:advmod (v / very)
-	:nsubj (h / he)
-	:advmod (r / really)
-	:cop (b / be))

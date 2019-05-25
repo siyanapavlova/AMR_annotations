@@ -1,3 +1,0 @@
-(p / possible
-	:cop (b / be)
-	:nsubj (t / that))

@@ -1,6 +1,0 @@
-(a / and
-	:op (s / smil
-		:advmod (g / gently)
-		:nsubj (f / friend
-			:poss (m / my)))
-	:op (i / indulgently))

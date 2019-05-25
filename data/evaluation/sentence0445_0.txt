@@ -1,9 +1,0 @@
-(b / believe
-	:ccomp (w2 / want
-		:mark (t / that)
-		:nsubj (h2 / he)
-		:advmod (n / never)
-		:xcomp (r / return
-			:mark (t2 / to))
-		:aux (w / would))
-	:nsubj (h / he))

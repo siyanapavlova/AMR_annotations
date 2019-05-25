@@ -1,8 +1,0 @@
-(s / say-01
-	:ARG0 (f / fox)
-	:ARG1 (p / play
-		:aux (c / can)
-		:obl (y / you
-			:case (w / with))
-		:advmod (n / not)
-		:nsubj (i / i)))

@@ -1,7 +1,0 @@
-(c3 / choose
-	:obj (c / colour
-		:poss (s2 / she))
-	:obl (c2 / care
-		:mod (g / greatest)
-		:case (w / with))
-	:nsubj (s / she))

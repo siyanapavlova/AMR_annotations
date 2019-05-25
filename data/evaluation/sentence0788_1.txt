@@ -1,6 +1,0 @@
-(s / say-02
-	:ccomp (c / change
-		:nsubj (o / order)
-		:aux (h / have)
-		:advmod (n / not))
-	:ARG0 (l / lamplighter))

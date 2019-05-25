@@ -1,4 +1,0 @@
-(c / creature
-	:mod (c2 / coquettish)
-	:nsubj (s / she)
-	:cop (b / be))

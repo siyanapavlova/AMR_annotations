@@ -1,3 +1,0 @@
-(d / draw-01
-	:obj (s / sheep)
-	:iobj (i / i))

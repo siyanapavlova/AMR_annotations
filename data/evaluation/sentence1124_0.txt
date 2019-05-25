@@ -1,7 +1,0 @@
-(r / reply
-	:ccomp (p / patient
-		:aux (m / must)
-		:cop (b / be)
-		:nsubj (y / you)
-		:advmod (v / very))
-	:nsubj (f / fox))

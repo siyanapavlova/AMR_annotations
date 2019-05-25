@@ -1,9 +1,0 @@
-(i / important
-	:cop (b / be)
-	:manner (g2 / go
-		:mark (t / to)
-		:xcomp (l / loaf
-			:advmod (a / about)))
-	:nsubj (g / geographer)
-	:advmod (t2 / too
-		:advmod (m / much)))

@@ -1,6 +1,0 @@
-(h / have
-	:nsubj (i / i)
-	:cc (b / but)
-	:obj (t / time
-		:mod (m / much
-			:advmod (n / not))))

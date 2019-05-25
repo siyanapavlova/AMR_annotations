@@ -1,9 +1,0 @@
-(g / go
-	:manner (t / think
-		:obl (f / flower
-			:poss (h / he)
-			:case (o / of)))
-	:advmod (a / away)
-	:cc (a2 / and)
-	:nsubj (p / prince
-		:mod (l / little)))

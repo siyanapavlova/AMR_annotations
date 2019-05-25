@@ -1,6 +1,0 @@
-(s / say-02
-	:ccomp (e / evening
-		:mod (g / good))
-	:ARG0 (p / prince
-		:advmod (c / courteously)
-		:mod (l / little)))

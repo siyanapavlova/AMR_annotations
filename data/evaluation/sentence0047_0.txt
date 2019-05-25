@@ -1,7 +1,0 @@
-(j / jump
-	:time (f / foot
-		:poss (m / my)
-		:case (t2 / to))
-	:nsubj (i / i)
-	:advmod (t / thunderstruck
-		:advmod (c / completely)))

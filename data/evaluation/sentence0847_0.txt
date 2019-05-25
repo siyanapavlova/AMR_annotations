@@ -1,4 +1,0 @@
-(m / mountain
-	:det (a / any)
-	:nsubj (i / it)
-	:cop (h / have))

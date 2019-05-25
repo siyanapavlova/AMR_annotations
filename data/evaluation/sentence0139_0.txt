@@ -1,7 +1,0 @@
-(s / say
-	:ccomp (w2 / wander
-		:advmod (s2 / somewhere)
-		:nsubj (h / he)
-		:aux (w / will)
-		:compound (o / off))
-	:nsubj (i / i))

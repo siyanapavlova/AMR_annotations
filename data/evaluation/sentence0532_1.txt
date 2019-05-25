@@ -1,5 +1,0 @@
-(s / say-02
-	:ARG0 (k / king)
-	:ccomp (d / do
-		:nsubj (t / they)
-		:advmod (c / certainly)))

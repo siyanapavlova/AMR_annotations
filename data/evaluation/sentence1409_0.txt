@@ -1,9 +1,0 @@
-(a2 / afraid
-	:nsubj (h / he)
-	:parataxis (b2 / be
-		:nsubj (d / doubt
-			:poss (t2 / that
-				:case (a / about))
-			:det (n / no))
-		:expl (t / there))
-	:cop (b / be))

@@ -1,3 +1,0 @@
-(t / there
-	:nsubj (y / you)
-	:cop (b / be))

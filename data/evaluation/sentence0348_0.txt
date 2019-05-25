@@ -1,6 +1,0 @@
-(t / think
-	:ccomp (i / important
-		:cop (b / be)
-		:nsubj (t2 / that)
-		:advmod (n / not))
-	:nsubj (y / you))

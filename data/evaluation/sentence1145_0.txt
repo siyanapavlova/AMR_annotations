@@ -1,5 +1,0 @@
-(t / tame
-	:nsubj (p / prince
-		:mod (l / little))
-	:obj (f / fox)
-	:advmod (s / so))

@@ -1,5 +1,0 @@
-(s / say-02
-	:advmod (c / courteously)
-	:ccomp (m / morning
-		:mod (g / good))
-	:ARG0 (h / he))

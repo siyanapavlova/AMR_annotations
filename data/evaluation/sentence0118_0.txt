@@ -1,3 +1,0 @@
-(f / funny
-	:nsubj (t / that)
-	:cop (b / be))

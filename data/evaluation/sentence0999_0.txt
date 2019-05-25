@@ -1,7 +1,0 @@
-(o / or
-	:op (s2 / seven
-		:poss (t3 / they
-			:case (o2 / of))
-		:poss (e / existence
-			:case (i2 / in)))
-	:op (s / six))

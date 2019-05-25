@@ -1,9 +1,0 @@
-(s / see
-	:cc (a / and)
-	:aux (w2 / will)
-	:ccomp (o / obey
-		:advmod (w / well
-			:advmod (h / how))
-		:nsubj (i / i)
-		:cop (b / be))
-	:nsubj (y / you))

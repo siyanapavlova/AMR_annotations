@@ -1,6 +1,0 @@
-(f / friend
-	:cop (b / be)
-	:nsubj (y / you)
-	:advmod (a / always)
-	:aux (w / will)
-	:poss (m / my))

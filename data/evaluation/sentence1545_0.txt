@@ -1,6 +1,0 @@
-(o2 / or
-	:op (g2 / globe
-		:compound (g3 / glass))
-	:op (g / get
-		:nsubj (s / sheep)
-		:advmod (o / out)))

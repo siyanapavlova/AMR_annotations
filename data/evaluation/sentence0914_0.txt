@@ -1,4 +1,0 @@
-(r / reply
-	:nsubj (e / earth
-		:compound (p / planet))
-	:obj (g / geographer))

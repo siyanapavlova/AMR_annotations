@@ -1,4 +1,0 @@
-(a / answer-01
-	:cc (b / but)
-	:ARG2 (f / frighten)
-	:ARG0 (t / they))

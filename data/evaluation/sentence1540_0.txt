@@ -1,9 +1,0 @@
-(s / say-02
-	:obl (t2 / time
-		:case (a / at)
-		:nummod (o / one))
-	:time (m / myself
-		:case (t / to))
-	:ARG0 (i / i)
-	:advmod (n / not
-		:advmod (s2 / surely)))

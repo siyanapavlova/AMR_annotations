@@ -1,8 +1,0 @@
-(h2 / hesitate
-	:nsubj (h / he)
-	:parataxis (g / get
-		:advmod (u / up)
-		:advmod (t / then)
-		:nsubj (h3 / he))
-	:advmod (s / still)
-	:obj (l / little))

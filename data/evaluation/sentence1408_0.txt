@@ -1,7 +1,0 @@
-(s / say-01
-	:ARG0 (i / i)
-	:time (h / he
-		:case (t / to))
-	:ARG1 (a / afraid
-		:nsubj (y / you)
-		:cop (b / be)))

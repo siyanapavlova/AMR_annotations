@@ -1,9 +1,0 @@
-(m / mean
-	:acl (d2 / danger
-		:case (i2 / in)
-		:nsubj (w / which)
-		:cop (b / be)
-		:poss (d / disappearance
-			:case (o / of)
-			:mod (s / speedy)))
-	:nsubj (i / it))

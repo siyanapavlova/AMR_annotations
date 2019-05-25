@@ -1,9 +1,0 @@
-(b2 / but
-	:op (d / day
-		:nsubj (i / it)
-		:mod (r / right)
-		:cop (b / be))
-	:op (p / place
-		:nsubj (t / this)
-		:advmod (n / not)
-		:cop (b3 / be)))

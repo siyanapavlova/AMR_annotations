@@ -1,6 +1,0 @@
-(s / say-02
-	:ccomp (a / alone
-		:advmod (a2 / all)
-		:cop (b / be)
-		:nsubj (i / i))
-	:ARG0 (h / he))

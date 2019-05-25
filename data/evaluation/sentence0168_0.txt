@@ -1,5 +1,0 @@
-(w / weigh
-	:nsubj (h2 / he)
-	:aux (d / do)
-	:advmod (m / much
-		:advmod (h / how)))

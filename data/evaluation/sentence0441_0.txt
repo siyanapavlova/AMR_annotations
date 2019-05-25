@@ -1,7 +1,0 @@
-(f / fire
-	:case (l / like)
-	:poss (c / chimney
-		:case (i / in))
-	:cop (b / be)
-	:nsubj (e / eruption
-		:mod (v / volcanic)))

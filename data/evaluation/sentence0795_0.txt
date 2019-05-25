@@ -1,9 +1,0 @@
-(l2 / last
-	:obj (m / minute
-		:advmod (h / here)
-		:advmod (o2 / only)
-		:nummod (o / one))
-	:nsubj (d / day)
-	:manner (l / live
-		:nsubj (y / you)
-		:advmod (w / where)))

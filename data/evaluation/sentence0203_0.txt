@@ -1,7 +1,0 @@
-(e / explain
-	:advmod (n / never)
-	:nsubj (f / friend
-		:poss (m / my))
-	:time (i / i
-		:case (t / to))
-	:obj (a / anything))

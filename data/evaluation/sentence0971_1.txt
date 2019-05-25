@@ -1,8 +1,0 @@
-(s / say-02
-	:ccomp (a2 / animal
-		:cop (b / be)
-		:nsubj (y / you)
-		:mod (f / funny))
-	:ARG0 (h / he)
-	:obl (l / last
-		:case (a / at)))

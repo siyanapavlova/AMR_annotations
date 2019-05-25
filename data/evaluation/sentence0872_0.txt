@@ -1,5 +1,0 @@
-(c / complicated
-	:advmod (t2 / too)
-	:nsubj (t / that)
-	:cop (b / be)
-	:aux (w / would))

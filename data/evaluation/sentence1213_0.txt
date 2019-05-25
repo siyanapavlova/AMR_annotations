@@ -1,5 +1,0 @@
-(m / make
-	:aux (h / have)
-	:nsubj (c / computation)
-	:obl (e / expert
-		:case (b / by)))

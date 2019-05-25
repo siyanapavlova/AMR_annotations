@@ -1,3 +1,0 @@
-(s / say-02
-	:ARG0 (h / hum)
-	:ARG1 (k / king))

@@ -1,5 +1,0 @@
-(n2 / nor
-	:op (m / mechanic
-		:cc (n / neither))
-	:op (p / passenger
-		:det (a2 / any)))

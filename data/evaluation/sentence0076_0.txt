@@ -1,9 +1,0 @@
-(s / say
-	:discourse (n / no)
-	:nsubj (h / he)
-	:advmod (t / then)
-	:ccomp (l / look
-		:nsubj (h2 / he)
-		:obl (i / it
-			:case (a / at))
-		:advmod (c / carefully)))

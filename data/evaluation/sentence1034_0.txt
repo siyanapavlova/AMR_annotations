@@ -1,5 +1,0 @@
-(o / overcome
-	:cc (a / and)
-	:obl (s / sadness
-		:case (w / with))
-	:nsubj (h / he))

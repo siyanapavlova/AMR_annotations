@@ -1,6 +1,0 @@
-(t / tame
-	:obj (i2 / i)
-	:manner (w / want
-		:nsubj (y / you)
-		:obj (f / friend)
-		:mark (i / if)))

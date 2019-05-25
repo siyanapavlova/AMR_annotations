@@ -1,7 +1,0 @@
-(d / day
-	:poss (i / i
-		:case (f / for))
-	:cop (b / be)
-	:nsubj (t / thursday)
-	:mod (w / wonderful)
-	:advmod (s / so))

@@ -1,6 +1,0 @@
-(l / look
-	:nsubj (t / they
-		:mod (a / all))
-	:obl (f / flower
-		:case (l2 / like)
-		:poss (h / he)))

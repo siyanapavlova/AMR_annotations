@@ -1,4 +1,0 @@
-(a / answer
-	:nsubj (i / i)
-	:advmod (n / not)
-	:aux (d / do))

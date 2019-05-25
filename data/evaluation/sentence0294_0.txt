@@ -1,5 +1,0 @@
-(f / flower
-	:mod (e / eve)
-	:acl (h / have
-		:nsubj (t2 / that)
-		:obj (t / thorn)))

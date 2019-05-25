@@ -1,9 +1,0 @@
-(f / forget
-	:ccomp (a / ashame
-		:mark (t2 / that)
-		:nsubj (i / i))
-	:manner (h / hang
-		:obj (h3 / head
-			:poss (h2 / he)))
-	:obj (t / tippler)
-	:xcomp (c / confess))

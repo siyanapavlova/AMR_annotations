@@ -1,6 +1,0 @@
-(k / know
-	:nsubj (y / you)
-	:aux (d / do)
-	:advmod (h / how)
-	:time (t / that
-		:case (a / about)))

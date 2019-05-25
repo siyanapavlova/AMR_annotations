@@ -1,5 +1,0 @@
-(t2 / there
-	:parataxis (a / all
-		:nsubj (t / that)
-		:cop (b / be))
-	:advmod (n / now))

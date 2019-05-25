@@ -1,5 +1,0 @@
-(a2 / and
-	:op (a / australia)
-	:op (z / zealand
-		:compound (n / new)
-		:case (o / of)))

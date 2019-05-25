@@ -1,9 +1,0 @@
-(h / hesitate
-	:nsubj (p / prince
-		:mod (l / little))
-	:obj (m / moment)
-	:manner (m2 / make
-		:nsubj (k / king)
-		:obj (a / answer
-			:det (n / no))
-		:mark (a2 / as)))

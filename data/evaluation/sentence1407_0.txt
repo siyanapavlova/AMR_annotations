@@ -1,3 +1,0 @@
-(m / man
-	:mod (l / little)
-	:mod (d / dear))

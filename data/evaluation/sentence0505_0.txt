@@ -1,3 +1,0 @@
-(f / frighten
-	:obj (i / i)
-	:nsubj (t / that))

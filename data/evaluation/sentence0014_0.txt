@@ -1,8 +1,0 @@
-(p / picture
-	:cop (b2 / be)
-	:poss (c / constrictor
-		:acl (d / digest-01
-			:ARG1 (e / elephant))
-		:compound (b / boa)
-		:case (o / of))
-	:nsubj (i / it))

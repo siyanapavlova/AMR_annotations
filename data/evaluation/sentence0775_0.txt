@@ -1,8 +1,0 @@
-(l / light
-	:advmod (w / why)
-	:advmod (j / just)
-	:aux (h / have)
-	:obj (i / it)
-	:advmod (a / again)
-	:cc (b / but)
-	:nsubj (y / you))

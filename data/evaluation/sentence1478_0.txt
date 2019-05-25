@@ -1,8 +1,0 @@
-(b / bite
-	:obl (f2 / fun
-		:advmod (j / just)
-		:case (f / for))
-	:aux (m / might)
-	:nsubj (o / one
-		:det (t / this))
-	:obj (y / you))

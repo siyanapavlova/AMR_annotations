@@ -1,6 +1,0 @@
-(h / have
-	:obj (t / thorn)
-	:obl (s / spite
-		:advmod (j / just)
-		:case (f / for))
-	:nsubj (f2 / flower))

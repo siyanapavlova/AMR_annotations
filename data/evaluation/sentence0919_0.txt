@@ -1,6 +1,0 @@
-(p / planet
-	:advmod (n / not)
-	:cop (b / be)
-	:nsubj (e / earth)
-	:mod (o / ordinary)
-	:advmod (j / just))

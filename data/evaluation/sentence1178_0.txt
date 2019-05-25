@@ -1,6 +1,0 @@
-(f / forget
-	:aux (m / must)
-	:nsubj (y / you)
-	:cc (b / but)
-	:obj (i / it)
-	:advmod (n / not))

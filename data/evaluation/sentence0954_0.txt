@@ -1,3 +1,0 @@
-(d / desert
-	:cop (b / be)
-	:nsubj (t / this))

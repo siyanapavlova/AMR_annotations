@@ -1,3 +1,0 @@
-(a / and
-	:op (o3 / over)
-	:op (o / over))

@@ -1,4 +1,0 @@
-(l / leave
-	:obj (i2 / it)
-	:time (i / i
-		:case (t / to)))

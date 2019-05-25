@@ -1,6 +1,0 @@
-(s / sheep
-	:acl (a / ask-02
-		:advmod (i / inside
-			:cop (b / be)
-			:mark (f / for))
-		:ARG0 (y / you)))

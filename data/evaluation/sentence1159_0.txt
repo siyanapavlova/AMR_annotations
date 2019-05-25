@@ -1,5 +1,0 @@
-(n / nothing
-	:nsubj (y2 / you)
-	:manner (y / yet
-		:mark (a / as))
-	:cop (b / be))

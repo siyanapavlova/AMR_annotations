@@ -1,6 +1,0 @@
-(t2 / tire
-	:obj (i2 / i)
-	:xcomp (w / walk
-		:mark (t / to))
-	:nsubj (i / it)
-	:cc (a / and))

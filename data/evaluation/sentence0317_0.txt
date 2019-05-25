@@ -1,2 +1,0 @@
-(o / oh
-	:discourse (n / no))

@@ -1,6 +1,0 @@
-(t / talk
-	:nsubj (y / you)
-	:aux (b / be)
-	:advmod (w2 / why)
-	:obl (s / snake
-		:case (w / with)))

@@ -1,8 +1,0 @@
-(c2 / carry
-	:obl (i2 / i
-		:case (w / with))
-	:advmod (n / not)
-	:obj (b / body
-		:det (t / this))
-	:aux (c / can)
-	:nsubj (i / i))

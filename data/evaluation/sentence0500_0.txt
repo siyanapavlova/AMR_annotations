@@ -1,9 +1,0 @@
-(b / be
-	:obl (y2 / year)
-	:manner (s / see
-		:obj (a / anyone
-			:acl (y / yawn))
-		:mark (s2 / since)
-		:aux (h / have)
-		:nsubj (i2 / i))
-	:nsubj (i / it))

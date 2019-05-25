@@ -1,7 +1,0 @@
-(g / go
-	:advmod (b / back)
-	:manner (m / meet
-		:obj (f / fox)
-		:mark (t / to))
-	:nsubj (h / he)
-	:cc (a / and))

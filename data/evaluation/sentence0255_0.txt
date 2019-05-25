@@ -1,7 +1,0 @@
-(s / say-01
-	:advmod (p / plainly)
-	:ARG1 (w / watch
-		:obl (b / baobab
-			:case (f / for))
-		:compound (o / out))
-	:ARG0 (i / i))

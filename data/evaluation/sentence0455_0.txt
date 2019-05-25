@@ -1,4 +1,0 @@
-(t2 / try
-	:xcomp (h / happy
-		:cop (b / be)
-		:mark (t / to)))

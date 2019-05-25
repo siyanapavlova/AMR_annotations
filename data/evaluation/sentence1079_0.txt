@@ -1,9 +1,0 @@
-(u / unique
-	:cop (b / be)
-	:nsubj (i2 / i)
-	:time (y / you
-		:case (t / to))
-	:obl (w / world
-		:case (i / in)
-		:det (a / all))
-	:aux (s / shall))

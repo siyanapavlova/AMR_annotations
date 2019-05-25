@@ -1,8 +1,0 @@
-(t / thing
-	:cop (b2 / be)
-	:poss (p / planet
-		:case (o / on)
-		:poss (m / my))
-	:mod (b / beautiful
-		:advmod (m2 / most))
-	:nsubj (f / flower))

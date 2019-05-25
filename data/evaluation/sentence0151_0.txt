@@ -1,8 +1,0 @@
-(c / call
-	:obl (e / example
-		:case (f / for))
-	:obj (i / it)
-	:nsubj (h / he)
-	:parataxis (a / asteroid
-		:obj (3 / 325))
-	:aux (m / might))

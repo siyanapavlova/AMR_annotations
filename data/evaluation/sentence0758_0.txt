@@ -1,5 +1,0 @@
-(a / and
-	:op (l3 / lamplighter)
-	:op (l / lamp
-		:compound (s / street)
-		:case (o3 / of)))

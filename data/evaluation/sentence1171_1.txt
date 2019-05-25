@@ -1,3 +1,0 @@
-(s / say-02
-	:ccomp (g / goodbye)
-	:ARG0 (h / he))

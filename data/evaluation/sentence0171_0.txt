@@ -1,7 +1,0 @@
-(a2 / and
-	:op (g3 / geranium
-		:poss (r2 / roof
-			:case (o / on))
-		:poss (w / window
-			:case (i4 / in)))
-	:op (d / dofe))

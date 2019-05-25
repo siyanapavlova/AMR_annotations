@@ -1,5 +1,0 @@
-(s / smallest
-	:nsubj (i / it)
-	:obl (a / all
-		:case (o / of))
-	:cop (b / be))

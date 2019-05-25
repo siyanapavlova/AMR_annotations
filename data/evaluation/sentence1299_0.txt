@@ -1,9 +1,0 @@
-(u / understand
-	:obj (w / what
-		:acl (l / look
-			:aux (h2 / have)
-			:obl (f / for)
-			:aux (b / be)
-			:nsubj (h / he)))
-	:nsubj (i / i)
-	:cc (a / and))

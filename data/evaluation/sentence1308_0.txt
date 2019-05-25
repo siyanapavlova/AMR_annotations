@@ -1,5 +1,0 @@
-(f / find
-	:advmod (n / not)
-	:aux (d / do)
-	:obj (i / it)
-	:nsubj (t / they))

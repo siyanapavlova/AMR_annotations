@@ -1,4 +1,0 @@
-(h / have
-	:obj (c / claw
-		:poss (m / my))
-	:nsubj (i / i))

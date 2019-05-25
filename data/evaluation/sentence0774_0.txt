@@ -1,6 +1,0 @@
-(l2 / light
-	:cc (a2 / and)
-	:advmod (a / again)
-	:nsubj (h / he)
-	:obj (l / lamp
-		:poss (h2 / he)))

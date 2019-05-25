@@ -1,6 +1,0 @@
-(r / raise
-	:obj (b / bucket)
-	:time (l / lip
-		:poss (h / he)
-		:case (t / to))
-	:nsubj (i / i))

@@ -1,5 +1,0 @@
-(f / flower
-	:nsubj (s2 / she)
-	:case (s / such)
-	:cop (b / be)
-	:mod (p / proud))

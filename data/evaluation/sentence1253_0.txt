@@ -1,5 +1,0 @@
-(l / love
-	:nsubj (i / i)
-	:advmod (a / always)
-	:obj (d / desert)
-	:aux (h / have))

@@ -1,5 +1,0 @@
-(s / say-01
-	:ARG0 (f2 / fox)
-	:ARG1 (f / fox
-		:cop (b / be)
-		:nsubj (i / i)))

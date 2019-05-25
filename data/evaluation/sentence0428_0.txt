@@ -1,9 +1,0 @@
-(o / ought
-	:advmod (n / never)
-	:xcomp (r / run
-		:mark (t / to)
-		:obl (s / she
-			:case (f / from))
-		:advmod (a / away)
-		:aux (h / have))
-	:nsubj (i / i))

@@ -1,8 +1,0 @@
-(d2 / danger
-	:nsubj (f / flower
-		:poss (m / my))
-	:poss (d / disappearance
-		:case (o / of)
-		:mod (s / speedy))
-	:cop (b / be)
-	:case (i / in))

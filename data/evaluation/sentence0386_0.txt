@@ -1,4 +1,0 @@
-(a / awake
-	:nsubj (i / i)
-	:advmod (s / scarcely)
-	:cop (b / be))

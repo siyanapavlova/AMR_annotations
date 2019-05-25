@@ -1,5 +1,0 @@
-(l / look
-	:obl (h / heart
-		:case (w / with))
-	:aux (m / must)
-	:nsubj (o / one))

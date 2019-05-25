@@ -1,3 +1,0 @@
-(u / unnecessary
-	:nsubj (i / it)
-	:cop (b / be))

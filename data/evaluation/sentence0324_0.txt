@@ -1,3 +1,0 @@
-(m / matter
-	:poss (c / consequence
-		:case (o / of)))

@@ -1,5 +1,0 @@
-(s / silent
-	:advmod (b2 / both)
-	:cc (a / and)
-	:cop (b / be)
-	:nsubj (t / they))

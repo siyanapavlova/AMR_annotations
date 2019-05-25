@@ -1,5 +1,0 @@
-(t / think
-	:nsubj (p / planet
-		:nsubj (h / he)
-		:compound (q / queer)
-		:det (w / what)))

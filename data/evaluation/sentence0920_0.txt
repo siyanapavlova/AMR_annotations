@@ -1,6 +1,0 @@
-(c2 / count
-	:nsubj (o / one)
-	:aux (c / can)
-	:obj (k / king
-		:nummod (1 / 111)
-		:poss (t / there)))

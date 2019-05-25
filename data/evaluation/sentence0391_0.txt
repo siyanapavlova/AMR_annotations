@@ -1,6 +1,0 @@
-(r / respond
-	:nsubj (f / flower)
-	:nsubj (i / i
-		:advmod (n / not)
-		:cop (b / be))
-	:advmod (s / sweetly))

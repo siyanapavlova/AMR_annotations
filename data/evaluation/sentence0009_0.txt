@@ -1,4 +1,0 @@
-(d / drawing
-	:poss (m / my)
-	:appos (n / number
-		:nummod (o / one)))

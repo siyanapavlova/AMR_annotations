@@ -1,9 +1,0 @@
-(i / imagine
-	:nsubj (t2 / they)
-	:ccomp (f / fill
-		:mark (t / that)
-		:nsubj (t3 / they)
-		:obj (d / deal
-			:poss (s / space
-				:case (o / of))
-			:mod (g / great))))

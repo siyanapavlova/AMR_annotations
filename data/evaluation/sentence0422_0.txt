@@ -1,5 +1,0 @@
-(p2 / perfume
-	:nsubj (m / mine)
-	:obj (p / planet
-		:poss (m2 / my)
-		:det (a / all)))

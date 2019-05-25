@@ -1,3 +1,0 @@
-(f / flush
-	:cc (a / and)
-	:nsubj (h / he))

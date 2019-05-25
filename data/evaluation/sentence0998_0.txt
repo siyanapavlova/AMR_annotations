@@ -1,3 +1,0 @@
-(e / echo
-	:nsubj (m / man
-		:nsubj (s / she)))

@@ -1,8 +1,0 @@
-(a / and
-	:op (e / end
-		:compound (d / day))
-	:op (t / twilight
-		:manner (f / falling
-			:advmod (w / whenever
-				:acl (l / like
-					:nsubj (y / you))))))

@@ -1,0 +1,419 @@
+rule remove_punct_safe_cc{
+	pattern{
+		P[cat=PUNCT];
+		rel_name: P -[cc]-> CHILD;
+		p: PARENT -[punct]-> P;
+	}
+	commands{
+		del_node P;
+		add_edge PARENT -[cc]-> CHILD;
+	}
+}
+
+rule remove_punct_safe_nsubj{
+	pattern{
+		P[cat=PUNCT];
+		rel_name: P -[nsubj]-> CHILD;
+		p: PARENT -[punct]-> P;
+	}
+	commands{
+		del_node P;
+		add_edge PARENT -[nsubj]-> CHILD;
+	}
+}
+
+rule remove_punct_safe_obj{
+	pattern{
+		P[cat=PUNCT];
+		rel_name: P -[obj]-> CHILD;
+		p: PARENT -[punct]-> P;
+	}
+	commands{
+		del_node P;
+		add_edge PARENT -[obj]-> CHILD;
+	}
+}
+
+rule remove_punct_safe_iobj{
+	pattern{
+		P[cat=PUNCT];
+		rel_name: P -[iobj]-> CHILD;
+		p: PARENT -[punct]-> P;
+	}
+	commands{
+		del_node P;
+		add_edge PARENT -[iobj]-> CHILD;
+	}
+}
+
+rule remove_punct_safe_obl{
+	pattern{
+		P[cat=PUNCT];
+		rel_name: P -[obl]-> CHILD;
+		p: PARENT -[punct]-> P;
+	}
+	commands{
+		del_node P;
+		add_edge PARENT -[obl]-> CHILD;
+	}
+}
+
+rule remove_punct_safe_vocative{
+	pattern{
+		P[cat=PUNCT];
+		rel_name: P -[vocative]-> CHILD;
+		p: PARENT -[punct]-> P;
+	}
+	commands{
+		del_node P;
+		add_edge PARENT -[vocative]-> CHILD;
+	}
+}
+
+rule remove_punct_safe_expl{
+	pattern{
+		P[cat=PUNCT];
+		rel_name: P -[expl]-> CHILD;
+		p: PARENT -[punct]-> P;
+	}
+	commands{
+		del_node P;
+		add_edge PARENT -[expl]-> CHILD;
+	}
+}
+
+rule remove_punct_safe_dislocated{
+	pattern{
+		P[cat=PUNCT];
+		rel_name: P -[dislocated]-> CHILD;
+		p: PARENT -[punct]-> P;
+	}
+	commands{
+		del_node P;
+		add_edge PARENT -[dislocated]-> CHILD;
+	}
+}
+
+rule remove_punct_safe_nmod{
+	pattern{
+		P[cat=PUNCT];
+		rel_name: P -[nmod]-> CHILD;
+		p: PARENT -[punct]-> P;
+	}
+	commands{
+		del_node P;
+		add_edge PARENT -[nmod]-> CHILD;
+	}
+}
+
+rule remove_punct_safe_appos{
+	pattern{
+		P[cat=PUNCT];
+		rel_name: P -[appos]-> CHILD;
+		p: PARENT -[punct]-> P;
+	}
+	commands{
+		del_node P;
+		add_edge PARENT -[appos]-> CHILD;
+	}
+}
+
+rule remove_punct_safe_nummod{
+	pattern{
+		P[cat=PUNCT];
+		rel_name: P -[nummod]-> CHILD;
+		p: PARENT -[punct]-> P;
+	}
+	commands{
+		del_node P;
+		add_edge PARENT -[nummod]-> CHILD;
+	}
+}
+
+rule remove_punct_safe_csubj{
+	pattern{
+		P[cat=PUNCT];
+		rel_name: P -[csubj]-> CHILD;
+		p: PARENT -[punct]-> P;
+	}
+	commands{
+		del_node P;
+		add_edge PARENT -[csubj]-> CHILD;
+	}
+}
+
+rule remove_punct_safe_ccomp{
+	pattern{
+		P[cat=PUNCT];
+		rel_name: P -[ccomp]-> CHILD;
+		p: PARENT -[punct]-> P;
+	}
+	commands{
+		del_node P;
+		add_edge PARENT -[ccomp]-> CHILD;
+	}
+}
+
+rule remove_punct_safe_xcomp{
+	pattern{
+		P[cat=PUNCT];
+		rel_name: P -[xcomp]-> CHILD;
+		p: PARENT -[punct]-> P;
+	}
+	commands{
+		del_node P;
+		add_edge PARENT -[xcomp]-> CHILD;
+	}
+}
+
+rule remove_punct_safe_advcl{
+	pattern{
+		P[cat=PUNCT];
+		rel_name: P -[advcl]-> CHILD;
+		p: PARENT -[punct]-> P;
+	}
+	commands{
+		del_node P;
+		add_edge PARENT -[advcl]-> CHILD;
+	}
+}
+
+rule remove_punct_safe_acl{
+	pattern{
+		P[cat=PUNCT];
+		rel_name: P -[acl]-> CHILD;
+		p: PARENT -[punct]-> P;
+	}
+	commands{
+		del_node P;
+		add_edge PARENT -[acl]-> CHILD;
+	}
+}
+
+rule remove_punct_safe_advmod{
+	pattern{
+		P[cat=PUNCT];
+		rel_name: P -[advmod]-> CHILD;
+		p: PARENT -[punct]-> P;
+	}
+	commands{
+		del_node P;
+		add_edge PARENT -[advmod]-> CHILD;
+	}
+}
+
+rule remove_punct_safe_discourse{
+	pattern{
+		P[cat=PUNCT];
+		rel_name: P -[discourse]-> CHILD;
+		p: PARENT -[punct]-> P;
+	}
+	commands{
+		del_node P;
+		add_edge PARENT -[discourse]-> CHILD;
+	}
+}
+
+rule remove_punct_safe_amod{
+	pattern{
+		P[cat=PUNCT];
+		rel_name: P -[amod]-> CHILD;
+		p: PARENT -[punct]-> P;
+	}
+	commands{
+		del_node P;
+		add_edge PARENT -[amod]-> CHILD;
+	}
+}
+
+rule remove_punct_safe_aux{
+	pattern{
+		P[cat=PUNCT];
+		rel_name: P -[aux]-> CHILD;
+		p: PARENT -[punct]-> P;
+	}
+	commands{
+		del_node P;
+		add_edge PARENT -[aux]-> CHILD;
+	}
+}
+
+rule remove_punct_safe_cop{
+	pattern{
+		P[cat=PUNCT];
+		rel_name: P -[cop]-> CHILD;
+		p: PARENT -[punct]-> P;
+	}
+	commands{
+		del_node P;
+		add_edge PARENT -[cop]-> CHILD;
+	}
+}
+
+rule remove_punct_safe_mark{
+	pattern{
+		P[cat=PUNCT];
+		rel_name: P -[mark]-> CHILD;
+		p: PARENT -[punct]-> P;
+	}
+	commands{
+		del_node P;
+		add_edge PARENT -[mark]-> CHILD;
+	}
+}
+
+rule remove_punct_safe_det{
+	pattern{
+		P[cat=PUNCT];
+		rel_name: P -[det]-> CHILD;
+		p: PARENT -[punct]-> P;
+	}
+	commands{
+		del_node P;
+		add_edge PARENT -[det]-> CHILD;
+	}
+}
+
+rule remove_punct_safe_clf{
+	pattern{
+		P[cat=PUNCT];
+		rel_name: P -[clf]-> CHILD;
+		p: PARENT -[punct]-> P;
+	}
+	commands{
+		del_node P;
+		add_edge PARENT -[clf]-> CHILD;
+	}
+}
+
+rule remove_punct_safe_case{
+	pattern{
+		P[cat=PUNCT];
+		rel_name: P -[case]-> CHILD;
+		p: PARENT -[punct]-> P;
+	}
+	commands{
+		del_node P;
+		add_edge PARENT -[case]-> CHILD;
+	}
+}
+
+rule remove_punct_safe_conj{
+	pattern{
+		P[cat=PUNCT];
+		rel_name: P -[conj]-> CHILD;
+		p: PARENT -[punct]-> P;
+	}
+	commands{
+		del_node P;
+		add_edge PARENT -[conj]-> CHILD;
+	}
+}
+
+rule remove_punct_safe_fixed{
+	pattern{
+		P[cat=PUNCT];
+		rel_name: P -[fixed]-> CHILD;
+		p: PARENT -[punct]-> P;
+	}
+	commands{
+		del_node P;
+		add_edge PARENT -[fixed]-> CHILD;
+	}
+}
+
+rule remove_punct_safe_flat{
+	pattern{
+		P[cat=PUNCT];
+		rel_name: P -[flat]-> CHILD;
+		p: PARENT -[punct]-> P;
+	}
+	commands{
+		del_node P;
+		add_edge PARENT -[flat]-> CHILD;
+	}
+}
+
+rule remove_punct_safe_compound{
+	pattern{
+		P[cat=PUNCT];
+		rel_name: P -[compound]-> CHILD;
+		p: PARENT -[punct]-> P;
+	}
+	commands{
+		del_node P;
+		add_edge PARENT -[compound]-> CHILD;
+	}
+}
+
+rule remove_punct_safe_list{
+	pattern{
+		P[cat=PUNCT];
+		rel_name: P -[list]-> CHILD;
+		p: PARENT -[punct]-> P;
+	}
+	commands{
+		del_node P;
+		add_edge PARENT -[list]-> CHILD;
+	}
+}
+
+rule remove_punct_safe_parataxis{
+	pattern{
+		P[cat=PUNCT];
+		rel_name: P -[parataxis]-> CHILD;
+		p: PARENT -[punct]-> P;
+	}
+	commands{
+		del_node P;
+		add_edge PARENT -[parataxis]-> CHILD;
+	}
+}
+
+rule remove_punct_safe_orphan{
+	pattern{
+		P[cat=PUNCT];
+		rel_name: P -[orphan]-> CHILD;
+		p: PARENT -[punct]-> P;
+	}
+	commands{
+		del_node P;
+		add_edge PARENT -[orphan]-> CHILD;
+	}
+}
+
+rule remove_punct_safe_goeswith{
+	pattern{
+		P[cat=PUNCT];
+		rel_name: P -[goeswith]-> CHILD;
+		p: PARENT -[punct]-> P;
+	}
+	commands{
+		del_node P;
+		add_edge PARENT -[goeswith]-> CHILD;
+	}
+}
+
+rule remove_punct_safe_reparandum{
+	pattern{
+		P[cat=PUNCT];
+		rel_name: P -[reparandum]-> CHILD;
+		p: PARENT -[punct]-> P;
+	}
+	commands{
+		del_node P;
+		add_edge PARENT -[reparandum]-> CHILD;
+	}
+}
+
+rule remove_punct_safe_dep{
+	pattern{
+		P[cat=PUNCT];
+		rel_name: P -[dep]-> CHILD;
+		p: PARENT -[punct]-> P;
+	}
+	commands{
+		del_node P;
+		add_edge PARENT -[dep]-> CHILD;
+	}
+}

@@ -1,9 +1,0 @@
-(s / say-02
-	:ARG0 (l / lamplighter)
-	:ccomp (d / do
-		:xcomp (g / good
-			:advmod (m / much))
-		:aux (d2 / do)
-		:obj (i / i)
-		:advmod (n / not)
-		:nsubj (t / that)))

@@ -1,8 +1,0 @@
-(t / take
-	:nsubj (i / i)
-	:advmod (f / far
-		:obl (v / vineyard
-			:case (a2 / as))
-		:advmod (a / as))
-	:aux (c / can)
-	:obj (w / walk))

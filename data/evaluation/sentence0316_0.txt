@@ -1,6 +1,0 @@
-(b / believe
-	:nsubj (y / you)
-	:advmod (a2 / actually)
-	:ccomp (f / flower
-		:mark (t / that))
-	:cc (a / and))

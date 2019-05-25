@@ -1,8 +1,0 @@
-(a / and
-	:op (r2 / relaxation
-		:case (f2 / for))
-	:op (r / rest
-		:poss (n / night
-			:case (o2 / of)
-			:poss (s / sleep
-				:case (f / for)))))

@@ -1,9 +1,0 @@
-(g / go
-	:vocative (b2 / beside)
-	:aux (b / be)
-	:cc (a / and)
-	:xcomp (m / make
-		:mark (t / to)
-		:iobj (y / you)
-		:obj (p / present))
-	:nsubj (i / i))

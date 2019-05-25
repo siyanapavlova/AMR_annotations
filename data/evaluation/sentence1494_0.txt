@@ -1,4 +1,0 @@
-(h / heavy
-	:nsubj (i / it)
-	:advmod (t / too)
-	:cop (b / be))

@@ -1,8 +1,0 @@
-(l / learn
-	:advmod (s / soon)
-	:xcomp (k / know
-		:mark (t2 / to)
-		:advmod (b / better)
-		:obj (f / flower
-			:det (t / this)))
-	:nsubj (i / i))

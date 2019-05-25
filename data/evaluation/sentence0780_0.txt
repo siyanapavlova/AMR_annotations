@@ -1,2 +1,0 @@
-(m / morning
-	:mod (g / good))

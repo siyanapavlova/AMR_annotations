@@ -1,6 +1,0 @@
-(r / reasonable
-	:obl (d / day
-		:mod (o / old)
-		:case (i2 / in))
-	:cop (b / be)
-	:nsubj (i / it))

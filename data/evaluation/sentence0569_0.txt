@@ -1,9 +1,0 @@
-(k / know
-	:aux (d / do)
-	:advmod (n / not)
-	:nsubj (w / we)
-	:ccomp (s / say-02
-		:ARG0 (k2 / king)
-		:mark (t2 / that)
-		:time (h / he
-			:case (t / to))))

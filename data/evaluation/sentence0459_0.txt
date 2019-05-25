@@ -1,9 +1,0 @@
-(s / say-01
-	:ARG0 (f / flower)
-	:time (h / he
-		:case (t / to))
-	:ARG1 (l / love
-		:obj (y / you)
-		:nsubj (i / i)
-		:advmod (o / of
-			:fixed (c / course))))

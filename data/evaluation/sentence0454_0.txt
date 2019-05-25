@@ -1,4 +1,0 @@
-(a / ask
-	:nsubj (i / i)
-	:obj (f / forgiveness
-		:poss (y / you)))

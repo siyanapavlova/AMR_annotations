@@ -1,6 +1,0 @@
-(b / bloom
-	:nsubj (s / star
-		:det (a / all))
-	:cop (b2 / be)
-	:poss (f / flower
-		:case (w / with)))

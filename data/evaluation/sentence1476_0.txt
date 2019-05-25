@@ -1,5 +1,0 @@
-(b / bite
-	:nsubj (h / he)
-	:advmod (n / not)
-	:aux (m / must)
-	:obj (y / you))

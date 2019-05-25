@@ -1,7 +1,0 @@
-(n / need
-	:conj (e / explain-01)
-	:xcomp (h / have
-		:obj (t / thing)
-		:mark (t3 / to))
-	:nsubj (t2 / they)
-	:advmod (a / always))

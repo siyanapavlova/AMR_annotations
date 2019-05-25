@@ -1,9 +1,0 @@
-(s / say-01
-	:ARG0 (p / prince
-		:mod (l / little))
-	:ARG1 (t2 / thirsty
-		:cop (b / be)
-		:obl (w / water
-			:det (t / this)
-			:case (f / for))
-		:nsubj (i / i)))

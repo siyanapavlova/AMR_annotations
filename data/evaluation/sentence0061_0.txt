@@ -1,9 +1,0 @@
-(d2 / disobey
-	:advmod (n / not)
-	:nsubj (d / dare
-		:nummod (o / one))
-	:manner (o2 / overpower
-		:mark (w / when)
-		:nsubj (m / mystery)
-		:cop (b / be)
-		:advmod (t / too)))

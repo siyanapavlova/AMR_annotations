@@ -1,4 +1,0 @@
-(w / wait
-	:nsubj (i / i)
-	:obj (t / time
-		:mod (l / long)))

@@ -1,3 +1,0 @@
-(s / say-02
-	:ccomp (m / man)
-	:ARG0 (f / fox))

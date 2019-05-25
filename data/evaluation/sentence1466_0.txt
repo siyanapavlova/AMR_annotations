@@ -1,5 +1,0 @@
-(l / leave
-	:advmod (n / not)
-	:aux (s / shall)
-	:obj (y / you)
-	:nsubj (i / i))

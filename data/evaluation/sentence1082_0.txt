@@ -1,7 +1,0 @@
-(t3 / think
-	:ccomp (t / tame
-		:nsubj (s / she)
-		:mark (t2 / that)
-		:obj (i / i)
-		:aux (h / have))
-	:nsubj (i2 / i))

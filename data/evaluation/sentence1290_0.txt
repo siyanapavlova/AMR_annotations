@@ -1,8 +1,0 @@
-(a / and
-	:op (w3 / waken
-		:aux (h / have)
-		:advmod (w2 / well)
-		:nsubj (w / we))
-	:op (s / singe
-		:aux (b / be)
-		:nsubj (i / it)))

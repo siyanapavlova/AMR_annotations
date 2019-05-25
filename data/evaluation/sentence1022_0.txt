@@ -1,7 +1,0 @@
-(r / repeat
-	:ccomp (s / say-02
-		:ARG0 (o / one
-			:det (w / whatever))
-		:time (t / they
-			:case (t2 / to)))
-	:nsubj (t3 / they))

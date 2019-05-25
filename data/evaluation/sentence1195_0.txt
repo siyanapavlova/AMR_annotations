@@ -1,3 +1,0 @@
-(e / exchange
-	:cop (b / be)
-	:nsubj (i / it))

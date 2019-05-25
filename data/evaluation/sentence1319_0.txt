@@ -1,8 +1,0 @@
-(b / bring
-	:nsubj (w / what)
-	:obj (i / i)
-	:parataxis (s / sense
-		:poss (g / grief
-			:case (o / of))
-		:det (t / this)
-		:advmod (t2 / then)))

@@ -1,7 +1,0 @@
-(n2 / need
-	:ccomp (s / swallow-01
-		:obl (w2 / week)
-		:ARG1 (p / pill
-			:nummod (o2 / one))
-		:advmod (o3 / only))
-	:nsubj (y2 / you))

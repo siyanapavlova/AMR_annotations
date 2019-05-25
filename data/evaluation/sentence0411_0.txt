@@ -1,7 +1,0 @@
-(c / come
-	:obl (f / form
-		:case (i / in)
-		:poss (s / seed
-			:case (o / of)))
-	:aux (h / have)
-	:nsubj (s2 / she))

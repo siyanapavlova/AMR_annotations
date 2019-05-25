@@ -1,8 +1,0 @@
-(k / know
-	:advmod (n / never)
-	:nsubj (o / one)
-	:ccomp (f / find
-		:obj (t2 / they)
-		:mark (t / to)
-		:advmod (w / where))
-	:cc (b / but))

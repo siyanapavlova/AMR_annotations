@@ -1,5 +1,0 @@
-(a / and
-	:op (t / tippler)
-	:op (m / man
-		:mod (c / conceit)
-		:appos (b / businessman)))

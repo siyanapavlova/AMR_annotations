@@ -1,5 +1,0 @@
-(s / spot
-	:advmod (n / not)
-	:cop (b / be)
-	:mod (e / exact)
-	:nsubj (t / this))

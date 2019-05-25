@@ -1,9 +1,0 @@
-(s3 / sweet
-	:advmod (a2 / as)
-	:cop (b / be)
-	:manner (t / treat
-		:mod (f / festival)
-		:det (s / some)
-		:mod (s2 / special)
-		:mark (a / as))
-	:nsubj (i / it))

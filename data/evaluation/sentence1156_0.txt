@@ -1,8 +1,0 @@
-(c / come
-	:parataxis (g / goodbye
-		:time (i2 / i
-			:case (t3 / to))
-		:discourse (s / say))
-	:advmod (t2 / then)
-	:advmod (b / back
-		:obl (t / to)))

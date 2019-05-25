@@ -1,8 +1,0 @@
-(c / come
-	:aux (d / do)
-	:nsubj (m2 / man
-		:mod (l / little)
-		:poss (m / my))
-	:advmod (f / from)
-	:advmod (w / where)
-	:nsubj (y / you))

@@ -1,4 +1,0 @@
-(-2 / -
-	:nsubj (i / i)
-	:punct (- / -)
-	:cop (w / will))

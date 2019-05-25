@@ -1,6 +1,0 @@
-(t / try
-	:nsubj (y / you)
-	:aux (b / be)
-	:obj (w / what)
-	:xcomp (s / say-02
-		:mark (t2 / to)))

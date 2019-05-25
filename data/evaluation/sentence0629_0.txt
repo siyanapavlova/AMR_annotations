@@ -1,4 +1,0 @@
-(d / do
-	:iobj (i / i)
-	:obj (k / kindness
-		:det (t / this)))

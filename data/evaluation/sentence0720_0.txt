@@ -1,6 +1,0 @@
-(b2 / be
-	:nsubj (a / all
-		:mark (t2 / that)
-		:acl (n / necessary
-			:cop (b / be)
-			:nsubj (t / that))))

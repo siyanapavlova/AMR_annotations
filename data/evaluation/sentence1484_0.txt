@@ -1,6 +1,0 @@
-(s / say-02
-	:time (i / i
-		:case (t / to))
-	:discourse (a / ah)
-	:advmod (m / merely)
-	:ARG0 (h / he))

@@ -1,3 +1,0 @@
-(a / ashamed
-	:obl (d / drink
-		:case (o / of)))

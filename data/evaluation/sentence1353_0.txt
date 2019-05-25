@@ -1,4 +1,0 @@
-(w / work
-	:aux (m / must)
-	:nsubj (y / you)
-	:advmod (n / now))

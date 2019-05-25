@@ -1,6 +1,0 @@
-(h / have
-	:nsubj (i / i)
-	:obj (b / box
-		:poss (s / sheep
-			:case (' / 's)))
-	:cc (a / and))

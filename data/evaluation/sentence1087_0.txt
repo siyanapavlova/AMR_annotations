@@ -1,3 +1,0 @@
-(p / planet
-	:det (a / another)
-	:case (o / on))

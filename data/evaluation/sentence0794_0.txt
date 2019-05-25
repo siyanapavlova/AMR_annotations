@@ -1,4 +1,0 @@
-(f / funny
-	:advmod (v / very)
-	:cop (b / be)
-	:nsubj (t / that))

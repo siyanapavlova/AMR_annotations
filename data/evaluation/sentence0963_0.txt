@@ -1,5 +1,0 @@
-(b / bring
-	:aux (h2 / have)
-	:advmod (h / here)
-	:nsubj (w / what)
-	:obj (y / you))

@@ -1,4 +1,0 @@
-(c / creature
-	:nsubj (f / flower)
-	:mod (w / weak)
-	:cop (b / be))

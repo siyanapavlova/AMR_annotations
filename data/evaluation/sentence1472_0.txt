@@ -1,5 +1,0 @@
-(w / worth
-	:advmod (n / not)
-	:obj (t / trouble)
-	:cop (b / be)
-	:nsubj (i / it))

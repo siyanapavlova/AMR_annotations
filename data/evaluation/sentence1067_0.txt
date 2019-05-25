@@ -1,5 +1,0 @@
-(l / look
-	:aux (b / be)
-	:obl (f / friend
-		:case (f2 / for))
-	:nsubj (i / i))

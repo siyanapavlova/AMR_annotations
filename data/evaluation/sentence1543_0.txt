@@ -1,9 +1,0 @@
-(b / be
-	:cc (a2 / and)
-	:nsubj (s2 / sweetness
-		:poss (l / laughter
-			:poss (s / star
-				:case (o / of)
-				:det (a / all))
-			:case (i / in)))
-	:expl (t / there))

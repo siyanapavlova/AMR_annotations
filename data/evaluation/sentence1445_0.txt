@@ -1,8 +1,0 @@
-(g / guide
-	:cop (b2 / be)
-	:nsubj (s2 / star)
-	:obl (s / some
-		:acl (t / traveler
-			:nsubj (w / who)
-			:cop (b / be))
-		:case (f / for)))

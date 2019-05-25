@@ -1,4 +1,0 @@
-(o2 / or
-	:op (d2 / death)
-	:op (l / life
-		:case (o / of)))

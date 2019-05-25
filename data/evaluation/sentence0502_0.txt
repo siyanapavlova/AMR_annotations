@@ -1,2 +1,0 @@
-(n / now
-	:discourse (c / come))

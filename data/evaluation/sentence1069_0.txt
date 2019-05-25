@@ -1,8 +1,0 @@
-(s / say-01
-	:ARG0 (f / fox)
-	:ARG1 (a / act
-		:acl (n / neglect
-			:advmod (o / often
-				:advmod (t / too)))
-		:cop (b / be)
-		:nsubj (i / it)))

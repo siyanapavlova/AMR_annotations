@@ -1,8 +1,0 @@
-(a / answer
-	:nsubj (s / snake)
-	:ccomp (e / earth
-		:cop (b / be)
-		:parataxis (a2 / africa
-			:cop (b2 / be)
-			:nsubj (t / this))
-		:nsubj (t2 / this)))

@@ -1,8 +1,0 @@
-(u / understand
-	:ccomp (s / say-02
-		:ARG1 (p / prince
-			:mod (l / little)))
-	:obj (y / you)
-	:nsubj (i / i)
-	:advmod (w / well
-		:advmod (v / very)))

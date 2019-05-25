@@ -1,6 +1,0 @@
-(a / and
-	:op (c / curious
-		:advmod (v / very))
-	:op (s / seem
-		:xcomp (p / perplex)
-		:nsubj (f / fox)))

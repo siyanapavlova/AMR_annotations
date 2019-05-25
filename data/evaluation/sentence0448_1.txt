@@ -1,5 +1,0 @@
-(s / say-02
-	:ccomp (g / goodbye)
-	:time (f / flower
-		:case (t / to))
-	:ARG0 (h / he))

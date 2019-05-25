@@ -1,4 +1,0 @@
-(a / ahead
-	:advmod (s / straight)
-	:obl (h / he
-		:case (o / of)))

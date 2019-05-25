@@ -1,6 +1,0 @@
-(t2 / time
-	:parataxis (i / it
-		:discourse (w / well)
-		:nsubj (t3 / this)
-		:cop (b / be))
-	:mod (t / third))

@@ -1,8 +1,0 @@
-(g / grass
-	:aux (w / will)
-	:advmod (s / surely)
-	:cop (b / be)
-	:poss (h / he
-		:case (f / for))
-	:expl (t / there)
-	:mod (e / enough))

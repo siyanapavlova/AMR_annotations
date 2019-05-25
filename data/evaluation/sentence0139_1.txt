@@ -1,8 +1,0 @@
-(a / and
-	:op (w / wander
-		:compound (o / off)
-		:aux (w2 / will)
-		:advmod (s / somewhere)
-		:nsubj (h / he))
-	:op (g / get
-		:xcomp (l / lost)))

@@ -1,8 +1,0 @@
-(h2 / have
-	:advmod (a / also)
-	:obj (v / volcano
-		:nummod (o / one)
-		:acl (e / extinct
-			:nsubj (t / that)
-			:cop (b / be)))
-	:nsubj (h / he))

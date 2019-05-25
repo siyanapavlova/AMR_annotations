@@ -1,7 +1,0 @@
-(w2 / would
-	:obj (e / explorer
-		:acl (d / drank
-			:obj (m / much
-				:advmod (t / too))
-			:nsubj (w / who)))
-	:advmod (s / so))

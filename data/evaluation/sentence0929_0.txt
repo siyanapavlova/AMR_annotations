@@ -1,4 +1,0 @@
-(m / magnificent
-	:nsubj (i / it)
-	:cop (b / be)
-	:aux (w / would))

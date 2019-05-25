@@ -1,7 +1,0 @@
-(o2 / ought
-	:advmod (n / never)
-	:xcomp (l / listen
-		:mark (t2 / to)
-		:time (f / flower
-			:case (t / to)))
-	:nsubj (o / one))

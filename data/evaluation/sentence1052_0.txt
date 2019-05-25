@@ -1,3 +1,0 @@
-(t / tame
-	:advmod (n / not)
-	:nsubj (i / i))

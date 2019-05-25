@@ -1,8 +1,0 @@
-(e / explorer
-	:advmod (n / not)
-	:aux (h / have)
-	:poss (p / planet
-		:poss (m / my)
-		:case (o / on))
-	:mod (s / single)
-	:nsubj (i / i))

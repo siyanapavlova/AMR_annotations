@@ -1,7 +1,0 @@
-(t / tell
-	:advmod (y / yet
-		:advmod (n / never))
-	:aux (h / have)
-	:obj (s / story
-		:det (t2 / this))
-	:nsubj (i / i))

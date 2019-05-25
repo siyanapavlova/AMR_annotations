@@ -1,5 +1,0 @@
-(s / say-01
-	:ARG0 (r / roses)
-	:ARG1 (r2 / ros
-		:cop (b / be)
-		:nsubj (w / we)))

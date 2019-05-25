@@ -1,9 +1,0 @@
-(a2 / and
-	:op (d / day)
-	:op (l / last
-		:nsubj (a3 / adornment
-			:mod (m / mysterious)
-			:poss (s / she))
-		:obl (d2 / day
-			:case (f / for))
-		:cc (a / and)))

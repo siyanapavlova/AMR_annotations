@@ -1,6 +1,0 @@
-(a / and
-	:op (c / count
-		:obj (t2 / they)
-		:nsubj (i / i))
-	:op (r / recount
-		:obj (t / they)))

@@ -1,5 +1,0 @@
-(b / better
-	:nsubj (i / it)
-	:obl (t / that
-		:case (l / like))
-	:cop (b2 / be))

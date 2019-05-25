@@ -1,8 +1,0 @@
-(b / bring-01
-	:ARG1 (m / myself)
-	:compound (d / down)
-	:ARG0 (i / i)
-	:aux (w / would)
-	:time (l / level
-		:case (t / to)
-		:poss (h / he)))

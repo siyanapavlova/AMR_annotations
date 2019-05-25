@@ -1,3 +1,0 @@
-(y / yawned
-	:nsubj (p / prince
-		:mod (l / little)))

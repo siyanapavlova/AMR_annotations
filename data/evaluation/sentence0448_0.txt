@@ -1,5 +1,0 @@
-(s / say-01
-	:ARG1 (g / goodbye)
-	:time (f / flower
-		:case (t / to))
-	:ARG0 (h / he))

@@ -1,7 +1,0 @@
-(r / receive
-	:obl (s / study
-		:case (i / in)
-		:poss (h2 / he))
-	:nsubj (h / he)
-	:obj (e / explorer)
-	:cc (b / but))

@@ -1,8 +1,0 @@
-(c / clear
-	:obl (r / root
-		:case (w / with)
-		:poss (i3 / its))
-	:cop (b / bore)
-	:obl (i2 / it
-		:case (t / through))
-	:nsubj (i / it))

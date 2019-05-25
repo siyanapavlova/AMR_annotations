@@ -1,7 +1,0 @@
-(r / reject
-	:cc (b / but)
-	:obl (o / other
-		:case (l / like)
-		:advmod (j / just))
-	:advmod (t / too)
-	:nsubj (i / it))

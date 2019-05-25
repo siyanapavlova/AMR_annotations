@@ -1,2 +1,0 @@
-(a / animal
-	:cc (b / but))

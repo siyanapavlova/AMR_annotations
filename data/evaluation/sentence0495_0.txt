@@ -1,5 +1,0 @@
-(h / help
-	:advmod (n / not)
-	:aux (c / can)
-	:obj (i / it)
-	:nsubj (i2 / i))

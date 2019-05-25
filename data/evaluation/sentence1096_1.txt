@@ -1,7 +1,0 @@
-(s / say-02
-	:ARG0 (f / fox)
-	:ccomp (m2 / monotonous
-		:nsubj (l / life
-			:poss (m / my))
-		:cop (b / be)
-		:advmod (v / very)))

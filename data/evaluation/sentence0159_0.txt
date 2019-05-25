@@ -1,5 +1,0 @@
-(a / and
-	:op (e / elegance)
-	:op (s / style
-		:mod (i2 / impressive)
-		:case (w / with)))

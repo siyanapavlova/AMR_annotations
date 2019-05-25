@@ -1,8 +1,0 @@
-(w / want
-	:nsubj (y2 / you)
-	:advmod (w2 / where)
-	:xcomp (t2 / take
-		:mark (t / to)
-		:obj (s / sheep
-			:poss (y / you)))
-	:aux (d / do))

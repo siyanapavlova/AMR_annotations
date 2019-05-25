@@ -1,9 +1,0 @@
-(m / make
-	:cc (a / and)
-	:advmod (t2 / too)
-	:obj (i / i)
-	:nsubj (c / color
-		:compound (h2 / honey)
-		:det (t / that))
-	:xcomp (h / happy)
-	:aux (b / be))

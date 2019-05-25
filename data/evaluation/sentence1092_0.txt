@@ -1,3 +1,0 @@
-(b / be
-	:ccomp (c / chicken
-		:expl (t / there)))

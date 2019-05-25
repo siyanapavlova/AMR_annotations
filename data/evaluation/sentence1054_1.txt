@@ -1,6 +1,0 @@
-(s / say-02
-	:ccomp (e / excuse
-		:obj (i / i)
-		:discourse (p / please))
-	:ARG0 (p2 / prince
-		:mod (l / little)))

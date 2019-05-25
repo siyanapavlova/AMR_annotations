@@ -1,3 +1,0 @@
-(h / here
-	:cop (b / be)
-	:nsubj (i / it))

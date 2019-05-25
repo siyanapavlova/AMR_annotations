@@ -1,5 +1,0 @@
-(o / order
-	:obj (y2 / you)
-	:xcomp (y / yawn
-		:mark (t / to))
-	:nsubj (i / i))

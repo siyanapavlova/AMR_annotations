@@ -1,5 +1,0 @@
-(r / reply
-	:obj (l / lamplighter)
-	:nsubj (o / order
-		:cop (b / be)
-		:nsubj (t / those)))

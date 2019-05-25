@@ -1,3 +1,0 @@
-(a / and
-	:op (t / two)
-	:op (f / five))

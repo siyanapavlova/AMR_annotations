@@ -1,6 +1,0 @@
-(l / let
-	:xcomp (g / go
-		:advmod (o / on)
-		:obl (m / myself
-			:case (b / by)))
-	:obj (i / i))

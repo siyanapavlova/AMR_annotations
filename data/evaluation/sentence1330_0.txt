@@ -1,6 +1,0 @@
-(f / fair
-	:conj (p / prince
-		:mod (l / little))
-	:cop (b / be)
-	:advmod (n / not)
-	:nsubj (y / you))

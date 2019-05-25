@@ -1,8 +1,0 @@
-(p / prince
-	:acl (g / gaze
-		:obl (t / time
-			:case (f / for)
-			:mod (l2 / long))
-		:obl (h / he
-			:case (a / at)))
-	:mod (l / little))

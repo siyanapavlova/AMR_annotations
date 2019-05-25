@@ -1,3 +1,0 @@
-(m / minister
-	:poss (w / what
-		:case (o / of)))

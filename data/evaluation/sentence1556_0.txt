@@ -1,8 +1,0 @@
-(a / and
-	:op (a2 / appear
-		:obl (e / earth
-			:case (o / on))
-		:nsubj (p / prince
-			:mod (l / little))
-		:mark (t / that))
-	:op (d / disappear))

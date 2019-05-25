@@ -1,8 +1,0 @@
-(r2 / ready
-	:nsubj (e / everything)
-	:cop (b2 / be)
-	:obl (u / use
-		:case (f / for))
-	:appos (r / rope)
-	:appos (p / pulley
-		:appos (b / bucket)))

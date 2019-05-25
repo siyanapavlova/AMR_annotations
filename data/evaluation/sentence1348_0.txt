@@ -1,5 +1,0 @@
-(f / flush
-	:nsubj (p / prince
-		:mod (l / little))
-	:obj (m / more
-		:advmod (o / once)))

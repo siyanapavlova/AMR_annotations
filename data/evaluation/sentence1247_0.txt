@@ -1,5 +1,0 @@
-(s / sit
-	:nsubj (i / i)
-	:compound (d / down)
-	:obl (h / he
-		:case (b / beside)))

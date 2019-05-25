@@ -1,3 +1,0 @@
-(m2 / make-01
-	:ARG1 (m / me)
-	:xcomp (a / another))

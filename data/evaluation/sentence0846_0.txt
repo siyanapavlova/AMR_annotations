@@ -1,4 +1,0 @@
-(d / disappointed
-	:cop (b / be)
-	:nsubj (p / prince
-		:mod (l / little)))

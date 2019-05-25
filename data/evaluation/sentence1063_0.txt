@@ -1,4 +1,0 @@
-(r / raise
-	:obj (c / chicken)
-	:nsubj (t / they)
-	:advmod (a / also))

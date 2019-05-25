@@ -1,6 +1,0 @@
-(s / say-01
-	:ARG0 (p / prince
-		:mod (l / little))
-	:ARG1 (h / hear
-		:nsubj (y / you)
-		:aux (d / do)))

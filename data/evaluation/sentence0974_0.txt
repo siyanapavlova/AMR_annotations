@@ -1,3 +1,0 @@
-(p / prince
-	:acl (s / smiled)
-	:mod (l / little))

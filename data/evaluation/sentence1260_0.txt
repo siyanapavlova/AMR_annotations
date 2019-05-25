@@ -1,7 +1,0 @@
-(c / cast
-	:nsubj (i / it)
-	:obj (e / enchantment
-		:poss (h / house
-			:case (o / over)
-			:det (t / that)))
-	:cc (b / but))

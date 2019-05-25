@@ -1,7 +1,0 @@
-(c2 / concerned
-	:cop (b / be)
-	:obl (m / matter
-		:case (w / with)
-		:poss (c / consequence
-			:case (o / of)))
-	:nsubj (i / i))

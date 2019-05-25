@@ -1,8 +1,0 @@
-(p / problem
-	:nsubj (t / they)
-	:cop (b / be)
-	:obl (o / other
-		:case (f / for)
-		:acl (s / scholar
-			:nsubj (w / who)
-			:cop (b2 / be))))

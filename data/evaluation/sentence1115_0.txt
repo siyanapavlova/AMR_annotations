@@ -1,8 +1,0 @@
-(w / want
-	:nsubj (i / i)
-	:xcomp (p / prince
-		:advmod (m / much
-			:advmod (v / very))
-		:acl (r / reply)
-		:mark (t / to)
-		:mod (l / little)))

@@ -1,7 +1,0 @@
-(g / give-01
-	:time (d / drink
-		:case (t / to))
-	:iobj (i2 / i)
-	:ARG1 (s / some
-		:poss (i / it
-			:case (o / of))))

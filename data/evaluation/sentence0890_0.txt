@@ -1,7 +1,0 @@
-(s / say-01
-	:ARG0 (g / geographer)
-	:ARG1 (r / record
-		:aux (d / do)
-		:obj (f / flower)
-		:advmod (n / not)
-		:nsubj (w / we)))

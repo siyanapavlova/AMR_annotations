@@ -1,8 +1,0 @@
-(w / water
-	:cop (b2 / be)
-	:nsubj (i2 / it)
-	:cop (b / be)
-	:advmod (j / just)
-	:case (w2 / with)
-	:nsubj (i / it)
-	:mark (a / as))

@@ -1,7 +1,0 @@
-(l / live-01
-	:advmod (w / where)
-	:nsubj (i / i)
-	:parataxis (s / small
-		:advmod (s2 / so)
-		:cop (b / be)
-		:nsubj (e / everything)))

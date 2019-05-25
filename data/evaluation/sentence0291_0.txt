@@ -1,3 +1,0 @@
-(a / and
-	:op (l2 / long)
-	:op (s / silent))

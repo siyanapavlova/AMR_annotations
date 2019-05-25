@@ -1,2 +1,0 @@
-(n / nobody
-	:case (t / to))

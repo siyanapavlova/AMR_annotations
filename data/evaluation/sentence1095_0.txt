@@ -1,7 +1,0 @@
-(c / come
-	:advmod (b / back)
-	:nsubj (h2 / he)
-	:time (i / idea
-		:poss (h / he)
-		:case (t / to))
-	:cc (b2 / but))

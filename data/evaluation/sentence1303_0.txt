@@ -1,9 +1,0 @@
-(t / thing
-	:cop (b / be)
-	:poss (n / nourishment
-		:case (f / from)
-		:mod (o / ordinary))
-	:mod (d / different)
-	:advmod (i / indeed)
-	:nsubj (w / water
-		:det (t2 / this)))

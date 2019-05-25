@@ -1,5 +1,0 @@
-(c / cry
-	:nsubj (h / he)
-	:advmod (n / not)
-	:aux (d / do)
-	:compound (o / out))

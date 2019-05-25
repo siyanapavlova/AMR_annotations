@@ -1,7 +1,0 @@
-(c / change
-	:obl (t2 / time
-		:case (s / since)
-		:det (t / that))
-	:nsubj (o / order)
-	:cc (a / and)
-	:aux (h / have))

@@ -1,7 +1,0 @@
-(t / throw
-	:obj (e / explanation
-		:poss (i2 / it
-			:case (w / with)))
-	:compound (o / out)
-	:cc (a / and)
-	:nsubj (i / i))

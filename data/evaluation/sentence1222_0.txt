@@ -1,8 +1,0 @@
-(s / say-02
-	:ARG0 (f2 / friend
-		:poss (m / my)
-		:appos (p / prince
-			:mod (l / little))
-		:appos (f / fox))
-	:time (i / i
-		:case (t / to)))

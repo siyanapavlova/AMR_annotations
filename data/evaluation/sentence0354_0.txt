@@ -1,3 +1,0 @@
-(f / fall
-	:aux (h / have)
-	:nsubj (n / night))

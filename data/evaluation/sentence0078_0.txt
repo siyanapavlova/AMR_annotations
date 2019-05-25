@@ -1,3 +1,0 @@
-(m / make
-	:xcomp (a / another)
-	:obj (i / i))

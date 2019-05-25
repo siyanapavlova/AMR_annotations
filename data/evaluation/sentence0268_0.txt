@@ -1,8 +1,0 @@
-(c / come
-	:parataxis (l2 / let
-		:obj (w / we)
-		:xcomp (g / go
-			:manner (l / look
-				:advmod (n / now)
-				:obl (s / sunset
-					:case (a / at))))))

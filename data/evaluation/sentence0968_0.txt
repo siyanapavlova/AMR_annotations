@@ -1,6 +1,0 @@
-(l2 / lonely
-	:cop (b / be)
-	:obl (d / desert
-		:case (i / in))
-	:nsubj (i2 / it)
-	:obl (l / little))

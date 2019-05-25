@@ -1,6 +1,0 @@
-(w / wealth
-	:nsubj (t / they)
-	:obl (b2 / businessman
-		:case (f / for)
-		:poss (m / my))
-	:cop (b / be))

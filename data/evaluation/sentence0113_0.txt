@@ -1,5 +1,0 @@
-(c / cry-01
-	:advmod (t / then)
-	:ARG0 (h / he)
-	:advmod (o / out)
-	:obj (w / what))

@@ -1,9 +1,0 @@
-(p / pile
-	:aux (c / could)
-	:obl (p2 / pacific
-		:case (o / on)
-		:amod (s / small)
-		:advmod (i / islet))
-	:compound (u / up)
-	:nsubj (h / humanity
-		:mod (a / all)))

@@ -1,8 +1,0 @@
-(g / gaze
-	:obl (p / prince
-		:mod (l2 / little)
-		:case (a / at))
-	:nsubj (f / fox)
-	:obl (t / time
-		:case (f2 / for)
-		:mod (l / long)))

@@ -1,8 +1,0 @@
-(b3 / but
-	:op (a / add
-		:cc (a2 / and)
-		:nsubj (p / prince
-			:mod (l / little)))
-	:op (b / blind
-		:nsubj (e / eyes)
-		:cop (b2 / be)))

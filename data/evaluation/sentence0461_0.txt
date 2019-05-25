@@ -1,5 +1,0 @@
-(i / importance
-	:det (n / no)
-	:nsubj (t / that)
-	:case (o / of)
-	:cop (b / be))

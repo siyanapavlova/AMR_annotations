@@ -1,5 +1,0 @@
-(m / make
-	:nsubj (t / that)
-	:obj (i / i)
-	:obj (a / asham
-		:mod (l / little)))

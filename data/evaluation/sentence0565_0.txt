@@ -1,5 +1,0 @@
-(m2 / make
-	:obj (y / you)
-	:obj (m / minister)
-	:aux (w / will)
-	:nsubj (i / i))

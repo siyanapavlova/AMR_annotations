@@ -1,7 +1,0 @@
-(d / do
-	:obl (t / they
-		:case (w / with))
-	:obj (w2 / what)
-	:aux (d2 / do)
-	:cc (a / and)
-	:nsubj (y / you))

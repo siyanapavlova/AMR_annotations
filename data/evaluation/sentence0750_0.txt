@@ -1,8 +1,0 @@
-(u / use
-	:cc (b2 / but)
-	:cop (b / be)
-	:case (o / of)
-	:poss (s / star
-		:case (t / to))
-	:nsubj (y / you)
-	:det (n / no))

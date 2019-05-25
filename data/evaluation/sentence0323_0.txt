@@ -1,5 +1,0 @@
-(s / stare
-	:obl (i / i
-		:case (a / at))
-	:nsubj (h / he)
-	:obj (t / thunderstruck))

@@ -1,5 +1,0 @@
-(s / say-01
-	:ARG1 (l / large
-		:cop (b / be)
-		:nsubj (e / earth))
-	:ARG0 (s2 / snake))

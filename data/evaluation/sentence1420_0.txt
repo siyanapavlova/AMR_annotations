@@ -1,7 +1,0 @@
-(a / answer
-	:advmod (n / not)
-	:aux (d / do)
-	:nsubj (h / he)
-	:obj (p / plea
-		:poss (m / my))
-	:cc (b / but))

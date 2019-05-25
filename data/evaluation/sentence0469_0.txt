@@ -1,3 +1,0 @@
-(o / or
-	:op (t3 / two)
-	:op (t / three))
