@@ -2,6 +2,7 @@ include "core_roles.grs"
 include "non_core_roles.grs"
 include "remove_punct_safe.grs"
 include "cc_to_op_redundancy.grs"
+include "core_roles_xcomp.grs"
 
 strat simplest {
   Seq (
@@ -134,6 +135,41 @@ strat add_conc {
   )
 }
 
+strat xcomp_strat {
+  Seq (
+    Iter(xcomp_normal_arg0obj_govarg0),
+	Iter(xcomp_normal_arg0obj_govarg1),
+	Iter(xcomp_normal_arg0obj_govarg2),
+	Iter(xcomp_normal_arg0nsubj_govarg0),
+	Iter(xcomp_normal_arg0nsubj_govarg1),
+	Iter(xcomp_normal_arg0nsubj_govarg2),
+
+	Iter(xcomp_normal_arg1obj_govarg0),
+	Iter(xcomp_normal_arg1obj_govarg1),
+	Iter(xcomp_normal_arg1obj_govarg2),
+	Iter(xcomp_normal_arg1nsubj_govarg0),
+	Iter(xcomp_normal_arg1nsubj_govarg1),
+	Iter(xcomp_normal_arg1nsubj_govarg2),
+    
+	Iter(xcomp_normal_arg2obj_govarg0),
+	Iter(xcomp_normal_arg2obj_govarg1),
+	Iter(xcomp_normal_arg2obj_govarg2),
+	Iter(xcomp_normal_arg2nsubj_govarg0),
+	Iter(xcomp_normal_arg2nsubj_govarg1),
+	Iter(xcomp_normal_arg2nsubj_govarg2),
+
+	Iter(xcomp_normal_arg3obj_govarg0),
+	Iter(xcomp_normal_arg3obj_govarg1),
+	Iter(xcomp_normal_arg3obj_govarg2),
+	Iter(xcomp_normal_arg3nsubj_govarg0),
+	Iter(xcomp_normal_arg3nsubj_govarg1),
+	Iter(xcomp_normal_arg3nsubj_govarg2),
+	Iter(xcomp_secondarypredicate_govarg0),
+	Iter(xcomp_secondarypredicate_govarg1),
+	Iter(xcomp_secondarypredicate_govarg2),
+  )
+}
+
 strat test_new_lex {
   Seq (
     %clean,
@@ -142,6 +178,7 @@ strat test_new_lex {
     Iter(det_as_pers_pron),
     Iter(det_as_all),
     Iter (nmod),
+	Iter(xcomp_strat), % run package above to handle xcomp
 
     %Iter(pred_nsubj_obj_ccomp_arg0_arg1_arg2),
     %Iter(pred_nsubj_ccomp_arg0_arg1),

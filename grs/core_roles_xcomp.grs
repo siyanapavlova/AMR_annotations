@@ -1,0 +1,520 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% An open clausal complement of a predicate (verb/adjective). This is for the case
+rule xcomp_normal_arg0obj_govarg0(lex from "lexicons/subcat/test_lexicon.lp"){
+	pattern{
+		xcomp_rel: GOV -[xcomp]-> DEP; 
+		DEP[upos=VERB|ADJ, concept = lex.concept, arg0=patient|attribute|beneficiary|patient1|patient2|experiencer|material]; 
+		GOV -[obj]-> GOV_OBJ;
+	} % DEP is in the lexicon and has a actor-type role in arg0. 
+	without{
+		DEP -[nsubj|csubj]-> DEP_DEP;
+		GOV[concept = lex.concept, arg0=agent|actor|actor1|actor2|cause|stimulus];
+		} % DEP's with its own subject (not expected anyway, as per UD guidelines), given GOV_OBJ, the arg for GOV must be patient-type 
+	commands{
+		del_edge xcomp_rel;
+		add_edge GOV -[ARG0]-> DEP;
+		add_edge DEP -[ARG0]-> GOV_OBJ;
+	} 
+} 
+	% find pairs with xcomp rel, where the DEP has a concept that is in the lexicon. 
+	% The dependent of the xcomp rel is without its own subject. It's subject belong 
+	% to the higher clause (or next highest)
+
+% An open clausal complement of a predicate (verb/adjective). This is for the case
+rule xcomp_normal_arg0obj_govarg1(lex from "lexicons/subcat/test_lexicon.lp"){
+	pattern{
+		xcomp_rel: GOV -[xcomp]-> DEP; 
+		DEP[upos=VERB|ADJ, concept = lex.concept, arg0=agent|actor|actor1|actor2|cause|stimulus]; 
+		GOV -[obj]-> GOV_OBJ;
+	} % DEP is in the lexicon and has a actor-type role in arg0. 
+	without{
+		DEP -[nsubj|csubj]-> DEP_DEP;
+		GOV[concept = lex.concept, arg0=agent|actor|actor1|actor2|cause|stimulus];
+		} % DEP's with its own subject (not expected anyway, as per UD guidelines), given GOV_OBJ, the arg for GOV must be patient-type
+	commands{
+		del_edge xcomp_rel;
+		add_edge GOV -[ARG1]-> DEP;
+		add_edge DEP -[ARG0]-> GOV_OBJ;
+	} 
+} 
+
+% An open clausal complement of a predicate (verb/adjective). This is for the case
+rule xcomp_normal_arg0obj_govarg2(lex from "lexicons/subcat/test_lexicon.lp"){
+	pattern{
+		xcomp_rel: GOV -[xcomp]-> DEP; 
+		DEP[upos=VERB|ADJ, concept = lex.concept, arg0=patient|attribute|beneficiary|patient1|patient2|experiencer|material]; 
+		GOV -[obj]-> GOV_OBJ;
+	} % DEP is in the lexicon and has a actor-type role in arg0. 
+	without{
+		DEP -[nsubj|csubj]-> DEP_DEP;
+		GOV[concept = lex.concept, arg0=agent|actor|actor1|actor2|cause|stimulus];
+		} % DEP's with its own subject (not expected anyway, as per UD guidelines), given GOV_OBJ, the arg for GOV must be patient-type
+	commands{
+		del_edge xcomp_rel;
+		add_edge GOV -[ARG2]-> DEP;
+		add_edge DEP -[ARG0]-> GOV_OBJ;
+	} 
+} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%	
+
+% An open clausal complement of a predicate (verb/adjective). This is for the case
+rule xcomp_normal_arg0nsubj_govarg0(lex from "lexicons/subcat/test_lexicon.lp"){
+	pattern{
+		xcomp_rel: GOV -[xcomp]-> DEP; 
+		DEP[upos=VERB|ADJ, concept = lex.concept, arg0=agent|actor|actor1|actor2|cause|stimulus]; 
+		GOV -[nsubj]-> GOV_NSUBJ;
+	} 
+	without{
+		DEP -[nsubj|csubj]-> DEP_DEP;
+		GOV[concept = lex.concept, arg0=patient|attribute|beneficiary|patient1|patient2|experiencer|material];
+		} % DEP's with its own subject (not expected anyway, as per UD guidelines), given GOV_OBJ, the arg for GOV must be actor-type
+	commands{
+		del_edge xcomp_rel;
+		add_edge GOV -[ARG0]-> DEP;
+		add_edge DEP -[ARG0]-> GOV_NSUBJ;
+	} 
+} 
+
+% An open clausal complement of a predicate (verb/adjective). This is for the case
+rule xcomp_normal_arg0nsubj_govarg1(lex from "lexicons/subcat/test_lexicon.lp"){
+	pattern{
+		xcomp_rel: GOV -[xcomp]-> DEP; 
+		DEP[upos=VERB|ADJ, concept = lex.concept, arg0=agent|actor|actor1|actor2|cause|stimulus]; 
+		GOV -[nsubj]-> GOV_NSUBJ;
+	} 
+	without{
+		DEP -[nsubj|csubj]-> DEP_DEP;
+		GOV[concept = lex.concept, arg0=patient|attribute|beneficiary|patient1|patient2|experiencer|material];
+		} % DEP's with its own subject (not expected anyway, as per UD guidelines), given GOV_OBJ, the arg for GOV must be actor-type
+	commands{
+		del_edge xcomp_rel;
+		add_edge GOV -[ARG1]-> DEP;
+		add_edge DEP -[ARG0]-> GOV_NSUBJ;
+	} 
+} 
+
+% An open clausal complement of a predicate (verb/adjective). This is for the case
+rule xcomp_normal_arg0nsubj_govarg2(lex from "lexicons/subcat/test_lexicon.lp"){
+	pattern{
+		xcomp_rel: GOV -[xcomp]-> DEP; 
+		DEP[upos=VERB|ADJ, concept = lex.concept, arg0=agent|actor|actor1|actor2|cause|stimulus]; 
+		GOV -[nsubj]-> GOV_NSUBJ;
+	} 
+	without{
+		DEP -[nsubj|csubj]-> DEP_DEP;
+		GOV[concept = lex.concept, arg0=patient|attribute|beneficiary|patient1|patient2|experiencer|material];
+		} % DEP's with its own subject (not expected anyway, as per UD guidelines), given GOV_OBJ, the arg for GOV must be actor-type
+	commands{
+		del_edge xcomp_rel;
+		add_edge GOV -[ARG2]-> DEP;
+		add_edge DEP -[ARG0]-> GOV_NSUBJ;
+	} 
+} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% An open clausal complement of a predicate (verb/adjective). This is for the case
+rule xcomp_normal_arg1obj_govarg0(lex from "lexicons/subcat/test_lexicon.lp"){
+	pattern{
+		xcomp_rel: GOV -[xcomp]-> DEP; 
+		DEP[upos=VERB|ADJ, concept = lex.concept, arg0=patient|attribute|beneficiary|patient1|patient2|experiencer|material]; 
+		GOV -[obj]-> GOV_OBJ;
+	} % DEP is in the lexicon and has a actor-type role in arg0. 
+	without{
+		DEP -[nsubj|csubj]-> DEP_DEP;
+		GOV[concept = lex.concept, arg0=agent|actor|actor1|actor2|cause|stimulus];
+		} % DEP's with its own subject (not expected anyway, as per UD guidelines), given GOV_OBJ, the arg for GOV must be patient-type 
+	commands{
+		del_edge xcomp_rel;
+		add_edge GOV -[ARG0]-> DEP;
+		add_edge DEP -[ARG1]-> GOV_OBJ;
+	} 
+} 
+	% find pairs with xcomp rel, where the DEP has a concept that is in the lexicon. 
+	% The dependent of the xcomp rel is without its own subject. It's subject belong 
+	% to the higher clause (or next highest)
+
+% An open clausal complement of a predicate (verb/adjective). This is for the case
+rule xcomp_normal_arg1obj_govarg1(lex from "lexicons/subcat/test_lexicon.lp"){
+	pattern{
+		xcomp_rel: GOV -[xcomp]-> DEP; 
+		DEP[upos=VERB|ADJ, concept = lex.concept, arg0=agent|actor|actor1|actor2|cause|stimulus]; 
+		GOV -[obj]-> GOV_OBJ;
+	} % DEP is in the lexicon and has a actor-type role in arg0. 
+	without{
+		DEP -[nsubj|csubj]-> DEP_DEP;
+		GOV[concept = lex.concept, arg0=agent|actor|actor1|actor2|cause|stimulus];
+		} % DEP's with its own subject (not expected anyway, as per UD guidelines), given GOV_OBJ, the arg for GOV must be patient-type
+	commands{
+		del_edge xcomp_rel;
+		add_edge GOV -[ARG1]-> DEP;
+		add_edge DEP -[ARG1]-> GOV_OBJ;
+	} 
+} 
+
+% An open clausal complement of a predicate (verb/adjective). This is for the case
+rule xcomp_normal_arg1obj_govarg2(lex from "lexicons/subcat/test_lexicon.lp"){
+	pattern{
+		xcomp_rel: GOV -[xcomp]-> DEP; 
+		DEP[upos=VERB|ADJ, concept = lex.concept, arg0=patient|attribute|beneficiary|patient1|patient2|experiencer|material]; 
+		GOV -[obj]-> GOV_OBJ;
+	} % DEP is in the lexicon and has a actor-type role in arg0. 
+	without{
+		DEP -[nsubj|csubj]-> DEP_DEP;
+		GOV[concept = lex.concept, arg0=agent|actor|actor1|actor2|cause|stimulus];
+		} % DEP's with its own subject (not expected anyway, as per UD guidelines), given GOV_OBJ, the arg for GOV must be patient-type
+	commands{
+		del_edge xcomp_rel;
+		add_edge GOV -[ARG2]-> DEP;
+		add_edge DEP -[ARG1]-> GOV_OBJ;
+	} 
+} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%	
+
+% An open clausal complement of a predicate (verb/adjective). This is for the case
+rule xcomp_normal_arg1nsubj_govarg0(lex from "lexicons/subcat/test_lexicon.lp"){
+	pattern{
+		xcomp_rel: GOV -[xcomp]-> DEP; 
+		DEP[upos=VERB|ADJ, concept = lex.concept, arg0=agent|actor|actor1|actor2|cause|stimulus]; 
+		GOV -[nsubj]-> GOV_NSUBJ;
+	} 
+	without{
+		DEP -[nsubj|csubj]-> DEP_DEP;
+		GOV[concept = lex.concept, arg0=patient|attribute|beneficiary|patient1|patient2|experiencer|material];
+		} % DEP's with its own subject (not expected anyway, as per UD guidelines), given GOV_OBJ, the arg for GOV must be actor-type
+	commands{
+		del_edge xcomp_rel;
+		add_edge GOV -[ARG0]-> DEP;
+		add_edge DEP -[ARG1]-> GOV_NSUBJ;
+	} 
+} 
+
+% An open clausal complement of a predicate (verb/adjective). This is for the case
+rule xcomp_normal_arg1nsubj_govarg1(lex from "lexicons/subcat/test_lexicon.lp"){
+	pattern{
+		xcomp_rel: GOV -[xcomp]-> DEP; 
+		DEP[upos=VERB|ADJ, concept = lex.concept, arg0=agent|actor|actor1|actor2|cause|stimulus]; 
+		GOV -[nsubj]-> GOV_NSUBJ;
+	} 
+	without{
+		DEP -[nsubj|csubj]-> DEP_DEP;
+		GOV[concept = lex.concept, arg0=patient|attribute|beneficiary|patient1|patient2|experiencer|material];
+		} % DEP's with its own subject (not expected anyway, as per UD guidelines), given GOV_OBJ, the arg for GOV must be actor-type
+	commands{
+		del_edge xcomp_rel;
+		add_edge GOV -[ARG1]-> DEP;
+		add_edge DEP -[ARG1]-> GOV_NSUBJ;
+	} 
+} 
+
+% An open clausal complement of a predicate (verb/adjective). This is for the case
+rule xcomp_normal_arg1nsubj_govarg2(lex from "lexicons/subcat/test_lexicon.lp"){
+	pattern{
+		xcomp_rel: GOV -[xcomp]-> DEP; 
+		DEP[upos=VERB|ADJ, concept = lex.concept, arg0=agent|actor|actor1|actor2|cause|stimulus]; 
+		GOV -[nsubj]-> GOV_NSUBJ;
+	} 
+	without{
+		DEP -[nsubj|csubj]-> DEP_DEP;
+		GOV[concept = lex.concept, arg0=patient|attribute|beneficiary|patient1|patient2|experiencer|material];
+		} % DEP's with its own subject (not expected anyway, as per UD guidelines), given GOV_OBJ, the arg for GOV must be actor-type
+	commands{
+		del_edge xcomp_rel;
+		add_edge GOV -[ARG2]-> DEP;
+		add_edge DEP -[ARG1]-> GOV_NSUBJ;
+	} 
+} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% An open clausal complement of a predicate (verb/adjective). This is for the case
+rule xcomp_normal_arg2obj_govarg0(lex from "lexicons/subcat/test_lexicon.lp"){
+	pattern{
+		xcomp_rel: GOV -[xcomp]-> DEP; 
+		DEP[upos=VERB|ADJ, concept = lex.concept, arg0=patient|attribute|beneficiary|patient1|patient2|experiencer|material]; 
+		GOV -[obj]-> GOV_OBJ;
+	} % DEP is in the lexicon and has a actor-type role in arg0. 
+	without{
+		DEP -[nsubj|csubj]-> DEP_DEP;
+		GOV[concept = lex.concept, arg0=agent|actor|actor1|actor2|cause|stimulus];
+		} % DEP's with its own subject (not expected anyway, as per UD guidelines), given GOV_OBJ, the arg for GOV must be patient-type 
+	commands{
+		del_edge xcomp_rel;
+		add_edge GOV -[ARG0]-> DEP;
+		add_edge DEP -[ARG2]-> GOV_OBJ;
+	} 
+} 
+	% find pairs with xcomp rel, where the DEP has a concept that is in the lexicon. 
+	% The dependent of the xcomp rel is without its own subject. It's subject belong 
+	% to the higher clause (or next highest)
+
+% An open clausal complement of a predicate (verb/adjective). This is for the case
+rule xcomp_normal_arg2obj_govarg1(lex from "lexicons/subcat/test_lexicon.lp"){
+	pattern{
+		xcomp_rel: GOV -[xcomp]-> DEP; 
+		DEP[upos=VERB|ADJ, concept = lex.concept, arg0=agent|actor|actor1|actor2|cause|stimulus]; 
+		GOV -[obj]-> GOV_OBJ;
+	} % DEP is in the lexicon and has a actor-type role in arg0. 
+	without{
+		DEP -[nsubj|csubj]-> DEP_DEP;
+		GOV[concept = lex.concept, arg0=agent|actor|actor1|actor2|cause|stimulus];
+		} % DEP's with its own subject (not expected anyway, as per UD guidelines), given GOV_OBJ, the arg for GOV must be patient-type
+	commands{
+		del_edge xcomp_rel;
+		add_edge GOV -[ARG1]-> DEP;
+		add_edge DEP -[ARG2]-> GOV_OBJ;
+	} 
+} 
+
+% An open clausal complement of a predicate (verb/adjective). This is for the case
+rule xcomp_normal_arg2obj_govarg2(lex from "lexicons/subcat/test_lexicon.lp"){
+	pattern{
+		xcomp_rel: GOV -[xcomp]-> DEP; 
+		DEP[upos=VERB|ADJ, concept = lex.concept, arg0=patient|attribute|beneficiary|patient1|patient2|experiencer|material]; 
+		GOV -[obj]-> GOV_OBJ;
+	} % DEP is in the lexicon and has a actor-type role in arg0. 
+	without{
+		DEP -[nsubj|csubj]-> DEP_DEP;
+		GOV[concept = lex.concept, arg0=agent|actor|actor1|actor2|cause|stimulus];
+		} % DEP's with its own subject (not expected anyway, as per UD guidelines), given GOV_OBJ, the arg for GOV must be patient-type
+	commands{
+		del_edge xcomp_rel;
+		add_edge GOV -[ARG2]-> DEP;
+		add_edge DEP -[ARG2]-> GOV_OBJ;
+	} 
+} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%	
+
+% An open clausal complement of a predicate (verb/adjective). This is for the case
+rule xcomp_normal_arg2nsubj_govarg0(lex from "lexicons/subcat/test_lexicon.lp"){
+	pattern{
+		xcomp_rel: GOV -[xcomp]-> DEP; 
+		DEP[upos=VERB|ADJ, concept = lex.concept, arg0=agent|actor|actor1|actor2|cause|stimulus]; 
+		GOV -[nsubj]-> GOV_NSUBJ;
+	} 
+	without{
+		DEP -[nsubj|csubj]-> DEP_DEP;
+		GOV[concept = lex.concept, arg0=patient|attribute|beneficiary|patient1|patient2|experiencer|material];
+		} % DEP's with its own subject (not expected anyway, as per UD guidelines), given GOV_OBJ, the arg for GOV must be actor-type
+	commands{
+		del_edge xcomp_rel;
+		add_edge GOV -[ARG0]-> DEP;
+		add_edge DEP -[ARG2]-> GOV_NSUBJ;
+	} 
+} 
+
+% An open clausal complement of a predicate (verb/adjective). This is for the case
+rule xcomp_normal_arg2nsubj_govarg1(lex from "lexicons/subcat/test_lexicon.lp"){
+	pattern{
+		xcomp_rel: GOV -[xcomp]-> DEP; 
+		DEP[upos=VERB|ADJ, concept = lex.concept, arg0=agent|actor|actor1|actor2|cause|stimulus]; 
+		GOV -[nsubj]-> GOV_NSUBJ;
+	} 
+	without{
+		DEP -[nsubj|csubj]-> DEP_DEP;
+		GOV[concept = lex.concept, arg0=patient|attribute|beneficiary|patient1|patient2|experiencer|material];
+		} % DEP's with its own subject (not expected anyway, as per UD guidelines), given GOV_OBJ, the arg for GOV must be actor-type
+	commands{
+		del_edge xcomp_rel;
+		add_edge GOV -[ARG1]-> DEP;
+		add_edge DEP -[ARG2]-> GOV_NSUBJ;
+	} 
+} 
+
+% An open clausal complement of a predicate (verb/adjective). This is for the case
+rule xcomp_normal_arg2nsubj_govarg2(lex from "lexicons/subcat/test_lexicon.lp"){
+	pattern{
+		xcomp_rel: GOV -[xcomp]-> DEP; 
+		DEP[upos=VERB|ADJ, concept = lex.concept, arg0=agent|actor|actor1|actor2|cause|stimulus]; 
+		GOV -[nsubj]-> GOV_NSUBJ;
+	} 
+	without{
+		DEP -[nsubj|csubj]-> DEP_DEP;
+		GOV[concept = lex.concept, arg0=patient|attribute|beneficiary|patient1|patient2|experiencer|material];
+		} % DEP's with its own subject (not expected anyway, as per UD guidelines), given GOV_OBJ, the arg for GOV must be actor-type
+	commands{
+		del_edge xcomp_rel;
+		add_edge GOV -[ARG2]-> DEP;
+		add_edge DEP -[ARG2]-> GOV_NSUBJ;
+	} 
+} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% An open clausal complement of a predicate (verb/adjective). This is for the case
+rule xcomp_normal_arg3obj_govarg0(lex from "lexicons/subcat/test_lexicon.lp"){
+	pattern{
+		xcomp_rel: GOV -[xcomp]-> DEP; 
+		DEP[upos=VERB|ADJ, concept = lex.concept, arg0=patient|attribute|beneficiary|patient1|patient2|experiencer|material]; 
+		GOV -[obj]-> GOV_OBJ;
+	} % DEP is in the lexicon and has a actor-type role in arg0. 
+	without{
+		DEP -[nsubj|csubj]-> DEP_DEP;
+		GOV[concept = lex.concept, arg0=agent|actor|actor1|actor2|cause|stimulus];
+		} % DEP's with its own subject (not expected anyway, as per UD guidelines), given GOV_OBJ, the arg for GOV must be patient-type 
+	commands{
+		del_edge xcomp_rel;
+		add_edge GOV -[ARG0]-> DEP;
+		add_edge DEP -[ARG3]-> GOV_OBJ;
+	} 
+} 
+	% find pairs with xcomp rel, where the DEP has a concept that is in the lexicon. 
+	% The dependent of the xcomp rel is without its own subject. It's subject belong 
+	% to the higher clause (or next highest)
+
+% An open clausal complement of a predicate (verb/adjective). This is for the case
+rule xcomp_normal_arg3obj_govarg1(lex from "lexicons/subcat/test_lexicon.lp"){
+	pattern{
+		xcomp_rel: GOV -[xcomp]-> DEP; 
+		DEP[upos=VERB|ADJ, concept = lex.concept, arg0=agent|actor|actor1|actor2|cause|stimulus]; 
+		GOV -[obj]-> GOV_OBJ;
+	} % DEP is in the lexicon and has a actor-type role in arg0. 
+	without{
+		DEP -[nsubj|csubj]-> DEP_DEP;
+		GOV[concept = lex.concept, arg0=agent|actor|actor1|actor2|cause|stimulus];
+		} % DEP's with its own subject (not expected anyway, as per UD guidelines), given GOV_OBJ, the arg for GOV must be patient-type
+	commands{
+		del_edge xcomp_rel;
+		add_edge GOV -[ARG1]-> DEP;
+		add_edge DEP -[ARG3]-> GOV_OBJ;
+	} 
+} 
+
+% An open clausal complement of a predicate (verb/adjective). This is for the case
+rule xcomp_normal_arg3obj_govarg2(lex from "lexicons/subcat/test_lexicon.lp"){
+	pattern{
+		xcomp_rel: GOV -[xcomp]-> DEP; 
+		DEP[upos=VERB|ADJ, concept = lex.concept, arg0=patient|attribute|beneficiary|patient1|patient2|experiencer|material]; 
+		GOV -[obj]-> GOV_OBJ;
+	} % DEP is in the lexicon and has a actor-type role in arg0. 
+	without{
+		DEP -[nsubj|csubj]-> DEP_DEP;
+		GOV[concept = lex.concept, arg0=agent|actor|actor1|actor2|cause|stimulus];
+		} % DEP's with its own subject (not expected anyway, as per UD guidelines), given GOV_OBJ, the arg for GOV must be patient-type
+	commands{
+		del_edge xcomp_rel;
+		add_edge GOV -[ARG2]-> DEP;
+		add_edge DEP -[ARG3]-> GOV_OBJ;
+	} 
+} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%	
+
+% An open clausal complement of a predicate (verb/adjective). This is for the case
+rule xcomp_normal_arg3nsubj_govarg0(lex from "lexicons/subcat/test_lexicon.lp"){
+	pattern{
+		xcomp_rel: GOV -[xcomp]-> DEP; 
+		DEP[upos=VERB|ADJ, concept = lex.concept, arg0=agent|actor|actor1|actor2|cause|stimulus]; 
+		GOV -[nsubj]-> GOV_NSUBJ;
+	} 
+	without{
+		DEP -[nsubj|csubj]-> DEP_DEP;
+		GOV[concept = lex.concept, arg0=patient|attribute|beneficiary|patient1|patient2|experiencer|material];
+		} % DEP's with its own subject (not expected anyway, as per UD guidelines), given GOV_OBJ, the arg for GOV must be actor-type
+	commands{
+		del_edge xcomp_rel;
+		add_edge GOV -[ARG0]-> DEP;
+		add_edge DEP -[ARG3]-> GOV_NSUBJ;
+	} 
+} 
+
+% An open clausal complement of a predicate (verb/adjective). This is for the case
+rule xcomp_normal_arg3nsubj_govarg1(lex from "lexicons/subcat/test_lexicon.lp"){
+	pattern{
+		xcomp_rel: GOV -[xcomp]-> DEP; 
+		DEP[upos=VERB|ADJ, concept = lex.concept, arg0=agent|actor|actor1|actor2|cause|stimulus]; 
+		GOV -[nsubj]-> GOV_NSUBJ;
+	} 
+	without{
+		DEP -[nsubj|csubj]-> DEP_DEP;
+		GOV[concept = lex.concept, arg0=patient|attribute|beneficiary|patient1|patient2|experiencer|material];
+		} % DEP's with its own subject (not expected anyway, as per UD guidelines), given GOV_OBJ, the arg for GOV must be actor-type
+	commands{
+		del_edge xcomp_rel;
+		add_edge GOV -[ARG1]-> DEP;
+		add_edge DEP -[ARG3]-> GOV_NSUBJ;
+	} 
+} 
+
+% An open clausal complement of a predicate (verb/adjective). This is for the case
+rule xcomp_normal_arg3nsubj_govarg2(lex from "lexicons/subcat/test_lexicon.lp"){
+	pattern{
+		xcomp_rel: GOV -[xcomp]-> DEP; 
+		DEP[upos=VERB|ADJ, concept = lex.concept, arg0=agent|actor|actor1|actor2|cause|stimulus]; 
+		GOV -[nsubj]-> GOV_NSUBJ;
+	} 
+	without{
+		DEP -[nsubj|csubj]-> DEP_DEP;
+		GOV[concept = lex.concept, arg0=patient|attribute|beneficiary|patient1|patient2|experiencer|material];
+		} % DEP's with its own subject (not expected anyway, as per UD guidelines), given GOV_OBJ, the arg for GOV must be actor-type
+	commands{
+		del_edge xcomp_rel;
+		add_edge GOV -[ARG2]-> DEP;
+		add_edge DEP -[ARG3]-> GOV_NSUBJ;
+	} 
+} 
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% An open clausal complement of a predicate (verb/adjective). This is for the case 
+% of a secondary predicate applied on the obj/iobj/ccomp/xcomp of its parent predicate 
+% (expected to prototypically be a theme). E.g. "She declared the cake beautiful". 
+rule xcomp_secondarypredicate_govarg0(lex from "lexicons/subcat/test_lexicon.lp"){
+	pattern{
+		xcomp_rel: GOV -[xcomp]-> DEP; 
+		DEP[upos=VERB|ADJ, concept = lex.concept, arg1=theme|theme1|theme2]; 
+		GOV -[obj]-> GOV_OBJ;
+	} 
+	without{
+		DEP -[nsubj|csubj]-> DEP_DEP;
+		} % DEP's with its own subject (not expected anyway, as per UD guidelines)
+	commands{
+		del_edge xcomp_rel;
+		add_edge GOV -[ARG0]-> DEP;
+		add_edge DEP -[ARG1]-> GOV_OBJ;
+	} 
+} 
+	% find pairs with xcomp rel, where the DEP has a concept that is in the lexicon. 
+	% The dependent of the xcomp rel is without its own subject. It's subject belong 
+	% to the higher clause (or next highest)
+
+rule xcomp_secondarypredicate_govarg1(lex from "lexicons/subcat/test_lexicon.lp"){
+	pattern{
+		xcomp_rel: GOV -[xcomp]-> DEP; 
+		DEP[upos=VERB|ADJ, concept = lex.concept, arg1=theme|theme1|theme2]; 
+		GOV -[obj]-> GOV_OBJ;
+	} 
+	without{
+		DEP -[nsubj|csubj]-> DEP_DEP;
+		} % DEP's with its own subject (not expected anyway, as per UD guidelines)
+	commands{
+		del_edge xcomp_rel;
+		add_edge GOV -[ARG1]-> DEP;
+		add_edge DEP -[ARG1]-> GOV_OBJ;
+	} 
+} 
+rule xcomp_secondarypredicate_govarg2(lex from "lexicons/subcat/test_lexicon.lp"){
+	pattern{
+		xcomp_rel: GOV -[xcomp]-> DEP; 
+		DEP[upos=VERB|ADJ, concept = lex.concept, arg1=theme|theme1|theme2]; 
+		GOV -[obj]-> GOV_OBJ;
+	} 
+	without{
+		DEP -[nsubj|csubj]-> DEP_DEP;
+		} % DEP's with its own subject (not expected anyway, as per UD guidelines)
+	commands{
+		del_edge xcomp_rel;
+		add_edge GOV -[ARG2]-> DEP;
+		add_edge DEP -[ARG1]-> GOV_OBJ;
+	} 
+} 
