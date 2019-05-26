@@ -70,6 +70,8 @@ strat clean {
     %Iter(remove_punct_safe),
     Iter(remove_punct),
     Iter(remove_det),
+    Iter(remove_cop),
+    Iter(remove_case),
   )
 }
 
@@ -84,6 +86,8 @@ strat prepare_predicates {
 
 strat non_core_new_lex{
   Seq(
+    Iter(compound_to_mod_for_nouns),
+
     Iter(verb_nominal_nummod_nsubj),
     Iter(verb_nominal_nummod_obj),
     Iter(advcl_manner),
@@ -113,6 +117,10 @@ strat test_new_lex {
     prepare_predicates,
     Iter(det_as_pers_pron),
     Iter(det_as_all),
+
+    %Iter(pred_nsubj_obj_ccomp_arg0_arg1_arg2),
+    %Iter(pred_nsubj_ccomp_arg0_arg1),
+    %Iter(pred_nsubj_ccomp_arg0_arg2),
     
     Iter(pred_nsubj_obj_iobj),
     Iter(pred_nsubj_obj),
@@ -132,6 +140,9 @@ strat test_new_lex {
     Iter(cc_to_op),
 
     Iter (nmod),
+
+    Iter(advmod_as_not_to_polarity),
+    Iter(without_to_polarity),
 
     non_core_new_lex,
 

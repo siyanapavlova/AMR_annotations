@@ -244,3 +244,15 @@ rule nmod_npmod_to_nmod{
 
 % End of rewriting for exceptions
 
+
+%compound nouns - transform the :compound relation to :mod, but only when the GOV is a noun
+rule  compound_to_mod_for_nouns{
+	pattern {
+		GOV [upos=NOUN];
+		compound_rel: GOV -[compound]-> DEP;
+	}
+	commands {
+		del_edge compound_rel;
+		add_edge GOV -[mod]-> DEP;
+	}
+}

@@ -15,11 +15,19 @@ def run_pipeline(load_path, save_path, filename, gold_amr):
 	# run a simple GRS 
 	grs_filename = './grs/grs_amr_main.grs' 
 
+
 	# generate the graph(s) from the application of the grs in grs_filename
+	print("Currently at " + filename)
 	try: 
 		new_graphs = ud_to_amr.ud_to_amr(grs_filename, ud_graph, strat="test_new_lex")
-	except grew.utils.GrewError:
+	except grew.utils.GrewError as er:
+		print(filename)
+		print(er)
 		return None
+
+	# new_graphs = ud_to_amr.ud_to_amr(grs_filename, ud_graph, strat="test_new_lex")
+
+
 	score_dict = {}
 	# print(len(new_graphs))
 	for new_graph_num in range(len(new_graphs)):
@@ -52,10 +60,10 @@ if __name__=="__main__":
 	# sentence_nums = [59, 276, 430, 523, 778, 799, 887, 1166, 1245, 1426]
 	# sentence_nums = [347]
 
-	# sentence_nums = list(range(1,121))
+	sentence_nums = list(range(1,121))
 	# sentence_nums = list(range(1,15))
 	# sentence_nums = [59]
-	sentence_nums = [17]
+	# sentence_nums = [104]
 
 	# sentence_nums = list(range(1,1563))
 	# sentence_nums.remove(347)

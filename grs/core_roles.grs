@@ -289,3 +289,97 @@ rule remove_aux_pass {
 		del_node DEP;
 	}
 }
+
+%find a GOV which has an nsubj and an ccomp and transform the ccomp to the corresponding ARG for theme of the predicate
+rule pred_nsubj_obj_ccomp_arg0_arg1_arg2(lex from "lexicons/subcat/test_lexicon.lp"){
+	pattern {
+		GOV [lemma=lex.lemma, arg0=agent|actor|cause|stimulus, arg1=patient, arg2=theme];
+		nsubj_rel: GOV -[nsubj]-> NSUBJ;
+		ccomp_rel: GOV -[ccomp]-> CCOMP;
+		obj_rel: GOV -[obj]-> OBJ;
+	}
+	commands {
+		del_edge nsubj_rel;
+		del_edge ccomp_rel;
+		del_edge obj_rel;
+		add_edge GOV -[ARG0]-> NSUBJ;
+		add_edge GOV -[ARG1]-> OBJ;
+		add_edge GOV -[ARG2]-> CCOMP;
+	}
+}
+
+%find a GOV which has an nsubj and an ccomp and transform the ccomp to the corresponding ARG for theme of the predicate
+rule pred_nsubj_ccomp_arg0_arg1(lex from "lexicons/subcat/test_lexicon.lp"){
+	pattern {
+		GOV [lemma=lex.lemma, arg0=agent|actor|cause|stimulus, arg1=theme];
+		nsubj_rel: GOV -[nsubj]-> NSUBJ;
+		ccomp_rel: GOV -[ccomp]-> CCOMP;
+	}
+	commands {
+		del_edge nsubj_rel;
+		del_edge ccomp_rel;
+		add_edge GOV -[ARG0]-> NSUBJ;
+		add_edge GOV -[ARG1]-> CCOMP;
+	}
+}
+
+%find a GOV which has an nsubj and an ccomp and transform the ccomp to the corresponding ARG for theme of the predicate
+rule pred_nsubj_ccomp_arg0_arg2(lex from "lexicons/subcat/test_lexicon.lp"){
+	pattern {
+		GOV [lemma=lex.lemma, arg0=agent|actor|cause|stimulus, arg1=theme];
+		nsubj_rel: GOV -[nsubj]-> NSUBJ;
+		ccomp_rel: GOV -[ccomp]-> CCOMP;
+	}
+	commands {
+		del_edge nsubj_rel;
+		del_edge ccomp_rel;
+		add_edge GOV -[ARG0]-> NSUBJ;
+		add_edge GOV -[ARG1]-> CCOMP;
+	}
+}
+
+%remove cop relations - should be done at the end of the rules as a part of the cleanup; reason: cop relations don't bring in any semantic information
+rule remove_cop {
+	pattern {
+		cop_rel: GOV -[cop]-> DEP;
+	}
+	commands {
+		del_node DEP;
+	}
+}
+
+%remove case relations - should be done at the end of the rules as a part of the cleanup; reason: case relations don't bring in any semantic information
+rule remove_case {
+	pattern {
+		case_rel: GOV -[case]-> DEP;
+	}
+	commands {
+		del_node DEP;
+	}
+}
+
+%transform advmod with a lemma "not" or "never" to polarity with a lemma "-"
+rule advmod_as_not_to_polarity {
+	pattern {
+		advmod_rel: GOV -[advmod]-> DEP;
+		DEP [lemma="not"|"never"];
+	}
+	commands {
+		del_edge advmod_rel;
+		add_edge GOV -[polarity]-> DEP;
+		DEP.concept="-"
+	}
+}
+
+%case|mark with a lemma "without" becomes polarity with a concept "-"
+rule without_to_polarity {
+	pattern {
+		rel: GOV -[case|mark]-> DEP;
+		DEP [lemma="without"];
+	}
+	commands{
+		del_edge rel;
+		add_edge GOV -[polarity]-> DEP;
+		DEP.concept="-";
+	}
+}
