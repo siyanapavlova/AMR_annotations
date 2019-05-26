@@ -1,7 +1,7 @@
 %test the new lexicon structure
 rule pred_nsubj_new_lex(lex from "lexicons/subcat/test_lexicon.lp"){
 	pattern {
-		V[cat=VERB, lemma=lex.lemma, arg0=agent|actor|cause|stimulus];
+		V[cat=VERB, lemma=lex.lemma, arg0=agent|actor|cause|stimulus|actor1];
 		nsubj_rel: V -[nsubj]-> NSUBJ;
 	}
 	commands {
@@ -47,7 +47,7 @@ rule prepare_concept(lex from "lexicons/subcat/test_lexicon.lp"){
 % The predicate has a subject and an object
 rule pred_nsubj_obj(lex from "lexicons/subcat/test_lexicon.lp"){
 	pattern {
-		V[cat=VERB, lemma=lex.lemma, arg0=agent|actor|stimulus|cause, arg1=patient|theme|experiencer];
+		V[cat=VERB, lemma=lex.lemma, arg0=agent|actor|stimulus|cause|actor1, arg1=patient|theme|experiencer|patient1];
 		nsubj_rel: V -[nsubj]-> NSUBJ;
 		obj_rel: V -[obj]-> OBJ;
 	}
@@ -62,7 +62,7 @@ rule pred_nsubj_obj(lex from "lexicons/subcat/test_lexicon.lp"){
 % The predicate has an object
 rule pred_obj_arg1(lex from "lexicons/subcat/test_lexicon.lp"){
 	pattern {
-		V[cat=VERB, lemma=lex.lemma, arg1=patient|theme|experiencer];
+		V[cat=VERB, lemma=lex.lemma, arg1=patient|theme|experiencer|patient1];
 		obj_rel: V -[obj]-> OBJ;
 	}
 	commands {
@@ -75,7 +75,7 @@ rule pred_obj_arg1(lex from "lexicons/subcat/test_lexicon.lp"){
 % The predicate has an object
 rule pred_obj_arg2(lex from "lexicons/subcat/test_lexicon.lp"){
 	pattern {
-		V[cat=VERB, lemma=lex.lemma, arg2=patient|theme|experiencer];
+		V[cat=VERB, lemma=lex.lemma, arg2=patient|theme|experiencer|patient1];
 		obj_rel: V -[obj]-> OBJ;
 	}
 	commands {
@@ -100,7 +100,7 @@ rule noun_amod{
 %subj, obj and iobj present
 rule pred_nsubj_obj_iobj(lex from "lexicons/subcat/test_lexicon.lp"){
 	pattern{
-		GOV[lemma=lex.lemma, arg0=agent, arg1=patient, arg2=recipient];
+		GOV[lemma=lex.lemma, arg0=agent, arg1=patient|patient1, arg2=recipient];
 		nsubj_rel: GOV -[nsubj]-> NSUBJ;
 		obj_rel: GOV -[obj]-> OBJ;
 		iobj_rel: GOV -[iobj]-> IOBJ;
@@ -116,15 +116,18 @@ rule pred_nsubj_obj_iobj(lex from "lexicons/subcat/test_lexicon.lp"){
 % A clausal complement of a verb/adverb (i.e. predicate) that is not a copula construction. 
 rule ccomp_verbadv_notcop(lex from "lexicons/subcat/test_lexicon.lp"){
 	pattern{
-		GOV[lemma=lex.lemma, upos=VERB|ADV, arg1=theme|topic];
+		GOV[lemma=lex.lemma, upos=VERB|ADV, arg1=theme|topic, arg0=agent|actor|actor1|cause|actor1];
 		ccomp_rel: GOV -[ccomp]-> DEP;
+		nsubj_rel: GOV -[nsubj]-> NSUBJ;
 	}
 	without{
 		GOV[lemma="be"];
 		} %exclude all copula constructions
 	commands{
 		del_edge ccomp_rel;
+		del_edge nsubj_rel;
 		add_edge GOV -[ARG1]-> DEP;
+		add_edge GOV -[ARG0]-> NSUBJ;
 	}
 }
 
@@ -140,10 +143,10 @@ rule remove_det{
 	}
 }
 
-%If DET's lemma is "all", make it a :mod
+%If DET's lemma is "all" or "some", make it a :mod
 rule det_as_all{
 	pattern{
-		D[cat=DET, lemma="all"];
+		D[cat=DET, lemma="all"|"some"];
 		det_rel: X -[det]-> D;
 	}
 	commands{
@@ -199,35 +202,30 @@ rule nmod{
 	}
 }
 
+%If a node has more than one cc grandchildren with the same lemma (all "and" or all "or"), remove one. This rule is meant to be applied a few times until only one cc is left. After that, the cc_to_op_morethan2 and cc_to_op rules should be applied
+rule remove_extra_cc_grandchildren {
+	pattern {
+		first_conj: GRANDPA -[conj]-> FIRST_CHILD;
+		first_cc: FIRST_CHILD -[cc]-> FIRST_GRANDKID;
+		second_conj: GRANDPA -[conj]-> SECOND_CHILD;
+		second_cc: SECOND_CHILD -[cc]-> SECOND_GRANDKID;
+	}
+	commands {
+		del_node SECOND_GRANDKID;
+	}
+}
+
 % If there are more than members in a conjunction, add an :op relation to the middle ones
 % This rule needs to be applied once for each middle element
 rule cc_to_op_morethan2{
 	pattern{
 		FIRST -[cc]-> AND;
 		LAST -[conj]-> FIRST;
-		conj_rel: FIRST -[conj]-> MID;
+		conj_rel: LAST -[conj]-> MID;
 	}
 	commands{
 		del_edge conj_rel;
 		add_edge AND -[op]-> MID;
-	}
-}
-
-% If there are a cc and a conj relations but no middle relations (only two members in a conjuction)
-% then transform both the first and last element in :op
-rule cc_to_op{
-	pattern{
-		cc_rel: FIRST -[cc]-> AND;
-		conj_rel: LAST -[conj]-> FIRST;
-	}
-	without{
-		LAST -[conj]-> MID;
-	}
-	commands{
-		del_edge conj_rel;
-		add_edge AND -[op]-> FIRST;
-		del_edge cc_rel;
-		add_edge AND -[op]-> LAST;
 	}
 }
 
@@ -256,7 +254,7 @@ rule add_concept{
 %when we have a passive subject, e.g. "the cat was chased"
 rule pred_nsubjpass(lex from "lexicons/subcat/test_lexicon.lp"){
 	pattern {
-		GOV[lemma=lex.lemma, arg1=patient|theme];
+		GOV[lemma=lex.lemma, arg1=patient|theme|patient1];
 		nsubjpass_rel: GOV -[nsubj:pass]-> NSUBJPASS;
 	}
 	commands {
@@ -268,7 +266,7 @@ rule pred_nsubjpass(lex from "lexicons/subcat/test_lexicon.lp"){
 %when we have a passive subject and an object or obl:agent, e.g. "the cat was chased by the dog"
 rule pred_nsubjpass_obj(lex from "lexicons/subcat/test_lexicon.lp"){
 	pattern {
-		GOV[lemma=lex.lemma, arg0=agent|actor|cause|stimulus, arg1=patient|theme];
+		GOV[lemma=lex.lemma, arg0=agent|actor|cause|stimulus|actor1, arg1=patient|theme|patient1];
 		nsubjpass_rel: GOV -[nsubj:pass]-> NSUBJPASS;
 		obj_or_obl_rel: GOV -[obj|obl:agent]-> OBJ
 	}
@@ -293,7 +291,7 @@ rule remove_aux_pass {
 %find a GOV which has an nsubj and an ccomp and transform the ccomp to the corresponding ARG for theme of the predicate
 rule pred_nsubj_obj_ccomp_arg0_arg1_arg2(lex from "lexicons/subcat/test_lexicon.lp"){
 	pattern {
-		GOV [lemma=lex.lemma, arg0=agent|actor|cause|stimulus, arg1=patient, arg2=theme];
+		GOV [lemma=lex.lemma, arg0=agent|actor|cause|stimulus|actor1, arg1=patient|patient1, arg2=theme];
 		nsubj_rel: GOV -[nsubj]-> NSUBJ;
 		ccomp_rel: GOV -[ccomp]-> CCOMP;
 		obj_rel: GOV -[obj]-> OBJ;
@@ -311,7 +309,7 @@ rule pred_nsubj_obj_ccomp_arg0_arg1_arg2(lex from "lexicons/subcat/test_lexicon.
 %find a GOV which has an nsubj and an ccomp and transform the ccomp to the corresponding ARG for theme of the predicate
 rule pred_nsubj_ccomp_arg0_arg1(lex from "lexicons/subcat/test_lexicon.lp"){
 	pattern {
-		GOV [lemma=lex.lemma, arg0=agent|actor|cause|stimulus, arg1=theme];
+		GOV [lemma=lex.lemma, arg0=agent|actor|cause|stimulus|actor1, arg1=theme];
 		nsubj_rel: GOV -[nsubj]-> NSUBJ;
 		ccomp_rel: GOV -[ccomp]-> CCOMP;
 	}
@@ -326,7 +324,7 @@ rule pred_nsubj_ccomp_arg0_arg1(lex from "lexicons/subcat/test_lexicon.lp"){
 %find a GOV which has an nsubj and an ccomp and transform the ccomp to the corresponding ARG for theme of the predicate
 rule pred_nsubj_ccomp_arg0_arg2(lex from "lexicons/subcat/test_lexicon.lp"){
 	pattern {
-		GOV [lemma=lex.lemma, arg0=agent|actor|cause|stimulus, arg1=theme];
+		GOV [lemma=lex.lemma, arg0=agent|actor|cause|stimulus|actor1, arg1=theme];
 		nsubj_rel: GOV -[nsubj]-> NSUBJ;
 		ccomp_rel: GOV -[ccomp]-> CCOMP;
 	}
@@ -381,5 +379,39 @@ rule without_to_polarity {
 		del_edge rel;
 		add_edge GOV -[polarity]-> DEP;
 		DEP.concept="-";
+	}
+}
+
+%predicate with an nsubj, an obj or ccomp (without lemma "be") and an obl, which has a case ("they gave the toys to the children")
+rule pred_nsubj_obj_obl_case(lex from "lexicons/subcat/test_lexicon.lp"){
+	pattern {
+		GOV[lemma=lex.lemma, arg0=agent|actor|actor1|cause|stimulus, arg1=topic|theme, arg2=recipient|theme];
+		nsubj_rel: GOV -[nsubj]-> NSUBJ;
+		obj_rel: GOV -[obj|ccomp]-> OBJ;
+		obl_rel: GOV -[obl]-> OBL;
+		case_rel: OBL -[case]-> CASE;
+	}
+	without {
+		GOV[lemma="be"];
+	}
+	commands {
+		del_edge nsubj_rel;
+		add_edge GOV -[ARG0]-> NSUBJ;
+		del_edge obj_rel;
+		add_edge GOV -[ARG1]-> OBJ;
+		del_edge obl_rel;
+		add_edge GOV -[ARG2]-> OBL;
+		del_node CASE;
+	}
+}
+
+%only one cc
+rule only_one_cc {
+	pattern {
+		cc_rel: GOV -[cc]-> DEP;
+	}
+	commands {
+		del_edge cc_rel;
+		add_edge DEP -[op1]-> GOV;
 	}
 }

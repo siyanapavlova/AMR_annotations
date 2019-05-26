@@ -15,6 +15,7 @@ def run_pipeline(load_path, save_path, filename, gold_amr):
 	# run a simple GRS 
 	grs_filename = './grs/grs_amr_main.grs' 
 
+	amr_graph_to_text.amr_grew_to_text(ud_graph)
 
 	# generate the graph(s) from the application of the grs in grs_filename
 	print("Currently at " + filename)
@@ -60,9 +61,9 @@ if __name__=="__main__":
 	# sentence_nums = [59, 276, 430, 523, 778, 799, 887, 1166, 1245, 1426]
 	# sentence_nums = [347]
 
-	sentence_nums = list(range(1,121))
+	# sentence_nums = list(range(1,121))
 	# sentence_nums = list(range(1,15))
-	# sentence_nums = [59]
+	sentence_nums = [32]
 	# sentence_nums = [104]
 
 	# sentence_nums = list(range(1,1563))

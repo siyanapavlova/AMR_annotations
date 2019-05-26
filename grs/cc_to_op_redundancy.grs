@@ -1,0 +1,212 @@
+% If there are a cc and a conj relations but no middle relations (only two members in a conjuction)
+% then transform both the first and last element in :op; and the parent relation of the first element in the conjunction goes to the conjunct word ("and", "or"...)
+
+
+rule cc_to_op_nsubj{
+	pattern{
+		cc_rel: FIRST -[cc]-> AND;
+		conj_rel: LAST -[conj]-> FIRST;
+		parent_of_last: PARENT -[nsubj]-> LAST;
+	}
+	without{
+		LAST -[conj]-> MID;
+	}
+	commands{
+		del_edge conj_rel;
+		add_edge AND -[op]-> FIRST;
+		del_edge cc_rel;
+		add_edge AND -[op]-> LAST;
+		del_edge parent_of_last;
+		add_edge PARENT -[nsubj]-> AND;
+	}
+}
+
+rule cc_to_op_obj{
+	pattern{
+		cc_rel: FIRST -[cc]-> AND;
+		conj_rel: LAST -[conj]-> FIRST;
+		parent_of_last: PARENT -[obj]-> LAST;
+	}
+	without{
+		LAST -[conj]-> MID;
+	}
+	commands{
+		del_edge conj_rel;
+		add_edge AND -[op]-> FIRST;
+		del_edge cc_rel;
+		add_edge AND -[op]-> LAST;
+		del_edge parent_of_last;
+		add_edge PARENT -[obj]-> AND;
+	}
+}
+
+rule cc_to_op_obl{
+	pattern{
+		cc_rel: FIRST -[cc]-> AND;
+		conj_rel: LAST -[conj]-> FIRST;
+		parent_of_last: PARENT -[obl]-> LAST;
+	}
+	without{
+		LAST -[conj]-> MID;
+	}
+	commands{
+		del_edge conj_rel;
+		add_edge AND -[op]-> FIRST;
+		del_edge cc_rel;
+		add_edge AND -[op]-> LAST;
+		del_edge parent_of_last;
+		add_edge PARENT -[obl]-> AND;
+	}
+}
+
+rule cc_to_op_ccomp{
+	pattern{
+		cc_rel: FIRST -[cc]-> AND;
+		conj_rel: LAST -[conj]-> FIRST;
+		parent_of_last: PARENT -[ccomp]-> LAST;
+	}
+	without{
+		LAST -[conj]-> MID;
+	}
+	commands{
+		del_edge conj_rel;
+		add_edge AND -[op]-> FIRST;
+		del_edge cc_rel;
+		add_edge AND -[op]-> LAST;
+		del_edge parent_of_last;
+		add_edge PARENT -[ccomp]-> AND;
+	}
+}
+
+rule cc_to_op_xcomp{
+	pattern{
+		cc_rel: FIRST -[cc]-> AND;
+		conj_rel: LAST -[conj]-> FIRST;
+		parent_of_last: PARENT -[xcomp]-> LAST;
+	}
+	without{
+		LAST -[conj]-> MID;
+	}
+	commands{
+		del_edge conj_rel;
+		add_edge AND -[op]-> FIRST;
+		del_edge cc_rel;
+		add_edge AND -[op]-> LAST;
+		del_edge parent_of_last;
+		add_edge PARENT -[xcomp]-> AND;
+	}
+}
+
+rule cc_to_op_advcl{
+	pattern{
+		cc_rel: FIRST -[cc]-> AND;
+		conj_rel: LAST -[conj]-> FIRST;
+		parent_of_last: PARENT -[advcl]-> LAST;
+	}
+	without{
+		LAST -[conj]-> MID;
+	}
+	commands{
+		del_edge conj_rel;
+		add_edge AND -[op]-> FIRST;
+		del_edge cc_rel;
+		add_edge AND -[op]-> LAST;
+		del_edge parent_of_last;
+		add_edge PARENT -[advcl]-> AND;
+	}
+}
+
+rule cc_to_op_amod{
+	pattern{
+		cc_rel: FIRST -[cc]-> AND;
+		conj_rel: LAST -[conj]-> FIRST;
+		parent_of_last: PARENT -[amod]-> LAST;
+	}
+	without{
+		LAST -[conj]-> MID;
+	}
+	commands{
+		del_edge conj_rel;
+		add_edge AND -[op]-> FIRST;
+		del_edge cc_rel;
+		add_edge AND -[op]-> LAST;
+		del_edge parent_of_last;
+		add_edge PARENT -[amod]-> AND;
+	}
+}
+
+rule cc_to_op_appos{
+	pattern{
+		cc_rel: FIRST -[cc]-> AND;
+		conj_rel: LAST -[conj]-> FIRST;
+		parent_of_last: PARENT -[appos]-> LAST;
+	}
+	without{
+		LAST -[conj]-> MID;
+	}
+	commands{
+		del_edge conj_rel;
+		add_edge AND -[op]-> FIRST;
+		del_edge cc_rel;
+		add_edge AND -[op]-> LAST;
+		del_edge parent_of_last;
+		add_edge PARENT -[appos]-> AND;
+	}
+}
+
+rule cc_to_op_acl{
+	pattern{
+		cc_rel: FIRST -[cc]-> AND;
+		conj_rel: LAST -[conj]-> FIRST;
+		parent_of_last: PARENT -[acl]-> LAST;
+	}
+	without{
+		LAST -[conj]-> MID;
+	}
+	commands{
+		del_edge conj_rel;
+		add_edge AND -[op]-> FIRST;
+		del_edge cc_rel;
+		add_edge AND -[op]-> LAST;
+		del_edge parent_of_last;
+		add_edge PARENT -[acl]-> AND;
+	}
+}
+
+rule cc_to_op_compound{
+	pattern{
+		cc_rel: FIRST -[cc]-> AND;
+		conj_rel: LAST -[conj]-> FIRST;
+		parent_of_last: PARENT -[compound]-> LAST;
+	}
+	without{
+		LAST -[conj]-> MID;
+	}
+	commands{
+		del_edge conj_rel;
+		add_edge AND -[op]-> FIRST;
+		del_edge cc_rel;
+		add_edge AND -[op]-> LAST;
+		del_edge parent_of_last;
+		add_edge PARENT -[compound]-> AND;
+	}
+}
+
+rule cc_to_op_parataxis{
+	pattern{
+		cc_rel: FIRST -[cc]-> AND;
+		conj_rel: LAST -[conj]-> FIRST;
+		parent_of_last: PARENT -[parataxis]-> LAST;
+	}
+	without{
+		LAST -[conj]-> MID;
+	}
+	commands{
+		del_edge conj_rel;
+		add_edge AND -[op]-> FIRST;
+		del_edge cc_rel;
+		add_edge AND -[op]-> LAST;
+		del_edge parent_of_last;
+		add_edge PARENT -[parataxis]-> AND;
+	}
+}

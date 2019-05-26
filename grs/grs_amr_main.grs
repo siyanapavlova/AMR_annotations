@@ -1,6 +1,7 @@
 include "core_roles.grs"
 include "non_core_roles.grs"
 include "remove_punct_safe.grs"
+include "cc_to_op_redundancy.grs"
 
 strat simplest {
   Seq (
@@ -65,6 +66,22 @@ strat remove_punct_safe_strat {
   )
 }
 
+strat cc_to_op{
+  Seq (
+    Iter(cc_to_op_nsubj),
+    Iter(cc_to_op_obj),
+    Iter(cc_to_op_obl),
+    Iter(cc_to_op_ccomp),
+    Iter(cc_to_op_xcomp),
+    Iter(cc_to_op_advcl),
+    Iter(cc_to_op_amod),
+    Iter(cc_to_op_appos),
+    Iter(cc_to_op_acl),
+    Iter(cc_to_op_compound),
+    Iter(cc_to_op_parataxis),
+  )
+}
+
 strat clean {
   Seq (
     %Iter(remove_punct_safe),
@@ -110,6 +127,13 @@ strat non_core_new_lex{
   )
 }
 
+strat add_conc {
+  Seq (
+    Iter(add_root_concept),
+    Onf(add_concept),
+  )
+}
+
 strat test_new_lex {
   Seq (
     %clean,
@@ -117,13 +141,18 @@ strat test_new_lex {
     prepare_predicates,
     Iter(det_as_pers_pron),
     Iter(det_as_all),
+    Iter (nmod),
 
     %Iter(pred_nsubj_obj_ccomp_arg0_arg1_arg2),
     %Iter(pred_nsubj_ccomp_arg0_arg1),
     %Iter(pred_nsubj_ccomp_arg0_arg2),
     
+    Iter(pred_nsubj_obj_obl_case),
     Iter(pred_nsubj_obj_iobj),
     Iter(pred_nsubj_obj),
+
+    %Iter(ccomp_verbadv_notcop),
+
     Iter(pred_nsubj_new_lex),
     Iter(pred_obj_arg1),
     Iter(pred_obj_arg2),
@@ -132,14 +161,13 @@ strat test_new_lex {
     Iter(pred_nsubjpass_obj),
     Iter(pred_nsubjpass),
 
-    Iter(ccomp_verbadv_notcop),
 
     Iter(noun_amod),
 
+    Iter(remove_extra_cc_grandchildren),
     Iter(cc_to_op_morethan2),
     Iter(cc_to_op),
-
-    Iter (nmod),
+    %Iter(only_one_cc),
 
     Iter(advmod_as_not_to_polarity),
     Iter(without_to_polarity),
