@@ -80,25 +80,35 @@ def built_dict(text, dictionary):
 
 
 		# 1. find roles: 
-		roles = re.findall(":[a-zA-Z]+", line)
+		roles = re.findall(r":[a-zA-Z0-9]+\-of?\s+", line) # todo: figure out how to catch those with -of without losing the ones without
 		# 2. find variables:
-		variables = re.findall("\([a-z][1-9]* /", line)
+		variables = re.findall(r"\([a-z][1-9]* / ", line)
 		# 3. find concepts: 
 		concepts = []
+		_previous_conc = None
 		while len(roles) >0 or len(variables) >0:
 			if len(roles) > 0: _role = roles.pop(0)
 			if len(variables) > 0: _variable = variables.pop(0)
 				# splits with a string results in a list 
 				line = [i for i in line.split(_role) if i !='']
 				line = [i for i in line.split(_variable) if i !='']
-				_concept = re.match(r'\s*[a-z]+\-*[0-9]*', line")
+				_concept = re.match(r'\s*[a-z]+\-*[a-z0-9]*', line")
 				line = line.split(_concept)[1]
 
 				# to do: check that concept not already in the dict
 				# if not, then add concept to the dict
-		 		graph[str(len(graph)+1)] = [{"concept": _concept, 
-				 							"variable": _variable},
-											 [(_role:)]]
+
+				# case 1: root concept 
+
+				# case 2: not root, has arg and closing 
+
+				# case 3: not root, has arg and not closing 
+				if _concept != None:
+					graph[str(len(graph)+1)] = [{"concept": _concept, 
+												"variable": _variable},
+												[]]
+				# to do: how are we tracking relations? 
+				else: 
 		bracket_counter -= len(re.findall("\)",line)) 
 
 

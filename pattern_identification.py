@@ -1,5 +1,5 @@
 import grew
-import pprint, ud_to_amr, text_to_grew, glob
+import pprint, ud_to_amr, glob #, text_to_grew
 import numpy as np
 from itertools import combinations 
 import networkx as nx
@@ -143,47 +143,63 @@ def _get_nxsubgraphs_largeststepsize(allsentences_graphs, sentences_by_amr_relat
 	'''
 	sentence_nums = sentences_by_amr_relations[amr_relation]
 	nxsubgraphs = [] 	#init an empty list to store the SGs
+	nxsubgraphs_maxdepth = [] # init an empty list to store the max depths of the subgraphs
 
-	largest_stepsize = max(stepsizerange)
+	largest_stepsize = max(stepsizerange) 
 
 	for sentence_num in sentence_nums: #iterate through the keys of the nx_graphs
 		sent_nxgraph = allsentences_graphs[sentence_num].ud_nxgraph # saving it to the ud_nxgraph attribute of the Sentence() obj
 		ud_present_tokenlist = _map_lemma_udgrew_amrgrew(allsentences_graphs[sentence_num].amr_grewgraph,
 											 allsentences_graphs[sentence_num].ud_grewgraph, amr_relation)[1]
 		for token_num in ud_present_tokenlist: 
-			subgraph_nodes = []
-			__children_nodes = sent_nxgraph.successors(token_num) #get its children
-			subgraph_nodes.extend(__children_nodes)
+			subgraph_nodes = set()
+			max_depth = 0
+			__children_nodes = [i for i in sent_nxgraph.successors(token_num)] # get its children
+			subgraph_nodes.update(__children_nodes)
 			while largest_stepsize > 0:
 				__ = [sent_nxgraph.successors(node) for node in __children_nodes]
-				__children_nodes = [item for sublist in __ for item in sublist] # flatten the list and update __children_nodes
-				subgraph_nodes.extend(__children_nodes)
-				largest_stepsize -= 1 # decrement the counter
-
-			subgraph_nodes.append(token_num) # include the "root" parent
+				__grandchildren_nodes = [item for sublist in __ for item in sublist] # flatten the list 
+				# check that the returned number of grandchildren nodes !=  num of children nodes
+				# if so, that means we've reached the max depth of the graph. if not, continue
+				if len(__children_nodes) != len(__grandchildren_nodes):
+					print(__grandchildren_nodes)
+					subgraph_nodes.update(__grandchildren_nodes)
+					__children_nodes =  __grandchildren_nodes # update __children_nodes
+					largest_stepsize -= 1 # decrement the counter for the remaining steps 
+					max_depth += 1 # increment the counter tracking the max_depth of the subgraph 
+				else: # if no new grandchildren nodes have been discovered in the last step. break the while loop 
+					break
+				
+			subgraph_nodes.update(token_num) # include the "root" parent
 
 			# get the subgraph with the final subgraph_nodes, and add to nxsubgraphs
 			nxsubgraphs.append(sent_nxgraph.subgraph(subgraph_nodes)) 
+			# add the max depth of the subgraph to the list. helps us with _trim_nxsubgraph_leaves
+			nxsubgraphs_maxdepth.append( max_depth )
     
-	return nxsubgraphs
+	return nxsubgraphs, nxsubgraphs_maxdepth
 
 
-def _trim_nxsubgraph_leaves(nxsubgraphs):
+def _trim_nxsubgraph_leaves(nxsubgraphs, nxsubgraphs_maxdepth, stepsize):
 	'''
 	takes an iterable of nxsubgraphs, and for each nxsubgraph, do the following:
 	1. find all nodes that have out degree of less than 1 (i.e. 0). These are the leaf nodes
 	2. remove these leaf nodes 
 	'''
 	trimmed_nxsubgraphs = [] # empty list to store the trimmed subgraphs 
-	for nxsubgraph in nxsubgraphs:
-		# the next line searches for nodes in the nxsubgraph that has degree less than 1
-		# the .out_degree method returns a tuple (1st element is the node num, 2nd element is the out degree of that node)
-		leaf_nodes = [nodedata[0] for nodedata in nxsubgraph.out_degree if nodedata[1]<1]
-		# outputs of nx methods are FrozenGraphs. each nxsubgraph here is an output of _get_nxsubgraphs_largeststepsize
-		# therefore frozen. creating a new DiGraph instance effectively unfreezes it 
-		_nxsubgraph = nx.DiGraph(nxsubgraph)
-		_nxsubgraph.remove_nodes_from(leaf_nodes) 
-		trimmed_nxsubgraphs.append(_nxsubgraph)
+	for nxsubgraph_num in range(len(nxsubgraphs)):
+		nxsubgraph = nxsubgraphs[nxsubgraph_num]
+		if nxsubgraphs_maxdepth[nxsubgraph_num] > stepsize: # check if depth of input graph is larger than current stepsize 
+			# the next line searches for nodes in the nxsubgraph that has degree less than 1
+			# the .out_degree method returns a tuple (1st element is the node num, 2nd element is the out degree of that node)
+			leaf_nodes = [nodedata[0] for nodedata in nxsubgraph.out_degree if nodedata[1]<1]
+			# outputs of nx methods are FrozenGraphs. each nxsubgraph here is an output of _get_nxsubgraphs_largeststepsize
+			# therefore frozen. creating a new DiGraph instance effectively unfreezes it 
+			_nxsubgraph = nx.DiGraph(nxsubgraph)
+			_nxsubgraph.remove_nodes_from(leaf_nodes) 
+			trimmed_nxsubgraphs.append(_nxsubgraph)
+		else: # if depth of input graph smaller than current stepsize, skip the trimming
+			trimmed_nxsubgraphs.append(nxsubgraph)
 
 	return trimmed_nxsubgraphs
 
@@ -210,7 +226,7 @@ def _compute_affinity(nxsubgraphs_list, node_match, edge_match):
 
 ########## Clustering functions - at AMR relation, subgraph stepsize level ##########
 
-def iterate_stepsizes(nxsubgraphs, stepsizerange, n_range, _fit_cluster, node_match, 
+def iterate_stepsizes(nxsubgraphs, nxsubgraphs_maxdepth, stepsizerange, n_range, _fit_cluster, node_match, 
 						edge_match, cluster_algo="spectral", 
 						using_affinmatrix = False, affinity="cosine", agglo_link="complete"):
 	'''
@@ -226,7 +242,8 @@ def iterate_stepsizes(nxsubgraphs, stepsizerange, n_range, _fit_cluster, node_ma
 			print(X)
 			
 		else: 
-			nxsubgraphs = _trim_nxsubgraph_leaves(nxsubgraphs)
+			stepsize = min(stepsizerange) + iteration
+			nxsubgraphs = _trim_nxsubgraph_leaves(nxsubgraphs, nxsubgraphs_maxdepth, stepsize)
 			X = _compute_affinity(nxsubgraphs, node_match, edge_match)
 			print(X)
 
@@ -363,10 +380,11 @@ if __name__ == "__main__":
 
 	sentences_by_amr_relations = _sentences_by_amr_relations([allsentences_graphs[i].amr_grewgraph for i in allsentences_graphs], 
 	["nsubj", "obl"])
-	nxsubgraphs = _get_nxsubgraphs_largeststepsize(allsentences_graphs, sentences_by_amr_relations, "nsubj", (2,9))
-	print("test _get_nxsubgraphs_largeststepsize", [nxsubgraph.nodes() for nxsubgraph in nxsubgraphs], "\n")
+	nxsubgraphs, nxsubgraphs_maxdepth = _get_nxsubgraphs_largeststepsize(allsentences_graphs, sentences_by_amr_relations, "nsubj", (2,9))
+	print("test _get_nxsubgraphs_largeststepsize | nxsubgraphs", [nxsubgraph.nodes() for nxsubgraph in nxsubgraphs])
+	print("test _get_nxsubgraphs_largeststepsize | maxdepth", nxsubgraphs_maxdepth, "\n")
 
-	trimmed_nxsubgraphs = _trim_nxsubgraph_leaves(nxsubgraphs)
+	trimmed_nxsubgraphs = _trim_nxsubgraph_leaves(nxsubgraphs, nxsubgraphs_maxdepth, 5)
 	print ("test _trim_nxsubgraph_leaves", [trimmed_nxsubgraph.nodes() for trimmed_nxsubgraph in trimmed_nxsubgraphs], "\n")
 
 	node_match = iso.categorical_node_match('upos', UD_POS)
@@ -374,7 +392,7 @@ if __name__ == "__main__":
 	affinity_matrix = _compute_affinity(nxsubgraphs, node_match, edge_match)
 	print ("test _compute_affinity", affinity_matrix, "\n")
 
-	model_scores = iterate_stepsizes(nxsubgraphs, range(1,3), range(1,4), _fit_cluster, node_match, edge_match, 
+	model_scores = iterate_stepsizes(nxsubgraphs, nxsubgraphs_maxdepth, range(1,3), range(1,4), _fit_cluster, node_match, edge_match, 
 							cluster_algo="spectral", using_affinmatrix = False, 
 							affinity="cosine", agglo_link="complete")
 	print(model_scores)
