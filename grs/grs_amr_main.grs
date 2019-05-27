@@ -3,6 +3,7 @@ include "non_core_roles.grs"
 include "remove_punct_safe.grs"
 include "cc_to_op_redundancy.grs"
 include "core_roles_xcomp.grs"
+include "core_roles_acl.grs"
 
 strat simplest {
   Seq (
@@ -104,16 +105,15 @@ strat prepare_predicates {
 
 strat non_core_new_lex{
   Seq(
-    Iter(compound_to_mod_for_nouns),
-    Iter(appos_to_mod),
+    %Iter(compound_to_mod_for_nouns),
+    %Iter(appos_to_mod),
 
-    Iter(verb_nominal_nummod_nsubj),
-    Iter(verb_nominal_nummod_obj),
-    Iter(advcl_manner),
+    %Iter(verb_nominal_nummod_nsubj),
+    %Iter(verb_nominal_nummod_obj),
+    %Iter(advcl_manner),
 
 
     Iter(obl_npmod_to_obl),
-    Iter(acl_relcl_to_acl),
     Iter(nsubj_pass_to_nsubj),
     Iter(compound_part_to_compound),
     Iter(det_predet_to_det),
@@ -124,8 +124,8 @@ strat non_core_new_lex{
     %Iter(compound_find_join),
     %Iter(compoundpart_find_join),
 
-    Iter(obl_nosubtag_temporal),
-    Iter(obl_nosubtag_locational),
+    %Iter(obl_nosubtag_temporal),
+    %Iter(obl_nosubtag_locational),
   )
 }
 
@@ -179,9 +179,13 @@ strat test_new_lex {
     Iter(det_as_pers_pron),
     Iter(det_as_all),
     Iter (nmod),
-    Iter (parataxis_outgoing_to_ccomp),
-    Iter (parataxis_incoming_to_ccomp),
-    Iter (ccomp_with_mark),
+	Iter(acl_relcl_nomtoarg0),
+	Iter(acl_relcl_nomtoarg1),
+	Iter(acl_relcl_nomtoarg0_poss), 
+	Iter(acl_relcl_nomtoarg1_poss),
+    %Iter (parataxis_outgoing_to_ccomp),
+    %Iter (parataxis_incoming_to_ccomp),
+    %Iter (ccomp_with_mark),
 
     %Iter(xcomp_strat), % run package above to handle xcomp
 
@@ -189,30 +193,30 @@ strat test_new_lex {
     %Iter(pred_nsubj_ccomp_arg0_arg1),
     %Iter(pred_nsubj_ccomp_arg0_arg2),
     
-    Iter(pred_nsubj_obj_obl_case),
-    Iter(pred_nsubj_obj_iobj),
-    Iter(pred_nsubj_obj),
+    %Iter(pred_nsubj_obj_obl_case),
+    %Iter(pred_nsubj_obj_iobj),
+    %Iter(pred_nsubj_obj),
 
-    Iter(ccomp_verbadv_notcop),
+    %Iter(ccomp_verbadv_notcop),
 
-    Iter(pred_nsubj_new_lex),
-    Iter(pred_obj_arg1),
-    Iter(pred_obj_arg2),
+    %Iter(pred_nsubj_new_lex),
+    %Iter(pred_obj_arg1),
+    %Iter(pred_obj_arg2),
 
-    Iter(remove_aux_pass),
-    Iter(pred_nsubjpass_obj),
-    Iter(pred_nsubjpass),
+    %Iter(remove_aux_pass),
+    %Iter(pred_nsubjpass_obj),
+    %Iter(pred_nsubjpass),
 
 
-    Iter(noun_amod),
+    %Iter(noun_amod),
 
-    Iter(remove_extra_cc_grandchildren),
-    Iter(cc_to_op_morethan2),
-    Iter(cc_to_op),
+    %Iter(remove_extra_cc_grandchildren),
+    %Iter(cc_to_op_morethan2),
+    %Iter(cc_to_op),
     %Iter(only_one_cc),
 
-    Iter(advmod_as_not_to_polarity),
-    Iter(without_to_polarity),
+    %Iter(advmod_as_not_to_polarity),
+    %Iter(without_to_polarity),
 
     non_core_new_lex,
 

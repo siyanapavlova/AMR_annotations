@@ -1,0 +1,77 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% This set of rules only addresses the acl relation with the relcl subtag. 
+% It assumes that the GRS rule to transform nummod:poss to poss has been applied
+
+% The rules here handle the rewriting of the acl:relcl relation to AMR's ARG0 and ARG1 relations only,  
+% higher-numbered ARGs are expected to be filled by participants that have been marked syntactically with obl
+% for e.g. I saw the man who slapped you with a hammer. ARG2 of slap will be filled by "hammer" from "with 
+% a hammer.  
+
+%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% An adjectival relative clause that modifies a nominal. 
+rule acl_relcl_nomtoarg0(lex from "lexicons/subcat/test_lexicon.lp"){
+	pattern{
+		acl_rel: 		GOV -[acl:relcl]-> DEP; 
+		relpron_rel: 	DEP -[nsubj]-> DEPDEP_relpron;
+		DEP[concept = lex.concept]; 
+		DEPDEP_relpron[lemma="who"|"which"|"that"];
+	}  % the relative pronoun is a subject. 
+	commands{
+		del_edge acl_rel;
+		del_node DEPDEP_relpron;
+		add_edge GOV -[ARG0-of]-> DEP;
+	} 
+} 
+
+% An adjectival relative clause that modifies a nominal. 
+rule acl_relcl_nomtoarg1(lex from "lexicons/subcat/test_lexicon.lp"){
+	pattern{
+		acl_rel: 		GOV -[acl:relcl]-> DEP; 
+		relpron_rel: 	DEP -[obj|iobj]-> DEPDEP_relpron;
+		DEP[concept = lex.concept]; 
+		DEPDEP_relpron[lemma="who"|"which"|"that"];
+	}  % the relative pronoun is an object or an indirect object. 
+	commands{
+		del_edge acl_rel;
+		del_node DEPDEP_relpron;
+		add_edge GOV -[ARG1-of]-> DEP;
+	} 
+} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% An adjectival relative clause that modifies a nominal. 
+rule acl_relcl_nomtoarg0_poss(lex from "lexicons/subcat/test_lexicon.lp"){
+	pattern{
+		acl_rel: 		GOV -[acl:relcl]-> DEP; 
+		relpron_rel: 	DEP -[nsubj]-> DEPDEP_relpron;
+		DEP[concept = lex.concept]; 
+		DEPDEP_relpron[lemma="whose"];
+	}  % the relative pronoun is a subject. 
+	commands{
+		del_edge acl_rel;
+		del_edge relpron_rel;
+		add_edge DEPDEP_relpron -[poss]-> GOV; 
+		add_edge GOV -[ARG0-of]-> DEP;
+	} 
+} 
+
+% An adjectival relative clause that modifies a nominal. 
+rule acl_relcl_nomtoarg1_poss(lex from "lexicons/subcat/test_lexicon.lp"){
+	pattern{
+		acl_rel: 		GOV -[acl:relcl]-> DEP; 
+		relpron_rel: 	DEP -[obj|iobj]-> DEPDEP_relpron;
+		DEP[concept = lex.concept]; 
+		DEPDEP_relpron[lemma="whose"];
+	}  % the relative pronoun is an object or an indirect object. 
+	commands{
+		del_edge acl_rel;
+		del_edge relpron_rel;
+		add_edge DEPDEP_relpron -[poss]-> GOV; 
+		add_edge GOV -[ARG1-of]-> DEP;
+	} 
+} 

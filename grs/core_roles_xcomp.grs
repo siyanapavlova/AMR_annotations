@@ -7,7 +7,7 @@ rule xcomp_normal_arg0obj_govarg0(lex from "lexicons/subcat/test_lexicon.lp"){
 		xcomp_rel: GOV -[xcomp]-> DEP; 
 		DEP[upos=VERB|ADJ, concept = lex.concept, arg0=patient|attribute|beneficiary|patient1|patient2|experiencer|material]; 
 		GOV -[obj]-> GOV_OBJ;
-	} % DEP is in the lexicon and has a actor-type role in arg0. 
+	} % DEP is in the lexicon and has a patient-type role in arg0. 
 	without{
 		DEP -[nsubj|csubj]-> DEP_DEP;
 		GOV[concept = lex.concept, arg0=agent|actor|actor1|actor2|cause|stimulus];
