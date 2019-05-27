@@ -105,6 +105,7 @@ strat prepare_predicates {
 strat non_core_new_lex{
   Seq(
     Iter(compound_to_mod_for_nouns),
+    Iter(appos_to_mod),
 
     Iter(verb_nominal_nummod_nsubj),
     Iter(verb_nominal_nummod_obj),
@@ -178,7 +179,11 @@ strat test_new_lex {
     Iter(det_as_pers_pron),
     Iter(det_as_all),
     Iter (nmod),
-	Iter(xcomp_strat), % run package above to handle xcomp
+    Iter (parataxis_outgoing_to_ccomp),
+    Iter (parataxis_incoming_to_ccomp),
+    Iter (ccomp_with_mark),
+
+    %Iter(xcomp_strat), % run package above to handle xcomp
 
     %Iter(pred_nsubj_obj_ccomp_arg0_arg1_arg2),
     %Iter(pred_nsubj_ccomp_arg0_arg1),
@@ -188,7 +193,7 @@ strat test_new_lex {
     Iter(pred_nsubj_obj_iobj),
     Iter(pred_nsubj_obj),
 
-    %Iter(ccomp_verbadv_notcop),
+    Iter(ccomp_verbadv_notcop),
 
     Iter(pred_nsubj_new_lex),
     Iter(pred_obj_arg1),

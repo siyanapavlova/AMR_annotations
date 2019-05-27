@@ -245,14 +245,50 @@ rule nmod_npmod_to_nmod{
 % End of rewriting for exceptions
 
 
-%compound nouns - transform the :compound relation to :mod, but only when the GOV is a noun
-rule  compound_to_mod_for_nouns{
+%compound nouns - transform the :compound or :appos relation to :mod, but only when the GOV is a noun
+rule compound_to_mod_for_nouns{
 	pattern {
 		GOV [upos=NOUN];
-		compound_rel: GOV -[compound]-> DEP;
+		compound_rel: GOV -[compound|appos]-> DEP;
 	}
 	commands {
 		del_edge compound_rel;
 		add_edge GOV -[mod]-> DEP;
+	}
+}
+
+%transform the :appos relation to :mod, but only when the GOV is a noun, a proper noun or a pronoun
+rule appos_to_mod{
+	pattern {
+		GOV [upos=NOUN|PROPN|PRON];
+		appos_rel: GOV -[appos]-> DEP;
+	}
+	commands {
+		del_edge appos_rel;
+		add_edge GOV -[mod]-> DEP;
+	}
+}
+
+%parataxis for reported speech to ccomp (e.g. John said: "The guy left early this morning"); may confuse things for interjected clauses
+rule parataxis_outgoing_to_ccomp {
+	pattern {
+		parataxis_rel: GOV -[parataxis]-> PARATAXIS;
+		GOV -[nsubj]-> NSUBJ;
+	}
+	commands {
+		del_edge parataxis_rel;
+		add_edge GOV -[ccomp]-> PARATAXIS;
+	}
+}
+
+%parataxis for reported speech to ccomp (e.g. The guy, John said, left early this morning); may confuse things for interjected clauses
+rule parataxis_incoming_to_ccomp {
+	pattern {
+		parataxis_rel: PARATAXIS -[parataxis]-> GOV;
+		GOV -[nsubj]-> NSUBJ;
+	}
+	commands {
+		del_edge parataxis_rel;
+		add_edge GOV -[ccomp]-> PARATAXIS;
 	}
 }

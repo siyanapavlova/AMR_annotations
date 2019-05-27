@@ -143,10 +143,10 @@ rule remove_det{
 	}
 }
 
-%If DET's lemma is "all" or "some", make it a :mod
+%If DET's lemma is "all", "some" or "any", make it a :mod
 rule det_as_all{
 	pattern{
-		D[cat=DET, lemma="all"|"some"];
+		D[cat=DET, lemma="all"|"some"|"any"];
 		det_rel: X -[det]-> D;
 	}
 	commands{
@@ -413,5 +413,17 @@ rule only_one_cc {
 	commands {
 		del_edge cc_rel;
 		add_edge DEP -[op1]-> GOV;
+	}
+}
+
+%if we have a ccomp with a mark "that", then delete the mark
+rule ccomp_with_mark {
+	pattern {
+		%GOV -[ccomp|xcomp|advcl]-> DEP;
+		DEP -[mark]-> MARK;
+		MARK[lemma="that"|"to"];
+	}
+	commands {
+		del_node MARK;
 	}
 }
