@@ -1,3 +1,5 @@
+%Transform possessive pronoun concepts into their respective personal pronouns. This should be a part of the cleanup at the end.
+
 rule poss_as_my {
 	pattern {
 		GOV -[poss]-> DEP;

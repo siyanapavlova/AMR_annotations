@@ -7,6 +7,7 @@ include "contrast_redundancy.grs"
 include "mark_to_non-core.grs"
 include "poss_lemmas.grs"
 include "core_roles_acl.grs"
+include "modal_verbs.grs"
 
 strat simplest {
   Seq (
@@ -135,6 +136,8 @@ strat non_core_new_lex{
     Iter(cc_preconj_to_cc),
     Iter(aux_pass_to_aux),
     Iter(nmod_npmod_to_nmod),
+
+    Iter(acl_relcl_to_acl),
 
     %Iter(compound_find_join),
     %Iter(compoundpart_find_join),
@@ -292,6 +295,7 @@ strat test_new_lex {
     Iter (ccomp_with_mark),
 
     mark_to_non-core,
+    %Iter(add_non-core_possible), %rule not ready yet
 
     %Iter(xcomp_strat), % run package above to handle xcomp
 
@@ -299,30 +303,30 @@ strat test_new_lex {
     %Iter(pred_nsubj_ccomp_arg0_arg1),
     %Iter(pred_nsubj_ccomp_arg0_arg2),
     
-    %Iter(pred_nsubj_obj_obl_case),
-    %Iter(pred_nsubj_obj_iobj),
-    %Iter(pred_nsubj_obj),
+    Iter(pred_nsubj_obj_obl_case),
+    Iter(pred_nsubj_obj_iobj),
+    Iter(pred_nsubj_obj),
 
-    %Iter(ccomp_verbadv_notcop),
+    Iter(ccomp_verbadv_notcop),
 
-    %Iter(pred_nsubj_new_lex),
-    %Iter(pred_obj_arg1),
-    %Iter(pred_obj_arg2),
+    Iter(pred_nsubj_new_lex),
+    Iter(pred_obj_arg1),
+    Iter(pred_obj_arg2),
 
-    %Iter(remove_aux_pass),
-    %Iter(pred_nsubjpass_obj),
-    %Iter(pred_nsubjpass),
+    Iter(remove_aux_pass),
+    Iter(pred_nsubjpass_obj),
+    Iter(pred_nsubjpass),
 
 
-    %Iter(noun_amod),
+    Iter(noun_amod),
 
-    %Iter(remove_extra_cc_grandchildren),
-    %Iter(cc_to_op_morethan2),
-    %Iter(cc_to_op),
-    %Iter(only_one_cc),
+    Iter(remove_extra_cc_grandchildren),
+    Iter(cc_to_op_morethan2),
+    Iter(cc_to_op),
+    Iter(only_one_cc),
 
-    %Iter(advmod_as_not_to_polarity),
-    %Iter(without_to_polarity),
+    Iter(advmod_as_not_to_polarity),
+    Iter(without_to_polarity),
 
     non_core_new_lex,
 

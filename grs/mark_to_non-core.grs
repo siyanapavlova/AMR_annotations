@@ -1,3 +1,4 @@
+%Transform a mark relation with specific lemmas, to the corresponding non-core role. These should go at the beginning, just after the preparation.
 
 rule mark_to_non-core_cause {
 	pattern {

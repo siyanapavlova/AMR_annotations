@@ -1,0 +1,14 @@
+%rule not ready yet
+
+rule add_non-core_possible {
+	pattern {
+		main_rel: GOV -[^aux]-> DEP;
+		DEP -[aux]-> AUX;
+		AUX[lemma="may"|"might"|"can"|"cause"];
+	}
+	commands {
+		del_node AUX;
+		del_edge main_rel;
+		add_edge GOV -[possible]-> DEP;
+	}
+}
