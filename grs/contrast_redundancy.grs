@@ -1,0 +1,1054 @@
+%rules to rewrite "but" to "contrast-01"; redundant because of all the different relations that the grandparent of node "but" can have
+
+rule but_to_contrast_nsubj {
+	pattern {
+		par_rel: PARENT -[nsubj]-> GOV;
+		cc_rel: GOV -[cc]-> BUT;
+		BUT[lemma="but"];
+	}
+	commands {
+		del_edge cc_rel;
+		add_edge BUT -[ARG2]-> GOV;
+		BUT.concept = "contrast-01";
+		del_edge par_rel;
+		add_edge PARENT -[nsubj]-> BUT;
+	}
+}
+
+rule but_to_contrast_obj {
+	pattern {
+		par_rel: PARENT -[obj]-> GOV;
+		cc_rel: GOV -[cc]-> BUT;
+		BUT[lemma="but"];
+	}
+	commands {
+		del_edge cc_rel;
+		add_edge BUT -[ARG2]-> GOV;
+		BUT.concept = "contrast-01";
+		del_edge par_rel;
+		add_edge PARENT -[obj]-> BUT;
+	}
+}
+
+rule but_to_contrast_iobj {
+	pattern {
+		par_rel: PARENT -[iobj]-> GOV;
+		cc_rel: GOV -[cc]-> BUT;
+		BUT[lemma="but"];
+	}
+	commands {
+		del_edge cc_rel;
+		add_edge BUT -[ARG2]-> GOV;
+		BUT.concept = "contrast-01";
+		del_edge par_rel;
+		add_edge PARENT -[iobj]-> BUT;
+	}
+}
+
+rule but_to_contrast_obl {
+	pattern {
+		par_rel: PARENT -[obl]-> GOV;
+		cc_rel: GOV -[cc]-> BUT;
+		BUT[lemma="but"];
+	}
+	commands {
+		del_edge cc_rel;
+		add_edge BUT -[ARG2]-> GOV;
+		BUT.concept = "contrast-01";
+		del_edge par_rel;
+		add_edge PARENT -[obl]-> BUT;
+	}
+}
+
+rule but_to_contrast_vocative {
+	pattern {
+		par_rel: PARENT -[vocative]-> GOV;
+		cc_rel: GOV -[cc]-> BUT;
+		BUT[lemma="but"];
+	}
+	commands {
+		del_edge cc_rel;
+		add_edge BUT -[ARG2]-> GOV;
+		BUT.concept = "contrast-01";
+		del_edge par_rel;
+		add_edge PARENT -[vocative]-> BUT;
+	}
+}
+
+rule but_to_contrast_expl {
+	pattern {
+		par_rel: PARENT -[expl]-> GOV;
+		cc_rel: GOV -[cc]-> BUT;
+		BUT[lemma="but"];
+	}
+	commands {
+		del_edge cc_rel;
+		add_edge BUT -[ARG2]-> GOV;
+		BUT.concept = "contrast-01";
+		del_edge par_rel;
+		add_edge PARENT -[expl]-> BUT;
+	}
+}
+
+rule but_to_contrast_dislocated {
+	pattern {
+		par_rel: PARENT -[dislocated]-> GOV;
+		cc_rel: GOV -[cc]-> BUT;
+		BUT[lemma="but"];
+	}
+	commands {
+		del_edge cc_rel;
+		add_edge BUT -[ARG2]-> GOV;
+		BUT.concept = "contrast-01";
+		del_edge par_rel;
+		add_edge PARENT -[dislocated]-> BUT;
+	}
+}
+
+rule but_to_contrast_nmod {
+	pattern {
+		par_rel: PARENT -[nmod]-> GOV;
+		cc_rel: GOV -[cc]-> BUT;
+		BUT[lemma="but"];
+	}
+	commands {
+		del_edge cc_rel;
+		add_edge BUT -[ARG2]-> GOV;
+		BUT.concept = "contrast-01";
+		del_edge par_rel;
+		add_edge PARENT -[nmod]-> BUT;
+	}
+}
+
+rule but_to_contrast_appos {
+	pattern {
+		par_rel: PARENT -[appos]-> GOV;
+		cc_rel: GOV -[cc]-> BUT;
+		BUT[lemma="but"];
+	}
+	commands {
+		del_edge cc_rel;
+		add_edge BUT -[ARG2]-> GOV;
+		BUT.concept = "contrast-01";
+		del_edge par_rel;
+		add_edge PARENT -[appos]-> BUT;
+	}
+}
+
+rule but_to_contrast_nummod {
+	pattern {
+		par_rel: PARENT -[nummod]-> GOV;
+		cc_rel: GOV -[cc]-> BUT;
+		BUT[lemma="but"];
+	}
+	commands {
+		del_edge cc_rel;
+		add_edge BUT -[ARG2]-> GOV;
+		BUT.concept = "contrast-01";
+		del_edge par_rel;
+		add_edge PARENT -[nummod]-> BUT;
+	}
+}
+
+rule but_to_contrast_csubj {
+	pattern {
+		par_rel: PARENT -[csubj]-> GOV;
+		cc_rel: GOV -[cc]-> BUT;
+		BUT[lemma="but"];
+	}
+	commands {
+		del_edge cc_rel;
+		add_edge BUT -[ARG2]-> GOV;
+		BUT.concept = "contrast-01";
+		del_edge par_rel;
+		add_edge PARENT -[csubj]-> BUT;
+	}
+}
+
+rule but_to_contrast_ccomp {
+	pattern {
+		par_rel: PARENT -[ccomp]-> GOV;
+		cc_rel: GOV -[cc]-> BUT;
+		BUT[lemma="but"];
+	}
+	commands {
+		del_edge cc_rel;
+		add_edge BUT -[ARG2]-> GOV;
+		BUT.concept = "contrast-01";
+		del_edge par_rel;
+		add_edge PARENT -[ccomp]-> BUT;
+	}
+}
+
+rule but_to_contrast_xcomp {
+	pattern {
+		par_rel: PARENT -[xcomp]-> GOV;
+		cc_rel: GOV -[cc]-> BUT;
+		BUT[lemma="but"];
+	}
+	commands {
+		del_edge cc_rel;
+		add_edge BUT -[ARG2]-> GOV;
+		BUT.concept = "contrast-01";
+		del_edge par_rel;
+		add_edge PARENT -[xcomp]-> BUT;
+	}
+}
+
+rule but_to_contrast_advcl {
+	pattern {
+		par_rel: PARENT -[advcl]-> GOV;
+		cc_rel: GOV -[cc]-> BUT;
+		BUT[lemma="but"];
+	}
+	commands {
+		del_edge cc_rel;
+		add_edge BUT -[ARG2]-> GOV;
+		BUT.concept = "contrast-01";
+		del_edge par_rel;
+		add_edge PARENT -[advcl]-> BUT;
+	}
+}
+
+rule but_to_contrast_acl {
+	pattern {
+		par_rel: PARENT -[acl]-> GOV;
+		cc_rel: GOV -[cc]-> BUT;
+		BUT[lemma="but"];
+	}
+	commands {
+		del_edge cc_rel;
+		add_edge BUT -[ARG2]-> GOV;
+		BUT.concept = "contrast-01";
+		del_edge par_rel;
+		add_edge PARENT -[acl]-> BUT;
+	}
+}
+
+rule but_to_contrast_advmod {
+	pattern {
+		par_rel: PARENT -[advmod]-> GOV;
+		cc_rel: GOV -[cc]-> BUT;
+		BUT[lemma="but"];
+	}
+	commands {
+		del_edge cc_rel;
+		add_edge BUT -[ARG2]-> GOV;
+		BUT.concept = "contrast-01";
+		del_edge par_rel;
+		add_edge PARENT -[advmod]-> BUT;
+	}
+}
+
+rule but_to_contrast_discourse {
+	pattern {
+		par_rel: PARENT -[discourse]-> GOV;
+		cc_rel: GOV -[cc]-> BUT;
+		BUT[lemma="but"];
+	}
+	commands {
+		del_edge cc_rel;
+		add_edge BUT -[ARG2]-> GOV;
+		BUT.concept = "contrast-01";
+		del_edge par_rel;
+		add_edge PARENT -[discourse]-> BUT;
+	}
+}
+
+rule but_to_contrast_amod {
+	pattern {
+		par_rel: PARENT -[amod]-> GOV;
+		cc_rel: GOV -[cc]-> BUT;
+		BUT[lemma="but"];
+	}
+	commands {
+		del_edge cc_rel;
+		add_edge BUT -[ARG2]-> GOV;
+		BUT.concept = "contrast-01";
+		del_edge par_rel;
+		add_edge PARENT -[amod]-> BUT;
+	}
+}
+
+rule but_to_contrast_aux {
+	pattern {
+		par_rel: PARENT -[aux]-> GOV;
+		cc_rel: GOV -[cc]-> BUT;
+		BUT[lemma="but"];
+	}
+	commands {
+		del_edge cc_rel;
+		add_edge BUT -[ARG2]-> GOV;
+		BUT.concept = "contrast-01";
+		del_edge par_rel;
+		add_edge PARENT -[aux]-> BUT;
+	}
+}
+
+rule but_to_contrast_cop {
+	pattern {
+		par_rel: PARENT -[cop]-> GOV;
+		cc_rel: GOV -[cc]-> BUT;
+		BUT[lemma="but"];
+	}
+	commands {
+		del_edge cc_rel;
+		add_edge BUT -[ARG2]-> GOV;
+		BUT.concept = "contrast-01";
+		del_edge par_rel;
+		add_edge PARENT -[cop]-> BUT;
+	}
+}
+
+rule but_to_contrast_mark {
+	pattern {
+		par_rel: PARENT -[mark]-> GOV;
+		cc_rel: GOV -[cc]-> BUT;
+		BUT[lemma="but"];
+	}
+	commands {
+		del_edge cc_rel;
+		add_edge BUT -[ARG2]-> GOV;
+		BUT.concept = "contrast-01";
+		del_edge par_rel;
+		add_edge PARENT -[mark]-> BUT;
+	}
+}
+
+rule but_to_contrast_det {
+	pattern {
+		par_rel: PARENT -[det]-> GOV;
+		cc_rel: GOV -[cc]-> BUT;
+		BUT[lemma="but"];
+	}
+	commands {
+		del_edge cc_rel;
+		add_edge BUT -[ARG2]-> GOV;
+		BUT.concept = "contrast-01";
+		del_edge par_rel;
+		add_edge PARENT -[det]-> BUT;
+	}
+}
+
+rule but_to_contrast_clf {
+	pattern {
+		par_rel: PARENT -[clf]-> GOV;
+		cc_rel: GOV -[cc]-> BUT;
+		BUT[lemma="but"];
+	}
+	commands {
+		del_edge cc_rel;
+		add_edge BUT -[ARG2]-> GOV;
+		BUT.concept = "contrast-01";
+		del_edge par_rel;
+		add_edge PARENT -[clf]-> BUT;
+	}
+}
+
+rule but_to_contrast_case {
+	pattern {
+		par_rel: PARENT -[case]-> GOV;
+		cc_rel: GOV -[cc]-> BUT;
+		BUT[lemma="but"];
+	}
+	commands {
+		del_edge cc_rel;
+		add_edge BUT -[ARG2]-> GOV;
+		BUT.concept = "contrast-01";
+		del_edge par_rel;
+		add_edge PARENT -[case]-> BUT;
+	}
+}
+
+rule but_to_contrast_conj {
+	pattern {
+		par_rel: PARENT -[conj]-> GOV;
+		cc_rel: GOV -[cc]-> BUT;
+		BUT[lemma="but"];
+	}
+	commands {
+		del_edge cc_rel;
+		add_edge BUT -[ARG2]-> GOV;
+		BUT.concept = "contrast-01";
+		del_edge par_rel;
+		add_edge PARENT -[conj]-> BUT;
+	}
+}
+
+rule but_to_contrast_cc {
+	pattern {
+		par_rel: PARENT -[cc]-> GOV;
+		cc_rel: GOV -[cc]-> BUT;
+		BUT[lemma="but"];
+	}
+	commands {
+		del_edge cc_rel;
+		add_edge BUT -[ARG2]-> GOV;
+		BUT.concept = "contrast-01";
+		del_edge par_rel;
+		add_edge PARENT -[cc]-> BUT;
+	}
+}
+
+rule but_to_contrast_fixed {
+	pattern {
+		par_rel: PARENT -[fixed]-> GOV;
+		cc_rel: GOV -[cc]-> BUT;
+		BUT[lemma="but"];
+	}
+	commands {
+		del_edge cc_rel;
+		add_edge BUT -[ARG2]-> GOV;
+		BUT.concept = "contrast-01";
+		del_edge par_rel;
+		add_edge PARENT -[fixed]-> BUT;
+	}
+}
+
+rule but_to_contrast_flat {
+	pattern {
+		par_rel: PARENT -[flat]-> GOV;
+		cc_rel: GOV -[cc]-> BUT;
+		BUT[lemma="but"];
+	}
+	commands {
+		del_edge cc_rel;
+		add_edge BUT -[ARG2]-> GOV;
+		BUT.concept = "contrast-01";
+		del_edge par_rel;
+		add_edge PARENT -[flat]-> BUT;
+	}
+}
+
+rule but_to_contrast_compound {
+	pattern {
+		par_rel: PARENT -[compound]-> GOV;
+		cc_rel: GOV -[cc]-> BUT;
+		BUT[lemma="but"];
+	}
+	commands {
+		del_edge cc_rel;
+		add_edge BUT -[ARG2]-> GOV;
+		BUT.concept = "contrast-01";
+		del_edge par_rel;
+		add_edge PARENT -[compound]-> BUT;
+	}
+}
+
+rule but_to_contrast_list {
+	pattern {
+		par_rel: PARENT -[list]-> GOV;
+		cc_rel: GOV -[cc]-> BUT;
+		BUT[lemma="but"];
+	}
+	commands {
+		del_edge cc_rel;
+		add_edge BUT -[ARG2]-> GOV;
+		BUT.concept = "contrast-01";
+		del_edge par_rel;
+		add_edge PARENT -[list]-> BUT;
+	}
+}
+
+rule but_to_contrast_parataxis {
+	pattern {
+		par_rel: PARENT -[parataxis]-> GOV;
+		cc_rel: GOV -[cc]-> BUT;
+		BUT[lemma="but"];
+	}
+	commands {
+		del_edge cc_rel;
+		add_edge BUT -[ARG2]-> GOV;
+		BUT.concept = "contrast-01";
+		del_edge par_rel;
+		add_edge PARENT -[parataxis]-> BUT;
+	}
+}
+
+rule but_to_contrast_orphan {
+	pattern {
+		par_rel: PARENT -[orphan]-> GOV;
+		cc_rel: GOV -[cc]-> BUT;
+		BUT[lemma="but"];
+	}
+	commands {
+		del_edge cc_rel;
+		add_edge BUT -[ARG2]-> GOV;
+		BUT.concept = "contrast-01";
+		del_edge par_rel;
+		add_edge PARENT -[orphan]-> BUT;
+	}
+}
+
+rule but_to_contrast_goeswith {
+	pattern {
+		par_rel: PARENT -[goeswith]-> GOV;
+		cc_rel: GOV -[cc]-> BUT;
+		BUT[lemma="but"];
+	}
+	commands {
+		del_edge cc_rel;
+		add_edge BUT -[ARG2]-> GOV;
+		BUT.concept = "contrast-01";
+		del_edge par_rel;
+		add_edge PARENT -[goeswith]-> BUT;
+	}
+}
+
+rule but_to_contrast_reparandum {
+	pattern {
+		par_rel: PARENT -[reparandum]-> GOV;
+		cc_rel: GOV -[cc]-> BUT;
+		BUT[lemma="but"];
+	}
+	commands {
+		del_edge cc_rel;
+		add_edge BUT -[ARG2]-> GOV;
+		BUT.concept = "contrast-01";
+		del_edge par_rel;
+		add_edge PARENT -[reparandum]-> BUT;
+	}
+}
+
+rule but_to_contrast_root {
+	pattern {
+		par_rel: PARENT -[root]-> GOV;
+		cc_rel: GOV -[cc]-> BUT;
+		BUT[lemma="but"];
+	}
+	commands {
+		del_edge cc_rel;
+		add_edge BUT -[ARG2]-> GOV;
+		BUT.concept = "contrast-01";
+		del_edge par_rel;
+		add_edge PARENT -[root]-> BUT;
+	}
+}
+
+
+%However starts here
+
+rule however_to_contrast_nsubj {
+	pattern {
+		par_rel: PARENT -[nsubj]-> GOV;
+		advmod_rel: GOV -[advmod]-> HOWEVER;
+		HOWEVER[lemma="however"];
+	}
+	commands {
+		del_edge advmod_rel;
+		add_edge HOWEVER -[ARG2]-> GOV;
+		HOWEVER.concept = "contrast-01";
+		del_edge par_rel;
+		add_edge PARENT -[nsubj]-> HOWEVER;
+	}
+}
+
+rule however_to_contrast_obj {
+	pattern {
+		par_rel: PARENT -[obj]-> GOV;
+		advmod_rel: GOV -[advmod]-> HOWEVER;
+		HOWEVER[lemma="however"];
+	}
+	commands {
+		del_edge advmod_rel;
+		add_edge HOWEVER -[ARG2]-> GOV;
+		HOWEVER.concept = "contrast-01";
+		del_edge par_rel;
+		add_edge PARENT -[obj]-> HOWEVER;
+	}
+}
+
+rule however_to_contrast_iobj {
+	pattern {
+		par_rel: PARENT -[iobj]-> GOV;
+		advmod_rel: GOV -[advmod]-> HOWEVER;
+		HOWEVER[lemma="however"];
+	}
+	commands {
+		del_edge advmod_rel;
+		add_edge HOWEVER -[ARG2]-> GOV;
+		HOWEVER.concept = "contrast-01";
+		del_edge par_rel;
+		add_edge PARENT -[iobj]-> HOWEVER;
+	}
+}
+
+rule however_to_contrast_obl {
+	pattern {
+		par_rel: PARENT -[obl]-> GOV;
+		advmod_rel: GOV -[advmod]-> HOWEVER;
+		HOWEVER[lemma="however"];
+	}
+	commands {
+		del_edge advmod_rel;
+		add_edge HOWEVER -[ARG2]-> GOV;
+		HOWEVER.concept = "contrast-01";
+		del_edge par_rel;
+		add_edge PARENT -[obl]-> HOWEVER;
+	}
+}
+
+rule however_to_contrast_vocative {
+	pattern {
+		par_rel: PARENT -[vocative]-> GOV;
+		advmod_rel: GOV -[advmod]-> HOWEVER;
+		HOWEVER[lemma="however"];
+	}
+	commands {
+		del_edge advmod_rel;
+		add_edge HOWEVER -[ARG2]-> GOV;
+		HOWEVER.concept = "contrast-01";
+		del_edge par_rel;
+		add_edge PARENT -[vocative]-> HOWEVER;
+	}
+}
+
+rule however_to_contrast_expl {
+	pattern {
+		par_rel: PARENT -[expl]-> GOV;
+		advmod_rel: GOV -[advmod]-> HOWEVER;
+		HOWEVER[lemma="however"];
+	}
+	commands {
+		del_edge advmod_rel;
+		add_edge HOWEVER -[ARG2]-> GOV;
+		HOWEVER.concept = "contrast-01";
+		del_edge par_rel;
+		add_edge PARENT -[expl]-> HOWEVER;
+	}
+}
+
+rule however_to_contrast_dislocated {
+	pattern {
+		par_rel: PARENT -[dislocated]-> GOV;
+		advmod_rel: GOV -[advmod]-> HOWEVER;
+		HOWEVER[lemma="however"];
+	}
+	commands {
+		del_edge advmod_rel;
+		add_edge HOWEVER -[ARG2]-> GOV;
+		HOWEVER.concept = "contrast-01";
+		del_edge par_rel;
+		add_edge PARENT -[dislocated]-> HOWEVER;
+	}
+}
+
+rule however_to_contrast_nmod {
+	pattern {
+		par_rel: PARENT -[nmod]-> GOV;
+		advmod_rel: GOV -[advmod]-> HOWEVER;
+		HOWEVER[lemma="however"];
+	}
+	commands {
+		del_edge advmod_rel;
+		add_edge HOWEVER -[ARG2]-> GOV;
+		HOWEVER.concept = "contrast-01";
+		del_edge par_rel;
+		add_edge PARENT -[nmod]-> HOWEVER;
+	}
+}
+
+rule however_to_contrast_appos {
+	pattern {
+		par_rel: PARENT -[appos]-> GOV;
+		advmod_rel: GOV -[advmod]-> HOWEVER;
+		HOWEVER[lemma="however"];
+	}
+	commands {
+		del_edge advmod_rel;
+		add_edge HOWEVER -[ARG2]-> GOV;
+		HOWEVER.concept = "contrast-01";
+		del_edge par_rel;
+		add_edge PARENT -[appos]-> HOWEVER;
+	}
+}
+
+rule however_to_contrast_nummod {
+	pattern {
+		par_rel: PARENT -[nummod]-> GOV;
+		advmod_rel: GOV -[advmod]-> HOWEVER;
+		HOWEVER[lemma="however"];
+	}
+	commands {
+		del_edge advmod_rel;
+		add_edge HOWEVER -[ARG2]-> GOV;
+		HOWEVER.concept = "contrast-01";
+		del_edge par_rel;
+		add_edge PARENT -[nummod]-> HOWEVER;
+	}
+}
+
+rule however_to_contrast_csubj {
+	pattern {
+		par_rel: PARENT -[csubj]-> GOV;
+		advmod_rel: GOV -[advmod]-> HOWEVER;
+		HOWEVER[lemma="however"];
+	}
+	commands {
+		del_edge advmod_rel;
+		add_edge HOWEVER -[ARG2]-> GOV;
+		HOWEVER.concept = "contrast-01";
+		del_edge par_rel;
+		add_edge PARENT -[csubj]-> HOWEVER;
+	}
+}
+
+rule however_to_contrast_ccomp {
+	pattern {
+		par_rel: PARENT -[ccomp]-> GOV;
+		advmod_rel: GOV -[advmod]-> HOWEVER;
+		HOWEVER[lemma="however"];
+	}
+	commands {
+		del_edge advmod_rel;
+		add_edge HOWEVER -[ARG2]-> GOV;
+		HOWEVER.concept = "contrast-01";
+		del_edge par_rel;
+		add_edge PARENT -[ccomp]-> HOWEVER;
+	}
+}
+
+rule however_to_contrast_xcomp {
+	pattern {
+		par_rel: PARENT -[xcomp]-> GOV;
+		advmod_rel: GOV -[advmod]-> HOWEVER;
+		HOWEVER[lemma="however"];
+	}
+	commands {
+		del_edge advmod_rel;
+		add_edge HOWEVER -[ARG2]-> GOV;
+		HOWEVER.concept = "contrast-01";
+		del_edge par_rel;
+		add_edge PARENT -[xcomp]-> HOWEVER;
+	}
+}
+
+rule however_to_contrast_advcl {
+	pattern {
+		par_rel: PARENT -[advcl]-> GOV;
+		advmod_rel: GOV -[advmod]-> HOWEVER;
+		HOWEVER[lemma="however"];
+	}
+	commands {
+		del_edge advmod_rel;
+		add_edge HOWEVER -[ARG2]-> GOV;
+		HOWEVER.concept = "contrast-01";
+		del_edge par_rel;
+		add_edge PARENT -[advcl]-> HOWEVER;
+	}
+}
+
+rule however_to_contrast_acl {
+	pattern {
+		par_rel: PARENT -[acl]-> GOV;
+		advmod_rel: GOV -[advmod]-> HOWEVER;
+		HOWEVER[lemma="however"];
+	}
+	commands {
+		del_edge advmod_rel;
+		add_edge HOWEVER -[ARG2]-> GOV;
+		HOWEVER.concept = "contrast-01";
+		del_edge par_rel;
+		add_edge PARENT -[acl]-> HOWEVER;
+	}
+}
+
+rule however_to_contrast_advmod {
+	pattern {
+		par_rel: PARENT -[advmod]-> GOV;
+		advmod_rel: GOV -[advmod]-> HOWEVER;
+		HOWEVER[lemma="however"];
+	}
+	commands {
+		del_edge advmod_rel;
+		add_edge HOWEVER -[ARG2]-> GOV;
+		HOWEVER.concept = "contrast-01";
+		del_edge par_rel;
+		add_edge PARENT -[advmod]-> HOWEVER;
+	}
+}
+
+rule however_to_contrast_discourse {
+	pattern {
+		par_rel: PARENT -[discourse]-> GOV;
+		advmod_rel: GOV -[advmod]-> HOWEVER;
+		HOWEVER[lemma="however"];
+	}
+	commands {
+		del_edge advmod_rel;
+		add_edge HOWEVER -[ARG2]-> GOV;
+		HOWEVER.concept = "contrast-01";
+		del_edge par_rel;
+		add_edge PARENT -[discourse]-> HOWEVER;
+	}
+}
+
+rule however_to_contrast_amod {
+	pattern {
+		par_rel: PARENT -[amod]-> GOV;
+		advmod_rel: GOV -[advmod]-> HOWEVER;
+		HOWEVER[lemma="however"];
+	}
+	commands {
+		del_edge advmod_rel;
+		add_edge HOWEVER -[ARG2]-> GOV;
+		HOWEVER.concept = "contrast-01";
+		del_edge par_rel;
+		add_edge PARENT -[amod]-> HOWEVER;
+	}
+}
+
+rule however_to_contrast_aux {
+	pattern {
+		par_rel: PARENT -[aux]-> GOV;
+		advmod_rel: GOV -[advmod]-> HOWEVER;
+		HOWEVER[lemma="however"];
+	}
+	commands {
+		del_edge advmod_rel;
+		add_edge HOWEVER -[ARG2]-> GOV;
+		HOWEVER.concept = "contrast-01";
+		del_edge par_rel;
+		add_edge PARENT -[aux]-> HOWEVER;
+	}
+}
+
+rule however_to_contrast_cop {
+	pattern {
+		par_rel: PARENT -[cop]-> GOV;
+		advmod_rel: GOV -[advmod]-> HOWEVER;
+		HOWEVER[lemma="however"];
+	}
+	commands {
+		del_edge advmod_rel;
+		add_edge HOWEVER -[ARG2]-> GOV;
+		HOWEVER.concept = "contrast-01";
+		del_edge par_rel;
+		add_edge PARENT -[cop]-> HOWEVER;
+	}
+}
+
+rule however_to_contrast_mark {
+	pattern {
+		par_rel: PARENT -[mark]-> GOV;
+		advmod_rel: GOV -[advmod]-> HOWEVER;
+		HOWEVER[lemma="however"];
+	}
+	commands {
+		del_edge advmod_rel;
+		add_edge HOWEVER -[ARG2]-> GOV;
+		HOWEVER.concept = "contrast-01";
+		del_edge par_rel;
+		add_edge PARENT -[mark]-> HOWEVER;
+	}
+}
+
+rule however_to_contrast_det {
+	pattern {
+		par_rel: PARENT -[det]-> GOV;
+		advmod_rel: GOV -[advmod]-> HOWEVER;
+		HOWEVER[lemma="however"];
+	}
+	commands {
+		del_edge advmod_rel;
+		add_edge HOWEVER -[ARG2]-> GOV;
+		HOWEVER.concept = "contrast-01";
+		del_edge par_rel;
+		add_edge PARENT -[det]-> HOWEVER;
+	}
+}
+
+rule however_to_contrast_clf {
+	pattern {
+		par_rel: PARENT -[clf]-> GOV;
+		advmod_rel: GOV -[advmod]-> HOWEVER;
+		HOWEVER[lemma="however"];
+	}
+	commands {
+		del_edge advmod_rel;
+		add_edge HOWEVER -[ARG2]-> GOV;
+		HOWEVER.concept = "contrast-01";
+		del_edge par_rel;
+		add_edge PARENT -[clf]-> HOWEVER;
+	}
+}
+
+rule however_to_contrast_case {
+	pattern {
+		par_rel: PARENT -[case]-> GOV;
+		advmod_rel: GOV -[advmod]-> HOWEVER;
+		HOWEVER[lemma="however"];
+	}
+	commands {
+		del_edge advmod_rel;
+		add_edge HOWEVER -[ARG2]-> GOV;
+		HOWEVER.concept = "contrast-01";
+		del_edge par_rel;
+		add_edge PARENT -[case]-> HOWEVER;
+	}
+}
+
+rule however_to_contrast_conj {
+	pattern {
+		par_rel: PARENT -[conj]-> GOV;
+		advmod_rel: GOV -[advmod]-> HOWEVER;
+		HOWEVER[lemma="however"];
+	}
+	commands {
+		del_edge advmod_rel;
+		add_edge HOWEVER -[ARG2]-> GOV;
+		HOWEVER.concept = "contrast-01";
+		del_edge par_rel;
+		add_edge PARENT -[conj]-> HOWEVER;
+	}
+}
+
+rule however_to_contrast_cc {
+	pattern {
+		par_rel: PARENT -[cc]-> GOV;
+		advmod_rel: GOV -[advmod]-> HOWEVER;
+		HOWEVER[lemma="however"];
+	}
+	commands {
+		del_edge advmod_rel;
+		add_edge HOWEVER -[ARG2]-> GOV;
+		HOWEVER.concept = "contrast-01";
+		del_edge par_rel;
+		add_edge PARENT -[advmod]-> HOWEVER;
+	}
+}
+
+rule however_to_contrast_fixed {
+	pattern {
+		par_rel: PARENT -[fixed]-> GOV;
+		advmod_rel: GOV -[advmod]-> HOWEVER;
+		HOWEVER[lemma="however"];
+	}
+	commands {
+		del_edge advmod_rel;
+		add_edge HOWEVER -[ARG2]-> GOV;
+		HOWEVER.concept = "contrast-01";
+		del_edge par_rel;
+		add_edge PARENT -[fixed]-> HOWEVER;
+	}
+}
+
+rule however_to_contrast_flat {
+	pattern {
+		par_rel: PARENT -[flat]-> GOV;
+		advmod_rel: GOV -[advmod]-> HOWEVER;
+		HOWEVER[lemma="however"];
+	}
+	commands {
+		del_edge advmod_rel;
+		add_edge HOWEVER -[ARG2]-> GOV;
+		HOWEVER.concept = "contrast-01";
+		del_edge par_rel;
+		add_edge PARENT -[flat]-> HOWEVER;
+	}
+}
+
+rule however_to_contrast_compound {
+	pattern {
+		par_rel: PARENT -[compound]-> GOV;
+		advmod_rel: GOV -[advmod]-> HOWEVER;
+		HOWEVER[lemma="however"];
+	}
+	commands {
+		del_edge advmod_rel;
+		add_edge HOWEVER -[ARG2]-> GOV;
+		HOWEVER.concept = "contrast-01";
+		del_edge par_rel;
+		add_edge PARENT -[compound]-> HOWEVER;
+	}
+}
+
+rule however_to_contrast_list {
+	pattern {
+		par_rel: PARENT -[list]-> GOV;
+		advmod_rel: GOV -[advmod]-> HOWEVER;
+		HOWEVER[lemma="however"];
+	}
+	commands {
+		del_edge advmod_rel;
+		add_edge HOWEVER -[ARG2]-> GOV;
+		HOWEVER.concept = "contrast-01";
+		del_edge par_rel;
+		add_edge PARENT -[list]-> HOWEVER;
+	}
+}
+
+rule however_to_contrast_parataxis {
+	pattern {
+		par_rel: PARENT -[parataxis]-> GOV;
+		advmod_rel: GOV -[advmod]-> HOWEVER;
+		HOWEVER[lemma="however"];
+	}
+	commands {
+		del_edge advmod_rel;
+		add_edge HOWEVER -[ARG2]-> GOV;
+		HOWEVER.concept = "contrast-01";
+		del_edge par_rel;
+		add_edge PARENT -[parataxis]-> HOWEVER;
+	}
+}
+
+rule however_to_contrast_orphan {
+	pattern {
+		par_rel: PARENT -[orphan]-> GOV;
+		advmod_rel: GOV -[advmod]-> HOWEVER;
+		HOWEVER[lemma="however"];
+	}
+	commands {
+		del_edge advmod_rel;
+		add_edge HOWEVER -[ARG2]-> GOV;
+		HOWEVER.concept = "contrast-01";
+		del_edge par_rel;
+		add_edge PARENT -[orphan]-> HOWEVER;
+	}
+}
+
+rule however_to_contrast_goeswith {
+	pattern {
+		par_rel: PARENT -[goeswith]-> GOV;
+		advmod_rel: GOV -[advmod]-> HOWEVER;
+		HOWEVER[lemma="however"];
+	}
+	commands {
+		del_edge advmod_rel;
+		add_edge HOWEVER -[ARG2]-> GOV;
+		HOWEVER.concept = "contrast-01";
+		del_edge par_rel;
+		add_edge PARENT -[goeswith]-> HOWEVER;
+	}
+}
+
+rule however_to_contrast_reparandum {
+	pattern {
+		par_rel: PARENT -[reparandum]-> GOV;
+		advmod_rel: GOV -[advmod]-> HOWEVER;
+		HOWEVER[lemma="however"];
+	}
+	commands {
+		del_edge advmod_rel;
+		add_edge HOWEVER -[ARG2]-> GOV;
+		HOWEVER.concept = "contrast-01";
+		del_edge par_rel;
+		add_edge PARENT -[reparandum]-> HOWEVER;
+	}
+}
+
+rule however_to_contrast_root {
+	pattern {
+		par_rel: PARENT -[root]-> GOV;
+		advmod_rel: GOV -[advmod]-> HOWEVER;
+		HOWEVER[lemma="however"];
+	}
+	commands {
+		del_edge advmod_rel;
+		add_edge HOWEVER -[ARG2]-> GOV;
+		HOWEVER.concept = "contrast-01";
+		del_edge par_rel;
+		add_edge PARENT -[root]-> HOWEVER;
+	}
+}

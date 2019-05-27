@@ -1,0 +1,59 @@
+rule poss_as_my {
+	pattern {
+		GOV -[poss]-> DEP;
+		DEP[lemma="my"|"mine"];
+	}
+	commands {
+		DEP.concept="I";
+	}
+}
+
+rule poss_as_you {
+	pattern {
+		GOV -[poss]-> DEP;
+		DEP[lemma="your"|"yours"];
+	}
+	commands {
+		DEP.concept="you";
+	}
+}
+
+rule poss_as_his {
+	pattern {
+		GOV -[poss]-> DEP;
+		DEP[lemma="his"];
+	}
+	commands {
+		DEP.concept="he";
+	}
+}
+
+rule poss_as_hers {
+	pattern {
+		GOV -[poss]-> DEP;
+		DEP[lemma="hers"|"her"];
+	}
+	commands {
+		DEP.concept="she";
+	}
+}
+
+rule poss_as_our {
+	pattern {
+		GOV -[poss]-> DEP;
+		DEP[lemma="our"|"ours"];
+	}
+	commands {
+		DEP.concept="we";
+	}
+}
+
+rule poss_as_their {
+	pattern {
+		GOV -[poss]-> DEP;
+		DEP[lemma="their"|"theirs"];
+	}
+	commands {
+		DEP.concept="they";
+	}
+}

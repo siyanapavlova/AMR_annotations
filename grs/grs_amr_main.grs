@@ -3,6 +3,9 @@ include "non_core_roles.grs"
 include "remove_punct_safe.grs"
 include "cc_to_op_redundancy.grs"
 include "core_roles_xcomp.grs"
+include "contrast_redundancy.grs"
+include "mark_to_non-core.grs"
+include "poss_lemmas.grs"
 
 strat simplest {
   Seq (
@@ -67,6 +70,17 @@ strat remove_punct_safe_strat {
   )
 }
 
+strat rename_poss_concepts {
+  Seq (
+    Iter (poss_as_my),
+    Iter (poss_as_you),
+    Iter (poss_as_his),
+    Iter (poss_as_hers),
+    Iter (poss_as_our),
+    Iter (poss_as_their),
+  )
+}
+
 strat cc_to_op{
   Seq (
     Iter(cc_to_op_nsubj),
@@ -90,6 +104,7 @@ strat clean {
     Iter(remove_det),
     Iter(remove_cop),
     Iter(remove_case),
+    rename_poss_concepts,
   )
 }
 
@@ -136,6 +151,92 @@ strat add_conc {
   )
 }
 
+strat mark_to_non-core {
+  Seq (
+    Iter(mark_to_non-core_cause),
+    Iter(mark_to_non-core_condition),
+    Iter(mark_to_non-core_example),
+    Iter(mark_to_non-core_concession),
+    Iter(mark_to_non-core_time_when),
+  )
+}
+
+strat but_to_contrast_strat {
+  Seq (
+    Iter(but_to_contrast_nsubj),
+    Iter(but_to_contrast_obj),
+    Iter(but_to_contrast_iobj),
+    Iter(but_to_contrast_obl),
+    Iter(but_to_contrast_vocative),
+    Iter(but_to_contrast_expl),
+    Iter(but_to_contrast_dislocated),
+    Iter(but_to_contrast_nmod),
+    Iter(but_to_contrast_appos),
+    Iter(but_to_contrast_nummod),
+    Iter(but_to_contrast_csubj),
+    Iter(but_to_contrast_ccomp),
+    Iter(but_to_contrast_xcomp),
+    Iter(but_to_contrast_advcl),
+    Iter(but_to_contrast_acl),
+    Iter(but_to_contrast_advmod),
+    Iter(but_to_contrast_discourse),
+    Iter(but_to_contrast_amod),
+    Iter(but_to_contrast_aux),
+    Iter(but_to_contrast_cop),
+    Iter(but_to_contrast_mark),
+    Iter(but_to_contrast_det),
+    Iter(but_to_contrast_clf),
+    Iter(but_to_contrast_case),
+    Iter(but_to_contrast_conj),
+    Iter(but_to_contrast_cc),
+    Iter(but_to_contrast_fixed),
+    Iter(but_to_contrast_flat),
+    Iter(but_to_contrast_compound),
+    Iter(but_to_contrast_list),
+    Iter(but_to_contrast_parataxis),
+    Iter(but_to_contrast_orphan),
+    Iter(but_to_contrast_goeswith),
+    Iter(but_to_contrast_reparandum),
+    Iter(but_to_contrast_root),
+
+    Iter(however_to_contrast_nsubj),
+    Iter(however_to_contrast_obj),
+    Iter(however_to_contrast_iobj),
+    Iter(however_to_contrast_obl),
+    Iter(however_to_contrast_vocative),
+    Iter(however_to_contrast_expl),
+    Iter(however_to_contrast_dislocated),
+    Iter(however_to_contrast_nmod),
+    Iter(however_to_contrast_appos),
+    Iter(however_to_contrast_nummod),
+    Iter(however_to_contrast_csubj),
+    Iter(however_to_contrast_ccomp),
+    Iter(however_to_contrast_xcomp),
+    Iter(however_to_contrast_advcl),
+    Iter(however_to_contrast_acl),
+    Iter(however_to_contrast_advmod),
+    Iter(however_to_contrast_discourse),
+    Iter(however_to_contrast_amod),
+    Iter(however_to_contrast_aux),
+    Iter(however_to_contrast_cop),
+    Iter(however_to_contrast_mark),
+    Iter(however_to_contrast_det),
+    Iter(however_to_contrast_clf),
+    Iter(however_to_contrast_case),
+    Iter(however_to_contrast_conj),
+    Iter(however_to_contrast_cc),
+    Iter(however_to_contrast_fixed),
+    Iter(however_to_contrast_flat),
+    Iter(however_to_contrast_compound),
+    Iter(however_to_contrast_list),
+    Iter(however_to_contrast_parataxis),
+    Iter(however_to_contrast_orphan),
+    Iter(however_to_contrast_goeswith),
+    Iter(however_to_contrast_reparandum),
+    Iter(however_to_contrast_root),
+  )
+}
+
 strat xcomp_strat {
   Seq (
     Iter(xcomp_normal_arg0obj_govarg0),
@@ -179,9 +280,14 @@ strat test_new_lex {
     Iter(det_as_pers_pron),
     Iter(det_as_all),
     Iter (nmod),
+
+    but_to_contrast_strat,
+
     Iter (parataxis_outgoing_to_ccomp),
     Iter (parataxis_incoming_to_ccomp),
     Iter (ccomp_with_mark),
+
+    mark_to_non-core,
 
     %Iter(xcomp_strat), % run package above to handle xcomp
 
