@@ -4,6 +4,7 @@ from random import seed, sample
 import pprint
 import operator
 import csv
+import os
 
 pp = pprint.PrettyPrinter(indent=4)
 
@@ -54,6 +55,7 @@ def run_pipeline(load_path, save_path, filename, gold_amr):
 	return score
 
 def calculate_scores(sentence_nums):
+	scores = []
 	for num in sentence_nums:
 		result = run_pipeline('./data/amr_bank_data/ud/sentence'+'{:04d}'.format(num)+'.conll',
 							'./data/evaluation/',
@@ -61,6 +63,8 @@ def calculate_scores(sentence_nums):
 							'./data/amr_bank_data/amrs/amr'+'{:04d}'.format(num)+'.txt')
 		if result != None:
 			scores.append(('{:04d}'.format(num), result))
+		else:
+			scores.append(('{:04d}'.format(num), b'Precision: -1.00\nRecall: -1.00\nF-score: -1.00\n'))
 	# pp.pprint(scores)
 	# scores_split = [scores.split(i) for score in scores for i in [b"Precision: ", b"Recall: ", "F-score: "] ]
 	precision = [float(score[1].split(b"Precision: ")[1].split(b"\n")[0]) for score in scores]
@@ -69,6 +73,7 @@ def calculate_scores(sentence_nums):
 
 	for score_val in [precision, recall, f1]:
 		if score_val:
+			score_val = [i for i in score_val if i >=0]
 			print("======================")
 			print ("Min score:", min(score_val))
 			print ("Max score:", max(score_val))
@@ -80,23 +85,42 @@ def calculate_scores(sentence_nums):
 	print(len(precision))
 	return precision, recall, f1
 
-def collect_scores(sentence_nums, n, filename):
+def collect_scores(sentence_nums, n, filename, folder):
 	'''
 	Parameters: n - the number of times that the test should be run
 				filename - path to the csv file where the results should be saved
 				sentence_nums - a list of sentence numbers to be tested
 	'''
-	with open(filename, 'w') as csvfile:
+	if not os.path.exists(folder):
+		os.makedirs(folder)
+
+	data = {'precision': [], 'recall': [], 'f1': []}
+	with open(folder+filename, 'a') as csvfile:
 		writefile = csv.writer(csvfile, delimiter='\t')
-		writefile.writerow(['Measure', 'Min', 'Max', 'Average', 'Data'])
+		writefile.writerow(['Measure', 'Min', 'Max', 'Average'])
 		for i in range(n):
 			precision, recall, f1 = calculate_scores(sentence_nums)
 			for score_val in [('precision', precision), ('recall', recall), ('f1',f1)]:
-				min_score = min(score_val[1])
-				max_score = max(score_val[1])
-				avg_score = sum(score_val[1])/len(score_val[1])
-				writefile.writerow([score_val[0], min_score, max_score, avg_score, score_val[1]])
-			writefile.writerow(['','','','',''])
+				data[score_val[0]].append(score_val[1])
+
+				score_val_clean = [i for i in score_val[1] if i >=0]
+				min_score = min(score_val_clean)
+				max_score = max(score_val_clean)
+				avg_score = sum(score_val_clean)/len(score_val_clean)
+				writefile.writerow([score_val[0], min_score, max_score, avg_score])
+			writefile.writerow(['','','',''])
+	for file, measure in [(folder+'/precision.csv', 'precision'),
+				(folder+'/recall.csv', 'recall'),
+				(folder+'/f1.csv', 'f1')]:
+		with open(file, 'a') as f:
+			data_file = csv.writer(f, delimiter='\t')
+			for run in data[measure]:
+				# print('run', run)
+				data_file.writerow(run)
+				# for i in run:
+				# 	data_file.writerow()
+				# f.write(i)
+	# print(data)
 
 
 
@@ -112,9 +136,9 @@ if __name__=="__main__":
 	# sentence_nums = [347]
 
 	sentence_nums = list(range(1,101))
-
+	# sentence_nums = [9,10]
 	scores = []
 	print(sentence_nums)
 
 	# calculate_scores(sentence_nums)
-	collect_scores(sentence_nums, 1, './best_output.csv')
+	collect_scores(sentence_nums, 1, '/all_metrics.csv', './results/base_lex_100')
