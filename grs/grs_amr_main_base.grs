@@ -255,55 +255,21 @@ strat test_new_lex {
   Seq (
     remove_punct_safe_strat,
     prepare_predicates,
-    Iter(det_as_pers_pron), %baseline
-    Iter(det_as_all), %baseline
     Iter (nmod),
 
-    but_to_contrast_strat, %interim
-
-    Iter(acl_relcl_nomtoarg0), %interim
-    Iter(acl_relcl_nomtoarg1), %interim
-    Iter(acl_relcl_nomtoarg0_poss), %interim
-    Iter(acl_relcl_nomtoarg1_poss), %interim
-    Iter (parataxis_outgoing_to_ccomp), %interim
-    Iter (parataxis_incoming_to_ccomp), %interim
-    Iter (ccomp_with_mark), %interim
-
-    mark_to_non-core, %interim
-
-
-    %%%%%Iter(add_non-core_possible), %rule not ready yet
-
-    %%%%%Iter(xcomp_strat), % run package above to handle xcomp
-
-    %%%%%Iter(pred_nsubj_obj_ccomp_arg0_arg1_arg2),
-    %%%%%Iter(pred_nsubj_ccomp_arg0_arg1),
-    %%%%%Iter(pred_nsubj_ccomp_arg0_arg2),
-    
-    Iter(pred_nsubj_obj_obl_case), %baseline
     Iter(pred_nsubj_obj_iobj),
     Iter(pred_nsubj_obj),
-
-    Iter(ccomp_verbadv_notcop), %baseline
 
     Iter(pred_nsubj_new_lex),
     Iter(pred_obj_arg1),
     Iter(pred_obj_arg2),
-
-    Iter(remove_aux_pass),
-    Iter(pred_nsubjpass_obj), %baseline
-    Iter(pred_nsubjpass), %baseline
-
-
-    Iter(noun_amod), %baseline
 
     Iter(remove_extra_cc_grandchildren), %baseline
     Iter(cc_to_op_morethan2), %baseline
     Iter(cc_to_op), %baseline
     Iter(only_one_cc), %baseline
 
-    Iter(advmod_as_not_to_polarity), %baseline
-    Iter(without_to_polarity), %baseline
+    Iter(remove_aux_pass),
 
     non_core_new_lex,
 

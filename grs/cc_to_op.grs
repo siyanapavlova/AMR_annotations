@@ -1,6 +1,5 @@
 % If there are a cc and a conj relations but no middle relations (only two members in a conjuction)
-% then transform both the first and last element in :op; and the parent relation of the first element in the conjunction goes to the conjunct word ("and", "or"...)
-
+% then transform both the first and last element to :op; and the parent relation of the first element in the conjunction goes to the conjunct word ("and", "or"...)
 
 rule cc_to_op_nsubj{
 	pattern{

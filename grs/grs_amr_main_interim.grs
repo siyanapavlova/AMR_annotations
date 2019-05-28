@@ -258,27 +258,6 @@ strat test_new_lex {
     Iter(det_as_pers_pron), %baseline
     Iter(det_as_all), %baseline
     Iter (nmod),
-
-    but_to_contrast_strat, %interim
-
-    Iter(acl_relcl_nomtoarg0), %interim
-    Iter(acl_relcl_nomtoarg1), %interim
-    Iter(acl_relcl_nomtoarg0_poss), %interim
-    Iter(acl_relcl_nomtoarg1_poss), %interim
-    Iter (parataxis_outgoing_to_ccomp), %interim
-    Iter (parataxis_incoming_to_ccomp), %interim
-    Iter (ccomp_with_mark), %interim
-
-    mark_to_non-core, %interim
-
-
-    %%%%%Iter(add_non-core_possible), %rule not ready yet
-
-    %%%%%Iter(xcomp_strat), % run package above to handle xcomp
-
-    %%%%%Iter(pred_nsubj_obj_ccomp_arg0_arg1_arg2),
-    %%%%%Iter(pred_nsubj_ccomp_arg0_arg1),
-    %%%%%Iter(pred_nsubj_ccomp_arg0_arg2),
     
     Iter(pred_nsubj_obj_obl_case), %baseline
     Iter(pred_nsubj_obj_iobj),
