@@ -20,12 +20,17 @@ AMR_RELS = ['ARG0', 'ARG1', 'ARG2', 'ARG3', 'ARG4', 'ARG5', 'ARG6', 'ARG7', 'ARG
 			':quarter', ':season', ':timezone', ':weekday', ':year', ':year2',
 			'op1', 'op2', 'op3', 'op4']
 
-UD_POS = ["ADJ",	"ADP", "ADV", "AUX", "INTJ", "CCONJ", "NOUN", "DET", "PROPN", "NUM", "VERB", "PART", "PRON", 
+UD_POS = ["ADJ", "ADP", "ADV", "AUX", "INTJ", "CCONJ", "NOUN", "DET", "PROPN", "NUM", "VERB", "PART", "PRON", 
 "SCONJ","PUNCT", "SYM", "X"]
+
 UD_DEPRELS = ["nsubj", "obj", "iobj", "csubj", "ccomp", "xcomp", "obl", "vocative", "expl", "dislocated", "advcl", 
 "advmod", "discourse", "aux", "cop", "mark", "nmod", "appos", "nummod", "acl", "amod", "det", "clf",
 "case", "conj", "cc", "fixed", "flat", "compound", "list", "parataxis", "orphan", "goeswith", "reparandum", 
 "punct", "root", "dep"]
+
+# file paths for UD and AMR graphs, for use in the loadmake_allgraphs function
+UD_FILEPATH = "./data/amr_bank_data/ud/"
+AMR_FILEPATH = "./data/amr_bank_data/amrs_gold/"
 
 
 #TODO: think about how best to implement filtering. deleting these at get_nxsubgraphs_largeststep or 
@@ -45,8 +50,8 @@ class Sentence:
 
 ########## Preparatory functions - at global sentence level ##########
 
-def loadmake_allgraphs(ud_filepath="./data/amr_bank_data/ud/", 
-						amr_filepath="./data/amr_bank_data/amrs_gold/"):
+def loadmake_allgraphs(ud_filepath=UD_FILEPATH, 
+						amr_filepath=AMR_FILEPATH):
 	'''
 	Given the filepaths where CONLL-U files for sentences are stored, return a dictionary of all
 	the sentences (e.g. of a corpus) containing GREW and Networkx objects. 
@@ -101,7 +106,8 @@ def _make_ud_nxgraph(ud_grewgraph):
 	ud_nxgraph = nx.DiGraph() # directed graph 
 	for node_num in ud_grewgraph:
 		try:
-			ud_nxgraph.add_node(node_num, upos = ud_grewgraph[node_num][0]['upos']) # add "upos" attribute as node attribute
+			# add "upos" attribute as node attribute
+			ud_nxgraph.add_node(node_num, upos = ud_grewgraph[node_num][0]['upos']) 
 		except: 
 			ud_nxgraph.add_node(node_num, weight = "root") # for root node
 		if len(ud_grewgraph[node_num][1]) >= 1: # only add edges for nodes that have children 
@@ -119,7 +125,8 @@ def _map_lemma_udgrew_amrgrew(amr_grewgraph, ud_grewgraph, amr_relation):
 	'''
 	# list comprehension. checks every node in the amr_grewgraph to identify those that has the relation. obtains 
 	# a set of token_num-lemma pairs for the node (the parent) with the relation. 
-	amr_lemmalist = [amr_grewgraph[node][0]["lemma"] for node in amr_grewgraph for i2 in amr_grewgraph[node][1] if i2[0] == amr_relation]
+	amr_lemmalist = [amr_grewgraph[node][0]["lemma"] for node in amr_grewgraph for i2 
+					in amr_grewgraph[node][1] if i2[0] == amr_relation]
 
 	# some AMR relations may have more than 1 instance in the sentence. for these: 2 cases will be present: 
 		# a. each lemma is different
@@ -128,18 +135,23 @@ def _map_lemma_udgrew_amrgrew(amr_grewgraph, ud_grewgraph, amr_relation):
 	# we care about 1-to-1 matching of the lemmas, so let's remove duplicate lemmas in the set
 	amr_lemmalist = set(amr_lemmalist)
 
-	# we track 2 lists, the first is the set of tokens in the UD graph that have a 1-to-1 correspondence with the AMR graph 
-	# the other is the set of lemmas in the AMR graph where we cannot find the 1-to-1 correspondence. 
+	# we track 2 lists, the first is the set of tokens in the UD graph that have a 1-to-1 
+	# correspondence with the AMR graph the other is the set of lemmas in the AMR graph 
+	# where we cannot find the 1-to-1 correspondence. 
 	ud_grewgraph.pop("ROOT") # remove the 'ROOT' node here, since it won't have a lemma attribute
-	ud_present_tokenlist = [node_num for lemma in amr_lemmalist for node_num in ud_grewgraph if lemma == ud_grewgraph[node_num][0]["lemma"]]
-	ud_notpresent_lemmalist = [lemma for lemma in amr_lemmalist for node_num in ud_grewgraph if lemma != ud_grewgraph[node_num][0]["lemma"]]
+	ud_present_tokenlist = [node_num for lemma in amr_lemmalist for node_num 
+							in ud_grewgraph if lemma == ud_grewgraph[node_num][0]["lemma"]]
+	ud_notpresent_lemmalist = [lemma for lemma in amr_lemmalist for node_num 
+							in ud_grewgraph if lemma != ud_grewgraph[node_num][0]["lemma"]]
     
 	return amr_lemmalist, ud_present_tokenlist, ud_notpresent_lemmalist 
 
-def _get_nxsubgraphs_largeststepsize(allsentences_graphs, sentences_by_amr_relations, amr_relation, stepsizerange):
+def _get_nxsubgraphs_largeststepsize(allsentences_graphs, sentences_by_amr_relations, 
+									amr_relation, stepsizerange):
 	'''
-	takes the entire set of Sentence objects for the corpus, for a single amr relation, get the subgraphs that correspond
-	to this amr_relation. each subgraph returned is the one for the largest stepsize 
+	takes the entire set of Sentence objects for the corpus, for a single amr relation, 
+	get the subgraphs that correspond to this amr_relation. each subgraph returned is 
+	the one for the largest stepsize 
 	'''
 	sentence_nums = sentences_by_amr_relations[amr_relation]
 	nxsubgraphs = [] 	#init an empty list to store the SGs
@@ -148,7 +160,8 @@ def _get_nxsubgraphs_largeststepsize(allsentences_graphs, sentences_by_amr_relat
 	largest_stepsize = max(stepsizerange) 
 
 	for sentence_num in sentence_nums: #iterate through the keys of the nx_graphs
-		sent_nxgraph = allsentences_graphs[sentence_num].ud_nxgraph # saving it to the ud_nxgraph attribute of the Sentence() obj
+		# saving it to the ud_nxgraph attribute of the Sentence() obj
+		sent_nxgraph = allsentences_graphs[sentence_num].ud_nxgraph 
 		ud_present_tokenlist = _map_lemma_udgrew_amrgrew(allsentences_graphs[sentence_num].amr_grewgraph,
 											 allsentences_graphs[sentence_num].ud_grewgraph, amr_relation)[1]
 		for token_num in ud_present_tokenlist: 
@@ -171,7 +184,6 @@ def _get_nxsubgraphs_largeststepsize(allsentences_graphs, sentences_by_amr_relat
 					break
 				
 			subgraph_nodes.update(token_num) # include the "root" parent
-
 			# get the subgraph with the final subgraph_nodes, and add to nxsubgraphs
 			nxsubgraphs.append(sent_nxgraph.subgraph(subgraph_nodes)) 
 			# add the max depth of the subgraph to the list. helps us with _trim_nxsubgraph_leaves
@@ -335,6 +347,7 @@ def get_graphcuts(nxgraph, rootnode_num, stepsize):
 	'''
 	for a given nxgraph, selected stepsize and the root node number as well as specified step size, return the subgraph
 	'''
+	# in progress
 	pass
 
 
@@ -344,6 +357,7 @@ def _find_max_subgraph():
 	subgraph shared between all of them. This will be the relation pattern for 1x rewriting rule for the AMR relation. 
 	A linguistic analysis of this pattern (to remove potentially unnecessary UD relations - e.g. determiners etc)
 	'''
+	# in progress 
 	pass
 
 if __name__ == "__main__":
