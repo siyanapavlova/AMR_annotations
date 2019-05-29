@@ -1,0 +1,8 @@
+(a / and
+	:op1 (e / express
+		:amod (l / light-07
+			:advmod (b / brilliantly))
+		:acl (t / thunder-01
+			:obl (d / direction
+				:amod (o / opposite)))
+		:amod (s / second)))

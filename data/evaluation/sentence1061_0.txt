@@ -1,0 +1,6 @@
+(h2 / have-11
+	:obj (a / and
+		:op (g / gun)
+		:op (h / hunt
+			:nsubj (t2 / they)))
+	:ARG0 (t / they))

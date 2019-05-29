@@ -1,0 +1,4 @@
+(s / say-01
+	:ccomp (m2 / morning
+		:amod (g / good))
+	:ARG0 (m / merchant))

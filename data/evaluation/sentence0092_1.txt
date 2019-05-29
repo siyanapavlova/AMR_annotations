@@ -1,0 +1,5 @@
+(s / sheep
+	:acl (a / ask-03
+		:ARG0 (y / you)
+		:advmod (i / inside
+			:mark (f / for))))

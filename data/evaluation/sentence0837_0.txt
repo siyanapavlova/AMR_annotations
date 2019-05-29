@@ -1,0 +1,5 @@
+(a2 / and
+	:op (t / town)
+	:op1 (d / desert)
+	:op (m / mountain)
+	:op (r / river))

@@ -1,0 +1,3 @@
+(o / occupation
+	:nsubj (t / that)
+	:amod (b / beautiful))

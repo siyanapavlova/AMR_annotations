@@ -1,0 +1,6 @@
+(r / regrett
+	:nsubj (h / he)
+	:aux (b / be)
+	:obj (s / sunset
+		:poss (h2 / he)
+		:amod (l / lose-03)))

@@ -1,0 +1,5 @@
+(l / let-05
+	:ARG1 (m / me)
+	:xcomp (g / go-11
+		:obl (m2 / myself)
+		:advmod (o / on)))

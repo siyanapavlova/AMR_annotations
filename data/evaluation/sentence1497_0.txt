@@ -1,0 +1,6 @@
+(b / be-02
+	:expl (t / there)
+	:nsubj (n / nothing
+		:amod (s2 / sad
+			:obl (s / shell
+				:amod (o / old)))))

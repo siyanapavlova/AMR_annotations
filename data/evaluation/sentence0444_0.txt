@@ -1,0 +1,12 @@
+(p2 / pull-09
+	:ARG1 (s2 / shoot
+		:amod (l2 / little)
+		:poss (b / baobab)
+		:amod (l / last))
+	:advmod (a / also)
+	:obl (s / sense
+		:amod (c / certain)
+		:poss (d / dejection))
+	:compound (u / up)
+	:ARG0 (p / prince
+		:amod (l3 / little)))

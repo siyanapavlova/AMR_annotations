@@ -1,0 +1,10 @@
+(b / bear-06
+	:obl (w / walk
+		:appos (s / song
+			:poss (p / pulley)
+			:appos (e / effort
+				:poss (a / arm
+					:poss (i / i))))
+		:poss (s2 / star))
+	:nsubj (s3 / sweetness
+		:poss (i2 / its)))

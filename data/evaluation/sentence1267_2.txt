@@ -1,0 +1,6 @@
+(f / feel
+	:nsubj (i / i)
+	:xcomp (a / and
+		:op (m / move-02
+			:advmod (d / deeply))
+		:op (s / stir)))

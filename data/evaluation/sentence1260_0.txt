@@ -1,0 +1,6 @@
+(b / but
+	:op1 (c / cast
+		:obj (e / enchantment
+			:poss (h / house
+				:det (t / that)))
+		:nsubj (i / it)))

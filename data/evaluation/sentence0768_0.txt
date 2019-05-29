@@ -1,0 +1,8 @@
+(p / put
+	:obj (l / lamp
+		:poss (y / you))
+	:advmod (j / just)
+	:nsubj (y2 / you)
+	:compound (o / out)
+	:advmod (w / why)
+	:aux (h / have))

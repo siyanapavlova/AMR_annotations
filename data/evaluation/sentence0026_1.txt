@@ -1,0 +1,7 @@
+(l / live-01
+	:ARG0 (i / i)
+	:ARG1 (d / deal
+		:mod (g2 / great)
+		:poss (u / up
+			:mod (g / grow-01)))
+	:aux (h / have))

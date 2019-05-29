@@ -1,0 +1,15 @@
+(b2 / busy
+	:nsubj (i2 / i)
+	:advcl (t4 / try-02
+		:xcomp (u / unscrew
+			:mark (t3 / to)
+			:obj (b / bolt
+				:acl (g / get-01
+					:ARG1 (s / stick)
+					:obl (e / engine
+						:poss (i / i))
+					:ARG0 (t / that)
+					:aux (h / have)))))
+	:advmod (v / very)
+	:obl (m / moment
+		:det (t2 / that)))

@@ -1,0 +1,24 @@
+(a / and
+	:op1 (o / open
+		:advmod (s2 / sometimes)
+		:advmod (s / so)
+		:nsubj (y3 / you)
+		:obj (w2 / window
+			:poss (y2 / you))
+		:obl (p2 / pleasure
+			:det (t2 / that))
+		:advcl (l2 / look-02
+			:obl (s4 / sky)
+			:compound (u / up)
+			:ARG0 (y5 / you)
+			:mark (a3 / as))
+		:aux (w3 / will)
+		:conj (a4 / astonished
+			:advcl (s3 / see-04
+				:ARG1 (y / you)
+				:xcomp (l / laugh-02)
+				:mark (t / to))
+			:advmod (p / properly)
+			:aux (w / will)
+			:nsubj (f / friend
+				:poss (y4 / you)))))

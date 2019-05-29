@@ -1,0 +1,23 @@
+(a / and
+	:op1 (m2 / matter
+		:advmod (n2 / not)
+		:acl (t4 / try-04
+			:xcomp (u2 / understand-01
+				:ccomp (g / go-14
+					:advmod (w2 / why)
+					:obl (t5 / trouble
+						:amod (m / much
+							:advmod (s / so)))
+					:advcl (g2 / grow-03
+						:mark (t6 / to)
+						:obj (t7 / thorn
+							:acl (u / use
+								:det (a2 / any)
+								:advmod (n / never)
+								:poss (t3 / they)
+								:nsubj (w / which))))
+					:nsubj (f / flower))
+				:mark (t / to))
+			:mark (t2 / to))
+		:nsubj (i / it)
+		:poss (c / consequence)))

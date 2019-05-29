@@ -1,0 +1,4 @@
+(b / box
+	:nsubj (t / this)
+	:advmod (o / only)
+	:poss (h / he))

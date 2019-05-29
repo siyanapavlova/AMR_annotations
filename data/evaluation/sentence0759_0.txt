@@ -1,0 +1,13 @@
+(b / but
+	:op1 (s / say-01
+		:advmod (n / nevertheless)
+		:obl (h2 / himself)
+		:ccomp (b2 / be-02
+			:advmod (w / well)
+			:ccomp (a / absurd
+				:nsubj (m2 / man
+					:det (t2 / this))
+				:mark (t / that))
+			:aux (m / may)
+			:expl (i / it))
+		:ARG0 (h / he)))

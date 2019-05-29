@@ -1,0 +1,7 @@
+(r / retort
+	:nsubj (b2 / businessman)
+	:ccomp (b / belong
+		:obl (w / whom)
+		:nsubj (t / they)
+		:aux (d / do))
+	:advmod (p / peevishly))

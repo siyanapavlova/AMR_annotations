@@ -1,0 +1,23 @@
+(t4 / toss-01
+	:ARG1 (h / head
+		:poss (h4 / he))
+	:advmod (g / gently)
+	:ccomp (t5 / true
+		:expl (i / it)
+		:ccomp (c / come
+			:advmod (a / away
+				:advmod (f / far
+					:advmod (v / very)))
+			:nsubj (y / you)
+			:aux (c2 / can)
+			:aux (h2 / have)
+			:mark (t3 / that)
+			:advmod (n / not)
+			:mark (t / that)))
+	:ARG0 (h3 / he)
+	:advcl (t2 / take-17
+		:mark (w / without)
+		:obl (p / plane
+			:poss (i2 / i))
+		:obj (e / eye
+			:poss (h5 / he))))

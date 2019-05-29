@@ -1,0 +1,5 @@
+(w / who
+	:nsubj (y / you)
+	:acl (d / demand
+		:nsubj (h / he))
+	:appos (t / thunderstruck))

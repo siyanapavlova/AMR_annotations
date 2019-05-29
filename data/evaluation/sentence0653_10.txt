@@ -1,0 +1,4 @@
+(t / three
+	:conj (m / make-06
+		:nsubj (t2 / two)
+		:ARG1 (f / five)))

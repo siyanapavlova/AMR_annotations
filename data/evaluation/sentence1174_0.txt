@@ -1,0 +1,14 @@
+(e / essential
+	:conj (p / prince
+		:amod (l / little)
+		:acl (r2 / repeat))
+	:conj (i / invisible
+		:obl (e2 / eye))
+	:nsubj (w2 / what)
+	:advcl (s / sure
+		:nsubj (h / he)
+		:mark (s2 / so
+			:fixed (t2 / that))
+		:aux (w / would)
+		:xcomp (r / remember-01
+			:mark (t / to))))

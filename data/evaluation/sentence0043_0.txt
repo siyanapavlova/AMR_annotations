@@ -1,0 +1,13 @@
+(i2 / imagine
+	:nsubj (y / you)
+	:obl (s / sunrise)
+	:advcl (a2 / awaken
+		:nsubj (i / i)
+		:mark (w / when)
+		:obl (v / voice
+			:amod (o / odd)
+			:amod (l / little)))
+	:aux (c / can)
+	:advmod (t / thus)
+	:obj (a / amazement
+		:poss (i3 / i)))

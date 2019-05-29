@@ -1,0 +1,10 @@
+(a / and
+	:op1 (s / say-01
+		:ARG0 (h2 / he)
+		:advcl (c / cry
+			:aux (b / be)
+			:mark (b2 / because)
+			:nsubj (h / he))
+		:obj (n / nothing
+			:amod (m / more))
+		:advmod (t / too)))

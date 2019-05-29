@@ -1,0 +1,12 @@
+(a2 / answer-01
+	:conj (t / thing
+		:amod (s2 / same)
+		:advmod (n / not)
+		:nsubj (t2 / they)
+		:poss (p / people
+			:amod (d / different)))
+	:ARG0 (h2 / he)
+	:ccomp (h / have-08
+		:ARG1 (s / star)
+		:ARG0 (m / man
+			:det (a / all))))

@@ -1,0 +1,7 @@
+(a2 / and
+	:op1 (b / be-02
+		:nsubj (s / sweetness
+			:poss (l / laughter
+				:poss (s2 / star
+					:det (a / all))))
+		:expl (t / there)))

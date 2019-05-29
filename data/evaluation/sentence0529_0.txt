@@ -1,0 +1,5 @@
+(a / answer-01
+	:ARG0 (t / that
+		:det (a2 / all
+			:goeswith (o / over)))
+	:ARG0 (k / king))

@@ -1,0 +1,15 @@
+(a3 / and
+	:op1 (l / love
+		:xcomp (w2 / watch
+			:mark (t2 / to)
+			:obj (s / star
+				:det (a / all))
+			:obl (h / heaven))
+		:advmod (s2 / so)
+		:parataxis (f / friend
+			:advmod (a2 / all)
+			:nsubj (t / they)
+			:poss (y2 / you)
+			:aux (w3 / will))
+		:nsubj (y / you)
+		:aux (w / will)))

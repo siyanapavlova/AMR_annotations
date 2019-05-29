@@ -1,0 +1,7 @@
+(h2 / have-09
+	:advmod (n / nevertheless)
+	:ARG1 (q / question
+		:amod (m / more)
+		:det (s2 / some))
+	:advmod (s / still)
+	:ARG0 (h / he))

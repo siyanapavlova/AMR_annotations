@@ -1,0 +1,5 @@
+(d / disarrang
+	:nsubj (p / petal
+		:poss (i / i))
+	:advmod (s / still)
+	:det (a / all))

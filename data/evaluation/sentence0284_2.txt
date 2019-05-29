@@ -1,0 +1,11 @@
+(s / say-01
+	:ARG0 (y / you)
+	:ccomp (d / day
+		:nummod (o / one))
+	:obl (i2 / i)
+	:ccomp (s2 / see-05
+		:obj (s3 / sunset
+			:nummod (f2 / forty
+				:poss (t / time
+					:nummod (f / four))))
+		:ARG0 (i / i)))

@@ -1,0 +1,5 @@
+(s / say-01
+	:ccomp (w / who
+		:nsubj (y / you))
+	:ARG0 (p / prince
+		:amod (l / little)))

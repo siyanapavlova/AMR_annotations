@@ -1,0 +1,2 @@
+(m / morning
+	:amod (g / good))

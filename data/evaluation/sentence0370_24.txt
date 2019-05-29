@@ -1,0 +1,15 @@
+(h / have-05
+	:ARG1 (r2 / ring
+		:nummod (o / one)
+		:poss (p / petal)
+		:advmod (o2 / only))
+	:parataxis (t3 / trouble
+		:poss (n / nobody)
+		:nsubj (t2 / they))
+	:ARG0 (t / they)
+	:parataxis (t5 / take-04
+		:obl (a / all)
+		:ARG0 (t4 / they)
+		:ARG1 (r / room
+			:det (n2 / no))
+		:compound (u / up)))

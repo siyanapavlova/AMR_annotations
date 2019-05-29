@@ -1,0 +1,8 @@
+(l / let-05
+	:ARG1 (t / tool
+		:poss (i3 / i))
+	:aux (h2 / have)
+	:xcomp (d / drop
+		:obl (h / hand
+			:poss (i / i)))
+	:ARG0 (i2 / i))

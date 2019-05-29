@@ -1,0 +1,6 @@
+(s / say-01
+	:ARG0 (p / prince
+		:amod (l / little))
+	:ccomp (e / excuse
+		:obj (i / i)
+		:discourse (p2 / please)))

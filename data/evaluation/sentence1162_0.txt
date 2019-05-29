@@ -1,0 +1,7 @@
+(f / fox
+	:advmod (o2 / only)
+	:poss (f2 / fox
+		:amod (o / other)
+		:nummod (t / thousand
+			:nummod (h / hundred)))
+	:nsubj (h2 / he))

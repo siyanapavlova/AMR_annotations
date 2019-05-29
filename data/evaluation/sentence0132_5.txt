@@ -1,0 +1,8 @@
+(w / want-01
+	:advmod (w2 / where)
+	:aux (d / do)
+	:ARG0 (y / you)
+	:xcomp (t / take-01
+		:mark (t2 / to)
+		:ARG1 (s / sheep
+			:poss (y2 / you))))

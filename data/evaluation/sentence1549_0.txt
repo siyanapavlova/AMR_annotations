@@ -1,0 +1,3 @@
+(l / look-09
+	:obl (s / sky)
+	:compound (u / up))

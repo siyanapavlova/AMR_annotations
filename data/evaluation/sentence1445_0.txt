@@ -1,0 +1,5 @@
+(g / guide
+	:obl (s2 / some
+		:acl (t / traveler
+			:nsubj (w / who)))
+	:nsubj (s / star))

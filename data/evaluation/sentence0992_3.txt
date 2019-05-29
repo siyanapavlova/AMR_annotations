@@ -1,0 +1,8 @@
+(p / prince
+	:conj (m / meet-05
+		:obl (f / flower
+			:advmod (o2 / only)
+			:nummod (o / one)))
+	:acl (c / cross
+		:obj (d / desert))
+	:amod (l / little))

@@ -1,0 +1,10 @@
+(g / go-06
+	:compound (o / off)
+	:ARG0 (t2 / these)
+	:obl (s / sleep)
+	:aux (w / would)
+	:advcl (s2 / set-14
+		:ARG1 (l / lamps
+			:poss (t / they))
+		:aux (h / have)
+		:advmod (a / alight)))

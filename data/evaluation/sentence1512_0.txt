@@ -1,0 +1,3 @@
+(r / responsible
+	:obl (s / she)
+	:nsubj (i / i))

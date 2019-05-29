@@ -1,0 +1,19 @@
+(k / know
+	:advmod (e3 / ever)
+	:nsubj (o2 / one
+		:det (n2 / no))
+	:parataxis (h3 / have-11
+		:advmod (e / ever)
+		:ARG0 (o / one
+			:det (n / no))
+		:advmod (p / perhaps)
+		:acl (l / look-01
+			:advmod (e2 / even)
+			:obl (i2 / it)))
+	:aux (h2 / have)
+	:ccomp (f / find-01
+		:mark (t / to)
+		:advmod (h / how)
+		:ARG1 (i / it))
+	:advcl (s / sure
+		:mark (t2 / to)))

@@ -1,0 +1,4 @@
+(a / amusing
+	:nsubj (t / that)
+	:advmod (s / so)
+	:aux (w / will))

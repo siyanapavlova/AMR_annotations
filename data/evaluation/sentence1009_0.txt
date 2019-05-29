@@ -1,0 +1,6 @@
+(a / and
+	:op1 (u / use
+		:obj (v / volcano
+			:compound (e / extinct))
+		:obl (f / footstool)
+		:nsubj (h / he)))

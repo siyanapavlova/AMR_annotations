@@ -1,0 +1,11 @@
+(a3 / and
+	:op1 (d / dare-01
+		:ARG0 (i / i)
+		:advmod (n2 / not)
+		:ccomp (a2 / ask-02
+			:iobj (h / he)
+			:obj (q / question
+				:amod (m / more)
+				:det (a / any)))
+		:aux (d2 / do)
+		:advmod (n / now)))

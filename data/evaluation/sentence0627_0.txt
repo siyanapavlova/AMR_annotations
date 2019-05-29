@@ -1,0 +1,9 @@
+(a2 / and
+	:op1 (m2 / man
+		:amod (i / intelligent
+			:advmod (m / most))
+		:amod (d / dress
+			:conj (r2 / richest)
+			:amod (b / best))
+		:poss (p / planet
+			:det (t2 / this))))

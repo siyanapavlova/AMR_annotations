@@ -1,0 +1,5 @@
+(a2 / and
+	:op1 (h2 / have
+		:nsubj (w2 / who)
+		:obj (n / need
+			:poss (s2 / sheep))))

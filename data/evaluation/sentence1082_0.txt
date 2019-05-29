@@ -1,0 +1,7 @@
+(t / think-01
+	:ccomp (t2 / tame
+		:nsubj (s / she)
+		:aux (h / have)
+		:mark (t3 / that)
+		:obj (i2 / i))
+	:ARG0 (i / i))

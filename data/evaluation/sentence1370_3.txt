@@ -1,0 +1,8 @@
+(s2 / see-04
+	:advcl (b / begin
+		:mark (w2 / where)
+		:obl (s / sand)
+		:nsubj (t / track
+			:poss (i / i)))
+	:ARG0 (y / you)
+	:aux (w / will))

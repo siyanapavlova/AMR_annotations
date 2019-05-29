@@ -1,0 +1,7 @@
+(r / raise
+	:obj (h2 / hat
+		:poss (h / he))
+	:nsubj (m / man
+		:amod (c / conceit))
+	:obl (s / salute
+		:amod (m2 / modest)))

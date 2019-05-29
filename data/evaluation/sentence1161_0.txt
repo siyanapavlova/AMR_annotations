@@ -1,0 +1,8 @@
+(f / fox
+	:advcl (k / know
+		:obj (h / he)
+		:nsubj (i / i)
+		:advmod (f2 / first)
+		:mark (w / when))
+	:poss (i2 / i)
+	:nsubj (y / you))

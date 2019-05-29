@@ -1,0 +1,5 @@
+(a / and
+	:op1 (h / have-05
+		:ARG0 (i / i)
+		:ARG1 (b / box
+			:poss (s / sheep))))

@@ -1,0 +1,6 @@
+(s / say-01
+	:ARG0 (i / i)
+	:ccomp (f / frighten-01
+		:obl (l / little)
+		:ARG0 (i2 / i))
+	:obl (h / he))

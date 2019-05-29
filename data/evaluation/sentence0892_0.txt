@@ -1,0 +1,6 @@
+(t / thing
+	:poss (p / planet
+		:poss (i / i))
+	:amod (b / beautiful
+		:advmod (m / most))
+	:nsubj (f / flower))

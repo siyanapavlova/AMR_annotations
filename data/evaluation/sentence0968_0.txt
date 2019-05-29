@@ -1,0 +1,4 @@
+(l / lonely
+	:obl (d / desert)
+	:nsubj (i / it)
+	:obl (l2 / little))

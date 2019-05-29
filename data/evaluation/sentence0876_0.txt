@@ -1,0 +1,6 @@
+(b / but
+	:op1 (c / come
+		:nsubj (y / you)
+		:nsubj (y2 / you)
+		:advmod (a / away
+			:advmod (f / far))))

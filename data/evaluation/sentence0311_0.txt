@@ -1,0 +1,7 @@
+(r / reassure
+	:advmod (b / best
+		:advmod (a / as)
+		:acl (c / can
+			:nsubj (t3 / they)))
+	:obj (t2 / themselves)
+	:nsubj (t / they))

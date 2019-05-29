@@ -1,0 +1,8 @@
+(a / and
+	:op1 (s4 / same
+		:aux (c / can)
+		:obl (i / i)
+		:advcl (s2 / somewhere
+			:mark (i2 / if))
+		:nsubj (n / nothing
+			:poss (u / universe))))

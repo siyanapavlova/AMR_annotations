@@ -1,0 +1,8 @@
+(c / come
+	:advmod (a / already)
+	:advmod (b / back)
+	:parataxis (d / demand
+		:obj (p / prince
+			:amod (l / little)))
+	:aux (b2 / be)
+	:nsubj (t / they))

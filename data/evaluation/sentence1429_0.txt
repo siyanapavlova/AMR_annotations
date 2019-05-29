@@ -1,0 +1,6 @@
+(r / remember-01
+	:ccomp (b / be-02
+		:advmod (g / good
+			:advmod (h / how))
+		:nsubj (i / it))
+	:ARG0 (y / you))

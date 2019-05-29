@@ -1,0 +1,7 @@
+(b / but
+	:op1 (a / answer-01
+		:ARG0 (h / he)
+		:aux (d / do)
+		:advmod (n / not)
+		:ARG2 (p / plea
+			:poss (i / i))))

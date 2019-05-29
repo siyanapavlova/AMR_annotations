@@ -1,0 +1,2 @@
+(b / but
+	:op1 (w / wind))

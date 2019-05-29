@@ -1,0 +1,24 @@
+(l / live-01
+	:advmod (a4 / alone)
+	:advcl (h / have-11
+		:ARG0 (i5 / i)
+		:mark (u / until)
+		:obl (d / desert
+			:poss (s / sahara))
+		:obj (a / accident
+			:poss (p / plane
+				:poss (i3 / i))))
+	:ARG0 (i2 / i)
+	:advmod (s3 / so)
+	:ARG1 (l2 / life
+		:poss (i / i))
+	:advmod (a3 / ago
+		:obl (y / year
+			:nummod (s2 / six)))
+	:obl (a2 / anyone
+		:ARG1-of (t2 / talk-01
+			:advmod (r / really)
+			:ARG0 (i4 / i)
+			:aux (c / could)
+			:obl (t / to))
+		:polarity (- / -)))

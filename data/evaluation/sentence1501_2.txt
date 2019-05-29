@@ -1,0 +1,5 @@
+(l / look-04
+	:ARG0 (i / i)
+	:aux (s2 / shall)
+	:obl (s / star)
+	:advmod (t / too))

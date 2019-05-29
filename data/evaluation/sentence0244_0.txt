@@ -1,0 +1,9 @@
+(w / work
+	:nsubj (i / it)
+	:appos (p / prince
+		:acl (a / add)
+		:amod (l / little))
+	:conj (e / easy
+		:advmod (v2 / very))
+	:amod (t / tedious
+		:advmod (v / very)))

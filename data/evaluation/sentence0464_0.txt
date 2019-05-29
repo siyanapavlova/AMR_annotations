@@ -1,0 +1,7 @@
+(w / want-01
+	:xcomp (a / any
+		:advmod (m / more))
+	:aux (d / do)
+	:obj (i2 / it)
+	:advmod (n / not)
+	:ARG0 (i / i))

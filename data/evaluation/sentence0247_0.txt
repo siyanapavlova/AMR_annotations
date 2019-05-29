@@ -1,0 +1,14 @@
+(a / add
+	:advmod (s / sometimes)
+	:nsubj (h / he)
+	:ccomp (b / be-02
+		:nsubj (h2 / harm
+			:det (n / no))
+		:expl (t / there)
+		:advcl (p / put
+			:mark (i / in)
+			:obj (p2 / piece
+				:poss (w / work))
+			:compound (o / off)
+			:obl (d / day
+				:det (a2 / another)))))

@@ -1,0 +1,14 @@
+(s2 / say-01
+	:ARG0 (h2 / he)
+	:ccomp (s / sire)
+	:obl (h / he)
+	:ccomp (b / beg
+		:ccomp (e / excuse
+			:mark (t / that)
+			:aux (w / will)
+			:xcomp (a / ask-03
+				:poss (i2 / i)
+				:iobj (y / you)
+				:ARG1 (q / question))
+			:nsubj (y2 / you))
+		:nsubj (i / i)))

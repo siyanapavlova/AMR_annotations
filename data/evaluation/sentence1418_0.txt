@@ -1,0 +1,2 @@
+(m / man
+	:amod (l / little))

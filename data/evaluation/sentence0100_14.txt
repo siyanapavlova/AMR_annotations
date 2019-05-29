@@ -1,0 +1,9 @@
+(b / bent-06
+	:ccomp (s / small
+		:ccomp (l / look-01)
+		:advmod (s2 / so
+			:polarity (- / -)))
+	:obj (h / head
+		:poss (h2 / he))
+	:obl (d / draw-01)
+	:ARG0 (h3 / he))

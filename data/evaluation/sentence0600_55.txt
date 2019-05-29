@@ -1,0 +1,9 @@
+(c / call-16
+	:ccomp (m / make-18
+		:xcomp (a / ambassador
+			:poss (i / i))
+		:ARG0 (i2 / i)
+		:obj (y / you))
+	:advmod (h / hastily)
+	:compound (o / out)
+	:ARG0 (k / king))

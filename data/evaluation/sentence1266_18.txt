@@ -1,0 +1,6 @@
+(a2 / and
+	:op1 (s / set-14
+		:xcomp (w / walk
+			:obj (m / more
+				:advmod (o3 / once)))
+		:compound (o / out)))

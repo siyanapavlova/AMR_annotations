@@ -1,0 +1,7 @@
+(r / reply
+	:nsubj (p / prince
+		:amod (l / little))
+	:advmod (h / however)
+	:advmod (e / exactly)
+	:advmod (a / again
+		:advmod (o / once)))

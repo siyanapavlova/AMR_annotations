@@ -1,0 +1,14 @@
+(a / and
+	:op1 (a2 / add
+		:advmod (l3 / later
+			:obl (l / little))
+		:nsubj (y / you)
+		:parataxis (l2 / love
+			:advcl (s2 / sad
+				:nsubj (o2 / one)
+				:advmod (s / so)
+				:mark (w / when))
+			:obj (s3 / sunset)
+			:nsubj (o / one))
+		:ccomp (k / know
+			:nsubj (y2 / you))))

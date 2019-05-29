@@ -1,0 +1,11 @@
+(g / go-07
+	:nsubj (i3 / i)
+	:advmod (j / just)
+	:aux (b / be)
+	:xcomp (l / look-01
+		:obl (i2 / it)
+		:advcl (s / speak-01
+			:mark (w / when)
+			:obl (i / i)
+			:ARG0 (y / you))
+		:mark (t / to)))

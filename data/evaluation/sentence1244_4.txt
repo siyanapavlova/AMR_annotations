@@ -1,0 +1,11 @@
+(k / know
+	:ccomp (i3 / impossible
+		:csubj (c / cross
+			:mark (t / to))
+		:expl (i / it)
+		:mark (t2 / that))
+	:ccomp (e / examine-01
+		:ARG2 (h / him))
+	:advmod (w / well
+		:advmod (v / very))
+	:nsubj (i2 / i))

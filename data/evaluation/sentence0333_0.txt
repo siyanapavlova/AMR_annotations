@@ -1,0 +1,5 @@
+(s / smell-02
+	:obj (f / flower)
+	:aux (h2 / have)
+	:advmod (n / never)
+	:nsubj (h / he))

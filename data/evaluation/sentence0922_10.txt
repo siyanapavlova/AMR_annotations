@@ -1,0 +1,8 @@
+(m / make-06
+	:nsubj (t / that)
+	:ARG1 (s / spectacle
+		:amod (s3 / splendid))
+	:aux (w / would)
+	:obl (d / distance
+		:amod (s4 / slight)
+		:aux (s2 / see)))

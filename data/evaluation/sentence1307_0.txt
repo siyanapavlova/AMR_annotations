@@ -1,0 +1,11 @@
+(a / and
+	:op1 (f2 / find
+		:obj (w2 / what
+			:acl (l3 / look
+				:aux (b / be)
+				:nsubj (t / they)
+				:obl (f / for)))
+		:advmod (n / not)
+		:obl (i / it)
+		:nsubj (t2 / they)
+		:aux (d / do)))

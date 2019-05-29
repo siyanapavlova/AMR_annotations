@@ -1,0 +1,5 @@
+(s / say-01
+	:ARG0 (i / i)
+	:obl (h / he)
+	:ccomp (a / afraid
+		:nsubj (y / you)))

@@ -1,0 +1,4 @@
+(t / there
+	:advmod (n / now)
+	:parataxis (a / all
+		:nsubj (t2 / that)))

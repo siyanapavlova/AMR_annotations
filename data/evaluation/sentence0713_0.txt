@@ -1,0 +1,11 @@
+(s / say-01
+	:obl (h / himself)
+	:ARG0 (m / man
+		:det (t2 / this))
+	:ARG0 (p2 / prince
+		:amod (l2 / little))
+	:ARG0 (r / reasons
+		:nmod (l / little
+			:poss (t / tippler
+				:poss (i / i)
+				:amod (p / poor)))))

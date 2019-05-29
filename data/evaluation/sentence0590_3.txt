@@ -1,0 +1,5 @@
+(o2 / one
+	:nsubj (h / he)
+	:acl (h2 / have-03
+		:ARG0 (w / we))
+	:amod (o / only))

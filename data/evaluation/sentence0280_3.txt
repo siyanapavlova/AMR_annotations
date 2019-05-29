@@ -1,0 +1,14 @@
+(g / go-14
+	:obl (n / noon
+		:advmod (r / right))
+	:obl (s / sunset)
+	:nsubj (y2 / you)
+	:advmod (s2 / straight)
+	:advcl (f2 / fly
+		:aux (c2 / could)
+		:mark (i / if)
+		:obl (f / france)
+		:nsubj (y / you)
+		:obl (m / minute
+			:nummod (o / one)))
+	:aux (c / could))

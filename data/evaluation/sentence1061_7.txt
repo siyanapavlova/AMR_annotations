@@ -1,0 +1,3 @@
+(a / and
+	:op1 (h / hunt
+		:nsubj (t2 / they)))

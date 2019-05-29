@@ -1,0 +1,4 @@
+(m / mean
+	:aux (d / do)
+	:nsubj (t / that)
+	:obj (w / whatever))

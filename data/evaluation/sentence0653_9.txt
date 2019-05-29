@@ -1,0 +1,4 @@
+(t / three
+	:conj (m / make-01
+		:ARG0 (t2 / two)
+		:obj (f / five)))

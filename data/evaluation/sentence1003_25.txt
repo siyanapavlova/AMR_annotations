@@ -1,0 +1,10 @@
+(h / have-09
+	:conj (m / make-01
+		:ARG0 (t2 / that)
+		:ARG1 (l / life
+			:poss (t3 / they))
+		:xcomp (d / difficult
+			:advmod (v / very)))
+	:ARG1 (r / root
+		:det (n / no))
+	:ARG0 (t / they))

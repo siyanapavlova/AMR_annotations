@@ -1,0 +1,25 @@
+(l / look
+	:obl (p / pale
+		:poss (h5 / he))
+	:nsubj (i3 / i)
+	:obl (m2 / moonlight)
+	:conj (f / forehead
+		:ccomp (a / and
+			:op (c / close
+				:obj (w2 / what
+					:acl (s / see
+						:advmod (h4 / here)
+						:nsubj (i / i)))
+				:obj (e / eyes)
+				:poss (h2 / he))
+			:op (s2 / say
+				:nsubj (i2 / i)
+				:obl (m / myself))
+			:op (l2 / lock
+				:poss (h / hair
+					:acl (t / tremble
+						:obl (w / wind)
+						:nsubj (t2 / that)))
+				:poss (h3 / he))))
+	:conj (n / nothing
+		:conj (s3 / shell)))

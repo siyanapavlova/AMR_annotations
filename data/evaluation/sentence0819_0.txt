@@ -1,0 +1,12 @@
+(o2 / one
+	:nsubj (h / he)
+	:acl (s / seem-01
+		:advmod (a / all)
+		:nsubj (w / who)
+		:advmod (n2 / not)
+		:obl (i / i)
+		:aux (d / do)
+		:xcomp (r / ridiculous))
+	:poss (t / they)
+	:amod (o / only)
+	:advmod (n / nevertheless))

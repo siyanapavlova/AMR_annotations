@@ -1,0 +1,5 @@
+(b / but
+	:op1 (s / start-03
+		:nsubj (w / we)
+		:xcomp (w2 / walk)
+		:advmod (n / nevertheless)))

@@ -1,0 +1,3 @@
+(m / magnificent
+	:aux (w / would)
+	:nsubj (i / it))

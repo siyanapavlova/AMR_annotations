@@ -1,0 +1,14 @@
+(w / waste
+	:nsubj (t3 / they)
+	:obj (t6 / time
+		:poss (t7 / they))
+	:conj (c / cry
+		:advcl (t5 / take-17
+			:mark (i2 / if)
+			:obl (t / they)
+			:obj (i3 / it)
+			:nsubj (a / anybody)
+			:advmod (a2 / away))
+		:nsubj (t4 / they))
+	:obl (d / doll
+		:compound (r / rag)))

@@ -1,0 +1,7 @@
+(l2 / larger
+	:obl (t2 / time
+		:nummod (t / ten))
+	:obl (o / one
+		:amod (l / last))
+	:nsubj (p / planet
+		:amod (s / sixth)))

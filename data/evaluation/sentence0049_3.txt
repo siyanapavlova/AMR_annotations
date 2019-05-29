@@ -1,0 +1,5 @@
+(l / look-02
+	:obl (i2 / i
+		:advmod (a / all
+			:advmod (c / carefully)))
+	:ARG0 (i / i))

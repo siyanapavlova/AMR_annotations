@@ -1,0 +1,19 @@
+(s / say-01
+	:ARG0 (s3 / she)
+	:obl (d / day
+		:nummod (o / one)
+		:poss (i / instance)
+		:advcl (s4 / speak-01
+			:ARG0 (s5 / she)
+			:mark (w / when)
+			:obl (t / thorn
+				:poss (s2 / she)
+				:nummod (f / four))
+			:aux (b / be)))
+	:ccomp (l / let-05
+		:xcomp (c / come
+			:obl (c2 / claw
+				:poss (t2 / they)))
+		:ARG1 (t3 / tigers))
+	:obl (p / prince
+		:amod (l2 / little)))

@@ -1,0 +1,9 @@
+(l2 / last-01
+	:ARG1 (m / minute
+		:advmod (h / here)
+		:nummod (o2 / one)
+		:advmod (o / only))
+	:nsubj (d / day)
+	:advcl (l / live-02
+		:advmod (w / where)
+		:nsubj (y / you)))

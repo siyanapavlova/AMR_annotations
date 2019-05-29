@@ -1,0 +1,13 @@
+(a2 / and
+	:op1 (s / split
+		:obj (i2 / it)
+		:nsubj (t2 / they)
+		:obl (p2 / piece)
+		:advcl (a / and
+			:op (m / many
+				:nsubj (b / baobab)
+				:advmod (t / too))
+			:op (s2 / small
+				:advmod (t3 / too)
+				:mark (i / if)
+				:nsubj (p / planet)))))

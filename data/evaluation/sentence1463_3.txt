@@ -1,0 +1,19 @@
+(a / as
+	:nsubj (i / it)
+	:advcl (g / give-14
+		:obl (p / place
+			:poss (s / star))
+		:mark (i3 / if)
+		:iobj (y / you)
+		:nsubj (i2 / i)
+		:aux (h2 / have)
+		:obj (n / number
+			:poss (b / bell
+				:amod (l / little)
+				:acl (k / know
+					:ccomp (l2 / laugh-02
+						:mark (t / to)
+						:advmod (h / how))
+					:nsubj (t2 / that)))
+			:amod (g2 / great)))
+	:aux (w / will))

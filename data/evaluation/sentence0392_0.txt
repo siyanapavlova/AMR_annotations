@@ -1,0 +1,6 @@
+(a / and
+	:op1 (b / bear-06
+		:nsubj (i / i)
+		:obl (m / moment
+			:amod (s2 / same))
+		:obl (s / sun)))

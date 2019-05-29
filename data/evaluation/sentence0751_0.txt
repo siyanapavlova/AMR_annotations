@@ -1,0 +1,7 @@
+(b / but
+	:op1 (f / find-02
+		:ARG0 (h / he)
+		:ARG1 (n / nothing
+			:acl (s / say-01
+				:obl (a / answer)
+				:mark (t / to)))))

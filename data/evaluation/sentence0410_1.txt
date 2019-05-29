@@ -1,0 +1,6 @@
+(b / but
+	:op1 (i / interrupt-01
+		:ARG0 (s / she)
+		:obl (p / point
+			:det (t / that))
+		:ARG1 (h / herself)))

@@ -1,0 +1,14 @@
+(u / understand-01
+	:advmod (n / not)
+	:ARG0 (i3 / i)
+	:ccomp (i2 / important
+		:expl (i / it)
+		:advmod (s3 / so)
+		:advmod (w / why)
+		:csubj (e / eat
+			:mark (t / that)
+			:nsubj (s2 / sheep)
+			:aux (s / should)
+			:obj (b / bushe
+				:amod (l / little))))
+	:aux (d / do))

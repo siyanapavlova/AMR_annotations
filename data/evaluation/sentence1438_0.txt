@@ -1,0 +1,6 @@
+(p2 / prince
+	:discourse (a / ah)
+	:amod (l2 / little)
+	:appos (p / prince
+		:amod (l / little)
+		:amod (d / dear)))

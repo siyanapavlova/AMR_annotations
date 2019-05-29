@@ -1,0 +1,5 @@
+(a / and
+	:op1 (s2 / see-01
+		:obj (n / nothing)
+		:advmod (s / still)
+		:nsubj (i / i)))

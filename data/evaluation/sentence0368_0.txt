@@ -1,0 +1,8 @@
+(l / learn-01
+	:xcomp (k / know
+		:mark (t2 / to)
+		:obj (f / flower
+			:det (t / this))
+		:advmod (b / better))
+	:advmod (s / soon)
+	:ARG0 (i / i))

@@ -1,0 +1,9 @@
+(a / and
+	:op1 (d2 / do-02
+		:obl (m / million
+			:poss (s / star)
+			:amod (h / hundr
+				:obl (f / five)))
+		:aux (d / do)
+		:ARG1 (w / what)
+		:ARG0 (y / you)))

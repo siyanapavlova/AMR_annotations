@@ -1,0 +1,6 @@
+(f2 / far
+	:advmod (t / too)
+	:obl (t2 / that)
+	:advmod (a / away)
+	:nsubj (f / france)
+	:advmod (u / unfortunately))

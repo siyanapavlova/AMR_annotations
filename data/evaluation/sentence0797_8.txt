@@ -1,0 +1,10 @@
+(g / go-08
+	:advcl (t2 / talk-02
+		:advmod (t / together)
+		:mark (w2 / while)
+		:ARG0 (w / we)
+		:aux (b / be)
+		:aux (h / have))
+	:advmod (b2 / by)
+	:aux (h2 / have)
+	:nsubj (m / month))

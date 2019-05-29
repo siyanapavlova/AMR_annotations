@@ -1,0 +1,7 @@
+(b / but
+	:op1 (p / plike
+		:aux (c / can)
+		:advmod (n / not)
+		:obj (s / star)
+		:obl (h / heaven)
+		:nsubj (y / you)))

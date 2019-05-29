@@ -1,0 +1,13 @@
+(a2 / afraid
+	:parataxis (g / go
+		:nsubj (s / she)
+		:advmod (o / on))
+	:advmod (n / not)
+	:nsubj (i2 / i)
+	:advmod (a / at)
+	:advmod (a3 / all)
+	:obl (t / tiger)
+	:conj (h / have
+		:obj (h2 / horror
+			:poss (d / draft))
+		:nsubj (i / i)))

@@ -1,0 +1,3 @@
+(b / but
+	:op1 (b2 / blind
+		:nsubj (e / eyes)))

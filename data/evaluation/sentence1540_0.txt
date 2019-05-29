@@ -1,0 +1,7 @@
+(s2 / say-01
+	:obl (m / myself)
+	:advmod (n / not
+		:advmod (s / surely))
+	:obl (t / time
+		:nummod (o / one))
+	:ARG0 (i / i))

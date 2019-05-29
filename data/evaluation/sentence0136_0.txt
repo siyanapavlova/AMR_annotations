@@ -1,0 +1,9 @@
+(b / but
+	:op1 (s2 / seem-01
+		:nsubj (p / prince
+			:amod (l / little))
+		:xcomp (s / shocked
+			:ccomp (t / tie
+				:obj (h / he))
+			:obl (o / offer
+				:det (t2 / this)))))

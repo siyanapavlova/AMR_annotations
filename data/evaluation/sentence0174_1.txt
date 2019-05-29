@@ -1,0 +1,25 @@
+(s / say-01
+	:aux (m / might)
+	:ARG0 (y / you)
+	:advmod (s3 / so
+		:advmod (j / just))
+	:obl (t3 / they)
+	:ARG0 (p / proof
+		:acl (b3 / be-02
+			:mark (t / that)
+			:ccomp (c / charming
+				:nsubj (h / he)
+				:aux (b2 / be)
+				:mark (t2 / that))
+			:ccomp (a / and
+				:op (l3 / look-04
+					:obl (s2 / sheep)
+					:mark (t4 / that)
+					:ARG0 (h3 / he)
+					:aux (b / be))
+				:op (l / laugh-02
+					:ARG0 (h2 / he)
+					:mark (t5 / that)))
+			:nsubj (p2 / prince
+				:acl (e / exist)
+				:amod (l2 / little)))))

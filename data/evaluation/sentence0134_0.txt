@@ -1,0 +1,2 @@
+(s / so
+	:nsubj (t / that))

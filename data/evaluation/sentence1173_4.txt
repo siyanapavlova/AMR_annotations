@@ -1,0 +1,20 @@
+(a / and
+	:op1 (h / here
+		:parataxis (h2 / heart
+			:nsubj (i / it)
+			:advmod (o2 / only)
+			:acl (s3 / see-01
+				:nsubj (o / one)
+				:mark (t / that)
+				:aux (c / can)
+				:advmod (r / rightly)))
+		:parataxis (e2 / essential
+			:nsubj (w / what)
+			:advmod (i3 / invisible
+				:obl (e / eye)))
+		:advmod (n / now)
+		:conj (s / secret
+			:amod (s2 / simple
+				:advmod (v / very)))
+		:nsubj (s4 / secret
+			:poss (i2 / i))))

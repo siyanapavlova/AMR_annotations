@@ -1,0 +1,8 @@
+(a / and
+	:op1 (h / have-05
+		:advmod (l / longer
+			:advmod (n / no))
+		:ARG1 (s2 / second
+			:poss (r / repose)
+			:amod (s / single))
+		:ARG0 (i / i)))

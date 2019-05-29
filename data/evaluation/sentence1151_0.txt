@@ -1,0 +1,5 @@
+(s2 / say-01
+	:ARG0 (f / fox)
+	:ccomp (s / so
+		:nsubj (t / that)
+		:discourse (y / yes)))

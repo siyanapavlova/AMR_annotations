@@ -1,0 +1,5 @@
+(s / satisfied
+	:advmod (s2 / still)
+	:nsubj (p / prince
+		:amod (l / little))
+	:advmod (n / not))

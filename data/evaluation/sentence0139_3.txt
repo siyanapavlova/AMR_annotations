@@ -1,0 +1,10 @@
+(s2 / say-01
+	:ARG0 (i / i)
+	:ccomp (a / and
+		:op (g / get-04
+			:xcomp (l / lost))
+		:op (w2 / wander
+			:nsubj (h / he)
+			:compound (o / off)
+			:advmod (s / somewhere)
+			:aux (w / will))))

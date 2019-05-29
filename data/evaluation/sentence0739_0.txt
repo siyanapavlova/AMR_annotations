@@ -1,0 +1,10 @@
+(m / mean
+	:ccomp (w / write
+		:mark (t2 / that)
+		:obl (p / paper
+			:amod (l / little))
+		:obj (n / number
+			:poss (s / star
+				:poss (i / i)))
+		:nsubj (i2 / i))
+	:nsubj (t / that))

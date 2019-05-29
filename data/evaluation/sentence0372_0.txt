@@ -1,0 +1,18 @@
+(a / and
+	:op1 (w3 / watch
+		:aux (h2 / have)
+		:advmod (c / closely
+			:advmod (v / very))
+		:obl (s2 / sprout
+			:det (t / this)
+			:amod (s / small)
+			:acl (s3 / sprout
+				:nsubj (w2 / which)
+				:advmod (n / not)
+				:det (a2 / any)
+				:amod (s5 / small)
+				:amod (o2 / other)
+				:poss (p / planet
+					:poss (h / he))))
+		:nsubj (p2 / prince
+			:amod (l / little))))

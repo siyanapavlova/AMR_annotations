@@ -1,0 +1,9 @@
+(i / itself
+	:poss (w / water
+		:poss (i3 / its))
+	:nsubj (e / empty
+		:amod (o / ocean))
+	:mark (t / that)
+	:advmod (r2 / rarely
+		:advmod (v / very)
+		:nsubj (i2 / it)))

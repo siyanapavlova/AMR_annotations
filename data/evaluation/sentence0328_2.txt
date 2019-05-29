@@ -1,0 +1,10 @@
+(b / but
+	:op1 (g / go-05
+		:ARG0 (h / he)
+		:advmod (o / on)
+		:ccomp (m / mix
+			:advmod (t / together)
+			:nsubj (y / you)
+			:obj (e / everything)
+			:compound (u / up))
+		:advmod (r / relentlessly)))

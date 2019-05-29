@@ -1,0 +1,4 @@
+(m / make-05
+	:aux (h / have)
+	:obl (e / expert)
+	:nsubj (c / computation))

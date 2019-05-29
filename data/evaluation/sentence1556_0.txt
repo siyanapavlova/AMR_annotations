@@ -1,0 +1,8 @@
+(h / here
+	:nsubj (i / it)
+	:acl (a / appear
+		:conj (d / disappear)
+		:mark (t / that)
+		:nsubj (p / prince
+			:amod (l / little))
+		:obl (e / earth)))

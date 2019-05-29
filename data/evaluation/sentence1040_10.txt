@@ -1,0 +1,24 @@
+(a2 / and
+	:op1 (e / extinct
+		:nsubj (o / one
+			:poss (t / they))
+		:nsubj (a / and
+			:op (r / rose
+				:acl (c / come
+					:nsubj (t3 / that)
+					:advmod (u / up)
+					:obl (k / knee
+						:poss (i / i)))
+				:amod (c2 / common))
+			:op (v / volcanoe
+				:nummod (t2 / three)))
+		:parataxis (m2 / make-05
+			:advmod (n / not)
+			:ARG2 (p2 / prince
+				:amod (g / great
+					:advmod (v2 / very)))
+			:ARG2 (m / me)
+			:aux (d / do)
+			:ARG0 (t4 / that))
+		:advmod (p / perhaps)
+		:advmod (f / forever)))

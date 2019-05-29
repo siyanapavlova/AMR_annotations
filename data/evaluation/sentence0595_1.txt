@@ -1,0 +1,17 @@
+(s2 / say-01
+	:ARG0 (h / he)
+	:ccomp (a / able
+		:xcomp (g / give-16
+			:obj (o / order
+				:amod (r / reasonable))
+			:mark (t / to)
+			:iobj (i2 / i))
+		:nsubj (h2 / he)
+		:aux (s / should))
+	:advcl (w / wish
+		:xcomp (o2 / obeyed
+			:mark (t2 / to)
+			:advmod (p / promptly))
+		:mark (i / if)
+		:nsubj (m / majesty
+			:poss (y / you))))

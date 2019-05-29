@@ -1,0 +1,10 @@
+(c2 / clap
+	:obj (o / one
+		:poss (o2 / other))
+	:obj (m / man
+		:acl (d / direct
+			:obj (h2 / he)
+			:advmod (n / now))
+		:amod (c / conceit))
+	:obj (h / hand
+		:poss (y / you)))

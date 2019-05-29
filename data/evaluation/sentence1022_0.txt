@@ -1,0 +1,6 @@
+(r / repeat
+	:ccomp (s / say-01
+		:obl (t2 / they)
+		:ARG0 (o / one
+			:det (w / whatever)))
+	:nsubj (t / they))

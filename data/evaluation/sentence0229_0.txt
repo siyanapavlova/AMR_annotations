@@ -1,0 +1,11 @@
+(b / be-02
+	:obl (c / consequence)
+	:nsubj (s / seed
+		:amod (g2 / good)
+		:poss (p2 / plant
+			:amod (g / good)))
+	:conj (s2 / seed
+		:amod (b2 / bad)
+		:poss (p / plant
+			:amod (b3 / bad)))
+	:expl (t / there))

@@ -1,0 +1,7 @@
+(c / call-10
+	:aux (m / might)
+	:parataxis (a / asteroid
+		:obj (3 / 325))
+	:ARG2 (i / it)
+	:ARG0 (h / he)
+	:obl (e / example))

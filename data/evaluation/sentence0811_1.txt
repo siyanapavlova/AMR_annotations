@@ -1,0 +1,16 @@
+(w3 / walk
+	:advcl (w5 / want-01
+		:mark (w / when)
+		:ARG0 (y2 / you)
+		:xcomp (r / rest
+			:mark (t / to)))
+	:aux (w4 / will)
+	:nsubj (y3 / you)
+	:conj (l3 / last-04
+		:advmod (l2 / long
+			:advmod (a / as)
+			:advcl (l / like-02
+				:ARG0 (y / you)
+				:mark (a3 / as)))
+		:aux (w2 / will)
+		:nsubj (d / day)))

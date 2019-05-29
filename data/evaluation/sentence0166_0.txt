@@ -1,0 +1,6 @@
+(d / demand
+	:nsubj (t / they)
+	:ccomp (o / old
+		:advmod (h2 / how)
+		:nsubj (h / he))
+	:advmod (i / instead))

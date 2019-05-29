@@ -1,0 +1,12 @@
+(a / and
+	:op1 (w / work
+		:det (s2 / some)
+		:poss (p / pencil
+			:amod (c / color-01)
+			:acl (s / succeed-01
+				:ARG0 (i3 / i)
+				:advcl (m / make-01
+					:obj (d / drawing
+						:amod (f / first)
+						:poss (i / i))
+					:mark (i2 / in))))))

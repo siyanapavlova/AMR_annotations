@@ -1,0 +1,12 @@
+(b / but
+	:op1 (s / seem-01
+		:obl (m / morning
+			:amod (l / last)
+			:det (t2 / this))
+		:xcomp (p / precious
+			:obl (h / he)
+			:advmod (v / very))
+		:nsubj (t / task
+			:det (t3 / these)
+			:amod (f / familiar)
+			:det (a / all))))

@@ -1,0 +1,5 @@
+(l / look-04
+	:aux (h2 / have)
+	:advmod (n / never)
+	:obl (s / star)
+	:ARG0 (h / he))

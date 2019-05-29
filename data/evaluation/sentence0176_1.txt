@@ -1,0 +1,10 @@
+(a / and
+	:op1 (w / what
+		:acl (d / do-02
+			:amod (g / good)
+			:ARG0 (i / it)
+			:csubj (t4 / tell-01
+				:mark (t3 / to)
+				:obj (t2 / they)
+				:obj (t / that))
+			:aux (w2 / would))))

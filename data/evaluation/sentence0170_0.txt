@@ -1,0 +1,11 @@
+(t2 / think-01
+	:aux (d / do)
+	:ARG0 (t4 / they)
+	:advmod (o / only
+		:obl (f / figure
+			:det (t / these)))
+	:ccomp (l / learn-01
+		:ARG0 (t3 / they)
+		:ARG1 (a / anything
+			:poss (h2 / he))
+		:aux (h / have)))

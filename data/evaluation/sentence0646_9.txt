@@ -1,0 +1,6 @@
+(a2 / and
+	:op1 (g / go-10
+		:nsubj (p2 / prince
+			:amod (l / little))
+		:advmod (a / away)
+		:conj (p / puzzl)))

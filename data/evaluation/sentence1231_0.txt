@@ -1,0 +1,5 @@
+(a / all
+	:nsubj (s / sunshine
+		:amod (l / little))
+	:acl (n / need-01
+		:ARG0 (h / he)))

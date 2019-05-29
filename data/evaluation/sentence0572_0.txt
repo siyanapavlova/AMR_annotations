@@ -1,0 +1,6 @@
+(b / be-02
+	:nsubj (r / room
+		:det (n / no)
+		:advmod (h / here))
+	:obl (c / carriage)
+	:expl (t / there))

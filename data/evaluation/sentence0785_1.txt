@@ -1,0 +1,10 @@
+(p / put
+	:obl (m / morning)
+	:obj (l2 / lamp)
+	:compound (o / out)
+	:nsubj (i2 / i)
+	:conj (l / light-05
+		:advmod (a2 / again)
+		:nsubj (i3 / i)
+		:ARG1 (i / it)
+		:obl (e / evening)))

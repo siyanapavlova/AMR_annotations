@@ -1,0 +1,5 @@
+(c / comfort
+	:obl (l / little)
+	:advmod (n / now)
+	:nsubj (s / sorrow
+		:poss (i / i)))

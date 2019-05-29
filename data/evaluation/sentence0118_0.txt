@@ -1,0 +1,2 @@
+(f / funny
+	:nsubj (t / that))

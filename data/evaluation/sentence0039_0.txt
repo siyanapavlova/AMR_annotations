@@ -1,0 +1,19 @@
+(a3 / and
+	:op1 (s / set
+		:nsubj (i2 / i)
+		:xcomp (a / attempt
+			:mark (t / to)
+			:obj (r / repair
+				:amod (d / difficult)
+				:advmod (a5 / alone
+					:advmod (a2 / all))))
+		:advcl (h / have
+			:mark (a6 / as)
+			:obj (n / nor
+				:op (m2 / mechanic
+					:cc (n2 / neither))
+				:op (p / passenger
+					:det (a4 / any)))
+			:nsubj (i3 / i)
+			:obl (i / i))
+		:obj (m / myself)))

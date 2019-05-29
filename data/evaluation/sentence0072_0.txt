@@ -1,0 +1,6 @@
+(l / live
+	:advmod (w / where)
+	:parataxis (s / small
+		:advmod (v / very)
+		:nsubj (e / everything))
+	:nsubj (i / i))

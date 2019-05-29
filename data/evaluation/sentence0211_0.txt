@@ -1,0 +1,10 @@
+(w / way
+	:det (t3 / this)
+	:acl (h / hear-01
+		:nsubj (i2 / i)
+		:obj (t / that))
+	:poss (c / catastrophe
+		:poss (b / baobab))
+	:obl (d / day
+		:amod (t2 / third))
+	:nsubj (i / it))

@@ -1,0 +1,7 @@
+(a / and
+	:op1 (g / go-11
+		:advmod (b / back)
+		:advcl (m / meet-05
+			:ARG1 (f / fox)
+			:mark (t / to))
+		:nsubj (h / he)))

@@ -1,0 +1,10 @@
+(g / grow-02
+	:obl (m2 / minute
+		:poss (e / exercise
+			:det (t / this))
+		:nummod (f / five))
+	:nsubj (p / prince
+		:amod (l / little))
+	:xcomp (t2 / tired
+		:obl (m / monotony
+			:poss (g2 / game))))

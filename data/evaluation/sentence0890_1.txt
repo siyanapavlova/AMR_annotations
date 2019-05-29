@@ -1,0 +1,7 @@
+(s / say-01
+	:ARG0 (g / geographer)
+	:ccomp (r / record-01
+		:aux (d / do)
+		:ARG1 (f / flower)
+		:ARG0 (w / we)
+		:advmod (n / not)))

@@ -1,0 +1,10 @@
+(a / and
+	:op1 (h3 / have-11
+		:ARG0 (s / she)
+		:obj (t / thorn
+			:nummod (f / four)
+			:acl (d / defend-01
+				:mark (t2 / to)
+				:ARG1 (h / herself)
+				:obl (w / world))
+			:advmod (o / only))))

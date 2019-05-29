@@ -1,0 +1,11 @@
+(t / take-16
+	:ARG1 (t3 / time
+		:acl (l2 / learn-01
+			:mark (t2 / to)
+			:advcl (c / come
+				:mark (w / where)
+				:nsubj (h / he)
+				:obl (f / from)))
+		:amod (l / long))
+	:iobj (i2 / i)
+	:expl (i / it))

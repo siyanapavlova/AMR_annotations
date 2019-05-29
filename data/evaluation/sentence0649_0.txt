@@ -1,0 +1,4 @@
+(b2 / belong
+	:nsubj (p / planet
+		:amod (f / fourth))
+	:obl (b / businessman))

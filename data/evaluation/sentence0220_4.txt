@@ -1,0 +1,7 @@
+(l2 / laugh-02
+	:ARG0 (i / idea
+		:poss (h / herd
+			:acl (m / make-06
+				:ARG1 (p / prince
+					:amod (l / little)))
+			:poss (e / elephant))))

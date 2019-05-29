@@ -1,0 +1,17 @@
+(h / have-05
+	:ARG1 (b / bell
+		:nummod (m2 / million
+			:compound (h4 / hundred)
+			:compound (f2 / five))
+		:amod (l / little))
+	:ARG0 (y / you)
+	:aux (w / will)
+	:conj (h3 / have-05
+		:ARG1 (s2 / spring
+			:poss (w2 / water
+				:amod (f / fresh))
+			:nummod (m / million
+				:compound (h2 / hundr)
+				:compound (f3 / five)))
+		:ARG0 (i / i)
+		:aux (s / shall)))

@@ -1,0 +1,5 @@
+(a / and
+	:op1 (e / embarassed
+		:nsubj (r / ros)
+		:advmod (m / much
+			:advmod (v / very))))

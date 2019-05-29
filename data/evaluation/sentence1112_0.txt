@@ -1,0 +1,8 @@
+(a / and
+	:op1 (l / love
+		:aux (s / shall)
+		:nsubj (i / i)
+		:xcomp (l2 / listen
+			:obl (w2 / wind)
+			:obl (w / wheat)
+			:mark (t / to))))

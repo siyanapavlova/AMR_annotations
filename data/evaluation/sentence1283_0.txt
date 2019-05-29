@@ -1,0 +1,12 @@
+(b3 / but
+	:op1 (b / be-02
+		:conj (t2 / think-01
+			:ccomp (d / dreaming
+				:nsubj (i2 / i)
+				:aux (b2 / be)
+				:aux (m / must))
+			:ARG0 (i / i))
+		:expl (t / there)
+		:nsubj (v / village
+			:det (n / no)
+			:advmod (h / here))))

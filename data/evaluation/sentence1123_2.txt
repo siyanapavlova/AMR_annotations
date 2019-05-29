@@ -1,0 +1,10 @@
+(a / ask-02
+	:ccomp (d / do-02
+		:ARG1 (w / what)
+		:aux (m / must)
+		:advcl (t2 / tame
+			:mark (t / to)
+			:obj (y / you))
+		:ARG0 (i / i))
+	:obj (p / prince
+		:amod (l / little)))

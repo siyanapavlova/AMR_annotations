@@ -1,0 +1,12 @@
+(t4 / try-01
+	:advmod (s / so)
+	:xcomp (f / find-01
+		:mark (t2 / to)
+		:compound (o / out))
+	:manner (p / person
+		:mark (i / if)
+		:poss (u / understanding
+			:mod (t / true-02))
+		:nsubj (t3 / this))
+	:ARG0 (i2 / i)
+	:aux (w / would))

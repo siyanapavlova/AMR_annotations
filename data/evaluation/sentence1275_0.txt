@@ -1,0 +1,10 @@
+(a / and
+	:op1 (f / find-02
+		:obl (d / daybreak)
+		:xcomp (w2 / well)
+		:advcl (w / walk
+			:nsubj (i2 / i)
+			:mark (a2 / as)
+			:advmod (s / so)
+			:compound (o / on))
+		:ARG0 (i / i)))

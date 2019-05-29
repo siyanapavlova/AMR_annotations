@@ -1,0 +1,5 @@
+(h2 / have-03
+	:ARG1 (a2 / air
+		:poss (a / authority)
+		:amod (m / magnificent))
+	:ARG0 (h / he))

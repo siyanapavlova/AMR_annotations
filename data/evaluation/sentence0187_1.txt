@@ -1,0 +1,11 @@
+(s / suffer
+	:aux (h / have)
+	:obj (g / grief
+		:amod (m / much
+			:advmod (t2 / too)))
+	:advcl (s2 / set-08
+		:mark (i2 / in)
+		:ARG1 (m2 / memories
+			:det (t / these))
+		:compound (d / down))
+	:nsubj (i / i))

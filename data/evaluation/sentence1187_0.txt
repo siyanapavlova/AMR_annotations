@@ -1,0 +1,11 @@
+(s / send
+	:compound (o / off)
+	:obj (t / train
+		:acl (c / carry
+			:obj (t3 / they)
+			:nsubj (t2 / that)))
+	:obl (r / right)
+	:nsubj (i / i)
+	:obl (l / left)
+	:advmod (n2 / now)
+	:advmod (n / now))

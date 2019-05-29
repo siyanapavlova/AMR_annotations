@@ -1,0 +1,9 @@
+(w / want-01
+	:ARG0 (i / i)
+	:xcomp (p / put
+		:obj (i2 / i)
+		:mark (t / to)
+		:obl (g / globe
+			:compound (g2 / glass)))
+	:obl (n / night)
+	:obj (y / you))

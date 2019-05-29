@@ -1,0 +1,17 @@
+(a3 / and
+	:op1 (s / say-01
+		:ccomp (o2 / one
+			:nsubj (m2 / man
+				:det (t / that))
+			:acl (m / make-18
+				:obj (w / whom
+					:det (a2 / all))
+				:aux (c / could)
+				:aux (h2 / have)
+				:ARG0 (i2 / i)
+				:obj (f / friend
+					:poss (i / i)))
+			:poss (t2 / they)
+			:amod (o / only))
+		:obl (h / himself)
+		:advmod (a / again)))

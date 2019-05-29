@@ -1,0 +1,14 @@
+(e / exhaust
+	:nsubj (p / patience
+		:poss (i3 / i))
+	:advcl (h / hurry
+		:mark (b / because)
+		:nsubj (i / i)
+		:acl (s / start
+			:mark (t2 / to)
+			:xcomp (t3 / take
+				:advmod (a / apart)
+				:obj (e2 / engine
+					:poss (i2 / i)))))
+	:obl (t / time
+		:det (t4 / this)))

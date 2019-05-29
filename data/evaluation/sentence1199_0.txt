@@ -1,0 +1,8 @@
+(d / demand
+	:ccomp (p2 / pursue
+		:aux (b / be)
+		:obj (t2 / traveler
+			:amod (f / first))
+		:nsubj (t / they))
+	:obj (p / prince
+		:amod (l / little)))

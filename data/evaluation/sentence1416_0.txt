@@ -1,0 +1,9 @@
+(s / say-01
+	:ARG0 (i / i)
+	:ccomp (w / want-01
+		:ARG0 (i2 / i)
+		:xcomp (h / hear-01
+			:mark (t / to)
+			:ccomp (l / laugh-02
+				:advmod (a / again)
+				:ARG0 (y / you)))))

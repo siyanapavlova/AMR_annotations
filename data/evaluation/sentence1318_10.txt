@@ -1,0 +1,9 @@
+(a / and
+	:op1 (m2 / make-06
+		:aux (b / be)
+		:xcomp (h2 / happy)
+		:nsubj (c / color
+			:compound (h / honey)
+			:det (t2 / that))
+		:advmod (t / too)
+		:ARG1 (m / me)))

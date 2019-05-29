@@ -1,0 +1,5 @@
+(c2 / concerned
+	:obl (m / matter
+		:poss (c / consequence))
+	:obl (i2 / i)
+	:nsubj (i / i))

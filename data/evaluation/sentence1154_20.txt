@@ -1,0 +1,9 @@
+(a2 / and
+	:op1 (a4 / add
+		:ccomp (a / and
+			:op (l / look-09
+				:obl (r / ros)
+				:advmod (a3 / again))
+			:op (g / go-01))
+		:nsubj (h / he)
+		:advmod (t / then)))

@@ -1,0 +1,12 @@
+(s2 / say-01
+	:ARG0 (p / prince
+		:amod (l / little))
+	:ccomp (m / make-05
+		:aux (w / would)
+		:ARG0 (w2 / who)
+		:obj (e / explorer
+			:amod (b / bad)))
+	:ccomp (k / know
+		:nsubj (i / i)
+		:obj (o / one
+			:det (s / some))))

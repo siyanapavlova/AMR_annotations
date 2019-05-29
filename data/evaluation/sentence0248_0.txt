@@ -1,0 +1,9 @@
+(b2 / but
+	:op1 (m2 / mean
+		:advcl (m / matter
+			:poss (b / baobab)
+			:mark (w / when)
+			:nsubj (i / it))
+		:advmod (a / always)
+		:mark (t / that)
+		:obj (c / catastrophe)))

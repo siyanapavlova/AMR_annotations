@@ -1,0 +1,9 @@
+(o / order
+	:nsubj (i2 / i)
+	:xcomp (y2 / yawn-01
+		:mark (t / to)
+		:advmod (s / sometimes))
+	:obj (y / you)
+	:nsubj (i / i)
+	:advmod (s2 / sometimes)
+	:advmod (t2 / then))

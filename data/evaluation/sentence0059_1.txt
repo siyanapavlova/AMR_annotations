@@ -1,0 +1,15 @@
+(s / say-01
+	:ARG0 (i / i)
+	:cc (b2 / but)
+	:manner (a / able
+		:xcomp (s2 / speak-01
+			:mark (t / to))
+		:mark (w2 / when)
+		:obl (l / last-04)
+		:nsubj (i2 / i))
+	:ARG2 (h2 / he)
+	:ARG1 (d / do-02
+		:advmod (h / here)
+		:aux (b / be)
+		:ARG1 (w / what)
+		:ARG0 (y / you)))

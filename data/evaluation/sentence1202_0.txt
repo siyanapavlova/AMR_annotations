@@ -1,0 +1,7 @@
+(f / flatten
+	:aux (b / be)
+	:obl (w / windowpane)
+	:advmod (o / only)
+	:obj (n / nose
+		:poss (t / they))
+	:nsubj (c / child))

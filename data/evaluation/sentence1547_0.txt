@@ -1,0 +1,4 @@
+(m / mystery
+	:advmod (t / then)
+	:amod (g / great)
+	:advmod (h / here))

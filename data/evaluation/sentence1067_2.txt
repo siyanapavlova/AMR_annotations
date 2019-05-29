@@ -1,0 +1,4 @@
+(l / look-04
+	:aux (b / be)
+	:obl (f / friend)
+	:ARG0 (i / i))

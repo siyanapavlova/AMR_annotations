@@ -1,0 +1,6 @@
+(f / fancy
+	:xcomp (i / important
+		:obl (b / baobab)
+		:advmod (a / as))
+	:nsubj (t2 / they)
+	:obj (t / themselves))

@@ -1,0 +1,8 @@
+(b / be-02
+	:expl (t2 / there)
+	:nsubj (t / time
+		:poss (l / life
+			:poss (i / i))
+		:det (n / no)
+		:poss (d / dreaming
+			:amod (i2 / idle))))

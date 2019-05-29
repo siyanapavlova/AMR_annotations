@@ -1,0 +1,10 @@
+(c / come
+	:aux (h3 / have)
+	:obl (j / journey
+		:amod (l / long))
+	:nsubj (i / i)
+	:conj (h / have-06
+		:ARG1 (s / sleep
+			:det (n / no))
+		:aux (h2 / have)
+		:ARG0 (i2 / i)))

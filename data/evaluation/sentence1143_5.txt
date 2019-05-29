@@ -1,0 +1,7 @@
+(t / take-04
+	:aux (c / can)
+	:ARG0 (i / i)
+	:advmod (f / far
+		:obl (v / vineyard)
+		:advmod (a / as))
+	:ARG1 (w / walk))

@@ -1,0 +1,13 @@
+(s / say-01
+	:ccomp (m / make-06
+		:ARG1 (d / desert)
+		:nsubj (w2 / what)
+		:xcomp (b2 / beautiful))
+	:parataxis (b / be-02
+		:ccomp (h / hide
+			:nsubj (i / it)
+			:advmod (s2 / somewhere)
+			:mark (t / that)
+			:obj (w / well)))
+	:ARG0 (p / prince
+		:amod (l / little)))

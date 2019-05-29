@@ -1,0 +1,7 @@
+(b / but
+	:op1 (s2 / sure
+		:advmod (n / not)
+		:nsubj (i / i)
+		:obl (s / success)
+		:advmod (a2 / at)
+		:advmod (a / all)))

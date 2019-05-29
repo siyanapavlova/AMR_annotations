@@ -1,0 +1,11 @@
+(b / belong
+	:obl (i2 / i)
+	:advmod (t4 / then)
+	:advcl (p / person
+		:nsubj (i3 / i)
+		:amod (f / first)
+		:mark (b2 / because)
+		:acl (t2 / think-01
+			:obl (i / it)
+			:mark (t / to)))
+	:nsubj (t3 / they))

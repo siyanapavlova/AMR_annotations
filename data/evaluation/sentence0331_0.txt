@@ -1,0 +1,6 @@
+(t / toss-01
+	:ARG1 (c / curl
+		:poss (h2 / he)
+		:amod (g / golden))
+	:ARG0 (h / he)
+	:obl (b / breeze))

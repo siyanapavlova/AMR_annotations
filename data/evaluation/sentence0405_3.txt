@@ -1,0 +1,8 @@
+(s / suppose
+	:nsubj (i / i)
+	:ccomp (h / have-05
+		:ARG1 (s2 / screen)
+		:advmod (n / not)
+		:aux (w / would)
+		:obl (i2 / i)
+		:ARG0 (y / you)))

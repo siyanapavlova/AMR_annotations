@@ -1,0 +1,13 @@
+(t / talk-01
+	:aux (w / will)
+	:polarity (- / -)
+	:obl (p / person
+		:det (t2 / that))
+	:ARG0 (i / i)
+	:mark (t3 / then)
+	:obl (o / or
+		:op (s / stars)
+		:op (f / forest
+			:mod (p2 / primeval))
+		:op (c / constrictor
+			:poss (b / boa))))

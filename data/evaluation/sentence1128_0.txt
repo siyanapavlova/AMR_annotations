@@ -1,0 +1,9 @@
+(b / but
+	:op1 (s / sit
+		:nsubj (y / you)
+		:obl (i / i)
+		:obj (c / closer
+			:amod (l / little))
+		:obl (d / day
+			:det (e / every))
+		:aux (w / will)))

@@ -1,0 +1,14 @@
+(w / worth
+	:obj (t2 / trouble
+		:det (a / all))
+	:ccomp (c / cost
+		:nsubj (i3 / it)
+		:aux (h / have)
+		:obj (i2 / i))
+	:nsubj (l / lesson
+		:acl (p / pass
+			:obj (w2 / which)
+			:nsubj (i / i)
+			:advmod (o / on)
+			:obl (m / mean
+				:det (t / this)))))

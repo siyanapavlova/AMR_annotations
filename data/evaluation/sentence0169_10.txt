@@ -1,0 +1,7 @@
+(m3 / make-06
+	:nsubj (f / father
+		:poss (h / he))
+	:ARG1 (m2 / money
+		:amod (m / much
+			:advmod (h2 / how)))
+	:aux (d / do))

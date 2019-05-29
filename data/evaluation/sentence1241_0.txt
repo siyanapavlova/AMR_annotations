@@ -1,0 +1,7 @@
+(b / but
+	:op1 (r / reply
+		:obl (q / question
+			:poss (i / i))
+		:advmod (n / not)
+		:aux (d / do)
+		:nsubj (h / he)))

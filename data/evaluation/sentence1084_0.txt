@@ -1,0 +1,6 @@
+(s2 / see-04
+	:obl (e / earth)
+	:ARG1 (s / sort
+		:det (a / all)
+		:poss (t / thing))
+	:ARG0 (o / one))

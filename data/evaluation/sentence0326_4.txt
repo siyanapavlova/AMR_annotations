@@ -1,0 +1,5 @@
+(t / talk-02
+	:ARG0 (y / you)
+	:obl (u / up
+		:amod (g / grow-03)
+		:advmod (j / just)))

@@ -1,0 +1,7 @@
+(o / one
+	:poss (y / you)
+	:nsubj (s2 / star
+		:poss (i / i))
+	:poss (s / star)
+	:aux (w / will)
+	:advmod (j / just))

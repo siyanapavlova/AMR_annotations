@@ -1,0 +1,11 @@
+(k / know
+	:advmod (a / ala)
+	:aux (d / do)
+	:ccomp (s2 / see-02
+		:ARG1 (s / sheep)
+		:advmod (h / how)
+		:mark (t / to)
+		:obl (w / wall
+			:poss (b / box)))
+	:advmod (n / not)
+	:nsubj (i / i))

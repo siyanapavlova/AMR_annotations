@@ -1,0 +1,10 @@
+(a / and
+	:op1 (m2 / make-18
+		:obl (o / order
+			:poss (e / entry
+				:poss (t / they)
+				:poss (s / stage)))
+		:obj (m / mistake)
+		:ARG0 (t2 / they)
+		:aux (w / would)
+		:advmod (n / never)))

@@ -1,0 +1,25 @@
+(m / make
+	:nsubj (i5 / i)
+	:advcl (a2 / able
+		:mark (s3 / since)
+		:advmod (n / not)
+		:nsubj (u2 / up
+			:amod (g / grow))
+		:xcomp (u3 / understand
+			:mark (t / to)
+			:obj (i / it)))
+	:parataxis (d2 / draw
+		:nsubj (i4 / i)
+		:obj (i2 / inside
+			:poss (c / constrictor
+				:compound (b / boa)))
+		:advcl (s2 / see
+			:aux (c3 / could)
+			:obj (i3 / it)
+			:advmod (c2 / clearly)
+			:mark (s / so
+				:fixed (t2 / that))
+			:nsubj (u / up
+				:amod (g2 / grown))))
+	:obj (d / draw
+		:det (a / another)))

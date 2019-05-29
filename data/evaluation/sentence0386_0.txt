@@ -1,0 +1,3 @@
+(a / awake
+	:nsubj (i / i)
+	:advmod (s / scarcely))

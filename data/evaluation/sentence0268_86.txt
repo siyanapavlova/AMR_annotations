@@ -1,0 +1,7 @@
+(c / come
+	:parataxis (l2 / let-05
+		:ARG1 (u / us)
+		:xcomp (g / go-01
+			:advcl (l / look-04
+				:advmod (n / now)
+				:obl (s / sunset)))))

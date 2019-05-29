@@ -1,0 +1,6 @@
+(s / see-02
+	:advmod (a / ago
+		:obl (y / year
+			:amod (s2 / several)))
+	:ARG1 (t / they)
+	:ARG0 (i / i))

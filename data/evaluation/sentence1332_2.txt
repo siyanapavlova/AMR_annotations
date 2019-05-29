@@ -1,0 +1,15 @@
+(k / know
+	:aux (d2 / do)
+	:advmod (n / not)
+	:nsubj (i2 / i)
+	:ccomp (d / draw-01
+		:mark (t / to)
+		:obj (a / anything
+			:poss (c2 / constrictor
+				:compound (b / boa)))
+		:advmod (h / how)
+		:obl (i / inside)
+		:obl (c / constrictor
+			:amod (a2 / and
+				:op (b2 / boa)
+				:op (o / outside)))))

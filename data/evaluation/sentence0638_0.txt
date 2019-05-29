@@ -1,0 +1,7 @@
+(r / reply
+	:obl (a / air
+		:amod (l / lugubrious))
+	:ccomp (d / drink-01
+		:aux (b / be)
+		:ARG0 (i / i))
+	:nsubj (t / tippler))

@@ -1,0 +1,4 @@
+(s / say-01
+	:ccomp (m / morning
+		:amod (g / good))
+	:ARG0 (f / fox))

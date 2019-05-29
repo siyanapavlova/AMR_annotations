@@ -1,0 +1,5 @@
+(p / prince
+	:acl (m / make-01
+		:ARG1 (r / reply
+			:det (n / no)))
+	:amod (l / little))

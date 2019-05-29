@@ -1,0 +1,9 @@
+(s / say-01
+	:ARG0 (h / he)
+	:obl (i / i)
+	:ccomp (k / know
+		:obj (d / descent
+			:poss (i2 / i)
+			:poss (e / earth))
+		:nsubj (y / you))
+	:advmod (i3 / instead))

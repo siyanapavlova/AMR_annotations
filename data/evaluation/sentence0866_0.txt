@@ -1,0 +1,13 @@
+(n / note
+	:advmod (t2 / then)
+	:advmod (d / down)
+	:nsubj (g / geographer)
+	:obj (m / mountain
+		:nummod (t / two)
+		:poss (p / place
+			:acl (b / be-02
+				:nsubj (o2 / one
+					:advmod (o / only))
+				:advmod (w2 / where)
+				:expl (t3 / there))))
+	:aux (w / would))

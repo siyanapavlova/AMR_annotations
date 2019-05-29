@@ -1,0 +1,3 @@
+(p / poetic
+	:advmod (r / rather)
+	:nsubj (i / it))

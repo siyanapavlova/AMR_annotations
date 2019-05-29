@@ -1,0 +1,5 @@
+(t / that
+	:poss (c / constrictor
+		:compound (b / boa)
+		:poss (o / outside))
+	:nsubj (i / it))

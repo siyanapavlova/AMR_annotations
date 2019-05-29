@@ -1,0 +1,10 @@
+(b / but
+	:op1 (a / add
+		:ccomp (m / mean
+			:obj (w / what)
+			:aux (d / do)
+			:nsubj (t2 / that))
+		:nsubj (h / he)
+		:obl (t3 / think
+			:det (s / some))
+		:parataxis (t / tame)))

@@ -1,0 +1,2 @@
+(w / why
+	:nsubj (t / that))

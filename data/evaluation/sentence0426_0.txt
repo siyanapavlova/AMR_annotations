@@ -1,0 +1,8 @@
+(o / ought
+	:xcomp (j / judge-01
+		:aux (h / have)
+		:mark (t / to)
+		:obl (d / deed))
+	:conj (w / word
+		:advmod (n / not))
+	:nsubj (i / i))

@@ -1,0 +1,8 @@
+(b / but
+	:op1 (f / foolish
+		:obl (i / i)
+		:nsubj (y2 / you
+			:nsubj (y / you))
+		:aux (h / have)
+		:advmod (j / just)
+		:advmod (a / as)))

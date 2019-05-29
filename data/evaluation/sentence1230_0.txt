@@ -1,0 +1,6 @@
+(h2 / hungry
+	:advmod (n / never)
+	:conj (t / thirsty)
+	:aux (h3 / have)
+	:nsubj (h / he)
+	:advmod (e / either))

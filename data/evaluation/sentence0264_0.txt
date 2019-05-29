@@ -1,0 +1,3 @@
+(p / prince
+	:amod (l / little)
+	:discourse (o / oh))

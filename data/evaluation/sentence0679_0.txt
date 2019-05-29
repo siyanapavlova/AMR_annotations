@@ -1,0 +1,5 @@
+(t2 / time
+	:amod (t / third)
+	:parataxis (i / it
+		:discourse (w / well)
+		:nsubj (t3 / this)))

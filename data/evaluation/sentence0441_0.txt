@@ -1,0 +1,4 @@
+(f / fire
+	:nsubj (e / eruption
+		:amod (v / volcanic))
+	:poss (c / chimney))

@@ -1,0 +1,10 @@
+(t3 / think-01
+	:advcl (t2 / tame
+		:nsubj (y / you)
+		:obj (i / i)
+		:mark (w2 / when)
+		:aux (h / have))
+	:ccomp (w / wonderful
+		:nsubj (t / that)
+		:aux (w3 / will)
+		:advmod (h2 / how)))

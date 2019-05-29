@@ -1,0 +1,6 @@
+(e / explain-01
+	:obl (i / i)
+	:ARG0 (f / friend
+		:poss (i2 / i))
+	:obj (a / anything)
+	:advmod (n / never))

@@ -1,0 +1,12 @@
+(f / for
+	:op1 (w / want-01
+		:obj (o / one
+			:det (a / any)
+			:acl (r / read
+				:mark (t / to)
+				:obj (b / book
+					:poss (i2 / i))
+				:advmod (c / carelessly)))
+		:aux (d / do)
+		:advmod (n / not)
+		:ARG0 (i / i)))

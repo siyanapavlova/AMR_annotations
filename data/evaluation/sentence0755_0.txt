@@ -1,0 +1,4 @@
+(s / strange
+	:advmod (v / very)
+	:nsubj (p / planet
+		:amod (f / fifth)))

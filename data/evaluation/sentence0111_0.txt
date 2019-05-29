@@ -1,0 +1,3 @@
+(a / airplane
+	:poss (i2 / i)
+	:nsubj (i / it))

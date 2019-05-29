@@ -1,0 +1,5 @@
+(m2 / make-05
+	:ARG2 (a / ashamed
+		:amod (l / little))
+	:ARG2 (m / me)
+	:ARG0 (t / that))

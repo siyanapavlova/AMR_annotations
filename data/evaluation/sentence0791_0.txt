@@ -1,0 +1,5 @@
+(a / ask-01
+	:ARG1 (p / prince
+		:amod (l / little))
+	:ARG0 (w / what
+		:advmod (t / then)))

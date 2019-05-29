@@ -1,0 +1,4 @@
+(s / subject
+	:obl (t / they)
+	:nsubj (m / man
+		:det (a / all)))

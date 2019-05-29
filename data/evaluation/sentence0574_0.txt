@@ -1,0 +1,6 @@
+(b / but
+	:op1 (l / look-09
+		:ARG0 (i / i)
+		:aux (h / have)
+		:advmod (a2 / already)
+		:discourse (o3 / oh)))

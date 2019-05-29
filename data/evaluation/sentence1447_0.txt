@@ -1,0 +1,5 @@
+(p / problem
+	:obl (o / other
+		:acl (s / scholar
+			:nsubj (w / who)))
+	:nsubj (t / they))

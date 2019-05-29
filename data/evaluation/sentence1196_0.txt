@@ -1,0 +1,8 @@
+(a / ask-02
+	:obj (p / prince
+		:amod (l / little))
+	:ccomp (s / satisfy
+		:advmod (n / not)
+		:ccomp (w / where)
+		:aux (b / be)
+		:nsubj (t / they)))

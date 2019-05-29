@@ -1,0 +1,6 @@
+(c / contrast-01
+	:ARG2 (d / draw-01
+		:aux (h / have)
+		:obj (s / sheep)
+		:ARG0 (i / i)
+		:polarity (- / -)))

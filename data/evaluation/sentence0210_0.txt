@@ -1,0 +1,13 @@
+(c2 / come
+	:aux (w / would)
+	:advmod (s / slowly
+		:advmod (v / very))
+	:advcl (c / chance
+		:nsubj (i2 / it)
+		:aux (m / might)
+		:mark (a / as)
+		:acl (f / fall
+			:obl (t2 / thought
+				:poss (h / he))
+			:mark (t / to)))
+	:nsubj (i / information))

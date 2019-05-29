@@ -1,0 +1,14 @@
+(a / and
+	:op1 (l / look-02
+		:ARG0 (i / i)
+		:obl (r / ridge
+			:acl (s2 / stretch
+				:compound (o / out)
+				:obl (w / we)
+				:obl (m2 / moonlight)
+				:nsubj (t / that))
+			:poss (s3 / sand))
+		:advcl (s / say-01
+			:obj (a2 / anything
+				:advmod (m / more))
+			:mark (w2 / without))))

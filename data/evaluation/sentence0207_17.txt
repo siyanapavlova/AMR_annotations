@@ -1,0 +1,6 @@
+(h / have-10
+	:ARG0 (i / i)
+	:aux (h2 / have)
+	:xcomp (g / grow-03
+		:mark (t / to)
+		:xcomp (o / old)))

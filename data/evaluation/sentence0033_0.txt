@@ -1,0 +1,7 @@
+(b / bring
+	:nsubj (i / i)
+	:obj (m / myself)
+	:compound (d / down)
+	:obl (l / level
+		:poss (h / he))
+	:aux (w / would))

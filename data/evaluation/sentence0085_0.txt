@@ -1,0 +1,6 @@
+(b / but
+	:op1 (r / reject
+		:nsubj (i / it)
+		:advmod (t / too)
+		:obl (o / other
+			:advmod (j / just))))

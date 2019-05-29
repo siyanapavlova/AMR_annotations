@@ -1,0 +1,7 @@
+(b / but
+	:op1 (s / speak-01
+		:ARG0 (y / you)
+		:obl (r / riddle)
+		:advmod (w / why)
+		:aux (d / do)
+		:advmod (a / always)))

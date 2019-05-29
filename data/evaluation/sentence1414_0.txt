@@ -1,0 +1,6 @@
+(s / spring
+	:obl (i / i)
+	:poss (w / water
+		:amod (f / fresh))
+	:poss (d / desert)
+	:nsubj (i2 / it))

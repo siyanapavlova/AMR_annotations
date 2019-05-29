@@ -1,0 +1,5 @@
+(h / have-10
+	:ARG1 (m / meaning
+		:det (s / some))
+	:ARG0 (w / work
+		:poss (h2 / he)))

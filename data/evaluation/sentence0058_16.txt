@@ -1,0 +1,14 @@
+(g / give-14
+	:obj (m2 / mile
+		:poss (h3 / habitation
+			:mod (h / human)
+			:mod (a / any))
+		:nummod (t / thousand))
+	:obj (s / suggestion
+		:mod (a2 / any)
+		:poss (c / child
+			:acl (l / lose-07
+				:obl (m / middle
+					:poss (d / desert)))))
+	:nsubj (n / nothing
+		:poss (h2 / he)))

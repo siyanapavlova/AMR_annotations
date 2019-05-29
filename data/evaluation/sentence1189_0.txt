@@ -1,0 +1,6 @@
+(s / say-01
+	:ARG0 (p / prince
+		:amod (l / little))
+	:ccomp (h / hurry
+		:amod (g / great)
+		:nsubj (t / they)))

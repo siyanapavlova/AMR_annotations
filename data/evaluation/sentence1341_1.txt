@@ -1,0 +1,11 @@
+(g / go-06
+	:ARG0 (h / he)
+	:parataxis (c / come
+		:advmod (n / near
+			:advmod (v / very))
+		:advmod (d / down)
+		:advmod (h2 / here)
+		:nsubj (i / i))
+	:advmod (t / then)
+	:obl (s / silence)
+	:compound (o / on))

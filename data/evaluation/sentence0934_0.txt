@@ -1,0 +1,19 @@
+(a / and
+	:op1 (r / realize
+		:ccomp (r2 / run
+			:mark (t / that)
+			:nsubj (i2 / i)
+			:obj (r3 / risk
+				:acl (g / give-17
+					:ARG1 (i3 / idea
+						:poss (p / planet
+							:poss (w / we))
+						:amod (f / false))
+					:mark (o / of)
+					:obl (t2 / those
+						:acl (k / know
+							:obj (i4 / it)
+							:nsubj (w2 / who)
+							:advmod (n / not)
+							:aux (d / do))))))
+		:nsubj (i / i)))

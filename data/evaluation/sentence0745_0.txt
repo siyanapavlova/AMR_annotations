@@ -1,0 +1,5 @@
+(b / but
+	:op1 (c / consequence
+		:det (n / no)
+		:amod (g / great)
+		:nsubj (i / it)))

@@ -1,0 +1,13 @@
+(c / come
+	:parataxis (t / thirsty
+		:nsubj (y / you)
+		:advmod (t2 / too)
+		:advmod (t3 / then))
+	:xcomp (r / reel
+		:obl (m / memory
+			:poss (i / i))
+		:advmod (b / back))
+	:nsubj (w / word
+		:amod (l2 / last)
+		:poss (p / prince
+			:amod (l / little))))

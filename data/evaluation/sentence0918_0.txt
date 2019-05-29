@@ -1,0 +1,5 @@
+(e / earth
+	:nsubj (p / planet
+		:amod (s2 / seventh))
+	:advmod (s / so)
+	:advmod (t / then))

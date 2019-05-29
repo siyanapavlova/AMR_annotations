@@ -1,0 +1,12 @@
+(g / go-07
+	:advmod (t / then)
+	:nsubj (i / i)
+	:obj (m / mile
+		:poss (h2 / habitation
+			:mod (h / human)
+			:mod (a / any))
+		:nummod (t2 / thousand))
+	:xcomp (s / sleep-01
+		:obl (s2 / sand))
+	:obl (n / night
+		:mod (f / first)))

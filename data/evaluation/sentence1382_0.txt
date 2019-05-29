@@ -1,0 +1,9 @@
+(a2 / and
+	:op1 (h / hurry
+		:amod (a / apparent)
+		:amod (d / disappeared
+			:obl (s2 / sound
+				:poss (s3 / stone)
+				:compound (m2 / metallic
+					:compound (l / light))))
+		:det (n / no)))

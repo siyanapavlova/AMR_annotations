@@ -1,0 +1,8 @@
+(c / cast
+	:obl (i / i)
+	:obj (a / and
+		:op (r / radiance
+			:poss (s / she))
+		:op (f / fragrance
+			:poss (s3 / she)))
+	:nsubj (s2 / she))

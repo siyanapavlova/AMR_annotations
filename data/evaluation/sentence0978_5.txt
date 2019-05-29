@@ -1,0 +1,13 @@
+(s / say-01
+	:ccomp (c / carry
+		:obj (y2 / you)
+		:aux (c2 / can)
+		:nsubj (i / i)
+		:advmod (f / farther)
+		:advcl (t / take-16
+			:aux (c3 / could)
+			:ARG0 (s3 / ship
+				:det (a / any))
+			:ARG1 (y / you)
+			:mark (t2 / than)))
+	:ARG0 (s2 / snake))

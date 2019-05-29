@@ -1,0 +1,17 @@
+(a2 / and
+	:op1 (b2 / become
+		:advcl (f2 / forget
+			:mark (i / if)
+			:obj (h / he)
+			:nsubj (i3 / i))
+		:aux (m / may)
+		:nsubj (i2 / i)
+		:obl (u / up
+			:amod (g / grow-01)
+			:acl (i4 / interested
+				:obl (b / but
+					:op (f / figure)
+					:op (a / anything))
+				:nsubj (w / who)
+				:advmod (l / longer
+					:advmod (n / no))))))

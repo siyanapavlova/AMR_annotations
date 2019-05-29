@@ -1,0 +1,5 @@
+(g / give-17
+	:obl (d / drink)
+	:iobj (i2 / i)
+	:ARG1 (s / some
+		:poss (i / it)))

@@ -1,0 +1,25 @@
+(d / day
+	:advcl (h3 / have-05
+		:aux (h2 / have)
+		:ARG0 (i4 / i)
+		:mark (s / since)
+		:ARG1 (a2 / accident
+			:poss (i3 / i))
+		:obl (d2 / desert))
+	:nsubj (i5 / it)
+	:advmod (n / now)
+	:conj (l / listen
+		:obl (s3 / story
+			:poss (m / merchant))
+		:advcl (d4 / drink-01
+			:ARG1 (d3 / drop
+				:amod (l2 / last)
+				:poss (s2 / supply
+					:poss (i6 / i)
+					:compound (w / water)))
+			:mark (a3 / as)
+			:ARG0 (i / i)
+			:aux (b / be))
+		:aux (h / have)
+		:nsubj (i2 / i))
+	:amod (e / eighth))

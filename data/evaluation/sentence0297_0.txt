@@ -1,0 +1,4 @@
+(k / know
+	:aux (d / do)
+	:nsubj (i / i)
+	:advmod (n / not))

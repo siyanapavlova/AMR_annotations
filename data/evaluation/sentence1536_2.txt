@@ -1,0 +1,19 @@
+(b2 / but
+	:op1 (b / be-02
+		:nsubj (t3 / thing
+			:nummod (o / one)
+			:amod (e / extraordinary))
+		:expl (t / there)
+		:parataxis (f / forget
+			:xcomp (a / add
+				:mark (t2 / to)
+				:obl (i3 / it)
+				:obj (s / strap
+					:compound (l2 / leather)))
+			:advcl (d / draw-01
+				:obl (p / prince
+					:amod (l / little))
+				:obj (m / muzzle)
+				:ARG0 (i / i)
+				:mark (w / when))
+			:nsubj (i2 / i))))

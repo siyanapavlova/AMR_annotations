@@ -1,0 +1,6 @@
+(b / but
+	:op1 (p / prince
+		:acl (m / make-02
+			:obj (r / reply
+				:det (n / no)))
+		:amod (l / little)))

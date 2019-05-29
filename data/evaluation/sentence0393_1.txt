@@ -1,0 +1,17 @@
+(g / guess
+	:nsubj (p / prince
+		:amod (l / little))
+	:advmod (e / enough
+		:advmod (e2 / easily))
+	:ccomp (a / any
+		:mark (t2 / that)
+		:amod (m / modest
+			:advmod (t / too))
+		:nsubj (s / she)
+		:advmod (n / not))
+	:conj (m2 / move-04
+		:conj (e3 / exciting)
+		:parataxis (b / be-02
+			:nsubj (s2 / she))
+		:advmod (h / how))
+	:aux (c / could))

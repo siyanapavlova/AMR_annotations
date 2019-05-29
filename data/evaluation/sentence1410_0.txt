@@ -1,0 +1,4 @@
+(b / but
+	:op1 (l2 / laugh-02
+		:advmod (l / lightly)
+		:ARG0 (h / he)))

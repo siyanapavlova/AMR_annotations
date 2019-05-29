@@ -1,0 +1,3 @@
+(e / establish
+	:obj (t2 / tie)
+	:mark (t / to))

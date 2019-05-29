@@ -1,0 +1,6 @@
+(c3 / choose-01
+	:ARG1 (c / colour
+		:poss (s / she))
+	:ARG0 (s2 / she)
+	:obl (c2 / care
+		:amod (g / greatest)))

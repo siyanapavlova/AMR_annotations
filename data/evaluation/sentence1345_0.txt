@@ -1,0 +1,7 @@
+(b / back
+	:nsubj (y2 / you)
+	:poss (y3 / you)
+	:obl (p / place
+		:acl (l / land
+			:nsubj (y / you)
+			:advmod (w / where))))

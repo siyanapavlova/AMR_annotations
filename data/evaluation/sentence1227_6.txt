@@ -1,0 +1,9 @@
+(g / glad
+	:obl (i2 / instance)
+	:advcl (h / have-09
+		:aux (h2 / have)
+		:mark (t / to)
+		:obl (f2 / friend)
+		:ARG1 (f / fox))
+	:nsubj (i / i)
+	:advmod (v / very))

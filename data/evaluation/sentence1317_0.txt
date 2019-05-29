@@ -1,0 +1,4 @@
+(c / color
+	:poss (h / honey)
+	:nsubj (s / sand)
+	:obl (s2 / sunrise))

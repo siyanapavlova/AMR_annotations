@@ -1,0 +1,9 @@
+(p / proof
+	:nsubj (t2 / that)
+	:advcl (w / want-01
+		:obj (s / sheep)
+		:mark (i / if)
+		:ARG0 (a / anybody))
+	:acl (e / exist
+		:mark (t / that)
+		:nsubj (h / he)))

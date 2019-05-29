@@ -1,0 +1,19 @@
+(s / small
+	:ccomp (s3 / show-04
+		:acl (b2 / be-02
+			:advcl (f / find-02
+				:mark (t / to)
+				:aux (b / be))
+			:nsubj (s2 / star
+				:poss (i2 / i))
+			:advmod (w / where))
+		:advmod (n / not)
+		:aux (c / can)
+		:obj (y / you)
+		:ARG0 (i3 / i)
+		:mark (t2 / that))
+	:advmod (s4 / so)
+	:advcl (l / live-01
+		:ARG0 (i / i)
+		:advmod (w2 / where))
+	:nsubj (e / everything))

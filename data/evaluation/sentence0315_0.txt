@@ -1,0 +1,6 @@
+(d / distur
+	:nsubj (p / prince
+		:amod (l / little))
+	:obj (t / thought
+		:poss (i / i))
+	:advmod (a / again))

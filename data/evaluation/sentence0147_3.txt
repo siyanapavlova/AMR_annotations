@@ -1,0 +1,20 @@
+(h2 / have-03
+	:ARG0 (i2 / i)
+	:ccomp (l3 / learn-01
+		:advmod (t2 / thus)
+		:ARG1 (f / fact
+			:amod (s / second)
+			:poss (i / importance
+				:amod (g / great))))
+	:parataxis (b / be-02
+		:ccomp (c / come
+			:advcl (l / larger
+				:nsubj (f2 / from)
+				:obl (h / house)
+				:advmod (a / any
+					:advmod (s2 / scarcely)))
+			:mark (t / that)
+			:nsubj (p / planet)
+			:nsubj (p2 / prince
+				:amod (l2 / little)))
+		:nsubj (t3 / this)))

@@ -1,0 +1,8 @@
+(b / but
+	:op1 (l / light-04
+		:advmod (w / why)
+		:ARG1 (i / it)
+		:advmod (a / again)
+		:aux (h / have)
+		:ARG0 (y / you)
+		:advmod (j / just)))

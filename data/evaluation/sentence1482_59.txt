@@ -1,0 +1,7 @@
+(g / get-03
+	:advcl (m / make-06
+		:mark (w / without)
+		:ARG1 (s / sound))
+	:nsubj (h / he)
+	:obl (i / i)
+	:advmod (a / away))

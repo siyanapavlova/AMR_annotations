@@ -1,0 +1,5 @@
+(w / wrong
+	:obl (y / you)
+	:nsubj (i / it)
+	:advcl (c / come
+		:mark (t / to)))

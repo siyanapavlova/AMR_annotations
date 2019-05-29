@@ -1,0 +1,11 @@
+(b / burn
+	:advmod (s2 / slowly
+		:conj (s / steadily))
+	:advcl (c / clean
+		:mark (i / if)
+		:advmod (w / well)
+		:nsubj (t / they)
+		:compound (o / out))
+	:obl (e / eruption
+		:det (a / any))
+	:aux (v / volcano))

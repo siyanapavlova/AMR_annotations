@@ -1,0 +1,12 @@
+(u / useful
+	:nsubj (t4 / that)
+	:advcl (b / be-02
+		:xcomp (t5 / travel
+			:mark (t2 / to)
+			:obl (d / day
+				:det (s / some)))
+		:mark (i / if)
+		:nsubj (t / they))
+	:obl (t3 / they)
+	:aux (w / would)
+	:advmod (v / very))

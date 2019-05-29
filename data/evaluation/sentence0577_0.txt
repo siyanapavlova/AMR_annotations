@@ -1,0 +1,5 @@
+(t / thing
+	:poss (a / all)
+	:nsubj (t2 / that)
+	:amod (d / difficult
+		:advmod (m / most)))

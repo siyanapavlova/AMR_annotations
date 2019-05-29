@@ -1,0 +1,9 @@
+(a / answer-01
+	:ARG2 (y / you)
+	:obl (t2 / thing
+		:acl (c / come
+			:nsubj (t / that)
+			:obl (h / head
+				:poss (i2 / i)))
+		:amod (f / first))
+	:ARG0 (i / i))

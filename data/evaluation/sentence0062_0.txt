@@ -1,0 +1,24 @@
+(t2 / take
+	:advcl (s2 / seem
+		:mark (a5 / as)
+		:obj (a / and
+			:op (d2 / danger
+				:poss (d / death))
+			:op (m2 / mile
+				:nummod (t / thousand)
+				:poss (h2 / habitation
+					:amod (h / human)
+					:det (a2 / any))))
+		:aux (m / might)
+		:obl (i5 / i)
+		:nsubj (i3 / it))
+	:advmod (a3 / absurd)
+	:obl (a4 / and
+		:op (p3 / pen
+			:compound (f / fountain
+				:poss (i / i)))
+		:op (p / pocket
+			:poss (s / sheet
+				:poss (p2 / paper))
+			:poss (i2 / i)))
+	:nsubj (i4 / i))

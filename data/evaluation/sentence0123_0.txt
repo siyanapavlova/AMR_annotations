@@ -1,0 +1,9 @@
+(a / and
+	:op1 (d2 / demand
+		:advmod (a2 / abruptly)
+		:ccomp (c / come
+			:obl (p2 / planet
+				:det (a3 / another))
+			:aux (d / do)
+			:nsubj (y / you))
+		:nsubj (i3 / i)))

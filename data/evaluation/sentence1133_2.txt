@@ -1,0 +1,9 @@
+(w / worry-01
+	:advmod (a / already)
+	:ARG0 (i / i)
+	:aux (b / be)
+	:conj (j / jump-06
+		:advmod (a2 / about))
+	:obl (o / o'clock
+		:nummod (f / four))
+	:aux (s / shall))

@@ -1,0 +1,12 @@
+(a / and
+	:op1 (b / break-13
+		:ARG0 (p2 / prince
+			:amod (l / little))
+		:obl (p / peal
+			:poss (l3 / laughter)
+			:amod (l2 / lovely)
+			:acl (i / irritate
+				:obj (i2 / i)
+				:advmod (m / much
+					:advmod (v / very))
+				:nsubj (w / which)))))

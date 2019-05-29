@@ -1,0 +1,6 @@
+(u / unique
+	:nsubj (y / you)
+	:obl (w / world
+		:det (a / all))
+	:aux (w2 / will)
+	:obl (i / i))

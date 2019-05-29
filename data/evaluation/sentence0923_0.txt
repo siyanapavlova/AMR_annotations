@@ -1,0 +1,8 @@
+(r / regulate
+	:obl (t2 / those
+		:poss (b / ballet
+			:poss (o / opera)))
+	:aux (w / would)
+	:nsubj (m / movement
+		:poss (a / army
+			:det (t / this))))

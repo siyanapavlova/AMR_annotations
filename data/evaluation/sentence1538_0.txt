@@ -1,0 +1,10 @@
+(k / keep-06
+	:advmod (s / so)
+	:xcomp (w2 / wondere)
+	:nsubj (i / i)
+	:parataxis (h2 / happen
+		:nsubj (w / what)
+		:aux (b / be)
+		:obl (p / planet
+			:poss (h / he)))
+	:advmod (n / now))

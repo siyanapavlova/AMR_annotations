@@ -1,0 +1,10 @@
+(c / come
+	:nsubj (i / inquiry
+		:amod (t / timid)
+		:poss (p / prince
+			:amod (l / little)))
+	:advmod (n / now)
+	:nsubj (m / may
+		:acl (s / sit
+			:nsubj (i2 / i)
+			:advmod (d / down))))

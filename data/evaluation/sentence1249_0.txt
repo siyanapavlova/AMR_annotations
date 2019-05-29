@@ -1,0 +1,5 @@
+(r / reply
+	:nsubj (i / i)
+	:parataxis (s / so
+		:discourse (y / yes)
+		:nsubj (t / that)))

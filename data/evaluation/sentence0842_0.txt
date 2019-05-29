@@ -1,0 +1,6 @@
+(s / say-01
+	:ccomp (b / beautiful
+		:advmod (v / very)
+		:nsubj (p / planet
+			:poss (y / you)))
+	:ARG0 (h / he))

@@ -1,0 +1,4 @@
+(a / anniversary
+	:aux (w / will)
+	:obl (t / tomorrow)
+	:poss (i / its))

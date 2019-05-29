@@ -1,0 +1,11 @@
+(l / like-01
+	:aux (h / have)
+	:xcomp (b / begin
+		:mark (t / to)
+		:obj (s2 / story
+			:det (t3 / this))
+		:obl (f2 / fashion
+			:poss (t2 / tale
+				:compound (f / fairy))))
+	:nsubj (i / i)
+	:aux (s / should))

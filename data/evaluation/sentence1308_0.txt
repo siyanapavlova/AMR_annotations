@@ -1,0 +1,5 @@
+(f / find-02
+	:ARG1 (i / it)
+	:ARG0 (t / they)
+	:advmod (n / not)
+	:aux (d / do))

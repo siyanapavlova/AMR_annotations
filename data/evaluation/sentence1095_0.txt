@@ -1,0 +1,6 @@
+(b2 / but
+	:op1 (c / come
+		:nsubj (h / he)
+		:obl (i / idea
+			:poss (h2 / he))
+		:advmod (b / back)))

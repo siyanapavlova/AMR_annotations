@@ -1,0 +1,8 @@
+(t2 / time
+	:nsubj (i2 / i)
+	:advcl (l / light-04
+		:mark (t / to)
+		:advmod (a / again)
+		:ARG1 (i / it))
+	:advmod (n / not)
+	:aux (h / have))

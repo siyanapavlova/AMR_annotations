@@ -1,0 +1,10 @@
+(n / need-01
+	:advcl (s2 / sunshine
+		:advmod (a / always)
+		:mark (t / to))
+	:ARG0 (y / you)
+	:ccomp (w / walk
+		:advmod (s / slowly
+			:advmod (a2 / along)
+			:advmod (r / rather))
+		:advmod (o / only)))

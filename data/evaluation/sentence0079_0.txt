@@ -1,0 +1,5 @@
+(m / make
+	:nsubj (i / i)
+	:advmod (s / so)
+	:obj (d / drawing
+		:det (a / another)))

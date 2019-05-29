@@ -1,0 +1,14 @@
+(h2 / help
+	:obj (y3 / you)
+	:aux (c / can)
+	:obl (d / day
+		:det (s / some))
+	:nsubj (i / i)
+	:advcl (g / grow-01
+		:mark (i2 / if)
+		:ARG1 (h / homesick
+			:poss (p / planet
+				:poss (y2 / you)
+				:amod (o / own))
+			:advmod (t / too))
+		:ARG0 (y / you)))

@@ -1,0 +1,19 @@
+(i / instant
+	:advcl (d / destroy
+		:obj (i4 / it)
+		:advmod (s / soon
+			:advcl (p / possible
+				:mark (a2 / as))
+			:advmod (a / as))
+		:aux (m / must)
+		:advcl (p2 / plant
+			:mark (w / when)
+			:amod (b / bad)
+			:nsubj (i2 / it))
+		:nsubj (o / one))
+	:advmod (f / first
+		:advmod (v / very))
+	:ccomp (r / recognize
+		:obj (i3 / it)
+		:mark (t / that)
+		:nsubj (o2 / one)))

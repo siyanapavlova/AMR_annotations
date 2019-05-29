@@ -1,0 +1,7 @@
+(w2 / waken
+	:nsubj (w3 / we)
+	:conj (s / singe
+		:aux (b / be)
+		:nsubj (i / it))
+	:aux (h / have)
+	:advmod (w / well))

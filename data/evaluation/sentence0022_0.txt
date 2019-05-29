@@ -1,0 +1,9 @@
+(a / and
+	:op1 (t / true
+		:expl (i2 / it)
+		:ccomp (u / useful
+			:obl (i / i)
+			:nsubj (g / geography)
+			:aux (h / have)
+			:mark (t2 / that)
+			:advmod (v / very))))

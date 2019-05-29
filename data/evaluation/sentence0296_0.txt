@@ -1,0 +1,5 @@
+(t2 / thorn
+	:acl (u / use
+		:nsubj (w / what))
+	:nsubj (t / they)
+	:advmod (t3 / then))

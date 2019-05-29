@@ -1,0 +1,8 @@
+(h2 / hide
+	:nsubj (h / home
+		:poss (i / i))
+	:obj (s / secret
+		:poss (d / dept
+			:poss (h3 / heart
+				:poss (i2 / it))))
+	:aux (b / be))

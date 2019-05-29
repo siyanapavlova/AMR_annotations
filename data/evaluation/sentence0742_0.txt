@@ -1,0 +1,4 @@
+(s / say-01
+	:ARG0 (b / businessman)
+	:ccomp (e / enough
+		:nsubj (t / that)))

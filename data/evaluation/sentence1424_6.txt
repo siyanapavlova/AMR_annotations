@@ -1,0 +1,13 @@
+(s3 / sweet
+	:expl (i2 / it)
+	:csubj (l3 / look-04
+		:mark (t / to)
+		:obl (s2 / sky)
+		:obl (n / night))
+	:advcl (l / love
+		:obj (f / flower
+			:acl (l2 / live-02
+				:nsubj (t2 / that)
+				:obl (s / star)))
+		:nsubj (y / you)
+		:mark (i / if)))

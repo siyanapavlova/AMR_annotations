@@ -1,0 +1,10 @@
+(v2 / visit
+	:nsubj (t / this)
+	:amod (s / short
+		:advmod (v / very))
+	:conj (p / plunge
+		:obl (d / dejection
+			:amod (d2 / deep))
+		:nsubj (i / it)
+		:obj (p2 / prince
+			:amod (l / little))))

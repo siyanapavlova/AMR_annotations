@@ -1,0 +1,15 @@
+(b / but
+	:op1 (s / say-01
+		:ccomp (o / or
+			:op (m2 / moment
+				:det (s2 / some))
+			:op (m3 / minded
+				:obl (a2 / absend)
+				:nsubj (o3 / one
+					:amod (o2 / other)))
+			:op (e / enough
+				:nsubj (t / that)))
+		:ARG0 (i / i)
+		:obl (t2 / time
+			:det (a / another))
+		:obl (m / myself)))

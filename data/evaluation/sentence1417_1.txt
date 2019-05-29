@@ -1,0 +1,21 @@
+(y / year
+	:nsubj (i3 / it)
+	:advcl (s / say-01
+		:obl (t / tonight)
+		:obl (i4 / i)
+		:ARG0 (h / he))
+	:appos (s2 / star
+		:poss (i2 / i))
+	:parataxis (f / find-01
+		:aux (b2 / be)
+		:aux (c2 / can)
+		:advmod (t2 / then)
+		:obl (p / place
+			:advmod (r / right)
+			:acl (c / come
+				:advmod (a / ago
+					:obl (y2 / year))
+				:obl (e / earth)
+				:advmod (w2 / where)
+				:nsubj (i / i))))
+	:aux (w / will))

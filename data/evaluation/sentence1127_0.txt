@@ -1,0 +1,3 @@
+(s / source
+	:nsubj (w / word)
+	:poss (m / misunderstanding))

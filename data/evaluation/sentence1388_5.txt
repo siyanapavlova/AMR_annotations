@@ -1,0 +1,8 @@
+(a / and
+	:op1 (g / give-14
+		:obj (w / water
+			:acl (d / drink-02
+				:mark (t / to))
+			:det (s / some))
+		:aux (h2 / have)
+		:iobj (h3 / he)))

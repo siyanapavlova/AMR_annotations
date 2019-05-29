@@ -1,0 +1,25 @@
+(w / walk
+	:advcl (h2 / have
+		:obj (m / minute
+			:nummod (t / three
+				:compound (f / fifty)))
+		:xcomp (s4 / spend
+			:mark (t2 / to)
+			:advcl (l3 / like
+				:mark (a / as)
+				:nsubj (i2 / i)))
+		:mark (i / if)
+		:nsubj (i3 / i))
+	:nsubj (i4 / i)
+	:advcl (s3 / say
+		:mark (a2 / as
+			:obl (i5 / i))
+		:nsubj (p / prince
+			:poss (h / himself)
+			:amod (l2 / little)))
+	:aux (s2 / should)
+	:obl (l / leisure
+		:poss (i6 / i))
+	:obl (s / spring
+		:poss (w2 / water
+			:amod (f2 / fresh))))

@@ -1,0 +1,6 @@
+(a / and
+	:op (r / river)
+	:op (o2 / ocean)
+	:op1 (d / desert)
+	:op (m / mountain
+		:appos (s / seas)))

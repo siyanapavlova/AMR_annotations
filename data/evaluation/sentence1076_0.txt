@@ -1,0 +1,9 @@
+(n / nothing
+	:nsubj (i / i)
+	:obl (y / you)
+	:amod (m / more
+		:obl (f / fox
+			:poss (f2 / fox
+				:nummod (t / thousand
+					:nummod (h / hundred))
+				:amod (o / other)))))

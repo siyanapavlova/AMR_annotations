@@ -1,0 +1,7 @@
+(h / have-05
+	:ARG0 (f / field
+		:amod (w / wheat))
+	:ARG1 (n / nothing
+		:acl (s / say-01
+			:obl (i / i)
+			:mark (t / to))))

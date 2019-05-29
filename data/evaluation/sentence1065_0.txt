@@ -1,0 +1,4 @@
+(l / look-01
+	:obl (c / chicken)
+	:nsubj (y / you)
+	:aux (b / be))

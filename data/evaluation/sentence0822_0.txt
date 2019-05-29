@@ -1,0 +1,6 @@
+(b / but
+	:op1 (s / small
+		:advmod (t / too)
+		:advmod (i / indeed)
+		:nsubj (p / planet
+			:poss (h / he))))

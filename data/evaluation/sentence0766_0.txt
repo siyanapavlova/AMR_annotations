@@ -1,0 +1,8 @@
+(s / salute
+	:advcl (a / arrive
+		:nsubj (h / he)
+		:obl (p / planet)
+		:mark (w / when))
+	:obj (l / lamplighter)
+	:nsubj (h2 / he)
+	:advmod (r / respectfully))

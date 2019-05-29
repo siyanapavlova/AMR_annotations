@@ -1,0 +1,7 @@
+(a / and
+	:op1 (m / make-06
+		:nsubj (f / five)
+		:ARG1 (o / one
+			:compound (t / thirty))
+		:nsubj (s / six
+			:compound (t2 / twenty))))

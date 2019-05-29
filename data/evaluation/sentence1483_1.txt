@@ -1,0 +1,15 @@
+(w / walk
+	:aux (b / be)
+	:advmod (a2 / along)
+	:advcl (s / succeed-02
+		:mark (w2 / when)
+		:advcl (c / catch
+			:compound (u / up)
+			:mark (i2 / in)
+			:obl (h2 / he))
+		:ARG0 (i / i))
+	:obl (s2 / step
+		:amod (a / and
+			:op (r / resolute)
+			:op (q / quick)))
+	:nsubj (h / he))

@@ -1,0 +1,6 @@
+(s / see-04
+	:aux (h / have)
+	:ARG1 (p / passing
+		:amod (c / caravan))
+	:ARG0 (f / flower)
+	:advmod (o / once))

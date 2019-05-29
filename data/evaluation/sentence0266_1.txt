@@ -1,0 +1,13 @@
+(f / find-01
+	:obl (t / time
+		:amod (l2 / long))
+	:obl (p / pleasure
+		:acl (l / look-09
+			:mark (o2 / of)
+			:obl (s / sunset))
+		:amod (q / quiet))
+	:ARG1 (e / entertainment
+		:poss (y2 / you)
+		:amod (o / only))
+	:ARG0 (y / you)
+	:aux (h / have))

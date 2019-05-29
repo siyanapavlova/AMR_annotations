@@ -1,0 +1,5 @@
+(b / be-02
+	:nsubj (h / hunter
+		:poss (t2 / there))
+	:obl (p / planet
+		:det (t / this)))

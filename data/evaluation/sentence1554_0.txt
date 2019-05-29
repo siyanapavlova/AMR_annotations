@@ -1,0 +1,7 @@
+(i / i
+	:appos (l2 / landscape
+		:poss (w / world)
+		:amod (a / and
+			:op (s / saddest)
+			:op (l / loveliest)))
+	:nsubj (t / this))

@@ -1,0 +1,13 @@
+(m / man
+	:advmod (t / then)
+	:nsubj (y2 / you)
+	:advmod (i / indeed)
+	:advcl (s / succeed-02
+		:ARG0 (y3 / you)
+		:mark (i2 / if)
+		:advcl (j / judge-01
+			:mark (i3 / in)
+			:advmod (r / rightly)
+			:ARG1 (y / yourself)))
+	:poss (w / wisdom
+		:amod (t2 / true)))

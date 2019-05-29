@@ -1,0 +1,21 @@
+(b2 / begin
+	:advmod (s2 / so)
+	:advmod (q / quickly
+		:advmod (v2 / very))
+	:advmod (t4 / too)
+	:parataxis (b / be-02
+		:advcl (k / know
+			:nsubj (t2 / truth)
+			:xcomp (d / difficult
+				:acl (d2 / deal-02
+					:obl (w / with)
+					:mark (t5 / to))
+				:amod (l / little))
+			:mark (i / if))
+		:nsubj (w2 / which))
+	:nsubj (s3 / she)
+	:xcomp (t3 / torment
+		:obl (v / vanity
+			:poss (s / she))
+		:mark (t / to)
+		:obj (h / he)))

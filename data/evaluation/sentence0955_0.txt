@@ -1,0 +1,5 @@
+(b / be-02
+	:nsubj (p / people
+		:det (n / no)
+		:poss (d / desert))
+	:expl (t / there))

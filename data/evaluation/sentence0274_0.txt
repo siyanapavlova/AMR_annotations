@@ -1,0 +1,6 @@
+(w2 / wait
+	:advcl (t / time
+		:mark (u / until)
+		:nsubj (i / it))
+	:nsubj (w / we)
+	:aux (m / must))

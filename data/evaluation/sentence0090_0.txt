@@ -1,0 +1,6 @@
+(a / and
+	:op1 (t / throw
+		:obj (e / explanation
+			:poss (i2 / it))
+		:compound (o / out)
+		:nsubj (i / i)))

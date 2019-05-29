@@ -1,0 +1,6 @@
+(l / live-01
+	:aux (b / be)
+	:obl (o / one
+		:poss (s2 / star))
+	:ARG0 (i / i)
+	:aux (s / shall))

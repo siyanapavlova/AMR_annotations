@@ -1,0 +1,13 @@
+(a / and
+	:op1 (s4 / see-05
+		:obj (p / person
+			:mod (e2 / extraordinary
+				:advmod (m2 / most))
+			:ARG0-of (s3 / stand-03
+				:advmod (t / there)
+				:advcl (e / examine-01
+					:ARG1 (m / me)
+					:obl (s / seriousness
+						:mod (g / great))))
+			:mod (s2 / small))
+		:ARG0 (i / i)))

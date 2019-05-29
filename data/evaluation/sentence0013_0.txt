@@ -1,0 +1,5 @@
+(p / picture
+	:poss (h / hat)
+	:advmod (n / not)
+	:nsubj (d / drawing
+		:poss (i / i)))

@@ -1,0 +1,16 @@
+(s2 / shut
+	:conj (w / watch
+		:nsubj (h / he)
+		:obj (s3 / sheep
+			:poss (h3 / he))
+		:advmod (c / carefully
+			:advmod (v / very)))
+	:nsubj (p / prince
+		:amod (l / little))
+	:ccomp (g2 / globe
+		:obl (n / night
+			:det (e / every))
+		:nsubj (f / flower
+			:poss (g / glass
+				:poss (s / she))
+			:poss (h2 / he))))

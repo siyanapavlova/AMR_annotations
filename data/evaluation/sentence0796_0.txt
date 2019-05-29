@@ -1,0 +1,6 @@
+(s / say-01
+	:ARG0 (l / lamplighter)
+	:ccomp (f / funny
+		:obl (a / all)
+		:nsubj (i / it)
+		:advmod (n / not)))

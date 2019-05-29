@@ -1,0 +1,6 @@
+(b / but
+	:op1 (j / judge-01
+		:aux (c / can)
+		:ARG0 (i / i)
+		:ARG1 (m / myself)
+		:advmod (a / anywhere)))

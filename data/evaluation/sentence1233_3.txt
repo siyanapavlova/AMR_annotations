@@ -1,0 +1,5 @@
+(l2 / let-05
+	:xcomp (l / look-02
+		:obl (a / a
+			:advmod (w / well)))
+	:ARG1 (u / us))

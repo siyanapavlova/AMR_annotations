@@ -1,0 +1,6 @@
+(s / seem-01
+	:nsubj (i2 / it)
+	:obl (i / i)
+	:ccomp (f / favorable
+		:nsubj (c / condition)
+		:mark (t / that)))

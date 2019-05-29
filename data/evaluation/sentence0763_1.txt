@@ -1,0 +1,13 @@
+(s3 / send
+	:advcl (p / put
+		:compound (o2 / out)
+		:nsubj (h / he)
+		:obj (l / lamp
+			:poss (h2 / he))
+		:mark (w / when))
+	:nsubj (h3 / he)
+	:advcl (s2 / sleep-02
+		:mark (t / to))
+	:obj (o / or
+		:op (f / flower)
+		:op (s / star)))

@@ -1,0 +1,8 @@
+(s / say-01
+	:advmod (t / then)
+	:advmod (a / again)
+	:ccomp (k / know
+		:obj (f / flower
+			:poss (i / i))
+		:nsubj (y / you))
+	:ARG0 (h / he))

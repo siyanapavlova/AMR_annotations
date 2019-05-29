@@ -1,0 +1,4 @@
+(t / tolerate
+	:nsubj (h / he)
+	:obj (d / disobedience
+		:det (n / no)))

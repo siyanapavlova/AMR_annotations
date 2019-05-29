@@ -1,0 +1,8 @@
+(s2 / sweet
+	:advcl (t / treat
+		:det (s3 / some)
+		:mark (a2 / as)
+		:amod (s / special)
+		:amod (f / festival))
+	:nsubj (i / it)
+	:advmod (a / as))

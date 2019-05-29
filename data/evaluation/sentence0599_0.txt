@@ -1,0 +1,6 @@
+(t / take-15
+	:ARG0 (h / he)
+	:obl (s / sigh)
+	:advmod (t2 / then)
+	:ARG1 (l / leave
+		:poss (h2 / he)))

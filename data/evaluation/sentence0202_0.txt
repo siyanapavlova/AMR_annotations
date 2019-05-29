@@ -1,0 +1,8 @@
+(b / but
+	:op1 (s / something
+		:acl (f / fault
+			:poss (i / i)
+			:aux (w / will)
+			:advmod (n / not)
+			:nsubj (t / that))
+		:nsubj (t2 / that)))

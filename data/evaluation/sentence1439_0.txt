@@ -1,0 +1,6 @@
+(l / love
+	:nsubj (i / i)
+	:xcomp (h / hear-01
+		:obj (l2 / laughter
+			:det (t2 / that))
+		:mark (t / to)))

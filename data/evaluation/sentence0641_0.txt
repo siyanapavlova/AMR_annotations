@@ -1,0 +1,9 @@
+(f / forget
+	:obj (w / what)
+	:parataxis (i / inquire
+		:obj (p / prince
+			:acl (s / sorry
+				:advmod (a / already)
+				:nsubj (w2 / who)
+				:obl (h / he))
+			:amod (l / little))))

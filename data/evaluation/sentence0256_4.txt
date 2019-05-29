@@ -1,0 +1,25 @@
+(s / skirt
+	:obj (d / danger
+		:det (t / this))
+	:aux (h3 / have)
+	:obl (t5 / time
+		:amod (l / long))
+	:conj (t4 / they
+		:acl (w2 / work-10
+			:aux (h2 / have)
+			:obl (d2 / drawing
+				:det (t3 / this))
+			:advmod (h / hard
+				:advmod (s2 / so))
+			:mark (t2 / that)
+			:ARG0 (i3 / i))
+		:nsubj (i4 / it)
+		:advmod (s3 / so))
+	:aux (b / be)
+	:nsubj (f / friend
+		:poss (i2 / i)
+		:poss (m / myself))
+	:advcl (k / know
+		:mark (w / without)
+		:advmod (e / ever)
+		:obj (i / it)))

@@ -1,0 +1,10 @@
+(e2 / evening
+	:aux (w2 / will)
+	:aux (w / will)
+	:det (t4 / this)
+	:nsubj (t2 / that)
+	:advmod (a / about)
+	:nsubj (t / that)
+	:poss (m / minute
+		:nummod (t3 / twenty)
+		:poss (e / eight)))

@@ -1,0 +1,7 @@
+(a2 / and
+	:op1 (h / have-08
+		:ARG0 (a3 / another)
+		:ARG1 (r / resemblance
+			:det (n / no)
+			:poss (s / subject
+				:poss (i / its)))))

@@ -1,0 +1,19 @@
+(m / make-19
+	:advmod (h / however)
+	:advmod (f / fortunately)
+	:ARG0 (d / dictator
+		:amod (t2 / turkish))
+	:obl (r / reputation
+		:poss (b / b
+			:compound (a / asteroid)
+			:nummod (6 / 612)))
+	:ARG1 (l / law
+		:acl (c2 / change
+			:aux (s2 / should)
+			:obl (c / costume
+				:amod (e / european))
+			:nsubj (s / subject
+				:poss (h2 / he)
+				:poss (p / pain
+					:poss (d2 / death)))
+			:mark (t / that))))

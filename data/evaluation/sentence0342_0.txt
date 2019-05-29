@@ -1,0 +1,7 @@
+(g / grow-01
+	:ARG0 (f / flower)
+	:aux (b / be)
+	:aux (h / have)
+	:ARG1 (t / thorn
+		:poss (m / million
+			:poss (y / year))))

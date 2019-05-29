@@ -1,0 +1,4 @@
+(c / command
+	:aux (s / shall)
+	:nsubj (i2 / i)
+	:obj (i / it))

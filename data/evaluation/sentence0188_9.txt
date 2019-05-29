@@ -1,0 +1,12 @@
+(p / pass
+	:aux (h / have)
+	:advmod (a2 / already)
+	:obl (f / friend
+		:poss (i2 / i))
+	:nsubj (y / year
+		:nummod (s / six))
+	:conj (g / go-06
+		:obl (s2 / sheep
+			:poss (h2 / he))
+		:obl (i / i)
+		:advmod (a / away)))

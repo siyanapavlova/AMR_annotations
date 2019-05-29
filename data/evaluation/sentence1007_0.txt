@@ -1,0 +1,6 @@
+(c / climb
+	:obl (t / that)
+	:nsubj (p / prince
+		:amod (l / little))
+	:obj (m / mountain
+		:amod (h / high)))

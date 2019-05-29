@@ -1,0 +1,6 @@
+(t / tell-02
+	:ccomp (a / also
+		:obl (s / snake)
+		:nsubj (i2 / it))
+	:obj (y / you)
+	:ARG0 (i / i))

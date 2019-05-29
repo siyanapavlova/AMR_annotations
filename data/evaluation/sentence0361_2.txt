@@ -1,0 +1,9 @@
+(d / draw-01
+	:aux (w / will)
+	:advcl (p / put
+		:mark (t / to)
+		:obl (f / flower
+			:poss (y2 / you)))
+	:iobj (y / you)
+	:obj (r / railing)
+	:ARG0 (i / i))

@@ -1,0 +1,9 @@
+(s / say-01
+	:ccomp (g / glad
+		:nsubj (i / i))
+	:ccomp (a / agree
+		:mark (t / that)
+		:nsubj (y / you)
+		:obl (f / fox
+			:poss (i2 / i)))
+	:ARG0 (h / he))

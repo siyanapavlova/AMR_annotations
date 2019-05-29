@@ -1,0 +1,6 @@
+(b / but
+	:op (g / go-05
+		:ARG0 (h / he)
+		:advmod (o / on))
+	:op1 (e / empty
+		:nsubj (y / you)))

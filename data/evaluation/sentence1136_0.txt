@@ -1,0 +1,5 @@
+(o / observe
+	:nsubj (o2 / one)
+	:aux (m / must)
+	:obj (r / rite
+		:amod (p / proper)))

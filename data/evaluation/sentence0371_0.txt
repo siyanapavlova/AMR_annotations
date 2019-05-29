@@ -1,0 +1,13 @@
+(a / appear
+	:obl (g / grass)
+	:nsubj (t2 / they)
+	:aux (w / would)
+	:conj (f / fad
+		:aux (h / have)
+		:advmod (a3 / away
+			:advmod (p / peacefully))
+		:nsubj (t / they)
+		:aux (w2 / would)
+		:obl (n / night))
+	:obl (m / morning
+		:nummod (o / one)))

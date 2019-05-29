@@ -1,0 +1,12 @@
+(h / have-08
+	:advcl (p / protect
+		:obj (h2 / herself)
+		:obl (w / world
+			:det (a2 / all))
+		:mark (t / to))
+	:ARG0 (s / she)
+	:ARG1 (t2 / thorn
+		:nummod (f / four)
+		:poss (u / use
+			:det (n / no)
+			:poss (a / all))))

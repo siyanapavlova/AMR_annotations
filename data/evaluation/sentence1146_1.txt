@@ -1,0 +1,13 @@
+(a / and
+	:op1 (s / say-01
+		:ARG0 (f / fox
+			:acl (c / cry
+				:aux (s2 / shall)
+				:nsubj (i / i)))
+		:ccomp (d2 / draw-05
+			:ARG0 (h2 / hour
+				:poss (d / departure
+					:poss (h / he)))
+			:discourse (a2 / ah)
+			:mark (w / when)
+			:advmod (n / near))))

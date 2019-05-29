@@ -1,0 +1,19 @@
+(s3 / seem
+	:advmod (y / yet)
+	:nsubj (m / man
+		:amod (l / little)
+		:poss (i / i))
+	:conj (f / faint
+		:aux (b / be)
+		:mark (t3 / to)
+		:obl (o / or
+			:op (h / hunger)
+			:op (f2 / fear)
+			:op (f3 / fatigue)
+			:op (t2 / thirst)))
+	:xcomp (s / stray
+		:aux (b2 / be)
+		:advmod (n2 / neither)
+		:obl (s2 / sand)
+		:mark (t / to)
+		:advmod (u / uncertainly)))

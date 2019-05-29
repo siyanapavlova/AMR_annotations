@@ -1,0 +1,12 @@
+(a2 / answer-01
+	:aux (m / must)
+	:discourse (y2 / yes)
+	:discourse (y / yes)
+	:aux (h3 / have)
+	:ARG0 (v / voice
+		:det (a / another))
+	:ARG2 (h2 / him)
+	:advcl (r / reply
+		:obl (i / it)
+		:mark (f / for)
+		:nsubj (h / he)))

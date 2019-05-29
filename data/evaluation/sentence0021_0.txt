@@ -1,0 +1,10 @@
+(c / choose
+	:advmod (t2 / then)
+	:conj (l / learn
+		:xcomp (p / pilot
+			:mark (t / to)
+			:obj (a / airplane)))
+	:nsubj (i / i)
+	:advmod (s / so)
+	:obj (p2 / profession
+		:det (a2 / another)))

@@ -1,0 +1,16 @@
+(r / reach
+	:obl (t2 / time
+		:advmod (j / just))
+	:obj (w / wall)
+	:nsubj (i2 / i)
+	:conj (w2 / white
+		:nsubj (f / face
+			:poss (h / he))
+		:obl (s / snow))
+	:advcl (c / catch
+		:poss (a / arm
+			:poss (i3 / i))
+		:obj (m / man
+			:poss (i / i)
+			:amod (l / little))
+		:mark (t / to)))

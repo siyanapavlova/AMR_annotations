@@ -1,0 +1,17 @@
+(r / receive
+	:advcl (s / see-02
+		:ARG1 (p / prince
+			:acl (c / come)
+			:amod (l / little))
+		:advmod (f / first)
+		:ARG0 (h / he)
+		:mark (w / when))
+	:obj (v / visit)
+	:ccomp (e / exclaim
+		:nsubj (h2 / he)
+		:obl (f2 / from)
+		:advmod (a3 / afar))
+	:advmod (a2 / about)
+	:mark (t / to)
+	:nsubj (i / i)
+	:obl (a / admirer))

@@ -1,0 +1,14 @@
+(m / matter
+	:advmod (l2 / longer
+		:advmod (n / no))
+	:compound (m2 / man
+		:amod (l / little)
+		:poss (i / i)
+		:amod (d2 / dear))
+	:acl (h / have-11
+		:ARG0 (t2 / that)
+		:obj (a / anything
+			:acl (d / do-02
+				:mark (t3 / to)
+				:obl (f / fox))))
+	:nsubj (t / this))

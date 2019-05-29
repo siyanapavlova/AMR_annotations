@@ -1,0 +1,5 @@
+(s / say-01
+	:ARG0 (h / he)
+	:ccomp (a / alone
+		:advmod (a2 / all)
+		:nsubj (i / i)))

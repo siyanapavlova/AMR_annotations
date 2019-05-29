@@ -1,0 +1,6 @@
+(a / and
+	:op1 (l / lead
+		:obl (a3 / abode
+			:poss (m / man))
+		:nsubj (r / road
+			:det (a2 / all))))

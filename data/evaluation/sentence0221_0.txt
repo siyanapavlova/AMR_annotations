@@ -1,0 +1,11 @@
+(s / say-01
+	:ARG0 (h / he)
+	:ccomp (h2 / have-11
+		:xcomp (p / put
+			:obl (t2 / top
+				:obj (o / one)
+				:poss (o2 / other))
+			:obj (t / they)
+			:mark (t3 / to))
+		:ARG0 (w / we)
+		:aux (w2 / would)))

@@ -1,0 +1,27 @@
+(t / tell
+	:iobj (y2 / you)
+	:ccomp (n / necessary
+		:mark (t4 / that)
+		:mark (b / before)
+		:nsubj (i / invention
+			:poss (e / electricity))
+		:expl (i3 / it)
+		:csubj (m / maintain
+			:mark (t2 / to)
+			:obj (a / army
+				:poss (l2 / lamplighter
+					:poss (l / lamp
+						:compound (s3 / street))
+					:nummod (4 / 462,511))
+				:amod (v / veritable))
+			:obl (w / whole
+				:obl (c / continent
+					:nummod (s / six)))))
+	:advcl (g / give
+		:mark (t3 / to)
+		:obj (i2 / idea
+			:poss (s2 / size
+				:poss (e2 / earth)))
+		:iobj (y / you))
+	:nsubj (i4 / i)
+	:aux (w2 / will))

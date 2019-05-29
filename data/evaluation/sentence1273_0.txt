@@ -1,0 +1,8 @@
+(a / and
+	:op1 (f / feel
+		:xcomp (f2 / fragile
+			:mark (t / to)
+			:advmod (m / more)
+			:advmod (s / still))
+		:nsubj (i / i)
+		:obj (h / he)))

@@ -1,0 +1,12 @@
+(s / say-01
+	:ARG0 (h / he)
+	:ccomp (g / glad
+		:nsubj (i / i)
+		:ccomp (f / find-01
+			:ccomp (m / matter
+				:nsubj (w / what)
+				:poss (e / engine
+					:poss (y / you)))
+			:aux (h2 / have)
+			:ARG0 (y2 / you)
+			:mark (t / that))))

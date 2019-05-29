@@ -1,0 +1,6 @@
+(a / and
+	:op1 (y / yawn-01
+		:ARG0 (h3 / he)
+		:advcl (t / tired
+			:nsubj (h2 / he)
+			:mark (s3 / since))))

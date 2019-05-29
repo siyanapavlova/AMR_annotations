@@ -1,0 +1,5 @@
+(l / look-02
+	:ARG0 (t / they)
+	:ARG2 (w / what)
+	:aux (b / be)
+	:obl (f / for))

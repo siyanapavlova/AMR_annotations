@@ -1,0 +1,15 @@
+(a / and
+	:op1 (f2 / find-01
+		:obl (o2 / or
+			:op (r / rose
+				:amod (s / single)
+				:nummod (o / one))
+			:op (w2 / water
+				:amod (l2 / little)))
+		:nsubj (w / what
+			:acl (l / look-01
+				:obl (f / for)
+				:aux (b / be)
+				:nsubj (t / they))
+			:advmod (y / yet))
+		:aux (c / could)))

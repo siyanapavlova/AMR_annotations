@@ -1,0 +1,16 @@
+(a2 / answer-01
+	:conj (c2 / come)
+	:ARG0 (h2 / he)
+	:discourse (o2 / oh)
+	:advcl (s2 / speak-01
+		:ARG0 (h / he)
+		:aux (b / be)
+		:obl (s / something
+			:acl (e / evident
+				:obl (s3 / self)
+				:nsubj (t / that)))
+		:mark (a / as)
+		:mark (i / if))
+	:obl (o / once)
+	:conj (c / come)
+	:ARG2 (m / me))

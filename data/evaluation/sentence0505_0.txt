@@ -1,0 +1,3 @@
+(f / frighten-01
+	:ARG0 (t / that)
+	:ARG1 (i / i))

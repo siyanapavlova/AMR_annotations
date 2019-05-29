@@ -1,0 +1,5 @@
+(d / die
+	:aux (c / could)
+	:advmod (n / not)
+	:nsubj (o / one)
+	:obl (y / you))

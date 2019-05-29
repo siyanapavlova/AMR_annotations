@@ -1,0 +1,17 @@
+(f / feel
+	:nsubj (h4 / he)
+	:ccomp (l / love
+		:nsubj (h2 / he)
+		:obj (l3 / lamplighter
+			:acl (f2 / faithful
+				:advmod (s / so)
+				:nsubj (w2 / who)
+				:obl (o / order
+					:poss (h / he)))
+			:det (t / this))
+		:mark (t2 / that))
+	:advcl (w / watch
+		:mark (a / as)
+		:obj (h3 / he)
+		:nsubj (p / prince
+			:amod (l2 / little))))

@@ -1,0 +1,6 @@
+(f / frighten
+	:aux (s / should)
+	:obl (h / hat)
+	:advmod (w / why)
+	:nsubj (o / one
+		:det (a / any)))

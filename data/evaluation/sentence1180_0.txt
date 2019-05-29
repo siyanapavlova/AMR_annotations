@@ -1,0 +1,4 @@
+(r2 / responsible
+	:obl (r / rose
+		:poss (y2 / you))
+	:nsubj (y / you))

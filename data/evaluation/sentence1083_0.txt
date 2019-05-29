@@ -1,0 +1,4 @@
+(s / say-01
+	:ccomp (p / possible
+		:nsubj (i / it))
+	:ARG0 (f / fox))

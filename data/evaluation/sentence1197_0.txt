@@ -1,0 +1,9 @@
+(s2 / say-01
+	:ARG0 (s3 / switchman)
+	:ccomp (s / satisfied
+		:advmod (e / ever)
+		:acl (b / be
+			:nsubj (h / he)
+			:advmod (w / where))
+		:nsubj (o / one
+			:det (n / no))))

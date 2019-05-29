@@ -1,0 +1,14 @@
+(r / respond
+	:nsubj (p2 / prince
+		:amod (l / little))
+	:obl (m / morning
+		:amod (g / good))
+	:advmod (p / politely)
+	:advcl (s / see-03
+		:advcl (t / turn
+			:nsubj (h2 / he)
+			:mark (w / when)
+			:advmod (a / around))
+		:ARG0 (h / he)
+		:obj (n / nothing)
+		:mark (a2 / although)))

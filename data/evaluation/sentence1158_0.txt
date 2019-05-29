@@ -1,0 +1,7 @@
+(s / say-01
+	:ccomp (r / rose
+		:poss (i / i)
+		:advmod (n / not)
+		:advmod (a / all)
+		:nsubj (y / you))
+	:ARG0 (h / he))

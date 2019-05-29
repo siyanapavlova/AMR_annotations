@@ -1,0 +1,4 @@
+(b / but
+	:op1 (a / answer
+		:nsubj (t / they)
+		:obj (f / frighten)))

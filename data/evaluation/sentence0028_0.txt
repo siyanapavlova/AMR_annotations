@@ -1,0 +1,9 @@
+(a / and
+	:op1 (i / improve
+		:nsubj (t2 / that)
+		:advmod (m / much)
+		:aux (h / have)
+		:advmod (n / not)
+		:obj (o / opinion
+			:poss (i2 / i)
+			:poss (t / they))))

@@ -1,0 +1,10 @@
+(b / but
+	:op1 (w2 / want-01
+		:obj (s / sheep
+			:acl (e / eat
+				:obj (b2 / baobab
+					:amod (l / little))
+				:mark (t / to)))
+		:aux (d / do)
+		:ARG0 (y / you)
+		:advmod (w / why)))

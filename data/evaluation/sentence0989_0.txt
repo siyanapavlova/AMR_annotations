@@ -1,0 +1,6 @@
+(s / say-01
+	:ARG0 (s3 / snake)
+	:ccomp (s2 / solve
+		:obj (t / they
+			:det (a / all))
+		:nsubj (i / i)))

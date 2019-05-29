@@ -1,0 +1,3 @@
+(s / say-01
+	:obl (m / myself)
+	:ARG0 (i / i))

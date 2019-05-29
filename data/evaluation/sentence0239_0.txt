@@ -1,0 +1,5 @@
+(c / clear
+	:obl (i3 / it)
+	:nsubj (i2 / it)
+	:obl (r / root
+		:poss (i / its)))

@@ -1,0 +1,14 @@
+(c / come
+	:parataxis (a / and
+		:op (m / make-01
+			:iobj (y / you)
+			:aux (w / will)
+			:ARG1 (p / present
+				:poss (s / secret))
+			:ARG0 (i2 / i))
+		:op (g / goodbye
+			:obl (i / i)
+			:discourse (s2 / say)))
+	:advmod (b / back
+		:obl (t2 / to))
+	:advmod (t / then))

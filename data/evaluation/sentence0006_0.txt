@@ -1,0 +1,16 @@
+(a2 / and
+	:op1 (s / sleep-01
+		:advcl (a / able
+			:xcomp (m2 / move-01
+				:mark (t5 / to))
+			:advmod (n / not)
+			:mark (t6 / that)
+			:mark (a3 / after)
+			:nsubj (t3 / they))
+		:ccomp (n2 / need-01
+			:ARG0 (t2 / they)
+			:obl (d / digestion)
+			:mark (t / that))
+		:ARG0 (t4 / they)
+		:obl (m / month
+			:nummod (s2 / six))))

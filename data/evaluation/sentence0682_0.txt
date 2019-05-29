@@ -1,0 +1,17 @@
+(r / realize
+	:nsubj (b3 / businessman)
+	:advmod (s / suddenly)
+	:ccomp (b / be-02
+		:expl (t3 / there)
+		:advcl (a / answer-01
+			:ARG2 (q / question
+				:det (t2 / this))
+			:mark (u / until)
+			:ARG0 (h / he))
+		:nsubj (h2 / hope
+			:det (n / no)
+			:acl (l / leave
+				:aux (b2 / be)
+				:mark (o / of)
+				:obl (p / peace)))
+		:mark (t / that)))

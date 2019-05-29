@@ -1,0 +1,9 @@
+(f / farther
+	:advmod (t / then)
+	:advmod (s / sadly)
+	:ccomp (d / difficult
+		:nsubj (i / it)
+		:advmod (m / more
+			:advmod (m2 / much)))
+	:nsubj (i2 / it)
+	:advmod (m3 / much))

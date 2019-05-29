@@ -1,0 +1,2 @@
+(g / general
+	:conj (m / myself))

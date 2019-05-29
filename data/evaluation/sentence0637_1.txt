@@ -1,0 +1,21 @@
+(s / say-01
+	:obl (t / tippler
+		:acl (f2 / find-01
+			:ARG1 (w2 / whom)
+			:xcomp (s2 / settle
+				:obl (s3 / silence)
+				:obl (c2 / collection
+					:poss (b3 / bottle
+						:amod (e / empty)))
+				:compound (d2 / down))
+			:ARG0 (h / he)
+			:conj (c / collection
+				:poss (b / bottle
+					:amod (f / full))
+				:advmod (a2 / also))))
+	:ccomp (d / do-02
+		:aux (b2 / be)
+		:advmod (t2 / there)
+		:ARG0 (y / you)
+		:ARG1 (w / what))
+	:ARG0 (h2 / he))

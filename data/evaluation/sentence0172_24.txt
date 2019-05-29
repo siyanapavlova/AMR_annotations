@@ -1,0 +1,13 @@
+(h2 / have-11
+	:xcomp (s / say-01
+		:obl (t3 / they)
+		:mark (t / to))
+	:aux (w / would)
+	:ccomp (s2 / see-03
+		:obj (h / house
+			:acl (c / cost
+				:obj ($ / $
+					:nummod (2 / 20,000))
+				:nsubj (t2 / that)))
+		:ARG0 (i / i))
+	:ARG0 (y / you))

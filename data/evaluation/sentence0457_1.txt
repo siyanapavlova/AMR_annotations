@@ -1,0 +1,10 @@
+(s / stand-04
+	:nsubj (h / he)
+	:ccomp (b / bewilder
+		:nsubj (t / there
+			:det (a2 / all)))
+	:parataxis (a3 / arrest
+		:nsubj (g / globe
+			:compound (g2 / glass))
+		:obl (a / air
+			:compound (m / mid))))

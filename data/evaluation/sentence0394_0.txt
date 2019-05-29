@@ -1,0 +1,9 @@
+(t2 / think-01
+	:ccomp (t / time
+		:poss (b / breakfast)
+		:nsubj (i / it))
+	:ARG0 (i3 / i)
+	:ccomp (a / add
+		:xcomp (i2 / instant
+			:advmod (l / later))
+		:nsubj (s / she)))

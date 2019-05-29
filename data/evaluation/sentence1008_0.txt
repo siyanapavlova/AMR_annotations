@@ -1,0 +1,13 @@
+(v / volcanoe
+	:nsubj (m / mountain
+		:acl (k2 / know
+			:nsubj (h2 / he)
+			:advmod (e / ever)
+			:aux (h / have))
+		:amod (o / only))
+	:acl (c / come
+		:advmod (u / up)
+		:nsubj (w / which)
+		:obl (k / knee
+			:poss (h3 / he)))
+	:nummod (t / three))

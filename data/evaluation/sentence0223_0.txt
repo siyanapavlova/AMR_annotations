@@ -1,0 +1,3 @@
+(c / correct
+	:nsubj (t / that)
+	:advmod (s / strictly))

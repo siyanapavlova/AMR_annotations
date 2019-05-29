@@ -1,0 +1,5 @@
+(f / friend
+	:aux (w / will)
+	:nsubj (y / you)
+	:poss (i / i)
+	:advmod (a / always))

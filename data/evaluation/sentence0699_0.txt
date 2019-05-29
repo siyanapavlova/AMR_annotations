@@ -1,0 +1,7 @@
+(a / and
+	:op1 (d2 / do-02
+		:obl (s / star
+			:det (t / these))
+		:aux (d / do)
+		:ARG1 (w / what)
+		:ARG0 (y / you)))

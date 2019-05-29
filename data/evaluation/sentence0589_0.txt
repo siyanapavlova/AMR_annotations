@@ -1,0 +1,12 @@
+(b / but
+	:op1 (p / pardon
+		:aux (w / will)
+		:nsubj (y / you)
+		:advcl (t / treat
+			:advmod (t2 / thriftily)
+			:aux (m / must)
+			:nsubj (h / he)
+			:mark (f / for))
+		:obj (h2 / he)
+		:obl (o / occasion
+			:det (e / each))))

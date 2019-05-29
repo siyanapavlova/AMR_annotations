@@ -1,0 +1,5 @@
+(s / say-01
+	:ccomp (t / tame
+		:discourse (p / please)
+		:obj (i / i))
+	:ARG0 (h / he))

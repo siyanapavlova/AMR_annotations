@@ -1,0 +1,6 @@
+(b / be-02
+	:nsubj (r / rite)
+	:expl (t / there)
+	:obl (e / example)
+	:obl (h / hunter
+		:poss (i / i)))

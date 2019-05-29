@@ -1,0 +1,9 @@
+(a / and
+	:op1 (s3 / see-02
+		:aux (c / could)
+		:obl (w / water
+			:amod (t / trembl
+				:advmod (s4 / still)))
+		:ARG1 (s / shimmer
+			:compound (s6 / sunlight))
+		:ARG0 (i / i)))

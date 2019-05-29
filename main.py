@@ -1,6 +1,5 @@
 import ud_to_amr, amr_graph_to_text, smatcher, parser
 import grew
-from random import seed, sample
 import pprint
 import operator
 import csv
@@ -8,14 +7,25 @@ import os
 
 pp = pprint.PrettyPrinter(indent=4)
 
-def run_pipeline(load_path, save_path, filename, gold_amr): 	
+def run_pipeline(load_path, save_path, filename, gold_amr): 
+	'''Process a UD graph in CoNNL-U format to produce the
+	corresponding AMRs and find the maximum similarity score
+	between a produced AMR and the gold standard AMR.
+	Parameters: load_path - location of the UD CoNNL-U file
+				save_path - where to save the AMRs
+				filename - beginning of the name under which to save the AMRs
+				gold_amr - location of the gold AMR file
+	Output: best SMATCH similarity score for the sentence
+	'''	
 	# load the UD graph 
 	ud_graph = ud_to_amr.load_data(load_path)
 	
 	#print("Grew graph loaded \n")
 
 	# run a simple GRS 
-	grs_filename = './grs/grs_amr_main.grs'
+	# grs_filename = './grs/grs_amr_main.grs'
+	# grs_filename = './grs/grs_amr_main_interim.grs'
+	grs_filename = './grs/grs_amr_main_base.grs'
 
 	#printing out the grew format as text; for testing and analysis purposes
 	# new_graphs = ud_to_amr.ud_to_amr(grs_filename, ud_graph, strat="add_conc")
@@ -34,7 +44,6 @@ def run_pipeline(load_path, save_path, filename, gold_amr):
 
 
 	score_dict = {}
-	# print(len(new_graphs))
 	for new_graph_num in range(len(new_graphs)):
 		new_graph = new_graphs[new_graph_num]
 		text_amr = amr_graph_to_text.amr_grew_to_text(new_graph)
@@ -49,12 +58,15 @@ def run_pipeline(load_path, save_path, filename, gold_amr):
 	best_rewrite = max(score_dict.items(), key=(lambda key: score_dict[key[0]]))
 	best_textgraph = best_rewrite[0]
 	score = smatcher.get_smatch_score(save_path+best_textgraph, gold_amr) 
-	# print("="*10)
-	# print(score)
-	# print(save_path+filename, gold_amr)
 	return score
 
 def calculate_scores(sentence_nums):
+	'''Given a list of sentence numbers pointing to CoNLL-u parsed files,
+	call the processing pipeline and calculate scores
+	Parameters: sentence_nums: a list of numbers pointing to sentence numbers
+	Output: 3 lists: precision for each sentence, recall for each sentences,
+			and f1 for each sentence
+	'''
 	scores = []
 	for num in sentence_nums:
 		result = run_pipeline('./data/amr_bank_data/ud/sentence'+'{:04d}'.format(num)+'.conll',
@@ -85,17 +97,20 @@ def calculate_scores(sentence_nums):
 	print(len(precision))
 	return precision, recall, f1
 
-def collect_scores(sentence_nums, n, filename, folder):
-	'''
-	Parameters: n - the number of times that the test should be run
-				filename - path to the csv file where the results should be saved
-				sentence_nums - a list of sentence numbers to be tested
+def collect_scores(sentence_nums, n, folder):
+	'''Calls calculare_scores to find the scores for a set of sentences,
+	collects the scores and stores them in a folder
+	Parameters: sentence_nums - a list of sentence numbers to be tested
+				n - the number of times that the test should be run
+				folder - path to the folder where results should be saved
+	Output: creates four files in the desired folder: 'precision.csv',
+			'recall.csv', 'f1.csv' and 'all_metrics.csv'
 	'''
 	if not os.path.exists(folder):
 		os.makedirs(folder)
 
 	data = {'precision': [], 'recall': [], 'f1': []}
-	with open(folder+filename, 'a') as csvfile:
+	with open(folder+'/all_metrics.csv', 'a') as csvfile:
 		writefile = csv.writer(csvfile, delimiter='\t')
 		writefile.writerow(['Measure', 'Min', 'Max', 'Average'])
 		for i in range(n):
@@ -110,35 +125,21 @@ def collect_scores(sentence_nums, n, filename, folder):
 				writefile.writerow([score_val[0], min_score, max_score, avg_score])
 			writefile.writerow(['','','',''])
 	for file, measure in [(folder+'/precision.csv', 'precision'),
-				(folder+'/recall.csv', 'recall'),
-				(folder+'/f1.csv', 'f1')]:
+							(folder+'/recall.csv', 'recall'),
+							(folder+'/f1.csv', 'f1')]:
 		with open(file, 'a') as f:
 			data_file = csv.writer(f, delimiter='\t')
 			for run in data[measure]:
-				# print('run', run)
 				data_file.writerow(run)
-				# for i in run:
-				# 	data_file.writerow()
-				# f.write(i)
-	# print(data)
-
-
 
 
 if __name__=="__main__":
-	# sentence_nums = choose_sentences_from_lp(20, 1, 1562)
+	#initiate Grew
 	grew.init()
 	print("Grew initiated \n")
 
-	seed(1)
-	# sentence_nums = sorted(sample(range(1,1562,1),20))
-	# sentence_nums = [59, 276, 430, 523, 778, 799, 887, 1166, 1245, 1426]
-	# sentence_nums = [347]
-
+	#generate the numbers of the sentences to be processed
 	sentence_nums = list(range(1,101))
-	# sentence_nums = [9,10]
-	scores = []
-	print(sentence_nums)
 
-	# calculate_scores(sentence_nums)
-	collect_scores(sentence_nums, 1, '/all_metrics.csv', './results/base_lex_100')
+	#process the sentences and collect scores
+	collect_scores(sentence_nums, 1, './results/final_100')

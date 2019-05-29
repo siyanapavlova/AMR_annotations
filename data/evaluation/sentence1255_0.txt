@@ -1,0 +1,5 @@
+(y / yet
+	:op1 (t / throb
+		:compound (s2 / something)
+		:compound (s / silence)
+		:conj (g / gleam)))

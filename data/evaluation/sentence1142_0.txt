@@ -1,0 +1,5 @@
+(d / day
+	:amod (w / wonderful)
+	:advmod (s / so)
+	:poss (i / i)
+	:nsubj (t / thursday))

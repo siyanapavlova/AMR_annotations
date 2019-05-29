@@ -1,0 +1,5 @@
+(b / but
+	:op1 (t / two
+		:conj (h2 / hundred
+			:advmod (e / even))
+		:compound (s / seventy)))

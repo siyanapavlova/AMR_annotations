@@ -1,0 +1,11 @@
+(s2 / sure
+	:nsubj (y / you)
+	:ccomp (m / make-05
+		:ARG0 (i2 / it)
+		:advmod (n / not)
+		:mark (t2 / that)
+		:aux (w / will)
+		:xcomp (s / suffer
+			:xcomp (l / long
+				:advmod (t / too)))
+		:ARG1 (i / i)))

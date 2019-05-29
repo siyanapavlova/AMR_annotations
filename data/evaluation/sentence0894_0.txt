@@ -1,0 +1,5 @@
+(m / mean
+	:aux (d / do)
+	:obj (w / what)
+	:nsubj (t / that)
+	:parataxis (e / ephemeral))

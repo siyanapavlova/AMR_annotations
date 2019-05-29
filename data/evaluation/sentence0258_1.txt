@@ -1,0 +1,17 @@
+(a / ask-01
+	:aux (w2 / will)
+	:advmod (p / perhaps)
+	:ARG0 (y / you)
+	:ARG1 (d / drawing
+		:det (n / no)
+		:poss (b2 / book
+			:det (t3 / this))
+		:amod (o / other))
+	:advmod (t2 / there
+		:advmod (w / why))
+	:ARG1 (m / me)
+	:obl (m2 / magnificent)
+	:conj (i / impressive
+		:obl (d2 / drawing
+			:det (t / this)
+			:poss (b / baobab))))

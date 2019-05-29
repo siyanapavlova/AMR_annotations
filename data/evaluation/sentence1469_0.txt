@@ -1,0 +1,9 @@
+(l / look-01
+	:advcl (d / die
+		:aux (b / be)
+		:mark (a / as)
+		:mark (i2 / if)
+		:nsubj (i / i))
+	:nsubj (i3 / i)
+	:obj (l2 / little)
+	:aux (s / shall))

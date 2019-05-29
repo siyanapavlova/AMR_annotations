@@ -1,0 +1,4 @@
+(b / bloom
+	:poss (f / flower)
+	:nsubj (s / star
+		:det (a / all)))

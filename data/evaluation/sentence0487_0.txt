@@ -1,0 +1,17 @@
+(a / and
+	:op1 (a2 / ask-01
+		:ARG0 (p / prince
+			:amod (l / little))
+		:ccomp (r / recognize
+			:aux (c / could)
+			:advcl (s / see-01
+				:advmod (b / before)
+				:aux (h2 / have)
+				:obj (i / i)
+				:nsubj (h5 / he)
+				:advmod (n / never)
+				:mark (w / when))
+			:obj (i2 / i)
+			:nsubj (h3 / he)
+			:advmod (h / how))
+		:ARG1 (h4 / himself)))

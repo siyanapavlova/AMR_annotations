@@ -1,0 +1,5 @@
+(a / and
+	:op1 (h / have-11
+		:obj (i / imagination
+			:det (n / no))
+		:ARG0 (p / people)))

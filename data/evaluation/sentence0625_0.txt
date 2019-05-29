@@ -1,0 +1,11 @@
+(d / demand
+	:ccomp (a / admire
+		:advmod (m / much
+			:advmod (v / very))
+		:obj (i / i)
+		:advmod (r / really)
+		:nsubj (y / you)
+		:aux (d2 / do))
+	:obl (p / prince
+		:amod (l / little))
+	:nsubj (h / he))

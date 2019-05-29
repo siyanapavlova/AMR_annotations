@@ -1,0 +1,5 @@
+(h3 / have-10
+	:advmod (h2 / how)
+	:ARG0 (b / brother
+		:amod (m / many))
+	:ARG1 (h / he))

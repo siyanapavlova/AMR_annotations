@@ -1,0 +1,11 @@
+(f / fault
+	:poss (i2 / i)
+	:expl (i / it)
+	:acl (k / know
+		:xcomp (w / while
+			:det (a / all))
+		:nsubj (y / you)
+		:aux (h / have)
+		:obj (i3 / it)
+		:mark (t / that)
+		:advmod (n / not)))

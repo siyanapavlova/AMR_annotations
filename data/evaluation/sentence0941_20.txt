@@ -1,0 +1,10 @@
+(a / advise-01
+	:obj (t3 / they)
+	:parataxis (m / make-02
+		:ARG1 (c / calculations
+			:amod (o / own)
+			:poss (t / they))
+		:mark (t2 / to)
+		:advmod (t4 / then))
+	:aux (s / should)
+	:ARG0 (y / you))

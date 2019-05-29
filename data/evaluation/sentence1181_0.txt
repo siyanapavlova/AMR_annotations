@@ -1,0 +1,14 @@
+(r4 / responsible
+	:nsubj (i / i)
+	:appos (p / prince
+		:acl (r3 / repeat)
+		:amod (l / little))
+	:advcl (s / sure
+		:aux (w / would)
+		:mark (s2 / so
+			:fixed (t2 / that))
+		:nsubj (h / he)
+		:xcomp (r2 / remember-01
+			:mark (t / to)))
+	:obl (r / rose
+		:poss (i2 / i)))

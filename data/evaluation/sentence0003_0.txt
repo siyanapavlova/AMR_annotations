@@ -1,0 +1,8 @@
+(p / picture
+	:nsubj (i / it)
+	:poss (c / constrictor
+		:compound (b / boa)
+		:poss (a / act
+			:acl (s / swallow-01
+				:ARG1 (a2 / animal)
+				:mark (o / of)))))

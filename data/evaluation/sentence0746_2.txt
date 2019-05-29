@@ -1,0 +1,12 @@
+(i / idea
+	:compound (p / prince
+		:amod (l / little))
+	:obl (m / matter
+		:poss (c / consequence))
+	:amod (h / have-08)
+	:acl (d / different
+		:nsubj (w / which)
+		:obl (t / those
+			:poss (u / up
+				:amod (g / grown-05)))
+		:advmod (v / very)))

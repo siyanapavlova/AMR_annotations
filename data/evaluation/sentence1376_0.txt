@@ -1,0 +1,13 @@
+(s / stop
+	:obl (t2 / track
+		:poss (i2 / i))
+	:conj (u / understand-01
+		:ARG0 (i4 / i)
+		:aux (d / do)
+		:advmod (s2 / still)
+		:advmod (n / not))
+	:nsubj (i / i)
+	:obj (a / asunder
+		:compound (h / heart
+			:poss (i3 / i))
+		:amod (t / tear)))

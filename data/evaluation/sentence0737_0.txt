@@ -1,0 +1,6 @@
+(b2 / but
+	:op1 (p / put
+		:obj (t / they)
+		:aux (c / can)
+		:obl (b / bank)
+		:nsubj (i / i)))

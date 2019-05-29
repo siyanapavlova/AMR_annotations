@@ -1,0 +1,5 @@
+(c / cry
+	:obj (w / what)
+	:advmod (o / out)
+	:advmod (t / then)
+	:nsubj (h / he))

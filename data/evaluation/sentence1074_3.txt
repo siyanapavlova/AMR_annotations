@@ -1,0 +1,6 @@
+(a / and
+	:op1 (h / have-05
+		:ARG1 (n / need
+			:det (n2 / no)
+			:poss (y / you))
+		:ARG0 (i / i)))

@@ -1,0 +1,13 @@
+(s3 / spoke
+	:nsubj (s2 / snake)
+	:ccomp (s / send
+		:advmod (b / back)
+		:acl (c / come
+			:nsubj (h / he))
+		:nsubj (i2 / i)
+		:obj (w2 / whomever
+			:acl (t / touch
+				:nsubj (i / i)))
+		:obl (w / whence)
+		:obl (e / earth))
+	:advmod (a / again))

@@ -1,0 +1,5 @@
+(b / blink
+	:nsubj (i2 / i)
+	:obj (e / eye
+		:poss (i / i))
+	:advmod (h / hard))

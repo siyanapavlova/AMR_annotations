@@ -1,0 +1,3 @@
+(o / object
+	:nsubj (t / that)
+	:advmod (n / not))

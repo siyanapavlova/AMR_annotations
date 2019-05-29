@@ -1,0 +1,17 @@
+(b / but
+	:op1 (h / happen
+		:ccomp (c / come
+			:nsubj (p / prince
+				:poss (l / last)
+				:amod (l2 / little))
+			:obl (r / road)
+			:advcl (a / and
+				:op (r2 / rock)
+				:op (w / walk
+					:obl (t2 / time
+						:poss (s / sand)
+						:amod (l3 / long))
+					:mark (a2 / after))
+				:op (s2 / snow))
+			:mark (t / that))
+		:nsubj (i / it)))

@@ -1,0 +1,23 @@
+(a2 / and
+	:op1 (r / realise
+		:ccomp (c / close
+			:advmod (v / very)
+			:obl (t2 / tear)
+			:nsubj (h3 / he)
+			:mark (t / that))
+		:nsubj (h2 / he)
+		:advcl (a / and
+			:op (p / prepare
+				:xcomp (p2 / place
+					:mark (t4 / to)
+					:obl (s3 / shelter
+						:poss (g2 / globe
+							:poss (s2 / she)
+							:compound (g / glass)))
+					:obj (s / she)))
+			:op (w2 / water-01
+				:mark (w / when)
+				:obl (t3 / time
+					:amod (l / last))
+				:ARG1 (f / flower)
+				:ARG0 (h / he)))))

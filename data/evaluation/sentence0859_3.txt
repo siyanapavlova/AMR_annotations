@@ -1,0 +1,9 @@
+(a / and
+	:op1 (n / note
+		:compound (d / down)
+		:nsubj (h2 / he)
+		:obj (w / what
+			:acl (r / recall
+				:nsubj (t / they)
+				:obl (t4 / travel
+					:poss (t3 / they))))))

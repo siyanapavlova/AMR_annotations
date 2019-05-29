@@ -1,0 +1,16 @@
+(r / require
+	:obl (e / example)
+	:advcl (b2 / be-02
+		:mark (i / if)
+		:nsubj (d / discovery
+			:poss (q / question)))
+	:nsubj (o / one)
+	:ccomp (b3 / bring-01
+		:obl (i2 / it)
+		:nsubj (s / stone
+			:amod (l / large))
+		:advmod (b / back)
+		:mark (t2 / that))
+	:nsubj (t / that
+		:poss (m / mountain
+			:amod (l2 / large))))

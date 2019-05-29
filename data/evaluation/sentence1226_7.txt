@@ -1,0 +1,11 @@
+(a2 / and
+	:op1 (a3 / answer-01
+		:ARG0 (h4 / he)
+		:ccomp (t2 / thing
+			:nsubj (i / it)
+			:amod (g / good)
+			:acl (h / have-11
+				:obj (f / friend)
+				:mark (t / to)
+				:aux (h2 / have)))
+		:ARG2 (m / me)))

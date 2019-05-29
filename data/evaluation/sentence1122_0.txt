@@ -1,0 +1,6 @@
+(t / tame
+	:obj (i2 / i)
+	:advcl (w / want-01
+		:mark (i / if)
+		:ARG0 (y / you)
+		:obj (f / friend)))

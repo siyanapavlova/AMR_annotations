@@ -1,0 +1,6 @@
+(r / reply
+	:nsubj (f / fox)
+	:ccomp (p / patient
+		:nsubj (y / you)
+		:advmod (v / very)
+		:aux (m / must)))

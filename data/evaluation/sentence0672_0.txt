@@ -1,0 +1,4 @@
+(r / raise
+	:nsubj (b / businessman)
+	:obj (h2 / head
+		:poss (h / he)))

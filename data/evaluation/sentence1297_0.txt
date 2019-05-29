@@ -1,0 +1,7 @@
+(s / say-01
+	:ARG0 (p / prince
+		:amod (l / little))
+	:ccomp (t2 / thirsty
+		:nsubj (i / i)
+		:obl (w / water
+			:det (t / this))))

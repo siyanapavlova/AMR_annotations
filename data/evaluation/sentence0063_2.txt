@@ -1,0 +1,5 @@
+(a / and
+	:op1 (t2 / tell-02
+		:ARG0 (i3 / i)
+		:obj (c2 / chap
+			:mod (l / little))))

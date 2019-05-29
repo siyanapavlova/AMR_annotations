@@ -1,0 +1,11 @@
+(a / and
+	:op1 (m / moan
+		:nsubj (p / pulley)
+		:obl (w2 / weathervane
+			:amod (o / old)
+			:acl (h / have-04
+				:ARG1 (w3 / which)
+				:advcl (f / forgotten
+					:mark (s / since))
+				:ARG0 (w / wind)
+				:advmod (l / long)))))

@@ -1,0 +1,16 @@
+(l / look-04
+	:nsubj (i2 / it)
+	:conj (a / ask-02
+		:obj (t2 / they)
+		:cc (a2 / and)
+		:ccomp (f / frighten-01
+			:obj (t3 / they)
+			:mark (w / whether)
+			:nsubj (d / drawing)))
+	:obl (t / this)
+	:ccomp (s / show-01
+		:nsubj (i3 / i)
+		:obl (u / up
+			:amod (g / grow-02))
+		:obj (m / masterpiece
+			:poss (i / i))))

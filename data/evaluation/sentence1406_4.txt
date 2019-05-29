@@ -1,0 +1,9 @@
+(s / see-02
+	:ARG0 (i / i)
+	:ccomp (r / revive
+		:mark (t / that)
+		:nsubj (h / he)
+		:aux (b / be)
+		:obl (l2 / little)
+		:obj (l / little))
+	:aux (c / could))

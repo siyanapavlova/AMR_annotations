@@ -1,0 +1,8 @@
+(b / be-02
+	:expl (t3 / there)
+	:obl (t2 / this
+		:mark (a / as))
+	:nsubj (n / nobody)
+	:obl (a2 / all)
+	:obl (s / side
+		:det (t / that)))

@@ -1,0 +1,16 @@
+(s / say-01
+	:ccomp (k / know
+		:nsubj (y3 / you))
+	:ARG0 (h / he)
+	:ccomp (t / tell-02
+		:obj (w2 / way
+			:acl (r / rest
+				:aux (c2 / can)
+				:advcl (w / want-01
+					:ARG0 (y / you)
+					:advmod (w3 / whenever)
+					:xcomp (t2 / to))
+				:nsubj (y4 / you)))
+		:aux (c / can)
+		:ARG0 (i / i)
+		:iobj (y2 / you)))

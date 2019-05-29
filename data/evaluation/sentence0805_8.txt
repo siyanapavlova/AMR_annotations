@@ -1,0 +1,24 @@
+(r / remember-01
+	:conj (w2 / want-01
+		:xcomp (h7 / help
+			:obj (f / friend
+				:poss (h8 / he))
+			:mark (t2 / to))
+		:ARG0 (h / he))
+	:ARG0 (h4 / he)
+	:ARG1 (s / sunset
+		:acl (h2 / he
+			:advcl (g / go-01
+				:aux (h6 / have)
+				:advmod (m / merely)
+				:xcomp (s2 / seek
+					:obl (d / day
+						:amod (o / other))
+					:mark (t / to))
+				:advcl (p / pull-09
+					:compound (u / up)
+					:mark (b / by)
+					:ARG1 (c / chair
+						:poss (h5 / he)))
+				:nsubj (h3 / himself))
+			:nsubj (w / which))))

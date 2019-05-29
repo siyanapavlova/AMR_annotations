@@ -1,0 +1,27 @@
+(s / see-03
+	:ARG0 (y3 / you)
+	:ccomp (p / pull-09
+		:mark (t3 / that)
+		:advmod (r / regularly)
+		:obl (m / moment
+			:amod (f / first
+				:advmod (v / very)))
+		:advcl (d / distinguish-01
+			:obl (r3 / rosebush
+				:acl (r2 / resemble
+					:nsubj (t4 / they)
+					:obj (w / which)
+					:obl (y2 / youth
+						:amod (e / earliest)
+						:poss (t / they))
+					:advmod (c / closely
+						:advmod (s2 / so))))
+			:mark (w2 / when)
+			:aux (c2 / can)
+			:nsubj (t2 / they))
+		:ARG0 (y / you)
+		:ARG1 (b / baobab
+			:det (a / all))
+		:compound (u / up))
+	:obl (i / it)
+	:aux (m2 / must))

@@ -1,0 +1,8 @@
+(a / and
+	:op1 (h / how
+		:nsubj (t / that)
+		:acl (m / make-01
+			:obj (a2 / acquaintance
+				:poss (p / prince
+					:amod (l / little)))
+			:ARG0 (i / i))))

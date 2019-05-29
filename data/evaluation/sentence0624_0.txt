@@ -1,0 +1,7 @@
+(c / conceit
+	:ccomp (h / hear-01
+		:obj (b / but
+			:op (a / anything)
+			:op (p / praise))
+		:advmod (n / never)
+		:nsubj (p2 / people)))

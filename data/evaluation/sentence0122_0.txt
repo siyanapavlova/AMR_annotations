@@ -1,0 +1,3 @@
+(w / which
+	:nsubj (p / planet
+		:poss (y / you)))

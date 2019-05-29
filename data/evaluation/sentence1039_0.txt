@@ -1,0 +1,21 @@
+(g / go
+	:advmod (t3 / then)
+	:compound (o / on)
+	:nsubj (h2 / he)
+	:obl (r3 / reflection
+		:poss (h / he))
+	:conj (r2 / rose
+		:nsubj (a / all
+			:acl (h3 / have
+				:nsubj (i2 / i)))
+		:amod (c / common))
+	:parataxis (t / think
+		:obl (f / flower
+			:acl (u / unique
+				:obl (w / world
+					:det (a2 / all))
+				:nsubj (t2 / that)))
+		:nsubj (i / i)
+		:ccomp (r / rich
+			:mark (t4 / that)
+			:nsubj (i3 / i))))

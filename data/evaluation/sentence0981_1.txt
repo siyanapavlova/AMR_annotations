@@ -1,0 +1,6 @@
+(b / but
+	:op1 (i / innocent
+		:nsubj (y / you)
+		:conj (c / come
+			:nsubj (y2 / you)
+			:obl (s / star))))

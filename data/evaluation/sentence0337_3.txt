@@ -1,0 +1,17 @@
+(a / and
+	:op1 (s2 / say-01
+		:ccomp (b / busy
+			:nsubj (i / i)
+			:obl (m2 / matter
+				:poss (c / consequence)))
+		:ARG0 (h2 / he)
+		:conj (m / make-19
+			:xcomp (s / swell
+				:compound (u / up)
+				:obl (p / pride))
+			:ARG0 (t / that)
+			:ARG1 (h / he))
+		:obl (y / you
+			:advmod (j / just))
+		:obl (d / day
+			:det (a3 / all))))

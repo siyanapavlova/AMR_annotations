@@ -1,0 +1,7 @@
+(a2 / and
+	:op (d2 / devote
+		:obl (g2 / geography)
+		:obj (m / myself))
+	:op1 (g3 / grammar)
+	:op (a3 / arithmetic)
+	:op (h / history))

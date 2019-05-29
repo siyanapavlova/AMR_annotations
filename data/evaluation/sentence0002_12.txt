@@ -1,0 +1,17 @@
+(s3 / see-04
+	:advcl (o / old
+		:advmod (w / when)
+		:mark (o2 / once)
+		:obl (y / year
+			:nummod (s / six))
+		:nsubj (i / i))
+	:ARG0 (i2 / i)
+	:ARG1 (p / picture
+		:poss (b / book)
+		:acl (c / call-16
+			:obl (n / nature)
+			:obj (s2 / stories
+				:amod (t / true)))
+		:amod (m / magnificent))
+	:obl (f / forest
+		:amod (p2 / primeval)))

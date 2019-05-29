@@ -1,0 +1,10 @@
+(r2 / remember
+	:ccomp (c / crash
+		:obl (r / region
+			:amod (i / inhabit)
+			:det (a / any))
+		:obj (m / mile
+			:nummod (t / thousand))
+		:nsubj (i2 / i)
+		:obl (d / desert)
+		:aux (h / have)))

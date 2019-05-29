@@ -1,0 +1,4 @@
+(p / prince
+	:amod (l / little)
+	:acl (g / gaze
+		:obl (t / they)))

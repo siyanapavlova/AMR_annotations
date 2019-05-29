@@ -1,0 +1,8 @@
+(h / have-11
+	:obj (r / rest
+		:poss (d / day)
+		:poss (r3 / relaxation
+			:conj (r2 / rest
+				:poss (n / night
+					:poss (s / sleep)))))
+	:ARG0 (i / i))

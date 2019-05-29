@@ -1,0 +1,9 @@
+(s / show-04
+	:advmod (a / always)
+	:aux (s2 / should)
+	:obj (f / forbearance
+		:amod (g / great)
+		:poss (p / people
+			:amod (g2 / grow-02
+				:compound (u / up))))
+	:ARG0 (c / children))

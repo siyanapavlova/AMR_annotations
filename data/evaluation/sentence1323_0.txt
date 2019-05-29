@@ -1,0 +1,4 @@
+(r / responsible
+	:obl (f / flower
+		:det (t / this))
+	:nsubj (i / i))

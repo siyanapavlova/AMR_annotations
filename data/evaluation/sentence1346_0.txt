@@ -1,0 +1,4 @@
+(f / flush
+	:nsubj (p / prince
+		:amod (l / little))
+	:advmod (a / again))

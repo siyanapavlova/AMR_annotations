@@ -1,0 +1,6 @@
+(s / say-01
+	:ccomp (e / evening
+		:amod (g / good))
+	:ARG0 (p / prince
+		:amod (l / little)
+		:advmod (c / courteously)))

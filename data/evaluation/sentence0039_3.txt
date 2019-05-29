@@ -1,0 +1,18 @@
+(a6 / and
+	:op1 (s / set-01
+		:ARG0 (i2 / i)
+		:xcomp (a4 / attempt-01
+			:ARG1 (r / repairs
+				:mod (d / difficult)
+				:advmod (a5 / alone
+					:advmod (a3 / all))))
+		:advcl (h / have-11
+			:obl (i / i)
+			:mark (a / as)
+			:obj (n2 / nor
+				:op (p / passenger
+					:mod (a2 / any))
+				:op (m / mechanic
+					:cc (n / neither)))
+			:ARG0 (i3 / i))
+		:ARG1 (m2 / myself)))

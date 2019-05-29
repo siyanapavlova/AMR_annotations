@@ -1,0 +1,9 @@
+(u / understand-01
+	:conj (s / say-01
+		:obj (n / nothing)
+		:ARG0 (i / i))
+	:advmod (n2 / not)
+	:aux (d / do)
+	:ARG1 (a / answer
+		:det (t / this))
+	:ARG0 (i2 / i))

@@ -1,0 +1,9 @@
+(a / and
+	:op1 (l / leave
+		:aux (h / have)
+		:advcl (a2 / alone
+			:det (a3 / all))
+		:obl (p / planet
+			:poss (i / i))
+		:obj (s / she)
+		:nsubj (i2 / i)))

@@ -1,0 +1,12 @@
+(b / believe
+	:nsubj (i / i)
+	:ccomp (t2 / take-10
+		:ARG0 (h2 / he)
+		:obl (e / escape
+			:poss (h / he))
+		:obl (m / migration
+			:poss (f / flock
+				:poss (b2 / bird
+					:amod (w / wild))))
+		:mark (t / that)
+		:ARG1 (a / advantage)))

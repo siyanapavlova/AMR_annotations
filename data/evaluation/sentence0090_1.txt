@@ -1,0 +1,6 @@
+(a / and
+	:op1 (t / throw-01
+		:ARG1 (e / explanation
+			:poss (i / it))
+		:ARG0 (i2 / i)
+		:compound (o / out)))

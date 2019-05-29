@@ -1,0 +1,2 @@
+(d / day
+	:nummod (t / thirty))

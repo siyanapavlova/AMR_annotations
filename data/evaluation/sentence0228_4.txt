@@ -1,0 +1,19 @@
+(b / be-02
+	:advmod (i2 / indeed)
+	:advcl (l / learn-01
+		:ARG0 (i / i)
+		:mark (a / as))
+	:expl (t / there)
+	:nsubj (p4 / planet
+		:acl (l3 / live-02
+			:advmod (w / were)
+			:advcl (a3 / and
+				:op (p5 / plant
+					:amod (b2 / bad))
+				:op (p2 / plant
+					:mark (a4 / as)
+					:amod (g / good)
+					:poss (p / planet
+						:det (a2 / all))))
+			:nsubj (p3 / prince
+				:amod (l2 / little)))))

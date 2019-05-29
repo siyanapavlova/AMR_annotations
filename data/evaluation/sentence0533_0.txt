@@ -1,0 +1,3 @@
+(i / instantly
+	:nsubj (t / they)
+	:advmod (o / obey))

@@ -1,0 +1,9 @@
+(s / say-01
+	:obl (h / himself)
+	:ccomp (e / entertaining
+		:advmod (m / more)
+		:nsubj (t / this)
+		:obl (v / visit
+			:poss (k / king)))
+	:ARG0 (p / prince
+		:amod (l / little)))

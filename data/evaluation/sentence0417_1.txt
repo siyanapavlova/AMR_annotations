@@ -1,0 +1,17 @@
+(h2 / have-06
+	:ARG0 (p / prince
+		:amod (l / little)
+		:poss (s2 / spite
+			:poss (w / will
+				:acl (i / inseparable
+					:obl (l2 / love
+						:poss (h / he))
+					:nsubj (t2 / that))
+				:amod (g / good)
+				:det (a / all))))
+	:parataxis (c / come
+		:advmod (s4 / soon)
+		:advcl (d / doubt
+			:obj (s3 / she)
+			:mark (t / to)))
+	:advmod (s / so))

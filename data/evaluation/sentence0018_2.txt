@@ -1,0 +1,13 @@
+(c / career
+	:poss (p / painter)
+	:acl (g / give-17
+		:ARG1 (w / what)
+		:compound (u / up)
+		:nsubj (i / i)
+		:obl (a / age
+			:poss (s / six))
+		:advmod (w2 / why
+			:nsubj (t / that)))
+	:aux (m2 / might)
+	:aux (h / have)
+	:mod (m / magnificent))

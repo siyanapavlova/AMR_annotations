@@ -1,0 +1,7 @@
+(s / sad
+	:nsubj (i3 / i)
+	:conj (t2 / tell-01
+		:ccomp (t3 / tired
+			:nsubj (i2 / i))
+		:obj (t / they)
+		:ARG0 (i / i)))

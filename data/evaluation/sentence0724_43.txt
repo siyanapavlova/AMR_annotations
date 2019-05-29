@@ -1,0 +1,15 @@
+(t / take-02
+	:parataxis (y2 / yours
+		:nsubj (i2 / it))
+	:compound (o / out)
+	:nsubj (y / you)
+	:obj (p / patent)
+	:advcl (g / get-06
+		:ARG0 (y3 / you)
+		:obj (i / idea)
+		:advcl (o2 / one
+			:advmod (e / else)
+			:mark (b / before)
+			:det (a / any))
+		:mark (w / when))
+	:obl (i3 / it))

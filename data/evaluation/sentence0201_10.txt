@@ -1,0 +1,9 @@
+(m / make-06
+	:ARG1 (m3 / mistakes)
+	:nsubj (i / i)
+	:advmod (a / also)
+	:aux (s / shall)
+	:obl (d / detail
+		:amod (i2 / important
+			:advmod (m2 / more))
+		:amod (c / certain)))

@@ -1,0 +1,13 @@
+(s / say
+	:nsubj (s3 / snake)
+	:ccomp (m / move
+		:parataxis (w / weak
+			:obl (e / earth
+				:acl (m2 / make
+					:obl (g / granite))
+				:det (t / this))
+			:nsubj (y / you)
+			:advmod (s2 / so))
+		:obj (i / i)
+		:nsubj (y2 / you)
+		:obl (p / pity)))

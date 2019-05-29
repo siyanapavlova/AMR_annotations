@@ -1,0 +1,5 @@
+(c / clap
+	:obj (h / hand
+		:poss (h2 / he))
+	:nsubj (p / prince
+		:amod (l / little)))

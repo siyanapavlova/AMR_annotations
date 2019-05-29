@@ -1,0 +1,16 @@
+(f / forget
+	:advcl (m / make-02
+		:mark (w / without)
+		:obj (n2 / noise
+			:det (a / any))
+		:obl (n / night))
+	:nsubj (h / he)
+	:obj (o2 / or
+		:op (g3 / get-01
+			:advmod (o / out)
+			:ARG0 (s / sheep))
+		:op (g / globe
+			:compound (g2 / glass)))
+	:obl (e / evening
+		:nummod (o3 / one)
+		:det (s2 / some)))

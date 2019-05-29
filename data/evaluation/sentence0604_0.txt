@@ -1,0 +1,5 @@
+(i / inhabit-01
+	:obl (m / man
+		:amod (c / conceit))
+	:nsubj (p / planet
+		:amod (s / second)))

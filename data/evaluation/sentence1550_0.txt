@@ -1,0 +1,6 @@
+(a / ask-01
+	:parataxis (o / or
+		:op (y2 / yes
+			:nsubj (i / it))
+		:op (n / no))
+	:ARG1 (y / yourselves))

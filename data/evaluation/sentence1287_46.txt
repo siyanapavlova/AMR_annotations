@@ -1,0 +1,6 @@
+(l / laugh-02
+	:ARG0 (h / he)
+	:conj (s / set-16
+		:ARG2 (p / pulley)
+		:advcl (w / work-13
+			:mark (t / to))))

@@ -1,0 +1,6 @@
+(f / forbid
+	:nsubj (i / i)
+	:obj (y / you)
+	:xcomp (d / do-02
+		:mark (t / to)
+		:advmod (s / so)))

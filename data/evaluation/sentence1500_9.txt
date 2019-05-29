@@ -1,0 +1,12 @@
+(b / but
+	:op1 (m / make-01
+		:ccomp (k / know
+			:nsubj (y / you))
+		:obj (e / effort
+			:amod (m2 / more)
+			:nummod (o / one))
+		:ARG0 (h / he)
+		:parataxis (n / nice
+			:nsubj (i / it)
+			:aux (w / will)
+			:advmod (v / very))))

@@ -1,0 +1,9 @@
+(t / take-02
+	:obj (c / conversation)
+	:advmod (a / again)
+	:advmod (w / where
+		:nsubj (m / man))
+	:compound (u / up)
+	:nsubj (p / prince
+		:poss (l2 / last)
+		:amod (l / little)))

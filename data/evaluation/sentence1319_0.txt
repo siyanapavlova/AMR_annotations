@@ -1,0 +1,7 @@
+(b / bring-01
+	:ARG0 (w / what)
+	:ARG1 (i / i)
+	:parataxis (s / sense
+		:advmod (t / then)
+		:poss (g / grief)
+		:det (t2 / this)))

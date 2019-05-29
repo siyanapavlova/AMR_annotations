@@ -1,0 +1,6 @@
+(d / distinguish
+	:obl (g / glance)
+	:obl (a / arizona)
+	:obj (c2 / china)
+	:aux (c / can)
+	:nsubj (i / i))

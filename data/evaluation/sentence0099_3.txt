@@ -1,0 +1,8 @@
+(s / sheep
+	:mod (s2 / small
+		:advmod (v / very))
+	:ARG1-of (g / give-17
+		:aux (h / have)
+		:ARG1 (y / you)
+		:nsubj (i / i))
+	:nsubj (i2 / it))

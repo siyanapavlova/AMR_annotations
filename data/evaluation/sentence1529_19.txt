@@ -1,0 +1,12 @@
+(c / content
+	:advcl (s / see-02
+		:ARG1 (m2 / me)
+		:xcomp (a / alive)
+		:mark (t / to))
+	:advmod (w2 / well)
+	:nsubj (c2 / companion
+		:acl (m / meet-01
+			:obj (i2 / i)
+			:ARG0 (w / who)
+			:obl (r / return
+				:poss (i / i)))))

@@ -1,0 +1,18 @@
+(l / let-05
+	:ARG0 (o3 / one)
+	:parataxis (w3 / wish
+		:aux (m / might)
+		:nsubj (i2 / it)
+		:advmod (w / wherever))
+	:aux (w2 / would)
+	:xcomp (g / grow-03)
+	:advcl (o2 / or
+		:op (s / sprout
+			:mark (i4 / if)
+			:poss (r / radish)
+			:advmod (o / only)
+			:nsubj (i3 / it))
+		:op (s2 / sprig
+			:poss (b / bush
+				:compound (r2 / rose))))
+	:ARG1 (i / it))

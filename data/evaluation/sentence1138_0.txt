@@ -1,0 +1,8 @@
+(s / say-01
+	:ARG0 (f / fox)
+	:ccomp (a2 / action
+		:nsubj (t / those)
+		:acl (n / neglect
+			:advmod (o / often)
+			:advmod (t2 / too))
+		:advmod (a / also)))

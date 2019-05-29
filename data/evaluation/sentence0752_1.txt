@@ -1,0 +1,5 @@
+(a / and
+	:op1 (g / go-06
+		:advmod (a2 / away)
+		:ARG0 (p / prince
+			:amod (l / little))))

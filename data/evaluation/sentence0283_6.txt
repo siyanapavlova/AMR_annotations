@@ -1,0 +1,6 @@
+(a / and
+	:op1 (t / twilight
+		:advcl (f / falling
+			:advmod (w / whenever
+				:acl (l / like-02
+					:ARG0 (y / you))))))

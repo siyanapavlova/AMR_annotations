@@ -1,0 +1,12 @@
+(o / order
+	:advmod (t2 / then)
+	:advcl (s / show-04
+		:mark (w / when)
+		:xcomp (g / good
+			:mark (t / to))
+		:nsubj (c / character
+			:amod (m / moral)
+			:poss (e / explorer)))
+	:nsubj (i / inquiry)
+	:obl (d / discovery
+		:poss (h / he)))

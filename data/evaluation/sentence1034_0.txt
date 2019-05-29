@@ -1,0 +1,4 @@
+(a / and
+	:op1 (o / overcome
+		:nsubj (h / he)
+		:obl (s / sadness)))

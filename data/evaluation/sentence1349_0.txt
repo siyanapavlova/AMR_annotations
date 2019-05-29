@@ -1,0 +1,9 @@
+(b / but
+	:op1 (d / do-02
+		:ccomp (m / mean
+			:discourse (y / yes)
+			:advmod (n2 / not)
+			:mark (t / that))
+		:ARG0 (f / flushes
+			:nummod (o / one))
+		:mark (w / when)))

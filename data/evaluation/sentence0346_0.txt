@@ -1,0 +1,9 @@
+(c / consequence
+	:advmod (n / not)
+	:amod (m / more)
+	:nsubj (t / this)
+	:poss (s / sum
+		:amod (f2 / face
+			:amod (r / red))
+		:poss (g / gentleman)
+		:amod (f / fat)))

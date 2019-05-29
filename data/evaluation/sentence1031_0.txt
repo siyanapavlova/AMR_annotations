@@ -1,0 +1,5 @@
+(l / look-01
+	:nsubj (t / they
+		:det (a / all))
+	:obl (f / flower
+		:poss (h / he)))

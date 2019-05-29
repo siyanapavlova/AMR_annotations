@@ -1,0 +1,9 @@
+(b / but
+	:op1 (w / waste
+		:advmod (n / not)
+		:aux (d / do)
+		:obl (t / task
+			:det (t2 / this)
+			:amod (e / extra))
+		:obj (t3 / time
+			:poss (y / you))))

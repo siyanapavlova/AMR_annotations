@@ -1,0 +1,8 @@
+(s2 / say-01
+	:ARG0 (s / switchman)
+	:ccomp (k / know
+		:nsubj (e / engineer
+			:amod (l / locomotive))
+		:obj (t / that)
+		:advmod (n / not)
+		:advmod (e2 / even)))

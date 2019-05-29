@@ -1,0 +1,4 @@
+(b / but
+	:op1 (a / add
+		:compound (u / up)
+		:obj (f / figure)))

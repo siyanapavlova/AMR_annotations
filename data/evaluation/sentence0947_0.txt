@@ -1,0 +1,17 @@
+(b2 / begin
+	:aux (b / be)
+	:xcomp (a / afray
+		:mark (t / to)
+		:ccomp (c2 / come
+			:aux (h / have)
+			:obl (p / planet
+				:amod (w2 / wrong))
+			:nsubj (h2 / he)))
+	:nsubj (h3 / he)
+	:parataxis (w / when
+		:nsubj (c / coil
+			:poss (g / gold)
+			:appos (c3 / color
+				:poss (m / moonlight))
+			:acl (f / flash
+				:obl (s / sand)))))

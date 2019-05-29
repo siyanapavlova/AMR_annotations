@@ -1,0 +1,5 @@
+(r / raise
+	:obj (b / bucket)
+	:nsubj (i / i)
+	:obl (l / lip
+		:poss (h / he)))

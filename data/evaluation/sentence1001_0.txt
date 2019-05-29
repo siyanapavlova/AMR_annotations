@@ -1,0 +1,8 @@
+(b / but
+	:op1 (k / know
+		:ccomp (f / find-02
+			:mark (t2 / to)
+			:advmod (w / where)
+			:ARG1 (t / them))
+		:nsubj (o / one)
+		:advmod (n / never)))

@@ -1,0 +1,11 @@
+(m / make-02
+	:ARG1 (e / effort
+		:amod (g / great))
+	:parataxis (f / find-02
+		:advmod (t3 / therefore)
+		:compound (o / out)
+		:obl (s / subject
+			:det (t2 / this))
+		:mark (t / to)
+		:ARG1 (m2 / more))
+	:ARG0 (i / i))

@@ -1,0 +1,17 @@
+(p3 / pass
+	:obj (d / departure
+		:poss (h / he))
+	:obl (t / talk
+		:poss (w2 / we))
+	:parataxis (l / learn-01
+		:ARG0 (i2 / i)
+		:aux (w / would))
+	:obj (s / something
+		:poss (p2 / planet
+			:poss (p / prince
+				:amod (l2 / little))))
+	:obl (d2 / day
+		:det (e / each))
+	:obj (j / journey
+		:poss (h2 / he))
+	:obl (i / it))

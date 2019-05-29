@@ -1,0 +1,13 @@
+(w / wish
+	:nsubj (i2 / i)
+	:conj (w2 / want-01
+		:xcomp (t2 / tame
+			:obj (y2 / you)
+			:mark (t / to))
+		:obj (i / i)
+		:ARG0 (y / you))
+	:iobj (y3 / you)
+	:advmod (n / never)
+	:obj (s / sort
+		:poss (h / harm)
+		:det (a / any)))

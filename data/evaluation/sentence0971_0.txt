@@ -1,0 +1,6 @@
+(s / say-01
+	:ARG0 (h / he)
+	:obl (l / last)
+	:ccomp (a / animal
+		:amod (f / funny)
+		:nsubj (y / you)))

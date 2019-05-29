@@ -1,0 +1,9 @@
+(b / but
+	:op1 (p2 / prince
+		:acl (h3 / have-05
+			:xcomp (c / complete
+				:advmod (n / now)
+				:obj (p / preparation
+					:poss (d / departure)
+					:poss (h2 / he))))
+		:amod (l / little)))

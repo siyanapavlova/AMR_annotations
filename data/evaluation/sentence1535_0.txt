@@ -1,0 +1,7 @@
+(b / bell
+	:nummod (m / million
+		:compound (h / hundred)
+		:compound (f / five)
+		:advmod (l / like))
+	:amod (l2 / little)
+	:nsubj (i / it))

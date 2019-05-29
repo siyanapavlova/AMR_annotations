@@ -1,0 +1,8 @@
+(h / have-11
+	:ARG0 (m / men)
+	:obj (t2 / time
+		:amod (m2 / more)
+		:acl (u / understand-01
+			:mark (t / to)
+			:ARG1 (a / anything))
+		:det (n / no)))

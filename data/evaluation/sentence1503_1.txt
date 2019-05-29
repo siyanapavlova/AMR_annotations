@@ -1,0 +1,10 @@
+(p / pour
+	:compound (o / out)
+	:aux (w / will)
+	:obl (i / i)
+	:obj (w2 / water
+		:amod (f / fresh))
+	:advcl (d / drink-02
+		:mark (t / to))
+	:nsubj (s / star
+		:det (a / all)))

@@ -1,0 +1,24 @@
+(t3 / those
+	:poss (a7 / africa
+		:conj (e / europe))
+	:parataxis (t7 / those
+		:advmod (t10 / then)
+		:poss (a4 / america
+			:compound (s2 / south)))
+	:advmod (t9 / then)
+	:appos (t4 / those
+		:advmod (t8 / then)
+		:poss (a / america
+			:compound (s / south)))
+	:advcl (c / come
+		:obj (t5 / turn
+			:poss (l / lamplighter
+				:poss (r / russia
+					:conj (i / indy))))
+		:mark (a6 / after)
+		:aux (w / would)
+		:nsubj (t / that))
+	:parataxis (t2 / those
+		:poss (a3 / america
+			:compound (n / north))
+		:advmod (t6 / then)))

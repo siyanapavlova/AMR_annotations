@@ -1,0 +1,8 @@
+(a / absurd
+	:csubj (l / look-02
+		:mark (t / to)
+		:obl (r / random)
+		:obl (i / immensity
+			:poss (d / desert))
+		:obl (w / well))
+	:expl (i2 / it))

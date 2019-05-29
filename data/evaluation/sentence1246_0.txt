@@ -1,0 +1,3 @@
+(s / sit
+	:advmod (d / down)
+	:nsubj (h / he))

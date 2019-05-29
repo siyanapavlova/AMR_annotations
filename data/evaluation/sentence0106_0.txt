@@ -1,0 +1,10 @@
+(w / word
+	:acl (d / drop
+		:obl (c / chance
+			:acl (r / reveal
+				:obl (i2 / i)
+				:nsubj (t / that)
+				:advmod (l / little
+					:obl (l2 / little))
+				:nsubj (e / everything))))
+	:nsubj (i / it))

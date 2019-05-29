@@ -1,0 +1,5 @@
+(c / continue
+	:obj (w2 / walk
+		:poss (w / wall)
+		:poss (i2 / i))
+	:nsubj (i / i))

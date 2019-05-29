@@ -1,0 +1,6 @@
+(b / but
+	:op1 (m / man
+		:amod (o / only)
+		:nsubj (y / you)
+		:poss (p / planet
+			:poss (y2 / you))))

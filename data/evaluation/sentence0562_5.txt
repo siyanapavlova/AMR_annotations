@@ -1,0 +1,8 @@
+(s / set-11
+	:obl (w / way
+		:poss (i / i))
+	:advmod (s2 / so)
+	:advmod (a / again)
+	:aux (s3 / shall)
+	:compound (o / out)
+	:nsubj (i2 / i))

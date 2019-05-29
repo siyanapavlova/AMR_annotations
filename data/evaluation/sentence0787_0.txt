@@ -1,0 +1,6 @@
+(a / and
+	:op1 (c / change
+		:obl (t / time
+			:det (t2 / that))
+		:nsubj (o / order)
+		:aux (h / have)))

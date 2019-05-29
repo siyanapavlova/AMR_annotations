@@ -1,0 +1,7 @@
+(j / judge-01
+	:advmod (t / then)
+	:conj (a / answer-01
+		:ARG0 (k / king))
+	:aux (s / shall)
+	:ARG1 (y / yourself)
+	:ARG0 (y2 / you))

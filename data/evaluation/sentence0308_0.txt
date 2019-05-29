@@ -1,0 +1,13 @@
+(f / flash
+	:nsubj (p / prince
+		:amod (l / little))
+	:advmod (b2 / back
+		:obl (i2 / i))
+	:advmod (t / then)
+	:parataxis (b / believe
+		:obj (y / you)
+		:aux (d / do)
+		:nsubj (i / i)
+		:advmod (n / not))
+	:obl (k / kind
+		:poss (r / resentfulness)))

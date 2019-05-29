@@ -1,0 +1,9 @@
+(s / say-01
+	:ARG0 (p / prince
+		:amod (l2 / little))
+	:ccomp (q / question
+		:nsubj (i2 / it)
+		:poss (d / discipline))
+	:obl (i / i)
+	:advmod (o / on
+		:advmod (l / later)))

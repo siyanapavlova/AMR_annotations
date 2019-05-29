@@ -1,0 +1,10 @@
+(s2 / serious
+	:nsubj (l2 / look
+		:poss (h / he))
+	:advcl (l / lose-07
+		:advmod (a / away
+			:advmod (f / far))
+		:mark (l3 / like)
+		:nsubj (o / one
+			:det (s / some)))
+	:advmod (v / very))

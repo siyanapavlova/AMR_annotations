@@ -1,0 +1,11 @@
+(t2 / think-01
+	:ARG1 (h / have-11
+		:ARG0 (s / sheep
+			:det (t / this))
+		:xcomp (h2 / have-10
+			:ARG1 (d2 / deal
+				:mod (g / great)
+				:poss (g2 / grass)))
+		:aux (w / will))
+	:ARG0 (y / you)
+	:aux (d / do))

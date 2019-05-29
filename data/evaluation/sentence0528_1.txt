@@ -1,0 +1,6 @@
+(a2 / all
+	:goeswith (o / over)
+	:acl (a / ask-03
+		:ARG0 (t / that)
+		:ARG1 (p / prince
+			:amod (l / little))))

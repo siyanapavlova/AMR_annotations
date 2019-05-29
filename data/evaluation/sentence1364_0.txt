@@ -1,0 +1,4 @@
+(s / spot
+	:amod (e / exact)
+	:nsubj (t / this)
+	:advmod (n / not))

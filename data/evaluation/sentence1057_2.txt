@@ -1,0 +1,8 @@
+(b2 / be-02
+	:expl (i / it)
+	:nsubj (w / what)
+	:ccomp (l / look-04
+		:ARG0 (y / you)
+		:obl (f / for)
+		:mark (t / that)
+		:aux (b / be)))

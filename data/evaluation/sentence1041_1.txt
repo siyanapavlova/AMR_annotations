@@ -1,0 +1,6 @@
+(a / and
+	:op1 (l / lay-01
+		:obl (g / grass)
+		:compound (d / down)
+		:conj (c / cry)
+		:ARG0 (h / he)))

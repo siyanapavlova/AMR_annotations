@@ -1,0 +1,4 @@
+(g / go-11
+	:obl (s / sleep)
+	:aux (h2 / have)
+	:nsubj (h / he))

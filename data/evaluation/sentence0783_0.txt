@@ -1,0 +1,4 @@
+(f / follow
+	:obj (p / profession
+		:amod (t / terrible))
+	:nsubj (i / i))

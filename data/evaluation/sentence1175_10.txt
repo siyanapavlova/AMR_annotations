@@ -1,0 +1,13 @@
+(t / time
+	:acl (w / waste
+		:obl (r2 / rose
+			:acl (m / make-06
+				:xcomp (i2 / important
+					:advmod (s / so))
+				:ARG1 (r / rose
+					:poss (y2 / you))
+				:nsubj (t2 / that))
+			:poss (y3 / you))
+		:aux (h / have)
+		:nsubj (y / you))
+	:nsubj (i / it))

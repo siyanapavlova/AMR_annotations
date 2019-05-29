@@ -1,0 +1,2 @@
+(s / strange
+	:nsubj (i / it))

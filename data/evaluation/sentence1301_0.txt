@@ -1,0 +1,5 @@
+(d / drank
+	:conj (c / closed)
+	:obj (e / eye
+		:poss (h / he))
+	:nsubj (h2 / he))

@@ -1,0 +1,8 @@
+(a / and
+	:op1 (t / tell-01
+		:obj (w / we)
+		:ARG0 (l2 / legend)
+		:ccomp (b / bury
+			:mark (t2 / that)
+			:nsubj (t3 / treasure)
+			:advmod (t4 / there))))

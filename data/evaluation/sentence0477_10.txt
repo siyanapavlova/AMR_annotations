@@ -1,0 +1,2 @@
+(g / go-05
+	:advmod (n / now))

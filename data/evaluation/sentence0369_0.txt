@@ -1,0 +1,8 @@
+(s / simple
+	:advmod (a / always)
+	:advmod (v / very)
+	:aux (h / have)
+	:nsubj (f / flower)
+	:obl (p / planet
+		:poss (p2 / prince
+			:amod (l / little))))

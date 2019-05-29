@@ -1,0 +1,18 @@
+(b / be-02
+	:advcl (t4 / try-02
+		:xcomp (d / describe
+			:mark (t / to)
+			:obj (h2 / he)
+			:advmod (h3 / here))
+		:ARG0 (i3 / i)
+		:mark (i2 / if))
+	:nsubj (i / it)
+	:ccomp (m / make-06
+		:mark (t2 / to)
+		:xcomp (s / sure
+			:ccomp (f / forget
+				:aux (s2 / shall)
+				:mark (t3 / that)
+				:nsubj (i4 / i)
+				:advmod (n / not)
+				:obj (h / he)))))

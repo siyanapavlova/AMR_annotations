@@ -1,0 +1,14 @@
+(n / nothing
+	:acl (b2 / boy
+		:amod (l2 / little)
+		:amod (o / other)
+		:advmod (j / just)
+		:nsubj (w / who)
+		:nummod (t / thousand
+			:nummod (h / hundred)))
+	:obl (i / i)
+	:nsubj (y / you)
+	:amod (m / more
+		:obl (b / boy
+			:amod (l / little)))
+	:advmod (s / still))

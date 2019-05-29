@@ -1,0 +1,7 @@
+(s / say-01
+	:ARG0 (p / prince
+		:amod (l / little))
+	:ccomp (f / fault
+		:nsubj (i / it)
+		:poss (y / you)
+		:amod (o / own)))

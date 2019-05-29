@@ -1,0 +1,17 @@
+(m / make-02
+	:ARG1 (e / error
+		:det (s / some))
+	:ARG0 (i / i)
+	:parataxis (a2 / and
+		:op (t / tall
+			:obl (p / place
+				:nummod (o / one))
+			:advmod (t2 / too)
+			:nsubj (h2 / he))
+		:op (s2 / short
+			:advmod (t4 / too)
+			:det (a / another)))
+	:obl (h / height
+		:poss (p2 / prince
+			:amod (l / little)))
+	:advmod (t3 / too))

@@ -1,0 +1,3 @@
+(a / and
+	:op1 (c / curious
+		:advmod (v / very)))

@@ -1,0 +1,13 @@
+(p / plike
+	:aux (c / could)
+	:advcl (o / own
+		:mark (i2 / if)
+		:obj (f2 / flower)
+		:nsubj (i / i))
+	:nsubj (i4 / i)
+	:obj (f / flower
+		:det (t / that))
+	:conj (t2 / take-10
+		:advmod (a / away)
+		:obl (i5 / i)
+		:ARG1 (i3 / it)))

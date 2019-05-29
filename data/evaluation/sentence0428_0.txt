@@ -1,0 +1,8 @@
+(o / ought
+	:advmod (n / never)
+	:nsubj (i / i)
+	:xcomp (r / run
+		:obl (s / she)
+		:aux (h / have)
+		:advmod (a / away)
+		:mark (t / to)))

@@ -1,0 +1,3 @@
+(n2 / nor
+	:op1 (p / passenger
+		:mod (a2 / any)))

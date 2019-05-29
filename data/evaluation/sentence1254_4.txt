@@ -1,0 +1,10 @@
+(s3 / see-03
+	:conj (h / hear-01
+		:obj (n2 / nothing))
+	:ARG0 (s / sits
+		:advmod (d2 / down
+			:obl (d3 / dune
+				:compound (s2 / sand
+					:compound (d / desert))))
+		:nummod (o / one))
+	:obj (n / nothing))

@@ -1,0 +1,13 @@
+(h / have-05
+	:obl (m / minute
+		:det (e / every))
+	:xcomp (a / and
+		:op (l2 / light-05
+			:mark (t / to)
+			:ARG1 (l / lamp
+				:poss (i2 / i)))
+		:op (p / put
+			:obj (i3 / it)
+			:compound (o2 / out)))
+	:mark (o / once)
+	:ARG0 (i / i))

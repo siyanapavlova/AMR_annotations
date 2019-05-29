@@ -1,0 +1,8 @@
+(a / and
+	:op1 (a3 / add
+		:ccomp (a2 / anniversary
+			:nsubj (i / it)
+			:advmod (p / perhaps))
+		:obl (h / hesitancy
+			:det (s / some))
+		:nsubj (i2 / i)))

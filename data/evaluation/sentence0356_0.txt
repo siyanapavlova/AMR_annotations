@@ -1,0 +1,10 @@
+(h / hammer
+	:nsubj (m / moment
+		:det (w / what)
+		:advmod (n / now))
+	:appos (o / or
+		:op (b / bolt
+			:poss (i / i))
+		:op (t / thirst))
+	:poss (i2 / i)
+	:conj (d / death))

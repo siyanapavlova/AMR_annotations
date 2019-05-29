@@ -1,0 +1,12 @@
+(e / exhaust-01
+	:ARG1 (p / patience
+		:poss (i2 / i))
+	:cause (h / hurry
+		:nsubj (i / i)
+		:acl (s / start-101
+			:xcomp (t / take-16
+				:advmod (a / apart)
+				:ARG1 (e2 / engine
+					:poss (i3 / i)))))
+	:obl (t3 / time
+		:det (t2 / this)))

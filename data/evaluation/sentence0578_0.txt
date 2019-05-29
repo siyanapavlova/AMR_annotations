@@ -1,0 +1,11 @@
+(d / difficult
+	:csubj (j2 / judge-01
+		:ARG1 (o2 / oneself)
+		:advcl (j / judge-01
+			:mark (t3 / than)
+			:mark (t / to)
+			:ARG1 (o / others))
+		:mark (t2 / to))
+	:advmod (m / more
+		:advmod (m2 / much))
+	:expl (i / it))

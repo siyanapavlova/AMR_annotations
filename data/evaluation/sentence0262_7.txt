@@ -1,0 +1,12 @@
+(c / carry
+	:advcl (m2 / make-18
+		:mark (w / when)
+		:ARG0 (i2 / i)
+		:obj (d / drawing
+			:poss (b / baobab)))
+	:obl (f / force
+		:amod (i3 / inspiring)
+		:poss (n / necessity
+			:amod (u / urgent)))
+	:obl (m / myself)
+	:nsubj (i / i))

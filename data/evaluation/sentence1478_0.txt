@@ -1,0 +1,7 @@
+(b / bite
+	:nsubj (o / one
+		:det (t / this))
+	:obl (f / fun
+		:advmod (j / just))
+	:obj (y / you)
+	:aux (m / might))

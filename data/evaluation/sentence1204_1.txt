@@ -1,0 +1,11 @@
+(w / waste
+	:conj (b / become
+		:xcomp (i4 / important
+			:advmod (v / very)
+			:obl (t2 / they))
+		:nsubj (i / it))
+	:nsubj (t3 / they)
+	:obj (t6 / time
+		:poss (t7 / they))
+	:obl (d / doll
+		:compound (r / rag)))

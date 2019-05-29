@@ -1,0 +1,5 @@
+(d / danger
+	:nsubj (f / flower
+		:poss (i / i))
+	:poss (d2 / disappearance
+		:amod (s / speedy)))

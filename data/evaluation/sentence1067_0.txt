@@ -1,0 +1,4 @@
+(l / look-01
+	:aux (b / be)
+	:obl (f / friend)
+	:nsubj (i / i))

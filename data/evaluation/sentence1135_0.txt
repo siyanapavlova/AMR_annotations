@@ -1,0 +1,21 @@
+(b / but
+	:op1 (k / know
+		:advcl (c / come
+			:obl (t / time
+				:advmod (j / just)
+				:det (a / any))
+			:nsubj (y / you)
+			:mark (i3 / if))
+		:nsubj (i2 / i)
+		:aux (s / shall)
+		:advcl (b2 / be-02
+			:xcomp (r / ready
+				:xcomp (g / greet-01
+					:mark (t3 / to)
+					:ARG1 (y2 / you))
+				:mark (t2 / to)))
+		:advmod (n / never)
+		:obl (w / what
+			:acl (h2 / hour
+				:obj (h / heart
+					:poss (i / i))))))

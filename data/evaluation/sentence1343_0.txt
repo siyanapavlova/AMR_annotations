@@ -1,0 +1,11 @@
+(a / and
+	:op1 (h / have-06
+		:advmod (a2 / again
+			:advmod (o / once))
+		:ARG1 (s / sense
+			:poss (s2 / sorrow)
+			:compound (q / queer))
+		:advcl (u / understand-01
+			:advmod (w / why)
+			:mark (w2 / without))
+		:ARG0 (i / i)))

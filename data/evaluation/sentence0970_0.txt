@@ -1,0 +1,6 @@
+(p / prince
+	:acl (g / gaze
+		:obl (t / time
+			:amod (l2 / long))
+		:obl (h / he))
+	:amod (l / little))

@@ -1,0 +1,7 @@
+(s / say-01
+	:ARG0 (e / earth
+		:nsubj (t / this)
+		:discourse (o / oh)
+		:advmod (n / not))
+	:obj (p / prince
+		:amod (l / little)))

@@ -1,0 +1,7 @@
+(f / find-01
+	:obl (n / neighborhood
+		:poss (a / asteroid
+			:nummod (35 / 325)
+			:conj (33 / 330)))
+	:ARG1 (h2 / himself)
+	:ARG0 (h / he))

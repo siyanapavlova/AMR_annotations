@@ -1,0 +1,14 @@
+(g / give-17
+	:aux (w / would)
+	:nsubj (t3 / that)
+	:obl (t2 / those
+		:acl (u / understand-01
+			:ARG0 (w2 / who)
+			:ARG1 (l / life)))
+	:ARG1 (a / air
+		:poss (t / truth
+			:poss (s / story
+				:poss (i / i)))
+		:compound (g2 / greater)
+		:amod (m / much))
+	:aux (h / have))

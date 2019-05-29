@@ -1,0 +1,5 @@
+(a / and
+	:op1 (t / take-02
+		:nsubj (h / he)
+		:obj (i / i)
+		:obl (h2 / hand)))

@@ -1,0 +1,10 @@
+(l3 / look-01
+	:nsubj (f / fox
+		:nsubj (e / ear
+			:poss (h / he))
+		:poss (y / you))
+	:conj (l / long
+		:advmod (t2 / too)
+		:nsubj (t / they))
+	:obj (l2 / little
+		:poss (h2 / horn)))

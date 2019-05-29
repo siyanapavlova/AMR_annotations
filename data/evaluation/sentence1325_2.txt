@@ -1,0 +1,11 @@
+(a / and
+	:op1 (l5 / laugh-02
+		:advcl (s / say-01
+			:ARG0 (h / he)
+			:ARG0 (b / baobabs
+				:parataxis (l4 / look-04
+					:ARG1 (l / little
+						:poss (c / cabbage))
+					:ARG0 (t / they))
+				:poss (y / you))
+			:mark (a2 / as))))

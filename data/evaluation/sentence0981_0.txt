@@ -1,0 +1,4 @@
+(b / but
+	:op1 (i / innocent
+		:nsubj (y / you)
+		:conj (t / true)))

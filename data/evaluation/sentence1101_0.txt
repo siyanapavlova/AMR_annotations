@@ -1,0 +1,10 @@
+(k / know
+	:nsubj (i / i)
+	:obj (s3 / sound
+		:poss (s2 / step
+			:acl (d / different
+				:nsubj (t / that)
+				:obl (o / other
+					:det (a / all))
+				:aux (w / will))))
+	:aux (s / shall))

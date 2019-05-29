@@ -1,0 +1,5 @@
+(a / and
+	:op1 (b / bored
+		:obl (c / consequence)
+		:obl (l / little)
+		:nsubj (i / i)))

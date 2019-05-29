@@ -1,0 +1,6 @@
+(l / laugh-02
+	:aux (s / shall)
+	:aux (b / be)
+	:ARG0 (i / i)
+	:obl (o / one
+		:poss (t / they)))

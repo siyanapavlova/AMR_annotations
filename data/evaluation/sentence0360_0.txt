@@ -1,0 +1,7 @@
+(d / draw-05
+	:aux (w / will)
+	:iobj (y2 / you)
+	:ARG1 (m / muzzle
+		:poss (s / sheep
+			:poss (y / you)))
+	:ARG0 (i / i))

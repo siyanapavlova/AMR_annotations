@@ -1,0 +1,13 @@
+(a2 / and
+	:op1 (a / astound
+		:nsubj (i2 / i)
+		:discourse (n2 / no)
+		:discourse (n3 / no)
+		:xcomp (h / hear
+			:obj (f / fellow
+				:advcl (g / greet
+					:obl (w / with)
+					:obj (i / it))
+				:amod (l / little))
+			:mark (t / to))
+		:discourse (n / no)))

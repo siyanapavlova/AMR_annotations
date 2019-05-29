@@ -1,0 +1,5 @@
+(a / and
+	:op1 (p / please-01
+		:aux (w / will)
+		:ARG1 (t / they)
+		:ARG0 (t3 / that)))

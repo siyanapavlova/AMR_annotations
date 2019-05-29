@@ -1,0 +1,10 @@
+(b / be-02
+	:obl (a / and
+		:op (l2 / lamplighter)
+		:op (l / lamp
+			:compound (s / street)))
+	:expl (t / there)
+	:nsubj (r / room
+		:amod (e / enough
+			:advmod (j / just))
+		:poss (i / it)))

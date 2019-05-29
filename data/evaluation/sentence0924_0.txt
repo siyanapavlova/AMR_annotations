@@ -1,0 +1,8 @@
+(c / come
+	:advmod (f / first)
+	:obj (t / turn
+		:poss (l / lamplighter
+			:poss (z / zealand
+				:compound (n / new)
+				:conj (a2 / australia))))
+	:aux (w / would))

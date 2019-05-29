@@ -1,0 +1,8 @@
+(f / feel
+	:aux (s / shall)
+	:nsubj (i / i)
+	:xcomp (a2 / and
+		:op (h3 / happier)
+		:op (h2 / happier))
+	:obl (a / advance
+		:compound (h / hour)))

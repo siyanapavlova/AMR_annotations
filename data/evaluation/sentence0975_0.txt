@@ -1,0 +1,4 @@
+(p / powerful
+	:advmod (n / not)
+	:advmod (v / very)
+	:nsubj (y / you))

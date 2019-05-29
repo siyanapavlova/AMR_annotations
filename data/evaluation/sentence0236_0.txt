@@ -1,0 +1,5 @@
+(i / infest
+	:nsubj (s / soil
+		:poss (p / planet
+			:det (t2 / that)))
+	:obl (t / they))

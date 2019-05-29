@@ -1,0 +1,9 @@
+(h / have-11
+	:ARG0 (y / you)
+	:aux (w / would)
+	:obj (k / kindness)
+	:mark (i2 / if)
+	:xcomp (t2 / think-01
+		:mark (t / to)
+		:obl (n / need
+			:poss (i / i))))

@@ -1,0 +1,8 @@
+(u / understand-01
+	:advmod (w / well
+		:advmod (v / very))
+	:ARG0 (i / i)
+	:ccomp (s / say-01
+		:obj (p / prince
+			:amod (l / little)))
+	:ARG1 (y / you))

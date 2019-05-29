@@ -1,0 +1,6 @@
+(l / live-02
+	:nsubj (i / i)
+	:advmod (w / where)
+	:ccomp (s / small
+		:nsubj (e / everything)
+		:advmod (v / very)))

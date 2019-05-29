@@ -1,0 +1,13 @@
+(t3 / try-02
+	:ARG0 (i2 / i)
+	:advmod (c / certainly)
+	:xcomp (m / make-18
+		:advcl (p2 / possible
+			:mark (a / as))
+		:xcomp (t2 / true
+			:advmod (a2 / as)
+			:obl (l / life))
+		:obj (p / portrait
+			:poss (i / i))
+		:mark (t / to))
+	:aux (s / shall))

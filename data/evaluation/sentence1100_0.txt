@@ -1,0 +1,16 @@
+(b2 / but
+	:op1 (b / be
+		:advcl (c / come
+			:mark (i4 / if)
+			:nsubj (s2 / sun)
+			:xcomp (s / shine
+				:mark (t2 / to)
+				:obl (l / life
+					:poss (i5 / i)))
+			:advmod (a / as))
+		:aux (w / will)
+		:advcl (t / tame
+			:nsubj (y / you)
+			:obj (i3 / i)
+			:mark (i / if))
+		:nsubj (i2 / it)))

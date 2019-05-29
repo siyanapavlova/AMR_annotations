@@ -1,0 +1,8 @@
+(w / want-01
+	:obj (s / sheep
+		:acl (l2 / live-01
+			:ARG0 (t / that)
+			:ARG1 (t2 / time
+				:mod (l / long-03))
+			:aux (w2 / will)))
+	:ARG0 (i / i))

@@ -1,0 +1,11 @@
+(l2 / like-02
+	:xcomp (c / condemn
+		:obj (a / anyone)
+		:mark (t / to)
+		:obl (d / death))
+	:ccomp (r / reply
+		:nsubj (i / i)
+		:obj (p / prince
+			:amod (l / little)))
+	:advmod (n / not)
+	:aux (d2 / do))

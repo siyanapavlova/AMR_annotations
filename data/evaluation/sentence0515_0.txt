@@ -1,0 +1,12 @@
+(a / and
+	:op1 (f / fault
+		:poss (g3 / general)
+		:nsubj (t2 / that)
+		:advmod (n / not)
+		:aux (w2 / would)
+		:advcl (o / obey
+			:obj (i4 / i)
+			:aux (d / do)
+			:nsubj (g4 / general)
+			:mark (i5 / if)
+			:advmod (n2 / not))))

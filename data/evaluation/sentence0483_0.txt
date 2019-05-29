@@ -1,0 +1,4 @@
+(i / inhabit-01
+	:nsubj (f / first
+		:poss (t / they))
+	:obl (k / king))

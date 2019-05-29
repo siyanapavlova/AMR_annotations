@@ -1,0 +1,7 @@
+(b2 / but
+	:op1 (h / have-06
+		:mark (b / because)
+		:ARG0 (s / she)
+		:advmod (n / not)
+		:ARG0 (i / it)
+		:xcomp (c / cold)))

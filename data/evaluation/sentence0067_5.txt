@@ -1,0 +1,12 @@
+(d / draw-02
+	:ARG1 (o2 / one
+		:poss (p / picture
+			:nummod (t / two)
+			:acl (d2 / draw-02
+				:aux (h2 / have)
+				:ARG0 (i2 / i))))
+	:advmod (o / often
+		:advmod (s / so))
+	:ARG0 (i / i)
+	:advmod (s2 / so)
+	:obl (h / he))

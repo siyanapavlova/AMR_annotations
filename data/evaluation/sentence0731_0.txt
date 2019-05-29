@@ -1,0 +1,8 @@
+(b / but
+	:op1 (m2 / man
+		:acl (i2 / interested
+			:nsubj (w / who)
+			:advmod (n / naturally)
+			:obl (m / matter
+				:poss (c / consequence)))
+		:nsubj (i / i)))

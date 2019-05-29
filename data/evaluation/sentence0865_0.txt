@@ -1,0 +1,5 @@
+(s / see-01
+	:mark (b / because)
+	:nsubj (m / man
+		:amod (i / intoxicate))
+	:xcomp (d / double))

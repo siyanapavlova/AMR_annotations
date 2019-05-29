@@ -1,0 +1,14 @@
+(b / bad
+	:obl (t / that
+		:det (a / all))
+	:nsubj (m / my
+		:xcomp (c / cold))
+	:advmod (s / so)
+	:parataxis (d / do-02
+		:ARG1 (i / i)
+		:xcomp (g / good)
+		:ARG0 (a2 / air
+			:amod (c2 / cool)
+			:compound (n2 / night))
+		:aux (w / will))
+	:advmod (n / not))

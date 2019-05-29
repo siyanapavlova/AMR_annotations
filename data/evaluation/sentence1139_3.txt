@@ -1,0 +1,12 @@
+(w / what
+	:nsubj (t / they)
+	:acl (m / make-01
+		:obl (d / day
+			:amod (o2 / other))
+		:xcomp (d2 / different
+			:obl (d3 / day
+				:nummod (o / one)))
+		:obj (h2 / hour
+			:nummod (o3 / one))
+		:obl (h / hour
+			:amod (o4 / other))))

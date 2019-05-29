@@ -1,0 +1,9 @@
+(t2 / think-01
+	:ccomp (b / be-02
+		:nsubj (o / or
+			:op (s / seven
+				:poss (t3 / they)
+				:poss (e / existence))
+			:op (s2 / six))
+		:expl (t / there))
+	:ARG0 (i / i))

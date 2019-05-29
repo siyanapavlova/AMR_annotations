@@ -1,0 +1,14 @@
+(k / know
+	:advmod (w2 / where)
+	:advcl (f / fall
+		:nsubj (g3 / giddy
+			:det (s / some))
+		:mark (w / when)
+		:obl (g2 / goodness)
+		:nsubj (g / goose))
+	:advmod (a / ago
+		:obl (y / year
+			:nummod (t / twenty
+				:poss (t2 / two)))
+		:nsubj (t3 / time
+			:amod (f2 / first))))

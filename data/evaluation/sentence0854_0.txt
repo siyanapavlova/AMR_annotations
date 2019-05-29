@@ -1,0 +1,7 @@
+(e / explorer
+	:advmod (n / not)
+	:nsubj (i2 / i)
+	:poss (p / planet
+		:poss (i / i))
+	:aux (h / have)
+	:amod (s / single))

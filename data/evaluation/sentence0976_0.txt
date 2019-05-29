@@ -1,0 +1,6 @@
+(f / foot
+	:advmod (n / not)
+	:advmod (e / even)
+	:det (a / any)
+	:nsubj (y / you)
+	:aux (h / have))

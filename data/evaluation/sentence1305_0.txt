@@ -1,0 +1,4 @@
+(g / good
+	:obl (h / heart)
+	:nsubj (i / it)
+	:obl (p / present))

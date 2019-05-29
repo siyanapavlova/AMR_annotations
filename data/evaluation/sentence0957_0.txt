@@ -1,0 +1,9 @@
+(s / sit
+	:conj (r / raise
+		:obl (s3 / sky)
+		:obj (e / eye
+			:poss (h / he)))
+	:nsubj (p / prince
+		:amod (l / little))
+	:obl (s2 / stone)
+	:compound (d / down))

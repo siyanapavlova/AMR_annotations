@@ -1,0 +1,7 @@
+(s / see-02
+	:advmod (i2 / intimately)
+	:conj (c / close
+		:obl (h / hand))
+	:aux (h2 / have)
+	:ARG0 (i / i)
+	:ARG1 (t / they))

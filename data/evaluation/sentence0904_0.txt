@@ -1,0 +1,4 @@
+(c / change
+	:advmod (n / not)
+	:nsubj (i / it)
+	:aux (d / do))

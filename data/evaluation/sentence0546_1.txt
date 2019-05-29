@@ -1,0 +1,10 @@
+(h / have-08
+	:ARG0 (i2 / i)
+	:ARG1 (r2 / right
+		:acl (r / require
+			:mark (t / to)
+			:obj (o2 / obedience)))
+	:advcl (r3 / reasonable
+		:mark (b / because)
+		:nsubj (o / order
+			:poss (i / i))))

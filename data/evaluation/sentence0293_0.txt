@@ -1,0 +1,8 @@
+(a2 / answer-01
+	:ccomp (e / eat
+		:obj (a / anything
+			:acl (f / find-02
+				:ARG0 (i3 / it)
+				:obl (r / reach
+					:poss (i2 / its)))))
+	:ARG0 (i / i))

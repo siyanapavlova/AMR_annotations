@@ -1,0 +1,3 @@
+(l / leave
+	:obj (i2 / it)
+	:obl (i / i))

@@ -1,0 +1,7 @@
+(b / buy
+	:obj (t / thing
+		:det (a / all))
+	:nsubj (t2 / they)
+	:xcomp (r / ready
+		:xcomp (m / make-02
+			:obl (s / shops))))

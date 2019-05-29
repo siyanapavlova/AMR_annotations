@@ -1,0 +1,5 @@
+(m2 / make-02
+	:ARG1 (y / you)
+	:ARG0 (i / i)
+	:aux (w / will)
+	:ARG1 (m / minister))

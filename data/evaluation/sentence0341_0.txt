@@ -1,0 +1,5 @@
+(w / white
+	:nsubj (p / prince
+		:amod (l / little))
+	:advmod (n / now)
+	:obl (r / rage))

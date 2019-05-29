@@ -1,0 +1,8 @@
+(a / answer-01
+	:ARG0 (w3 / who
+		:nsubj (y3 / you)
+		:nsubj (y2 / you)
+		:nsubj (w2 / who
+			:nsubj (y / you))
+		:nsubj (w / who))
+	:ARG2 (e / echo))

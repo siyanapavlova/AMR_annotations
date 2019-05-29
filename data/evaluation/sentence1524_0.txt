@@ -1,0 +1,6 @@
+(f2 / fall
+	:advmod (g / gently
+		:advmod (a / as))
+	:obl (f / fall
+		:compound (t / tree))
+	:nsubj (h / he))

@@ -1,0 +1,9 @@
+(t / travel
+	:obj (a2 / and
+		:op (m / much
+			:advmod (s2 / so))
+		:op (f / far
+			:advmod (s / so)))
+	:aux (h / have)
+	:nsubj (h2 / he)
+	:advmod (a / already))

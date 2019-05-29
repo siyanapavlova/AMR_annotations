@@ -1,0 +1,6 @@
+(h / hole
+	:nsubj (w / well
+		:poss (s / sahara))
+	:amod (m / mere)
+	:acl (d / dug
+		:obl (s2 / sand)))

@@ -1,0 +1,8 @@
+(s / say-01
+	:ARG1 (s3 / sheep
+		:polarity (- / -)
+		:nsubj (t / this))
+	:ccomp (s2 / see-02
+		:ARG1 (y / yourself)
+		:ARG0 (y2 / you))
+	:ARG0 (h / he))

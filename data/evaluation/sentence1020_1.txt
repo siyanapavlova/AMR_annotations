@@ -1,0 +1,7 @@
+(d / dry
+	:conj (p / point
+		:advmod (a3 / altogether)
+		:conj (h / harsh
+			:advmod (a2 / altogether)))
+	:advmod (a / altogether)
+	:nsubj (i / it))

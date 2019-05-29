@@ -1,0 +1,6 @@
+(h / have-04
+	:ARG0 (i / i)
+	:ARG1 (t / time
+		:acl (l / loafing
+			:mark (f / for))
+		:det (n / no)))

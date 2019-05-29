@@ -1,0 +1,9 @@
+(m / mop
+	:obl (h3 / handkerchief
+		:acl (d / decorate
+			:obl (s / square
+				:amod (r / red))))
+	:obj (f / forehead
+		:poss (h2 / he))
+	:nsubj (h / he)
+	:advmod (t / then))

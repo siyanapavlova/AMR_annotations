@@ -1,0 +1,5 @@
+(b / but
+	:op1 (w / wonder
+		:nsubj (p / prince
+			:amod (l / little))
+		:aux (b2 / be)))

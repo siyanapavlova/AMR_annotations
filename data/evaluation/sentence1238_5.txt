@@ -1,0 +1,13 @@
+(m / make-01
+	:iobj (i3 / i)
+	:advmod (t / thirst)
+	:aux (h / have)
+	:conj (l2 / look-02
+		:ARG0 (i4 / i)
+		:obl (t2 / they)
+		:advcl (d / dream
+			:nsubj (i2 / i)
+			:mark (a / as)
+			:mark (i / if)))
+	:ARG1 (f / feverish
+		:amod (l / little)))

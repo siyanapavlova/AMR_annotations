@@ -1,0 +1,7 @@
+(b / be-02
+	:expl (t2 / there)
+	:nsubj (r / room
+		:poss (i / it)
+		:det (n / no))
+	:obl (p / people
+		:nummod (t / two)))

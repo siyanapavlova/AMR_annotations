@@ -1,0 +1,9 @@
+(a / and
+	:op1 (u / understand-01
+		:ARG0 (i / i)
+		:ARG1 (w / what
+			:acl (l / look-04
+				:ARG0 (h / he)
+				:aux (b / be)
+				:obl (f / for)
+				:aux (h2 / have)))))

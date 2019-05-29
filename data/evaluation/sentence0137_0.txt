@@ -1,0 +1,3 @@
+(i / idea
+	:compound (q / queer)
+	:det (w / what))

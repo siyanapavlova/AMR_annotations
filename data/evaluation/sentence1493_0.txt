@@ -1,0 +1,7 @@
+(c / carry
+	:obj (b / body
+		:det (t / this))
+	:aux (c2 / can)
+	:nsubj (i / i)
+	:obl (i2 / i)
+	:advmod (n / not))

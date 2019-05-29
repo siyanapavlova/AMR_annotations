@@ -1,0 +1,7 @@
+(s / say-01
+	:ccomp (l2 / look-02
+		:aux (b / be)
+		:obl (m / man)
+		:ARG0 (i / i))
+	:ARG0 (p / prince
+		:amod (l / little)))

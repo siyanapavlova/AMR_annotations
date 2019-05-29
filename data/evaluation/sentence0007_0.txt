@@ -1,0 +1,6 @@
+(p / ponder-01
+	:ARG0 (i / i)
+	:obl (a / adventure
+		:poss (j / jungle))
+	:advmod (d / deeply)
+	:advmod (t / then))

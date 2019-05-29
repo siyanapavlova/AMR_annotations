@@ -1,0 +1,4 @@
+(t / take-10
+	:ARG0 (h / he)
+	:ARG1 (s / step
+		:nummod (o / one)))

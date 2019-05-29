@@ -1,0 +1,10 @@
+(a / and
+	:op1 (l / learn-01
+		:ARG0 (i3 / i)
+		:polarity (- / -)
+		:xcomp (d / draw-05
+			:ARG1 (a2 / anything)
+			:obl (b / boa
+				:poss (b2 / boa
+					:mod (o / outside)
+					:poss (i2 / inside))))))

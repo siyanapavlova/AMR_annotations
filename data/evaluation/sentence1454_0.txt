@@ -1,0 +1,25 @@
+(a3 / and
+	:op1 (l3 / laugh
+		:advmod (a2 / as)
+		:parataxis (y3 / you)
+		:aux (w3 / will)
+		:advmod (s3 / so)
+		:aux (b2 / be)
+		:nsubj (i2 / it)
+		:parataxis (h / have
+			:obj (s4 / star
+				:acl (l / laugh
+					:aux (c / can)
+					:nsubj (t / that)))
+			:nsubj (y2 / you
+				:advmod (o / only))
+			:aux (w2 / will))
+		:nsubj (s2 / star
+			:det (a / all))
+		:mark (i / if)
+		:aux (b / be)
+		:advcl (l2 / look
+			:obl (n / night)
+			:obl (s / sky)
+			:mark (w / when)
+			:nsubj (y / you))))

@@ -1,0 +1,4 @@
+(e / eaten
+	:obj (f / flower)
+	:nsubj (s / sheep)
+	:aux (h / have))

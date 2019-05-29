@@ -1,0 +1,6 @@
+(d / describe
+	:nsubj (y2 / you)
+	:aux (s / shall)
+	:obj (p / planet
+		:poss (y / you))
+	:obl (i / i))

@@ -1,0 +1,5 @@
+(c / count
+	:conj (r / recount-01
+		:obj (t2 / they))
+	:nsubj (i / i)
+	:obj (t / they))

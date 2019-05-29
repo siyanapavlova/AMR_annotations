@@ -1,0 +1,5 @@
+(m / make-05
+	:obj (a / asham
+		:amod (l / little))
+	:obj (i / i)
+	:ARG0 (t / that))

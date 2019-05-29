@@ -1,0 +1,5 @@
+(s / surprise
+	:nsubj (h / he)
+	:obl (a / absence
+		:det (t / this)
+		:poss (r / reproach)))

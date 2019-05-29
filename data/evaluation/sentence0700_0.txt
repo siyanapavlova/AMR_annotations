@@ -1,0 +1,5 @@
+(d2 / do-02
+	:ARG1 (w / what)
+	:ARG0 (i / i)
+	:aux (d / do)
+	:obl (t / they))

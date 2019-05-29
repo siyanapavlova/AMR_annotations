@@ -1,0 +1,12 @@
+(s / seem-01
+	:ccomp (b / be-02
+		:mark (t2 / that)
+		:advmod (e2 / even)
+		:nsubj (n / nothing
+			:amod (f / fragile
+				:advmod (m / more))
+			:poss (e / earth
+				:det (a / all)))
+		:expl (t / there))
+	:obl (i / i)
+	:nsubj (i2 / it))

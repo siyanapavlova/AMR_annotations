@@ -1,0 +1,9 @@
+(h / hesitate
+	:obj (m2 / moment)
+	:advcl (m / make-05
+		:ARG2 (a2 / answer
+			:det (n / no))
+		:ARG0 (k / king)
+		:mark (a / as))
+	:nsubj (p / prince
+		:amod (l / little)))

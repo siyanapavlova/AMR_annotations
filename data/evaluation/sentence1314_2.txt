@@ -1,0 +1,4 @@
+(l / look-04
+	:obl (h / heart)
+	:aux (m / must)
+	:ARG0 (o / one))

@@ -1,0 +1,11 @@
+(t / trick
+	:aux (w / will)
+	:amod (s2 / shabby
+		:advmod (v / very))
+	:acl (p / play
+		:nsubj (i / i)
+		:obl (y / you)
+		:aux (h / have)
+		:aux (s / shall)
+		:obj (t2 / that))
+	:nsubj (i2 / it))

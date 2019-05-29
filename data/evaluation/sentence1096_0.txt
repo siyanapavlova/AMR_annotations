@@ -1,0 +1,6 @@
+(s / say-01
+	:ARG0 (f / fox)
+	:ccomp (m / monotonous
+		:nsubj (l / life
+			:poss (i / i))
+		:advmod (v / very)))

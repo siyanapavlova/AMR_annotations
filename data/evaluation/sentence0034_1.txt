@@ -1,0 +1,4 @@
+(a / and
+	:op (g / golf)
+	:op (n / neckty)
+	:op1 (p / politics))

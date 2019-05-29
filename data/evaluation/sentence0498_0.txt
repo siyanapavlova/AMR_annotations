@@ -1,0 +1,4 @@
+(s / say-01
+	:ccomp (a / ah)
+	:ARG0 (k / king)
+	:advmod (t / then))

@@ -1,0 +1,27 @@
+(t2 / try
+	:obj (e / experiment
+		:acl (s / show
+			:obj (h2 / he)
+			:mark (o3 / of)
+			:obj (o2 / one
+				:poss (i4 / i)
+				:compound (d / drawing
+					:flat (n / number)))))
+	:nsubj (i3 / i)
+	:advcl (m / meet
+		:nsubj (i5 / i)
+		:advmod (w2 / whenever)
+		:obj (o / one
+			:acl (s3 / seem
+				:obl (i / i)
+				:xcomp (s2 / sight
+					:amod (c / clear
+						:advmod (a / all))
+					:advmod (a3 / at))
+				:nsubj (w3 / who))
+			:poss (t / they)))
+	:parataxis (k / keep
+		:aux (h / have)
+		:obj (w / which)
+		:nsubj (i2 / i)
+		:advmod (a2 / always)))

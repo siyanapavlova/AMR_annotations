@@ -1,0 +1,16 @@
+(l / learn-01
+	:obl (m / morning
+		:poss (d2 / day
+			:amod (f2 / fourth)))
+	:ARG0 (i3 / i)
+	:parataxis (f / fond
+		:nsubj (i2 / i)
+		:advmod (v / very)
+		:advcl (s2 / say-01
+			:ARG0 (y / you)
+			:mark (w / when)
+			:obl (i / i))
+		:obl (s / sunset))
+	:ARG1 (d / detail
+		:det (t / that)
+		:amod (n / new)))

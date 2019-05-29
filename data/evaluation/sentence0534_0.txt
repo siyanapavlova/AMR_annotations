@@ -1,0 +1,5 @@
+(p / permit
+	:nsubj (i2 / i)
+	:aux (d / do)
+	:obj (i / insubordination)
+	:advmod (n / not))

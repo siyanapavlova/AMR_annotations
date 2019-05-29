@@ -1,0 +1,9 @@
+(w2 / well
+	:nsubj (w3 / well
+		:acl (c / come
+			:nsubj (w / we)
+			:obj (t2 / that)
+			:aux (h / have)
+			:obl (t / to)))
+	:poss (s / sahara)
+	:advmod (n / not))

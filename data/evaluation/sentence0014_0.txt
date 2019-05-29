@@ -1,0 +1,6 @@
+(p / picture
+	:nsubj (i / it)
+	:poss (c / constrictor
+		:acl (d / digest
+			:obj (e / elephant))
+		:compound (b / boa)))

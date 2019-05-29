@@ -1,0 +1,10 @@
+(b / but
+	:op1 (y / young
+		:advcl (k / know
+			:ccomp (l / love
+				:advmod (h / how)
+				:obj (s / she)
+				:mark (t3 / to))
+			:mark (t2 / to))
+		:advmod (t / too)
+		:nsubj (i / i)))

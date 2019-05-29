@@ -1,0 +1,6 @@
+(a / and
+	:op1 (t2 / thing
+		:acl (u / understand-01
+			:mark (t / to))
+		:amod (g / great)
+		:amod (m / many)))

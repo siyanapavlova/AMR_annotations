@@ -1,0 +1,4 @@
+(w / worth
+	:nsubj (i / it)
+	:obj (t / trouble)
+	:advmod (n / not))

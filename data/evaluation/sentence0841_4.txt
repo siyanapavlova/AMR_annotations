@@ -1,0 +1,10 @@
+(m2 / magnificent
+	:nsubj (i / it)
+	:conj (p / planet
+		:advmod (s2 / stately)
+		:advcl (s / see-01
+			:aux (h / have)
+			:advmod (e / ever)
+			:nsubj (h2 / he)
+			:mark (t / that)))
+	:advmod (m / most))

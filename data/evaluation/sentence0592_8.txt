@@ -1,0 +1,9 @@
+(a / and
+	:op1 (t / think-01
+		:advmod (n / now)
+		:ARG0 (i2 / i)
+		:ccomp (g / go-02
+			:aux (w / will)
+			:nsubj (i / i)
+			:obl (w2 / way
+				:poss (i3 / i)))))

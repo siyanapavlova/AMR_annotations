@@ -1,0 +1,7 @@
+(s / stand-04
+	:obl (g / garden)
+	:ARG1 (b2 / bloom
+		:det (a / all)
+		:poss (r / ros))
+	:aux (b / be)
+	:nsubj (h / he))

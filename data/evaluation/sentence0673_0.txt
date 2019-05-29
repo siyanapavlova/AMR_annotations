@@ -1,0 +1,15 @@
+(d / distur
+	:aux (h / have)
+	:obl (y / year
+		:nummod (f2 / four
+			:compound (f / fifty))
+		:acl (i3 / inhabit-01
+			:obj (t4 / that)
+			:aux (h2 / have)
+			:obj (p / planet
+				:det (t2 / this))
+			:ARG0 (i / i)))
+	:nsubj (i2 / i)
+	:obl (t3 / time
+		:nummod (t / three
+			:advmod (o / only))))

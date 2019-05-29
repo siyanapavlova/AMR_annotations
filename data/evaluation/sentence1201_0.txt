@@ -1,0 +1,9 @@
+(o / or
+	:op1 (a / asleep
+		:nsubj (t4 / they)
+		:advmod (n / not)
+		:mark (i / if)
+		:ccomp (y / yawn-01
+			:aux (b2 / be)
+			:ARG0 (t3 / they))
+		:aux (b / be)))

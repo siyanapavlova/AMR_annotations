@@ -1,0 +1,19 @@
+(a3 / ask-03
+	:obl (p / prince
+		:amod (l / little))
+	:advcl (s2 / seize
+		:obl (d / doubt
+			:compound (g / grave))
+		:mark (i3 / if)
+		:mark (a2 / as))
+	:advmod (a / abruptly)
+	:ccomp (t / true
+		:conj (i2 / it
+			:advmod (n / not))
+		:ccomp (e / eat
+			:mark (t2 / that)
+			:nsubj (s / sheep)
+			:obj (b / bushe
+				:amod (l2 / little)))
+		:nsubj (i / it))
+	:iobj (i4 / i))

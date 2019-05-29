@@ -1,0 +1,9 @@
+(a / and
+	:op1 (g / go-05
+		:aux (b2 / be)
+		:xcomp (m / make-18
+			:obj (p / present)
+			:mark (t / to)
+			:iobj (y / you))
+		:ARG0 (i / i)
+		:vocative (b / beside)))

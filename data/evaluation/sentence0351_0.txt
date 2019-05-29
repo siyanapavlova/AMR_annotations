@@ -1,0 +1,6 @@
+(a / and
+	:op1 (t2 / think-01
+		:ARG0 (y / you)
+		:ccomp (i / important
+			:nsubj (t / that)
+			:advmod (n / not))))

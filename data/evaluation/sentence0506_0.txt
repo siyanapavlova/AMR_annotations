@@ -1,0 +1,11 @@
+(m2 / murmure
+	:advmod (n / not)
+	:obj (p / prince
+		:amod (l / little)
+		:acl (a / abashed
+			:advmod (n2 / now)
+			:advmod (c2 / completely)))
+	:advmod (m / more
+		:advmod (a2 / any))
+	:aux (c / can)
+	:nsubj (i / i))

@@ -1,0 +1,8 @@
+(b / but
+	:op1 (t / think-01
+		:advmod (w2 / where)
+		:aux (d / do)
+		:ccomp (g / go-06
+			:ARG0 (h / he)
+			:aux (w / would))
+		:ARG0 (y / you)))

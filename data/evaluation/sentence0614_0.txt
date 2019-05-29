@@ -1,0 +1,13 @@
+(s / say-01
+	:ARG0 (p / prince
+		:acl (u / understand-01
+			:ccomp (t / talk-02
+				:ARG0 (m / man
+					:amod (c / conceit))
+				:ARG2 (w2 / what)
+				:aux (b / be))
+			:advmod (n / not)
+			:aux (d / do)
+			:ARG0 (w / who))
+		:amod (l / little))
+	:discourse (y / yes))

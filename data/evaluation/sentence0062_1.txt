@@ -1,0 +1,23 @@
+(t2 / take-10
+	:ARG0 (i4 / i)
+	:advcl (s / seem-01
+		:aux (m2 / might)
+		:nsubj (i5 / it)
+		:mark (a3 / as)
+		:obl (i / i)
+		:ARG1 (m / miles
+			:nummod (t / thousand)
+			:poss (h / habitation
+				:mod (h2 / human)
+				:mod (a4 / any))
+			:conj (d / danger
+				:poss (d2 / death))))
+	:obl (a2 / and
+		:op (p3 / pen
+			:compound (f / fountain
+				:poss (i3 / i)))
+		:op (p / pocket
+			:poss (i2 / i)
+			:poss (s2 / sheet
+				:poss (p2 / paper))))
+	:advmod (a / absurd))

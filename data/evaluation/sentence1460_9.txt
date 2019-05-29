@@ -1,0 +1,16 @@
+(s / say-01
+	:obl (t4 / they)
+	:ARG0 (y / you)
+	:aux (w / will)
+	:parataxis (m / make-01
+		:ARG0 (s2 / stars)
+		:advmod (a / always)
+		:xcomp (l / laugh-02)
+		:discourse (y3 / yes)
+		:obj (i / i))
+	:advmod (t3 / then)
+	:conj (t2 / think-01
+		:aux (w2 / will)
+		:ARG0 (t / they)
+		:ccomp (c / crazy
+			:nsubj (y2 / you))))

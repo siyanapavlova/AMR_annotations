@@ -1,0 +1,10 @@
+(a / and
+	:op1 (b3 / begin
+		:aux (b2 / be)
+		:advmod (a2 / already)
+		:advmod (t2 / then)
+		:xcomp (b / bored
+			:mark (t / to)
+			:amod (l / little))
+		:advmod (t3 / too)
+		:nsubj (h / he)))

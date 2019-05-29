@@ -1,0 +1,8 @@
+(a4 / and
+	:op1 (h2 / have-09
+		:ARG1 (v / vacation
+			:poss (a3 / all)
+			:det (a / any))
+		:advmod (n / never)
+		:aux (s / should)
+		:ARG0 (i / i)))

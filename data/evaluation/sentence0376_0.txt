@@ -1,0 +1,13 @@
+(b / but
+	:op1 (s3 / satisfy
+		:advcl (c2 / complete
+			:obl (s2 / shelter
+				:poss (c / chamber
+					:poss (s4 / she)
+					:amod (g / green)))
+			:mark (t / to)
+			:obj (p / preparation)
+			:obl (b2 / beauty
+				:poss (s / she)))
+		:advmod (n / not)
+		:nsubj (f / flower)))

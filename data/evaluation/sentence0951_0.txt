@@ -1,0 +1,6 @@
+(a2 / answer-01
+	:ccomp (e / earth
+		:parataxis (a / africa
+			:nsubj (t / this))
+		:nsubj (t2 / this))
+	:ARG0 (s / snake))

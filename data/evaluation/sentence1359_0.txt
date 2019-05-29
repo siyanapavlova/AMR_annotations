@@ -1,0 +1,11 @@
+(r2 / run
+	:advcl (t / tame
+		:nsubj (h / himself
+			:nummod (o / one)
+			:poss (l / let))
+		:mark (i / if))
+	:nsubj (o2 / one)
+	:obj (r / risk
+		:acl (w / weep
+			:mark (o3 / of)
+			:obj (l2 / little))))

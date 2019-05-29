@@ -1,0 +1,11 @@
+(l / look-02
+	:ARG0 (i / i)
+	:advcl (d / dead
+		:nsubj (i3 / i)
+		:mark (i2 / if)
+		:mark (a2 / as))
+	:aux (s / shall)
+	:conj (t / true
+		:nsubj (t2 / that)
+		:aux (w / will)
+		:advmod (n / not)))

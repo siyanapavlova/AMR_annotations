@@ -1,0 +1,6 @@
+(f / flower
+	:discourse (y / yes)
+	:acl (h / have-04
+		:ARG1 (t2 / thorn)
+		:ARG0 (t / that))
+	:advmod (e / even))

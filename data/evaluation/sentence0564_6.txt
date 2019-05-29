@@ -1,0 +1,3 @@
+(g / go-10
+	:aux (d / do)
+	:advmod (n / not))

@@ -1,0 +1,6 @@
+(o2 / ought
+	:advmod (n / never)
+	:xcomp (l / listen
+		:obl (f / flower)
+		:mark (t / to))
+	:nsubj (o / one))

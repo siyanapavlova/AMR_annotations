@@ -1,0 +1,24 @@
+(l2 / live
+	:nsubj (i5 / i)
+	:obj (l / life
+		:poss (i / i))
+	:advmod (s2 / so)
+	:obl (a4 / anyone
+		:acl (t / talk
+			:obj (t2 / that)
+			:obl (t3 / to)
+			:advmod (r / really)
+			:aux (c / could)
+			:nsubj (i2 / i)))
+	:advcl (h / have
+		:obj (a3 / accident
+			:poss (p / plane
+				:poss (i3 / i)))
+		:nsubj (i4 / i)
+		:obl (d / desert
+			:poss (s / sahara))
+		:mark (u / until))
+	:advmod (a2 / alone)
+	:advmod (a / ago
+		:obl (y / year
+			:nummod (s3 / six))))

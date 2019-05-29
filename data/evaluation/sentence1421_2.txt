@@ -1,0 +1,11 @@
+(s / say-01
+	:advmod (i3 / instead)
+	:ARG0 (h / he)
+	:ccomp (t3 / thing
+		:acl (s2 / see-04
+			:nsubj (t4 / that)
+			:advmod (n / not))
+		:nsubj (t / thing
+			:acl (i / important
+				:nsubj (t2 / that))))
+	:obl (i2 / i))

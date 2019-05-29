@@ -1,0 +1,8 @@
+(a / and
+	:op1 (g / go-01
+		:advmod (a2 / already)
+		:aux (h / have)
+		:nsubj (y / year
+			:nummod (s / six))
+		:advmod (n / now)
+		:advmod (b / by)))

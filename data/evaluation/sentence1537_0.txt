@@ -1,0 +1,10 @@
+(a / able
+	:nsubj (h3 / he)
+	:advmod (n / never)
+	:xcomp (f / fasten
+		:mark (t / to)
+		:obl (s / sheep
+			:poss (h / he))
+		:obj (i / it))
+	:aux (h2 / have)
+	:aux (w / will))

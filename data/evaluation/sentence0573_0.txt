@@ -1,0 +1,6 @@
+(a / and
+	:op1 (t2 / tire
+		:obj (i2 / i)
+		:nsubj (i / it)
+		:xcomp (w / walk
+			:mark (t / to))))

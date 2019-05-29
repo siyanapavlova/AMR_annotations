@@ -1,0 +1,10 @@
+(b2 / but
+	:op1 (a2 / add
+		:nsubj (h / he)
+		:ccomp (g / go
+			:obl (t2 / today)
+			:advmod (h3 / home)
+			:advmod (b3 / back)
+			:aux (b / be)
+			:advmod (t / too)
+			:nsubj (i / i))))

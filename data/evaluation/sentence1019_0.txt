@@ -1,0 +1,5 @@
+(t / think-01
+	:ARG0 (p / planet
+		:nsubj (h / he)
+		:det (w / what)
+		:compound (q / queer)))

@@ -1,0 +1,17 @@
+(s2 / surprised
+	:parataxis (w2 / way
+		:nsubj (t / that)
+		:advmod (e / exactly)
+		:acl (w / want
+			:nsubj (i4 / i)
+			:obj (i2 / it)))
+	:nsubj (i3 / i)
+	:advmod (v / very)
+	:advcl (s / see
+		:obj (b / break
+			:compound (l / light))
+		:obl (f / face
+			:poss (j / judge
+				:poss (i / i)
+				:amod (y / young)))
+		:mark (t2 / to)))

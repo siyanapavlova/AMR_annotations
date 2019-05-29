@@ -1,0 +1,6 @@
+(a / and
+	:op1 (t / tame
+		:aux (h / have)
+		:nsubj (y2 / you)
+		:obj (o / one
+			:det (n2 / no))))

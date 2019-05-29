@@ -1,0 +1,5 @@
+(b / believe
+	:obj (a / anything)
+	:aux (d / do)
+	:advmod (n / not)
+	:nsubj (i / i))

@@ -1,0 +1,3 @@
+(i / it
+	:discourse (y / yes)
+	:nsubj (t / that))

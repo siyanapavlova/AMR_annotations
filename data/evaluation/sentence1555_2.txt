@@ -1,0 +1,11 @@
+(b / but
+	:op1 (d / draw-01
+		:advmod (a / again)
+		:aux (h / have)
+		:advcl (i5 / impress
+			:mark (t2 / to)
+			:obl (m / memory
+				:poss (y / you))
+			:obj (i3 / it))
+		:obj (i2 / it)
+		:ARG0 (i / i)))

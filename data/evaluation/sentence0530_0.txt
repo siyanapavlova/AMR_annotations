@@ -1,0 +1,8 @@
+(a2 / absolute
+	:advmod (n / not)
+	:nsubj (r / rule
+		:poss (h / he))
+	:advmod (o / only)
+	:parataxis (u / universal
+		:nsubj (i / it)
+		:advmod (a / also)))

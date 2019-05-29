@@ -1,0 +1,4 @@
+(i / interest
+	:amod (o / only)
+	:poss (t2 / they)
+	:nsubj (t / these))

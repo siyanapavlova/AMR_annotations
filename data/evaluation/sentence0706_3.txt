@@ -1,0 +1,7 @@
+(b / but
+	:op1 (s / see-03
+		:ARG0 (i / i)
+		:advmod (a / already)
+		:obj (k / king
+			:nsubj (w / who))
+		:aux (h / have)))

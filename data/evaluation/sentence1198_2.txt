@@ -1,0 +1,9 @@
+(a / and
+	:op1 (h / hear-01
+		:obj (t / thunder
+			:amod (r / roaring)
+			:poss (e / express
+				:amod (t3 / third)
+				:amod (l / light-07
+					:advmod (b / brilliantly))))
+		:nsubj (t2 / they)))

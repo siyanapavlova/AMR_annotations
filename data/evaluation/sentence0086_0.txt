@@ -1,0 +1,4 @@
+(o / old
+	:nsubj (o2 / one
+		:det (t2 / this))
+	:advmod (t / too))

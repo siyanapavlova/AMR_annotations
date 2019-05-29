@@ -1,0 +1,5 @@
+(g / go-07
+	:advcl (s / see-01
+		:mark (t / to)
+		:obj (i / it))
+	:nsubj (o / one))

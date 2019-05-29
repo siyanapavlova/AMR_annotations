@@ -1,0 +1,6 @@
+(b / but
+	:op1 (p / powerful
+		:advmod (m / more)
+		:obl (f / finger
+			:poss (k / king))
+		:nsubj (i / i)))

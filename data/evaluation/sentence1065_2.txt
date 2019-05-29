@@ -1,0 +1,4 @@
+(l / look-04
+	:obl (c / chicken)
+	:ARG0 (y / you)
+	:aux (b / be))

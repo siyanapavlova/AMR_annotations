@@ -1,0 +1,10 @@
+(k / know
+	:obj (p / planet
+		:acl (b / be-02
+			:nsubj (g / gentleman
+				:amod (c / certain)
+				:amod (f / face
+					:amod (r / red)))
+			:advmod (w / where)
+			:expl (t / there)))
+	:nsubj (i / i))

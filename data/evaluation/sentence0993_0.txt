@@ -1,0 +1,8 @@
+(f2 / flower
+	:nsubj (i / it)
+	:appos (f / flower
+		:poss (a2 / all)
+		:poss (a / account
+			:det (n / no)))
+	:poss (p / petal
+		:nummod (t / three)))

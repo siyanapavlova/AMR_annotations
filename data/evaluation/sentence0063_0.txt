@@ -1,0 +1,18 @@
+(b / but
+	:op1 (r / remember
+		:advmod (t2 / then)
+		:conj (t / tell
+			:obj (c2 / chap
+				:amod (l / little))
+			:nsubj (i / i))
+		:nsubj (i3 / i)
+		:ccomp (c / concentrate
+			:nsubj (s / study
+				:poss (i2 / i))
+			:advmod (h2 / how)
+			:obl (a / and
+				:op (h3 / history)
+				:op (g / grammar)
+				:op (a2 / arithmetic)
+				:op (g2 / geography))
+			:aux (h / have))))

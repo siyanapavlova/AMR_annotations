@@ -1,0 +1,16 @@
+(r / remind
+	:nsubj (s / sunset
+		:advmod (t / then)
+		:poss (i / i)
+		:appos (p / prince
+			:amod (l / little)))
+	:parataxis (f / forget
+		:advmod (n / never)
+		:obj (q / question)
+		:advcl (a / ask-01
+			:ARG1 (i2 / it)
+			:mark (o / once)
+			:ARG0 (h3 / he)
+			:aux (h2 / have))
+		:nsubj (h4 / he))
+	:obj (h / he))

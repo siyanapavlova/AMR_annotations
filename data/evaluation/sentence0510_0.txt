@@ -1,0 +1,3 @@
+(a / and
+	:op1 (s / seem-01
+		:advmod (v / vex)))

@@ -1,0 +1,5 @@
+(e / eat
+	:advmod (n / not)
+	:obj (b / bread)
+	:nsubj (i / i)
+	:aux (d / do))

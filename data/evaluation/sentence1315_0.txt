@@ -1,0 +1,4 @@
+(d / drink-01
+	:aux (h / have)
+	:ARG1 (w / water)
+	:ARG0 (i / i))

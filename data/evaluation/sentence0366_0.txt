@@ -1,0 +1,6 @@
+(p / place
+	:det (s2 / such)
+	:amod (s / secret)
+	:appos (l / land
+		:poss (t / tear))
+	:nsubj (i / it))

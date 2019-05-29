@@ -1,0 +1,10 @@
+(b / be
+	:advcl (b2 / be-02
+		:advcl (d / drank
+			:mark (w3 / when)
+			:obj (w4 / water)
+			:nsubj (w / we))
+		:nsubj (i / it)
+		:mark (a / as))
+	:nsubj (i2 / it)
+	:aux (w2 / will))

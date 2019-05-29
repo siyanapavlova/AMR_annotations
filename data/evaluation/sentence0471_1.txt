@@ -1,0 +1,9 @@
+(a / and
+	:op1 (b / butterfly
+		:conj (c2 / caterpillar)
+		:parataxis (c / call-01
+			:aux (w / will)
+			:ARG0 (w2 / who)
+			:obl (i2 / i))
+		:advcl (n / not
+			:mark (i / if))))

@@ -1,0 +1,4 @@
+(s / say-01
+	:advmod (a / again)
+	:discourse (g / goodbye)
+	:ARG0 (h / he))

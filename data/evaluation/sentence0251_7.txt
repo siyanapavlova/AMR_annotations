@@ -1,0 +1,13 @@
+(m / make-18
+	:advmod (s / so)
+	:advcl (d2 / describe
+		:obj (i2 / it)
+		:mark (a / as)
+		:obl (i3 / i)
+		:nsubj (p / prince
+			:amod (l / little)))
+	:ARG0 (i / i)
+	:obj (d / drawing
+		:poss (p2 / planet
+			:det (t / that)))
+	:aux (h / have))

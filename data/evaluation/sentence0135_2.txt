@@ -1,0 +1,22 @@
+(a / and
+	:op1 (g / give-17
+		:advcl (g2 / good
+			:nsubj (y / you)
+			:mark (i / if))
+		:iobj (y3 / you)
+		:conj (p / post
+			:acl (t6 / tie
+				:obj (h2 / he)
+				:mark (t5 / to)
+				:obl (t4 / to)))
+		:nsubj (i2 / i)
+		:advmod (t2 / too)
+		:ARG1 (s2 / string)
+		:aux (w / will)
+		:advcl (t / tie
+			:obj (h / he)
+			:mark (s / so
+				:fixed (t3 / that))
+			:nsubj (y2 / you)
+			:aux (c / can)
+			:obl (d / day))))

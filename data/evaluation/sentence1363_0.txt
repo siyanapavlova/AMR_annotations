@@ -1,0 +1,10 @@
+(a / and
+	:op1 (h / hear-01
+		:ccomp (s / say-01)
+		:ccomp (r / remember-01
+			:advmod (t / then)
+			:advmod (n / not)
+			:aux (d / do)
+			:ARG0 (y / you))
+		:obj (h2 / he)
+		:nsubj (i / i)))

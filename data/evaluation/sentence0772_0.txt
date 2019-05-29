@@ -1,0 +1,7 @@
+(p / put
+	:nsubj (o / order)
+	:compound (o2 / out)
+	:obj (l / lamp
+		:poss (i2 / i))
+	:mark (t / that)
+	:nsubj (i / i))

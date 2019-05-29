@@ -1,0 +1,9 @@
+(y / yours
+	:advcl (d / discover
+		:nsubj (y2 / you)
+		:mark (w / when)
+		:obj (i2 / island
+			:acl (b / belong
+				:obl (n / nobody)
+				:nsubj (t / that))))
+	:nsubj (i / it))

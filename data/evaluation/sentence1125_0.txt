@@ -1,0 +1,10 @@
+(s / sit
+	:aux (w / will)
+	:obl (t / that)
+	:advmod (d / down)
+	:obl (d2 / distance
+		:amod (l / little)
+		:poss (i / i))
+	:nsubj (y / you)
+	:amod (f / first)
+	:obl (g / grass))

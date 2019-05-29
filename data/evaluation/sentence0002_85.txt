@@ -1,0 +1,17 @@
+(s3 / see-03
+	:ARG0 (i2 / i)
+	:time (f / forest
+		:mod (p2 / primeval))
+	:manner (o2 / old
+		:mark (o / once)
+		:nsubj (i / i)
+		:obl (y / year
+			:nummod (s2 / six))
+		:advmod (w / when))
+	:obj (p / picture
+		:mod (m / magnificent)
+		:poss (b / book)
+		:acl (c / call-10
+			:ARG2 (s / stories
+				:mod (t / true-01))
+			:obl (n / nature))))

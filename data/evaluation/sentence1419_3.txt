@@ -1,0 +1,13 @@
+(s2 / say-01
+	:ARG0 (i3 / i)
+	:ccomp (t3 / tell-01
+		:obj (i2 / i)
+		:ccomp (d / dream
+			:mark (t2 / that)
+			:advmod (o / only)
+			:nsubj (i / it)
+			:amod (b / bad)))
+	:ARG0 (a / affair
+		:det (t / this)
+		:poss (s3 / snake)
+		:conj (s / star)))

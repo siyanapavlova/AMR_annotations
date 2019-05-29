@@ -1,0 +1,14 @@
+(b / be-02
+	:nsubj (s2 / seed
+		:det (s / some)
+		:amod (t / terrible)
+		:acl (h / home
+			:nsubj (t4 / that)
+			:poss (p / prince
+				:amod (l / little)))
+		:poss (p2 / planet))
+	:advmod (n / now)
+	:conj (s3 / seed
+		:poss (b2 / baobab)
+		:nsubj (t3 / these))
+	:expl (t2 / there))

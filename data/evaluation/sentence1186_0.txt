@@ -1,0 +1,8 @@
+(s3 / say-01
+	:ccomp (s2 / sort
+		:compound (o / out)
+		:obj (t / traveler)
+		:nsubj (i / i)
+		:obl (b / bundle
+			:poss (t2 / thousand)))
+	:ARG0 (s / switchman))

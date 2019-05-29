@@ -1,0 +1,4 @@
+(s2 / say-01
+	:ccomp (l / lucky
+		:nsubj (t / they))
+	:ARG0 (s / switchman))

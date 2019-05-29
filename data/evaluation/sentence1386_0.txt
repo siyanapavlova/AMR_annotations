@@ -1,0 +1,5 @@
+(t / talk-02
+	:ARG0 (y / you)
+	:obl (s / snake)
+	:aux (b / be)
+	:advmod (w / why))

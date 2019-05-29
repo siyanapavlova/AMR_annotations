@@ -1,0 +1,4 @@
+(h2 / hear-01
+	:obl (n / night)
+	:obj (h / he)
+	:nsubj (i / i))

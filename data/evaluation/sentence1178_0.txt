@@ -1,0 +1,6 @@
+(b / but
+	:op1 (f / forget
+		:nsubj (y / you)
+		:aux (m / must)
+		:obj (i / it)
+		:advmod (n / not)))

@@ -1,0 +1,10 @@
+(b / but
+	:op1 (c / come
+		:obj (p / prince
+			:amod (l2 / little)
+			:acl (i / interrupt-01))
+		:obl (l / life)
+		:aux (m / may)
+		:nsubj (v / volcanoe
+			:amod (e / extinct))
+		:advmod (a / again)))

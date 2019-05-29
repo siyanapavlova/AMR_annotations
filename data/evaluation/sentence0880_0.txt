@@ -1,0 +1,6 @@
+(p / put
+	:nsubj (r / recital
+		:poss (e / explorer))
+	:advmod (f / first)
+	:advmod (d / down)
+	:obl (p2 / pencil))

@@ -1,0 +1,12 @@
+(b / but
+	:op1 (m / make-18
+		:conj (u / unique
+			:advmod (n / now)
+			:nsubj (h3 / he)
+			:obl (w / world
+				:det (a / all)))
+		:xcomp (f / friend
+			:poss (i2 / i))
+		:obj (h2 / he)
+		:aux (h / have)
+		:ARG0 (i / i)))

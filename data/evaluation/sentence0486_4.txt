@@ -1,0 +1,10 @@
+(h / here
+	:advcl (s2 / see-03
+		:ARG0 (h2 / he)
+		:mark (w / when)
+		:obj (p / prince
+			:amod (l / little)
+			:acl (c / come)))
+	:nsubj (s / subject)
+	:conj (e / exclaim
+		:obj (k / king)))

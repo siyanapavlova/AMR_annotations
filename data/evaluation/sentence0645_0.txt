@@ -1,0 +1,10 @@
+(b / bring-01
+	:ARG0 (t / tippler)
+	:conj (s2 / shut
+		:compound (u / up)
+		:obj (h / himself)
+		:obl (s3 / silence
+			:amod (i / impregnable)))
+	:ARG1 (s / speech
+		:poss (h2 / he))
+	:obl (e / end))

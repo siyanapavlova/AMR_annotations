@@ -1,0 +1,11 @@
+(a / and
+	:op1 (p / proud
+		:nsubj (i2 / i)
+		:advcl (h2 / have-10
+			:ARG1 (h / him)
+			:xcomp (l / learn-01
+				:ccomp (f / fly
+					:aux (c / could)
+					:mark (t2 / that)
+					:nsubj (i / i)))
+			:mark (t / to))))

@@ -1,0 +1,11 @@
+(f / furnish
+	:advcl (p2 / put
+		:mark (b / before)
+		:compound (d / down)
+		:obj (t / they)
+		:obl (i / ink))
+	:aux (h / have)
+	:obj (p / proof)
+	:nsubj (w / wait
+		:nummod (o / one)
+		:poss (e / explorer)))

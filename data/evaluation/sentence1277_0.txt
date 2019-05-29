@@ -1,0 +1,19 @@
+(s / say
+	:ccomp (m / man)
+	:ccomp (s2 / set
+		:compound (o / out)
+		:nsubj (p / prince
+			:amod (l2 / little))
+		:obl (w2 / way
+			:poss (t2 / they))
+		:obl (t / train
+			:amod (e / express)))
+	:conj (k / know
+		:aux (d / do)
+		:advmod (n / not)
+		:ccomp (l / look
+			:nsubj (t4 / they)
+			:aux (b2 / be)
+			:obj (w / what)
+			:obl (f / for))
+		:nsubj (t3 / they)))

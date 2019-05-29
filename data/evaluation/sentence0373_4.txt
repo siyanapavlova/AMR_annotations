@@ -1,0 +1,8 @@
+(s / see-02
+	:ARG0 (i / it)
+	:ARG0 (y / you)
+	:aux (m / might)
+	:parataxis (k / kind
+		:amod (n / new)
+		:aux (h / have)
+		:poss (b / baobab)))

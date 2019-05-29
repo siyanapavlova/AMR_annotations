@@ -1,0 +1,11 @@
+(s / stop
+	:conj (b / begin
+		:xcomp (g2 / get-02
+			:mark (t2 / to)
+			:xcomp (r / ready
+				:xcomp (p / produce
+					:obj (f / flower)
+					:mark (t / to)))))
+	:advmod (s3 / soon)
+	:nsubj (s2 / shrub)
+	:xcomp (g / grow-02))

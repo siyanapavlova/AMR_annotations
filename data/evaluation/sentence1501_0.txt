@@ -1,0 +1,5 @@
+(l / look-01
+	:nsubj (i / i)
+	:aux (s2 / shall)
+	:obl (s / star)
+	:advmod (t / too))

@@ -1,0 +1,4 @@
+(b / but
+	:op1 (p / place
+		:nsubj (t / this)
+		:advmod (n / not)))

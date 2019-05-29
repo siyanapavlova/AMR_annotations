@@ -1,0 +1,7 @@
+(r / reign
+	:advmod (o2 / over)
+	:nsubj (t / they)
+	:advcl (o / own
+		:nsubj (k / king)
+		:advmod (n / not)
+		:aux (d / do)))

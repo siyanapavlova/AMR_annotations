@@ -1,0 +1,13 @@
+(a3 / and
+	:op1 (a / answer-01
+		:ccomp (u / use
+			:nsubj (t2 / thorn)
+			:det (n / no)
+			:poss (a2 / all))
+		:ARG0 (i / i)
+		:obl (t / thing
+			:amod (f / first)
+			:acl (c / come
+				:nsubj (t3 / that)
+				:obl (h / head
+					:poss (i2 / i))))))

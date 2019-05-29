@@ -1,0 +1,7 @@
+(a / and
+	:op1 (l / look-02
+		:aux (w / will)
+		:obl (s / star)
+		:ARG0 (y / you)
+		:compound (u / up)
+		:obl (n / night)))

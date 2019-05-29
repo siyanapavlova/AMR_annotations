@@ -1,0 +1,9 @@
+(s / say
+	:nsubj (h / he)
+	:ccomp (s3 / see
+		:nsubj (y2 / you)
+		:obj (y / yourself))
+	:ccomp (s2 / sheep
+		:nsubj (t2 / this)
+		:mark (t / that)
+		:advmod (n / not)))

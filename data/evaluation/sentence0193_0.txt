@@ -1,0 +1,13 @@
+(p / purpose
+	:acl (b / buy
+		:obj (a / and
+			:op (p3 / pencil
+				:det (s / some))
+			:op (b2 / box
+				:poss (p2 / paint)))
+		:nsubj (i / i)
+		:aux (h / have)
+		:mark (t / that))
+	:det (t2 / that)
+	:nsubj (i2 / it)
+	:advmod (a2 / again))

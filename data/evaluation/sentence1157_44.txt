@@ -1,0 +1,8 @@
+(g / go-05
+	:advcl (l / look-09
+		:advmod (a2 / again)
+		:mark (t / to)
+		:obl (r / ros))
+	:advmod (a / away)
+	:ARG0 (p / prince
+		:amod (l2 / little)))

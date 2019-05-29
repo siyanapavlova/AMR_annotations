@@ -1,0 +1,4 @@
+(a / and
+	:op1 (b / breathe
+		:obj (f / fragrance
+			:poss (t2 / they))))

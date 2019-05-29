@@ -1,0 +1,5 @@
+(u / upset
+	:nsubj (i2 / i)
+	:obl (i / i)
+	:obl (b / bolt
+		:det (t / that)))

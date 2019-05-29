@@ -1,0 +1,2 @@
+(y / yes
+	:discourse (o / oh))

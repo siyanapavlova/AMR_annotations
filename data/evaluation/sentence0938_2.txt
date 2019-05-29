@@ -1,0 +1,13 @@
+(b / believe
+	:aux (w2 / will)
+	:obj (y / you)
+	:advcl (t2 / tell-02
+		:mark (w / when)
+		:obj (t4 / that)
+		:ARG0 (y2 / you)
+		:obj (t / they))
+	:advmod (n / not)
+	:nsubj (u / up
+		:acl (s / sure
+			:mark (t3 / to))
+		:amod (g / grow-01)))

@@ -1,0 +1,4 @@
+(t / take-17
+	:nsubj (h / he)
+	:obj (s / step
+		:nummod (o / one)))

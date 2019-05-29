@@ -1,0 +1,16 @@
+(o / order
+	:ccomp (a2 / and
+		:op (g / gather
+			:obl (f / fold
+				:poss (m / mantle
+					:compound (e / ermine)
+					:poss (h2 / he)))
+			:advmod (m2 / majestically))
+		:op (a / answer-01
+			:ARG0 (k / king)
+			:ARG2 (h / him)))
+	:obj (y / you)
+	:xcomp (d / do-02
+		:mark (t / to)
+		:advmod (s / so))
+	:nsubj (i / i))

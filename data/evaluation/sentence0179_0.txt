@@ -1,0 +1,2 @@
+(t2 / that
+	:nsubj (t / they))

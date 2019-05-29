@@ -1,0 +1,4 @@
+(n / nothing
+	:advcl (y2 / yet
+		:mark (a / as))
+	:nsubj (y / you))

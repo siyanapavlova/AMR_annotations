@@ -1,0 +1,6 @@
+(a / and
+	:op1 (u2 / use
+		:poss (f / flower
+			:poss (i4 / i))
+		:det (s / some)
+		:nsubj (i2 / it)))

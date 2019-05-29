@@ -1,0 +1,6 @@
+(d / dance
+	:det (e / every)
+	:poss (g / girl
+		:compound (v / village))
+	:compound (t2 / thursday)
+	:nsubj (t / they))

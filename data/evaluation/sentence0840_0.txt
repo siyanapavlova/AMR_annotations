@@ -1,0 +1,7 @@
+(a / and
+	:op1 (c / cast
+		:nsubj (h / he)
+		:obj (l / look
+			:poss (h2 / he))
+		:obl (p / planet
+			:poss (g / geographer))))

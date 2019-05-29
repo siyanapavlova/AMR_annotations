@@ -1,0 +1,8 @@
+(w / why
+	:nsubj (t3 / that)
+	:acl (b / bring-01
+		:ARG1 (e / end
+			:det (n / no)
+			:poss (t / trouble))
+		:ARG0 (t2 / they)
+		:obl (w2 / we)))

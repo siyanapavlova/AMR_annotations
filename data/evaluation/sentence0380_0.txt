@@ -1,0 +1,11 @@
+(r / radiance
+	:nsubj (i / it)
+	:poss (b / beauty
+		:poss (s2 / she))
+	:advmod (o / only)
+	:amod (f / full)
+	:advcl (w / wish
+		:xcomp (a / appear
+			:mark (t2 / to))
+		:nsubj (s / she)
+		:mark (t / that)))

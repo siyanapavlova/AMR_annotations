@@ -1,0 +1,16 @@
+(s3 / say-01
+	:advmod (s2 / softly)
+	:ccomp (k / keep-04
+		:obj (p2 / promise
+			:poss (y2 / you))
+		:ARG0 (y / you)
+		:aux (m / must))
+	:ARG0 (p / prince
+		:amod (l / little))
+	:advcl (s / sit
+		:nsubj (h / he)
+		:obl (i / i)
+		:advmod (m2 / more
+			:advmod (o / once))
+		:mark (a / as)
+		:advmod (d / down)))

@@ -1,0 +1,7 @@
+(v / valuable
+	:nsubj (k / knowledge
+		:amod (s / such))
+	:advcl (l / lost
+		:nsubj (o / one)
+		:obl (n / night)
+		:mark (i / if)))

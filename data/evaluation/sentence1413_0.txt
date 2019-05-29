@@ -1,0 +1,16 @@
+(a2 / and
+	:op1 (k / know
+		:nsubj (i / i)
+		:ccomp (b / bear-06
+			:obj (t2 / thought
+				:acl (h / hear-01
+					:mark (o / of)
+					:advmod (n2 / never)
+					:advmod (m / more
+						:advmod (a / any))
+					:obj (l / laughter
+						:det (t3 / that))))
+			:advmod (n / not)
+			:aux (c / could)
+			:nsubj (i2 / i)
+			:mark (t / that))))

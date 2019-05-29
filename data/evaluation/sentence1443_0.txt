@@ -1,0 +1,6 @@
+(t / try-02
+	:aux (b / be)
+	:ARG1 (w / what)
+	:xcomp (s / say-01
+		:mark (t2 / to))
+	:ARG0 (y / you))

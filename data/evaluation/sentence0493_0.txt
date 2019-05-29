@@ -1,0 +1,11 @@
+(s / say-01
+	:obl (h / he)
+	:ccomp (c / contrary
+		:csubj (e / etiquette
+			:xcomp (y / yawn-01
+				:obl (p / presence
+					:poss (k / king))
+				:mark (t / to))
+			:mark (t2 / to))
+		:expl (i / it))
+	:ARG0 (m / monarch))

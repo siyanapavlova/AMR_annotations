@@ -1,0 +1,13 @@
+(a / and
+	:op1 (s / speak-01
+		:ARG0 (h / he)
+		:obl (s2 / silence
+			:amod (l / little))
+		:ccomp (b / beautiful
+			:nsubj (s3 / star)
+			:obl (f / flower
+				:acl (s4 / see-02
+					:advmod (n / not)
+					:aux (c / can)
+					:nsubj (t / that))))
+		:advmod (a2 / again)))

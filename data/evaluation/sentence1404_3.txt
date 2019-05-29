@@ -1,0 +1,6 @@
+(a / and
+	:op1 (g / give-14
+		:nsubj (h / he)
+		:iobj (i / i)
+		:obj (s2 / smile
+			:amod (s / sad))))

@@ -1,0 +1,8 @@
+(a / answer-01
+	:ARG2 (e / echo)
+	:obl (m2 / morning
+		:compound (m3 / morning
+			:amod (g3 / good))
+		:compound (m / morning
+			:amod (g / good))
+		:amod (g2 / good)))

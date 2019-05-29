@@ -1,0 +1,3 @@
+(c / creature
+	:nsubj (s / she)
+	:amod (c2 / coquettish))

@@ -1,0 +1,8 @@
+(i / imagine-01
+	:ARG0 (t3 / they)
+	:ccomp (f / fill-01
+		:ARG0 (t2 / they)
+		:ARG1 (d / deal
+			:poss (s / space)
+			:amod (g / great))
+		:mark (t / that)))

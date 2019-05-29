@@ -1,0 +1,10 @@
+(s2 / say-01
+	:obl (y / you)
+	:discourse (l / like)
+	:ARG0 (t / they)
+	:advmod (n / never)
+	:ccomp (d / do-02
+		:ARG0 (w / what)
+		:ARG1 (s / sound
+			:compound (v / voice)
+			:poss (h / he))))

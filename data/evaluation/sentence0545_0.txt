@@ -1,0 +1,16 @@
+(r / rise
+	:nsubj (t4 / they)
+	:aux (w / would)
+	:compound (u / up)
+	:advcl (o / order
+		:nsubj (y / you)
+		:mark (i / if)
+		:obj (p / people
+			:poss (y2 / you))
+		:xcomp (a / and
+			:op (t2 / throw-03
+				:obl (s / sea)
+				:ARG1 (t / themselves))
+			:op (g / go-12
+				:mark (t3 / to))))
+	:obl (r2 / revolution))

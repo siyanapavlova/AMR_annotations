@@ -1,0 +1,8 @@
+(s / send
+	:obj (w / word)
+	:advcl (c / come
+		:aux (h2 / have)
+		:nsubj (h / he)
+		:mark (t / that)
+		:advmod (b / back))
+	:iobj (i / i))

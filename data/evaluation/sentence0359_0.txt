@@ -1,0 +1,9 @@
+(s / say-01
+	:ccomp (d / danger
+		:advmod (n / not)
+		:nsubj (f / flower
+			:acl (l / love
+				:nsubj (y / you)
+				:obj (t / that))))
+	:obl (h / he)
+	:ARG0 (i / i))

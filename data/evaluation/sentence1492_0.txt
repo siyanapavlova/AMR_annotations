@@ -1,0 +1,5 @@
+(u / understand-01
+	:ARG0 (y / you)
+	:parataxis (f / far
+		:nsubj (i / it)
+		:advmod (t / too)))

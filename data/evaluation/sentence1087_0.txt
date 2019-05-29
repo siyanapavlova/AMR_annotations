@@ -1,0 +1,2 @@
+(p / planet
+	:det (a / another))

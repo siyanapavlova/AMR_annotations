@@ -1,0 +1,9 @@
+(s / say-01
+	:advmod (m2 / merely)
+	:ccomp (g / good
+		:nsubj (w / water)
+		:advmod (a / also)
+		:obl (h2 / heart)
+		:aux (m / may))
+	:obl (i / i)
+	:ARG0 (h / he))

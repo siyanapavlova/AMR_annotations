@@ -1,0 +1,5 @@
+(b / but
+	:op1 (s2 / silent
+		:nsubj (s / star
+			:det (t / these)
+			:det (a / all))))

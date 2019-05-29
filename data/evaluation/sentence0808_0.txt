@@ -1,0 +1,10 @@
+(p / possible
+	:obl (m / man
+		:acl (a / and
+			:op (f2 / faithful
+				:mark (t / to)
+				:obl (t2 / time
+					:amod (s / same)))
+			:op (l / lazy)))
+	:expl (i / it)
+	:mark (f / for))

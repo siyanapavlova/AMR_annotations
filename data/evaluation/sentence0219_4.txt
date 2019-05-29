@@ -1,0 +1,11 @@
+(a / and
+	:op1 (t2 / take-01
+		:advmod (e / even)
+		:ARG0 (h2 / he)
+		:advmod (a2 / away)
+		:obl (h4 / he)
+		:mark (t3 / that)
+		:ARG1 (h / herd
+			:poss (e3 / elephant)
+			:amod (w / whole))
+		:mark (i / if)))

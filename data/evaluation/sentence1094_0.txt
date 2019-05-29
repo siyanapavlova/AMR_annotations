@@ -1,0 +1,4 @@
+(p / perfect
+	:nsubj (n / nothing)
+	:conj (s / sigh
+		:obj (f / fox)))

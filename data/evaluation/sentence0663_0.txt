@@ -1,0 +1,7 @@
+(a / ask-01
+	:ARG0 (m / million
+		:compound (h / hundred)
+		:obj (w / what)
+		:compound (f / five))
+	:ARG1 (p / prince
+		:amod (l / little)))

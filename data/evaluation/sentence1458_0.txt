@@ -1,0 +1,6 @@
+(w / want-01
+	:aux (w2 / will)
+	:ARG0 (y / you)
+	:xcomp (l / laugh-02
+		:mark (t / to)
+		:obl (i / i)))

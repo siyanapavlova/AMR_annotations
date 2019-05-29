@@ -1,0 +1,4 @@
+(t / thicker
+	:obl (f / finger)
+	:nsubj (y / you)
+	:advmod (n / no))

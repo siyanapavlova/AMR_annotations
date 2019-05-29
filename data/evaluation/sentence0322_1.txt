@@ -1,0 +1,9 @@
+(s / see-05
+	:advmod (n / not)
+	:ARG0 (y / you)
+	:parataxis (b / busy
+		:nsubj (i / i)
+		:advmod (v / very)
+		:obl (m / matter
+			:poss (c / consequence)))
+	:aux (d / do))

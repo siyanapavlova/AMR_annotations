@@ -1,0 +1,7 @@
+(a / afraid
+	:nsubj (h / he)
+	:parataxis (b / be-02
+		:expl (t2 / there)
+		:nsubj (d / doubt
+			:det (n / no)
+			:poss (t / that))))

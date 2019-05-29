@@ -1,0 +1,9 @@
+(o / object
+	:amod (g / golden)
+	:amod (l2 / little)
+	:acl (s / set-14
+		:obl (d / dreaming
+			:amod (i / idle))
+		:ARG0 (t / that)
+		:ARG1 (m / man
+			:amod (l / lazy))))

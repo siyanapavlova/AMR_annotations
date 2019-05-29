@@ -1,0 +1,14 @@
+(b / be-02
+	:advmod (a / away
+		:advmod (f2 / far))
+	:aux (w / will)
+	:parataxis (a6 / afraid
+		:obl (a3 / any
+			:poss (t / they))
+		:advmod (n / not)
+		:advmod (a2 / all)
+		:advmod (a5 / at)
+		:nsubj (i / i))
+	:obl (a4 / animal
+		:amod (l / large))
+	:nsubj (y / you))

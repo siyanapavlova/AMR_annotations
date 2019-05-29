@@ -1,0 +1,22 @@
+(b / but
+	:op1 (m / mean
+		:aux (d / do)
+		:nsubj (t / that)
+		:obj (w2 / what)
+		:parataxis (e / ephemeral)
+		:ccomp (r / repeate
+			:obj (p / prince
+				:amod (l3 / little)
+				:acl (l / let
+					:obl (l2 / life
+						:poss (h4 / he)
+						:advmod (n / never))
+					:nsubj (w / who)
+					:obj (g / go)
+					:aux (h / have)
+					:obl (q / question)
+					:advcl (a / ask
+						:nsubj (h3 / he)
+						:mark (o / once)
+						:obj (i / it)
+						:aux (h2 / have)))))))

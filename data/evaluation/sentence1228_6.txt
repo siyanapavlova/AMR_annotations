@@ -1,0 +1,7 @@
+(h2 / have-04
+	:ARG1 (w / way
+		:det (n / no)
+		:acl (g / guess
+			:obj (d / danger)
+			:mark (o / of)))
+	:ARG0 (h / he))

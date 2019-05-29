@@ -1,0 +1,7 @@
+(u / understand-01
+	:ARG1 (s / sweetness
+		:amod (q / quiet)
+		:det (t / this))
+	:ARG0 (h / he)
+	:aux (d / do)
+	:advmod (n / not))

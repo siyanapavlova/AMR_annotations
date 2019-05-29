@@ -1,0 +1,5 @@
+(a / and
+	:op1 (c2 / constrictor
+		:amod (o / outside)
+		:compound (b / boa)
+		:poss (i3 / inside)))

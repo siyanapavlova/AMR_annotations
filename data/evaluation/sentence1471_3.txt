@@ -1,0 +1,6 @@
+(c / come
+	:advmod (n / not)
+	:aux (d / do)
+	:xcomp (s / see-04
+		:mark (t2 / to)
+		:ARG1 (t / that)))

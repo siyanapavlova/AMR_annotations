@@ -1,0 +1,16 @@
+(b2 / but
+	:op1 (c / come
+		:advcl (r / reassure
+			:obj (h / he)
+			:mark (t / to))
+		:ccomp (t4 / true
+			:ccomp (h2 / have-06
+				:mark (t2 / that)
+				:ARG1 (p / poison
+					:advmod (m / more)
+					:det (n / no)
+					:obl (b / bite
+						:amod (s / second)))
+				:ARG0 (t5 / they))
+			:nsubj (i / it))
+		:nsubj (t3 / thought)))

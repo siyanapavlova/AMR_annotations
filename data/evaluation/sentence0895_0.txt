@@ -1,0 +1,11 @@
+(s / say-01
+	:ARG0 (g2 / geographer)
+	:ARG0 (g / geographies)
+	:ARG0 (b / books
+		:acl (c2 / concerned
+			:advmod (m / most)
+			:obl (m2 / matter
+				:poss (c / consequence))
+			:obl (b2 / book
+				:det (a / all))
+			:nsubj (w / which))))

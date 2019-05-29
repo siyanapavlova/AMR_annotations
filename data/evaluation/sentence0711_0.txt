@@ -1,0 +1,9 @@
+(a / and
+	:op1 (w / what
+		:acl (d2 / do-02
+			:ARG0 (i / it)
+			:xcomp (r / rich
+				:mark (t / to))
+			:aux (d / do)
+			:ARG1 (y / you)
+			:amod (g / good))))

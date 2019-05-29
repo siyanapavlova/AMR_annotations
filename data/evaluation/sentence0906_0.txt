@@ -1,0 +1,6 @@
+(m / mean
+	:nsubj (i / it)
+	:acl (d / danger
+		:nsubj (w / which)
+		:poss (d2 / disappearance
+			:amod (s / speedy))))

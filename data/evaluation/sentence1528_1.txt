@@ -1,0 +1,7 @@
+(t2 / tell-01
+	:advmod (y / yet
+		:advmod (n / never))
+	:aux (h / have)
+	:obj (s / story
+		:det (t / this))
+	:ARG0 (i / i))

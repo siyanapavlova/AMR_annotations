@@ -1,0 +1,4 @@
+(r / reply
+	:obj (l / lamplighter)
+	:nsubj (o / order
+		:nsubj (t / those)))

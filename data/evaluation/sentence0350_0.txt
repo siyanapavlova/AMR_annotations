@@ -1,0 +1,12 @@
+(b / but
+	:op1 (d / darken
+		:aux (w / will)
+		:obl (m / moment
+			:nummod (o / one))
+		:advcl (e / eat
+			:obj (f2 / flower)
+			:mark (i / if)
+			:nsubj (s3 / sheep))
+		:nsubj (s / star
+			:poss (h2 / he)
+			:det (a / all))))

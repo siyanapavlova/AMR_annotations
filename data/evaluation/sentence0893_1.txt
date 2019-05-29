@@ -1,0 +1,10 @@
+(s / say-01
+	:ARG0 (g / geographer)
+	:ccomp (r / record-01
+		:ARG1 (t / they)
+		:aux (d / do)
+		:ARG0 (w / we)
+		:advmod (n / not))
+	:advcl (e / ephemeral
+		:mark (b / because)
+		:nsubj (t2 / they)))

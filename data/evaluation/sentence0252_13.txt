@@ -1,0 +1,9 @@
+(l / like-01
+	:nsubj (i / i)
+	:xcomp (t3 / take-10
+		:mark (t2 / to)
+		:ARG1 (t / tone
+			:poss (m / moralist)))
+	:advmod (m2 / much
+		:advmod (n / not))
+	:aux (d / do))

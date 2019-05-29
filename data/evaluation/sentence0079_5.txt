@@ -1,0 +1,5 @@
+(m / make-06
+	:ARG1 (d / drawing
+		:det (a / another))
+	:nsubj (i / i)
+	:advmod (s / so))

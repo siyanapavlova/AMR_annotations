@@ -1,0 +1,13 @@
+(p / present
+	:obl (d / demonstration
+		:amod (g / great))
+	:obj (i2 / it)
+	:nsubj (a2 / astronomer)
+	:advcl (m / make-01
+		:mark (o / on)
+		:obj (d2 / discovery
+			:poss (h / he)))
+	:aux (h2 / have)
+	:obl (c / congress
+		:compound (a / astronomical)
+		:compound (i / international)))

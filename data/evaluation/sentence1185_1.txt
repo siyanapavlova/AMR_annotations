@@ -1,0 +1,8 @@
+(d / do-02
+	:ARG0 (y / you)
+	:advmod (h / here)
+	:ARG1 (w / what)
+	:aux (d2 / do)
+	:ARG1 (p / prince
+		:amod (l / little)
+		:acl (a / ask-03)))

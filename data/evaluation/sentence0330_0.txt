@@ -1,0 +1,4 @@
+(a / angry
+	:advmod (v / very)
+	:advmod (r / really)
+	:nsubj (h / he))

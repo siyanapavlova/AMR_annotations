@@ -1,0 +1,17 @@
+(c3 / course
+	:poss (l / life
+		:acl (h3 / have
+			:nsubj (i / i)
+			:obl (p / people
+				:amod (m / many)
+				:amod (g / great)
+				:acl (c / concerned
+					:obl (m3 / matter
+						:poss (c2 / consequence))
+					:aux (h / have)
+					:nsubj (w / who)))
+			:aux (h2 / have)
+			:obj (e / encounter
+				:amod (m2 / many)
+				:amod (g2 / great)))
+		:det (t / this)))

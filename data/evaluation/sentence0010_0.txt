@@ -1,0 +1,7 @@
+(a / and
+	:op1 (a2 / ask
+		:obj (t / they)
+		:ccomp (f / frighten
+			:obj (t3 / they)
+			:mark (w / whether)
+			:nsubj (d / drawing))))

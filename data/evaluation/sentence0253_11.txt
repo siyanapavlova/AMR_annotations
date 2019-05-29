@@ -1,0 +1,11 @@
+(a2 / and
+	:op1 (r / run
+		:nsubj (r3 / risk
+			:amod (c / considerable)
+			:amod (s / such))
+		:aux (w / would)
+		:obl (a / anyone
+			:acl (l2 / lose-02
+				:obl (a3 / asteroid)
+				:nsubj (w2 / who)
+				:aux (m / might)))))

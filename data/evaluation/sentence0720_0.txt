@@ -1,0 +1,5 @@
+(b / be-02
+	:nsubj (a / all
+		:acl (n / necessary
+			:nsubj (t / that))
+		:mark (t2 / that)))

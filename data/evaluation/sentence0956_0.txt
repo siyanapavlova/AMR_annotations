@@ -1,0 +1,4 @@
+(s2 / say-01
+	:ccomp (l / large
+		:nsubj (e / earth))
+	:ARG0 (s / snake))

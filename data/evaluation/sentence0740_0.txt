@@ -1,0 +1,10 @@
+(a / and
+	:op1 (p / put
+		:obl (d / drawer)
+		:obj (p2 / paper
+			:det (t2 / this))
+		:nsubj (i / i)
+		:conj (l / lock
+			:obj (i2 / it)
+			:obl (k / key))
+		:advmod (t / then)))

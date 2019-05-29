@@ -1,0 +1,4 @@
+(v / village
+	:nsubj (o / one
+		:det (t / this))
+	:advmod (w / well))

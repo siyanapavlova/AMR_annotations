@@ -1,0 +1,4 @@
+(s / say-01
+	:ARG0 (h / he)
+	:ccomp (g / goodbye)
+	:obl (f / flower))

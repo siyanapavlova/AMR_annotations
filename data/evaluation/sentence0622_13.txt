@@ -1,0 +1,10 @@
+(a / and
+	:op1 (d2 / do-02
+		:advcl (m / make-01
+			:xcomp (c / come
+				:advmod (d / down))
+			:mark (t / to)
+			:ARG1 (h / hat))
+		:aux (s / should)
+		:ARG0 (o / one)
+		:ARG1 (w / what)))

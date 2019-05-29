@@ -1,0 +1,4 @@
+(t / there
+	:advmod (r / right)
+	:nsubj (i / it)
+	:obl (w / we))

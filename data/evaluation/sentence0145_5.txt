@@ -1,0 +1,14 @@
+(a3 / and
+	:op1 (a / add
+		:ccomp (g / go-01
+			:aux (c / can)
+			:nsubj (a2 / ahead
+				:amod (s / straight)
+				:poss (h3 / he)
+				:nsubj (n / nobody))
+			:advmod (f / far
+				:advmod (v / very)))
+		:obl (h / hint
+			:advmod (p / perhaps)
+			:poss (s2 / sadness))
+		:nsubj (h2 / he)))

@@ -1,0 +1,12 @@
+(a / and
+	:op1 (h / hurry-01
+		:aux (d / do)
+		:compound (o / on)
+		:discourse (p / please)
+		:advcl (c / come
+			:aux (s2 / should)
+			:nsubj (y / you)
+			:mark (i / if)
+			:obl (s / spot
+				:det (t / this)))
+		:advmod (n / not)))

@@ -1,0 +1,5 @@
+(s / say-01
+	:ARG0 (s2 / switchman
+		:compound (r / railway))
+	:ccomp (m / morning
+		:amod (g / good)))

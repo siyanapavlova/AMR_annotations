@@ -1,0 +1,17 @@
+(u2 / understand
+	:advmod (n / never)
+	:conj (t2 / tiresome
+		:advcl (a4 / and
+			:op (a / always
+				:mark (f2 / for)
+				:nsubj (c / child)
+				:mark (t4 / to))
+			:op (e / explai
+				:obl (t3 / they)
+				:advmod (f / forever)
+				:obj (t5 / thing)))
+		:expl (i / it))
+	:nsubj (u / up
+		:amod (g / grow))
+	:obj (a2 / anything
+		:poss (t / themselves)))

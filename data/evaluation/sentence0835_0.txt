@@ -1,0 +1,6 @@
+(s / say-01
+	:obl (h / he)
+	:ccomp (g2 / geographer
+		:nsubj (i / i))
+	:ARG0 (g / gentleman
+		:amod (o / old)))

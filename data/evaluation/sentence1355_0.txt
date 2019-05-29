@@ -1,0 +1,6 @@
+(w / wait
+	:aux (b / be)
+	:obl (y / you)
+	:advmod (h / here)
+	:aux (w2 / will)
+	:nsubj (i / i))

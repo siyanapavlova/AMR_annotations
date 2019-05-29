@@ -1,0 +1,13 @@
+(a / and
+	:op1 (u / understand-01
+		:ccomp (m / matter
+			:poss (i / importance
+				:amod (m2 / much
+					:advmod (s / so)))
+			:nsubj (t2 / this)
+			:mark (t / that))
+		:ARG0 (u2 / up
+			:amod (g / grow-01)
+			:det (n / no))
+		:aux (w / will)
+		:advmod (e / ever)))

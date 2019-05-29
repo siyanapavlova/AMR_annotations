@@ -1,0 +1,9 @@
+(a / and
+	:op1 (t / tear
+		:advcl (g / give-17
+			:nsubj (i2 / i)
+			:ARG1 (i / it)
+			:obl (h2 / he)
+			:mark (a2 / as))
+		:nsubj (h / heart
+			:poss (i3 / i))))

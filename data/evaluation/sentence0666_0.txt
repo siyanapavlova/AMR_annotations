@@ -1,0 +1,8 @@
+(h / hundr
+	:conj (s / stop
+		:advmod (n / not)
+		:aux (c / can)
+		:nsubj (i / i)
+		:nummod (m / million
+			:nummod (o / one)))
+	:obl (f / five))

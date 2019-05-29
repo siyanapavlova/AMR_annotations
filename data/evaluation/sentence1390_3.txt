@@ -1,0 +1,10 @@
+(l / look-01
+	:obl (i2 / i)
+	:nsubj (h2 / he)
+	:advmod (g / gravely
+		:advmod (v / very))
+	:conj (p / put
+		:obl (n / neck
+			:poss (i / i))
+		:obj (a / arm
+			:poss (h / he))))

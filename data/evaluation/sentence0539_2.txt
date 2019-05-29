@@ -1,0 +1,16 @@
+(o3 / order
+	:obj (g2 / general)
+	:nsubj (i2 / i)
+	:obj (k / king
+		:acl (d / demand))
+	:mark (i3 / if)
+	:conj (w5 / write
+		:obj (d2 / drama
+			:amod (t5 / tragic))
+		:mark (t4 / to))
+	:xcomp (f2 / fly
+		:obl (b2 / butterfly)
+		:obl (a / another)
+		:obl (f / flower
+			:nummod (o4 / one))
+		:mark (t / to)))

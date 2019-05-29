@@ -1,0 +1,3 @@
+(t / that
+	:nsubj (u / up
+		:amod (g / grow)))

@@ -1,0 +1,10 @@
+(h / have-08
+	:ARG1 (s / sheep)
+	:ARG0 (i2 / i)
+	:obl (t3 / time
+		:det (t4 / this))
+	:xcomp (t2 / thank-01
+		:obl (i / it)
+		:mark (t / to))
+	:advmod (m / more
+		:advmod (o / once)))

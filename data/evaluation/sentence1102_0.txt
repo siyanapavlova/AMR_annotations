@@ -1,0 +1,7 @@
+(s / send
+	:nsubj (s2 / step
+		:amod (o / other))
+	:xcomp (h / hurry-01
+		:obl (g / ground)
+		:advmod (b / back))
+	:obj (i / i))

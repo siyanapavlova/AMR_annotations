@@ -1,0 +1,22 @@
+(d / discourage
+	:nsubj (u / up
+		:amod (g / grow))
+	:advcl (o / old
+		:obl (y / year
+			:nummod (s / six))
+		:nsubj (i2 / i)
+		:mark (w / when))
+	:conj (l / learn
+		:xcomp (d2 / draw
+			:mark (t / to)
+			:obl (b2 / boa
+				:poss (b / boa
+					:amod (o2 / outside)
+					:poss (i5 / inside)))
+			:obj (a2 / anything))
+		:nsubj (i3 / i)
+		:advmod (n / never))
+	:obj (i / i)
+	:obl (c / career
+		:poss (p / painter
+			:poss (i4 / i))))

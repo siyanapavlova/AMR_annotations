@@ -1,0 +1,8 @@
+(t2 / thing
+	:nsubj (p2 / power
+		:amod (s / such))
+	:poss (p / prince
+		:amod (l / little))
+	:acl (m / marvel
+		:obl (a / at)
+		:mark (t / to)))

@@ -1,0 +1,11 @@
+(l / let-05
+	:advmod (n / never)
+	:ARG1 (g / go
+		:poss (q / question))
+	:ARG0 (p / prince
+		:amod (l2 / little))
+	:advcl (a / ask-03
+		:ARG1 (i / it)
+		:mark (o / once)
+		:aux (h2 / have)
+		:ARG0 (h / he)))

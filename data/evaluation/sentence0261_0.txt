@@ -1,0 +1,6 @@
+(b / but
+	:op1 (s / successful
+		:advmod (n / not)
+		:obl (o / other)
+		:aux (h / have)
+		:nsubj (i / i)))

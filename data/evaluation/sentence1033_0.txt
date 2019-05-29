@@ -1,0 +1,4 @@
+(s / say-01
+	:ARG0 (r / roses)
+	:ccomp (r2 / ros
+		:nsubj (w / we)))

@@ -1,0 +1,5 @@
+(a / and
+	:op1 (c / comfort
+		:nsubj (s / sorrow
+			:poss (y / you))
+		:mark (w / when)))

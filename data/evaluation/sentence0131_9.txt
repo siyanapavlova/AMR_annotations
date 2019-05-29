@@ -1,0 +1,9 @@
+(b / be-02
+	:acl (s / speak-01
+		:ARG0 (y / you)
+		:obl (w3 / which))
+	:nsubj (t / this)
+	:nsubj (w / what)
+	:parataxis (l / live-02
+		:advmod (w2 / where)
+		:nsubj (i / i)))

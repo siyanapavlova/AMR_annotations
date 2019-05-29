@@ -1,0 +1,8 @@
+(d / do-02
+	:xcomp (g / good
+		:advmod (a / all)
+		:det (n / no))
+	:ARG0 (i / it)
+	:aux (h / have)
+	:iobj (y / you)
+	:advmod (t / then))

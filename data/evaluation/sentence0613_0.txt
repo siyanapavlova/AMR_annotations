@@ -1,0 +1,7 @@
+(p / pass
+	:advmod (e / ever)
+	:nsubj (n / nobody
+		:poss (a / all))
+	:obj (w / way
+		:det (t / this))
+	:advmod (u / unfortunately))

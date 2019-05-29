@@ -1,0 +1,5 @@
+(t / think-01
+	:ccomp (e / entertaining
+		:nsubj (i / it))
+	:ARG1 (p / prince
+		:amod (l / little)))

@@ -1,0 +1,6 @@
+(l / love
+	:xcomp (b / best)
+	:obj (g / game
+		:det (w / what))
+	:aux (d / do)
+	:nsubj (h / he))

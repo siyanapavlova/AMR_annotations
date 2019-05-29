@@ -1,0 +1,14 @@
+(m2 / make-02
+	:ccomp (b / buy
+		:nsubj (i3 / i)
+		:mark (f / for)
+		:obj (s / star
+			:amod (m / more))
+		:mark (t / to))
+	:ARG0 (i4 / it)
+	:advcl (d / discover
+		:mark (i / if)
+		:advmod (e / ever)
+		:nsubj (a / any))
+	:xcomp (p / possible
+		:expl (i2 / it)))

@@ -1,0 +1,3 @@
+(r / reply
+	:discourse (h / hum)
+	:obj (k / king))

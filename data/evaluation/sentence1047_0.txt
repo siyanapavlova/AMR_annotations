@@ -1,0 +1,8 @@
+(a2 / and
+	:op1 (a / add
+		:ccomp (l2 / look
+			:obl (a3 / at)
+			:mark (t / to)
+			:advmod (p / pretty
+				:advmod (v / very)
+				:nsubj (y / you)))))

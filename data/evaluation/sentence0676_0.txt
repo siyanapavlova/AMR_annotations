@@ -1,0 +1,9 @@
+(d / distur
+	:obl (a / attack
+		:poss (r / rheumatism))
+	:nsubj (i / i)
+	:advmod (a2 / ago
+		:obl (y / year
+			:nummod (e / eleven))
+		:obl (t / time
+			:amod (s / second))))

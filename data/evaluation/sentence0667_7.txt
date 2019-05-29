@@ -1,0 +1,6 @@
+(h / have-11
+	:obj (m / much
+		:advcl (d / do-02
+			:mark (t / to))
+		:advmod (s / so))
+	:ARG0 (i / i))

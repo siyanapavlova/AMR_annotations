@@ -1,0 +1,16 @@
+(a2 / and
+	:op1 (i / inquiry
+		:poss (c / character
+			:poss (e / explorer
+				:det (t2 / that))
+			:amod (m / moral))
+		:nsubj (o / order
+			:amod (g / geographer))
+		:advcl (s / seem-01
+			:mark (i3 / if)
+			:nsubj (r / recollection
+				:poss (o2 / one
+					:poss (t / they)
+					:det (a / any)))
+			:xcomp (i2 / interesting
+				:obl (h / he)))))

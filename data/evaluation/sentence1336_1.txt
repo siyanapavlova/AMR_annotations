@@ -1,0 +1,9 @@
+(h / have-08
+	:ARG1 (p / plan
+		:acl (k / know
+			:advmod (a / about)
+			:obj (t / that)
+			:nsubj (i / i)
+			:aux (d / do)
+			:advmod (n / not)))
+	:ARG0 (y / you))

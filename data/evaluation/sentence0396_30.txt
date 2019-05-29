@@ -1,0 +1,5 @@
+(a2 / and
+	:op1 (p / prince
+		:amod (l2 / little)
+		:acl (a / abash
+			:advmod (c2 / completely))))

@@ -1,0 +1,6 @@
+(j / jump
+	:nsubj (i2 / i)
+	:obl (f / foot
+		:poss (i / i))
+	:advmod (t / thunderstruck
+		:advmod (c / completely)))

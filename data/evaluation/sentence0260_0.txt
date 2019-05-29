@@ -1,0 +1,3 @@
+(t / try-02
+	:aux (h / have)
+	:ARG0 (i / i))

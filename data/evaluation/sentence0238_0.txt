@@ -1,0 +1,4 @@
+(s / spread
+	:obl (p / planet
+		:amod (e / entire))
+	:nsubj (i / it))

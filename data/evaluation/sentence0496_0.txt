@@ -1,0 +1,10 @@
+(s / stop
+	:advmod (n / not)
+	:parataxis (r / reply
+		:obj (p / prince
+			:amod (e / embarrassed
+				:advmod (t / thoroughly))
+			:amod (l / little)))
+	:obj (m / myself)
+	:aux (c / can)
+	:nsubj (i / i))

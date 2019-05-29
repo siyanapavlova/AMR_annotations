@@ -1,0 +1,6 @@
+(t / talk-01
+	:conj (n / neckty)
+	:obl (b / bridge)
+	:aux (w / would)
+	:ARG0 (i / i)
+	:obl (h / he))

@@ -1,0 +1,16 @@
+(s2 / surprised
+	:ccomp (w / way
+		:acl (w2 / want-01
+			:ARG0 (i3 / i)
+			:obj (i2 / it))
+		:advmod (e / exactly)
+		:nsubj (t / that))
+	:advcl (s / see-03
+		:obl (f / face
+			:poss (j / judge
+				:poss (i / i)
+				:mod (y / young)))
+		:obj (b / break
+			:compound (l / light)))
+	:nsubj (i4 / i)
+	:advmod (v / very))

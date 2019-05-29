@@ -1,0 +1,6 @@
+(a / and
+	:op1 (d2 / do-02
+		:ARG0 (y / you)
+		:obl (t / they)
+		:aux (d / do)
+		:ARG1 (w / what)))

@@ -1,0 +1,18 @@
+(l2 / look-04
+	:ARG0 (p3 / prince
+		:amod (l / little))
+	:advmod (e / everywhere)
+	:xcomp (f / find-02
+		:mark (t2 / to)
+		:ARG1 (p2 / place
+			:acl (s / sit
+				:mark (t / to)
+				:advmod (d / down))))
+	:conj (c / cram
+		:conj (o / obstruct
+			:obl (r / robe
+				:amod (m / magnificent)
+				:poss (k / king)
+				:compound (e2 / ermine)))
+		:nsubj (p / planet
+			:amod (e3 / entire))))

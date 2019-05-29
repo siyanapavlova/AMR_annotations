@@ -1,0 +1,9 @@
+(s / save
+	:obj (m / minute
+		:nummod (t2 / three
+			:compound (f / fifty)))
+	:nsubj (y / you)
+	:obl (w / week
+		:det (e / every))
+	:obl (p / pill
+		:det (t / these)))

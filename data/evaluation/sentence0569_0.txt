@@ -1,0 +1,8 @@
+(k / know
+	:nsubj (w / we)
+	:ccomp (s / say-01
+		:ARG0 (k2 / king)
+		:obl (h / he)
+		:mark (t / that))
+	:advmod (n / not)
+	:aux (d / do))

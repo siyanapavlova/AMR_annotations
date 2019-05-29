@@ -1,0 +1,14 @@
+(c / continue
+	:obj (c2 / conversation
+		:poss (h2 / he)
+		:poss (b / businessman))
+	:ccomp (o / own
+		:obj (f / flower)
+		:nsubj (i / i)
+		:obl (m / myself))
+	:acl (w2 / water-01
+		:ARG0 (i2 / i)
+		:ARG1 (w / which)
+		:obl (d / day
+			:det (e / every)))
+	:nsubj (h / he))

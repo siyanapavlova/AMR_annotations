@@ -1,0 +1,10 @@
+(a / and
+	:op1 (b / begin
+		:xcomp (c / clap
+			:obj (h3 / hand
+				:poss (h / he))
+			:mark (t / to))
+		:advmod (a2 / again)
+		:nsubj (h2 / he)
+		:obj (o / one
+			:poss (o2 / other))))

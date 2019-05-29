@@ -1,0 +1,5 @@
+(a / and
+	:op1 (l / laugh-02
+		:obl (y / yourself)
+		:ARG0 (y2 / you)
+		:advmod (t / then)))

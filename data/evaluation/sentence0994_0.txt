@@ -1,0 +1,5 @@
+(s / say-01
+	:ccomp (m / morning
+		:amod (g / good))
+	:ARG0 (p / prince
+		:amod (l / little)))

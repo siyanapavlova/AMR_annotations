@@ -1,0 +1,5 @@
+(b / but
+	:op1 (w / worrying
+		:nsubj (h / he)
+		:advmod (s / still)
+		:aux (b2 / be)))

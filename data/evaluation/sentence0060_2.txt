@@ -1,0 +1,18 @@
+(a3 / and
+	:op1 (r / repeate
+		:condition (s3 / speak-01
+			:aux (b / be)
+			:obl (m / matter
+				:poss (c / consequence
+					:mod (g / great)))
+			:ARG0 (h2 / he)
+			:mark (a2 / as))
+		:condition (p / please
+			:nsubj (y / you))
+		:nsubj (h / he)
+		:advmod (s2 / slowly
+			:advmod (v / very))
+		:obl (a / answer)
+		:ccomp (d / draw-01
+			:iobj (i / i)
+			:obj (s / sheep))))

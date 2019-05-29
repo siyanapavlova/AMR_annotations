@@ -1,0 +1,6 @@
+(s / say-01
+	:ARG0 (i / i)
+	:advmod (p / plainly)
+	:ccomp (w / watch
+		:compound (o / out)
+		:obl (b / baobab)))

@@ -1,0 +1,4 @@
+(c / collect-01
+	:aux (d / do)
+	:ARG1 (b / butterfly)
+	:ARG0 (h / he))

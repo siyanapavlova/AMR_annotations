@@ -1,0 +1,8 @@
+(s / say-01
+	:discourse (n / no)
+	:ARG0 (h / he)
+	:advmod (t / then)
+	:ARG1 (l / look-04
+		:advmod (c / carefully)
+		:ARG0 (h2 / he)
+		:obl (i / it)))

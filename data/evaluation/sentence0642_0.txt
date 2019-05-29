@@ -1,0 +1,9 @@
+(f / forget
+	:advcl (h3 / hang
+		:obj (h2 / head
+			:poss (h / he)))
+	:obj (t2 / tippler)
+	:ccomp (a / ashame
+		:nsubj (i / i)
+		:mark (t / that))
+	:xcomp (c / confess))

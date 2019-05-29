@@ -1,0 +1,12 @@
+(c / confide
+	:obl (i2 / i)
+	:nsubj (h2 / he)
+	:ccomp (l / listen
+		:nsubj (i / i)
+		:mark (t / to)
+		:obl (s / she)
+		:advmod (n / not)
+		:aux (o / ought)
+		:aux (h / have))
+	:obl (d / day
+		:nummod (o2 / one)))

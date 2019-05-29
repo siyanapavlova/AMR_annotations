@@ -1,0 +1,15 @@
+(b4 / but
+	:op1 (m / make
+		:ccomp (s2 / start
+			:advcl (l / little
+				:mark (b3 / by))
+			:advcl (g / grow
+				:advmod (s / so)
+				:advmod (b5 / big)
+				:mark (b / before)
+				:nsubj (t / they))
+			:compound (o / out)
+			:nsubj (b2 / baobab))
+		:nsubj (h / he)
+		:obj (c / comment
+			:amod (w / wise))))

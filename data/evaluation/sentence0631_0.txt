@@ -1,0 +1,10 @@
+(b / but
+	:op1 (b2 / be-02
+		:obl (t3 / that)
+		:expl (t2 / there)
+		:nsubj (w / what)
+		:advcl (i2 / interest
+			:mark (t / to)
+			:obj (y2 / you)
+			:advmod (m / much
+				:advmod (s4 / so)))))

@@ -1,0 +1,4 @@
+(o / order
+	:xcomp (s2 / set-11
+		:mark (t / to))
+	:obj (s / sun))

@@ -1,0 +1,7 @@
+(a / and
+	:op1 (l2 / love
+		:obl (n2 / night)
+		:xcomp (l / listen
+			:mark (t / to)
+			:obl (s2 / star))
+		:nsubj (i / i)))

@@ -1,0 +1,4 @@
+(c / chok
+	:nsubj (w / word
+		:poss (h / he))
+	:obl (s / sobb))

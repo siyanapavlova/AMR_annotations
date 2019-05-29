@@ -1,0 +1,11 @@
+(s2 / see-05
+	:obl (n2 / night
+		:det (t / that))
+	:advmod (n / not)
+	:aux (d / do)
+	:xcomp (s / set-16
+		:obl (w / way
+			:poss (h2 / he))
+		:compound (o / out))
+	:obj (h / he)
+	:ARG0 (i / i))

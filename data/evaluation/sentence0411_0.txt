@@ -1,0 +1,5 @@
+(c / come
+	:aux (h / have)
+	:nsubj (s / she)
+	:obl (f / form
+		:poss (s2 / seed)))

@@ -1,0 +1,7 @@
+(t / thing
+	:amod (d / different)
+	:nsubj (w / water
+		:det (t2 / this))
+	:advmod (i / indeed)
+	:poss (n / nourishment
+		:amod (o / ordinary)))

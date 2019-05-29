@@ -1,0 +1,2 @@
+(e / evening
+	:amod (g / good))

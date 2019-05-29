@@ -1,0 +1,6 @@
+(s / say-01
+	:obl (m / morning
+		:amod (g / good))
+	:obl (h / he)
+	:ARG0 (p / prince
+		:amod (l / little)))

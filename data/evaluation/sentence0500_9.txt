@@ -1,0 +1,9 @@
+(b / be-02
+	:obl (y / year)
+	:nsubj (i2 / it)
+	:advcl (s / see-01
+		:obj (a / anyone
+			:acl (y2 / yawn-01))
+		:aux (h / have)
+		:nsubj (i / i)
+		:mark (s2 / since)))

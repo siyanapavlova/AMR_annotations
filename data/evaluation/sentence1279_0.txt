@@ -1,0 +1,7 @@
+(a / and
+	:op1 (a2 / add
+		:nsubj (h / he)
+		:ccomp (w / worth
+			:advmod (n / not)
+			:obj (t / trouble)
+			:nsubj (i / it))))

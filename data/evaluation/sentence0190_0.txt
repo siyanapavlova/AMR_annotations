@@ -1,0 +1,4 @@
+(s / sad
+	:csubj (f2 / forget
+		:mark (t / to)
+		:obj (f / friend)))

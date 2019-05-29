@@ -1,0 +1,5 @@
+(m2 / make-19
+	:ARG1 (a / asham
+		:amod (l / little))
+	:ARG1 (m / me)
+	:ARG0 (t / that))

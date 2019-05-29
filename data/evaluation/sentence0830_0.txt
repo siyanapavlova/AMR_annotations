@@ -1,0 +1,3 @@
+(a / and
+	:op1 (p2 / pant
+		:obj (l2 / little)))

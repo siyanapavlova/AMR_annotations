@@ -1,0 +1,6 @@
+(s / small
+	:cause (l / live-01
+		:ARG0 (i / i)
+		:ARG0 (e / everything)
+		:advmod (w / where))
+	:advmod (v / very))

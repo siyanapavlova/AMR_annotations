@@ -1,0 +1,20 @@
+(t / time
+	:advcl (f / finish
+		:obl (m / morning)
+		:aux (h / have)
+		:mark (w / when)
+		:obj (t3 / toilet
+			:amod (o / own)
+			:poss (y3 / you))
+		:nsubj (y / you))
+	:acl (a / attend-02
+		:mark (t4 / to)
+		:obl (t2 / toilet
+			:poss (p / planet
+				:poss (y2 / you))))
+	:advmod (t5 / then)
+	:obj (c / care
+		:advmod (s / so
+			:advmod (j / just))
+		:amod (g / greatest))
+	:nsubj (i / it))

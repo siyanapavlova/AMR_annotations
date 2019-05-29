@@ -1,0 +1,18 @@
+(b4 / but
+	:op1 (k / know
+		:advcl (f / find-02
+			:advmod (n / not)
+			:poss (d3 / daybreak)
+			:ARG0 (i2 / i)
+			:mark (b3 / because)
+			:aux (d2 / do)
+			:ARG1 (b / body
+				:poss (h / he)))
+		:ccomp (g / go-08
+			:obl (p / planet
+				:poss (h2 / he))
+			:advmod (b2 / back)
+			:mark (t / that)
+			:nsubj (h3 / he)
+			:aux (d / do))
+		:nsubj (i / i)))

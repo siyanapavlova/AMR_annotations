@@ -1,0 +1,13 @@
+(s3 / stare-01
+	:advcl (s2 / start-101
+		:obl (h / head
+			:poss (i3 / i))
+		:obl (a2 / astonishment)
+		:advmod (f / fairly))
+	:obl (a / apparition
+		:mod (s / sudden)
+		:poss (e / eyes
+			:poss (i / i))
+		:det (t / this))
+	:nsubj (i2 / i)
+	:advmod (n / now))

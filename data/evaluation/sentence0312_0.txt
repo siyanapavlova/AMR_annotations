@@ -1,0 +1,7 @@
+(b / believe
+	:nsubj (t / they)
+	:ccomp (w / weapon
+		:nsubj (t5 / thorn
+			:poss (t3 / they))
+		:mark (t4 / that)
+		:amod (t2 / terrible)))

@@ -1,0 +1,4 @@
+(s / sit
+	:nsubj (i / i)
+	:obl (h / he)
+	:compound (d / down))

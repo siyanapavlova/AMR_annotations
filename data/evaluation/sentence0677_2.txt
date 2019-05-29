@@ -1,0 +1,6 @@
+(g / get-05
+	:ARG0 (i / i)
+	:ARG1 (e2 / exercise
+		:amod (e / enough))
+	:aux (d / do)
+	:advmod (n / not))

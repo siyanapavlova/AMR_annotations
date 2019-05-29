@@ -1,0 +1,3 @@
+(g / glittering
+	:advmod (l / little)
+	:obj (o / object))

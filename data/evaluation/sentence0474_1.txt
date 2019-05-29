@@ -1,0 +1,7 @@
+(a / and
+	:op1 (s3 / show-04
+		:obj (t / thorn
+			:nummod (f / four)
+			:poss (s2 / she))
+		:ARG0 (s / she)
+		:advmod (n / naïvely)))

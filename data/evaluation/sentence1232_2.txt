@@ -1,0 +1,11 @@
+(b / but
+	:op1 (l / look-02
+		:advmod (t3 / too)
+		:obl (i2 / i)
+		:ccomp (t / thirsty
+			:nsubj (i / i))
+		:conj (r / reply
+			:obl (t2 / thought
+				:poss (i3 / i)))
+		:ARG0 (h / he)
+		:advmod (s / steadily)))

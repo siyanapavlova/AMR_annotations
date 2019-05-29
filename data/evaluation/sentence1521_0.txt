@@ -1,0 +1,9 @@
+(b / be-02
+	:expl (t / there)
+	:nsubj (b2 / but
+		:op (n / nothing)
+		:op (f / flash
+			:poss (y / yellow
+				:amod (c / close
+					:obl (a / ankle
+						:poss (h / he)))))))

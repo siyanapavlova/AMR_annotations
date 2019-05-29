@@ -1,0 +1,3 @@
+(a2 / and
+	:op1 (p2 / people
+		:det (a3 / all)))

@@ -1,0 +1,9 @@
+(a / and
+	:op1 (d / do-02
+		:aux (d2 / do)
+		:ARG0 (i / i)
+		:ARG1 (w / what)
+		:obl (m / minute
+			:compound (f / fifty
+				:poss (t2 / three))
+			:det (t / those))))

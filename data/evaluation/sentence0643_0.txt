@@ -1,0 +1,10 @@
+(i / insist
+	:obj (p / prince
+		:acl (w / want-01
+			:ARG0 (w2 / who)
+			:xcomp (h2 / help
+				:mark (t / to)
+				:obj (h / he)))
+		:amod (l / little))
+	:acl (a / asham
+		:obl (w3 / what)))

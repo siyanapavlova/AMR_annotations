@@ -1,0 +1,10 @@
+(s / say-01
+	:ARG0 (y / you)
+	:ccomp (t / think-01
+		:ARG0 (i2 / i)
+		:ccomp (h / home
+			:nsubj (i3 / i)
+			:mark (t2 / that))
+		:aux (b / be)
+		:advmod (a / always))
+	:obl (i / i))

@@ -1,0 +1,5 @@
+(i / insist
+	:nsubj (k / king)
+	:advmod (f / fundamentally)
+	:obl (u / upon)
+	:obl (w / what))

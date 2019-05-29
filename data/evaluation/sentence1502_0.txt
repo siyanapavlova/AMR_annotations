@@ -1,0 +1,6 @@
+(w2 / well
+	:aux (w / will)
+	:poss (p / pulley
+		:amod (r / rusty))
+	:nsubj (s / star
+		:det (a / all)))

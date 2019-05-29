@@ -1,0 +1,5 @@
+(l / look-02
+	:ARG0 (t / they
+		:det (a / all))
+	:obl (f / flower
+		:poss (h / he)))

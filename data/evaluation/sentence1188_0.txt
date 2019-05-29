@@ -1,0 +1,13 @@
+(a2 / and
+	:op1 (s / shake
+		:nsubj (t2 / train
+			:amod (l / light
+				:advmod (b / brilliantly))
+			:amod (e / express))
+		:advcl (r / rush
+			:nsubj (i / it)
+			:mark (a / as)
+			:obl (r2 / roar
+				:poss (t / thunder)))
+		:obj (c / cabin
+			:poss (s2 / switchman))))

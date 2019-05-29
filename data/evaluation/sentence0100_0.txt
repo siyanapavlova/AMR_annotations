@@ -1,0 +1,10 @@
+(b / bent
+	:obl (d / draw)
+	:parataxis (s2 / small
+		:ccomp (l / look
+			:mark (t / that))
+		:advmod (s / so
+			:advmod (n / not)))
+	:nsubj (h3 / he)
+	:obj (h / head
+		:poss (h2 / he)))

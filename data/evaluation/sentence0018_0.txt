@@ -1,0 +1,13 @@
+(c / career
+	:acl (g / give
+		:obj (w / what)
+		:obl (a / age
+			:poss (s / six))
+		:nsubj (i / i)
+		:advmod (w2 / why
+			:nsubj (t / that))
+		:compound (u / up))
+	:poss (p / painter)
+	:amod (m2 / magnificent)
+	:aux (m / might)
+	:aux (h / have))

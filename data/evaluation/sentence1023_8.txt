@@ -1,0 +1,10 @@
+(h / have-10
+	:ARG1 (f2 / flower)
+	:obl (p / planet
+		:poss (i2 / i))
+	:ARG0 (i / i)
+	:parataxis (f / first
+		:advcl (s2 / speak-01
+			:mark (t / to))
+		:nsubj (s / she)
+		:advmod (a / always)))

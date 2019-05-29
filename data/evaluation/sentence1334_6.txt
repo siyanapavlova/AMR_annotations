@@ -1,0 +1,7 @@
+(m / make-05
+	:ARG0 (i / i)
+	:advmod (s / so)
+	:obj (s2 / sketch
+		:poss (m2 / muzzle)
+		:compound (p / pencil))
+	:advmod (t / then))

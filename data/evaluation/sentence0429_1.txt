@@ -1,0 +1,13 @@
+(h / have-11
+	:aux (o / ought)
+	:xcomp (g / guess
+		:obj (a2 / affection
+			:acl (l2 / lay-01
+				:obl (s2 / strategem
+					:amod (l / little)
+					:poss (s / she)
+					:amod (p / poor))
+				:ARG0 (t2 / that))
+			:det (a / all)))
+	:mark (t / to)
+	:ARG0 (i / i))

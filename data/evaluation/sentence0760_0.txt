@@ -1,0 +1,11 @@
+(b2 / but
+	:op1 (a2 / absurd
+		:advmod (n / not)
+		:advmod (s / so)
+		:appos (a / and
+			:op (t / tippler)
+			:op (m / man
+				:amod (c / conceit)
+				:appos (b / businessman)))
+		:nsubj (h / he)
+		:obl (k / king)))

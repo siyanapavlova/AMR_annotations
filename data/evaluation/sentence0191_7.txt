@@ -1,0 +1,6 @@
+(h / have-11
+	:aux (h2 / have)
+	:obj (f / friend)
+	:advmod (n / not)
+	:ARG0 (o / one
+		:det (e / every)))

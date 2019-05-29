@@ -1,0 +1,11 @@
+(s2 / say-01
+	:ccomp (m / million
+		:poss (o2 / object
+			:amod (l / little)
+			:det (t / those)))
+	:acl (s / see-02
+		:obl (s3 / sky)
+		:advmod (s4 / sometimes)
+		:ARG0 (w / which)
+		:ARG0 (o / one))
+	:ARG0 (h / he))

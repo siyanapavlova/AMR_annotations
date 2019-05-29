@@ -1,0 +1,4 @@
+(s / say-01
+	:ccomp (f2 / fox
+		:nsubj (i / i))
+	:ARG0 (f / fox))

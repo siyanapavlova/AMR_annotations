@@ -1,0 +1,6 @@
+(a / and
+	:op1 (p / put
+		:compound (o / out)
+		:obj (l / lamp
+			:poss (h2 / he))
+		:nsubj (h / he)))

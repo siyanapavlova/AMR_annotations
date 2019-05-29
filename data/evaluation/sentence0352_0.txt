@@ -1,0 +1,6 @@
+(s / say-01
+	:advmod (n / not)
+	:obj (a / anything
+		:amod (m / more))
+	:aux (c / could)
+	:ARG0 (h / he))

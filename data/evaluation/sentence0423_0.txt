@@ -1,0 +1,12 @@
+(b / but
+	:op1 (k / know
+		:nsubj (i / i)
+		:advmod (n / not)
+		:ccomp (t2 / take-14
+			:ARG1 (p / pleasure)
+			:mark (t / to)
+			:obl (g / grace
+				:poss (s / she)
+				:det (a / all))
+			:advmod (h / how))
+		:aux (d / do)))

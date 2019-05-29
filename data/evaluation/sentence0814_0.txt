@@ -1,0 +1,6 @@
+(s / say-01
+	:ccomp (u / unlucky
+		:advmod (t / then)
+		:nsubj (y / you))
+	:ARG0 (p / prince
+		:amod (l / little)))

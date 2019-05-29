@@ -1,0 +1,7 @@
+(w2 / would
+	:advmod (s / so)
+	:obj (e / explorer
+		:acl (d / drank
+			:obj (m / much
+				:advmod (t / too))
+			:nsubj (w / who))))

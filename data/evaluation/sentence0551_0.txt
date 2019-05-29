@@ -1,0 +1,7 @@
+(i / inquire
+	:obj (p / prince
+		:amod (l / little))
+	:csubj (b / be-02
+		:mark (w / when)
+		:nsubj (t / that)
+		:aux (w2 / will)))

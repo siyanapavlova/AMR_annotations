@@ -1,0 +1,6 @@
+(b / but
+	:op1 (h / have-11
+		:obj (t / time
+			:amod (m / much
+				:advmod (n / not)))
+		:ARG0 (i / i)))

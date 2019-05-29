@@ -1,0 +1,7 @@
+(s / say-01
+	:ARG0 (f / friend
+		:appos (p / prince
+			:amod (l / little))
+		:appos (f2 / fox)
+		:poss (i / i))
+	:obl (i2 / i))

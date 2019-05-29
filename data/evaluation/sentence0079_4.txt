@@ -1,0 +1,5 @@
+(m / make-01
+	:obj (d / drawing
+		:det (a / another))
+	:ARG0 (i / i)
+	:advmod (s / so))

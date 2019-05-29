@@ -1,0 +1,10 @@
+(w / want-01
+	:advmod (n / not)
+	:ARG0 (s / she)
+	:obj (h2 / he)
+	:xcomp (s2 / see-04
+		:xcomp (c / cry)
+		:mark (t / to)
+		:ARG1 (h / her))
+	:aux (d / do)
+	:mark (f / for))

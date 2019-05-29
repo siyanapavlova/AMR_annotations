@@ -1,0 +1,7 @@
+(c / condemn
+	:aux (w / will)
+	:obl (t2 / time
+		:poss (t / time))
+	:nsubj (y / you)
+	:obl (d / death)
+	:obj (h / he))

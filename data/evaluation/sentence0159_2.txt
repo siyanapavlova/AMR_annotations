@@ -1,0 +1,14 @@
+(g / give-17
+	:nsubj (a3 / astronomer)
+	:obl (1 / 1920)
+	:advmod (o / over
+		:advmod (a2 / all))
+	:ARG1 (d2 / demonstration
+		:poss (h / he))
+	:advmod (s / so)
+	:conj (d / dress
+		:obl (a4 / and
+			:op (s2 / style
+				:amod (i / impressive))
+			:op (e / elegance)))
+	:advmod (a / again))

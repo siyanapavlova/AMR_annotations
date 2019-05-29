@@ -1,0 +1,6 @@
+(b / but
+	:op1 (m2 / man
+		:nsubj (h2 / he)
+		:advmod (n / not)
+		:parataxis (m / mushroom
+			:nsubj (h / he))))

@@ -1,0 +1,4 @@
+(w / work-06
+	:ARG0 (y / you)
+	:advmod (n / now)
+	:aux (m / must))

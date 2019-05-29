@@ -1,0 +1,17 @@
+(f2 / feel
+	:nsubj (i / i)
+	:obj (n / need
+		:acl (p / protect
+			:mark (o / of)
+			:obj (h / he)))
+	:advcl (f / flame
+		:acl (e / extinguish
+			:aux (m / might)
+			:nsubj (t / that)
+			:obl (p2 / puff
+				:poss (w / wind)
+				:amod (l / little)))
+		:nsubj (h3 / himself
+			:nsubj (h2 / he))
+		:mark (i2 / if)
+		:mark (a / as)))

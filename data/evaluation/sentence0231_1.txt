@@ -1,0 +1,14 @@
+(s2 / sleep-02
+	:ARG0 (t3 / they)
+	:advcl (s / seize
+		:obl (d2 / desire
+			:acl (a / awaken
+				:mark (t2 / to)))
+		:nsubj (o / one
+			:det (s3 / some)
+			:poss (t / they))
+		:mark (u / until))
+	:xcomp (d / deep
+		:obl (h / heart
+			:poss (d3 / darkness
+				:poss (e / earth)))))

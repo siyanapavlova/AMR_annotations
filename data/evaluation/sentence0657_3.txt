@@ -1,0 +1,5 @@
+(a / and
+	:op1 (m / make-19
+		:ARG0 (s / seven)
+		:ARG1 (t / two
+			:compound (t2 / twenty))))

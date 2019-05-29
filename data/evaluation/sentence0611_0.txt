@@ -1,0 +1,6 @@
+(h / hat
+	:appos (m / man
+		:amod (c / conceit)
+		:acl (r / reply))
+	:nsubj (i / it)
+	:poss (s / salute))

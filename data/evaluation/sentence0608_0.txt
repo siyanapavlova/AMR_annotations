@@ -1,0 +1,6 @@
+(a2 / admirer
+	:obl (m2 / man
+		:amod (c / conceit))
+	:nsubj (m / man
+		:det (a / all)
+		:amod (o / other)))

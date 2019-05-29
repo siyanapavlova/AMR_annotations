@@ -1,0 +1,22 @@
+(s3 / see-05
+	:advcl (c / come
+		:nsubj (i / i)
+		:obl (w2 / work
+			:poss (i2 / i))
+		:advmod (b / back)
+		:mark (w / when))
+	:obl (d2 / distance
+		:det (s / some))
+	:ARG0 (i3 / i)
+	:obj (p / price
+		:poss (i4 / i)
+		:advmod (a / away)
+		:acl (s2 / sit
+			:obl (t / top
+				:poss (w3 / wall)))
+		:amod (l / little))
+	:obl (e / evening
+		:amod (n / next))
+	:obl (d / dangling
+		:poss (h / he)
+		:compound (f / feet)))

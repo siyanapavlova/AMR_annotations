@@ -1,0 +1,4 @@
+(w / wait
+	:obl (t / time)
+	:obl (s / star
+		:advmod (e / exactly)))

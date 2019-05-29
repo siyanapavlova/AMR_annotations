@@ -1,0 +1,7 @@
+(b / beg
+	:nsubj (i2 / i)
+	:ccomp (e / excuse
+		:mark (t / that)
+		:nsubj (y / you)
+		:aux (w / will)
+		:obj (i / i)))

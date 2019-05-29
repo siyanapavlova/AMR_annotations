@@ -1,0 +1,3 @@
+(a / and
+	:op1 (e / extinct
+		:nsubj (o / other)))

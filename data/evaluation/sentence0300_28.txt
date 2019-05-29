@@ -1,0 +1,14 @@
+(a / and
+	:op1 (h2 / have-06
+		:ARG1 (l2 / left
+			:compound (w2 / water
+				:compound (d / drink))
+			:amod (l / little
+				:advmod (s / so))
+			:acl (h / have-10
+				:ARG0 (i2 / i)
+				:ARG1 (t / that)
+				:xcomp (f / fear-01
+					:obl (w / worst)
+					:mark (t2 / to))))
+		:ARG0 (i / i)))

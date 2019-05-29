@@ -1,0 +1,8 @@
+(s2 / shrug
+	:obj (s / shoulder
+		:poss (t / they))
+	:conj (t3 / treat
+		:obl (c / child
+			:obj (y / you)))
+	:nsubj (t2 / they)
+	:aux (w / would))

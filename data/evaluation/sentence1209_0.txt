@@ -1,0 +1,11 @@
+(m / merchant
+	:acl (s / sell
+		:nsubj (w / who)
+		:obj (p / pill
+			:acl (i / invent
+				:xcomp (q / quench
+					:advmod (t3 / thirst)
+					:mark (t2 / to))
+				:nsubj (t / that)
+				:aux (h / have))))
+	:nsubj (t4 / this))

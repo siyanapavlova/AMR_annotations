@@ -1,0 +1,8 @@
+(s / say-01
+	:ARG0 (f / flower)
+	:ccomp (l / love
+		:nsubj (i / i)
+		:advmod (o / of
+			:fixed (c / course))
+		:obj (y / you))
+	:obl (h / he))

@@ -1,0 +1,7 @@
+(b / but
+	:op1 (h / have-05
+		:ARG1 (h2 / hair
+			:acl (c / colour
+				:poss (g / gold)
+				:nsubj (t / that)))
+		:ARG0 (y / you)))

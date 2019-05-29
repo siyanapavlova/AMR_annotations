@@ -1,0 +1,6 @@
+(s / see-01
+	:aux (h / have)
+	:obj (p / passing
+		:amod (c / caravan))
+	:nsubj (f / flower)
+	:advmod (o / once))

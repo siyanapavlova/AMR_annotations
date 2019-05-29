@@ -1,0 +1,9 @@
+(b / be-02
+	:nsubj (p2 / prince
+		:acl (o / object)
+		:amod (l / little))
+	:expl (t2 / there)
+	:nsubj (t / tiger
+		:poss (p / planet
+			:poss (i / i))
+		:det (n / no)))

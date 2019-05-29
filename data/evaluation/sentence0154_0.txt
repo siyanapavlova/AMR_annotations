@@ -1,0 +1,4 @@
+(a / astronomer
+	:nsubj (t / that)
+	:amod (t2 / turkish)
+	:obl (1 / 1909))

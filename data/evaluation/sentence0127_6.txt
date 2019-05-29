@@ -1,0 +1,12 @@
+(b / bury
+	:nsubj (h4 / he)
+	:obl (c / contemplation
+		:poss (t2 / treasure
+			:poss (h3 / he)))
+	:advcl (t3 / take-16
+		:ARG1 (s / sheep
+			:poss (i / i))
+		:obl (p / pocket
+			:poss (h2 / he)))
+	:obj (h / himself)
+	:advmod (t / then))

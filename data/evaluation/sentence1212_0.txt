@@ -1,0 +1,8 @@
+(s / say-01
+	:ccomp (s2 / save
+		:nsubj (t2 / they)
+		:obj (a / amount
+			:poss (t3 / time)
+			:amod (t / tremendous))
+		:mark (b / because))
+	:ARG0 (m / merchant))

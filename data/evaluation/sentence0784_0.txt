@@ -1,0 +1,4 @@
+(r / reasonable
+	:obl (d / day
+		:amod (o / old))
+	:nsubj (i / it))

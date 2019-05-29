@@ -1,0 +1,8 @@
+(t / take-14
+	:obl (p / pocket
+		:poss (i2 / i))
+	:ARG1 (d2 / drafts
+		:poss (d / drawings)
+		:poss (i / i)
+		:amod (r / rough))
+	:nsubj (i3 / i))

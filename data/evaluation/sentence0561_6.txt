@@ -1,0 +1,10 @@
+(s / say-01
+	:ARG0 (h / he)
+	:obl (k / king)
+	:ccomp (h3 / have-04
+		:ARG0 (i / i)
+		:ARG1 (n / nothing
+			:acl (d / do-02
+				:advmod (h2 / here)
+				:mark (t / to))
+			:amod (m / more))))

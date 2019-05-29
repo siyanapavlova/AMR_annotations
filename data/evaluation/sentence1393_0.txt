@@ -1,0 +1,6 @@
+(g / go-12
+	:advmod (n / now)
+	:nsubj (y / you)
+	:aux (c / can)
+	:advmod (h / home
+		:advmod (b / back)))

@@ -1,0 +1,4 @@
+(u / use
+	:nsubj (w / wheat)
+	:poss (i / i)
+	:det (n / no))

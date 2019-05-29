@@ -1,0 +1,6 @@
+(c2 / concerned
+	:nsubj (i2 / i)
+	:parataxis (a / accurate
+		:nsubj (i / i))
+	:obl (m / matter
+		:poss (c / consequence)))

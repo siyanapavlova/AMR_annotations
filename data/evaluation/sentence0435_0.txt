@@ -1,0 +1,7 @@
+(c / clean
+	:obj (v / volcanoe
+		:amod (a / active)
+		:poss (h / he))
+	:nsubj (h2 / he)
+	:compound (o / out)
+	:advmod (c2 / carefully))

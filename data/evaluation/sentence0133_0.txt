@@ -1,0 +1,22 @@
+(a / answer-01
+	:ARG0 (h5 / he)
+	:parataxis (b2 / be-02
+		:nsubj (t3 / thing
+			:acl (g / good
+				:obl (b / box
+					:acl (g2 / give-14
+						:iobj (i / i)
+						:nsubj (y / you)
+						:aux (h / have)))
+				:nsubj (t2 / that)
+				:advmod (s2 / so)))
+		:ccomp (u / use
+			:obj (i2 / it)
+			:aux (c / can)
+			:nsubj (h3 / he)
+			:obl (n / night)
+			:obl (h2 / house
+				:poss (h4 / he))
+			:mark (t / that)))
+	:obl (s / silence
+		:amod (r / reflective)))

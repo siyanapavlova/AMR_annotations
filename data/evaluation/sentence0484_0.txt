@@ -1,0 +1,15 @@
+(c / clad
+	:parataxis (s3 / seat-02
+		:obl (t2 / throne
+			:acl (t / time
+				:amod (s / same)
+				:amod (a2 / and
+					:op (s2 / simple
+						:cc (b / both))
+					:op (m / majestic))
+				:nsubj (w / which)))
+		:nsubj (h / he))
+	:obl (a / and
+		:op (p / purple
+			:amod (r / royal))
+		:op (e / ermine)))

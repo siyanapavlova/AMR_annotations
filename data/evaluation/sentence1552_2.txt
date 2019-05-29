@@ -1,0 +1,7 @@
+(a / and
+	:op1 (s / see-04
+		:aux (w / will)
+		:ccomp (c / change
+			:nsubj (e / everything)
+			:advmod (h / how))
+		:ARG0 (y / you)))

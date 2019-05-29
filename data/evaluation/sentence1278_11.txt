@@ -1,0 +1,7 @@
+(a / and
+	:op (t / turn
+		:obj (a3 / and
+			:op (r / round)
+			:op (r2 / round)))
+	:op1 (g / get-01
+		:xcomp (e / excited)))

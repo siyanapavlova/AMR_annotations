@@ -1,0 +1,7 @@
+(b / but
+	:op1 (p / planet
+		:amod (t / tiny)
+		:poss (y2 / you)
+		:appos (p2 / prince
+			:amod (l / little)
+			:poss (i / i))))

@@ -1,0 +1,9 @@
+(b / bring-01
+	:obl (t / thought
+		:poss (y / you))
+	:ARG1 (i / i)
+	:aux (w2 / will)
+	:ARG0 (g / grain
+		:acl (g2 / golden
+			:nsubj (w / which)
+			:advmod (a / also))))

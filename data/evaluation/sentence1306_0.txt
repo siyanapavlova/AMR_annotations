@@ -1,0 +1,23 @@
+(t2 / tenderness
+	:advcl (b / boy
+		:mark (w / when)
+		:nsubj (i2 / i)
+		:amod (l2 / little))
+	:acl (u2 / use
+		:xcomp (m3 / make
+			:compound (u / up)
+			:mark (t / to)
+			:advmod (s / so)
+			:obj (r / radiance
+				:poss (g / gift
+					:acl (r2 / receive
+						:nsubj (i / i))))))
+	:nsubj (l / light
+		:poss (t3 / tree
+			:compound (c / christmas)))
+	:acl (s2 / smile
+		:obj (f / face)
+		:mark (o / of))
+	:nsubj (m4 / music
+		:poss (m / mass
+			:compound (m2 / midnight))))

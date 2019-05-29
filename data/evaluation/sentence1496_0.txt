@@ -1,0 +1,6 @@
+(b / but
+	:op1 (s / shell
+		:aux (w / will)
+		:amod (o / old)
+		:amod (a / abandoned)
+		:nsubj (i / it)))

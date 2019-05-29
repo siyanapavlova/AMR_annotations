@@ -1,0 +1,3 @@
+(d / discouraged
+	:nsubj (h / he)
+	:amod (l / little))

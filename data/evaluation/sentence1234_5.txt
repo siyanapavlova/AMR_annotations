@@ -1,0 +1,4 @@
+(m / make-05
+	:ARG2 (g / gesture
+		:poss (w / weariness))
+	:ARG0 (i / i))

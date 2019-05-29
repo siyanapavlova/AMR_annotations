@@ -1,0 +1,18 @@
+(g / go-10
+	:nsubj (p2 / prince
+		:amod (l / little))
+	:obl (e / explanation
+		:poss (h / he))
+	:parataxis (s / small
+		:ccomp (t / take-16
+			:ARG1 (w / way
+				:poss (i / it)
+				:det (a / all))
+			:iobj (y / you)
+			:ARG0 (s2 / stride
+				:nummod (t2 / three))
+			:aux (w2 / will)
+			:mark (t3 / that))
+		:advmod (s3 / so)
+		:nsubj (p / planet
+			:poss (y2 / you))))

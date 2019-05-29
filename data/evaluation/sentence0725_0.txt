@@ -1,0 +1,15 @@
+(o3 / own
+	:parataxis (t / thought
+		:mark (b2 / because)
+		:mark (b / before)
+		:nsubj (n / nobody
+			:amod (e2 / else))
+		:advmod (e / ever)
+		:advcl (o / own
+			:obj (t2 / they)
+			:mark (o2 / of))
+		:nsubj (i / i))
+	:obl (i2 / i
+		:advmod (s2 / so))
+	:nsubj (i3 / i)
+	:obj (s / star))

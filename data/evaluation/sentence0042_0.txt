@@ -1,0 +1,8 @@
+(i / isolated
+	:advmod (m2 / more)
+	:nsubj (i2 / i)
+	:obl (s / sailor
+		:amod (s2 / shipwrecked)
+		:poss (r / raft
+			:poss (m / middle
+				:poss (o / ocean)))))

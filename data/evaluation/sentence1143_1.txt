@@ -1,0 +1,7 @@
+(t / take-17
+	:aux (c / can)
+	:nsubj (i / i)
+	:advmod (f / far
+		:obl (v / vineyard)
+		:advmod (a / as))
+	:obj (w / walk))

@@ -1,0 +1,7 @@
+(s2 / seem-01
+	:nsubj (y / you)
+	:advmod (f / first)
+	:xcomp (s / surprised
+		:advmod (m / much
+			:advmod (v / very))
+		:mark (t / to)))

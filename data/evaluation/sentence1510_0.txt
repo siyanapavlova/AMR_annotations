@@ -1,0 +1,7 @@
+(a2 / and
+	:op1 (s / sit
+		:nsubj (h2 / he)
+		:advmod (d / down)
+		:advcl (a / afraid
+			:nsubj (h / he)
+			:mark (b / because))))

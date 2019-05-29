@@ -1,0 +1,5 @@
+(h / have-11
+	:obl (s / spite
+		:advmod (j / just))
+	:obj (t / thorn)
+	:ARG0 (f / flowers))

@@ -1,0 +1,4 @@
+(s / snake
+	:parataxis (c / creature
+		:nsubj (t / they)
+		:amod (m / malicious)))

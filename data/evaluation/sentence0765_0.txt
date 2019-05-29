@@ -1,0 +1,7 @@
+(a / and
+	:op1 (u / useful
+		:nsubj (i / it)
+		:advmod (t / truly)
+		:advcl (b / beautiful
+			:nsubj (i2 / it)
+			:mark (s / since))))

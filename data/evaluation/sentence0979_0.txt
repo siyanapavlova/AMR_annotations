@@ -1,0 +1,8 @@
+(t / twin
+	:nsubj (h2 / he)
+	:obl (a / ankle
+		:poss (p / prince
+			:amod (l / little)))
+	:obj (h / himself)
+	:obl (b / bracelet
+		:amod (g / golden)))

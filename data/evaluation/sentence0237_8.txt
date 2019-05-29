@@ -1,0 +1,17 @@
+(s / something
+	:acl (a / able
+		:nsubj (y2 / you)
+		:advmod (n2 / never)
+		:aux (w / will)
+		:xcomp (g / get-01
+			:mark (t2 / to)
+			:advcl (a2 / attend-01
+				:mark (i / if)
+				:obl (i2 / it)
+				:mark (o / of)
+				:advmod (l / late
+					:advmod (t / too))
+				:ARG0 (y / you))
+			:ARG1 (r / rid))
+		:advmod (n / never))
+	:nsubj (b / baobab))

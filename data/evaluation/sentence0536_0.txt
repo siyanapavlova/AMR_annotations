@@ -1,0 +1,14 @@
+(b / but
+	:op1 (t / two
+		:conj (t6 / time
+			:nummod (t5 / two)
+			:nummod (h5 / hundred)
+			:advcl (h3 / have
+				:xcomp (m / move
+					:mark (t2 / to)
+					:obj (c2 / chair
+						:poss (h7 / he)))
+				:mark (w / without)
+				:advmod (e3 / ever))
+			:advmod (e2 / even))
+		:compound (s / seventy)))

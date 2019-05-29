@@ -1,0 +1,16 @@
+(t3 / think-01
+	:ccomp (l / look-02
+		:ARG0 (r / rose
+			:poss (i2 / i))
+		:obl (y / you
+			:advmod (j / just))
+		:mark (t4 / that))
+	:ARG0 (p / passerby
+		:amod (o / ordinary))
+	:aux (w / would)
+	:advcl (s / sure
+		:mark (t2 / to))
+	:ARG1 (r2 / rose
+		:acl (b / belong
+			:nsubj (t / that)
+			:obl (i / i))))

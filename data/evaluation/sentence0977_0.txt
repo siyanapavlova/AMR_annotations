@@ -1,0 +1,5 @@
+(t / travel
+	:advmod (n / not)
+	:advmod (e / even)
+	:nsubj (y / you)
+	:aux (c / can))

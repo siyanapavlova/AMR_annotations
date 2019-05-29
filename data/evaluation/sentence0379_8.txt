@@ -1,0 +1,12 @@
+(w / wish
+	:advmod (n / not)
+	:xcomp (g / go-03
+		:obl (w2 / world)
+		:advmod (o / out)
+		:mark (t / to))
+	:aux (d / do)
+	:nsubj (s / she)
+	:conj (r / rumpl
+		:obl (p / poppy
+			:compound (f / field))
+		:advmod (a / all)))

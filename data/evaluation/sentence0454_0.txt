@@ -1,0 +1,4 @@
+(a / ask-01
+	:ARG0 (i / i)
+	:ARG1 (f / forgiveness
+		:poss (y / you)))

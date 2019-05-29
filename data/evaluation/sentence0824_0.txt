@@ -1,0 +1,24 @@
+(b / be-02
+	:advcl (b2 / blest
+		:mark (b3 / because)
+		:obl (d2 / day
+			:det (e / every))
+		:obl (s / sunset
+			:nummod (1 / 1440))
+		:nsubj (i / it))
+	:csubj (d / dare-01
+		:ARG1 (w / what)
+		:ARG0 (p2 / prince
+			:amod (l / little))
+		:aux (d3 / do)
+		:advmod (n / not)
+		:ARG1 (c / confess))
+	:ccomp (s2 / sorry
+		:mark (t2 / that)
+		:nsubj (h / he)
+		:advmod (m / most
+			:poss (a / all
+				:advcl (l2 / leave
+					:mark (t3 / to)
+					:obj (p / planet
+						:det (t / this)))))))

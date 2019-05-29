@@ -1,0 +1,10 @@
+(t3 / try-01
+	:condition (p / person
+		:nsubj (t / this)
+		:poss (u / understanding
+			:mod (t2 / true)))
+	:advmod (s / so)
+	:aux (w / would)
+	:ARG0 (i / i)
+	:xcomp (f / find-02
+		:compound (o / out)))

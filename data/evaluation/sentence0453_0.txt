@@ -1,0 +1,7 @@
+(s2 / say-01
+	:obl (l / last)
+	:advmod (s / silly
+		:nsubj (i / i)
+		:aux (h / have))
+	:ARG0 (s3 / she)
+	:obl (h2 / he))

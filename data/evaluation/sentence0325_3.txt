@@ -1,0 +1,21 @@
+(l / look-01
+	:advmod (t / there)
+	:obl (i4 / i)
+	:obj (f / finger
+		:poss (i3 / i)
+		:amod (b / black
+			:obl (g / grease
+				:compound (e2 / engine))))
+	:advcl (b2 / bend
+		:obl (o / object
+			:acl (s / seem-01
+				:advmod (u / ugly
+					:advmod (e / extremely))
+				:obl (h4 / he)
+				:nsubj (w / which)))
+		:advmod (d / down))
+	:nsubj (h2 / he)
+	:obl (h3 / hammer
+		:poss (i2 / i)
+		:poss (h / hand
+			:poss (i / i))))

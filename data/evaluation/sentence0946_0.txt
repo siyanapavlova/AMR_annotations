@@ -1,0 +1,14 @@
+(s / surprised
+	:advcl (s2 / see-05
+		:obj (p2 / people
+			:det (a / any))
+		:mark (t / to)
+		:advmod (n / not))
+	:advcl (a2 / arrive
+		:obl (e / earth)
+		:mark (w / when)
+		:nsubj (p / prince
+			:amod (l / little)))
+	:advmod (m / much
+		:advmod (v / very))
+	:nsubj (h / he))

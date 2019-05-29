@@ -1,0 +1,6 @@
+(o / occupy
+	:obj (p / place
+		:amod (s / small
+			:advmod (v / very)))
+	:obl (e / earth)
+	:discourse (m / men))

@@ -1,0 +1,4 @@
+(a / and
+	:op1 (m / make-01
+		:ARG0 (s / seven)
+		:ARG1 (t / twelve)))

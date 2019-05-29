@@ -1,0 +1,6 @@
+(t2 / think-01
+	:ARG0 (h2 / he)
+	:advmod (p / perhaps)
+	:ccomp (h / himself
+		:mark (t / that)
+		:nsubj (i / i)))

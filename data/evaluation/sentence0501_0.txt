@@ -1,0 +1,4 @@
+(o / object
+	:poss (c / curiosity)
+	:nsubj (y / yawn
+		:poss (i / i)))

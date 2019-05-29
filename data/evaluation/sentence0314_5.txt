@@ -1,0 +1,21 @@
+(s / say-01
+	:aux (b3 / be)
+	:ARG0 (i3 / i)
+	:ccomp (g / go-09
+		:advcl (t3 / turn
+			:advmod (s2 / still)
+			:aux (w / will)
+			:mark (i / if)
+			:advmod (n / not)
+			:nsubj (b / bolt
+				:det (t / this)))
+		:xcomp (k / knock
+			:obl (h / hammer)
+			:mark (t2 / to)
+			:compound (o / out)
+			:obj (i5 / it))
+		:nsubj (i4 / i)
+		:aux (b2 / be))
+	:obl (m / myself)
+	:obl (i2 / instant
+		:det (t4 / that)))

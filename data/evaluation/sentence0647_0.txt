@@ -1,0 +1,14 @@
+(s / say-01
+	:obl (h4 / himself)
+	:ARG0 (h3 / he)
+	:ccomp (o / odd
+		:advmod (v / very
+			:advmod (c / certainly))
+		:nsubj (u / up
+			:amod (g / grow-02))
+		:advmod (v2 / very))
+	:advcl (c2 / continue
+		:obl (j / journey
+			:poss (h / he))
+		:mark (a / as)
+		:nsubj (h2 / he)))

@@ -1,0 +1,3 @@
+(t / true
+	:nsubj (t2 / that)
+	:discourse (y / yes))

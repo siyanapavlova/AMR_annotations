@@ -1,0 +1,9 @@
+(s / spoke
+	:obl (s2 / silence)
+	:ccomp (h / have-10
+		:ARG1 (p / poison
+			:amod (g / good))
+		:ARG0 (y / you))
+	:advmod (a / again)
+	:nsubj (p2 / prince
+		:amod (l / little)))

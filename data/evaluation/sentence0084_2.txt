@@ -1,0 +1,9 @@
+(d / do-02
+	:advcl (d2 / draw-01
+		:poss (i2 / i)
+		:advmod (o2 / over)
+		:obj (m / more
+			:advmod (o / once)))
+	:ARG0 (i / i)
+	:advmod (t / then)
+	:advmod (s / so))

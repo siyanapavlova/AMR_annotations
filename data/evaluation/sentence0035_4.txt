@@ -1,0 +1,11 @@
+(a / and
+	:op1 (p / pleased
+		:aux (w / would)
+		:advcl (m / meet-02
+			:obj (m2 / man
+				:det (s / such)
+				:mod (s2 / sensible))
+			:aux (h / have))
+		:advmod (g / greatly)
+		:nsubj (u / up
+			:mod (g2 / grow-01))))

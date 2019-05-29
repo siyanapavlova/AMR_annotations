@@ -1,0 +1,2 @@
+(d / difficult
+	:nsubj (i / it))

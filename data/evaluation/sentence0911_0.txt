@@ -1,0 +1,5 @@
+(m / moment
+	:poss (r / regret)
+	:nsubj (t / that)
+	:amod (f / first)
+	:poss (h / he))

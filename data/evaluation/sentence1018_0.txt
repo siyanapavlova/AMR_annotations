@@ -1,0 +1,9 @@
+(a3 / answer-01
+	:ccomp (a5 / alone
+		:parataxis (a7 / alone
+			:det (a6 / all))
+		:parataxis (a4 / alone
+			:det (a2 / all))
+		:advmod (a / all)
+		:nsubj (i / i))
+	:ARG0 (e / echo))

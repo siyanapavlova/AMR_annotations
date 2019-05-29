@@ -1,0 +1,4 @@
+(w / wealth
+	:obl (b / businessman
+		:poss (i / i))
+	:nsubj (t / they))

@@ -1,0 +1,10 @@
+(b / bring-01
+	:mark (b2 / because)
+	:obl (b3 / book
+		:poss (g / geographer))
+	:aux (w2 / would)
+	:ARG0 (e / explorer
+		:acl (t / tell-01
+			:ARG0 (w / who)
+			:obj (l / lie)))
+	:ARG1 (d / disaster))

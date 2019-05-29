@@ -1,0 +1,11 @@
+(s / say-01
+	:ARG0 (k / king
+		:acl (p / proud
+			:nsubj (w / who)
+			:advmod (v / very)
+			:advcl (h / have-08
+				:ARG1 (s2 / subject)
+				:mark (o / of))))
+	:ccomp (g / go-09
+		:aux (d / do)
+		:advmod (n / not)))

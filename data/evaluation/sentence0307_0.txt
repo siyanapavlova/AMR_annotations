@@ -1,0 +1,5 @@
+(b / be-02
+	:expl (t / there)
+	:nsubj (m / moment
+		:poss (s / silence
+			:amod (c / complete))))

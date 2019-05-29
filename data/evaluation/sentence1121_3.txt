@@ -1,0 +1,18 @@
+(b3 / but
+	:op1 (b / be-02
+		:nsubj (s2 / shop
+			:det (n2 / no)
+			:acl (b2 / buy
+				:advmod (a / anywhere)
+				:nsubj (o / one)
+				:obj (f / friendship)
+				:advmod (w / where)
+				:aux (c / can)))
+		:conj (h / have-05
+			:ARG1 (f2 / friend
+				:det (n / no))
+			:advmod (m2 / more
+				:advmod (a3 / any))
+			:ARG0 (m / man
+				:advmod (s / so)))
+		:expl (t / there)))

@@ -1,0 +1,22 @@
+(h / have-03
+	:ARG1 (h3 / hair
+		:amod (g / golden))
+	:conj (r / refuse
+		:xcomp (a / answer-01
+			:mark (t2 / to)
+			:ARG2 (q / questions))
+		:nsubj (w5 / who))
+	:ARG0 (w3 / who)
+	:advmod (t / then)
+	:advcl (a3 / appear
+		:mark (i / if)
+		:acl (l2 / laugh-02
+			:ARG0 (w2 / who))
+		:nsubj (m / man
+			:amod (l / little)))
+	:parataxis (k / know
+		:aux (w4 / will)
+		:nsubj (y / you)
+		:obj (w / who
+			:acl (b / be-02
+				:nsubj (h2 / he)))))

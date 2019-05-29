@@ -1,0 +1,3 @@
+(r / remember-01
+	:ARG0 (i / i)
+	:ARG1 (f / fox))

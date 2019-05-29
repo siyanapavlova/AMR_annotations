@@ -1,0 +1,11 @@
+(b2 / but
+	:op1 (s2 / say
+		:conj (s / she)
+		:nsubj (h2 / he)
+		:ccomp (h / hat
+			:nsubj (t / that))
+		:obj (w / whoever
+			:acl (b / be
+				:nsubj (i / it)))
+		:aux (w2 / would)
+		:advmod (a / always)))

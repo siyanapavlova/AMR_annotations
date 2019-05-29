@@ -1,0 +1,5 @@
+(s / sickly
+	:nsubj (s2 / sheep
+		:det (t / this))
+	:advmod (a / already)
+	:advmod (v / very))

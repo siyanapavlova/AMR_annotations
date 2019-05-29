@@ -1,0 +1,7 @@
+(t / tell-01
+	:iobj (y / you)
+	:ARG0 (i / i)
+	:obj (t2 / that)
+	:advmod (n / not)
+	:aux (c / could)
+	:advmod (e / either))

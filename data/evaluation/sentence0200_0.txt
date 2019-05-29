@@ -1,0 +1,8 @@
+(a2 / and
+	:op (b2 / bad
+		:advmod (n2 / now))
+	:op1 (h / hope
+		:nsubj (i2 / i)
+		:xcomp (f / fair
+			:advmod (g2 / generally)
+			:obl (m / middling))))

@@ -1,0 +1,4 @@
+(s / stir
+	:nsubj (g / geographer)
+	:advmod (s2 / suddenly)
+	:obl (e / excitement))

@@ -1,0 +1,6 @@
+(b / but
+	:op1 (r / receive
+		:obl (s / study
+			:poss (h / he))
+		:nsubj (h2 / he)
+		:obj (e / explorer)))

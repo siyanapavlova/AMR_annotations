@@ -1,0 +1,3 @@
+(l / look-02
+	:obl (p / planet
+		:poss (i / i)))

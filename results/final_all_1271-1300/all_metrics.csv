@@ -1,0 +1,15 @@
+Measure	Min	Max	Average
+precision	0.12	1.0	0.4325
+recall	0.16	1.0	0.4278571428571429
+f1	0.14	1.0	0.4242857142857143
+			
+Measure	Min	Max	Average
+precision	0.12	1.0	0.4389285714285714
+recall	0.15	1.0	0.4235714285714286
+f1	0.14	1.0	0.42035714285714293
+			
+Measure	Min	Max	Average
+precision	0.12	1.0	0.4457142857142857
+recall	0.15	1.0	0.4225
+f1	0.14	1.0	0.4225
+			

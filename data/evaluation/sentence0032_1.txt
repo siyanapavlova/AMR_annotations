@@ -1,0 +1,13 @@
+(t2 / talk
+	:nsubj (i / i)
+	:aux (w / will)
+	:mark (t / then)
+	:obl (o / or
+		:op (f / forest
+			:amod (p2 / primeval))
+		:op (c / constrictor
+			:poss (b / boa))
+		:op (s / stars))
+	:obl (p / person
+		:det (t3 / that))
+	:advmod (n / never))

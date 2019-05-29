@@ -1,0 +1,6 @@
+(b / but
+	:op1 (t / take-01
+		:advmod (m / more
+			:advmod (o / once))
+		:ARG1 (c / courage)
+		:ARG0 (h / he)))

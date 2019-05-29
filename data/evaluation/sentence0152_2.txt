@@ -1,0 +1,16 @@
+(h / have-03
+	:ARG0 (i / i)
+	:ARG1 (r / reason
+		:acl (b / believe
+			:mark (t2 / to)
+			:ccomp (a / asteroid
+				:nsubj (p2 / planet
+					:acl (c / come
+						:obl (w / which)
+						:nsubj (p / prince
+							:amod (l / little))))
+				:mark (t / that)
+				:acl (k / know
+					:obl (b2 / b
+						:nummod (6 / 612)))))
+		:amod (s / serious)))

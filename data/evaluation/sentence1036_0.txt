@@ -1,0 +1,10 @@
+(a2 / and
+	:op1 (h / here
+		:obl (g / garden
+			:amod (s / single)
+			:nummod (o / one))
+		:advmod (a3 / alike
+			:advmod (a / all))
+		:nsubj (t / thousand
+			:nummod (f / five)
+			:poss (t2 / they))))

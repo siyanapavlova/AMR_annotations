@@ -1,0 +1,7 @@
+(s / show-04
+	:ARG0 (i / i)
+	:obj (y / you)
+	:aux (s2 / shall)
+	:ccomp (h / happy
+		:advmod (h2 / how)
+		:nsubj (i2 / i)))

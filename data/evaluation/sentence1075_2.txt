@@ -1,0 +1,7 @@
+(h / have-03
+	:ARG0 (y / you
+		:poss (p / part
+			:poss (y2 / you)))
+	:ARG1 (n / need
+		:det (n2 / no)
+		:poss (i / i)))

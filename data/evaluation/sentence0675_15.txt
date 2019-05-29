@@ -1,0 +1,7 @@
+(a3 / and
+	:op1 (m2 / make-19
+		:ARG1 (m / mistake
+			:nummod (f2 / four))
+		:ARG0 (i2 / i)
+		:obl (a2 / addition
+			:poss (i / i))))

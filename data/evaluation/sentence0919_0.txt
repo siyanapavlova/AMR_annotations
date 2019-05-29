@@ -1,0 +1,5 @@
+(p / planet
+	:advmod (j / just)
+	:amod (o / ordinary)
+	:advmod (n / not)
+	:nsubj (e / earth))

@@ -1,0 +1,6 @@
+(q / queer
+	:acl (w / wear
+		:obj (h / hat)
+		:nsubj (y / you)
+		:aux (b / be))
+	:nsubj (t / that))

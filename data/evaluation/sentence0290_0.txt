@@ -1,0 +1,12 @@
+(t / thanks
+	:poss (s2 / sheep)
+	:obl (d / day
+		:amod (f / fifth))
+	:obl (a2 / always)
+	:parataxis (r / reveal
+		:obl (i / i)
+		:nsubj (s / secret
+			:poss (l / life
+				:poss (p / prince
+					:amod (l2 / little)))))
+	:nsubj (i2 / it))

@@ -1,0 +1,6 @@
+(a / and
+	:op1 (c / change
+		:nsubj (b / bell
+			:amod (l / little))
+		:obl (t2 / tear)
+		:advmod (t / then)))

@@ -1,0 +1,8 @@
+(s / say-01
+	:ccomp (b2 / begin
+		:aux (b / be)
+		:nsubj (i / i)
+		:xcomp (u / understand-01
+			:mark (t / to)))
+	:ARG0 (p / prince
+		:amod (l / little)))

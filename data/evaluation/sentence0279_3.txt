@@ -1,0 +1,12 @@
+(k / know
+	:nsubj (e / everybody)
+	:ccomp (s3 / set-01
+		:advcl (n / noon
+			:mark (w / when)
+			:poss (s / states
+				:compound (u / united))
+			:nsubj (i / it))
+		:aux (b / be)
+		:mark (t / that)
+		:ARG0 (s2 / sun)
+		:obl (f / france)))

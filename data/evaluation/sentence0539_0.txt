@@ -1,0 +1,26 @@
+(a / and
+	:op (c / change
+		:obj (h2 / himself)
+		:mark (t2 / to)
+		:obl (b / bird
+			:compound (s / sea)))
+	:op1 (r / receive
+		:advcl (c2 / carry
+			:obj (o5 / order)
+			:advmod (n / not)
+			:compound (o2 / out)
+			:nsubj (g / general)
+			:aux (d3 / do)
+			:mark (i / if))
+		:aux (h / have)
+		:nsubj (h3 / he)
+		:mark (t3 / that)
+		:acl (w / wrong
+			:nsubj (w2 / which)
+			:aux (w3 / would)
+			:nsubj (o / one
+				:poss (w4 / we))))
+	:op (w5 / write
+		:obj (d2 / drama
+			:amod (t5 / tragic))
+		:mark (t4 / to)))

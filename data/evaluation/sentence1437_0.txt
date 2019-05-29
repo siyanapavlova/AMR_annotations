@@ -1,0 +1,3 @@
+(l / laugh-02
+	:ARG0 (h / he)
+	:advmod (a / again))

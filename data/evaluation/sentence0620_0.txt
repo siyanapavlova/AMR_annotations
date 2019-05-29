@@ -1,0 +1,7 @@
+(m / man
+	:acl (r / raise
+		:obl (s / salute)
+		:mark (a / against)
+		:obj (h / hat
+			:poss (h2 / he)))
+	:amod (c / conceit))

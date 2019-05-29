@@ -1,0 +1,6 @@
+(w2 / want-01
+	:xcomp (g / get-01
+		:mark (t / to)
+		:advmod (d / down)
+		:obl (w / wall))
+	:ARG0 (i / i))

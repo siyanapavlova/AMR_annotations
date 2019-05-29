@@ -1,0 +1,3 @@
+(a / and
+	:op1 (r / rock
+		:obj (h2 / he)))

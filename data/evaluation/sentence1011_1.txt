@@ -1,0 +1,10 @@
+(b / but
+	:op1 (s2 / see-02
+		:ARG1 (n / nothing)
+		:parataxis (s3 / save
+			:obj (p / peak
+				:poss (r / rock)
+				:acl (s / sharpen
+					:obl (n2 / needle)
+					:nsubj (t / that))))
+		:ARG0 (h / he)))

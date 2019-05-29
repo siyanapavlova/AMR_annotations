@@ -1,0 +1,11 @@
+(b / but
+	:op1 (n / need-01
+		:advcl (t2 / tame
+			:nsubj (y / you)
+			:obj (i2 / i)
+			:mark (i / if))
+		:ARG0 (w / we)
+		:aux (s / shall)
+		:advmod (t / then)
+		:ARG1 (o / other
+			:det (e / each))))

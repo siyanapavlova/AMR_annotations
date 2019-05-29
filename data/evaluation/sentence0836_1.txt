@@ -1,0 +1,5 @@
+(a / ask-03
+	:ARG1 (p / prince
+		:amod (l / little))
+	:ARG0 (w / what
+		:nsubj (g / geographer)))

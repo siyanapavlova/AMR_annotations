@@ -1,0 +1,9 @@
+(e / eat
+	:obj (t / they)
+	:obl (m / million
+		:poss (y / year))
+	:xcomp (s / same
+		:advmod (j / just))
+	:aux (b / be)
+	:aux (h / have)
+	:nsubj (s2 / sheep))

@@ -1,0 +1,11 @@
+(h2 / honest
+	:advmod (a / altogether)
+	:nsubj (i / i)
+	:obl (w / what
+		:acl (t / tell-02
+			:aux (h3 / have)
+			:obl (l / lamplighter)
+			:obj (y / you)
+			:ARG0 (i2 / i)))
+	:advmod (n / not)
+	:aux (h / have))

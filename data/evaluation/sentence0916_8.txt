@@ -1,0 +1,8 @@
+(a2 / and
+	:op1 (g / go-01
+		:nsubj (p / prince
+			:amod (l / little))
+		:advcl (t / think-01
+			:obl (f / flower
+				:poss (h / he)))
+		:advmod (a / away)))

@@ -1,0 +1,5 @@
+(f / flower
+	:amod (e / eve)
+	:acl (h / have-06
+		:ARG1 (t / thorn)
+		:ARG0 (t2 / that)))

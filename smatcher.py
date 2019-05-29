@@ -12,6 +12,7 @@ def get_smatch_score(text_amr_file1, text_amr_file2):
 	'''
 
 	smatchpy_loc = 'python ./data/smatch-master/smatch.py -f {} {} --pr'
+	# smatchpy_loc = 'python ./data/smatch-master/smatch.py -f {} {} -v --pr'
 	subprocess_cmd = smatchpy_loc.format(text_amr_file1, text_amr_file2)
 	try:
 		response = subprocess.check_output(subprocess_cmd, shell=True)
@@ -22,8 +23,12 @@ def get_smatch_score(text_amr_file1, text_amr_file2):
 
 
 if __name__== "__main__":
-	file1 = "./data/dev_data/eatApplesTom.txt"
-	file2 = "./data/dev_data/eatTomApples.txt"
+	# file1 = "./data/dev_data/eatApplesTom.txt"
+	# file2 = "./data/dev_data/eatTomApples.txt"
+
+	file1 = "./data/evaluation/sentence0006_0.txt"
+	file2 = "./data/amr_bank_data/amrs/amr0006.txt"
+	
 	print(get_smatch_score(file1,file2))
 	
 	pass

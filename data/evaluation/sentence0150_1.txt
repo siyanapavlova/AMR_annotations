@@ -1,0 +1,13 @@
+(g / give-16
+	:advcl (o / one
+		:nsubj (d / discover
+			:compound (a / astronomer))
+		:mark (w / when)
+		:poss (t / these))
+	:iobj (i / it)
+	:advmod (n3 / not)
+	:ARG0 (h / he)
+	:conj (n2 / number
+		:advmod (o2 / only))
+	:aux (d2 / do)
+	:obj (n / name))

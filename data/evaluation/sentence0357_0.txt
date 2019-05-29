@@ -1,0 +1,14 @@
+(b / be-02
+	:nsubj (p2 / prince
+		:acl (c / comfort
+			:mark (t2 / to)
+			:aux (b2 / be))
+		:amod (l / little))
+	:expl (t / there)
+	:obl (s / star
+		:nummod (o / one))
+	:nsubj (e / earth)
+	:nsubj (p / planet
+		:nummod (o2 / one)
+		:conj (p3 / planet
+			:poss (i / i))))

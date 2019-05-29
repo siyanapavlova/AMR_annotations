@@ -1,0 +1,4 @@
+(r / raise
+	:nsubj (t / they)
+	:advmod (a / also)
+	:obj (c / chicken))

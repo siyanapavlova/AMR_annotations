@@ -1,0 +1,11 @@
+(a / ask-01
+	:ARG0 (t / this
+		:nsubj (p / planet
+			:det (w2 / what))
+		:acl (c / come
+			:advmod (d / down)
+			:nsubj (i / i)
+			:aux (h / have)
+			:obl (w / which)))
+	:ARG1 (p2 / prince
+		:amod (l / little)))

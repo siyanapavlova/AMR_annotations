@@ -1,0 +1,18 @@
+(u / understand-01
+	:ARG0 (u2 / up
+		:mod (g / grow-03))
+	:conj (t2 / tiresome
+		:expl (i / it)
+		:manner (a3 / and
+			:op (a2 / always
+				:nsubj (c / child)
+				:mark (f / for)
+				:mark (t4 / to))
+			:op (e / explai
+				:time (t3 / they)
+				:obj (t / thing)
+				:advmod (f2 / forever)))
+		:cc (a4 / and))
+	:polarity (- / -)
+	:ARG1 (a / anything
+		:poss (t5 / themselves)))

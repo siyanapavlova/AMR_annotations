@@ -1,0 +1,3 @@
+(o / or
+	:op1 (f / flower
+		:nummod (o3 / one)))

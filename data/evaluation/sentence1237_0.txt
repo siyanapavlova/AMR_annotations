@@ -1,0 +1,6 @@
+(a / and
+	:op1 (b / begin
+		:nsubj (s3 / star)
+		:xcomp (c / come
+			:advmod (o / out)
+			:mark (t / to))))

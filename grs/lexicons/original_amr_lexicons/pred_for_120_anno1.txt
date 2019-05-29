@@ -1,3 +1,0 @@
-close-02  ARG1: thing closing  ARGM-MNR: up, down, or unchanged  ARGM-EXT: end point
-flow-01  ARG1: substance (ie, water)  ARGM-DIR: direction
-improve-02  ARG1: Logical subject, patient, thing rising  ARG2: EXT, amount risen  ARG3: start point  ARG4: end point  ARGM-LOC: medium

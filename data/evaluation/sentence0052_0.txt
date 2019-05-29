@@ -1,0 +1,11 @@
+(b2 / but
+	:op1 (c2 / charme
+		:advmod (m2 / much
+			:advmod (c / certainly)
+			:advmod (v / very))
+		:nsubj (d / drawing
+			:poss (i2 / i))
+		:aux (b / be)
+		:obl (m / model
+			:poss (i / its))
+		:advmod (l / less)))

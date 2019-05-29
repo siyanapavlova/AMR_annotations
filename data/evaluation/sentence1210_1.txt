@@ -1,0 +1,16 @@
+(n2 / need-01
+	:ccomp (a2 / and
+		:op (s / swallow-01
+			:ARG1 (p / pill
+				:nummod (o2 / one))
+			:obl (w / week)
+			:advmod (o / only))
+		:op (f / feel
+			:obj (n / need
+				:det (n3 / no)
+				:poss (a / anything
+					:acl (d / drink-02
+						:mark (t / to))))
+			:aux (w2 / would)
+			:nsubj (y / you)))
+	:ARG0 (y2 / you))

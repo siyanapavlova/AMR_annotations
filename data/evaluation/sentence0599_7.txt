@@ -1,0 +1,6 @@
+(t / take-02
+	:nsubj (h / he)
+	:obl (s / sigh)
+	:advmod (t2 / then)
+	:obj (l / leave
+		:poss (h2 / he)))

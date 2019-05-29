@@ -1,0 +1,11 @@
+(m / make
+	:conj (s / star
+		:det (a / all))
+	:obj (g / gesture
+		:acl (t / take
+			:nsubj (w / which)
+			:obl (p / planet
+				:poss (h / he))))
+	:nsubj (k / king)
+	:obj (p2 / planet
+		:amod (o / other)))

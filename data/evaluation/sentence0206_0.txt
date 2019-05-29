@@ -1,0 +1,5 @@
+(l / little
+	:advmod (p / perhaps)
+	:poss (u / up
+		:amod (g / grow-02))
+	:nsubj (i / i))

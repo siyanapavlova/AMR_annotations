@@ -1,0 +1,20 @@
+(a3 / and
+	:op1 (r / repeate
+		:advmod (s / slowly
+			:advmod (v / very))
+		:nsubj (h2 / he)
+		:parataxis (d / draw
+			:iobj (i / i)
+			:obj (s3 / sheep))
+		:obl (a2 / answer)
+		:advcl (s2 / speak
+			:mark (a / as)
+			:obl (m / matter
+				:poss (c / consequence
+					:amod (g / great)))
+			:aux (b / be)
+			:nsubj (h / he)
+			:mark (i3 / if))
+		:advcl (p / please
+			:mark (i2 / if)
+			:nsubj (y / you))))

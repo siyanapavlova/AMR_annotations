@@ -1,0 +1,7 @@
+(a2 / and
+	:op1 (e / eat
+		:advmod (n / not)
+		:advmod (a / anyway)
+		:obj (w / weed)
+		:aux (d / do)
+		:nsubj (t / tiger)))

@@ -1,0 +1,6 @@
+(a / ask-03
+	:ARG0 (i / i)
+	:obl (d / day
+		:poss (s / sunset
+			:compound (f2 / forty)
+			:nummod (f / four))))

@@ -1,0 +1,11 @@
+(f / feel
+	:nsubj (i / i)
+	:obj (h / heart
+		:poss (h3 / he)
+		:acl (b2 / beat
+			:obl (h2 / heart
+				:poss (b / bird
+					:amod (d / die))
+				:conj (s2 / shot
+					:poss (r / rifle
+						:poss (s / someone)))))))

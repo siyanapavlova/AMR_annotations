@@ -1,0 +1,7 @@
+(a / and
+	:op1 (g / go-02
+		:obl (h5 / he)
+		:obl (h / hand)
+		:advmod (m / more
+			:advmod (o2 / once))
+		:obl (h3 / hand)))

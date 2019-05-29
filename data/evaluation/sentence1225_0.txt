@@ -1,0 +1,6 @@
+(d / die
+	:obl (t2 / thirst)
+	:nsubj (i / i)
+	:advmod (a / about)
+	:mark (b / because)
+	:mark (t / to))

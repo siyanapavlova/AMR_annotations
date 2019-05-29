@@ -1,0 +1,8 @@
+(d / do-02
+	:ARG1 (g / good
+		:acl (m / make-19
+			:ARG1 (m2 / me)
+			:mark (o / of)
+			:xcomp (r / rich)))
+	:ARG0 (i2 / it)
+	:iobj (i / i))

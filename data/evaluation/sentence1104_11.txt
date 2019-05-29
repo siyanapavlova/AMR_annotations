@@ -1,0 +1,8 @@
+(a / and
+	:op1 (l / look-02
+		:advmod (t / then)
+		:parataxis (s / see-05
+			:ARG0 (y2 / you)
+			:obj (f / field
+				:compound (g / grain)
+				:poss (y / yonder)))))

@@ -1,0 +1,6 @@
+(a2 / authority
+	:poss (r2 / rest
+		:advmod (f / first
+			:obl (a / all
+				:poss (r / reason))))
+	:amod (a3 / accept))

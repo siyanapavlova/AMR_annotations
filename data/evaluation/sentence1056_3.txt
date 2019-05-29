@@ -1,0 +1,7 @@
+(s / say-01
+	:ARG0 (f / fox)
+	:ccomp (l / live-01
+		:aux (d / do)
+		:advmod (h / here)
+		:advmod (n / not)
+		:nsubj (y / you)))

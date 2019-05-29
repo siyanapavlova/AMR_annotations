@@ -1,0 +1,10 @@
+(s / seem-01
+	:ccomp (c / carry
+		:nsubj (i / i)
+		:obj (t2 / treasure
+			:amod (f / fragile
+				:advmod (v / very)))
+		:mark (t / that)
+		:aux (b / be))
+	:obl (i3 / i)
+	:nsubj (i2 / it))

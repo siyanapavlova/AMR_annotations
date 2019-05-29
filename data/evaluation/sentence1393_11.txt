@@ -1,0 +1,6 @@
+(g / go-05
+	:advmod (n / now)
+	:ARG0 (y / you)
+	:aux (c / can)
+	:advmod (h / home
+		:advmod (b / back)))

@@ -1,0 +1,12 @@
+(t / turn
+	:conj (c / change
+		:aux (h2 / have)
+		:advmod (n / not)
+		:nsubj (o / order))
+	:advmod (r / rapidly
+		:advmod (m / more))
+	:aux (h / have)
+	:nsubj (y / year
+		:acl (y2 / year
+			:mark (t2 / to)
+			:obj (p / planet))))

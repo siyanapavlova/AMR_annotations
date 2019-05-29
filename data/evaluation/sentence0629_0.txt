@@ -1,0 +1,4 @@
+(d / do-02
+	:ARG1 (k / kindness
+		:det (t / this))
+	:iobj (i / i))

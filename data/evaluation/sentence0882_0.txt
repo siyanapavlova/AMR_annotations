@@ -1,0 +1,4 @@
+(s / say-01
+	:ARG0 (g / geographer
+		:advmod (e / expectantly))
+	:discourse (w / well))

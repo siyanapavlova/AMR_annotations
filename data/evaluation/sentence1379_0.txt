@@ -1,0 +1,4 @@
+(a / and
+	:op1 (l / leape
+		:nsubj (i / i)
+		:obl (a2 / air)))

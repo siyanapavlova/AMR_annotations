@@ -1,0 +1,12 @@
+(d2 / draw
+	:nsubj (i2 / i)
+	:advmod (o2 / often
+		:advmod (s / so))
+	:advmod (s2 / so)
+	:obj (o / one
+		:poss (p / picture
+			:nummod (t / two)
+			:acl (d / draw
+				:aux (h / have)
+				:nsubj (i / i))))
+	:obl (h2 / he))

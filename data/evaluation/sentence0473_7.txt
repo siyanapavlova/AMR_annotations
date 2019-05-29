@@ -1,0 +1,4 @@
+(h / have-11
+	:obj (c / claw
+		:poss (i2 / i))
+	:ARG0 (i / i))

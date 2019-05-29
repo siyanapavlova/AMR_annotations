@@ -1,0 +1,19 @@
+(c / convince
+	:nsubj (t4 / they)
+	:advcl (s / say-01
+		:mark (i / if)
+		:ARG0 (p / planet
+			:acl (c2 / come
+				:nsubj (h / he)
+				:obl (b / b
+					:nummod (6 / 612)
+					:compound (a2 / asteroid))))
+		:obl (t2 / they)
+		:ARG0 (y2 / you))
+	:aux (w / would)
+	:conj (l / leave
+		:obj (y / you)
+		:obl (p2 / peace
+			:poss (q / question
+				:poss (t / they))))
+	:advmod (t3 / then))

@@ -1,0 +1,3 @@
+(i / importance
+	:det (n / no)
+	:nsubj (t / that))

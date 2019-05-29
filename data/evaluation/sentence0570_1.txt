@@ -1,0 +1,9 @@
+(m / make-02
+	:ARG1 (t / tour
+		:amod (c / complete)
+		:poss (k / kingdom
+			:poss (i / i)))
+	:ARG0 (i2 / i)
+	:advmod (n / not)
+	:aux (h / have)
+	:advmod (y / yet))

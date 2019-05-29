@@ -1,0 +1,6 @@
+(g / gaze
+	:obl (t / time
+		:amod (l / long))
+	:obl (p / prince
+		:amod (l2 / little))
+	:nsubj (f / fox))

@@ -1,0 +1,21 @@
+(s / say-01
+	:ccomp (w3 / wonder
+		:nsubj (i / i))
+	:ccomp (s2 / set-14
+		:mark (w / whether)
+		:nsubj (s4 / star)
+		:obl (h3 / heaven)
+		:advcl (f / find-02
+			:xcomp (o3 / own
+				:poss (h2 / he))
+			:ARG0 (o2 / one
+				:det (e / each)
+				:poss (w2 / we))
+			:advmod (a2 / again)
+			:advmod (s3 / so
+				:fixed (t / that))
+			:obl (d / day
+				:nummod (o / one))
+			:aux (m / may))
+		:xcomp (a / alight))
+	:ARG0 (h / he))

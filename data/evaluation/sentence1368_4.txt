@@ -1,0 +1,7 @@
+(s / see-01
+	:aux (d / do)
+	:nsubj (i / i)
+	:obl (t / time
+		:det (n / no))
+	:conj (h / hear-01
+		:obj (a / anyone)))

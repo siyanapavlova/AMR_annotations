@@ -1,0 +1,18 @@
+(s / say-01
+	:advcl (o / own
+		:mark (i / if)
+		:nsubj (i6 / i)
+		:obj (s2 / scarf
+			:compound (s3 / silk)))
+	:ccomp (a / and
+		:op (p / put
+			:obl (n / neck
+				:poss (i7 / i))
+			:obj (i5 / it)
+			:aux (c / could)
+			:nsubj (i2 / i))
+		:op (t / take-14
+			:advmod (a2 / away)
+			:ARG1 (i4 / it)
+			:obl (i3 / i)))
+	:ARG0 (h / he))

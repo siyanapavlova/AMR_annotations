@@ -1,0 +1,4 @@
+(s / say-01
+	:discourse (n / no)
+	:ARG0 (p / prince
+		:amod (l / little)))

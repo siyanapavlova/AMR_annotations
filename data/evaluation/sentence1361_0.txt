@@ -1,0 +1,6 @@
+(t / there
+	:advmod (w2 / well)
+	:nsubj (r / ruin
+		:poss (w / wall
+			:compound (s / stone)
+			:amod (o / old))))
