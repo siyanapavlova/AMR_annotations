@@ -20,14 +20,14 @@ An outline of all of the above can be found in the project [poster](http://insti
 ### Requirements
 
 [Install Grew](http://grew.fr/install/)
+Make sure that you have installed opam v2+
 
 Python packages
 
 * grew
 * smatch
 * ufal.udpipe
-* numpy [for pattern_identification.py]
-* sklearn [for pattern_identification.py]
+
 
 ### Running the System
 
