@@ -79,7 +79,7 @@ collect_scores(sentence_nums, 1, './results/final_100')
 
 [`Result_Visualisations.ipynb`](https://github.com/siyanapavlova/AMR_annotations/blob/master/results/Result%20Visualisations.ipynb) is a Jupyter notebook that can be used to analyse and visualise the stored scores.
 
-### Possible alterations
+## Possible alterations
 
 Here we outline how to run the system on a different dataset. Furthermore, the coverage of the rewriting rules and lexicon can be significantly extended to improve the AMR parsing performance. We outline how these can be extended.
 
