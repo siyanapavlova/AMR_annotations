@@ -134,7 +134,7 @@ def collect_scores(sentence_nums, n, folder):
 
 
 if __name__=="__main__":
-	#initiate Grew
+	#initialise Grew
 	grew.init()
 	print("Grew initiated \n")
 

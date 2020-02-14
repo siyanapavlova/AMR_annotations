@@ -32,10 +32,10 @@ An outline of all of the above can be found in the project [poster](http://insti
 
 ## Running the System
 
-### `main.py`
+### main.py
 This script runs the main pipeline of the system and produces results to analyse.
 
-__Parameters__
+__Parameters for the `collect_scores()` function__ 
 
  * `sentence_nums` - a list of sentence numbers (corresponding to the trailing digits in any of the files in [dataset](https://github.com/siyanapavlova/AMR_annotations/tree/master/data/amr_bank_data/sentences))
  * `n` - number of times to perform the test 
@@ -65,7 +65,7 @@ __Running the script__
 __Example__
 
 ```
-#initiate Grew
+#initialise Grew
 grew.init()
 
 #generate the numbers of the sentences to be processed
