@@ -13,13 +13,13 @@ __Supervisors__
 
 We present a system which takes sentences in natural language, parses them in the [Universal Dependencies (UD)](https://universaldependencies.org/) syntactic framework and applies a set of rewrite rules, using the [GREW](http://grew.fr/) rewriting system on the UD parses to produce semantic [Abstract Meaning Representation (AMR)](https://amr.isi.edu/) of the sentences.
 
-![alt text](https://github.com/siyanapavlova/AMR_annotations/images/system_architecture.jpg "System Architecture")
+![alt text](https://github.com/siyanapavlova/AMR_annotations/blob/master/images/system_architecture.jpg "System Architecture")
 
 Motivation, background, details on the design decisions and implementation, experiments and results can be found in the project [report](http://institut-sciences-digitales.fr/wp-content/uploads/2019/07/Going_from_UD_towards_AMR.pdf).
 
 An outline of all of the above can be found in the project [poster](http://institut-sciences-digitales.fr/wp-content/uploads/2019/07/PosterM1TAL1819Going_from_UD_to_AMR_Poster.pdf).
 
-### Requirements
+## Requirements
 
 * [Install Grew](http://grew.fr/install/)
 * Python 3.x
@@ -30,9 +30,9 @@ An outline of all of the above can be found in the project [poster](http://insti
     * `numpy` [for pattern_identification.py]
     * `sklearn` [for pattern_identification.py]
 
-### Running the System
+## Running the System
 
-##### `main.py`
+### `main.py`
 This script runs the main pipeline of the system and produces results to analyse.
 
 __Parameters__
@@ -75,7 +75,7 @@ sentence_nums = list(range(1,101))
 collect_scores(sentence_nums, 1, './results/final_100')
 ```
 
-##### Visualisations
+### Visualisations
 
 [`Result_Visualisations.ipynb`](https://github.com/siyanapavlova/AMR_annotations/blob/master/results/Result%20Visualisations.ipynb) is a Jupyter notebook that can be used to analyse and visualise the stored scores.
 
