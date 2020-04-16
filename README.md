@@ -21,7 +21,7 @@ An outline of all of the above can be found in the project [poster](http://insti
 
 ## Requirements
 
-* [Install Grew](http://grew.fr/install/)
+* [Install Grew](http://grew.fr/install/) (make sure the the `grewpy` command is available, this is the executable called but the `grew` python lib)
 * Python 3.x
 * Python packages
     * `grew`
@@ -32,21 +32,26 @@ An outline of all of the above can be found in the project [poster](http://insti
 
 ## Running the System
 
-### main.py
-This script runs the main pipeline of the system and produces results to analyse.
+### Apply the transformation from UD to AMR
 
-__Parameters for the `collect_scores()` function__ 
+The script `ud_to_amr.py` contains the code to do the full transformation on one UD graph.
+The input file if given line 60 and the script outputs the list of structures produced by the transformation on stdout.
+
+### The full pipeline
+This script `main.py` runs the main pipeline of the system and produces results to analyse.
+
+__Parameters for the `collect_scores()` function__
 
  * `sentence_nums` - a list of sentence numbers (corresponding to the trailing digits in any of the files in [dataset](https://github.com/siyanapavlova/AMR_annotations/tree/master/data/amr_bank_data/sentences))
- * `n` - number of times to perform the test 
+ * `n` - number of times to perform the test
  * `folder` - path to the folder where the results should be saved
- 
+
 __Data__
 
  * UD parses. In our experiments we used [these parses](https://github.com/siyanapavlova/AMR_annotations/tree/master/data/amr_bank_data/ud). UD parses can be produced by calling the `parse_files_in_folder(raw_sentences_folder, ud_save_folder)` function of the `parser.py` module, where `raw_sentences_folder` is the path to the folder where raw sentences are stored (one sentence per file) and `ud_save_folder` is the path to the folder where UD parses (in CoNNL-U format) should be stored. Example:
  ```parse_files_in_folder('./data/amr_bank_data/sentences/', './data/amr_bank_data/ud/')```
  * Gold AMR parses. We used parses for The Little Prince, as outlined in the report. Available [here](https://github.com/siyanapavlova/AMR_annotations/tree/master/data/amr_bank_data/amrs)
- 
+
 __Running the script__
 
  1. Initialise Grew.
@@ -61,7 +66,7 @@ __Running the script__
            3. Print the max, min and average values for each measure.
            4. Return the measures.
      2. Write the computed score to files.
-     
+
 __Example__
 
 ```

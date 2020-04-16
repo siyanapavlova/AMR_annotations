@@ -85,7 +85,7 @@ strat cc_to_op{
 
 strat clean {
   Seq (
-    Iter(remove_punct),
+    Onf(remove_punct),
     Iter(remove_det),
     Iter(remove_cop),
     Iter(remove_case),

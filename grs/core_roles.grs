@@ -113,7 +113,7 @@ rule pred_nsubj_obj_iobj(lex from "lexicons/subcat/test_lexicon.lp"){
 	}
 }
 
-% A clausal complement of a verb/adverb (i.e. predicate) that is not a copula construction. 
+% A clausal complement of a verb/adverb (i.e. predicate) that is not a copula construction.
 rule ccomp_verbadv_notcop(lex from "lexicons/subcat/test_lexicon.lp"){
 	pattern{
 		GOV[lemma=lex.lemma, upos=VERB|ADV, arg1=theme|topic, arg0=agent|actor|actor1|cause|actor1];
@@ -231,7 +231,7 @@ rule cc_to_op_morethan2{
 
 rule add_root_concept{
 	pattern{
-		R -[root]-> DEP;
+		R -[root]-> DEP; R[!concept];
 	}
 	commands{
 		R.concept = "root";
@@ -241,7 +241,7 @@ rule add_root_concept{
 %Add a concept to each word
 rule add_concept{
 	pattern{
-		N [lemma];
+		N [lemma, !concept];
 	}
 	without{
 		N [concept];
