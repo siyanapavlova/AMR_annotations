@@ -231,7 +231,7 @@ strat xcomp_strat {
 	Iter(xcomp_normal_arg1nsubj_govarg0),
 	Iter(xcomp_normal_arg1nsubj_govarg1),
 	Iter(xcomp_normal_arg1nsubj_govarg2),
-    
+
 	Iter(xcomp_normal_arg2obj_govarg0),
 	Iter(xcomp_normal_arg2obj_govarg1),
 	Iter(xcomp_normal_arg2obj_govarg2),

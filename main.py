@@ -7,7 +7,7 @@ import os
 
 pp = pprint.PrettyPrinter(indent=4)
 
-def run_pipeline(load_path, save_path, filename, gold_amr): 
+def run_pipeline(load_path, save_path, filename, gold_amr):
 	'''Process a UD graph in CoNNL-U format to produce the
 	corresponding AMRs and find the maximum similarity score
 	between a produced AMR and the gold standard AMR.
@@ -16,13 +16,13 @@ def run_pipeline(load_path, save_path, filename, gold_amr):
 				filename - beginning of the name under which to save the AMRs
 				gold_amr - location of the gold AMR file
 	Output: best SMATCH similarity score for the sentence
-	'''	
-	# load the UD graph 
+	'''
+	# load the UD graph
 	ud_graph = ud_to_amr.load_data(load_path)
-	
+
 	#print("Grew graph loaded \n")
 
-	# run a simple GRS 
+	# run a simple GRS
 	# grs_filename = './grs/grs_amr_main.grs'
 	# grs_filename = './grs/grs_amr_main_interim.grs'
 	grs_filename = './grs/grs_amr_main_base.grs'
@@ -33,7 +33,7 @@ def run_pipeline(load_path, save_path, filename, gold_amr):
 
 	# generate the graph(s) from the application of the grs in grs_filename
 	print("Currently at " + filename)
-	try: 
+	try:
 		new_graphs = ud_to_amr.ud_to_amr(grs_filename, ud_graph, strat="test_new_lex")
 	except grew.utils.GrewError as er:
 		print(filename)
@@ -49,15 +49,15 @@ def run_pipeline(load_path, save_path, filename, gold_amr):
 		text_amr = amr_graph_to_text.amr_grew_to_text(new_graph)
 		# pp.pprint(new_graph)
 		# print(text_amr)
-		parser.save_data(text_amr, save_path, filename.format("_"+str(new_graph_num)))  # add a numerical extension  to 
+		parser.save_data(text_amr, save_path, filename.format("_"+str(new_graph_num)))  # add a numerical extension  to
 																			# to distinguish between alternative results
 		_score = smatcher.get_smatch_score(save_path+filename.format("_"+str(new_graph_num)), gold_amr) #gold goes second
 		score_dict[filename.format("_"+str(new_graph_num))] = float(_score[-5:-1])
 
-	# get max scoring rewrite result 
+	# get max scoring rewrite result
 	best_rewrite = max(score_dict.items(), key=(lambda key: score_dict[key[0]]))
 	best_textgraph = best_rewrite[0]
-	score = smatcher.get_smatch_score(save_path+best_textgraph, gold_amr) 
+	score = smatcher.get_smatch_score(save_path+best_textgraph, gold_amr)
 	return score
 
 def calculate_scores(sentence_nums):

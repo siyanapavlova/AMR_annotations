@@ -231,7 +231,7 @@ strat xcomp_strat {
 	Iter(xcomp_normal_arg1nsubj_govarg0),
 	Iter(xcomp_normal_arg1nsubj_govarg1),
 	Iter(xcomp_normal_arg1nsubj_govarg2),
-    
+
 	Iter(xcomp_normal_arg2obj_govarg0),
 	Iter(xcomp_normal_arg2obj_govarg1),
 	Iter(xcomp_normal_arg2obj_govarg2),
@@ -279,7 +279,7 @@ strat test_new_lex {
     %%%%%Iter(pred_nsubj_obj_ccomp_arg0_arg1_arg2),
     %%%%%Iter(pred_nsubj_ccomp_arg0_arg1),
     %%%%%Iter(pred_nsubj_ccomp_arg0_arg2),
-    
+
     Iter(pred_nsubj_obj_obl_case), %baseline
     Iter(pred_nsubj_obj_iobj),
     Iter(pred_nsubj_obj),
