@@ -15,9 +15,9 @@ We present a system which takes sentences in natural language, parses them in th
 
 ![alt text](https://github.com/siyanapavlova/AMR_annotations/blob/master/images/system_architecture.jpg "System Architecture")
 
-Motivation, background, details on the design decisions and implementation, experiments and results can be found in the project [report](http://institut-sciences-digitales.fr/wp-content/uploads/2019/07/Going_from_UD_towards_AMR.pdf).
+Motivation, background, details on the design decisions and implementation, experiments and results can be found in the project [report](https://idmc.univ-lorraine.fr/wp-content/uploads/2019/07/Going_from_UD_towards_AMR.pdf).
 
-An outline of all of the above can be found in the project [poster](http://institut-sciences-digitales.fr/wp-content/uploads/2019/07/PosterM1TAL1819Going_from_UD_to_AMR_Poster.pdf).
+An outline of all of the above can be found in the project [poster](https://idmc.univ-lorraine.fr/wp-content/uploads/2019/07/PosterM1TAL1819Going_from_UD_to_AMR_Poster.pdf).
 
 ## Requirements
 
